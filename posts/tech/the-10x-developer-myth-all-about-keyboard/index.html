@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The 10x Developer Myth: All About Keyboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>
+    // Create callout icons
+    window.addEventListener("load", () => {
+        document.querySelectorAll(".callout").forEach((elem) => {
+            const icon = getComputedStyle(elem).getPropertyValue('--callout-icon');
+            const iconName = icon && icon.trim().replace(/^lucide-/, "");
+
+            if (iconName) {
+                const calloutTitle = elem.querySelector(".callout-title");
+
+                if (calloutTitle) {
+                    const calloutIconContainer = document.createElement("div");
+                    const calloutIcon = document.createElement("i");
+
+                    calloutIconContainer.appendChild(calloutIcon);
+                    calloutIcon.setAttribute("icon-name", iconName);
+                    calloutIconContainer.setAttribute("class", "callout-icon");
+                    calloutTitle.insertBefore(calloutIconContainer, calloutTitle.firstChild);
+                }
+            }
+        });
+
+        lucide.createIcons();
+
+        // Collapse callouts
+        Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((elem) => {
+            elem.querySelector('.callout-title').addEventListener("click", (event) => {
+                if (elem.classList.contains("is-collapsed")) {
+                    elem.classList.remove("is-collapsed");
+                } else {
+                    elem.classList.add("is-collapsed");
+                }
+            });
+        });
+    });
+</script>
+
+
+<script src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+
+<script defer src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" defer></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+    <link href="/styles/obsidian-base.css" rel="stylesheet">
+    <link href="/styles/_theme.a73c44b0.css" rel="stylesheet">
+
+
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+
+
+
+<style></style>
+    
+    
+  </head>
+  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section ">
+    
+    
+    
+      
+    
+    <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" 
+            x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" 
+            x-data="{isDesktop: true, showFilesMobile: false}">
+
+        <div x-show.important="!isDesktop" style="display: none;">
+            <nav class="navbar">
+    <div class="navbar-inner">
+        <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
+        
+        <a href="/" style="text-decoration: none;">
+            <h1 style="margin: 15px !important;">Kian Paimani</h1>
+        </a>
+        
+    </div>
+    
+    
+        <div class="search-button align-icon" onclick="toggleSearch()">
+    <span class="search-icon">
+        <i icon-name="search" ></i>
+    </span>
+    <span class="search-text">
+        <span>Search</span>
+        <span style="font-size: 0.6rem; padding: 2px 2px 0 6px; text-align:center; transform: translateY(4px);" class="search-keys">
+            CTRL + K
+        </span>
+    </span>
+</div>
+    
+</nav>
+        </div>
+        
+        <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
+
+      <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
+        
+         <a href="/" style="text-decoration: none;">
+               <h1 style="text-align:center;">Kian Paimani</h1>
+         </a>
+         
+        
+            <div style="display: flex; justify-content: center;">
+                <div class="search-button align-icon" onclick="toggleSearch()">
+    <span class="search-icon">
+        <i icon-name="search" ></i>
+    </span>
+    <span class="search-text">
+        <span>Search</span>
+        <span style="font-size: 0.6rem; padding: 2px 2px 0 6px; text-align:center; transform: translateY(4px);" class="search-keys">
+            CTRL + K
+        </span>
+    </span>
+</div>
+            </div>
+        
+         <div class="folder" x-data="{isOpen: true}">
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('posts')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
+                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
+                    <span class="foldername">posts</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('posts/personal')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
+                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
+                    <span class="foldername">personal</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/an-open-letter-to-javad-zarif/">An Open Letter to Javad Zarif </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/an-open-letter-to-panic-buyers/">An Open Letter to Panic Buyers </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/bunker-talks-experience-1/">BunkerTalks Experience #1 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran_s Political Situation in 2022 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('posts/tech')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
+                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
+                    <span class="foldername">tech</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/">For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/tech/the-10x-developer-myth-all-about-keyboard/">The 10x Developer Myth: All About Keyboard </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('talks')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
+                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
+                    <span class="foldername">talks</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/persian-polkadot-seminar-for-rust-iran-community/">(Persian) Polkadot Seminar for Rust-Iran Community </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/persian-random-rust-video-tutorials/">(Persian) Random Rust Video Tutorials </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/">Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/">Offline Phragmen Tool and Substrate Debug Kit | Substrate Seminar </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/phragmen-and-the-n-po-s-problem-sub0-online/">Phragmen and The NPoS Problem | Sub0 Online </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/phragmen-overview-substrate-seminar/">Phragmen Overview | Substrate Seminar </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">Home </a>
+                </div>
+            
+        </div>
+        
+    </div>
+      </nav>
+    </div>
+
+    
+
+    
+      <div class="search-container" id="globalsearch" onclick="toggleSearch()">
+    <div class="search-box">
+        <input type="search" id="term" placeholder="Start typing...">
+        <div id="search-results"></div>
+        <footer class="search-box-footer">
+            <div class="navigation-hint">
+                <span>Enter to select</span>
+            </div>
+
+            <div class="navigation-hint align-icon">
+                <i  icon-name="arrow-up" aria-hidden="true"></i>
+                <i  icon-name="arrow-down" aria-hidden="true"></i>
+                <span>to navigate</span>
+            </div>
+
+            <div class="navigation-hint">
+                <span>ESC to close</span>
+            </div>
+
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', init, false);
+    document.addEventListener('DOMContentLoaded', setCorrectShortcut, false);
+
+    window.toggleSearch = function () {
+        if (document.getElementById('globalsearch').classList.contains('active')) {
+            document
+                .getElementById('globalsearch')
+                .classList
+                .remove('active');
+        } else {
+            document
+                .getElementById('globalsearch')
+                .classList
+                .add('active');
+            document
+                .getElementById('term')
+                .focus();
+        }
+    }
+
+    window.toggleTagSearch = function (evt) {
+        console.log(evt.textContent);
+        const term = evt.textContent;
+        if (term) {
+            window
+                .document
+                .getElementById('term')
+                .value = term.trim();
+            window.toggleSearch();
+            window.search();
+        }
+    }
+
+    const loadingSvg = `
+    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">
+          <circle cx="22" cy="22" r="6" stroke-opacity="0">
+              <animate attributeName="r"
+                   begin="1.5s" dur="3s"
+                   values="6;22"
+                   calcMode="linear"
+                   repeatCount="indefinite" />
+              <animate attributeName="stroke-opacity"
+                   begin="1.5s" dur="3s"
+                   values="1;0" calcMode="linear"
+                   repeatCount="indefinite" />
+              <animate attributeName="stroke-width"
+                   begin="1.5s" dur="3s"
+                   values="2;0" calcMode="linear"
+                   repeatCount="indefinite" />
+          </circle>
+          <circle cx="22" cy="22" r="6" stroke-opacity="0">
+              <animate attributeName="r"
+                   begin="3s" dur="3s"
+                   values="6;22"
+                   calcMode="linear"
+                   repeatCount="indefinite" />
+              <animate attributeName="stroke-opacity"
+                   begin="3s" dur="3s"
+                   values="1;0" calcMode="linear"
+                   repeatCount="indefinite" />
+              <animate attributeName="stroke-width"
+                   begin="3s" dur="3s"
+                   values="2;0" calcMode="linear"
+                   repeatCount="indefinite" />
+          </circle>
+          <circle cx="22" cy="22" r="8">
+              <animate attributeName="r"
+                   begin="0s" dur="1.5s"
+                   values="6;1;2;3;4;5;6"
+                   calcMode="linear"
+                   repeatCount="indefinite" />
+          </circle>
+      </g>
+  </svg>`;
+
+    function debounce(func, wait, immediate) {
+        var timeout;
+        return function () {
+            var context = this,
+                args = arguments;
+            var later = function () {
+                timeout = null;
+                if (!immediate) 
+                    func.apply(context, args);
+                };
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) 
+                func.apply(context, args);
+            };
+    };
+
+    function setCorrectShortcut() {
+        if (navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
+            document
+                .querySelectorAll(".search-keys")
+                .forEach(x => x.innerHTML = "⌘ + K");
+        }
+    }
+
+    function createIndex(posts) {
+        const encoder = (str) => str
+            .toLowerCase()
+            .split(/([^a-z]|[^\x00-\x7F])/)
+        const contentIndex = new FlexSearch.Document({
+            cache: true,
+            charset: "latin:extra",
+            optimize: true,
+            index: [
+                {
+                    field: "content",
+                    tokenize: "reverse",
+                    encode: encoder
+                }, {
+                    field: "title",
+                    tokenize: "forward",
+                    encode: encoder
+                }, {
+                    field: "tags",
+                    tokenize: "forward",
+                    encode: encoder
+                }
+            ]
+        })
+        posts.forEach((p, idx) => {
+            contentIndex.add({
+                id: idx, title: p.title, content: p.content, tags: p.tags //Change to removeHTML
+            })
+        });
+        return contentIndex;
+    }
+
+    async function init() {
+        //init offline search index
+
+        const searchIndexDate = '2023-08-26T13:58:17.096Z';
+        let shouldFetch = true;
+        if(localStorage.getItem("searchIndex")) {
+            let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
+            if(date === searchIndexDate){
+                shouldFetch = false;
+                let index = createIndex(docs);
+                window.docs = docs
+                window.index = index;
+            }        
+        }
+        if(shouldFetch){
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-26T13:58:17.096Z')).json();
+            let index = createIndex(docs);
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-26T13:58:17.096Z', docs}));
+            window.docs = docs
+            window.index = index;
+        }
+
+        //open searchmodal when ctrl + k is pressed, cmd + k on mac
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                e.preventDefault();
+                toggleSearch();
+            }
+            if (e.key === 'Escape') {
+                document
+                    .getElementById('globalsearch')
+                    .classList
+                    .remove('active');
+            }
+
+            //navigate search results with arrow keys
+            if (document.getElementById('globalsearch').classList.contains('active')) {
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    let active = document.querySelector('.searchresult.active');
+                    if (active) {
+                        active
+                            .classList
+                            .remove('active');
+                        if (active.nextElementSibling) {
+                            active
+                                .nextElementSibling
+                                .classList
+                                .add('active');
+                        } else {
+                            document
+                                .querySelector('.searchresult')
+                                .classList
+                                .add('active');
+                        }
+                    } else {
+                        document
+                            .querySelector('.searchresult')
+                            .classList
+                            .add('active');
+                    }
+
+                    let currentActive = document.querySelector('.searchresult.active');
+                    if (currentActive) {
+                        currentActive.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'});
+                    }
+                }
+                if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    let active = document.querySelector('.searchresult.active');
+                    if (active) {
+                        active
+                            .classList
+                            .remove('active');
+                        if (active.previousElementSibling) {
+                            active
+                                .previousElementSibling
+                                .classList
+                                .add('active');
+                        } else {
+                            document
+                                .querySelectorAll('.searchresult')
+                                .forEach((el) => {
+                                    if (!el.nextElementSibling) {
+                                        el
+                                            .classList
+                                            .add('active');
+                                    }
+                                });
+                        }
+                    } else {
+                        document
+                            .querySelectorAll('.searchresult')
+                            .forEach((el) => {
+                                if (el.nextElementSibling) {
+                                    el
+                                        .classList
+                                        .add('active');
+                                }
+                            });
+                    }
+
+                    let currentActive = document.querySelector('.searchresult.active');
+                    if (currentActive) {
+                        currentActive.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'});
+                    }
+
+                }
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    let active = document.querySelector('.searchresult.active');
+                    if (active) {
+                        window.location.href = active
+                            .querySelector("a")
+                            .href;
+                    }
+                }
+            }
+        });
+
+        const debouncedSearch = debounce(search, 200, false);
+        field = document.querySelector('#term');
+        field.addEventListener('keydown', (e) => {
+            if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') {
+                debouncedSearch();
+            }
+        });
+        resultsDiv = document.querySelector('#search-results');
+
+        const params = new URL(location.href).searchParams;
+        if (params.get('q')) {
+            field.setAttribute('value', params.get('q'));
+            toggleSearch();
+            search();
+        }
+    }
+    window.lastSearch = '';
+    async function search() {
+        let search = field
+            .value
+            .trim();
+        if (!search) 
+            return;
+        if (search == lastSearch) 
+            return;
+        console.log(`search for ${search}`);
+        window.lastSearch = search;
+
+        resultsDiv.innerHTML = loadingSvg;
+        //let searchRequest = await fetch(`/api/search?term=${encodeURIComponent(search)}`);
+        //let results = await searchRequest.json();
+        let results = offlineSearch(search);
+        let resultsHTML = '';
+        if (!results.length) {
+            let resultParagraph = document.createElement("p");
+            resultParagraph.innerText = `No results for "${search}"`;
+            resultsDiv.innerHTML = '';
+            resultsDiv.appendChild(resultParagraph);
+            return;
+        }
+        resultsHTML += '<div style="max-width:100%;">';
+        // we need to add title, url from ref
+        results.forEach(r => {
+            if(r.tags && r.tags.length > 0){
+                resultsHTML += `<div class="searchresult">
+                    <a class="search-link" href="${r.url}">${r.title}</a>
+                    <div onclick="window.location='${r.url}'">
+                        <div class="header-meta">
+                            <div class="header-tags">
+                                ${r.tags.map(tag=>'<a class="tag" href="JavaScript:Void(0);">#'+tag+'</a>').join("")}
+                            </div>
+                        </div>
+                        ${r.content}
+                    </div>
+                </div>`;
+            } else {
+                resultsHTML += `<div class="searchresult">
+                    <a class="search-link" href="${r.url}">${r.title}</a>
+                    <div onclick="window.location='${r.url}'">
+                        ${r.content}
+                    </div>
+                </div>`;
+            }
+        });
+        resultsHTML += '</div>';
+        resultsDiv.innerHTML = resultsHTML;
+    }
+
+    function truncate(str, size) {
+        //first, remove HTML
+        str = str.replaceAll(/<[^>]*>/g, '');
+        if (str.length < size) 
+            return str;
+        return str.substring(0, size - 3) + '...';
+    }
+
+    function offlineSearch(searchQuery) {
+        let data = window.docs;
+
+        let isTagSearch = searchQuery[0] === "#" && searchQuery.length > 1;
+
+        let searchResults = isTagSearch
+            ? index.search(searchQuery.substring(1), [
+                {
+                    field: "tags"
+                }
+            ])
+            : index.search(searchQuery, [
+                {
+                    field: "title",
+                    limit: 5
+                }, {
+                    field: "content",
+                    weight: 10
+                }
+            ]);
+
+        const getByField = (field) => {
+            const results = searchResults.filter((x) => x.field === field)
+            if (results.length === 0) {
+                return []
+            } else {
+                return [...results[0].result]
+            }
+        }
+        const allIds = new Set([
+            ...getByField("title"),
+            ...getByField("content"),
+            ...getByField("tags")
+        ])
+        const dataIds = [...allIds];
+        const finalResults = dataIds.map((id) => {
+            let result = data[id];
+            result.content = truncate(result.content, 400);
+            result.tags = result
+                .tags
+                .filter((x) => x != "gardenEntry" && x != "note"); //Note is automatically added by 11ty. GardenEntry is used internally to mark the home page
+
+            return result;
+        })
+        return finalResults;
+
+    }
+</script>
+    
+
+    <main class="content cm-s-obsidian ">
+      <header>
+        
+          <h1 data-note-icon="">The 10x Developer Myth: All About Keyboard</h1>
+        
+        <div class="header-meta">
+          </div>
+      
+      
+      </header>
+      
+      
+      <h2 id="theory" tabindex="-1">Theory</h2>
+<p>Recently, I engaged in a few discussions about optimal use of editors and keyboard shortcuts with new team members. It eventually inspired me to write this short article, asserting that while this <a href="https://medium.com/ingeniouslysimple/the-origins-of-the-10x-developer-2e0177ecef60" target="_blank" class="external-link">&quot;10x developer&quot;</a> idea is for the most part about keyboard shortcuts. In other words, while I think developers also vary in terms of how they think about problems, and their cognitive abilities, 90% of the time, the ones that stood out among others, and are sometimes as much as 10 time more &quot;<em>productive</em>&quot;, are simply better at the <em>craft</em>. Any I think 99% of the craft of programming revolves around the relationship between you and your keyboard.</p>
+<p>I am already expressing my first thesis implicitly. <strong>Keyboard</strong>. Not your mouse, not your trackpad. <strong>Keyboard</strong>. Those are inefficient alternatives put there for the times where the programmer fails to use the keyboard (I use my trackpad often, like most others, sadly). As I will demonstrate later, every instance where you use the trackpad your are already losing a little bit of time. So, focus on learning more about how to efficiently use your keyboard, rather than dragging things out with your mouse.</p>
+<p>A little story about how I came to be so dogmatic about this: The first laptop I had as a programmer was <a href="https://en.wikipedia.org/wiki/Acer_Aspire_laptops" target="_blank" class="external-link">this piece of history</a>, and for whatever reason I didn't have an external mouse. The trackpad on these machines is a joke. It is so small that you barely can move it from one corner of the screen to the other. Instead od trying to fight it, I learned from a very early stage of my career as a programmer to hyper utilize the keyboard. Over time, this became a blessing. Nowadays, having had multiple generations of MacBooks, even though I appreciate the trackpad for other tasks and am happy to not need to brows my file system anymore using keyboard, I happily hold the same habit <em>while I am coding</em> and try to avoid the trackpad as much as I can.</p>
+<p>Second, and main part of the thesis: In general, as a programmer, your attention is disrupted in generally one instance: <strong>when your hands over the keyboard fail to keep up what it in your mind in a timely manner</strong>. Let's consider this both when you are reading and writing code.</p>
+<p>In writing, you want to be able to quickly prototype different approaches, and put words on the screen. Imagine you have to do a refactor, where, for example, you have to unwind a few loops and change their indentation real quick, duplicate a few lines etc. If you manage to do this almost as fast as your brain is unpacking it, while you are in the creative process, you can continue, and your attention is not disrupted. If you delay doing this for multiple minutes (probably your damn mouse, hitting copy and paste and moving the cursor with it) you have most probably lost the train of thought that led you to want to do this anyway. Moreover, I frequently see people finding doing such code writings as &quot;annoying&quot;, which is understandable because it is being done in a very poor way. This can sadly lead to a decline in general interest in programming as whole.</p>
+<blockquote>
+<p>Ideally, you want your hands on the keyboard to be so agile that even mundane refactors are actually fun to do, because you get to practice all the cool tricks you know.</p>
+</blockquote>
+<p>In reading, I think this is even more visible. Imagine you want to follow a train of types and traits that relate to one another, trying to demystify them. If it takes you too long to jump from the file where you see the symbol <code>Foo</code> to where <code>Foo</code> is defined or used, then this process becomes mighty ANNOYING, and again can be demotivating to experience, other than being unproductive as well. And this is assuming you know where <code>Foo</code> is defined. If not, you have two tasks at hand: where is <code>Foo</code> (which is mostly solved for you if you have a language server), and how can I get there in the most efficient way (and the most efficient way never involves using a trackpad).</p>
+<p>This is where my whole rant about not using the mouse is coming from. I think if you are really bad in the above, there is a long way that you can go while using a mouse. But sooner or later, you will reach a point where you realize that point of &quot;losing the attention&quot; is every time your hands must leave the keyboard, because you want to perform an action that you cannot do while your hands are already on the keyboard.</p>
+<p>So all in all, in theory: <strong>you want your hands, on the keyboard, to be able to keep up with your head while it is thinking</strong>. This is the main message, and how you achieve can vary. But the important point is to keep <strong>improving</strong>. Every time you face that annoying moment of not being able to do something easily, go the Google, and the documentation of whatever editor you are using, and see if/how you can improve this. Don't cope with such micro-inefficiencies, as they accumulate over time. To the contrary, once you start fixing them, you will learn your editor in much greater depth, which has a compounding positive effect.</p>
+<p>Your editor is of choice is very important here. It is like the brush to the painter. Make sure you become a strong fanboy of it by following all the releases, seeing what is new etc.</p>
+<p>With all of that, I will list some of the settings, configurations, and shortcuts that help me achieve the above.</p>
+<h2 id="practice" tabindex="-1">Practice</h2>
+<p>The assumption here is that like most programmers, you have a few desktops, in which you have separated at least 3 main tools: An editor, a terminal, and a browser (and perhaps more).</p>
+<h3 id="operating-system-level" tabindex="-1">Operating System Level</h3>
+<ol>
+<li>
+<p>The absolute first step is learn your cursor. The involves a few settings:</p>
+<ul>
+<li>Increasing its speed significantly. The default cursor speed is way too slow.</li>
+<li>Learning how to jump by word rather than character.</li>
+<li>Learning how to jump the beginning and end of the line.</li>
+</ul>
+</li>
+<li>
+<p>Learning to move between the few desktops you have open via keyboard.</p>
+<ul>
+<li>In my linux days, the shortcut to move the active application to another desktop but was rather easy, but is rather dodgy to setup right in MacOs. I have mostly forgotten about this</li>
+</ul>
+</li>
+<li>
+<p>Lastly, you want to be able to easily split your screen into two, left and right. I personally find anything more than this to be an overkill, but most apps that allow you to do one allow you to do all of them, such as <a href="https://rectangleapp.com/" target="_blank" class="external-link">rectangle</a>.</p>
+</li>
+</ol>
+<p>There's a lot more here, but I presume you can figure out what else can help you achieve the above principles better.</p>
+<h3 id="editor-level" tabindex="-1">Editor Level</h3>
+<p>I personally use VSCode with Rust analyzer. But almost everything here should be applicable to any language and editor.</p>
+<h4 id="finding-the-right-file" tabindex="-1">Finding The Right File</h4>
+<p>First, you want to be able to easily <strong>find the file that you are looking for</strong>. There are typically two ways to find a file:</p>
+<ol>
+<li>Find it by <strong>location</strong> in the sidebar, file-tree list thingy.</li>
+<li>Find it by <strong>name</strong>.</li>
+</ol>
+<p>The find a file by its <strong>location</strong>, you want a keyboard shortcut that can quickly move the focus of your editor from the code you are editing to the the file-tree (remember, no touching the damn mouse for any of this!).</p>
+<p><img src="/posts/10x-1.gif" alt="switch focus to sidebar"></p>
+<p>The keyboard shortcut config name for this is &quot;<strong>View: Show Explorer</strong>&quot; in Vscode.</p>
+<p>Sometimes, you have the file that is already of interest open in a different tab, and you know that tab is nearby. For this, you need a shortcut to move to the next/previous tab real quick.</p>
+<blockquote>
+<p>I personally end up having a million tabs open at all times. Sometimes I happily disable tabbing with Vscode zen mode and call it a day. The two ways mentioned above are good enough to find any file quickly.</p>
+</blockquote>
+<blockquote>
+<p>If you use the integrated terminal in vscode (I don't) you probably want shortcuts to switch focus to/from it as well.</p>
+</blockquote>
+<p>If you want to use a file by <strong>location</strong>, the way to do it is the fuzzy finder. I don't know what editor you use, but it must have a fuzzy finder. A fuzzy finder is one that more or less does it best to match the string you are inserting to anything in the path of the final file. For example, if you are looking for a file that is located in <code>/foo/bar/prettyUniquePart/src/mod.rs</code> it is not wise to try and find it in the fuzzy finder with the <code>mod.rs</code> part, but rather inserting <code>pretty</code> might be enough.</p>
+<p><img src="/posts/10x-6-cmdp.gif" alt="fuzzy"></p>
+<p>The fuzzy search can be opened by Vscode using <code>cmd+p</code> by default, and it can do a lot more than fuzzy search!</p>
+<h4 id="navigating-the-right-file" tabindex="-1">Navigating The Right File.</h4>
+<p>Now, assuming you are the master of opening files, you want to be able to navigate it in a skillful way.</p>
+<p>First, you want to have ways to scroll the file real quick. Similar to the cursor speed, where the default speed is super super slow, the default scroll speed might also be very slow. You want to know the keyboard shortcuts that let you:</p>
+<ol>
+<li>Jump a page up or down (shortcut name: <code>cursorPageDown</code>).</li>
+<li>Jump to end and beginning of the file (shortcut name: <code>cursorBottom</code>).</li>
+</ol>
+<p>As a backup, should you fail and need to use your trackpad, VSCode can be configured to have a <a href="https://www.youtube.com/watch?v=iZP1cfAI_rY" target="_blank" class="external-link">fast-scroll</a> next to the normal scroll, which is pretty useful.</p>
+<p><img src="/posts/10x-8-scroll.gif" alt="fuzzy"></p>
+<p>Then, you want to be able to find some symbols. If you have a language server, you will get a lot of information related to this in your screen already, but there's still a few tips to be added.</p>
+<p>Firstly, if you have a proper language server, you better be apt at using it. This involves knowing the keyboard shortcut for super useful operations such as: &quot;Jump To Definition&quot;, &quot;Peek Definition&quot;, &quot;Find References&quot; and such.</p>
+<p><img src="/posts/10x-peek-def.gif" alt="fuzzy"></p>
+<p>Then, two additions to the fuzzy search <code>cmd+p</code>. If you open the same, and prefix it with <code>@</code>, then it turns into a local symbol search. If you prefix it with <code>#</code> it turns into a global symbol search (might not work on large projects). If you prefix it with <code>:</code> it will help you jump to a file with a specific line number.</p>
+<blockquote>
+<p>Lastly, if you put <code>&gt;</code> it will allow you to execute internal commands, such as &quot;format document&quot; etc.</p>
+</blockquote>
+<blockquote>
+<p>There is also a fuzzy (or more intelligent) suggestion shortcut in most editors, that you can just use to ask for suggestions from the editor. The shortcut for this mostly involves something with space (cmd+space) and is called &quot;Trigger Suggest&quot; in Vscode.</p>
+</blockquote>
+<blockquote>
+<p>With or without Rust analyzer, I have a <a href="https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/" target="_blank" class="external-link">few regex-based custom commands</a> that I find vastly useful in large Rust Mono-repos, to find symbols quickly.</p>
+</blockquote>
+<p>Then, let's talk about the (much underrated) <code>cmf+f</code> and <code>cmf+shift+f</code>. You know what they do: they invoke local file search, and global search. They are okay as they are, but what are you going to do with the results, without needing to use the cursed mouse? that's right, you need shortcuts to navigate the results. This is really powerful, and turns these mundane shortcuts into super tools.</p>
+<p><img src="/posts/10x-search.gif" alt="fuzzy"></p>
+<p>The keyboard shortcut for these is called &quot;<code>Find Next/Previous</code>&quot;, &quot;<code>Search: Focus Next/Previous Search Result</code>&quot;.</p>
+<h4 id="editing-the-right-file" tabindex="-1">Editing The Right File.</h4>
+<p>Lastly, let's talk a bit about edit editing files. Writing code is mostly easy if you are only adding words. It mostly gets hard if you want to do bulk edits, or if you want to do more complicated things. Here are a few things that I find important, but my suggestions here are really non-exhaustive.</p>
+<ul>
+<li>indent/de-indent</li>
+</ul>
+<p><img src="/posts/10x-2-indent.gif" alt="fuzzy"></p>
+<ul>
+<li>duplicate line</li>
+</ul>
+<p><img src="/posts/10x-3-duplicate.gif" alt="fuzzy"></p>
+<ul>
+<li>move line(s)</li>
+</ul>
+<p><img src="/posts/10x-4-move.gif" alt="fuzzy"></p>
+<ul>
+<li>some knowledge of how to do multi-cursor operations.</li>
+</ul>
+<p><img src="/posts/10x-7-multi-1.gif" alt="fuzzy"></p>
+<p><img src="/posts/10x-7-multi-2.gif" alt="fuzzy"></p>
+<h2 id="terminal-level" tabindex="-1">Terminal Level</h2>
+<p>I won't get into details here because this has already gotten long, but be aware that you can also optimize your use of terminal by quite a lot as well. The single most useful thing I can suggest for coding is the ability to jump right from your editor into the file path where some error has occurred (sadly, using your trackpad). I believe ITerm2 and Vscode's internal terminal support this out of the box.</p>
+<p><img src="/posts/10x-terminal.gif" alt="fuzzy"></p>
+<hr>
+<p>All in all, there's not much new that I am saying here. Most of these shortcuts and operations are already known. The main argument is: &quot;Use the keyboard!&quot; 😅.</p>
+
+      
+      
+    </main>
+
+    
+      <aside>
+      <div class="sidebar">
+            <div class="sidebar-container">
+                  
+                  
+
+                  
+                        
+                        
+                              <div class="toc">
+                                    <div class="toc-title-container">
+                                          <div class="toc-title">
+                                                On this page
+                                          </div>
+                                    </div>
+                                    <div class="toc-container">
+                                          <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#theory">Theory</a>
+            		</li>
+
+                    <li><a href="#practice">Practice</a>
+            
+                <ol>
+                    
+                    <li><a href="#operating-system-level">Operating System Level</a>
+            		</li>
+
+                    <li><a href="#editor-level">Editor Level</a>
+            
+                <ol>
+                    
+                    <li><a href="#finding-the-right-file">Finding The Right File</a>
+            		</li>
+
+                    <li><a href="#navigating-the-right-file">Navigating The Right File.</a>
+            		</li>
+
+                    <li><a href="#editing-the-right-file">Editing The Right File.</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#terminal-level">Terminal Level</a>
+            		</li>
+                </ol>
+            </nav>
+                                    </div>
+                              </div>
+                        
+
+                  
+
+                        
+                              
+                              <div class="backlinks">
+                                    <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
+                                          <div class="backlink-list"><div class="backlink-card">
+                                                            <span class="no-backlinks-message">No other pages mentions this page</span>
+                                                      </div></div>
+                              </div>
+                        
+                  
+                  
+            </div>
+      </div>
+</aside>
+    
+
+    
+        <script>
+      if (window.location.hash) {
+        document.getElementById(window.location.hash.slice(1)).classList.add('referred');
+      }
+      window.addEventListener('hashchange', (evt) => {
+        const oldParts = evt.oldURL.split("#");
+        if (oldParts[1]) {
+          document.getElementById(oldParts[1]).classList.remove('referred');
+        }
+        const newParts = evt.newURL.split("#");
+        if (newParts[1]) {
+          document.getElementById(newParts[1]).classList.add('referred');
+        }
+      }, false);
+      const url_parts = window.location.href.split("#")
+      const url = url_parts[0];
+      const referrence = url_parts[1];
+      document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function (el) {
+        el.ondblclick = function(evt) {
+          const ref_url = url + '#' + evt.target.id
+          navigator.clipboard.writeText(ref_url);
+      }
+      });
+
+      
+    </script>
+    <script src=" https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js "></script>
+<script defer>
+    TIMESTAMP_FORMAT = "MMM dd, yyyy h:mm a";
+    document.querySelectorAll('.human-date').forEach(function (el) {
+        el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
+      });
+</script>
+    
+    
+    <script>
+lucide.createIcons({
+            attrs: {
+                class: ["svg-icon"]
+            }
+        });
+</script>
+  </body>
+</html>
