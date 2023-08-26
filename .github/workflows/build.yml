@@ -3,6 +3,9 @@
 
 name: Check for any build error
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: ["main"]
