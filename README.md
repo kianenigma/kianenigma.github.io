@@ -3,11 +3,9 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- _________________________________________
-/ FORTUNE PROVIDES QUESTIONS FOR THE      | GREAT ANSWERS: #21 A: Dr. Livingston I. |
-| Presume. Q: What's Dr. Presume's full   |
- name?                                   /
- -----------------------------------------
+ ________________________________________
+< Your love life will be... interesting. >
+ ----------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
