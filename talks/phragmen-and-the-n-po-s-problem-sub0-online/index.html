@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-27T15:45:10.878Z';
+        const searchIndexDate = '2023-08-27T15:52:27.642Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-27T15:45:10.878Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-27T15:52:27.642Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-27T15:45:10.878Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-27T15:52:27.642Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -799,7 +799,13 @@
           <h1 data-note-icon="">Phragmen and The NPoS Problem | Sub0 Online</h1>
         
         <div class="header-meta">
-          </div>
+          
+            <div class="header-tags">
+              
+                
+              
+            </div>
+          <div class="timestamps"></div></div>
       
       
       </header>
@@ -875,7 +881,7 @@ date = 2020-04-25<br>
     </script>
     <script src=" https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js "></script>
 <script defer>
-    TIMESTAMP_FORMAT = "MMM dd, yyyy h:mm a";
+    TIMESTAMP_FORMAT = "MMM dd, yyyy";
     document.querySelectorAll('.human-date').forEach(function (el) {
         el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
       });
