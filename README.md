@@ -1,9 +1,17 @@
-# Digital Obsidian Garden
-This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
-See the README in the plugin repo for information on how to set it up.
+# Kian Paimani aka `kianenigma`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden)
+## Wisdom 
 
----
-## Docs
-Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
+
+
+## Stats 
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kianenigma)](https://git.io/streak-stats) 
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kianenigma&hide=Tex,SCSS)](https://github.com/anuraghazra/github-readme-stats) 
+
+![kianenigma's GitHub stats](https://github-readme-stats.vercel.app/api?username=kianenigma)
+
+
+
+
