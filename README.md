@@ -3,10 +3,11 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- _______________________________________
-/ Q: What do you have when you have a   | lawyer buried up to his neck in sand? |
- A: Not enough sand.                   /
- ---------------------------------------
+ _________________________________________
+/ FORTUNE PROVIDES QUESTIONS FOR THE      | GREAT ANSWERS: #21 A: Dr. Livingston I. |
+| Presume. Q: What's Dr. Presume's full   |
+ name?                                   /
+ -----------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
