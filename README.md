@@ -3,9 +3,13 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- _________________________________________
-< Do something unusual today. Pay a bill. >
- -----------------------------------------
+ ______________________________________
+/ F.S. Fitzgerald to Hemingway:        |                                      |
+| "Ernest, the rich are different from |
+| us." Hemingway:                      |
+|                                      |
+ "Yes. They have more money."         /
+ --------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
