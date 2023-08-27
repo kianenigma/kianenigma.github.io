@@ -3,9 +3,10 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- ______________________________________
-/ You will hear good news from one you  thought unfriendly to you.           /
- --------------------------------------
+ _________________________________________
+/ Next Friday will not be your lucky day. | As a matter of fact, you don't have a   |
+ lucky day this year.                    /
+ -----------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
