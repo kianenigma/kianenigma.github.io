@@ -3,11 +3,13 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- _____________________________________
-/ Let him choose out of my files, his | projects to accomplish.             |
-|                                     |
- -- Shakespeare, "Coriolanus"        /
- -------------------------------------
+ ______________________________________
+/ F.S. Fitzgerald to Hemingway:        |                                      |
+| "Ernest, the rich are different from |
+| us." Hemingway:                      |
+|                                      |
+ "Yes. They have more money."         /
+ --------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
