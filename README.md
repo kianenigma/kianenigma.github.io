@@ -3,9 +3,11 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- _________________________________________
-/ Live in a world of your own, but always  welcome visitors.                       /
- -----------------------------------------
+ _____________________________________
+/ Let him choose out of my files, his | projects to accomplish.             |
+|                                     |
+ -- Shakespeare, "Coriolanus"        /
+ -------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
