@@ -3,9 +3,9 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- ______________________________________
-< Stay away from flying saucers today. >
- --------------------------------------
+ _________________________________________
+/ Live in a world of your own, but always  welcome visitors.                       /
+ -----------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
