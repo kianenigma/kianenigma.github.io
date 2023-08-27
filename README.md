@@ -3,9 +3,9 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- ______________________________________
-/ Artistic ventures highlighted. Rob a  museum.                              /
- --------------------------------------
+ _________________________________________
+/ You would if you could but you can't so  you won't.                              /
+ -----------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
