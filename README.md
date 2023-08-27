@@ -3,10 +3,9 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- _________________________________________
-/ Next Friday will not be your lucky day. | As a matter of fact, you don't have a   |
- lucky day this year.                    /
- -----------------------------------------
+ ______________________________________
+/ You could live a better life, if you  had a better mind and a better body. /
+ --------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
