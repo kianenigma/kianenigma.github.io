@@ -3,9 +3,9 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- ______________________________________
-/ You could live a better life, if you  had a better mind and a better body. /
- --------------------------------------
+ _________________________________________
+/ Live in a world of your own, but always  welcome visitors.                       /
+ -----------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
