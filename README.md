@@ -3,11 +3,9 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- _____________________________________
-/ Let him choose out of my files, his | projects to accomplish.             |
-|                                     |
- -- Shakespeare, "Coriolanus"        /
- -------------------------------------
+ _________________________________________
+< Do something unusual today. Pay a bill. >
+ -----------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
