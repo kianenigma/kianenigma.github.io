@@ -3,6 +3,13 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
+ ______________________________________
+/ Artistic ventures highlighted. Rob a  museum.                              /
+ --------------------------------------
+           ^__^
+           (oo)_______
+            (__)       )/                ||----w |
+                ||     ||
 <!--END_SECTION:cowsay-->
 
 
