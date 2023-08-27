@@ -3,9 +3,11 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- __________________________
-< Advancement in position. >
- --------------------------
+ ________________________________________
+/ Water, taken in moderation cannot hurt | anybody.                               |
+|                                        |
+ -- Mark Twain                          /
+ ----------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
