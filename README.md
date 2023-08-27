@@ -3,11 +3,10 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- ________________________________________
-/ Water, taken in moderation cannot hurt | anybody.                               |
-|                                        |
- -- Mark Twain                          /
- ----------------------------------------
+ _______________________________________
+/ Q: What do you have when you have a   | lawyer buried up to his neck in sand? |
+ A: Not enough sand.                   /
+ ---------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
