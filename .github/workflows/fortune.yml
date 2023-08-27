@@ -3,6 +3,9 @@ name: Update README
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every day at 00:00
+  push:
+    branches:
+      - main # Replace with your default branch if not "main"
 
 jobs:
   update-readme:
