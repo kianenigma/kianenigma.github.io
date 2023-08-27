@@ -3,9 +3,9 @@
 ## Wisdom
 
 <!--START_SECTION:cowsay-->
- ________________________________
-< You will be run over by a bus. >
- --------------------------------
+ ______________________________________
+/ You will hear good news from one you  thought unfriendly to you.           /
+ --------------------------------------
            ^__^
            (oo)_______
             (__)       )/                ||----w |
