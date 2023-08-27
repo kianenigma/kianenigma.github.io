@@ -23,7 +23,9 @@ jobs:
       - name: Run fortune | cowsay and update README.md
         run: |
           OUTPUT=$(fortune | cowsay)
-          echo "$OUTPUT"
+          ESCAPED_OUTPUT=$(echo "$OUTPUT" | sed 's/`/\\`/g')  # Escape backticks in the output
+          WRAPPED_OUTPUT="\`\`\`\n$ESCAPED_OUTPUT\n\`\`\`"  # Wrap the output in triple backticks
+          echo "$WRAPPED_OUTPUT"
 
           START="<!--START_SECTION:cowsay-->"
           END="<!--END_SECTION:cowsay-->"
