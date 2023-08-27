@@ -5,7 +5,11 @@
 <!--START_SECTION:cowsay-->
 ```
  ________________________________________
-< Your supervisor is thinking about you. >
+/ Hain't we got all the fools in town on \
+| our side? And hain't that a big enough |
+| majority in any town?                  |
+|                                        |
+\ -- Mark Twain, "Huckleberry Finn"      /
  ----------------------------------------
         \   ^__^
          \  (oo)\_______
