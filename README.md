@@ -4,10 +4,9 @@
 
 <!--START_SECTION:cowsay-->
 ```
- ___________________________________
-/ You will be called upon to help a \
-\ friend in trouble.                /
- -----------------------------------
+ ________________________________________
+< Your supervisor is thinking about you. >
+ ----------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
