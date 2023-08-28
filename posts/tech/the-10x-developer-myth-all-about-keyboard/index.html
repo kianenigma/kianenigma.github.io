@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-28T13:08:22.117Z';
+        const searchIndexDate = '2023-08-28T13:08:43.871Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:08:22.117Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:08:43.871Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:08:22.117Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:08:43.871Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -877,7 +877,23 @@
 <p>If you use the integrated terminal in vscode (I don't) you probably want shortcuts to switch focus to/from it as well.</p>
 </blockquote>
 <p>If you want to use a file by <strong>location</strong>, the way to do it is the fuzzy finder. I don't know what editor you use, but it must have a fuzzy finder. A fuzzy finder is one that more or less does it best to match the string you are inserting to anything in the path of the final file. For example, if you are looking for a file that is located in <code>/foo/bar/prettyUniquePart/src/mod.rs</code> it is not wise to try and find it in the fuzzy finder with the <code>mod.rs</code> part, but rather inserting <code>pretty</code> might be enough.</p>
-<p><img src="/img/user/resources/10x-6-cmdp.gif" alt="10x-6-cmdp.gif"></p>
+<p><picture src="/img/user/resources/10x-6-cmdp.gif" alt="10x-6-cmdp.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/TN3X8pOAYa-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/TN3X8pOAYa-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/TN3X8pOAYa-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/TN3X8pOAYa-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-6-cmdp.gif"
+      alt="10x-6-cmdp.gif"
+      width=""
+      ></picture></p>
 <p>The fuzzy search can be opened by VScode using <code>cmd+p</code> by default, and it can do a lot more than fuzzy search!</p>
 <h4 id="navigating-the-right-file" tabindex="-1">Navigating The Right File.</h4>
 <p>Now, assuming you are the master of opening files, you want to be able to navigate it in a skillful way.</p>
@@ -887,10 +903,42 @@
 <li>Jump to end and beginning of the file (shortcut name: <code>cursorBottom</code>).</li>
 </ol>
 <p>As a backup, should you fail and need to use your trackpad, VSCode can be configured to have a <a href="https://www.youtube.com/watch?v=iZP1cfAI_rY" target="_blank" class="external-link">fast-scroll</a> next to the normal scroll, which is pretty useful.</p>
-<p><img src="/img/user/resources/10x-8-scroll.gif" alt="10x-8-scroll.gif"></p>
+<p><picture src="/img/user/resources/10x-8-scroll.gif" alt="10x-8-scroll.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/Smj8YIWmes-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/Smj8YIWmes-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/Smj8YIWmes-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/Smj8YIWmes-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-8-scroll.gif"
+      alt="10x-8-scroll.gif"
+      width=""
+      ></picture></p>
 <p>Then, you want to be able to find some symbols. If you have a language server, you will get a lot of information related to this in your screen already, but there's still a few tips to be added.</p>
 <p>Firstly, if you have a proper language server, you better be apt at using it. This involves knowing the keyboard shortcut for super useful operations such as: &quot;Jump To Definition&quot;, &quot;Peek Definition&quot;, &quot;Find References&quot; and such.</p>
-<p><img src="/img/user/resources/10x-peek-def.gif" alt="10x-peek-def.gif"></p>
+<p><picture src="/img/user/resources/10x-peek-def.gif" alt="10x-peek-def.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/4OeRwGYOtU-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/4OeRwGYOtU-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/4OeRwGYOtU-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/4OeRwGYOtU-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-peek-def.gif"
+      alt="10x-peek-def.gif"
+      width=""
+      ></picture></p>
 <p>Then, two additions to the fuzzy search <code>cmd+p</code>. If you open the same, and prefix it with <code>@</code>, then it turns into a local symbol search. If you prefix it with <code>#</code> it turns into a global symbol search (might not work on large projects). If you prefix it with <code>:</code> it will help you jump to a file with a specific line number.</p>
 <blockquote>
 <p>Lastly, if you put <code>&gt;</code> it will allow you to execute internal commands, such as &quot;format document&quot; etc.</p>
