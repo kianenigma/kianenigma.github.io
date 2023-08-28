@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-28T13:08:51.826Z';
+        const searchIndexDate = '2023-08-28T13:09:13.506Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:08:51.826Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:09:13.506Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:08:51.826Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:09:13.506Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -973,23 +973,119 @@
 <ul>
 <li>indent/de-indent</li>
 </ul>
-<p><img src="/img/user/resources/10x-2-indent.gif" alt="10x-2-indent.gif"></p>
+<p><picture src="/img/user/resources/10x-2-indent.gif" alt="10x-2-indent.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/yGVOBbK1Z9-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/yGVOBbK1Z9-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/yGVOBbK1Z9-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/yGVOBbK1Z9-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-2-indent.gif"
+      alt="10x-2-indent.gif"
+      width=""
+      ></picture></p>
 <ul>
 <li>duplicate line</li>
 </ul>
-<p><img src="/img/user/resources/10x-3-duplicate.gif" alt="10x-3-duplicate.gif"></p>
+<p><picture src="/img/user/resources/10x-3-duplicate.gif" alt="10x-3-duplicate.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/m2ov5UpRxf-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/m2ov5UpRxf-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/m2ov5UpRxf-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/m2ov5UpRxf-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-3-duplicate.gif"
+      alt="10x-3-duplicate.gif"
+      width=""
+      ></picture></p>
 <ul>
 <li>move line(s)</li>
 </ul>
-<p><img src="/img/user/resources/10x-4-move.gif" alt="10x-4-move.gif"></p>
+<p><picture src="/img/user/resources/10x-4-move.gif" alt="10x-4-move.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/kpHo-aTPev-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/kpHo-aTPev-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/kpHo-aTPev-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/kpHo-aTPev-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-4-move.gif"
+      alt="10x-4-move.gif"
+      width=""
+      ></picture></p>
 <ul>
 <li>some knowledge of how to do multi-cursor operations.</li>
 </ul>
-<p><img src="/img/user/resources/10x-7-multi-1.gif" alt="10x-7-multi-1.gif"></p>
-<p><img src="/img/user/resources/10x-7-multi-2.gif" alt="10x-7-multi-2.gif"></p>
+<p><picture src="/img/user/resources/10x-7-multi-1.gif" alt="10x-7-multi-1.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/CtRcznUcH1-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/CtRcznUcH1-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/CtRcznUcH1-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/CtRcznUcH1-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-7-multi-1.gif"
+      alt="10x-7-multi-1.gif"
+      width=""
+      ></picture></p>
+<p><picture src="/img/user/resources/10x-7-multi-2.gif" alt="10x-7-multi-2.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/q_uDHm9umt-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/q_uDHm9umt-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/q_uDHm9umt-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/q_uDHm9umt-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-7-multi-2.gif"
+      alt="10x-7-multi-2.gif"
+      width=""
+      ></picture></p>
 <h2 id="terminal-level" tabindex="-1">Terminal Level</h2>
 <p>I won't get into details here because this has already gotten long, but be aware that you can also optimize your use of terminal by quite a lot as well. The single most useful thing I can suggest for coding is the ability to jump right from your editor into the file path where some error has occurred (sadly, using your trackpad). I believe ITerm2 and Vscode's internal terminal support this out of the box.</p>
-<p><img src="/img/user/resources/10x-terminal.gif" alt="10x-terminal.gif"></p>
+<p><picture src="/img/user/resources/10x-terminal.gif" alt="10x-terminal.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/NdIB1pVq0m-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/NdIB1pVq0m-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/NdIB1pVq0m-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/NdIB1pVq0m-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-terminal.gif"
+      alt="10x-terminal.gif"
+      width=""
+      ></picture></p>
 <hr>
 <p>All in all, there's not much new that I am saying here. Most of these shortcuts and operations are already known. The main argument is: &quot;Use the keyboard!&quot; 😅.</p>
 

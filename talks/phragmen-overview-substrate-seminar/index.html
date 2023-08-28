@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-28T13:08:51.826Z';
+        const searchIndexDate = '2023-08-28T13:09:13.506Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:08:51.826Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:09:13.506Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:08:51.826Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:09:13.506Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -805,11 +805,7 @@
       </header>
       
       
-      <p>+++<br>
-title = &quot;Phragmen Overview | Substrate Seminar&quot;<br>
-date = 2020-02-25<br>
-+++</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MjOvVhc1oXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/MjOvVhc1oXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       
       
