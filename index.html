@@ -548,7 +548,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-28T13:02:26.030Z';
+        const searchIndexDate = '2023-08-28T13:07:33.288Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -560,9 +560,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:02:26.030Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:07:33.288Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:02:26.030Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:07:33.288Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -809,8 +809,7 @@
 <li>📚 Parallel and Distributed Systems Msc. Student at <a href="https://twitter.com/VUamsterdam" target="_blank" class="external-link">Vrije Universiteit Amsterdam</a>.</li>
 <li>🔴 <a href="polkadot.network" target="_blank" class="external-link">Polkadot</a> Fellow.</li>
 </ul>
-<p>I like to put my pictures upside down.</p>
-<p><a href="./talks" target="_blank" class="external-link">Talks</a> | <a href="./posts" target="_blank" class="external-link">Posts</a> | Github | Twitter (inactive) | Linkedin (inactive) |</p>
+<p><a href="https://github.com/kianenigma" target="_blank" class="external-link">Github</a> | <a href="https://twitter.com/kianenigma" target="_blank" class="external-link">Twitter</a> (inactive) | <a href="https://www.linkedin.com/in/kian-paimani-a3618022b/" target="_blank" class="external-link">Linkedin</a> (inactive) |</p>
 
       
       
