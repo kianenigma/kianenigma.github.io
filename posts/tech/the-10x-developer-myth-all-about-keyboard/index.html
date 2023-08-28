@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-28T13:08:43.871Z';
+        const searchIndexDate = '2023-08-28T13:08:51.826Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:08:43.871Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:08:51.826Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:08:43.871Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:08:51.826Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -950,7 +950,23 @@
 <p>With or without Rust analyzer, I have a <a href="https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/" target="_blank" class="external-link">few regex-based custom commands</a> that I find vastly useful in large Rust Mono-repos, to find symbols quickly.</p>
 </blockquote>
 <p>Then, let's talk about the (much underrated) <code>cmf+f</code> and <code>cmf+shift+f</code>. You know what they do: they invoke local file search, and global search. They are okay as they are, but what are you going to do with the results, without needing to use the cursed mouse? that's right, you need shortcuts to navigate the results. This is really powerful, and turns these mundane shortcuts into super tools.</p>
-<p><img src="/img/user/resources/10x-search.gif" alt="10x-search.gif"></p>
+<p><picture src="/img/user/resources/10x-search.gif" alt="10x-search.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/UbC12lSo84-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/UbC12lSo84-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/UbC12lSo84-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/UbC12lSo84-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/10x-search.gif"
+      alt="10x-search.gif"
+      width=""
+      ></picture></p>
 <p>The keyboard shortcut for these is called &quot;<code>Find Next/Previous</code>&quot;, &quot;<code>Search: Focus Next/Previous Search Result</code>&quot;.</p>
 <h4 id="editing-the-right-file" tabindex="-1">Editing The Right File.</h4>
 <p>Lastly, let's talk a bit about edit editing files. Writing code is mostly easy if you are only adding words. It mostly gets hard if you want to do bulk edits, or if you want to do more complicated things. Here are a few things that I find important, but my suggestions here are really non-exhaustive.</p>
