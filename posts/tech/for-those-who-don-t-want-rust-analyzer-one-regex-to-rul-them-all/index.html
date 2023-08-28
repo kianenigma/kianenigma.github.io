@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-28T13:07:46.011Z';
+        const searchIndexDate = '2023-08-28T13:08:09.054Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:07:46.011Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:08:09.054Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:07:46.011Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:08:09.054Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -880,7 +880,23 @@ do exactly the same thing as the previous shortcut, but do it for the current hi
 </code></pre>
 <p>And then in the search result page, the default <em>Jump to Definition</em> would just work, which you can<br>
 configure again to be any key that you want.</p>
-<p><img src="/img/user/resources/regex2.gif" alt="regex2.gif"></p>
+<p><picture src="/img/user/resources/regex2.gif" alt="regex2.gif"><source       media="(max-width:480px)"
+      srcset="/img/optimized/ZqgGxaJSs7-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/ZqgGxaJSs7-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/ZqgGxaJSs7-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/ZqgGxaJSs7-700.jpeg"
+        ><img       class=""
+      src="/img/user/resources/regex2.gif"
+      alt="regex2.gif"
+      width=""
+      ></picture></p>
 <h3 id="bonus-shortcuts-to-navigate-the-results" tabindex="-1">Bonus: shortcuts to navigate the results</h3>
 <p>Over time, I learned that shortcuts to navigate through both local and global search are super<br>
 useful. You can already see me use them in the previous gif. Highly recommended to set them to a<br>
