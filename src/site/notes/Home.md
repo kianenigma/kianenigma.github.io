@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"","updated":""}
 ---
 
 
@@ -7,8 +7,6 @@
 - 📚 Parallel and Distributed Systems Msc. Student at [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam).
 - 🔴 [Polkadot](polkadot.network) Fellow. 
 
-I like to put my pictures upside down.
-
-[Talks](./talks) | [Posts](./posts) | Github | Twitter (inactive) | Linkedin (inactive) | 
+ [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma) (inactive) | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive) | 
 
 
