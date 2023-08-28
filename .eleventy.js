@@ -32,7 +32,7 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setPathPrefix("/kianenigma/");
+//   eleventyConfig.setPathPrefix("/kianenigma/");
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
