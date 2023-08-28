@@ -5,13 +5,13 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: ${{ github.head_ref }}
-  cancel-in-progress: true
-
 on:
   push:
     branches: ["main"]
+
+concurrency:
+  group: ${{ github.head_ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
