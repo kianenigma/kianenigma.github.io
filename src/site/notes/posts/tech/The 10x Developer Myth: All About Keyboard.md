@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/the-10x-developer-myth-all-about-keyboard/"}
+{"dg-publish":true,"permalink":"/posts/tech/the-10x-developer-myth-all-about-keyboard/","created":"","updated":""}
 ---
-
 
 ## Theory
 
@@ -30,7 +29,6 @@ With all of that, I will list some of the settings, configurations, and shortcut
 ## Practice
 
 The assumption here is that like most programmers, you have a few desktops, in which you have separated at least 3 main tools: An editor, a terminal, and a browser (and perhaps more).
-
 ### Operating System Level
 
 1. The absolute first step is learn your cursor. The involves a few settings:
@@ -43,13 +41,11 @@ The assumption here is that like most programmers, you have a few desktops, in w
 
 3. Lastly, you want to be able to easily split your screen into two, left and right. I personally find anything more than this to be an overkill, but most apps that allow you to do one allow you to do all of them, such as [rectangle](https://rectangleapp.com/).
 
-
 There's a lot more here, but I presume you can figure out what else can help you achieve the above principles better.
 
 ### Editor Level
 
 I personally use VSCode with Rust analyzer. But almost everything here should be applicable to any language and editor.
-
 #### Finding The Right File
 
 First, you want to be able to easily **find the file that you are looking for**. There are typically two ways to find a file:
@@ -59,7 +55,7 @@ First, you want to be able to easily **find the file that you are looking for**.
 
 The find a file by its **location**, you want a keyboard shortcut that can quickly move the focus of your editor from the code you are editing to the the file-tree (remember, no touching the damn mouse for any of this!).
 
-![switch focus to sidebar](/posts/10x-1.gif)
+![10x-1.gif](/img/user/resources/10x-1.gif)
 
 The keyboard shortcut config name for this is "**View: Show Explorer**" in Vscode.
 
@@ -71,13 +67,10 @@ Sometimes, you have the file that is already of interest open in a different tab
 
 If you want to use a file by **location**, the way to do it is the fuzzy finder. I don't know what editor you use, but it must have a fuzzy finder. A fuzzy finder is one that more or less does it best to match the string you are inserting to anything in the path of the final file. For example, if you are looking for a file that is located in `/foo/bar/prettyUniquePart/src/mod.rs` it is not wise to try and find it in the fuzzy finder with the `mod.rs` part, but rather inserting `pretty` might be enough.
 
-![fuzzy](/posts/10x-6-cmdp.gif)
+![10x-6-cmdp.gif](/img/user/resources/10x-6-cmdp.gif)
 
-The fuzzy search can be opened by Vscode using `cmd+p` by default, and it can do a lot more than fuzzy search!
-
-
+The fuzzy search can be opened by VScode using `cmd+p` by default, and it can do a lot more than fuzzy search!
 #### Navigating The Right File.
-
 Now, assuming you are the master of opening files, you want to be able to navigate it in a skillful way.
 
 First, you want to have ways to scroll the file real quick. Similar to the cursor speed, where the default speed is super super slow, the default scroll speed might also be very slow. You want to know the keyboard shortcuts that let you:
@@ -87,13 +80,13 @@ First, you want to have ways to scroll the file real quick. Similar to the curso
 
 As a backup, should you fail and need to use your trackpad, VSCode can be configured to have a [fast-scroll](https://www.youtube.com/watch?v=iZP1cfAI_rY) next to the normal scroll, which is pretty useful.
 
-![fuzzy](/posts/10x-8-scroll.gif)
+![10x-8-scroll.gif](/img/user/resources/10x-8-scroll.gif)
 
 Then, you want to be able to find some symbols. If you have a language server, you will get a lot of information related to this in your screen already, but there's still a few tips to be added.
 
 Firstly, if you have a proper language server, you better be apt at using it. This involves knowing the keyboard shortcut for super useful operations such as: "Jump To Definition", "Peek Definition", "Find References" and such.
 
-![fuzzy](/posts/10x-peek-def.gif)
+![10x-peek-def.gif](/img/user/resources/10x-peek-def.gif)
 
 Then, two additions to the fuzzy search `cmd+p`. If you open the same, and prefix it with `@`, then it turns into a local symbol search. If you prefix it with `#` it turns into a global symbol search (might not work on large projects). If you prefix it with `:` it will help you jump to a file with a specific line number.
 
@@ -105,7 +98,7 @@ Then, two additions to the fuzzy search `cmd+p`. If you open the same, and prefi
 
 Then, let's talk about the (much underrated) `cmf+f` and `cmf+shift+f`. You know what they do: they invoke local file search, and global search. They are okay as they are, but what are you going to do with the results, without needing to use the cursed mouse? that's right, you need shortcuts to navigate the results. This is really powerful, and turns these mundane shortcuts into super tools.
 
-![fuzzy](/posts/10x-search.gif)
+![10x-search.gif](/img/user/resources/10x-search.gif)
 
 The keyboard shortcut for these is called "`Find Next/Previous`", "`Search: Focus Next/Previous Search Result`".
 
@@ -115,29 +108,26 @@ Lastly, let's talk a bit about edit editing files. Writing code is mostly easy i
 
 * indent/de-indent
 
-![fuzzy](/posts/10x-2-indent.gif)
+![10x-2-indent.gif](/img/user/resources/10x-2-indent.gif)
 
 * duplicate line
 
-![fuzzy](/posts/10x-3-duplicate.gif)
-
+![10x-3-duplicate.gif](/img/user/resources/10x-3-duplicate.gif)
 * move line(s)
 
-![fuzzy](/posts/10x-4-move.gif)
+![10x-4-move.gif](/img/user/resources/10x-4-move.gif)
 
 * some knowledge of how to do multi-cursor operations.
 
-![fuzzy](/posts/10x-7-multi-1.gif)
+![10x-7-multi-1.gif](/img/user/resources/10x-7-multi-1.gif)
 
-![fuzzy](/posts/10x-7-multi-2.gif)
-
-
+![10x-7-multi-2.gif](/img/user/resources/10x-7-multi-2.gif)
 
 ## Terminal Level
 
 I won't get into details here because this has already gotten long, but be aware that you can also optimize your use of terminal by quite a lot as well. The single most useful thing I can suggest for coding is the ability to jump right from your editor into the file path where some error has occurred (sadly, using your trackpad). I believe ITerm2 and Vscode's internal terminal support this out of the box.
 
-![fuzzy](/posts/10x-terminal.gif)
+![10x-terminal.gif](/img/user/resources/10x-terminal.gif)
 
 ---
 
