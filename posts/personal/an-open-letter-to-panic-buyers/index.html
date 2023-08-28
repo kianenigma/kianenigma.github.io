@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-28T13:07:33.288Z';
+        const searchIndexDate = '2023-08-28T13:07:39.333Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:07:33.288Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:07:39.333Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:07:33.288Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:07:39.333Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -805,32 +805,23 @@
       </header>
       
       
-      <p>+++<br>
-title = &quot;An Open Letter to Panic Buyers&quot;<br>
-date = 2020-03-14<br>
-+++</p>
-<blockquote>
+      <blockquote>
 <p>I wrote and twitted this in the midst of the first wave of the Covid-19 outbreak in 2020.</p>
 </blockquote>
 <p>Dear Panic Buyer,</p>
 <p>Here is something to think about.</p>
-<p>Say there are 100 pieces of bread in the country and 100 people, and each person needs 1 on average.<br>
-The country on the other hand, has the capacity to make 200 pieces if needed. If ,say, a handful of<br>
-people among a population of 100 start stockpiling 4 times their needs in their house, this will be:</p>
-<p>1- pointless, as there is enough supply for anyone anyhow. 2- nonetheless, <em>harmless</em>.</p>
+<p>Say there are 100 pieces of bread in the country and 100 people, and each person needs 1 on average. The country on the other hand, has the capacity to make 200 pieces if needed. If ,say, a handful of people among a population of 100 start stockpiling 4 times their needs in their house, this will be:</p>
+<ol>
+<li>pointless, as there is enough supply for anyone anyhow.</li>
+<li>nonetheless, <em>harmless</em>.</li>
+</ol>
 <p>If ,on the other hand, 1/2 of the population of a 100 start stockpiling 4 times more than their<br>
-needs, then we end up in this situation where the total demand (250) exceeds the total capacity of<br>
-the country (200), for no good reason. The is problematic because it is not a <em>real problem</em>. It is<br>
+needs, then we end up in this situation where the total demand (250) exceeds the total capacity of the country (200), for no good reason. The is problematic because it is not a <em>real problem</em>. It is<br>
 created merely because of our excessive needs in the first place.</p>
 <p>Of course, a virus spread might actually lead to a <em>real</em> shortage of some supplies (i.e. where the<br>
-example country above can produce 80 or less) as well. But we are not there yet. And in the path of<br>
-getting there, we will inevitably reach the above situation as well. Hence, the first phase of any<br>
-real shortage, if that is what you are preparing for by buying, is cause by ourselves, not any<br>
-virus.</p>
+example country above can produce 80 or less) as well. But we are not there yet. And in the path of getting there, we will inevitably reach the above situation as well. Hence, the first phase of any real shortage, if that is what you are preparing for by buying, is cause by ourselves, not any virus.</p>
 <p>That being said, also note that if the situation becomes so severe that even developed countries<br>
-fail to provide food and basic needs, we'd probably have much bigger problem than food (electricity,<br>
-sewage, hygiene, lack of healthcare etc.). Without food, we can technically survive for a fairly<br>
-long time, weeks if needed.</p>
+fail to provide food and basic needs, we'd probably have much bigger problem than food (electricity, sewage, hygiene, lack of healthcare etc.). Without food, we can technically survive for a fairly long time, weeks if needed.</p>
 
       
       

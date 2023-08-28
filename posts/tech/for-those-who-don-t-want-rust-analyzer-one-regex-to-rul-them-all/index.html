@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-28T13:07:33.288Z';
+        const searchIndexDate = '2023-08-28T13:07:39.333Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:07:33.288Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-08-28T13:07:39.333Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:07:33.288Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-28T13:07:39.333Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -805,11 +805,7 @@
       </header>
       
       
-      <p>+++<br>
-title = &quot;For Those Who Don't Want <code>rust-analyzer</code>: One Regex to Rule Them All&quot;<br>
-date = 2021-09-10<br>
-+++</p>
-<p>I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked<br>
+      <p>I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked<br>
 me to share my Rust setup in <code>vs-code</code> for finding symbols and jumping to references. Before<br>
 answering a simple &quot;I use <code>rust-analyzer as well</code>&quot;, I looked into the video and I realized that I,<br>
 indeed, was not using it at the time. A long time before that video was recorded, I had given up on<br>
@@ -848,7 +844,7 @@ would have this ready for me in the global search, with regex mode available:</p
 </code></pre>
 <p>This allowed me to quickly go from: I have type name <code>Foo</code> in my <em>head</em>, I want to find its<br>
 definition real quick.</p>
-<p><img src="/posts/regex1.gif" alt="picture"></p>
+<p><img src="/img/user/resources/regex1.gif" alt="regex1.gif"></p>
 <p>But, one of the greatest magics of any IDE or <code>rust-analyzer</code> is that you get that juicy <em>jump to<br>
 definition</em>, and I could not yet mimic that, but at least tried! The next shortcut will allow you to<br>
 do exactly the same thing as the previous shortcut, but do it for the current highlighted keyword:</p>
@@ -868,7 +864,7 @@ do exactly the same thing as the previous shortcut, but do it for the current hi
 </code></pre>
 <p>And then in the search result page, the default <em>Jump to Definition</em> would just work, which you can<br>
 configure again to be any key that you want.</p>
-<p><img src="/posts/regex2.gif" alt="picture"></p>
+<p><img src="/img/user/resources/regex2.gif" alt="regex2.gif"></p>
 <h3 id="bonus-shortcuts-to-navigate-the-results" tabindex="-1">Bonus: shortcuts to navigate the results</h3>
 <p>Over time, I learned that shortcuts to navigate through both local and global search are super<br>
 useful. You can already see me use them in the previous gif. Highly recommended to set them to a<br>
