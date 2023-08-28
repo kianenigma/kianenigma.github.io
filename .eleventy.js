@@ -32,6 +32,7 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
 const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setPathPrefix("/kianenigma/");
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
@@ -376,7 +377,7 @@ module.exports = function (eleventyConfig) {
       />`;
       imageTag.innerHTML = html;
     }
-    
+
 
   eleventyConfig.addTransform("picture", function (str) {
     const parsed = parse(str);
@@ -458,7 +459,7 @@ module.exports = function (eleventyConfig) {
     ul: true,
     tags: ["h1", "h2", "h3", "h4", "h5", "h6"],
   });
- 
+
 
   eleventyConfig.addFilter("dateToZulu", function (date) {
     if (!date) return "";
