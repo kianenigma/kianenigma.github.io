@@ -1,16 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/"}
+{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"","updated":""}
 ---
 
 
-+++
-title = "My Thoughts On Iran's Political Situation in 2022"
-date = 2022-10-19
-+++
-
 > I started writing this on 27th of September 2022 and ever since the situation, and my opinion has slightly changed.
 
-# What I intend to do here
+## What I intend to do here
 
 Breezing over Iran's social media and news these days, the environment is filled with emotions. Opinions are flying by, with everyone telling what others ought to have done or said. I understand why that could be, but I want to insist that I am not here to convince anyone of anything. I am merely writing down some opinions I hold for the sake of posterity.
 
@@ -32,9 +27,7 @@ This situation has led me and my opinions on the matter to be somewhat disconnec
 Thirdly, to put it shortly, I am not a fan of acting **emotionally** under any circumstance in life, and you should be able to see traces of this in most of my comments. I strongly think we, as humans, both individually and collectively, come to better conclusions if we think less emotional and more rational. If you think otherwise, we can agree to disagree on many things.
 
 Lastly, if I ever share this writing on social media, while I agree that anyone is allowed to disagree, criticize or attack my opinion, I hardly see social media as the proper medium to do so (about which I [recently tweeted](https://twitter.com/kianenigma/status/1582062916257607680?s=20&t=KfetvLBaqLJ8EQSYav3zRw), Ironically). Instead , I would love to discuss comments in a longer format elsewhere.
-
-
-# Where I am coming from
+## Where I am coming from
 
 First, let's establish who I am and where I am coming from. I am raised in a fairly open-minded middle/upper class family in Iran. I was never highly exposed to Iran's brainwashing propaganda, Islam, or anything like that. I always distinguished Iran's regime as an un-rightful suppressive one. That being said, I must also confess that I was never directly annoyed by this regime either. Even though my teenage years was the start of the decline of Iran, I was mostly capable of having a good life. This was in part due to my family's above-average financial situation (which was deteriorating at the time), and the fact that I studied compute engineering, I liked it, and put a lot of effort into it. Consequently, there was plenty of job opportunities for me as a student, earning at least some money. In some sense, while some of my friends were in a "there's nothing to achieve in this country" mentality back in e.g. 2015, I was happily swimming against the current. *To some extent*, I hold the same opinion today as well.
 
@@ -45,8 +38,7 @@ Next, looking at where I am now, writing this. I have been away from Iran for al
 lastly, I have, over the years, never really benefited particularly from Iran's regime, or never really grown fond of it in any way either. I did believe in the reformist movement of Iran a decade ago (and perhaps even today consider it the better choice between "bad and worse"), but all in all I don't see have any reason to defend Iran's government and regime. For the remainder of this writing, if I criticize the *opposition* of Iran, please be aware that I do **not** mean to imply any sort of approval for the existing order.
 
 All in all, I consider myself to be in a spot where I can cast an **unemotional opinion** on the situation of Iran, which I find rather unique. To recap, I am neither benefiting from nor directly harmed the current regime in Iran. I follow the news, but not enough such that I can't keep both feet on the ground. I entirely agree with the *reasons* that the people on the street protesting have, but I don't share the *emotions* with them as much. Whether an opinion coming from such a position like mine is worthy of anything or not, is up to you.
-
-# The Good
+## The Good
 
 The uprising of Iran is the consequences of what the current regime has done over the last few decades. It is not the first of its kind either, and and there has been periodic events such as this one [ever since 2009's green movement](https://en.wikipedia.org/wiki/Iranian_Green_Movement), if not earlier. The living conditions in Iran have declines rapidly over the years, the international presence have gotten worse and worse. All of this justifies a "change", and is not anyone's wish to see it continue.
 
@@ -56,9 +48,9 @@ Admittedly, I don't want to talk about the "Good" part much further, because it 
 
 But, now I want to think aloud about some of the more problematic parts. There are certain things that worries me about this, so called, revolution in Iran, and I want to discuss them for the rest of this post. I should apologize for my, perhaps hard to read, criticism. I understand that this might not be pleasant to read, and I hope you understand that it is being written out of concern, with a good intention.
 
-# The Bad
+## The Bad
 
-## Whatever you want to do, you will do it better if you have a calm mind.
+### Whatever you want to do, you will do it better if you have a calm mind.
 
 I sometimes see a narrative that is proudly and boldly spreading "look how miserable I am because of this", and is harshly criticizing anyone who dares to say to say "yeah, times are hard, but I am doing okay".
 
@@ -69,12 +61,9 @@ It is entirely understandable that certain people might have a hard(er) time cop
 
 So, while times are hard, I think we should embrace wellbeing more, and support each other to all feel better, less affected, and less unhappy about the situation, while combating it. Then, we would both feel better as individuals, and I hope we can come to a better outcome collectively.
 
-## There is nothing exciting about the violence involved.
+### There is nothing exciting about the violence involved.
 
-<video width="100%" controls>
-  <source src="/rings-of-power.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![[rings-of-power.mp4]]
 
 I was recently told by a very close acquaintance of mine: "Yeah, if you feel down, I can send you this video where the people beat the shit out of that other guy (the other guy being a ["basiji"](https://en.wikipedia.org/wiki/Basij)), see it and you feel better".
 
@@ -89,8 +78,7 @@ Lastly, I think this will set a very grim precedence for what the Iran's 2022 Re
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0FfJGfhIOiWjTgyKMk2djv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 > We only seem to respond in kind, an eye for an eye only leaves us blind.
-
-## Mob Mentality. Radical Polarization
+### Mob Mentality. Radical Polarization
 
 I am seeing a mirror of something that you can also see in the western world, one that I respectfully disagree with, in Iran as well. Namely, a mob mentality of loud people on social media, roaming around telling others what they should say, think, post, and hashtag, and what not. This, in effect, creates a sense of fear, where individuals feel the fear of being left out if they don't join the mob, i.e. if they also don't share the same hashtag, or buy into the same opinion.  This approach is being weaponized by both the right and left-wing political movements of modern western nations as well.
 
@@ -106,7 +94,7 @@ Finishing this with quoting my humble self in a friendly discussion I had with m
 
 > but if we imagine ourself in a position where we can dictate to other what to do, what to say and what to think, we are not much better than that which we are fighting against.
 
-## Consequences matter. Things *could* get worse.
+### Consequences matter. Things *could* get worse.
 
 "anything is better than this" is how most people of Iran think of the existing order. Similarly, I hear "we should first focus on abolishing the existing order and then think about what could replace it".
 
@@ -114,15 +102,15 @@ while I do see where it comes from, I think it is worrying and slightly short-si
 
 Interestingly, I recently learned (through the amazing book Perspolis) how the 57 revolution of Iran was hijacked by one of the forces behind it, namely the Shia clerics, and for many people it did not have the outcome that they intended. With the short-sightedness thinking of the existing movement, I see the possibility of something like this happening being even more. Interestingly, I do recall people arguing, in tweets, that the current revolution of Iran being leaderless and short-sighted is actually a good thing, but I have not seen a convincing debate about it.
 
-# The Ugly
+## The Ugly
 
-## Failure to fix Iran in a peaceful way is a both way failure, not just on them.
+### Failure to fix Iran in a peaceful way is a both way failure, not just on them.
 
 If this revolution succeeds, it will be the win for a group of people (those who supported it), a lose for those who wanted to stop it, and a failure for all of us as a whole, because we failed to put our differences aside and collaborate in a peaceful way.
 
 Yes, the side that currently has the power is more responsible, but this is absolutely a two-way situation. We should remember our failure just as we should remember our victories, and hopefully learn from them.
 
-## Change the game, not the team
+### Change the game, not the team
 
 I am worried that, if this revolution succeeds, we are removing a radical, oppressive, intolerant *islamic* regime, and replace it with a radical, oppressive, intolerant regime. If we are to avoid this, I strongly think that we should *think differently*. We should not take the same set of rules, and change verbs and nouns in them. We should change the rule itself. For if the rule is flawed, it is only a matter of time until you are again back on the side of it where you don't approve of it.
 
@@ -130,7 +118,7 @@ A simple example of this is being oppressive. The current regime is oppressive t
 
 The meta-problem at hand is that we are constantly failing to come to a consensus as a society. This is a problem that exist in Iran today, and trust me, it exist in most developed countries as well. It is only the subject that is different between the two. If we play by the same rule, we are not fixing these meta-problems. People will change, and will fail to agree to one another on other topics as well. The consequences might not be severe as the total disaster that the Islamic Republic as left behind, but the issue will nonetheless be there.
 
-## Existential doubt: What justifies one opinion to be right over the other?
+### Existential doubt: What justifies one opinion to be right over the other?
 
 A brainwashed woman in Iran is willing to live a hard economic life, not taste any freedom, and she wishes for the current regime to survive, so that she can live happily in her bubble. If the regime goes away, should would certainly feel miserable.
 
@@ -152,7 +140,7 @@ But I think it is crucially important remind ourselves that in the mind of the b
 
 This does not change anything about the state of Iran being an absolute nightmare. But at least to me, it has given a new perspective on how I look at others, specially those who don't share the same opinion as me.
 
-## Final Thoughts: Some Hard Questions
+### Final Thoughts: Some Hard Questions
 
 I will finish my first draft with some questions that I think are thought provoking.
 
@@ -161,6 +149,5 @@ Assuming the revolution succeeds. Think about the following:
 - What will our history books say? How will we depict the Islamic state that once ruled Iran. Will we be any different toward them, than how they depicted the Pahlavi kingdom?
 - How many opinions and thoughts are going to be indoctrinated and become unquestionable in the post-revolution Iran?
 - How many people will be executed?
-
 
 [^1]: Although highly questionable as well, as many studies link social media to more depression and isolation.
