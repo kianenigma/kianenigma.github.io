@@ -1,12 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/"}
+{"dg-publish":true,"permalink":"/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/","created":"","updated":""}
 ---
 
-
-+++
-title = "For Those Who Don't Want `rust-analyzer`: One Regex to Rule Them All"
-date = 2021-09-10
-+++
 
 I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked
 me to share my Rust setup in `vs-code` for finding symbols and jumping to references. Before
@@ -56,7 +51,7 @@ would have this ready for me in the global search, with regex mode available:
 This allowed me to quickly go from: I have type name `Foo` in my *head*, I want to find its
 definition real quick.
 
-![picture](/posts/regex1.gif)
+![regex1.gif](/img/user/resources/regex1.gif)
 
 But, one of the greatest magics of any IDE or `rust-analyzer` is that you get that juicy *jump to
 definition*, and I could not yet mimic that, but at least tried! The next shortcut will allow you to
@@ -81,9 +76,7 @@ do exactly the same thing as the previous shortcut, but do it for the current hi
 And then in the search result page, the default *Jump to Definition* would just work, which you can
 configure again to be any key that you want.
 
-![picture](/posts/regex2.gif)
-
-
+![regex2.gif](/img/user/resources/regex2.gif)
 ### Bonus: shortcuts to navigate the results
 
 Over time, I learned that shortcuts to navigate through both local and global search are super
