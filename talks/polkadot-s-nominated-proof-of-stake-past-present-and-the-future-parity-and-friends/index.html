@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -80,6 +80,7 @@
     
   </head>
   <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section ">
+    
     
     
       
@@ -284,7 +285,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
                 </div>
             
         </div>
@@ -384,7 +385,7 @@
     
         <div x-show="isOpen" style="display:none" class="">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">Home </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">Home </a>
                 </div>
             
         </div>
@@ -394,6 +395,7 @@
     </div>
 
     
+
     
       <div class="search-container" id="globalsearch" onclick="toggleSearch()">
     <div class="search-box">
@@ -798,26 +800,22 @@
     }
 </script>
     
+
     <main class="content cm-s-obsidian ">
       <header>
-      
-        <h1></h1>
-      
-
-      <div class="header-meta">
         
-      </div>
+          <h1 data-note-icon="">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends</h1>
+        
+        <div class="header-meta">
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2021-06-03"></span></div></div></div>
       
       
       </header>
       
       
-      <ul>
-<li>🦀 Rust Developer <a href="https://twitter.com/ParityTech/" target="_blank" class="external-link">@paritytech</a>.</li>
-<li>📚 Parallel and Distributed Systems Msc. Student at <a href="https://twitter.com/VUamsterdam" target="_blank" class="external-link">Vrije Universiteit Amsterdam</a>.</li>
-<li>🔴 <a href="polkadot.network" target="_blank" class="external-link">Polkadot</a> Fellow.</li>
-</ul>
-<p><a href="https://github.com/kianenigma" target="_blank" class="external-link">Github</a> | <a href="https://twitter.com/kianenigma" target="_blank" class="external-link">Twitter</a> (inactive) | <a href="https://www.linkedin.com/in/kian-paimani-a3618022b/" target="_blank" class="external-link">Linkedin</a> (inactive) |</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OZpQ2FouDOU" title="YouTube video player"
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+	allowfullscreen></iframe>
 
       
       
@@ -1002,6 +1000,39 @@
 </script>
 
     
+        <script>
+      if (window.location.hash) {
+        document.getElementById(window.location.hash.slice(1)).classList.add('referred');
+      }
+      window.addEventListener('hashchange', (evt) => {
+        const oldParts = evt.oldURL.split("#");
+        if (oldParts[1]) {
+          document.getElementById(oldParts[1]).classList.remove('referred');
+        }
+        const newParts = evt.newURL.split("#");
+        if (newParts[1]) {
+          document.getElementById(newParts[1]).classList.add('referred');
+        }
+      }, false);
+      const url_parts = window.location.href.split("#")
+      const url = url_parts[0];
+      const referrence = url_parts[1];
+      document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function (el) {
+        el.ondblclick = function(evt) {
+          const ref_url = url + '#' + evt.target.id
+          navigator.clipboard.writeText(ref_url);
+      }
+      });
+
+      
+    </script>
+    <script src=" https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js "></script>
+<script defer>
+    TIMESTAMP_FORMAT = "MMM dd, yyyy";
+    document.querySelectorAll('.human-date').forEach(function (el) {
+        el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
+      });
+</script>
     
     
     <script>
@@ -1011,5 +1042,5 @@ lucide.createIcons({
             }
         });
 </script>
-    </body>
-  </html>
+  </body>
+</html>
