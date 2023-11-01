@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/persian-polkadot-seminar-for-rust-iran-community/","created":"2022-09-11T13:54:41.817+02:00","updated":"2023-08-28T15:05:20.872+02:00"}
+{"dg-publish":true,"permalink":"/talks/persian-polkadot-seminar-for-rust-iran-community/","created":"2022-09-11T12:54:41.817+01:00","updated":"2023-08-28T14:05:20.872+01:00"}
 ---
 
 
