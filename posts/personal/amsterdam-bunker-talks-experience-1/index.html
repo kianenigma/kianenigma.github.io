@@ -539,7 +539,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-11-01T20:21:46.377Z';
+        const searchIndexDate = '2023-11-01T20:28:01.719Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -551,9 +551,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T20:21:46.377Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T20:28:01.719Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T20:21:46.377Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T20:28:01.719Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -819,23 +819,7 @@ atheist. And I know living in Iran must have been hard for him. And maybe at som
 danger, sure do whatever you find best. But that aside, when was the last time that you treated<br>
 someone who was doing something &quot;<em>wrong in your opinion</em>&quot; with such a mindset?</p>
 <p>70 years ago, we were about to bring about WW2. And do you really think we have gotten better over the last 70 years, as species, with a higher level of consciousness, or are we the same, except we don't go to wars anymore because we have too much at stake?</p>
-<p><picture src="/img/user/resources/vipassana.jpeg" alt="vipassana.jpeg"><source       media="(max-width:480px)"
-      srcset="/img/optimized/xvY55VZzr7-500.webp"
-      type="image/webp"
-      >
-      <source       media="(max-width:480px)"
-      srcset="/img/optimized/xvY55VZzr7-500.jpeg"
-      >
-      <source         media="(max-width:1920px)"
-        srcset="/img/optimized/xvY55VZzr7-700.webp"
-        type="image/webp"
-        ><source         media="(max-width:1920px)"
-        srcset="/img/optimized/xvY55VZzr7-700.jpeg"
-        ><img       class=""
-      src="/img/user/resources/vipassana.jpeg"
-      alt="vipassana.jpeg"
-      width=""
-      ></picture></p>
+<p><img src="/img/user/resources/vipassana.jpeg" alt="vipassana.jpeg"></p>
 
       
       
