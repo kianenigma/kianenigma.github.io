@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2022-10-20T00:09:16.937+02:00","updated":"2023-08-28T14:57:08.215+02:00"}
+{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2022-10-19T23:09:16.937+01:00","updated":"2023-08-28T13:57:08.215+01:00"}
 ---
 
 
