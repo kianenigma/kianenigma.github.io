@@ -548,7 +548,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-11-01T21:23:05.888Z';
+        const searchIndexDate = '2023-11-01T21:24:06.518Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -560,9 +560,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T21:23:05.888Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T21:24:06.518Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T21:23:05.888Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T21:24:06.518Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -814,8 +814,9 @@
 <li>Kusama Address: <code>HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1</code></li>
 </ul>
 </li>
+<li>Often find online with the name <code>kianenigma</code>.</li>
 </ul>
-<p><a href="https://github.com/kianenigma" target="_blank" class="external-link">Github</a> | <a href="https://twitter.com/kianenigma" target="_blank" class="external-link">Twitter</a> (inactive) | <a href="https://www.linkedin.com/in/kian-paimani-a3618022b/" target="_blank" class="external-link">Linkedin</a> (inactive) |</p>
+<p><a href="https://github.com/kianenigma" target="_blank" class="external-link">Github</a> | <a href="https://twitter.com/kianenigma" target="_blank" class="external-link">Twitter</a>  | <a href="https://www.linkedin.com/in/kian-paimani-a3618022b/" target="_blank" class="external-link">Linkedin</a> (inactive) |</p>
 
       
       
