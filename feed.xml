@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://blog.kianenigma.nl">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://blog.kianenigma.nl/">
     <title>Kian Paimani</title>
-    <link href="https://blog.kianenigma.nl/feed.xml" rel="self" />
-    <link href="https://blog.kianenigma.nl" />
-    <updated>2023-11-01T20:55:42Z</updated>
-    <id>https://blog.kianenigma.nl</id>
+    <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
+    <link href="https://blog.kianenigma.nl/" />
+    <updated>2023-11-01T20:56:15Z</updated>
+    <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
                 Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends
                 
             </title>
             <updated>2023-08-28T13:03:35.281Z</updated>
-            <id>https://blog.kianenigma.nl/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/</id>
+            <id>https://blog.kianenigma.nl//talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/</id>
             <content type="html">
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OZpQ2FouDOU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/" />
+            <link href="https://blog.kianenigma.nl//talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/" />
         </entry>
         <entry>
             <title>
@@ -24,12 +24,12 @@
                 
             </title>
             <updated>2023-08-28T13:03:26.846Z</updated>
-            <id>https://blog.kianenigma.nl/talks/phragmen-and-the-n-po-s-problem-sub0-online/</id>
+            <id>https://blog.kianenigma.nl//talks/phragmen-and-the-n-po-s-problem-sub0-online/</id>
             <content type="html">
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H9OvpAOebTs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/talks/phragmen-and-the-n-po-s-problem-sub0-online/" />
+            <link href="https://blog.kianenigma.nl//talks/phragmen-and-the-n-po-s-problem-sub0-online/" />
         </entry>
         <entry>
             <title>
@@ -37,12 +37,12 @@
                 
             </title>
             <updated>2023-08-28T13:03:15.168Z</updated>
-            <id>https://blog.kianenigma.nl/talks/phragmen-overview-substrate-seminar/</id>
+            <id>https://blog.kianenigma.nl//talks/phragmen-overview-substrate-seminar/</id>
             <content type="html">
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MjOvVhc1oXw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/talks/phragmen-overview-substrate-seminar/" />
+            <link href="https://blog.kianenigma.nl//talks/phragmen-overview-substrate-seminar/" />
         </entry>
         <entry>
             <title>
@@ -50,12 +50,12 @@
                 
             </title>
             <updated>2023-08-28T13:03:03.765Z</updated>
-            <id>https://blog.kianenigma.nl/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/</id>
+            <id>https://blog.kianenigma.nl//talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/</id>
             <content type="html">
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6omrrY11HEg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/" />
+            <link href="https://blog.kianenigma.nl//talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/" />
         </entry>
         <entry>
             <title>
@@ -63,12 +63,12 @@
                 
             </title>
             <updated>2023-08-28T13:03:43.640Z</updated>
-            <id>https://blog.kianenigma.nl/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/</id>
+            <id>https://blog.kianenigma.nl//talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/</id>
             <content type="html">
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_wjAYivFQBU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/" />
+            <link href="https://blog.kianenigma.nl//talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/" />
         </entry>
         <entry>
             <title>
@@ -76,12 +76,12 @@
                 
             </title>
             <updated>2023-08-28T13:02:32.955Z</updated>
-            <id>https://blog.kianenigma.nl/talks/persian-random-rust-video-tutorials/</id>
+            <id>https://blog.kianenigma.nl//talks/persian-random-rust-video-tutorials/</id>
             <content type="html">
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLH9G_m3SzhWvPqP2eF-aHikD1Q6wU4EOW&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/talks/persian-random-rust-video-tutorials/" />
+            <link href="https://blog.kianenigma.nl//talks/persian-random-rust-video-tutorials/" />
         </entry>
         <entry>
             <title>
@@ -89,12 +89,12 @@
                 
             </title>
             <updated>2023-08-28T13:05:20.872Z</updated>
-            <id>https://blog.kianenigma.nl/talks/persian-polkadot-seminar-for-rust-iran-community/</id>
+            <id>https://blog.kianenigma.nl//talks/persian-polkadot-seminar-for-rust-iran-community/</id>
             <content type="html">
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f6k7TFyQUdM?si=zHgBXb1kNGFdlH1o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/talks/persian-polkadot-seminar-for-rust-iran-community/" />
+            <link href="https://blog.kianenigma.nl//talks/persian-polkadot-seminar-for-rust-iran-community/" />
         </entry>
         <entry>
             <title>
@@ -102,7 +102,7 @@
                 
             </title>
             <updated>2023-08-31T13:41:53.429Z</updated>
-            <id>https://blog.kianenigma.nl/posts/tech/the-10x-developer-myth-all-about-keyboard/</id>
+            <id>https://blog.kianenigma.nl//posts/tech/the-10x-developer-myth-all-about-keyboard/</id>
             <content type="html">
                 &lt;h2 id=&quot;theory&quot; tabindex=&quot;-1&quot;&gt;Theory&lt;/h2&gt;
 &lt;p&gt;Recently, I engaged in a few discussions about optimal use of editors and keyboard shortcuts with new team members. It eventually inspired me to write this short article, asserting that while this &lt;a href=&quot;https://medium.com/ingeniouslysimple/the-origins-of-the-10x-developer-2e0177ecef60&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;10x developer&amp;quot;&lt;/a&gt; idea is for the most part about keyboard shortcuts. In other words, while I think developers also vary in terms of how they think about problems, and their cognitive abilities, 90% of the time, the ones that stood out among others, and are sometimes as much as 10 time more &amp;quot;&lt;em&gt;productive&lt;/em&gt;&amp;quot;, are simply better at the &lt;em&gt;craft&lt;/em&gt;. Any I think 99% of the craft of programming revolves around the relationship between you and your keyboard.&lt;/p&gt;
@@ -213,7 +213,7 @@
 &lt;p&gt;All in all, there&#39;s not much new that I am saying here. Most of these shortcuts and operations are already known. The main argument is: &amp;quot;Use the keyboard!&amp;quot; 😅.&lt;/p&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/posts/tech/the-10x-developer-myth-all-about-keyboard/" />
+            <link href="https://blog.kianenigma.nl//posts/tech/the-10x-developer-myth-all-about-keyboard/" />
         </entry>
         <entry>
             <title>
@@ -221,7 +221,7 @@
                 
             </title>
             <updated>2023-08-31T13:47:27.605Z</updated>
-            <id>https://blog.kianenigma.nl/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/</id>
+            <id>https://blog.kianenigma.nl//posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/</id>
             <content type="html">
                 &lt;p&gt;I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked me to share my Rust setup in &lt;code&gt;vs-code&lt;/code&gt; for finding symbols and jumping to references. Before answering a simple &amp;quot;I use &lt;code&gt;rust-analyzer as well&lt;/code&gt;&amp;quot;, I looked into the video and I realized that I, indeed, was not using it at the time. A long time before that video was recorded, I had given up on using rust-analyzer for substrate because simply it was such a massive mono-repo that even &lt;em&gt;without&lt;/em&gt; any &lt;code&gt;CheckOnSave&lt;/code&gt;, or overwriting the &lt;code&gt;check&lt;/code&gt; command to use &lt;code&gt;cargo-remote&lt;/code&gt;, it was too much for my laptop to handle.&lt;/p&gt;
 &lt;p&gt;At that point, I developed two simple regex-based shortcuts to fill the gap for me, and I want to&lt;br /&gt;
@@ -302,7 +302,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
 &lt;/code&gt;&lt;/pre&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/" />
+            <link href="https://blog.kianenigma.nl//posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/" />
         </entry>
         <entry>
             <title>
@@ -310,7 +310,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 
             </title>
             <updated>2023-08-28T12:57:08.215Z</updated>
-            <id>https://blog.kianenigma.nl/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/</id>
+            <id>https://blog.kianenigma.nl//posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/</id>
             <content type="html">
                 &lt;blockquote&gt;
 &lt;p&gt;I started writing this on 27th of September 2022 and ever since the situation, and my opinion has slightly changed.&lt;/p&gt;
@@ -416,7 +416,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
 &lt;/section&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/" />
+            <link href="https://blog.kianenigma.nl//posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/" />
         </entry>
         <entry>
             <title>
@@ -424,7 +424,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 
             </title>
             <updated>2023-08-28T12:48:00.631Z</updated>
-            <id>https://blog.kianenigma.nl/posts/personal/an-open-letter-to-panic-buyers/</id>
+            <id>https://blog.kianenigma.nl//posts/personal/an-open-letter-to-panic-buyers/</id>
             <content type="html">
                 &lt;blockquote&gt;
 &lt;p&gt;I wrote and twitted this in the midst of the first wave of the Covid-19 outbreak in 2020.&lt;/p&gt;
@@ -445,7 +445,7 @@ example country above can produce 80 or less) as well. But we are not there yet.
 fail to provide food and basic needs, we&#39;d probably have much bigger problem than food (electricity, sewage, hygiene, lack of healthcare etc.). Without food, we can technically survive for a fairly long time, weeks if needed.&lt;/p&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/posts/personal/an-open-letter-to-panic-buyers/" />
+            <link href="https://blog.kianenigma.nl//posts/personal/an-open-letter-to-panic-buyers/" />
         </entry>
         <entry>
             <title>
@@ -453,7 +453,7 @@ fail to provide food and basic needs, we&#39;d probably have much bigger problem
                 
             </title>
             <updated>2023-08-28T12:47:12.456Z</updated>
-            <id>https://blog.kianenigma.nl/posts/personal/an-open-letter-to-javad-zarif/</id>
+            <id>https://blog.kianenigma.nl//posts/personal/an-open-letter-to-javad-zarif/</id>
             <content type="html">
                 &lt;blockquote&gt;
 &lt;p&gt;I wrote comment in Iran&#39;s contemporary Minister of Foreign Affairs, &lt;a href=&quot;https://en.wikipedia.org/wiki/Mohammad_Javad_Zarif&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Javad&lt;br /&gt;
@@ -470,7 +470,7 @@ tone though:&lt;/p&gt;
 &lt;p&gt;You are a smart man. Perhaps among the only Iranian politicians in whom there is a spark of realism. Pull your head out of your ass, stop being delusional, stop lying, and start fixing something, before more harm as been done to this nation, who&#39;s lonelier than ever.&lt;/p&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/posts/personal/an-open-letter-to-javad-zarif/" />
+            <link href="https://blog.kianenigma.nl//posts/personal/an-open-letter-to-javad-zarif/" />
         </entry>
         <entry>
             <title>
@@ -478,7 +478,7 @@ tone though:&lt;/p&gt;
                 
             </title>
             <updated>2023-08-28T12:51:10.493Z</updated>
-            <id>https://blog.kianenigma.nl/posts/personal/amsterdam-bunker-talks-experience-1/</id>
+            <id>https://blog.kianenigma.nl//posts/personal/amsterdam-bunker-talks-experience-1/</id>
             <content type="html">
                 &lt;p&gt;Some time ago I went to a &lt;em&gt;BunkerTalk&lt;/em&gt; in Amsterdam about Iran&#39;s political situation and human right issues. The words that are being said in such events should be pretty clear to you, so I will&lt;br /&gt;
 rephrase it in the easiest possible:&lt;/p&gt;
@@ -508,7 +508,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/vipassana.jpeg&quot; alt=&quot;vipassana.jpeg&quot; /&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/posts/personal/amsterdam-bunker-talks-experience-1/" />
+            <link href="https://blog.kianenigma.nl//posts/personal/amsterdam-bunker-talks-experience-1/" />
         </entry>
         <entry>
             <title>
@@ -516,7 +516,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 
             </title>
             <updated>2023-11-01T20:53:13.166Z</updated>
-            <id>https://blog.kianenigma.nl/</id>
+            <id>https://blog.kianenigma.nl//</id>
             <content type="html">
                 &lt;ul&gt;
 &lt;li&gt;🦀 Rust Developer &lt;a href=&quot;https://twitter.com/ParityTech/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;@paritytech&lt;/a&gt;.&lt;/li&gt;
@@ -531,6 +531,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;p&gt;&lt;a href=&quot;https://github.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Twitter&lt;/a&gt; (inactive) | &lt;a href=&quot;https://www.linkedin.com/in/kian-paimani-a3618022b/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Linkedin&lt;/a&gt; (inactive) |&lt;/p&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl/" />
+            <link href="https://blog.kianenigma.nl//" />
         </entry>
 </feed>
