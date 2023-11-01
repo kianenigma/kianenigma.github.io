@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/","created":"2021-09-12T09:21:31.000+01:00","updated":"2023-08-31T14:47:27.605+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/","noteIcon":"","created":"2021-09-12T09:21:31.000+01:00","updated":"2023-08-31T14:47:27.605+01:00"}
 ---
 
 
