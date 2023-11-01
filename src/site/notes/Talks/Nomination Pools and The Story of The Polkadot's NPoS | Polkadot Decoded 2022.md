@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/","created":"2022-09-11T12:34:09.080+01:00","updated":"2023-08-28T14:03:43.640+01:00"}
+{"dg-publish":true,"permalink":"/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/","noteIcon":"","created":"2022-09-11T12:34:09.080+01:00","updated":"2023-08-28T14:03:43.640+01:00"}
 ---
 
 
