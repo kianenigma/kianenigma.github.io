@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/thoughts-blockchain-and-blockspace-scalability/","tags":["polkadot","blockchain"],"noteIcon":"","created":"2023-11-01T20:57:28.378+00:00","updated":"2023-11-01T21:03:06.298+00:00"}
+{"dg-publish":true,"permalink":"/posts/tech/thoughts-blockchain-and-blockspace-scalability/","tags":["polkadot","blockchain"],"created":"2023-11-01T20:57:28.378+00:00","updated":"2023-11-01T21:05:10.798+00:00"}
 ---
 
-> Originally published in the [Polkadot forum](https://forum.polkadot.network/t/tellling-the-story-of-the-game-theory-behind-frame-pallets/2282/12?u=kianenigma)
+> Originally published in the [Polkadot forum](https://forum.polkadot.network/t/tellling-the-story-of-the-game-theory-behind-frame-pallets/2282/12?u=kianenigma).
 
 While thinking about a tutorial idea about FRAME, and came up with an interesting example that showcases/categorizes the **scalability issue** in blockchains, which is somewhat entangled with game theory. Here it goes. 
 
