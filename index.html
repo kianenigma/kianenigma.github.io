@@ -548,7 +548,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-11-01T21:06:38.342Z';
+        const searchIndexDate = '2023-11-01T21:22:59.155Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -560,9 +560,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T21:06:38.342Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T21:22:59.155Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T21:06:38.342Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T21:22:59.155Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -804,7 +804,8 @@
       </header>
       
       
-      <ul>
+      <p><img src="/img/user/Screenshot%202023-11-01%20at%2021.21.06.jpeg" alt="Screenshot 2023-11-01 at 21.21.06.jpeg"></p>
+<ul>
 <li>🦀 Rust Developer <a href="https://twitter.com/ParityTech/" target="_blank" class="external-link">@paritytech</a>.</li>
 <li>📚 Parallel and Distributed Systems Msc. Student at <a href="https://twitter.com/VUamsterdam" target="_blank" class="external-link">Vrije Universiteit Amsterdam</a>.</li>
 <li>🔴 <a href="https://www.polkadot.network" target="_blank" class="external-link">Polkadot</a> Fellow.
