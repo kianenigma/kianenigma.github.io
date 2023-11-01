@@ -206,7 +206,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran_s Political Situation in 2022 </a>
+                <div @click.stop class="notelink "><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran&#39;s Political Situation in 2022 </a>
                 </div>
             
         </div>
@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-11-01T21:04:04.789Z';
+        const searchIndexDate = '2023-11-01T21:06:38.342Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T21:04:04.789Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T21:06:38.342Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T21:04:04.789Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T21:06:38.342Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -799,14 +799,14 @@
           <h1 data-note-icon="">Thoughts Blockchain and Blockspace Scalability</h1>
         
         <div class="header-meta">
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2023-11-01T20:57:28.378+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2023-11-01T21:03:06.298+00:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2023-11-01T20:57:28.378+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2023-11-01T21:05:10.798+00:00"></span></div></div></div>
       
       
       </header>
       
       
       <blockquote>
-<p>Originally published in the <a href="https://forum.polkadot.network/t/tellling-the-story-of-the-game-theory-behind-frame-pallets/2282/12?u=kianenigma" target="_blank" class="external-link">Polkadot forum</a></p>
+<p>Originally published in the <a href="https://forum.polkadot.network/t/tellling-the-story-of-the-game-theory-behind-frame-pallets/2282/12?u=kianenigma" target="_blank" class="external-link">Polkadot forum</a>.</p>
 </blockquote>
 <p>While thinking about a tutorial idea about FRAME, and came up with an interesting example that showcases/categorizes the <strong>scalability issue</strong> in blockchains, which is somewhat entangled with game theory. Here it goes.</p>
 <p>Imagine a simple validator selection system whereby:</p>
