@@ -270,36 +270,6 @@
     
         <div x-show="isOpen" style="display:none" class="">
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('talks')}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
-                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
-                    <span class="foldername">talks</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-    
-        <div x-show="isOpen" style="display:none" class="">
-            
                 <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Talks')}" @click.stop="isOpen=!isOpen">
                     <div class="foldername-wrapper align-icon">
                     <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
@@ -371,6 +341,17 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/phragmen-overview-substrate-seminar/">Phragmen Overview | Substrate Seminar </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
                 </div>
             
         </div>
@@ -558,7 +539,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-08-31T13:45:44.128Z';
+        const searchIndexDate = '2023-11-01T20:21:46.377Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -570,9 +551,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-08-31T13:45:44.128Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T20:21:46.377Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-08-31T13:45:44.128Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T20:21:46.377Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -807,28 +788,17 @@
           <h1 data-note-icon="">For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all</h1>
         
         <div class="header-meta">
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2021-09-12T10:21:31.000+02:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2023-08-28T15:00:29.597+02:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2021-09-12T09:21:31.000+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2023-08-31T14:47:27.605+01:00"></span></div></div></div>
       
       
       </header>
       
       
-      <p>I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked<br>
-me to share my Rust setup in <code>vs-code</code> for finding symbols and jumping to references. Before<br>
-answering a simple &quot;I use <code>rust-analyzer as well</code>&quot;, I looked into the video and I realized that I,<br>
-indeed, was not using it at the time. A long time before that video was recorded, I had given up on<br>
-using rust-analyzer for substrate because simply it was such a massive mono-repo that even <em>without</em><br>
-any <code>CheckOnSave</code>, or overwriting the <code>check</code> command to use <code>cargo-remote</code>, it was too much for my<br>
-laptop to handle.</p>
+      <p>I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked me to share my Rust setup in <code>vs-code</code> for finding symbols and jumping to references. Before answering a simple &quot;I use <code>rust-analyzer as well</code>&quot;, I looked into the video and I realized that I, indeed, was not using it at the time. A long time before that video was recorded, I had given up on using rust-analyzer for substrate because simply it was such a massive mono-repo that even <em>without</em> any <code>CheckOnSave</code>, or overwriting the <code>check</code> command to use <code>cargo-remote</code>, it was too much for my laptop to handle.</p>
 <p>At that point, I developed two simple regex-based shortcuts to fill the gap for me, and I want to<br>
 use the reply to this email to share it with a broader audience as well, since there could still be<br>
-many people out there for whom running rust-analyzer is too expensive because of huge repositories,<br>
-or limited hardware resources. So, here it goes!</p>
-<p>First, we need a regex that can match symbols. You probably know where very that the moment that you<br>
-have generics in your code, searching for something like <code>Impl Something for SomethingElse</code> no<br>
-longer works, because there are a lot of generics (<code>&lt;T: ...&gt;</code>) in the same line. I took the fix for<br>
-this (which is just adding <code>&lt;.*?&gt;</code> to your regex search) and expanded it to match as many type<br>
-declarations as possible, among a few other things. At the end, I settled on:</p>
+many people out there for whom running rust-analyzer is too expensive because of huge repositories, or limited hardware resources. So, here it goes!</p>
+<p>First, we need a regex that can match symbols. You probably know where very that the moment that you have generics in your code, searching for something like <code>Impl Something for SomethingElse</code> no longer works, because there are a lot of generics (<code>&lt;T: ...&gt;</code>) in the same line. I took the fix for this (which is just adding <code>&lt;.*?&gt;</code> to your regex search) and expanded it to match as many type declarations as possible, among a few other things. At the end, I settled on:</p>
 <pre><code>(macro_rules!|const|enum|struct|fn|trait|impl(&lt;.*?&gt;)?|type)
 </code></pre>
 <p>But having to paste/type the regex every time is not super nice, so I found a shortcut that<br>
@@ -886,8 +856,7 @@ do exactly the same thing as the previous shortcut, but do it for the current hi
 	&quot;when&quot;: &quot;editorTextFocus&quot;
 }
 </code></pre>
-<p>And then in the search result page, the default <em>Jump to Definition</em> would just work, which you can<br>
-configure again to be any key that you want.</p>
+<p>And then in the search result page, the default <em>Jump to Definition</em> would just work, which you can configure again to be any key that you want.</p>
 <p><picture src="/img/user/resources/regex2.gif" alt="regex2.gif"><source       media="(max-width:480px)"
       srcset="/img/optimized/ZqgGxaJSs7-500.webp"
       type="image/webp"
@@ -905,11 +874,10 @@ configure again to be any key that you want.</p>
       alt="regex2.gif"
       width=""
       ></picture></p>
-<h3 id="bonus-shortcuts-to-navigate-the-results" tabindex="-1">Bonus: shortcuts to navigate the results</h3>
+<hr>
+<p><strong>Bonus: shortcuts to navigate the results</strong></p>
 <p>Over time, I learned that shortcuts to navigate through both local and global search are super<br>
-useful. You can already see me use them in the previous gif. Highly recommended to set them to a<br>
-keyboard shortcut that you can easily remember and readily use. These are the related keyboard<br>
-shortcuts:</p>
+useful. You can already see me use them in the previous gif. Highly recommended to set them to a keyboard shortcut that you can easily remember and readily use. These are the related keyboard shortcuts:</p>
 <pre><code class="language-json">{
 	&quot;key&quot;: &quot;ctrl+'&quot;,
 	&quot;command&quot;: &quot;editor.action.nextMatchFindAction&quot;,
@@ -949,23 +917,6 @@ shortcuts:</p>
 
                   
                         
-                        
-                              <div class="toc">
-                                    <div class="toc-title-container">
-                                          <div class="toc-title">
-                                                On this page
-                                          </div>
-                                    </div>
-                                    <div class="toc-container">
-                                          <nav class="toc">
-                <ol>
-                    
-                    <li><a href="#bonus-shortcuts-to-navigate-the-results">Bonus: shortcuts to navigate the results</a>
-            		</li>
-                </ol>
-            </nav>
-                                    </div>
-                              </div>
                         
 
                   

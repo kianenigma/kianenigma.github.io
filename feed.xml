@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://blog.kianenigma.nl">
+    <title>Kian Paimani</title>
+    <link href="https://blog.kianenigma.nl/feed.xml" rel="self" />
+    <link href="https://blog.kianenigma.nl" />
+    <updated>2023-11-01T20:21:46Z</updated>
+    <id>https://blog.kianenigma.nl</id>
+        <entry>
+            <title>
+                Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends
+                
+            </title>
+            <updated>2023-08-28T13:03:35.281Z</updated>
+            <id>https://blog.kianenigma.nl/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OZpQ2FouDOU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/" />
+        </entry>
+        <entry>
+            <title>
+                Phragmen and The NPoS Problem | Sub0 Online
+                
+            </title>
+            <updated>2023-08-28T13:03:26.846Z</updated>
+            <id>https://blog.kianenigma.nl/talks/phragmen-and-the-n-po-s-problem-sub0-online/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H9OvpAOebTs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/talks/phragmen-and-the-n-po-s-problem-sub0-online/" />
+        </entry>
+        <entry>
+            <title>
+                Phragmen Overview | Substrate Seminar
+                
+            </title>
+            <updated>2023-08-28T13:03:15.168Z</updated>
+            <id>https://blog.kianenigma.nl/talks/phragmen-overview-substrate-seminar/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MjOvVhc1oXw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/talks/phragmen-overview-substrate-seminar/" />
+        </entry>
+        <entry>
+            <title>
+                Offline Phragmen Tool and Substrate Debug Kit | Substrate Seminar
+                
+            </title>
+            <updated>2023-08-28T13:03:03.765Z</updated>
+            <id>https://blog.kianenigma.nl/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6omrrY11HEg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/" />
+        </entry>
+        <entry>
+            <title>
+                Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022
+                
+            </title>
+            <updated>2023-08-28T13:03:43.640Z</updated>
+            <id>https://blog.kianenigma.nl/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_wjAYivFQBU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/" />
+        </entry>
+        <entry>
+            <title>
+                (Persian) Random Rust Video Tutorials
+                
+            </title>
+            <updated>2023-08-28T13:02:32.955Z</updated>
+            <id>https://blog.kianenigma.nl/talks/persian-random-rust-video-tutorials/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLH9G_m3SzhWvPqP2eF-aHikD1Q6wU4EOW&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/talks/persian-random-rust-video-tutorials/" />
+        </entry>
+        <entry>
+            <title>
+                (Persian) Polkadot Seminar for Rust-Iran Community
+                
+            </title>
+            <updated>2023-08-28T13:05:20.872Z</updated>
+            <id>https://blog.kianenigma.nl/talks/persian-polkadot-seminar-for-rust-iran-community/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f6k7TFyQUdM?si=zHgBXb1kNGFdlH1o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/talks/persian-polkadot-seminar-for-rust-iran-community/" />
+        </entry>
+        <entry>
+            <title>
+                The 10x Developer Myth: All About Keyboard
+                
+            </title>
+            <updated>2023-08-31T13:41:53.429Z</updated>
+            <id>https://blog.kianenigma.nl/posts/tech/the-10x-developer-myth-all-about-keyboard/</id>
+            <content type="html">
+                &lt;h2 id=&quot;theory&quot; tabindex=&quot;-1&quot;&gt;Theory&lt;/h2&gt;
+&lt;p&gt;Recently, I engaged in a few discussions about optimal use of editors and keyboard shortcuts with new team members. It eventually inspired me to write this short article, asserting that while this &lt;a href=&quot;https://medium.com/ingeniouslysimple/the-origins-of-the-10x-developer-2e0177ecef60&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;10x developer&amp;quot;&lt;/a&gt; idea is for the most part about keyboard shortcuts. In other words, while I think developers also vary in terms of how they think about problems, and their cognitive abilities, 90% of the time, the ones that stood out among others, and are sometimes as much as 10 time more &amp;quot;&lt;em&gt;productive&lt;/em&gt;&amp;quot;, are simply better at the &lt;em&gt;craft&lt;/em&gt;. Any I think 99% of the craft of programming revolves around the relationship between you and your keyboard.&lt;/p&gt;
+&lt;p&gt;I am already expressing my first thesis implicitly. &lt;strong&gt;Keyboard&lt;/strong&gt;. Not your mouse, not your trackpad. &lt;strong&gt;Keyboard&lt;/strong&gt;. Those are inefficient alternatives put there for the times where the programmer fails to use the keyboard (I use my trackpad often, like most others, sadly). As I will demonstrate later, every instance where you use the trackpad your are already losing a little bit of time. So, focus on learning more about how to efficiently use your keyboard, rather than dragging things out with your mouse.&lt;/p&gt;
+&lt;p&gt;A little story about how I came to be so dogmatic about this: The first laptop I had as a programmer was &lt;a href=&quot;https://en.wikipedia.org/wiki/Acer_Aspire_laptops&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this piece of history&lt;/a&gt;, and for whatever reason I didn&#39;t have an external mouse. The trackpad on these machines is a joke. It is so small that you barely can move it from one corner of the screen to the other. Instead od trying to fight it, I learned from a very early stage of my career as a programmer to hyper utilize the keyboard. Over time, this became a blessing. Nowadays, having had multiple generations of MacBooks, even though I appreciate the trackpad for other tasks and am happy to not need to brows my file system anymore using keyboard, I happily hold the same habit &lt;em&gt;while I am coding&lt;/em&gt; and try to avoid the trackpad as much as I can.&lt;/p&gt;
+&lt;p&gt;Second, and main part of the thesis: In general, as a programmer, your attention is disrupted in generally one instance: &lt;strong&gt;when your hands over the keyboard fail to keep up what it in your mind in a timely manner&lt;/strong&gt;. Let&#39;s consider this both when you are reading and writing code.&lt;/p&gt;
+&lt;p&gt;In writing, you want to be able to quickly prototype different approaches, and put words on the screen. Imagine you have to do a refactor, where, for example, you have to unwind a few loops and change their indentation real quick, duplicate a few lines etc. If you manage to do this almost as fast as your brain is unpacking it, while you are in the creative process, you can continue, and your attention is not disrupted. If you delay doing this for multiple minutes (probably your damn mouse, hitting copy and paste and moving the cursor with it) you have most probably lost the train of thought that led you to want to do this anyway. Moreover, I frequently see people finding doing such code writings as &amp;quot;annoying&amp;quot;, which is understandable because it is being done in a very poor way. This can sadly lead to a decline in general interest in programming as whole.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ideally, you want your hands on the keyboard to be so agile that even mundane refactors are actually fun to do, because you get to practice all the cool tricks you know.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In reading, I think this is even more visible. Imagine you want to follow a train of types and traits that relate to one another, trying to demystify them. If it takes you too long to jump from the file where you see the symbol &lt;code&gt;Foo&lt;/code&gt; to where &lt;code&gt;Foo&lt;/code&gt; is defined or used, then this process becomes mighty ANNOYING, and again can be demotivating to experience, other than being unproductive as well. And this is assuming you know where &lt;code&gt;Foo&lt;/code&gt; is defined. If not, you have two tasks at hand: where is &lt;code&gt;Foo&lt;/code&gt; (which is mostly solved for you if you have a language server), and how can I get there in the most efficient way (and the most efficient way never involves using a trackpad).&lt;/p&gt;
+&lt;p&gt;This is where my whole rant about not using the mouse is coming from. I think if you are really bad in the above, there is a long way that you can go while using a mouse. But sooner or later, you will reach a point where you realize that point of &amp;quot;losing the attention&amp;quot; is every time your hands must leave the keyboard, because you want to perform an action that you cannot do while your hands are already on the keyboard.&lt;/p&gt;
+&lt;p&gt;So all in all, in theory: &lt;strong&gt;you want your hands, on the keyboard, to be able to keep up with your head while it is thinking&lt;/strong&gt;. This is the main message, and how you achieve can vary. But the important point is to keep &lt;strong&gt;improving&lt;/strong&gt;. Every time you face that annoying moment of not being able to do something easily, go the Google, and the documentation of whatever editor you are using, and see if/how you can improve this. Don&#39;t cope with such micro-inefficiencies, as they accumulate over time. To the contrary, once you start fixing them, you will learn your editor in much greater depth, which has a compounding positive effect.&lt;/p&gt;
+&lt;p&gt;Your editor is of choice is very important here. It is like the brush to the painter. Make sure you become a strong fanboy of it by following all the releases, seeing what is new etc.&lt;/p&gt;
+&lt;p&gt;With all of that, I will list some of the settings, configurations, and shortcuts that help me achieve the above.&lt;/p&gt;
+&lt;h2 id=&quot;practice&quot; tabindex=&quot;-1&quot;&gt;Practice&lt;/h2&gt;
+&lt;p&gt;The assumption here is that like most programmers, you have a few desktops, in which you have separated at least 3 main tools: An editor, a terminal, and a browser (and perhaps more).&lt;/p&gt;
+&lt;h3 id=&quot;operating-system-level&quot; tabindex=&quot;-1&quot;&gt;Operating System Level&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The absolute first step is learn your cursor. The involves a few settings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Increasing its speed significantly. The default cursor speed is way too slow.&lt;/li&gt;
+&lt;li&gt;Learning how to jump by word rather than character.&lt;/li&gt;
+&lt;li&gt;Learning how to jump the beginning and end of the line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learning to move between the few desktops you have open via keyboard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In my linux days, the shortcut to move the active application to another desktop but was rather easy, but is rather dodgy to setup right in MacOs. I have mostly forgotten about this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lastly, you want to be able to easily split your screen into two, left and right. I personally find anything more than this to be an overkill, but most apps that allow you to do one allow you to do all of them, such as &lt;a href=&quot;https://rectangleapp.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;rectangle&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There&#39;s a lot more here, but I presume you can figure out what else can help you achieve the above principles better.&lt;/p&gt;
+&lt;h3 id=&quot;editor-level&quot; tabindex=&quot;-1&quot;&gt;Editor Level&lt;/h3&gt;
+&lt;p&gt;I personally use VSCode with Rust analyzer. But almost everything here should be applicable to any language and editor.&lt;/p&gt;
+&lt;h4 id=&quot;finding-the-right-file&quot; tabindex=&quot;-1&quot;&gt;Finding The Right File&lt;/h4&gt;
+&lt;p&gt;First, you want to be able to easily &lt;strong&gt;find the file that you are looking for&lt;/strong&gt;. There are typically two ways to find a file:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Find it by &lt;strong&gt;location&lt;/strong&gt; in the sidebar, file-tree list thingy.&lt;/li&gt;
+&lt;li&gt;Find it by &lt;strong&gt;name&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The find a file by its &lt;strong&gt;location&lt;/strong&gt;, you want a keyboard shortcut that can quickly move the focus of your editor from the code you are editing to the the file-tree (remember, no touching the damn mouse for any of this!).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-1.gif&quot; alt=&quot;10x-1.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The keyboard shortcut config name for this is &amp;quot;&lt;strong&gt;View: Show Explorer&lt;/strong&gt;&amp;quot; in Vscode.&lt;/p&gt;
+&lt;p&gt;Sometimes, you have the file that is already of interest open in a different tab, and you know that tab is nearby. For this, you need a shortcut to move to the next/previous tab real quick.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I personally end up having a million tabs open at all times. Sometimes I happily disable tabbing with Vscode zen mode and call it a day. The two ways mentioned above are good enough to find any file quickly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you use the integrated terminal in vscode (I don&#39;t) you probably want shortcuts to switch focus to/from it as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you want to use a file by &lt;strong&gt;location&lt;/strong&gt;, the way to do it is the fuzzy finder. I don&#39;t know what editor you use, but it must have a fuzzy finder. A fuzzy finder is one that more or less does it best to match the string you are inserting to anything in the path of the final file. For example, if you are looking for a file that is located in &lt;code&gt;/foo/bar/prettyUniquePart/src/mod.rs&lt;/code&gt; it is not wise to try and find it in the fuzzy finder with the &lt;code&gt;mod.rs&lt;/code&gt; part, but rather inserting &lt;code&gt;pretty&lt;/code&gt; might be enough.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-6-cmdp.gif&quot; alt=&quot;10x-6-cmdp.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The fuzzy search can be opened by VScode using &lt;code&gt;cmd+p&lt;/code&gt; by default, and it can do a lot more than fuzzy search!&lt;/p&gt;
+&lt;h4 id=&quot;navigating-the-right-file&quot; tabindex=&quot;-1&quot;&gt;Navigating The Right File.&lt;/h4&gt;
+&lt;p&gt;Now, assuming you are the master of opening files, you want to be able to navigate it in a skillful way.&lt;/p&gt;
+&lt;p&gt;First, you want to have ways to scroll the file real quick. Similar to the cursor speed, where the default speed is super super slow, the default scroll speed might also be very slow. You want to know the keyboard shortcuts that let you:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Jump a page up or down (shortcut name: &lt;code&gt;cursorPageDown&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Jump to end and beginning of the file (shortcut name: &lt;code&gt;cursorBottom&lt;/code&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As a backup, should you fail and need to use your trackpad, VSCode can be configured to have a &lt;a href=&quot;https://www.youtube.com/watch?v=iZP1cfAI_rY&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;fast-scroll&lt;/a&gt; next to the normal scroll, which is pretty useful.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-8-scroll.gif&quot; alt=&quot;10x-8-scroll.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Then, you want to be able to find some symbols. If you have a language server, you will get a lot of information related to this in your screen already, but there&#39;s still a few tips to be added.&lt;/p&gt;
+&lt;p&gt;Firstly, if you have a proper language server, you better be apt at using it. This involves knowing the keyboard shortcut for super useful operations such as: &amp;quot;Jump To Definition&amp;quot;, &amp;quot;Peek Definition&amp;quot;, &amp;quot;Find References&amp;quot; and such.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-peek-def.gif&quot; alt=&quot;10x-peek-def.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Then, two additions to the fuzzy search &lt;code&gt;cmd+p&lt;/code&gt;. If you open the same, and prefix it with &lt;code&gt;@&lt;/code&gt;, then it turns into a local symbol search. If you prefix it with &lt;code&gt;#&lt;/code&gt; it turns into a global symbol search (might not work on large projects). If you prefix it with &lt;code&gt;:&lt;/code&gt; it will help you jump to a file with a specific line number.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lastly, if you put &lt;code&gt;&amp;gt;&lt;/code&gt; it will allow you to execute internal commands, such as &amp;quot;format document&amp;quot; etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There is also a fuzzy (or more intelligent) suggestion shortcut in most editors, that you can just use to ask for suggestions from the editor. The shortcut for this mostly involves something with space (cmd+space) and is called &amp;quot;Trigger Suggest&amp;quot; in Vscode.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;With or without Rust analyzer, I have a &lt;a href=&quot;https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;few regex-based custom commands&lt;/a&gt; that I find vastly useful in large Rust Mono-repos, to find symbols quickly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then, let&#39;s talk about the (much underrated) &lt;code&gt;cmf+f&lt;/code&gt; and &lt;code&gt;cmf+shift+f&lt;/code&gt;. You know what they do: they invoke local file search, and global search. They are okay as they are, but what are you going to do with the results, without needing to use the cursed mouse? that&#39;s right, you need shortcuts to navigate the results. This is really powerful, and turns these mundane shortcuts into super tools.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-search.gif&quot; alt=&quot;10x-search.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The keyboard shortcut for these is called &amp;quot;&lt;code&gt;Find Next/Previous&lt;/code&gt;&amp;quot;, &amp;quot;&lt;code&gt;Search: Focus Next/Previous Search Result&lt;/code&gt;&amp;quot;.&lt;/p&gt;
+&lt;h4 id=&quot;editing-the-right-file&quot; tabindex=&quot;-1&quot;&gt;Editing The Right File.&lt;/h4&gt;
+&lt;p&gt;Lastly, let&#39;s talk a bit about edit editing files. Writing code is mostly easy if you are only adding words. It mostly gets hard if you want to do bulk edits, or if you want to do more complicated things. Here are a few things that I find important, but my suggestions here are really non-exhaustive.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;indent/de-indent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-2-indent.gif&quot; alt=&quot;10x-2-indent.gif&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;duplicate line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-3-duplicate.gif&quot; alt=&quot;10x-3-duplicate.gif&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;move line(s)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-4-move.gif&quot; alt=&quot;10x-4-move.gif&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;some knowledge of how to do multi-cursor operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-7-multi-1.gif&quot; alt=&quot;10x-7-multi-1.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-7-multi-2.gif&quot; alt=&quot;10x-7-multi-2.gif&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;terminal-level&quot; tabindex=&quot;-1&quot;&gt;Terminal Level&lt;/h3&gt;
+&lt;p&gt;I won&#39;t get into details here because this has already gotten long, but be aware that you can also optimize your use of terminal by quite a lot as well. The single most useful thing I can suggest for coding is the ability to jump right from your editor into the file path where some error has occurred (sadly, using your trackpad). I believe ITerm2 and Vscode&#39;s internal terminal support this out of the box.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/10x-terminal.gif&quot; alt=&quot;10x-terminal.gif&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;All in all, there&#39;s not much new that I am saying here. Most of these shortcuts and operations are already known. The main argument is: &amp;quot;Use the keyboard!&amp;quot; 😅.&lt;/p&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/posts/tech/the-10x-developer-myth-all-about-keyboard/" />
+        </entry>
+        <entry>
+            <title>
+                For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all
+                
+            </title>
+            <updated>2023-08-31T13:47:27.605Z</updated>
+            <id>https://blog.kianenigma.nl/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/</id>
+            <content type="html">
+                &lt;p&gt;I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked me to share my Rust setup in &lt;code&gt;vs-code&lt;/code&gt; for finding symbols and jumping to references. Before answering a simple &amp;quot;I use &lt;code&gt;rust-analyzer as well&lt;/code&gt;&amp;quot;, I looked into the video and I realized that I, indeed, was not using it at the time. A long time before that video was recorded, I had given up on using rust-analyzer for substrate because simply it was such a massive mono-repo that even &lt;em&gt;without&lt;/em&gt; any &lt;code&gt;CheckOnSave&lt;/code&gt;, or overwriting the &lt;code&gt;check&lt;/code&gt; command to use &lt;code&gt;cargo-remote&lt;/code&gt;, it was too much for my laptop to handle.&lt;/p&gt;
+&lt;p&gt;At that point, I developed two simple regex-based shortcuts to fill the gap for me, and I want to&lt;br /&gt;
+use the reply to this email to share it with a broader audience as well, since there could still be&lt;br /&gt;
+many people out there for whom running rust-analyzer is too expensive because of huge repositories, or limited hardware resources. So, here it goes!&lt;/p&gt;
+&lt;p&gt;First, we need a regex that can match symbols. You probably know where very that the moment that you have generics in your code, searching for something like &lt;code&gt;Impl Something for SomethingElse&lt;/code&gt; no longer works, because there are a lot of generics (&lt;code&gt;&amp;lt;T: ...&amp;gt;&lt;/code&gt;) in the same line. I took the fix for this (which is just adding &lt;code&gt;&amp;lt;.*?&amp;gt;&lt;/code&gt; to your regex search) and expanded it to match as many type declarations as possible, among a few other things. At the end, I settled on:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;(macro_rules!|const|enum|struct|fn|trait|impl(&amp;lt;.*?&amp;gt;)?|type)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But having to paste/type the regex every time is not super nice, so I found a shortcut that&lt;br /&gt;
+would have this ready for me in the global search, with regex mode available:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;// add this to your `keybindings.json`
+{
+	&amp;quot;key&amp;quot;: &amp;quot;cmd+shift+h&amp;quot;, // you can and should use whatever you want here.
+	&amp;quot;command&amp;quot;: &amp;quot;workbench.action.findInFiles&amp;quot;,
+	&amp;quot;args&amp;quot;: {
+		&amp;quot;query&amp;quot;: &amp;quot;(macro_rules!|const|enum|struct|fn|trait|impl(&amp;lt;.*?&amp;gt;)?|type) &amp;quot;,
+		&amp;quot;isRegex&amp;quot;: true,
+		&amp;quot;triggerSearch&amp;quot;: true,
+		// &amp;quot;filesToInclude&amp;quot;: &amp;quot;${relativeFileDirname}&amp;quot;,  // no variables in findInFiles
+		&amp;quot;preserveCase&amp;quot;: true,
+		&amp;quot;useExcludeSettingsAndIgnoreFiles&amp;quot;: false,
+		&amp;quot;isCaseSensitive&amp;quot;: true,
+		// &amp;quot;matchWholeWord&amp;quot;: true,
+		// &amp;quot;filesToExclude&amp;quot;: &amp;quot;&amp;quot;
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This allowed me to quickly go from: I have type name &lt;code&gt;Foo&lt;/code&gt; in my &lt;em&gt;head&lt;/em&gt;, I want to find its&lt;br /&gt;
+definition real quick.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/regex1.gif&quot; alt=&quot;regex1.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;But, one of the greatest magics of any IDE or &lt;code&gt;rust-analyzer&lt;/code&gt; is that you get that juicy &lt;em&gt;jump to&lt;br /&gt;
+definition&lt;/em&gt;, and I could not yet mimic that, but at least tried! The next shortcut will allow you to&lt;br /&gt;
+do exactly the same thing as the previous shortcut, but do it for the current highlighted keyword:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+	&amp;quot;key&amp;quot;: &amp;quot;cmd+shift+g&amp;quot;,
+	&amp;quot;command&amp;quot;: &amp;quot;search.action.openNewEditor&amp;quot;,
+	&amp;quot;args&amp;quot;: {
+		&amp;quot;query&amp;quot;: &amp;quot;(macro_rules!|const|enum|struct|fn|trait|impl(&amp;lt;.*?&amp;gt;)?|type) ${selectedText}&amp;quot;,
+		&amp;quot;isRegexp&amp;quot;: true,
+		&amp;quot;showIncludesExcludes&amp;quot;: true,
+		&amp;quot;triggerSearch&amp;quot;: true,
+		&amp;quot;contextLines&amp;quot;: 2,
+		&amp;quot;focusResults&amp;quot;: true,
+	},
+	&amp;quot;when&amp;quot;: &amp;quot;editorTextFocus&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And then in the search result page, the default &lt;em&gt;Jump to Definition&lt;/em&gt; would just work, which you can configure again to be any key that you want.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/regex2.gif&quot; alt=&quot;regex2.gif&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Bonus: shortcuts to navigate the results&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Over time, I learned that shortcuts to navigate through both local and global search are super&lt;br /&gt;
+useful. You can already see me use them in the previous gif. Highly recommended to set them to a keyboard shortcut that you can easily remember and readily use. These are the related keyboard shortcuts:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{
+	&amp;quot;key&amp;quot;: &amp;quot;ctrl+&#39;&amp;quot;,
+	&amp;quot;command&amp;quot;: &amp;quot;editor.action.nextMatchFindAction&amp;quot;,
+	&amp;quot;when&amp;quot;: &amp;quot;editorFocus&amp;quot;
+}
+{
+	&amp;quot;key&amp;quot;: &amp;quot;ctrl+.&amp;quot;,
+	&amp;quot;command&amp;quot;: &amp;quot;search.action.focusNextSearchResult&amp;quot;,
+	&amp;quot;when&amp;quot;: &amp;quot;hasSearchResult || inSearchEditor&amp;quot;
+},
+{
+	&amp;quot;key&amp;quot;: &amp;quot;ctrl+,&amp;quot;,
+	&amp;quot;command&amp;quot;: &amp;quot;search.action.focusPreviousSearchResult&amp;quot;,
+	&amp;quot;when&amp;quot;: &amp;quot;hasSearchResult || inSearchEditor&amp;quot;
+},
+{
+	&amp;quot;key&amp;quot;: &amp;quot;ctrl+c&amp;quot;,
+	&amp;quot;command&amp;quot;: &amp;quot;search.action.clearSearchResults&amp;quot;
+},
+{
+	&amp;quot;key&amp;quot;: &amp;quot;ctrl+;&amp;quot;,
+	&amp;quot;command&amp;quot;: &amp;quot;editor.action.previousMatchFindAction&amp;quot;,
+	&amp;quot;when&amp;quot;: &amp;quot;editorFocus&amp;quot;
+},
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/" />
+        </entry>
+        <entry>
+            <title>
+                My Thoughts On Iran_s Political Situation in 2022
+                
+            </title>
+            <updated>2023-08-28T12:57:08.215Z</updated>
+            <id>https://blog.kianenigma.nl/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;I started writing this on 27th of September 2022 and ever since the situation, and my opinion has slightly changed.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;what-i-intend-to-do-here&quot; tabindex=&quot;-1&quot;&gt;What I intend to do here&lt;/h2&gt;
+&lt;p&gt;Breezing over Iran&#39;s social media and news these days, the environment is filled with emotions. Opinions are flying by, with everyone telling what others ought to have done or said. I understand why that could be, but I want to insist that I am not here to convince anyone of anything. I am merely writing down some opinions I hold for the sake of posterity.&lt;/p&gt;
+&lt;p&gt;Moreover, I entirely agree that some my opinions might not be exactly on-par with what fellow Iranians, and I want to emphasize why I think that&#39;s the case before going further.&lt;/p&gt;
+&lt;p&gt;The first reason for my unorthodox opinions is perhaps my background and current living situation, which I cover in more detail in the next section.&lt;/p&gt;
+&lt;p&gt;The second reason is something more subtle. We are highly social animals and the desire to be part part of a tribe is deeply rooted in us. Similarly, the feeling of being ostracized is extremely discomforting. Ever since the emergence of this movement, I have found myself facing a dilemma:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Should I also indulge in being active online, be loud and bold, be part of the movement, and feel part of the tribe.&lt;/li&gt;
+&lt;li&gt;Or, keep my head above water, and only do something &lt;em&gt;if I wholly think of it as being beneficial&lt;/em&gt;, risking being ostracized.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Truth is, every time I came close to choosing option number 1, I&#39;d realize that I am not doing it because I really think it is useful. I am, instead, doing it either out of the desire to be &amp;quot;part of the movement&amp;quot;, or &amp;quot;fear of being judged if I don&#39;t&amp;quot;, neither of which is a correct reason to do something.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Not to be mistaken, I have tried to play more role in helping the liberation of Iran by increasing awareness about it, mostly in person, within the circle of my international acquaints, and have participated and aided local protests where I live. I do not face the same dilemma as above whilst doing such acts.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This situation has led me and my opinions on the matter to be somewhat disconnected from the mainstream narrative, which contributes to my opinion being perhaps unacceptable to the majority.&lt;/p&gt;
+&lt;p&gt;Thirdly, to put it shortly, I am not a fan of acting &lt;strong&gt;emotionally&lt;/strong&gt; under any circumstance in life, and you should be able to see traces of this in most of my comments. I strongly think we, as humans, both individually and collectively, come to better conclusions if we think less emotional and more rational. If you think otherwise, we can agree to disagree on many things.&lt;/p&gt;
+&lt;p&gt;Lastly, if I ever share this writing on social media, while I agree that anyone is allowed to disagree, criticize or attack my opinion, I hardly see social media as the proper medium to do so (about which I &lt;a href=&quot;https://twitter.com/kianenigma/status/1582062916257607680?s=20&amp;amp;t=KfetvLBaqLJ8EQSYav3zRw&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;recently tweeted&lt;/a&gt;, Ironically). Instead , I would love to discuss comments in a longer format elsewhere.&lt;/p&gt;
+&lt;h2 id=&quot;where-i-am-coming-from&quot; tabindex=&quot;-1&quot;&gt;Where I am coming from&lt;/h2&gt;
+&lt;p&gt;First, let&#39;s establish who I am and where I am coming from. I am raised in a fairly open-minded middle/upper class family in Iran. I was never highly exposed to Iran&#39;s brainwashing propaganda, Islam, or anything like that. I always distinguished Iran&#39;s regime as an un-rightful suppressive one. That being said, I must also confess that I was never directly annoyed by this regime either. Even though my teenage years was the start of the decline of Iran, I was mostly capable of having a good life. This was in part due to my family&#39;s above-average financial situation (which was deteriorating at the time), and the fact that I studied compute engineering, I liked it, and put a lot of effort into it. Consequently, there was plenty of job opportunities for me as a student, earning at least some money. In some sense, while some of my friends were in a &amp;quot;there&#39;s nothing to achieve in this country&amp;quot; mentality back in e.g. 2015, I was happily swimming against the current. &lt;em&gt;To some extent&lt;/em&gt;, I hold the same opinion today as well.&lt;/p&gt;
+&lt;p&gt;Next, looking at where I am now, writing this. I have been away from Iran for almost 5 years now, and I am even more independent of it. Yes, Iran&#39;s regime has gotten ever so more brutal over the years, but I have also moved away further, and I am &lt;em&gt;objectively&lt;/em&gt; less affected by it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a side note, the PS flight was taken down two days after I flew out of Iran in early 2020. Yes, that was a bit close, but I still happily consider myself very independent of Iran&#39;s politics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;lastly, I have, over the years, never really benefited particularly from Iran&#39;s regime, or never really grown fond of it in any way either. I did believe in the reformist movement of Iran a decade ago (and perhaps even today consider it the better choice between &amp;quot;bad and worse&amp;quot;), but all in all I don&#39;t see have any reason to defend Iran&#39;s government and regime. For the remainder of this writing, if I criticize the &lt;em&gt;opposition&lt;/em&gt; of Iran, please be aware that I do &lt;strong&gt;not&lt;/strong&gt; mean to imply any sort of approval for the existing order.&lt;/p&gt;
+&lt;p&gt;All in all, I consider myself to be in a spot where I can cast an &lt;strong&gt;unemotional opinion&lt;/strong&gt; on the situation of Iran, which I find rather unique. To recap, I am neither benefiting from nor directly harmed the current regime in Iran. I follow the news, but not enough such that I can&#39;t keep both feet on the ground. I entirely agree with the &lt;em&gt;reasons&lt;/em&gt; that the people on the street protesting have, but I don&#39;t share the &lt;em&gt;emotions&lt;/em&gt; with them as much. Whether an opinion coming from such a position like mine is worthy of anything or not, is up to you.&lt;/p&gt;
+&lt;h2 id=&quot;the-good&quot; tabindex=&quot;-1&quot;&gt;The Good&lt;/h2&gt;
+&lt;p&gt;The uprising of Iran is the consequences of what the current regime has done over the last few decades. It is not the first of its kind either, and and there has been periodic events such as this one &lt;a href=&quot;https://en.wikipedia.org/wiki/Iranian_Green_Movement&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ever since 2009&#39;s green movement&lt;/a&gt;, if not earlier. The living conditions in Iran have declines rapidly over the years, the international presence have gotten worse and worse. All of this justifies a &amp;quot;change&amp;quot;, and is not anyone&#39;s wish to see it continue.&lt;/p&gt;
+&lt;p&gt;Also, Iran is being ruled by people with radical religious beliefs, and putting a stop to that is something that I hope to see both in Iran and globally. I fully right the hold for any religious person to practice what they believe, but imposing it &lt;em&gt;forcefully&lt;/em&gt; on others is just none-sense. I insist on the forceful part, because Iran is evidently no longer majority muslim.&lt;/p&gt;
+&lt;p&gt;Admittedly, I don&#39;t want to talk about the &amp;quot;Good&amp;quot; part much further, because it is self-evident. It is the uncontroversial part. &lt;em&gt;Of course&lt;/em&gt; I wish Iran would suddenly change and become better and free and prosperous country. &lt;em&gt;Of course&lt;/em&gt; I wish women and men would both have equal rights and freedom. &lt;em&gt;Of course&lt;/em&gt; I agree that the current regime does not even show any sign of hope for the aforementioned. And a protests/revolution is seen as a &amp;quot;light at the end of the tunnel&amp;quot;.&lt;/p&gt;
+&lt;p&gt;But, now I want to think aloud about some of the more problematic parts. There are certain things that worries me about this, so called, revolution in Iran, and I want to discuss them for the rest of this post. I should apologize for my, perhaps hard to read, criticism. I understand that this might not be pleasant to read, and I hope you understand that it is being written out of concern, with a good intention.&lt;/p&gt;
+&lt;h2 id=&quot;the-bad&quot; tabindex=&quot;-1&quot;&gt;The Bad&lt;/h2&gt;
+&lt;h3 id=&quot;whatever-you-want-to-do-you-will-do-it-better-if-you-have-a-calm-mind&quot; tabindex=&quot;-1&quot;&gt;Whatever you want to do, you will do it better if you have a calm mind.&lt;/h3&gt;
+&lt;p&gt;I sometimes see a narrative that is proudly and boldly spreading &amp;quot;look how miserable I am because of this&amp;quot;, and is harshly criticizing anyone who dares to say to say &amp;quot;yeah, times are hard, but I am doing okay&amp;quot;.&lt;/p&gt;
+&lt;p&gt;It is entirely understandable that certain people might have a hard(er) time coping with the ongoing events, and sharing it online is perhaps helpful&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. Nonetheless, I see two important facts here:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We all deal with different situations in our own way. If someone is dealing with it with less misery, it does not have much to say about their opinion and stance on the matter.&lt;/li&gt;
+&lt;li&gt;If we want to optimize of effectiveness, almost without a doubt, a balanced, calm mind is more effective at making any sort of decision than an unstable one. For example, if you want to write a tweet and post it, you would probably come up with a better, more catchy, more viral tweet if you are calm.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, while times are hard, I think we should embrace wellbeing more, and support each other to all feel better, less affected, and less unhappy about the situation, while combating it. Then, we would both feel better as individuals, and I hope we can come to a better outcome collectively.&lt;/p&gt;
+&lt;h3 id=&quot;there-is-nothing-exciting-about-the-violence-involved&quot; tabindex=&quot;-1&quot;&gt;There is nothing exciting about the violence involved.&lt;/h3&gt;
+&lt;p&gt;![[rings-of-power.mp4]]&lt;/p&gt;
+&lt;p&gt;I was recently told by a very close acquaintance of mine: &amp;quot;Yeah, if you feel down, I can send you this video where the people beat the shit out of that other guy (the other guy being a &lt;a href=&quot;https://en.wikipedia.org/wiki/Basij&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;basiji&amp;quot;&lt;/a&gt;), see it and you feel better&amp;quot;.&lt;/p&gt;
+&lt;p&gt;When I heard this, I only nodded and smiled, but I really find it disturbing. This is &lt;strong&gt;fucked up&lt;/strong&gt;. My friend should not enjoy seeing others being beaten up so much, regardless who is beating up who. Yes, that friend of mine can say &amp;quot;Look, the situation has traumatized me so much that ...&amp;quot; but I honestly think this is an excuse. Wishing to invoke violence on others is nothing to feel happy about, and if you are in a spot where you do feel happy about it, you might have indulged too much into emotional sentiments such that it has blinded your thinking and (more importantly) morality altogether.&lt;/p&gt;
+&lt;p&gt;I am aware that the police in Iran does deploy force frequently, and it makes perfect sense for people to use force for defense. I am sorry to say this, but the harsh, sad, cold reality is that anything beyond this makes the attacker be of the same nature as the person being attacked.&lt;/p&gt;
+&lt;p&gt;Moreover, while I think this is not a strong argument anymore, every instance of violence from the people towards the government agents will be used as propaganda and and reason for more suppression. So, I think it is wise to use the minimum amount of violence.&lt;/p&gt;
+&lt;p&gt;Lastly, I think this will set a very grim precedence for what the Iran&#39;s 2022 Revolutionists (henceforth referred to as &amp;quot;revolutionists&amp;quot;) are &lt;em&gt;willing to do&lt;/em&gt;. Do they have higher standards regarding maintaining peace? or are they the other side of the same coin?&lt;/p&gt;
+&lt;iframe style=&quot;border-radius:12px&quot; src=&quot;https://open.spotify.com/embed/track/0FfJGfhIOiWjTgyKMk2djv?utm_source=generator&quot; width=&quot;100%&quot; height=&quot;352&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We only seem to respond in kind, an eye for an eye only leaves us blind.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;mob-mentality-radical-polarization&quot; tabindex=&quot;-1&quot;&gt;Mob Mentality. Radical Polarization&lt;/h3&gt;
+&lt;p&gt;I am seeing a mirror of something that you can also see in the western world, one that I respectfully disagree with, in Iran as well. Namely, a mob mentality of loud people on social media, roaming around telling others what they should say, think, post, and hashtag, and what not. This, in effect, creates a sense of fear, where individuals feel the fear of being left out if they don&#39;t join the mob, i.e. if they also don&#39;t share the same hashtag, or buy into the same opinion.  This approach is being weaponized by both the right and left-wing political movements of modern western nations as well.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And this exacerbates the personal dilemma I mentioned in &lt;a href=&quot;https://blog.kianenigma.nl/#What-I-intend-to-do-here&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the first section&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In my opinion, this is not a good approach, &lt;strong&gt;regardless of which ideology you are propagating&lt;/strong&gt;. Mainly, this approach forces people to take sides based on fear and reactions, not based on thoughtful assessment. In the long term, this creates more schisms, radical mindsets not coping with one another, and deteriorates the movement, in my opinion.&lt;/p&gt;
+&lt;p&gt;For example, the current sentiment in Iran is a unified movement against the current regime, and anyone, especially if they are slightly famous, have to take sides &lt;em&gt;now&lt;/em&gt;, and if they remain silent, they are ostracized for it. For people who have very large audiences, this is arguable, yet still incorrect (in my opinion). But seeing this mentality leak toward normal people, expecting them to also silently follow the mob is extremely worrying.&lt;/p&gt;
+&lt;p&gt;Abstention is seemingly not acceptable. There is no room for &amp;quot;this is a complicated situation and I have to think about it&amp;quot;. There is no &amp;quot;I have a mixed background and I am confused by all of this&amp;quot;. You are either with &lt;strong&gt;US NOW&lt;/strong&gt;, or you are one of &lt;strong&gt;THEM&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Finishing this with quoting my humble self in a friendly discussion I had with my brother:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;but if we imagine ourself in a position where we can dictate to other what to do, what to say and what to think, we are not much better than that which we are fighting against.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;consequences-matter-things-em-could-em-get-worse&quot; tabindex=&quot;-1&quot;&gt;Consequences matter. Things &lt;em&gt;could&lt;/em&gt; get worse.&lt;/h3&gt;
+&lt;p&gt;&amp;quot;anything is better than this&amp;quot; is how most people of Iran think of the existing order. Similarly, I hear &amp;quot;we should first focus on abolishing the existing order and then think about what could replace it&amp;quot;.&lt;/p&gt;
+&lt;p&gt;while I do see where it comes from, I think it is worrying and slightly short-sighted. I might be a conservative, risk averting person here, I but I cannot start a massive, fundamental process of &amp;quot;change&amp;quot; without having a plan. Imagine you want to refurbish a house, and you just start a hammer and randomly bash items into places, hoping that you eventually get the right items in the right place. Yeah, it &lt;em&gt;might work&lt;/em&gt;, but it is quite likely that it might not, and in that case, we might be left with nothing. It is an approach, but we should be aware that it is a risky one.&lt;/p&gt;
+&lt;p&gt;Interestingly, I recently learned (through the amazing book Perspolis) how the 57 revolution of Iran was hijacked by one of the forces behind it, namely the Shia clerics, and for many people it did not have the outcome that they intended. With the short-sightedness thinking of the existing movement, I see the possibility of something like this happening being even more. Interestingly, I do recall people arguing, in tweets, that the current revolution of Iran being leaderless and short-sighted is actually a good thing, but I have not seen a convincing debate about it.&lt;/p&gt;
+&lt;h2 id=&quot;the-ugly&quot; tabindex=&quot;-1&quot;&gt;The Ugly&lt;/h2&gt;
+&lt;h3 id=&quot;failure-to-fix-iran-in-a-peaceful-way-is-a-both-way-failure-not-just-on-them&quot; tabindex=&quot;-1&quot;&gt;Failure to fix Iran in a peaceful way is a both way failure, not just on them.&lt;/h3&gt;
+&lt;p&gt;If this revolution succeeds, it will be the win for a group of people (those who supported it), a lose for those who wanted to stop it, and a failure for all of us as a whole, because we failed to put our differences aside and collaborate in a peaceful way.&lt;/p&gt;
+&lt;p&gt;Yes, the side that currently has the power is more responsible, but this is absolutely a two-way situation. We should remember our failure just as we should remember our victories, and hopefully learn from them.&lt;/p&gt;
+&lt;h3 id=&quot;change-the-game-not-the-team&quot; tabindex=&quot;-1&quot;&gt;Change the game, not the team&lt;/h3&gt;
+&lt;p&gt;I am worried that, if this revolution succeeds, we are removing a radical, oppressive, intolerant &lt;em&gt;islamic&lt;/em&gt; regime, and replace it with a radical, oppressive, intolerant regime. If we are to avoid this, I strongly think that we should &lt;em&gt;think differently&lt;/em&gt;. We should not take the same set of rules, and change verbs and nouns in them. We should change the rule itself. For if the rule is flawed, it is only a matter of time until you are again back on the side of it where you don&#39;t approve of it.&lt;/p&gt;
+&lt;p&gt;A simple example of this is being oppressive. The current regime is oppressive towards us. If we only change the subject, the nouns in this flawed rule, we are only creating a temporary bubble, where, if we are lucky, for some years, we get to to be oppressive towards others. But this is not changing anything. This is the other side of the same coin. The fundamental flaw here is &amp;quot;oppressiveness is allowed and acceptable&amp;quot;, not &amp;quot;we are being oppressed&amp;quot;. There is a MASSIVE difference between the two. In the former, you are eradicating a bad rule, in the second one, you only wish to not be the subject of it.&lt;/p&gt;
+&lt;p&gt;The meta-problem at hand is that we are constantly failing to come to a consensus as a society. This is a problem that exist in Iran today, and trust me, it exist in most developed countries as well. It is only the subject that is different between the two. If we play by the same rule, we are not fixing these meta-problems. People will change, and will fail to agree to one another on other topics as well. The consequences might not be severe as the total disaster that the Islamic Republic as left behind, but the issue will nonetheless be there.&lt;/p&gt;
+&lt;h3 id=&quot;existential-doubt-what-justifies-one-opinion-to-be-right-over-the-other&quot; tabindex=&quot;-1&quot;&gt;Existential doubt: What justifies one opinion to be right over the other?&lt;/h3&gt;
+&lt;p&gt;A brainwashed woman in Iran is willing to live a hard economic life, not taste any freedom, and she wishes for the current regime to survive, so that she can live happily in her bubble. If the regime goes away, should would certainly feel miserable.&lt;/p&gt;
+&lt;p&gt;A teenage girl, living with dreams of one day living in a free Iran, where she can have equal rights as men, walk freely in the streets without hijab, thinks very much otherwise, and sees her life as doomed for as long as the islamic state remains in Iran.&lt;/p&gt;
+&lt;p&gt;Which of these people has more &lt;em&gt;justified right&lt;/em&gt; to enforce her desire to be happy, and cause the suffering of the other one?&lt;/p&gt;
+&lt;p&gt;I sometimes don&#39;t know, and I really think it is more nuanced than what I originally thought.&lt;/p&gt;
+&lt;p&gt;I originally thought that the young girls is simply the more justified one, because it so appeared to be. Or, because I share the same desire with and don&#39;t share the same wish with the brainwashed hypothetical woman. This is my intuitive, emotional opinion.&lt;/p&gt;
+&lt;p&gt;But is that enough?&lt;/p&gt;
+&lt;p&gt;A bit more objectively, I already answered my practical answer to this dilemma earlier in this text, that other than having more in common, I would chose to team with the young woman because I think we should live in a society where the rules (which would inevitably at times cause some people to be happier, and some to be miserable in return) to be &lt;strong&gt;at least&lt;/strong&gt; based facts and reality, rather than religious and superstition. This is my rational opinion.&lt;/p&gt;
+&lt;p&gt;So, with all my heart and brain, I am with the teenage Iranian girl here.&lt;/p&gt;
+&lt;p&gt;But I think it is crucially important remind ourselves that in the mind of the brainwashed woman, what the young teenage girl is doing, is probably as bad as what the teenage girl thinks the islamic state is doing to her.&lt;/p&gt;
+&lt;p&gt;This does not change anything about the state of Iran being an absolute nightmare. But at least to me, it has given a new perspective on how I look at others, specially those who don&#39;t share the same opinion as me.&lt;/p&gt;
+&lt;h3 id=&quot;final-thoughts-some-hard-questions&quot; tabindex=&quot;-1&quot;&gt;Final Thoughts: Some Hard Questions&lt;/h3&gt;
+&lt;p&gt;I will finish my first draft with some questions that I think are thought provoking.&lt;/p&gt;
+&lt;p&gt;Assuming the revolution succeeds. Think about the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What will our history books say? How will we depict the Islamic state that once ruled Iran. Will we be any different toward them, than how they depicted the Pahlavi kingdom?&lt;/li&gt;
+&lt;li&gt;How many opinions and thoughts are going to be indoctrinated and become unquestionable in the post-revolution Iran?&lt;/li&gt;
+&lt;li&gt;How many people will be executed?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Although highly questionable as well, as many studies link social media to more depression and isolation. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/" />
+        </entry>
+        <entry>
+            <title>
+                An Open Letter to Panic Buyers
+                
+            </title>
+            <updated>2023-08-28T12:48:00.631Z</updated>
+            <id>https://blog.kianenigma.nl/posts/personal/an-open-letter-to-panic-buyers/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;I wrote and twitted this in the midst of the first wave of the Covid-19 outbreak in 2020.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dear Panic Buyer,&lt;/p&gt;
+&lt;p&gt;Here is something to think about.&lt;/p&gt;
+&lt;p&gt;Say there are 100 pieces of bread in the country and 100 people, and each person needs 1 on average. The country on the other hand, has the capacity to make 200 pieces if needed. If ,say, a handful of people among a population of 100 start stockpiling 4 times their needs in their house, this will be:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;pointless, as there is enough supply for anyone anyhow.&lt;/li&gt;
+&lt;li&gt;nonetheless, &lt;em&gt;harmless&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If ,on the other hand, 1/2 of the population of a 100 start stockpiling 4 times more than their&lt;br /&gt;
+needs, then we end up in this situation where the total demand (250) exceeds the total capacity of the country (200), for no good reason. The is problematic because it is not a &lt;em&gt;real problem&lt;/em&gt;. It is&lt;br /&gt;
+created merely because of our excessive needs in the first place.&lt;/p&gt;
+&lt;p&gt;Of course, a virus spread might actually lead to a &lt;em&gt;real&lt;/em&gt; shortage of some supplies (i.e. where the&lt;br /&gt;
+example country above can produce 80 or less) as well. But we are not there yet. And in the path of getting there, we will inevitably reach the above situation as well. Hence, the first phase of any real shortage, if that is what you are preparing for by buying, is cause by ourselves, not any virus.&lt;/p&gt;
+&lt;p&gt;That being said, also note that if the situation becomes so severe that even developed countries&lt;br /&gt;
+fail to provide food and basic needs, we&#39;d probably have much bigger problem than food (electricity, sewage, hygiene, lack of healthcare etc.). Without food, we can technically survive for a fairly long time, weeks if needed.&lt;/p&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/posts/personal/an-open-letter-to-panic-buyers/" />
+        </entry>
+        <entry>
+            <title>
+                An Open Letter to Javad Zarif
+                
+            </title>
+            <updated>2023-08-28T12:47:12.456Z</updated>
+            <id>https://blog.kianenigma.nl/posts/personal/an-open-letter-to-javad-zarif/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;I wrote comment in Iran&#39;s contemporary Minister of Foreign Affairs, &lt;a href=&quot;https://en.wikipedia.org/wiki/Mohammad_Javad_Zarif&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Javad&lt;br /&gt;
+Zarif&lt;/a&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6kvHXONWXKc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&#39;s Youtube video on Iranian new year&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The gist of this man&#39;s message: &amp;quot;accusing the west sanctions causing damage to Iranian healthcare system&amp;quot;. This is just wrong. Don&#39;t get me wrong, me and my family suffer from the same, but let us at least be honest about it. For once in this regime&#39;s history, don&#39;t be be delusional. Stop blaming other countries and take responsibility.&lt;/p&gt;
+&lt;p&gt;I wonder,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;When it comes to your Friday prayers and nationalist speeches, you do know very well how to shout &amp;quot;America cannot do anything&amp;quot; (آمریکا هیچ غلطی نمی‌تواند بکند) with confidence, yet now in times of need, you are saying that it is their fault? That it it because of their sanctions that out healthcare system is broken? That it is not because of our poor economy and infrastructure?&lt;/li&gt;
+&lt;li&gt;What is this whole fight over in the first place? Nuclear energy? At least a part of it seems to be related. Okay, fair enough. Please answer, with dignity: How many lives has our &amp;quot;holy&amp;quot; nuclear plan saved so far? How many hungry people have been fed because of it? How many jobs have been created? How many people have been made happy? Now answer the following: How many people have experienced poverty because of it? How many businesses have been destroyed because of sanctions? How many families are torn apart because of poverty?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I have tried to keep this comment polite and rational so far. I will finish with a more informal&lt;br /&gt;
+tone though:&lt;/p&gt;
+&lt;p&gt;You are a smart man. Perhaps among the only Iranian politicians in whom there is a spark of realism. Pull your head out of your ass, stop being delusional, stop lying, and start fixing something, before more harm as been done to this nation, who&#39;s lonelier than ever.&lt;/p&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/posts/personal/an-open-letter-to-javad-zarif/" />
+        </entry>
+        <entry>
+            <title>
+                Amsterdam BunkerTalks Experience 1
+                
+            </title>
+            <updated>2023-08-28T12:51:10.493Z</updated>
+            <id>https://blog.kianenigma.nl/posts/personal/amsterdam-bunker-talks-experience-1/</id>
+            <content type="html">
+                &lt;p&gt;Some time ago I went to a &lt;em&gt;BunkerTalk&lt;/em&gt; in Amsterdam about Iran&#39;s political situation and human right issues. The words that are being said in such events should be pretty clear to you, so I will&lt;br /&gt;
+rephrase it in the easiest possible:&lt;/p&gt;
+&lt;p&gt;It is bad. Iran is moving fast toward becoming one of the most suppressive governments in the world and things are not looking good for the people living there.&lt;/p&gt;
+&lt;p&gt;Given the context, you can imagine that this gathering in Amsterdam among Iranians living here would be pretty much straight forward: &lt;strong&gt;Everyone agreeing that Iran sucks&lt;/strong&gt;. Except.. I was also there and almost toward the end, after an hour of bashing Iran&#39;s right-wing politicians, I raised my hand to add a comment.&lt;/p&gt;
+&lt;p&gt;I started by saying that I totally agree with everything said about Iran. Of course,&lt;br /&gt;
+everyone forgot about this about 30 seconds later. Anyways: I continued by arguing that: We must remember that everyone is to some extent deluded and affected by what story and fiction we decide to believe in. Me and most people who are reading this probably agree on &lt;em&gt;human rights&lt;/em&gt;, &lt;em&gt;equality&lt;/em&gt;, &lt;em&gt;no gender discrimination&lt;/em&gt; and &lt;em&gt;freedom of speech&lt;/em&gt;. Iran&#39;s version of Islam is to some extent against &lt;em&gt;all&lt;/em&gt; of these. But we should not forget that they are also merely putting their faith in some story. Same as I am doing. Same as you are doing. In other words, they &lt;em&gt;&lt;strong&gt;also&lt;/strong&gt;&lt;/em&gt; deeply believe that they are doing the &lt;em&gt;right&lt;/em&gt; thing. It is merely a matter of opinion.&lt;/p&gt;
+&lt;p&gt;I can elaborate a bit more. I grew up in Iran. Islam and the &lt;em&gt;absolute necessity&lt;/em&gt; of belief in it is&lt;br /&gt;
+put into your head from the day that you are born (literally). This, eventually, becomes your&lt;br /&gt;
+&lt;em&gt;framework of life&lt;/em&gt;. Luckily, I was able to break out of this from a young age. Nowadays, thanks to the internet and more and more information being circulated, more and more people break out. But still, Many don&#39;t. All of those who join the &lt;a href=&quot;https://en.wikipedia.org/wiki/Islamic_Revolutionary_Guard_Corps&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;IRGC&lt;/a&gt;, those that become the moral police, they simply &lt;em&gt;never&lt;/em&gt; break out of this framework and &lt;em&gt;it is all they know to life&lt;/em&gt;. And if you&lt;br /&gt;
+don&#39;t, In such a society, you never grow the wisdom to think outside of this framework. This is how regardless of how horrible someone&#39;s actions might be, in the eyes of me or you as a liberal person, they still think they are doing the right person. Those &lt;a href=&quot;https://en.wikipedia.org/wiki/2019%E2%80%9320_Iranian_protests&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;forces who attack demonstrators in the streets of Tehran pretty frequently (and very often killing a few dozens)&lt;/a&gt;, they also think they are doing &lt;em&gt;the right thing&lt;/em&gt;. They surely believe that god will forgive them for doing this. Same goes for many of our politicians who still make wrong decisions. Same probably goes for the poor person who mistook an airplane for a missile and accidentally &lt;a href=&quot;https://en.wikipedia.org/wiki/Ukraine_International_Airlines_Flight_752&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;killed 176 people in a second&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now, I am not saying these people are not to be held responsible for their actions. Nor do I claim that what they do is &lt;em&gt;justifiable&lt;/em&gt;. What I am saying is that we should confront them, in any way that we are &lt;em&gt;confronting&lt;/em&gt; them, whilst remembering what I said above: Most often they have simply been fed the &lt;em&gt;wrong story&lt;/em&gt; (if you want to be more objective: just a &lt;em&gt;different&lt;/em&gt; story). And they are probably miserable deep down, but can&#39;t break out of their current mindset.&lt;/p&gt;
+&lt;p&gt;If we really think that they are wrong and we are right, the burden of enlightening them is&lt;br /&gt;
+actually upon us. We should not fight back as if they are our enemy and as if they are wrong and we are right. We should not claim the moral high ground. No, they are just wrong, and remember, &lt;strong&gt;miserable&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I don&#39;t recall the words that I said that evening, but the gist it is the above few paragraphs. And&lt;br /&gt;
+the response that I got was: &amp;quot;I cannot think about enlightening someone one a gun is being held at my forehead&amp;quot;. I had two counter arguments to this response, but sadly the tone of the night was such that I decided to not continue. After this answer, everyone applauded the response and I was asked by another attendant to not continue and that my comment was misplaced. But the answers that I would have told:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;This is a &lt;strong&gt;pure emotional reaction&lt;/strong&gt;, not a &lt;strong&gt;rational answer&lt;/strong&gt;. That man who said that was an&lt;br /&gt;
+atheist. And I know living in Iran must have been hard for him. And maybe at some point a gun was being pointed to his face. &lt;strong&gt;But not that day&lt;/strong&gt;. And in that day, now that no gun is being held at anyone of us, we should decide to think rationally rather than clinging into past emotions.&lt;/li&gt;
+&lt;li&gt;But all in all, I see that what I am proposing is against what we do by default. If someone harasses you, you don&#39;t think about them with compassion. If someone steals, you punish them. You don&#39;t think about how to fix them.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Well, my question is, why not? take the extreme case aside. If you are threatened by an imminent&lt;br /&gt;
+danger, sure do whatever you find best. But that aside, when was the last time that you treated&lt;br /&gt;
+someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em&gt;&amp;quot; with such a mindset?&lt;/p&gt;
+&lt;p&gt;70 years ago, we were about to bring about WW2. And do you really think we have gotten better over the last 70 years, as species, with a higher level of consciousness, or are we the same, except we don&#39;t go to wars anymore because we have too much at stake?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/vipassana.jpeg&quot; alt=&quot;vipassana.jpeg&quot; /&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/posts/personal/amsterdam-bunker-talks-experience-1/" />
+        </entry>
+        <entry>
+            <title>
+                Home
+                
+            </title>
+            <updated>2023-11-01T20:09:03.997Z</updated>
+            <id>https://blog.kianenigma.nl/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;🦀 Rust Developer &lt;a href=&quot;https://twitter.com/ParityTech/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;@paritytech&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;📚 Parallel and Distributed Systems Msc. Student at &lt;a href=&quot;https://twitter.com/VUamsterdam&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Vrije Universiteit Amsterdam&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;🔴 &lt;a href=&quot;https://wwww.polkadot.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot&lt;/a&gt; Fellow.
+&lt;ul&gt;
+&lt;li&gt;Polkadot Address: &lt;code&gt;1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Kusama Address: &lt;code&gt;HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Twitter&lt;/a&gt; (inactive) | &lt;a href=&quot;https://www.linkedin.com/in/kian-paimani-a3618022b/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Linkedin&lt;/a&gt; (inactive) |&lt;/p&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl/" />
+        </entry>
+</feed>
