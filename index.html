@@ -537,7 +537,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2023-11-01T20:51:41.706Z';
+        const searchIndexDate = '2023-11-01T20:55:42.768Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -549,9 +549,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T20:51:41.706Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2023-11-01T20:55:42.768Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T20:51:41.706Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2023-11-01T20:55:42.768Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -796,7 +796,7 @@
       <ul>
 <li>🦀 Rust Developer <a href="https://twitter.com/ParityTech/" target="_blank" class="external-link">@paritytech</a>.</li>
 <li>📚 Parallel and Distributed Systems Msc. Student at <a href="https://twitter.com/VUamsterdam" target="_blank" class="external-link">Vrije Universiteit Amsterdam</a>.</li>
-<li>🔴 <a href="https://polkadot.network/" target="_blank" class="external-link">Polkadot</a> Fellow.
+<li>🔴 <a href="https://www.polkadot.network" target="_blank" class="external-link">Polkadot</a> Fellow.
 <ul>
 <li>Polkadot Address: <code>1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE</code></li>
 <li>Kusama Address: <code>HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1</code></li>
