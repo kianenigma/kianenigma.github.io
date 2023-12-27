@@ -1,79 +1,72 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2022-10-19T23:09:16.937+01:00","updated":"2023-08-28T13:57:08.215+01:00"}
+{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2022-10-20T07:09:16.937+09:00","updated":"2023-12-27T17:23:11.393+09:00"}
 ---
 
 
-> I started writing this on 27th of September 2022 and ever since the situation, and my opinion has slightly changed.
+> I started writing this on the 27th of September 2022 and ever since the situation, and my opinion has slightly changed.
 
 ## What I intend to do here
 
 Breezing over Iran's social media and news these days, the environment is filled with emotions. Opinions are flying by, with everyone telling what others ought to have done or said. I understand why that could be, but I want to insist that I am not here to convince anyone of anything. I am merely writing down some opinions I hold for the sake of posterity.
 
-Moreover, I entirely agree that some my opinions might not be exactly on-par with what fellow Iranians, and I want to emphasize why I think that's the case before going further.
+Moreover, I entirely agree that some of my opinions might not be exactly on-par with what fellow Iranians think, and I want to emphasize why I think that's the case before going further.
 
 The first reason for my unorthodox opinions is perhaps my background and current living situation, which I cover in more detail in the next section.
 
-The second reason is something more subtle. We are highly social animals and the desire to be part part of a tribe is deeply rooted in us. Similarly, the feeling of being ostracized is extremely discomforting. Ever since the emergence of this movement, I have found myself facing a dilemma:
+Secondly, we are highly social animals, and the desire to be part of a tribe is deeply rooted in us. Similarly, the feeling of being ostracized is extremely discomforting. Ever since the emergence of this movement, I have found myself facing a dilemma:
 
 1. Should I also indulge in being active online, be loud and bold, be part of the movement, and feel part of the tribe.
-2. Or, keep my head above water, and only do something *if I wholly think of it as being beneficial*, risking being ostracized.
+2. Or, keep my head above water, and only do something *if I wholly think of it as being beneficial*. 
 
 Truth is, every time I came close to choosing option number 1, I'd realize that I am not doing it because I really think it is useful. I am, instead, doing it either out of the desire to be "part of the movement", or "fear of being judged if I don't", neither of which is a correct reason to do something.
 
-> Not to be mistaken, I have tried to play more role in helping the liberation of Iran by increasing awareness about it, mostly in person, within the circle of my international acquaints, and have participated and aided local protests where I live. I do not face the same dilemma as above whilst doing such acts.
+> Not to be mistaken, I have tried to play more role in helping the liberation of Iran by increasing awareness about it, mostly in person, within the circle of my friends, and have participated and aided local protests where I live. I do not face the same dilemma as above while doing such acts.
 
 This situation has led me and my opinions on the matter to be somewhat disconnected from the mainstream narrative, which contributes to my opinion being perhaps unacceptable to the majority.
 
-Thirdly, to put it shortly, I am not a fan of acting **emotionally** under any circumstance in life, and you should be able to see traces of this in most of my comments. I strongly think we, as humans, both individually and collectively, come to better conclusions if we think less emotional and more rational. If you think otherwise, we can agree to disagree on many things.
-
-Lastly, if I ever share this writing on social media, while I agree that anyone is allowed to disagree, criticize or attack my opinion, I hardly see social media as the proper medium to do so (about which I [recently tweeted](https://twitter.com/kianenigma/status/1582062916257607680?s=20&t=KfetvLBaqLJ8EQSYav3zRw), Ironically). Instead , I would love to discuss comments in a longer format elsewhere.
+Thirdly, to put it shortly, I strive to not act emotionally under any circumstance, and you should be able to see traces of this in most of my comments. I strongly think we, both individually and collectively, come to better conclusions if we think less emotional and more rational. If you think otherwise, we can agree to disagree on many things.
 ## Where I am coming from
-
-First, let's establish who I am and where I am coming from. I am raised in a fairly open-minded middle/upper class family in Iran. I was never highly exposed to Iran's brainwashing propaganda, Islam, or anything like that. I always distinguished Iran's regime as an un-rightful suppressive one. That being said, I must also confess that I was never directly annoyed by this regime either. Even though my teenage years was the start of the decline of Iran, I was mostly capable of having a good life. This was in part due to my family's above-average financial situation (which was deteriorating at the time), and the fact that I studied compute engineering, I liked it, and put a lot of effort into it. Consequently, there was plenty of job opportunities for me as a student, earning at least some money. In some sense, while some of my friends were in a "there's nothing to achieve in this country" mentality back in e.g. 2015, I was happily swimming against the current. *To some extent*, I hold the same opinion today as well.
+First, let's establish who I am and where I am coming from. I am raised in a fairly open-minded middle/upper class family in Iran. I was never highly exposed to Iran's brainwashing propaganda, Islam, or anything like that. Likewise, I never distinguished Iran's regime as a rightful one. That being said, I must also confess that I was never directly annoyed by this regime either. Even though my teenage years were the start of the decline of Iran, I was mostly capable of having a good life. This was in part due to my family's above-average financial situation (which was deteriorating at the time), and the fact that I studied compute engineering, I liked it, and put a lot of effort into it. Consequently, there were plenty of job opportunities for me as a student, earning at least some money. In some sense, while some of my friends were in a "there's nothing to achieve in this country" mentality back in e.g. 2015, I was happily swimming against the current. *To some extent*, I hold the same opinion today as well. In short, I am coming from a position of privilege. 
 
 Next, looking at where I am now, writing this. I have been away from Iran for almost 5 years now, and I am even more independent of it. Yes, Iran's regime has gotten ever so more brutal over the years, but I have also moved away further, and I am *objectively* less affected by it.
 
 > As a side note, the PS flight was taken down two days after I flew out of Iran in early 2020. Yes, that was a bit close, but I still happily consider myself very independent of Iran's politics.
 
-lastly, I have, over the years, never really benefited particularly from Iran's regime, or never really grown fond of it in any way either. I did believe in the reformist movement of Iran a decade ago (and perhaps even today consider it the better choice between "bad and worse"), but all in all I don't see have any reason to defend Iran's government and regime. For the remainder of this writing, if I criticize the *opposition* of Iran, please be aware that I do **not** mean to imply any sort of approval for the existing order.
+Lastly, I have, over the years, never really benefited particularly from Iran's regime, or never really grown fond of it in any way either. I did believe in the reformist movement of Iran a decade ago (and perhaps even today consider it the better choice between "bad and worse"), but all in all I don't see have any reason to defend Iran's government and regime. For the remainder of this writing, if I criticize the *opposition* of Iran, please be aware that I do **not** mean to imply any sort of approval for the existing order.
 
-All in all, I consider myself to be in a spot where I can cast an **unemotional opinion** on the situation of Iran, which I find rather unique. To recap, I am neither benefiting from nor directly harmed the current regime in Iran. I follow the news, but not enough such that I can't keep both feet on the ground. I entirely agree with the *reasons* that the people on the street protesting have, but I don't share the *emotions* with them as much. Whether an opinion coming from such a position like mine is worthy of anything or not, is up to you.
+All in all, I consider myself to be in a spot where I can cast an *unbiased* opinion on the situation of Iran, which can be unique. To recap, I am neither benefiting from nor directly harmed the current regime in Iran. I follow the news, but not enough such that I can't keep both feet on the ground. I entirely agree with the *reasons* that the people on the street protesting have, but I don't share the *emotions* with them as much. Whether an opinion coming from such a position like mine is worthy of anything or not, is up to you.
 ## The Good
 
-The uprising of Iran is the consequences of what the current regime has done over the last few decades. It is not the first of its kind either, and and there has been periodic events such as this one [ever since 2009's green movement](https://en.wikipedia.org/wiki/Iranian_Green_Movement), if not earlier. The living conditions in Iran have declines rapidly over the years, the international presence have gotten worse and worse. All of this justifies a "change", and is not anyone's wish to see it continue.
+The uprising in Iran is the consequences of what the current regime has done over the last few decades. It is not the first of its kind either, and there has been periodic events such as this one [ever since 2009's green movement](https://en.wikipedia.org/wiki/Iranian_Green_Movement), if not earlier. The living conditions in Iran have declines rapidly over the years, the international presence has gotten worse and worse. All of this justifies a "change", and is not anyone's wish to see it continue.
 
-Also, Iran is being ruled by people with radical religious beliefs, and putting a stop to that is something that I hope to see both in Iran and globally. I fully right the hold for any religious person to practice what they believe, but imposing it *forcefully* on others is just none-sense. I insist on the forceful part, because Iran is evidently no longer majority muslim.
+Also, Iran is being ruled by people with radical religious beliefs, and putting a stop to that is something that I hope to see both in Iran and globally. I fully hold the right for any religious person to practice what they believe, but imposing it *forcefully* on others is just none-sense. I insist on the forceful part, because Iran is evidently no longer majority Muslim.
 
-Admittedly, I don't want to talk about the "Good" part much further, because it is self-evident. It is the uncontroversial part. *Of course* I wish Iran would suddenly change and become better and free and prosperous country. *Of course* I wish women and men would both have equal rights and freedom. *Of course* I agree that the current regime does not even show any sign of hope for the aforementioned. And a protests/revolution is seen as a "light at the end of the tunnel".
-
-But, now I want to think aloud about some of the more problematic parts. There are certain things that worries me about this, so called, revolution in Iran, and I want to discuss them for the rest of this post. I should apologize for my, perhaps hard to read, criticism. I understand that this might not be pleasant to read, and I hope you understand that it is being written out of concern, with a good intention.
-
+Admittedly, I don't want to talk about the "Good" part much further, because it is self-evident. It is the uncontroversial part. *Of course,* I wish Iran would suddenly change and become a better and free and prosperous country. *Of course,* I wish women and men would both have equal rights and freedom. *Of course,* I agree that the current regime does not even show any sign of hope for the aforementioned. And a protests/revolution is seen as a "light at the end of the tunnel".
 ## The Bad
 
 ### Whatever you want to do, you will do it better if you have a calm mind.
 
-I sometimes see a narrative that is proudly and boldly spreading "look how miserable I am because of this", and is harshly criticizing anyone who dares to say to say "yeah, times are hard, but I am doing okay".
+I sometimes see a narrative that is proudly and boldly spreading "look how miserable I am because of this", and is harshly criticizing anyone who dares to say "yeah, times are hard, but I am doing okay".
 
 It is entirely understandable that certain people might have a hard(er) time coping with the ongoing events, and sharing it online is perhaps helpful[^1]. Nonetheless, I see two important facts here:
 
 1. We all deal with different situations in our own way. If someone is dealing with it with less misery, it does not have much to say about their opinion and stance on the matter.
-2. If we want to optimize of effectiveness, almost without a doubt, a balanced, calm mind is more effective at making any sort of decision than an unstable one. For example, if you want to write a tweet and post it, you would probably come up with a better, more catchy, more viral tweet if you are calm.
+2. If we want to optimize for effectiveness, almost without a doubt, a balanced mind is more effective at making any sort of decision than an unstable one. For example, if you want to write a tweet and post it, you would probably come up with a better, more catchy, more viral tweet if you are calm.
 
 So, while times are hard, I think we should embrace wellbeing more, and support each other to all feel better, less affected, and less unhappy about the situation, while combating it. Then, we would both feel better as individuals, and I hope we can come to a better outcome collectively.
-
 ### There is nothing exciting about the violence involved.
 
 ![[rings-of-power.mp4]]
 
-I was recently told by a very close acquaintance of mine: "Yeah, if you feel down, I can send you this video where the people beat the shit out of that other guy (the other guy being a ["basiji"](https://en.wikipedia.org/wiki/Basij)), see it and you feel better".
+I was recently told by a very close acquaintance of mine: "Yeah, if you feel down, I can send you this video where the people beat the shit out of that other guy (the other guy being a ["basiji"](https://en.wikipedia.org/wiki/Basij)), see it, and you feel better".
 
-When I heard this, I only nodded and smiled, but I really find it disturbing. This is **fucked up**. My friend should not enjoy seeing others being beaten up so much, regardless who is beating up who. Yes, that friend of mine can say "Look, the situation has traumatized me so much that ..." but I honestly think this is an excuse. Wishing to invoke violence on others is nothing to feel happy about, and if you are in a spot where you do feel happy about it, you might have indulged too much into emotional sentiments such that it has blinded your thinking and (more importantly) morality altogether.
+When I heard this, I only nodded and smiled, but I really find it disturbing. This is **fucked up**. My friend should not enjoy s eeing others being beaten up so much, regardless who is beating up whom. Yes, that friend of mine can say "Look, the situation has traumatized me so much that ..." but I honestly think this is an excuse. Wishing to invoke violence on others is nothing to feel happy about, and if you are in a spot where you do feel happy about it, you might have indulged too much into emotional sentiments such that it has blinded your thinking and (more importantly) morality altogether.
 
 I am aware that the police in Iran does deploy force frequently, and it makes perfect sense for people to use force for defense. I am sorry to say this, but the harsh, sad, cold reality is that anything beyond this makes the attacker be of the same nature as the person being attacked.
 
 Moreover, while I think this is not a strong argument anymore, every instance of violence from the people towards the government agents will be used as propaganda and and reason for more suppression. So, I think it is wise to use the minimum amount of violence.
 
-Lastly, I think this will set a very grim precedence for what the Iran's 2022 Revolutionists (henceforth referred to as "revolutionists") are *willing to do*. Do they have higher standards regarding maintaining peace? or are they the other side of the same coin?
+Lastly, I think this will set a very grim precedence for what the Iran's 2022 "revolutionists" are *willing to do*. Do they have higher standards regarding maintaining peace? or are they the other side of the same coin?
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0FfJGfhIOiWjTgyKMk2djv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
