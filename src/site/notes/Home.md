@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2023-08-26T13:20:49.149+01:00","updated":"2023-11-01T21:23:38.188+00:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2023-08-26T13:20:49.149+01:00","updated":"2024-02-24T15:25:07.830+00:00"}
 ---
 
-![Screenshot 2023-11-01 at 21.21.06.jpeg](/img/user/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
+![Screenshot 2023-11-01 at 21.21.06.jpeg](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 
 - 🦀 Rust Developer [@paritytech](https://twitter.com/ParityTech/). 
 - 📚 Parallel and Distributed Systems Msc. Student at [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam).
