@@ -212,6 +212,17 @@
         
     
                     
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/playlists/">Playlists </a>
+                </div>
+            
+        </div>
+        
+    
+                    
                 </div>
             
         </div>
@@ -238,6 +249,17 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/">For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/tech/polkadot-s-build-horizon/">Polkadot&#39;s Build Horizon </a>
                 </div>
             
         </div>
@@ -548,7 +570,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-02-24T16:36:10.474Z';
+        const searchIndexDate = '2024-02-24T16:36:54.781Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -560,9 +582,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-02-24T16:36:10.474Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-02-24T16:36:54.781Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-24T16:36:10.474Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-24T16:36:54.781Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -824,7 +846,7 @@
 </li>
 <li>Often find online with the name <code>kianenigma</code>.</li>
 </ul>
-<p><a href="https://github.com/kianenigma" target="_blank" class="external-link">Github</a> | <a href="https://twitter.com/kianenigma" target="_blank" class="external-link">Twitter</a>  | <a href="https://www.linkedin.com/in/kian-paimani-a3618022b/" target="_blank" class="external-link">Linkedin</a> (inactive) | <a class="internal-link is-unresolved" href="/404">Playlists</a> | <a href="https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04" target="_blank" class="external-link">Spotify</a></p>
+<p><a href="https://github.com/kianenigma" target="_blank" class="external-link">Github</a> | <a href="https://twitter.com/kianenigma" target="_blank" class="external-link">Twitter</a>  | <a href="https://www.linkedin.com/in/kian-paimani-a3618022b/" target="_blank" class="external-link">Linkedin</a> (inactive) | <a class="internal-link" data-note-icon="" href="/posts/personal/playlists/">Playlists</a> | <a href="https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04" target="_blank" class="external-link">Spotify</a></p>
 
       
       
