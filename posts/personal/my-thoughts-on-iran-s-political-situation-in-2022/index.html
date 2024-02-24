@@ -550,7 +550,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-02-24T15:29:35.639Z';
+        const searchIndexDate = '2024-02-24T15:29:45.652Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -562,9 +562,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-02-24T15:29:35.639Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-02-24T15:29:45.652Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-24T15:29:35.639Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-24T15:29:45.652Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -799,7 +799,7 @@
           <h1 data-note-icon="">My Thoughts On Iran&#39;s Political Situation in 2022</h1>
         
         <div class="header-meta">
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2022-10-20T07:09:16.937+09:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2023-12-27T17:23:11.393+09:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2022-10-19T23:09:16.937+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2023-12-27T08:23:11.393+00:00"></span></div></div></div>
       
       
       </header>
