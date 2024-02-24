@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/playlists/","created":"2024-02-24T16:16:26.901+00:00","updated":"2024-02-24T16:36:17.017+00:00"}
+{"dg-publish":true,"permalink":"/posts/personal/playlists/","created":"2024-02-24T16:16:26.901+00:00","updated":"2024-02-24T16:49:41.337+00:00"}
 ---
 
 
@@ -37,6 +37,7 @@ A number of playlists dedicated to journeys induced by Ketamine. Vitamin K is th
 ## Acid Playlist 
 
 These two are my main playlists that I used during introspective psychedelic trips: 
+
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1qxHnmJXeNBEIB1GA5krkZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4LLAbJ9EAJemuIT2LbmXRD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
