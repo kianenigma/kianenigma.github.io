@@ -2,8 +2,8 @@
     "name": "web",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
-	"homepage": "https://kianenigma.github.io/kianenigma/",
+	"main": "index.js",
+	"homepage": "https://kianenigma.github.io/",
     "scripts": {
         "start": "npm-run-all get-theme build:sass --parallel watch:*",
         "watch:sass": "sass --watch src/site/styles:dist/styles",
