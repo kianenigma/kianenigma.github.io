@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2023-08-26T13:20:49.149+01:00","updated":"2024-02-24T15:51:16.521+00:00"}
+{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2023-08-26T13:20:49.149+01:00","updated":"2024-02-24T16:35:18.419+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -11,4 +11,4 @@
 	- Kusama Address: `HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1`
 - Often find online with the name `kianenigma`.
 
- [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive) | 
+ [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive) | [[Posts/Personal/Playlists\|Playlists]] | [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
