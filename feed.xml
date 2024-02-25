@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-02-25T12:27:17Z</updated>
+    <updated>2024-02-25T12:44:37Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -270,10 +270,10 @@
                 Polkadot&#39;s Build Horizon
                 
             </title>
-            <updated>2024-02-25T12:26:45.773Z</updated>
+            <updated>2024-02-25T12:40:03.418Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/polkadot-s-build-horizon/</id>
             <content type="html">
-                &lt;p&gt;This write up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion:&lt;/p&gt;
+                &lt;p&gt;This write-up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;span style=&quot;color: #e6007a&quot;&gt;Polkadot, the platform itself&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span style=&quot;color: #93c47dff&quot;&gt;Onchain Development: Runtime/Parachain/Task development&lt;/span&gt;&lt;/li&gt;
@@ -282,27 +282,30 @@
 &lt;li&gt;(+1) Off-chain applications talking to any of the above items.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;For each item, I have listed what I believe to be the best “educational resource” on the topic now or in the near future. This is by no means exhaustive, and I encourage readers to comment what else they can think of.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I generally refrain from referencing &lt;a href=&quot;https://docs.substrate.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;docs.substrate.io&lt;/code&gt;&lt;/a&gt; as it is not a well maintained resource. I am working, and hope to see a smaller but more accurate replacement for this website, such as &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;polkadot-sdk-docs&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&quot;1-polkadot-the-platform&quot; tabindex=&quot;-1&quot;&gt;1. Polkadot, the Platform&lt;/h2&gt;
 &lt;p&gt;First, what is Polkadot itself, as a platform? A ubiquitous computer/blockchain that is&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Multicore, as in, it has heterogeneous sharded execution. Each shard/core can execute a different task.&lt;/li&gt;
 &lt;li&gt;Provides a homogenous layer of shared security over all the cores and all the tasks that run on these cores.&lt;/li&gt;
 &lt;li&gt;So far, the only type of task explored has been what we call a &amp;quot;para-chain&amp;quot;, but going forward, we expect to see diverse type of tasks being deployed on Polkadot.&lt;/li&gt;
-&lt;li&gt;So far, the only way to acquire execution time on a core (ie. &amp;quot;core-time&amp;quot;) has been to win a parachain auction, but soon, with agile core-time, acquiring core-time will become much easier and granular.&lt;/li&gt;
+&lt;li&gt;So far, the only way to acquire execution time on a core (i.e. &amp;quot;core-time&amp;quot;) has been to win a parachain auction, but soon, with agile core-time, acquiring core-time will become much easier and granular.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;Resources&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introblock&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introblock&lt;/a&gt; (also on EdX)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introdot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introdot&lt;/a&gt; (also on EdX)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introblock&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introblock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introdot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introdot&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://spec.polkadot.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://spec.polkadot.network/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://wiki.polkadot.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://wiki.polkadot.network/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;2-onchain-development-runtime-task&quot; tabindex=&quot;-1&quot;&gt;2. Onchain Development – Runtime / Task&lt;/h2&gt;
-&lt;p&gt;Runtimes are the primary type of tasks that can run on Polkadot cores. They are expressed as WASM blobs. They are scheduled anywhere between one block at a time (formerly known as on-demand parachain, or &lt;em&gt;parathreads&lt;/em&gt;) to 2 years (formerly known as a parachain) to anywhere in between (&lt;em&gt;agile-coretime&lt;/em&gt;). Commonly built with FRAME, and typically representing a blockchain application logic. But, crucially, a runtime can also represent any other application.&lt;/p&gt;
+&lt;p&gt;Runtimes are the primary type of tasks that can run on Polkadot cores. They are expressed as WASM blobs. They are scheduled anywhere between one block at a time (formerly known as on-demand parachain, or parathreads) to 2 years (formerly known as a parachain) to anywhere in between (&lt;em&gt;agile-coretime&lt;/em&gt;). Commonly built with FRAME, and typically representing a blockchain application logic. But, crucially, a runtime can also represent any other application.&lt;/p&gt;
 &lt;h3 id=&quot;resources-1&quot; tabindex=&quot;-1&quot;&gt;Resources&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introsubstrate&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introsubstrate&lt;/a&gt; (also on edX)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introparachain&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introparachain&lt;/a&gt; (also on edX)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introsubstrate&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introsubstrate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introparachain&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introparachain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;polkadot-sdk-docs&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;All of our templates
 &lt;ul&gt;
@@ -313,8 +316,8 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;3-onchain-development-smart-contracts&quot; tabindex=&quot;-1&quot;&gt;3. Onchain Development – Smart Contracts&lt;/h2&gt;
-&lt;p&gt;A task/runtime that run on a Polkadot core can itself be what is known as a smart contract platform, similar to Ethereum or Solana, examples of which are Moonbeam and ASTAR. These platfroms could support multiple virtual machines such as EVM and WASM, or both.&lt;/p&gt;
-&lt;p&gt;Therefore, Polkadot supports smart contract development as a secondary feature through its evolving ecosystem of parachains. There have also been discussions on a native smart contract platform for Polkadot, but none has existed so far.&lt;/p&gt;
+&lt;p&gt;A task/runtime that run on a Polkadot core can itself be what is known as a smart contract platform, similar to Ethereum or Solana, examples of which are Moonbeam and Astar. These platforms could support multiple virtual machines such as EVM and WASM, or both.&lt;/p&gt;
+&lt;p&gt;Therefore, Polkadot supports smart contract development as a secondary feature through its evolving ecosystem of parachains. There have also been &lt;a href=&quot;https://forum.polkadot.network/t/r0gue-reimagining-polkadot-development-with-pop-network/5119&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;discussions/proposals&lt;/a&gt; on a native smart contract platform for Polkadot, but none has existed so far.&lt;/p&gt;
 &lt;p&gt;Moreover, a team can utilize the above technology to deploy what is known as &amp;quot;single dApp chain&amp;quot;. Imagine a contract is successful in a shared environment, such as Moonbeam, and now wants to have more bandwidth and lower fees. This can be achieved by a runtime, written with FRAME, that can execute smart contracts, and only hosts the contracts of this one team. Then, some contracts can be rewritten as FRAME modules, enabling more bandwidth and low-level features. Finally, the contract can graduate to a full FRAME runtime. More on this in the recap figure down below.&lt;/p&gt;
 &lt;h3 id=&quot;resources-2&quot; tabindex=&quot;-1&quot;&gt;Resources&lt;/h3&gt;
 &lt;ul&gt;
@@ -323,7 +326,7 @@
 &lt;li&gt;&lt;a href=&quot;https://github.com/paritytech/frontier-parachain-template&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Frontier-parachain-template&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;4-onchain-development-interoperability-and-message-passing&quot; tabindex=&quot;-1&quot;&gt;4. Onchain Development – Interoperability and Message Passing&lt;/h2&gt;
-&lt;p&gt;Because of Polkadot’s shared security, Runtimes and Smart Contracts (or any other task that resides on a core) can communicate with one another without a need to worry about the economic security of the recipient of the message. Any datagram can be sent between cores, yet the primary language adopted in the ecosystem is XCM, short for Cross Consensus Message.&lt;/p&gt;
+&lt;p&gt;Because of Polkadot’s shared security, Runtimes and Smart Contracts (or any other task that resides on a core) can communicate with one another without a need to worry about the economic security of the recipient of the message. Any message can be sent between cores, yet the primary language adopted in the ecosystem is XCM, short for Cross Consensus Message.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://wiki.polkadot.network/docs/learn/xcm&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;XCM-docs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -332,7 +335,7 @@
 &lt;h3 id=&quot;resources-3&quot; tabindex=&quot;-1&quot;&gt;Resources&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/paritytech/subxt&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Rust: Sub-xt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://polkadot.js.org/docs/api/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;JS/TS: Polkadot-JS-API&lt;/a&gt; (light client compatible, but not light client-first)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://polkadot.js.org/docs/api/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;JS/TS: Polkadot-JS-API&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/paritytech/substrate-connect&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;JS/TS: Substrate Connect&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/substrate-developer-hub/substrate-front-end-template&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Substrate frontend template&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://polkadot.cloud/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot Cloud Library&lt;/a&gt;&lt;/li&gt;
@@ -375,6 +378,7 @@
 &lt;li&gt;&lt;a href=&quot;https://education.web3.foundation/docs/introrust&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://education.web3.foundation/docs/introrust&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://polkadot-blockchain-academy.github.io/pba-book/frame/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://polkadot-blockchain-academy.github.io/pba-book/frame/index.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/Awsmdot/awesome-dot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/Awsmdot/awesome-dot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/shawntabrizi/rust-state-machine&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/shawntabrizi/rust-state-machine&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
