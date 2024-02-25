@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/polkadot-s-build-horizon/","contentClasses":"build-map","tags":["polkadot"],"created":"2023-11-01T20:59:32.294+00:00","updated":"2024-02-25T12:26:45.773+00:00"}
+{"dg-publish":true,"permalink":"/posts/tech/polkadot-s-build-horizon/","contentClasses":"build-map","tags":["polkadot"],"created":"2023-11-01T20:59:32.294+00:00","updated":"2024-02-25T12:40:03.418+00:00"}
 ---
 
-This write up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion: 
+This write-up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion: 
 
 1. <span style="color: #e6007a">Polkadot, the platform itself</span>
 2. <span style="color: #93c47dff">Onchain Development: Runtime/Parachain/Task development</span>
@@ -12,26 +12,28 @@ This write up explains what Polkadot is at 4+1 different levels for Builders, in
 
 For each item, I have listed what I believe to be the best “educational resource” on the topic now or in the near future. This is by no means exhaustive, and I encourage readers to comment what else they can think of. 
 
+> I generally refrain from referencing [`docs.substrate.io`](https://docs.substrate.io/) as it is not a well maintained resource. I am working, and hope to see a smaller but more accurate replacement for this website, such as [`polkadot-sdk-docs`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/)
+
 ## 1. Polkadot, the Platform
 
 First, what is Polkadot itself, as a platform? A ubiquitous computer/blockchain that is
 1. Multicore, as in, it has heterogeneous sharded execution. Each shard/core can execute a different task.
 2. Provides a homogenous layer of shared security over all the cores and all the tasks that run on these cores. 
 3. So far, the only type of task explored has been what we call a "para-chain", but going forward, we expect to see diverse type of tasks being deployed on Polkadot.
-4. So far, the only way to acquire execution time on a core (ie. "core-time") has been to win a parachain auction, but soon, with agile core-time, acquiring core-time will become much easier and granular. 
+4. So far, the only way to acquire execution time on a core (i.e. "core-time") has been to win a parachain auction, but soon, with agile core-time, acquiring core-time will become much easier and granular. 
 ### Resources 
-- [https://education.web3.foundation/docs/introblock](https://education.web3.foundation/docs/introblock) (also on EdX)
-- [https://education.web3.foundation/docs/introdot](https://education.web3.foundation/docs/introdot) (also on EdX)
+- [https://education.web3.foundation/docs/introblock](https://education.web3.foundation/docs/introblock) 
+- [https://education.web3.foundation/docs/introdot](https://education.web3.foundation/docs/introdot) 
 - [https://spec.polkadot.network/](https://spec.polkadot.network/)
 - [https://wiki.polkadot.network/](https://wiki.polkadot.network/)
 
 ## 2. Onchain Development – Runtime / Task 
 
-Runtimes are the primary type of tasks that can run on Polkadot cores. They are expressed as WASM blobs. They are scheduled anywhere between one block at a time (formerly known as on-demand parachain, or _parathreads_) to 2 years (formerly known as a parachain) to anywhere in between (*agile-coretime*). Commonly built with FRAME, and typically representing a blockchain application logic. But, crucially, a runtime can also represent any other application.
+Runtimes are the primary type of tasks that can run on Polkadot cores. They are expressed as WASM blobs. They are scheduled anywhere between one block at a time (formerly known as on-demand parachain, or parathreads) to 2 years (formerly known as a parachain) to anywhere in between (*agile-coretime*). Commonly built with FRAME, and typically representing a blockchain application logic. But, crucially, a runtime can also represent any other application.
 
 ### Resources 
-- [https://education.web3.foundation/docs/introsubstrate](https://education.web3.foundation/docs/introsubstrate) (also on edX)    
-- [https://education.web3.foundation/docs/introparachain](https://education.web3.foundation/docs/introparachain) (also on edX)
+- [https://education.web3.foundation/docs/introsubstrate](https://education.web3.foundation/docs/introsubstrate) 
+- [https://education.web3.foundation/docs/introparachain](https://education.web3.foundation/docs/introparachain)
 - [`polkadot-sdk-docs`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/)
 - All of our templates
 	- [Substrate-node-template](https://github.com/substrate-developer-hub/substrate-node-template)
@@ -39,9 +41,9 @@ Runtimes are the primary type of tasks that can run on Polkadot cores. They are 
 	- [Extended-parachain-template](https://github.com/paritytech/extended-parachain-template)
 
 ## 3. Onchain Development – Smart Contracts 
-A task/runtime that run on a Polkadot core can itself be what is known as a smart contract platform, similar to Ethereum or Solana, examples of which are Moonbeam and ASTAR. These platfroms could support multiple virtual machines such as EVM and WASM, or both. 
+A task/runtime that run on a Polkadot core can itself be what is known as a smart contract platform, similar to Ethereum or Solana, examples of which are Moonbeam and Astar. These platforms could support multiple virtual machines such as EVM and WASM, or both. 
 
-Therefore, Polkadot supports smart contract development as a secondary feature through its evolving ecosystem of parachains. There have also been discussions on a native smart contract platform for Polkadot, but none has existed so far. 
+Therefore, Polkadot supports smart contract development as a secondary feature through its evolving ecosystem of parachains. There have also been [discussions/proposals](https://forum.polkadot.network/t/r0gue-reimagining-polkadot-development-with-pop-network/5119) on a native smart contract platform for Polkadot, but none has existed so far. 
 
 Moreover, a team can utilize the above technology to deploy what is known as "single dApp chain". Imagine a contract is successful in a shared environment, such as Moonbeam, and now wants to have more bandwidth and lower fees. This can be achieved by a runtime, written with FRAME, that can execute smart contracts, and only hosts the contracts of this one team. Then, some contracts can be rewritten as FRAME modules, enabling more bandwidth and low-level features. Finally, the contract can graduate to a full FRAME runtime. More on this in the recap figure down below. 
 
@@ -51,14 +53,14 @@ Moreover, a team can utilize the above technology to deploy what is known as "si
 - [Frontier-parachain-template](https://github.com/paritytech/frontier-parachain-template)
 ## 4. Onchain Development – Interoperability and Message Passing
 
-Because of Polkadot’s shared security, Runtimes and Smart Contracts (or any other task that resides on a core) can communicate with one another without a need to worry about the economic security of the recipient of the message. Any datagram can be sent between cores, yet the primary language adopted in the ecosystem is XCM, short for Cross Consensus Message. 
+Because of Polkadot’s shared security, Runtimes and Smart Contracts (or any other task that resides on a core) can communicate with one another without a need to worry about the economic security of the recipient of the message. Any message can be sent between cores, yet the primary language adopted in the ecosystem is XCM, short for Cross Consensus Message. 
 - [XCM-docs](https://wiki.polkadot.network/docs/learn/xcm) 
 ## 5. Offchain Development 
 
 Polkadot ecosystem comes with a slew of APIs to write decentralized[^1] applications that are based on the previous primitives. These programming APIs will allow developers to connect to and interact with a runtime, a smart contract, or both.
 ### Resources 
 - [Rust: Sub-xt](https://github.com/paritytech/subxt)    
-- [JS/TS: Polkadot-JS-API](https://polkadot.js.org/docs/api/) (light client compatible, but not light client-first)
+- [JS/TS: Polkadot-JS-API](https://polkadot.js.org/docs/api/) 
 - [JS/TS: Substrate Connect](https://github.com/paritytech/substrate-connect)
 - [Substrate frontend template](https://github.com/substrate-developer-hub/substrate-front-end-template)
 - [Polkadot Cloud Library](https://polkadot.cloud)
@@ -90,6 +92,6 @@ Polkadot ecosystem comes with a slew of APIs to write decentralized[^1] applicat
 - [https://education.web3.foundation/docs/introrust](https://education.web3.foundation/docs/introrust)
 - [https://polkadot-blockchain-academy.github.io/pba-book/frame/index.html](https://polkadot-blockchain-academy.github.io/pba-book/frame/index.html)
 - https://github.com/Awsmdot/awesome-dot
-
+- https://github.com/shawntabrizi/rust-state-machine
 
 [^1]: decentralized: Polkadot comes with a light-client-first application development mindset, which means applications written with the following tools can connect to light clients (instead of centralized API providers) and actually be decentralized.
