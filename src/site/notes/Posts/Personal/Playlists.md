@@ -1,10 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/playlists/","contentClasses":"playlist","created":"2024-02-24T16:16:26.901+00:00","updated":"2024-02-26T21:16:46.707+00:00"}
+{"dg-publish":true,"permalink":"/posts/personal/playlists/","contentClasses":"playlist","created":"2024-02-24T16:16:26.901+00:00","updated":"2024-02-26T21:19:16.844+00:00"}
 ---
 
 A subset of my Spotify playlists that I am fond of. This page is not organized by language. Some playlists are English, some Persian, some mixed. 
+
+---
 ## Main 
-Main two playlist for day to day and work. Both electronic and techno, `Teshno` being more mellow, and `Tekhno` being more upbeat
+Main two playlist for day to day and work. Both electronic and techno, `Teshno` being more mellow, and `Tekhno` being more upbeat.
 <div style="display: flex">
 <iframe style="border-radius:12px;" src="https://open.spotify.com/embed/playlist/4lhrFOX6fAlBVhdSxXyQX5?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -24,7 +26,7 @@ Main two playlist for day to day and work. Both electronic and techno, `Teshno` 
 <iframe style="border-radius:12px;;" src="https://open.spotify.com/embed/playlist/1pnaX3UYMQmGbLtzFlL61y?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/76Tq9AkjzoQqGuGkZzCwlY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1OCIai4CK1k5W1fgYQg865?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ----
 ## K-Hole Lists
 A number of playlists dedicated to journeys induced by Ketamine. 
