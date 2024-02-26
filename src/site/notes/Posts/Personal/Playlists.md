@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/playlists/","contentClasses":"playlist","created":"2024-02-24T16:16:26.901+00:00","updated":"2024-02-26T21:19:16.844+00:00"}
+{"dg-publish":true,"permalink":"/posts/personal/playlists/","contentClasses":"playlist","created":"2024-02-24T16:16:26.901+00:00","updated":"2024-02-26T21:27:15.143+00:00"}
 ---
 
 A subset of my Spotify playlists that I am fond of. This page is not organized by language. Some playlists are English, some Persian, some mixed. 
@@ -15,7 +15,7 @@ Main two playlist for day to day and work. Both electronic and techno, `Teshno` 
 
 ---
 ## Misc 
-<div style="display: flex">
+<div style="display: flex;">
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0FVRqE04sUKCJy5tHwbhIQ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0JAIvKeuNvmoEBWALGftiu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -27,8 +27,9 @@ Main two playlist for day to day and work. Both electronic and techno, `Teshno` 
 </div>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/76Tq9AkjzoQqGuGkZzCwlY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1OCIai4CK1k5W1fgYQg865?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ----
-## K-Hole Lists
+## K-Hole
 A number of playlists dedicated to journeys induced by Ketamine. 
 - Vitamin K is the master playlist I used when partying some old friends and K. 
 - K-Hole lists are 40-60 minute playlists, dedicated to one theme, having an ideal duration for 1 ketamine intake.
