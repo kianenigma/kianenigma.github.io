@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-02-26T21:45:18Z</updated>
+    <updated>2024-02-27T17:14:06Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -101,13 +101,13 @@
                 Thoughts Blockchain and Blockspace Scalability
                 
             </title>
-            <updated>2023-11-01T21:05:10.798Z</updated>
+            <updated>2024-02-27T13:37:49.000Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/thoughts-blockchain-and-blockspace-scalability/</id>
             <content type="html">
                 &lt;blockquote&gt;
 &lt;p&gt;Originally published in the &lt;a href=&quot;https://forum.polkadot.network/t/tellling-the-story-of-the-game-theory-behind-frame-pallets/2282/12?u=kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot forum&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;While thinking about a tutorial idea about FRAME, and came up with an interesting example that showcases/categorizes the &lt;strong&gt;scalability issue&lt;/strong&gt; in blockchains, which is somewhat entangled with game theory. Here it goes.&lt;/p&gt;
+&lt;p&gt;While thinking about a tutorial idea about FRAME, I came up with an interesting example that showcases/categorizes the &lt;strong&gt;scalability issue&lt;/strong&gt; in blockchains, which is somewhat entangled with game theory. Here it goes.&lt;/p&gt;
 &lt;p&gt;Imagine a simple validator selection system whereby:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;anyone can call &lt;code&gt;bond(amount)&lt;/code&gt;, which registers them as &amp;quot;wanna-be validator&#39; with &lt;code&gt;amount&lt;/code&gt; as their approval-stake.&lt;/li&gt;
