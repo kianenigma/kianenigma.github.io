@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-03-08T10:58:03Z</updated>
+    <updated>2024-03-08T10:58:15Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -270,8 +270,8 @@
                 Polkadot&#39;s Build Horizon
                 
             </title>
-            <updated>2024-03-08T10:57:16.765Z</updated>
-            <id>https://blog.kianenigma.nl//polkadot-build-horizon/</id>
+            <updated>2024-02-26T20:24:40.186Z</updated>
+            <id>https://blog.kianenigma.nl//posts/tech/polkadot-s-build-horizon/</id>
             <content type="html">
                 &lt;p&gt;This write-up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion:&lt;/p&gt;
 &lt;ol&gt;
@@ -390,7 +390,7 @@
 &lt;/section&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl//polkadot-build-horizon/" />
+            <link href="https://blog.kianenigma.nl//posts/tech/polkadot-s-build-horizon/" />
         </entry>
         <entry>
             <title>
