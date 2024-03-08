@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-03-08T10:58:15Z</updated>
+    <updated>2024-03-08T11:30:57Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -270,8 +270,8 @@
                 Polkadot&#39;s Build Horizon
                 
             </title>
-            <updated>2024-02-26T20:24:40.186Z</updated>
-            <id>https://blog.kianenigma.nl//posts/tech/polkadot-s-build-horizon/</id>
+            <updated>2024-03-08T10:57:16.765Z</updated>
+            <id>https://blog.kianenigma.nl//polkadot-build-horizon/</id>
             <content type="html">
                 &lt;p&gt;This write-up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion:&lt;/p&gt;
 &lt;ol&gt;
@@ -390,7 +390,7 @@
 &lt;/section&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl//posts/tech/polkadot-s-build-horizon/" />
+            <link href="https://blog.kianenigma.nl//polkadot-build-horizon/" />
         </entry>
         <entry>
             <title>
@@ -480,6 +480,56 @@ useful. You can already see me use them in the previous gif. Highly recommended 
 
             </content>
             <link href="https://blog.kianenigma.nl//posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/" />
+        </entry>
+        <entry>
+            <title>
+                Rumi
+                
+            </title>
+            <updated>2024-03-08T11:30:13.298Z</updated>
+            <id>https://blog.kianenigma.nl//rumi/</id>
+            <content type="html">
+                &lt;blockquote&gt;
+&lt;p&gt;Love, in Rumi’s vision, is when the ego or carnal self (nafs) is naught; and such love is realized when the heart is open and the mind is awakened to the reality of life beyond the fictional ego.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Rumi, Jalaluddin. Rumi: The Art of Loving (p. 24). Rumi Poetry Club. Kindle Edition.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;on-the-pain-and-joy-of-longing&quot; tabindex=&quot;-1&quot;&gt;On The Pain and Joy of Longing&lt;/h2&gt;
+&lt;p&gt;I am madly in love with you. What good is advice and preaching?&lt;br /&gt;
+I have drunk the killing water of love. What good is a little sugar?&lt;br /&gt;
+They say, “Put chains on his feet.”&lt;br /&gt;
+The madness is in my heart. What use is the chain on my feet?&lt;/p&gt;
+&lt;p&gt;dar esh’ģ-e to’am, nasiihat o pand che suud?&lt;br /&gt;
+zah’râb cheshide’am, marâ ģand che suud?&lt;br /&gt;
+guuyand marâ ke: band bar pâsh nehid divâne del ast,&lt;br /&gt;
+pâm bar band che suud?&lt;/p&gt;
+&lt;p&gt;You’re gone, and in my longing I shed tears of blood.&lt;br /&gt;
+This ever-increasing grief of you makes me cry more.&lt;br /&gt;
+No, I’m not saying it right! When you left, my eyes went after you.&lt;br /&gt;
+Since my eyes have gone with you, how can I cry?&lt;/p&gt;
+&lt;p&gt;rafti vaz raftan-e to, man khuun migeryam&lt;br /&gt;
+vaz ghosse-ye afzuun-e to, afzuun migeryam&lt;br /&gt;
+nay, khod cho to rafti, pe-ye to diide beraft&lt;br /&gt;
+chon diide beraft, baa’d az ân chun geryam?&lt;/p&gt;
+&lt;h2 id=&quot;the-search&quot; tabindex=&quot;-1&quot;&gt;The Search&lt;/h2&gt;
+&lt;p&gt;Within your living being, there is a spirit. Search for it!&lt;br /&gt;
+In the mountain of your body, there is a jewel. Search for it!&lt;br /&gt;
+O, wandering Sufi! If you are looking for it, don’t seek it outside; it is to be found within you.&lt;/p&gt;
+&lt;p&gt;dar jân-e to jâniist, bejuu ân jân&lt;br /&gt;
+râ dar kuuh-e to, dorriist, bejuu ân kân râ&lt;br /&gt;
+Sufi-ye ravande, gar to ân mi’juuyii&lt;br /&gt;
+biiruun to majuu, ze khod bejuu to ân râ&lt;/p&gt;
+&lt;p&gt;O pious seekers who are wandering in the world:&lt;br /&gt;
+Why are you perplexed by a mental idol?&lt;br /&gt;
+What you are seeking the whole world for,&lt;br /&gt;
+seek within yourself. You are already that.&lt;/p&gt;
+&lt;p&gt;ey ahl-e safâ ke dar jahân gardâniid&lt;br /&gt;
+az bahr-e boti cherâ chonin heyrâniid?&lt;br /&gt;
+uu râ ke shomâ dar-in jahân juuyâniid&lt;br /&gt;
+dar khod cho be-juuyiid; shoma khod âniid&lt;/p&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//rumi/" />
         </entry>
         <entry>
             <title>
