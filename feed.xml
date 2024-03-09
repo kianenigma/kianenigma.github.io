@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-03-09T01:11:06Z</updated>
+    <updated>2024-03-09T01:11:37Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -397,7 +397,7 @@
                 For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all
                 
             </title>
-            <updated>2023-08-31T13:47:27.605Z</updated>
+            <updated>2023-08-31T13:47:27.000Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/</id>
             <content type="html">
                 &lt;p&gt;I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked me to share my Rust setup in &lt;code&gt;vs-code&lt;/code&gt; for finding symbols and jumping to references. Before answering a simple &amp;quot;I use &lt;code&gt;rust-analyzer as well&lt;/code&gt;&amp;quot;, I looked into the video and I realized that I, indeed, was not using it at the time. A long time before that video was recorded, I had given up on using rust-analyzer for substrate because simply it was such a massive mono-repo that even &lt;em&gt;without&lt;/em&gt; any &lt;code&gt;CheckOnSave&lt;/code&gt;, or overwriting the &lt;code&gt;check&lt;/code&gt; command to use &lt;code&gt;cargo-remote&lt;/code&gt;, it was too much for my laptop to handle.&lt;/p&gt;
@@ -486,10 +486,11 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Rumi
                 
             </title>
-            <updated>2024-03-08T11:30:13.298Z</updated>
+            <updated>2024-03-09T01:09:46.969Z</updated>
             <id>https://blog.kianenigma.nl//rumi/</id>
             <content type="html">
-                &lt;blockquote&gt;
+                &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/IMG_5814.jpeg&quot; alt=&quot;IMG_5814.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;Love, in Rumi’s vision, is when the ego or carnal self (nafs) is naught; and such love is realized when the heart is open and the mind is awakened to the reality of life beyond the fictional ego.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Rumi, Jalaluddin. Rumi: The Art of Loving (p. 24). Rumi Poetry Club. Kindle Edition.&lt;/p&gt;
@@ -527,6 +528,87 @@ seek within yourself. You are already that.&lt;/p&gt;
 az bahr-e boti cherâ chonin heyrâniid?&lt;br /&gt;
 uu râ ke shomâ dar-in jahân juuyâniid&lt;br /&gt;
 dar khod cho be-juuyiid; shoma khod âniid&lt;/p&gt;
+&lt;p&gt;In the streets of your own mind, what are you seeking?&lt;br /&gt;
+Why are you washing your eyes with tears of blood?&lt;br /&gt;
+From head to toe, you are possessed by Truth.&lt;br /&gt;
+Yet, you remain so ignorant of yourself: What else are you seeking?&lt;/p&gt;
+&lt;p&gt;dar ku-ye khyâl-e khod che mi’puuyii to?&lt;br /&gt;
+vin diide be khuun-e del, che mi’shuuyii to?&lt;br /&gt;
+az farg-e sarat tâ be ģadam, haģģ dârad&lt;br /&gt;
+ey bi’khabar az khiish, che mi’juuyii to?&lt;/p&gt;
+&lt;p&gt;You have severed our relationship, but I do not despair.&lt;br /&gt;
+You have chosen another lover, but I do not despair.&lt;br /&gt;
+As long as I live, your grief will be my food.&lt;br /&gt;
+There is much hope even in hopelessness; I do not even despair.&lt;/p&gt;
+&lt;p&gt;niyam, garche ze man bobridii&lt;br /&gt;
+yâ bar sar-e man yâr-e degar&lt;br /&gt;
+tâ jân dâram, gham-e to khâham khordan&lt;br /&gt;
+besiyâr omiid hast dar nomiidii&lt;/p&gt;
+&lt;p&gt;If your quest is the soul’s home, you are that soul.&lt;br /&gt;
+If your search is for a loaf of bread, you are that bread.&lt;br /&gt;
+If you know this secret, you know the secret:&lt;br /&gt;
+That you are seeking, you are that.&lt;/p&gt;
+&lt;p&gt;gar dar talab-e manzel-e jâni, jânii&lt;br /&gt;
+gar dar talab-e loģ’me-ye nâni, nânii&lt;br /&gt;
+in nokte-ye ramz agar bedâni, dânii:&lt;br /&gt;
+har chiiz ke dar jostan-e âni, ânii&lt;/p&gt;
+&lt;h2 id=&quot;who-am-i&quot; tabindex=&quot;-1&quot;&gt;Who Am I?&lt;/h2&gt;
+&lt;p&gt;I am not concerned with to be or not to be.&lt;br /&gt;
+I am detached from them both. Yet, that is not bravery.&lt;br /&gt;
+The wonders in my heart don’t drive me crazy.&lt;br /&gt;
+This is bravery and the real madness!&lt;/p&gt;
+&lt;p&gt;bâ hasti o niisti-yam, bi’gânegist&lt;br /&gt;
+vaz har do boridanam, na&lt;br /&gt;
+gar man ze ajâyebi ke dar del dâram&lt;br /&gt;
+divâne nemishavam, ze divânegist&lt;/p&gt;
+&lt;p&gt;When your chest is washed clean from the ego,&lt;br /&gt;
+you will see your true self and your first love.&lt;br /&gt;
+You cannot see your own face without a mirror.&lt;br /&gt;
+Look at the Beloved; He is your mirror.&lt;/p&gt;
+&lt;p&gt;chon pâk shod ze khodi-ye to, siine-ye to khod-bin gardi, ze yâr-e diiriine-ye to&lt;br /&gt;
+bi âyiine ruuye khiish natvâni diid&lt;br /&gt;
+dar yâr negar, ke uust âyiine-ye to&lt;/p&gt;
+&lt;h2 id=&quot;the-beloved-s-face&quot; tabindex=&quot;-1&quot;&gt;The Beloved&#39;s Face&lt;/h2&gt;
+&lt;p&gt;As long as the face of that enviable angel is imprinted in my heart,&lt;br /&gt;
+in the whole world, who is as joyous in heart as I?&lt;br /&gt;
+O God, to live this happy life is all I know.&lt;br /&gt;
+I keep hearing about sorrow; what it is, I don’t know.&lt;/p&gt;
+&lt;p&gt;tâ dar del-e man suurat-e ân rashk pariist&lt;br /&gt;
+delshâd cho man, dar in hame âlam kiist?&lt;br /&gt;
+vallah ke be-joz shâd nemidânam ziist&lt;br /&gt;
+gham mishenavam, vali nemidânam chiist&lt;/p&gt;
+&lt;h2 id=&quot;die-to-yourself&quot; tabindex=&quot;-1&quot;&gt;Die To Yourself&lt;/h2&gt;
+&lt;p&gt;If you want your soul to be nourished and fulfilled;&lt;br /&gt;
+don’t go to sleep. Let the loving fire of the Beloved burn you;&lt;br /&gt;
+don’t go to sleep. For hundreds of nights you have slept; you know the outcome.&lt;br /&gt;
+Do yourself a Divine favor: Tonight until dawn don’t go to sleep.&lt;/p&gt;
+&lt;p&gt;gar miikhâhi baģâ vo piruuz,&lt;br /&gt;
+az âtash-e eshģ-e duust, misuuz,&lt;br /&gt;
+sad shab khofti o hâsel-e ân diidii az bahr-e khodâ&lt;br /&gt;
+emshab tâ ruuz makhosp&lt;/p&gt;
+&lt;p&gt;The secret of madness is the wellspring of wisdom.&lt;br /&gt;
+Love’s madman is also a man of refined knowledge.&lt;br /&gt;
+One who becomes the heart’s friend through the path of pain,&lt;br /&gt;
+becomes a stranger to himself in a thousand ways.&lt;/p&gt;
+&lt;p&gt;sar’mây-ye aģl, serre diivânegist&lt;br /&gt;
+diivâne-ye eshģ, mard-e farzânegist&lt;br /&gt;
+ân kas ke shod ashenâ-ye del dar rah-e dard&lt;br /&gt;
+ba khiishtanash hezâr biiganegist&lt;/p&gt;
+&lt;p&gt;So full of yourself, you cannot taste drunkenness;&lt;br /&gt;
+attached to your Flesh, you cannot be devoted to the Soul.&lt;br /&gt;
+In the path of love, you will not reach the real being&lt;br /&gt;
+until you let go of yourself like water and fire.&lt;/p&gt;
+&lt;p&gt;tâ hosh’yâri, be taa’me masti&lt;br /&gt;
+tâ tan nadahi, be jân parasti&lt;br /&gt;
+tâ dar rah-e eshģ-e duust chon âtash o âb&lt;br /&gt;
+az khod nashavi niist, be hasti naresi&lt;/p&gt;
+&lt;h2 id=&quot;art-of-living&quot; tabindex=&quot;-1&quot;&gt;Art of Living&lt;/h2&gt;
+&lt;p&gt;We are lovers of love. Submission to a creed is something else.&lt;br /&gt;
+We are poor ants, collecting love.&lt;br /&gt;
+Solomon’s kingly life is something else.&lt;br /&gt;
+In our longing, we have pale faces and torn hearts to offer. If you desire a fashion market, go somewhere else.&lt;/p&gt;
+&lt;p&gt;mâ asheģ-e eshģiim o mosalmân degar ast&lt;br /&gt;
+mâ muur-e za’iifiim o Soleymân degar ast az mâ rokh-e zard o jegar-e pâre talab bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 
             </content>
             <link href="https://blog.kianenigma.nl//rumi/" />
