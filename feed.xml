@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-03-09T11:44:45Z</updated>
+    <updated>2024-03-09T11:45:18Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -397,7 +397,7 @@
                 For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all
                 
             </title>
-            <updated>2023-08-31T13:47:27.000Z</updated>
+            <updated>2023-08-31T13:47:27.605Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/</id>
             <content type="html">
                 &lt;p&gt;I was recently emailed by someone who had seen one of my crowdcast seminars on substrate, and asked me to share my Rust setup in &lt;code&gt;vs-code&lt;/code&gt; for finding symbols and jumping to references. Before answering a simple &amp;quot;I use &lt;code&gt;rust-analyzer as well&lt;/code&gt;&amp;quot;, I looked into the video and I realized that I, indeed, was not using it at the time. A long time before that video was recorded, I had given up on using rust-analyzer for substrate because simply it was such a massive mono-repo that even &lt;em&gt;without&lt;/em&gt; any &lt;code&gt;CheckOnSave&lt;/code&gt;, or overwriting the &lt;code&gt;check&lt;/code&gt; command to use &lt;code&gt;cargo-remote&lt;/code&gt;, it was too much for my laptop to handle.&lt;/p&gt;
@@ -486,10 +486,10 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Rumi
                 
             </title>
-            <updated>2024-03-09T01:09:46.969Z</updated>
+            <updated>2024-03-09T11:44:01.160Z</updated>
             <id>https://blog.kianenigma.nl//rumi/</id>
             <content type="html">
-                &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/IMG_5814.jpeg&quot; alt=&quot;IMG_5814.jpeg&quot; /&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/IMG_5814.jpeg&quot; alt=&quot;IMG_5814.jpeg&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Love, in Rumi’s vision, is when the ego or carnal self (nafs) is naught; and such love is realized when the heart is open and the mind is awakened to the reality of life beyond the fictional ego.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -608,7 +608,9 @@ We are poor ants, collecting love.&lt;br /&gt;
 Solomon’s kingly life is something else.&lt;br /&gt;
 In our longing, we have pale faces and torn hearts to offer. If you desire a fashion market, go somewhere else.&lt;/p&gt;
 &lt;p&gt;mâ asheģ-e eshģiim o mosalmân degar ast&lt;br /&gt;
-mâ muur-e za’iifiim o Soleymân degar ast az mâ rokh-e zard o jegar-e pâre talab bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
+mâ muur-e za’iifiim o Soleymân degar ast&lt;br /&gt;
+az mâ rokh-e zard o jegar-e pâre talab&lt;br /&gt;
+bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 
             </content>
             <link href="https://blog.kianenigma.nl//rumi/" />
@@ -618,7 +620,7 @@ mâ muur-e za’iifiim o Soleymân degar ast az mâ rokh-e zard o jegar-e pâre 
                 Playlists
                 
             </title>
-            <updated>2024-03-08T10:44:30.000Z</updated>
+            <updated>2024-03-08T10:44:30.971Z</updated>
             <id>https://blog.kianenigma.nl//playlists/</id>
             <content type="html">
                 &lt;p&gt;A subset of my Spotify playlists that I am fond of. This page is not organized by language. Some playlists are English, some Persian, some mixed.&lt;/p&gt;
@@ -688,7 +690,7 @@ mâ muur-e za’iifiim o Soleymân degar ast az mâ rokh-e zard o jegar-e pâre 
                 My Thoughts On Iran&#39;s Political Situation in 2022
                 
             </title>
-            <updated>2023-12-27T08:23:11.000Z</updated>
+            <updated>2023-12-27T08:23:11.393Z</updated>
             <id>https://blog.kianenigma.nl//posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -800,7 +802,7 @@ mâ muur-e za’iifiim o Soleymân degar ast az mâ rokh-e zard o jegar-e pâre 
                 An Open Letter to Panic Buyers
                 
             </title>
-            <updated>2023-08-28T12:48:00.000Z</updated>
+            <updated>2023-08-28T12:48:00.631Z</updated>
             <id>https://blog.kianenigma.nl//posts/personal/an-open-letter-to-panic-buyers/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -829,7 +831,7 @@ fail to provide food and basic needs, we&#39;d probably have much bigger problem
                 An Open Letter to Javad Zarif
                 
             </title>
-            <updated>2023-08-28T12:47:12.000Z</updated>
+            <updated>2023-08-28T12:47:12.456Z</updated>
             <id>https://blog.kianenigma.nl//posts/personal/an-open-letter-to-javad-zarif/</id>
             <content type="html">
                 &lt;blockquote&gt;

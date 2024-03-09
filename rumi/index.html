@@ -583,7 +583,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-09T11:44:44.913Z';
+        const searchIndexDate = '2024-03-09T11:45:18.140Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -595,9 +595,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-09T11:44:44.913Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-09T11:45:18.140Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-09T11:44:44.913Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-09T11:45:18.140Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -838,13 +838,13 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-08T10:38:46.000+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-09T01:09:46.969+00:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-08T10:38:46.060+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-09T11:44:01.160+00:00"></span></div></div></div>
       
       
       </header>
       
       
-      <p><img src="/img/user/IMG_5814.jpeg" alt="IMG_5814.jpeg"></p>
+      <p><img src="/img/user/resources/IMG_5814.jpeg" alt="IMG_5814.jpeg"></p>
 <blockquote>
 <p>Love, in Rumi’s vision, is when the ego or carnal self (nafs) is naught; and such love is realized when the heart is open and the mind is awakened to the reality of life beyond the fictional ego.</p>
 </blockquote>
@@ -963,7 +963,9 @@ We are poor ants, collecting love.<br>
 Solomon’s kingly life is something else.<br>
 In our longing, we have pale faces and torn hearts to offer. If you desire a fashion market, go somewhere else.</p>
 <p>mâ asheģ-e eshģiim o mosalmân degar ast<br>
-mâ muur-e za’iifiim o Soleymân degar ast az mâ rokh-e zard o jegar-e pâre talab bâzârche-ye ģasab foruushân degar ast</p>
+mâ muur-e za’iifiim o Soleymân degar ast<br>
+az mâ rokh-e zard o jegar-e pâre talab<br>
+bâzârche-ye ģasab foruushân degar ast</p>
 
       
       
