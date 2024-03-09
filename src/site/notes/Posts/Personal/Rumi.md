@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-permalink":"rumi","permalink":"/rumi/","created":"2024-03-08T10:38:46.000+00:00","updated":"2024-03-09T01:09:46.969+00:00"}
+{"dg-publish":true,"dg-permalink":"rumi","permalink":"/rumi/","created":"2024-03-08T10:38:46.060+00:00","updated":"2024-03-09T11:44:01.160+00:00"}
 ---
 
 
-![IMG_5814.jpeg](/img/user/IMG_5814.jpeg)
+![IMG_5814.jpeg](/img/user/resources/IMG_5814.jpeg)
 > Love, in Rumi’s vision, is when the ego or carnal self (nafs) is naught; and such love is realized when the heart is open and the mind is awakened to the reality of life beyond the fictional ego.
 
 Rumi, Jalaluddin. Rumi: The Art of Loving (p. 24). Rumi Poetry Club. Kindle Edition. 
@@ -154,4 +154,6 @@ Solomon’s kingly life is something else.
 In our longing, we have pale faces and torn hearts to offer. If you desire a fashion market, go somewhere else. 
 
 mâ asheģ-e eshģiim o mosalmân degar ast
-mâ muur-e za’iifiim o Soleymân degar ast az mâ rokh-e zard o jegar-e pâre talab bâzârche-ye ģasab foruushân degar ast
+mâ muur-e za’iifiim o Soleymân degar ast 
+az mâ rokh-e zard o jegar-e pâre talab 
+bâzârche-ye ģasab foruushân degar ast
