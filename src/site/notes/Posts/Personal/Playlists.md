@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"playlists","permalink":"/playlists/","contentClasses":"playlist","created":"2024-02-24T16:16:26.901+00:00","updated":"2024-03-08T10:44:30.971+00:00"}
+{"dg-publish":true,"dg-permalink":"playlists","permalink":"/playlists/","contentClasses":"playlist","created":"2024-02-24T16:16:26.000+00:00","updated":"2024-03-08T10:44:30.000+00:00"}
 ---
 
 A subset of my Spotify playlists that I am fond of. This page is not organized by language. Some playlists are English, some Persian, some mixed. 
