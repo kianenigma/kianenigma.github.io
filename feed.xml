@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-03-16T12:43:48Z</updated>
+    <updated>2024-03-16T12:49:18Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -911,14 +911,18 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-03-16T12:33:12.995Z</updated>
+            <updated>2024-03-16T12:48:20.825Z</updated>
             <id>https://blog.kianenigma.nl//</id>
             <content type="html">
-                &lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot;&gt; center &lt;/a&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|center&quot; width=&quot;centerpx&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;about&quot; tabindex=&quot;-1&quot;&gt;About&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;Personal Gallery: &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/playlist/&quot;&gt;Playlists&lt;/a&gt; - &lt;a href=&quot;https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Spotify&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Twitter&lt;/a&gt;  | &lt;a href=&quot;https://www.linkedin.com/in/kian-paimani-a3618022b/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Linkedin&lt;/a&gt; (inactive)&lt;/li&gt;
 &lt;li&gt;🦀 Rust Developer &lt;a href=&quot;https://twitter.com/ParityTech/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;@paritytech&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;📚 Parallel and Distributed Systems Msc. Student at &lt;a href=&quot;https://twitter.com/VUamsterdam&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Vrije Universiteit Amsterdam&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;🔴 &lt;a href=&quot;https://www.polkadot.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot&lt;/a&gt; | &lt;a href=&quot;https://kisama.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Kusama&lt;/a&gt; Fellow.
+&lt;li&gt;🔴 &lt;a href=&quot;https://www.polkadot.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot&lt;/a&gt; | &lt;a href=&quot;https://kusama.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Kusama&lt;/a&gt; Fellow.
 &lt;ul&gt;
 &lt;li&gt;Polkadot Address: &lt;code&gt;1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Kusama Address: &lt;code&gt;HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1&lt;/code&gt;&lt;/li&gt;
@@ -926,7 +930,40 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/li&gt;
 &lt;li&gt;Often find online with the name &lt;code&gt;kianenigma&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Twitter&lt;/a&gt;  | &lt;a href=&quot;https://www.linkedin.com/in/kian-paimani-a3618022b/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Linkedin&lt;/a&gt; (inactive) | &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/playlist/&quot;&gt;Playlists&lt;/a&gt; | &lt;a href=&quot;https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Spotify&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;latest-post&quot; tabindex=&quot;-1&quot;&gt;Latest Post&lt;/h2&gt;
+&lt;table class=&quot;block-language-dataview&quot;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;File&lt;/th&gt;
+&lt;th&gt;Created At&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;12:29 PM - March 16, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/rumi/&quot;&gt;Rumi&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10:38 AM - March 08, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/playlist/&quot;&gt;Playlists&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;4:16 PM - February 24, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot&#39;s Build Horizon&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8:59 PM - November 01, 2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/thoughts-blockchain-and-blockspace-scalability/&quot;&gt;Thoughts Blockchain and Blockspace Scalability&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8:57 PM - November 01, 2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Made with &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian-Digital-Garden&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
             </content>
             <link href="https://blog.kianenigma.nl//" />
