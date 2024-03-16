@@ -592,7 +592,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-16T13:08:47.095Z';
+        const searchIndexDate = '2024-03-16T13:11:44.567Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -604,9 +604,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-16T13:08:47.095Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-16T13:11:44.567Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-16T13:08:47.095Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-16T13:11:44.567Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -834,7 +834,7 @@
     }
 </script>
     
-    <main class="content cm-s-obsidian ">
+    <main class="content cm-s-obsidian homepage">
       <header>
       
         <h1></h1>

@@ -594,7 +594,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-16T13:08:47.095Z';
+        const searchIndexDate = '2024-03-16T13:11:44.567Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -606,9 +606,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-16T13:08:47.095Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-16T13:11:44.567Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-16T13:08:47.095Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-16T13:11:44.567Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -837,7 +837,7 @@
 </script>
     
 
-    <main class="content cm-s-obsidian ">
+    <main class="content cm-s-obsidian img-grid">
       <header>
         
           <h1 data-note-icon="">Gallery</h1>
@@ -849,13 +849,16 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-16T12:29:05.755+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-16T12:55:45.342+00:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-16T12:29:05.755+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-16T13:10:11.040+00:00"></span></div></div></div>
       
       
       </header>
       
       
-      <pre><code class="language-img-gallery">path: resources/gallery
+      <p><img src="/img/user/resources/gallery/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg" alt="17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg"><br>
+<img src="/img/user/resources/gallery/7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg" alt="7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg"><br>
+<img src="/img/user/resources/gallery/5014238E-B244-47D0-962F-323B7371B3D6_1_105_c.jpeg" alt="5014238E-B244-47D0-962F-323B7371B3D6_1_105_c.jpeg"></p>
+<pre><code class="language-img-gallery">path: resources/gallery
 type: vertical
 radius: 8
 gutter: 12
