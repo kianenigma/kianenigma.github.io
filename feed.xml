@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-03-16T12:34:38Z</updated>
+    <updated>2024-03-16T12:38:35Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -796,6 +796,21 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 
             </content>
             <link href="https://blog.kianenigma.nl//posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/" />
+        </entry>
+        <entry>
+            <title>
+                Gallery
+                
+            </title>
+            <updated>2024-03-16T12:36:53.228Z</updated>
+            <id>https://blog.kianenigma.nl//gallery/</id>
+            <content type="html">
+                &lt;pre&gt;&lt;code class=&quot;language-img-gallery&quot;&gt;path: gallery
+type: vertical
+&lt;/code&gt;&lt;/pre&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//gallery/" />
         </entry>
         <entry>
             <title>
