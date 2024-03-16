@@ -594,7 +594,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-16T13:14:44.184Z';
+        const searchIndexDate = '2024-03-16T13:29:38.549Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -606,9 +606,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-16T13:14:44.184Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-16T13:29:38.549Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-16T13:14:44.184Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-16T13:29:38.549Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -837,7 +837,7 @@
 </script>
     
 
-    <main class="content cm-s-obsidian img-grid">
+    <main class="content cm-s-obsidian ">
       <header>
         
           <h1 data-note-icon="">Gallery</h1>
@@ -849,22 +849,20 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-16T12:29:05.755+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-16T13:10:11.040+00:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-16T12:29:05.755+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-16T13:29:02.313+00:00"></span></div></div></div>
       
       
       </header>
       
       
-      <p><img src="/img/user/resources/gallery/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg" alt="17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg"><br>
+      <blockquote>
+<p>WIP: <a href="https://github.com/oleeskild/obsidian-digital-garden/issues/568" target="_blank" class="external-link">https://github.com/oleeskild/obsidian-digital-garden/issues/568</a></p>
+</blockquote>
+<p><img src="/img/user/resources/gallery/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg" alt="17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg"><br>
 <img src="/img/user/resources/gallery/7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg" alt="7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg"><br>
 <img src="/img/user/resources/gallery/5014238E-B244-47D0-962F-323B7371B3D6_1_105_c.jpeg" alt="5014238E-B244-47D0-962F-323B7371B3D6_1_105_c.jpeg"></p>
 <pre><code class="language-img-gallery">path: resources/gallery
 type: vertical
-radius: 8
-gutter: 12
-</code></pre>
-<pre><code class="language-img-gallery">path: resources
-type: horizontal
 radius: 8
 gutter: 12
 </code></pre>

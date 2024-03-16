@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-03-16T13:14:44Z</updated>
+    <updated>2024-03-16T13:29:38Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -802,19 +802,17 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 Gallery
                 
             </title>
-            <updated>2024-03-16T13:10:11.040Z</updated>
+            <updated>2024-03-16T13:29:02.313Z</updated>
             <id>https://blog.kianenigma.nl//gallery/</id>
             <content type="html">
-                &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/gallery/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg&quot; alt=&quot;17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg&quot; /&gt;&lt;br /&gt;
+                &lt;blockquote&gt;
+&lt;p&gt;WIP: &lt;a href=&quot;https://github.com/oleeskild/obsidian-digital-garden/issues/568&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://github.com/oleeskild/obsidian-digital-garden/issues/568&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/gallery/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg&quot; alt=&quot;17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg&quot; /&gt;&lt;br /&gt;
 &lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/gallery/7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg&quot; alt=&quot;7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg&quot; /&gt;&lt;br /&gt;
 &lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/gallery/5014238E-B244-47D0-962F-323B7371B3D6_1_105_c.jpeg&quot; alt=&quot;5014238E-B244-47D0-962F-323B7371B3D6_1_105_c.jpeg&quot; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-img-gallery&quot;&gt;path: resources/gallery
 type: vertical
-radius: 8
-gutter: 12
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&quot;language-img-gallery&quot;&gt;path: resources
-type: horizontal
 radius: 8
 gutter: 12
 &lt;/code&gt;&lt;/pre&gt;
