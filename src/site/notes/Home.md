@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2023-08-26T13:20:49.149+01:00","updated":"2024-03-16T12:51:38.516+00:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2023-08-26T13:20:49.149+01:00","updated":"2024-03-16T12:51:38.516+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
