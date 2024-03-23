@@ -18,13 +18,13 @@
 
 ## Latest Post 
 
-| File                                                                                                             | Created At                  |
-| ---------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [[Posts/Personal/Gallery\|Gallery]]                                                                           | 12:29 PM - March 16, 2024   |
-| [[Posts/Personal/Rumi\|Rumi]]                                                                                 | 10:38 AM - March 08, 2024   |
-| [[Posts/Personal/Playlists\|Playlists]]                                                                       | 4:16 PM - February 24, 2024 |
-| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]]                                             | 8:59 PM - November 01, 2023 |
-| [[Posts/Tech/Thoughts Blockchain and Blockspace Scalability\|Thoughts Blockchain and Blockspace Scalability]] | 8:57 PM - November 01, 2023 |
+| File                                                                 | Created At                  |
+| -------------------------------------------------------------------- | --------------------------- |
+| [[Posts/Personal/The Price of Change\|The Price of Change]]       | 9:03 PM - March 23, 2024    |
+| [[Posts/Personal/Gallery\|Gallery]]                               | 12:29 PM - March 16, 2024   |
+| [[Posts/Personal/Rumi\|Rumi]]                                     | 10:38 AM - March 08, 2024   |
+| [[Posts/Personal/Playlists\|Playlists]]                           | 4:16 PM - February 24, 2024 |
+| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]] | 8:59 PM - November 01, 2023 |
 
 { .block-language-dataview}
 
