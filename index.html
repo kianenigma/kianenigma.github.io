@@ -603,7 +603,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-24T09:31:43.949Z';
+        const searchIndexDate = '2024-03-24T22:05:05.507Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -615,9 +615,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-24T09:31:43.949Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-24T22:05:05.507Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-24T09:31:43.949Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-24T22:05:05.507Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -881,7 +881,7 @@
 <li>Kusama Address: <code>HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1</code></li>
 </ul>
 </li>
-<li>🤖 Often found online with the name <code>kianenigma</code>.</li>
+<li>🤖 Often found online with the name <code>@kianenigma</code>.</li>
 </ul>
 <h2 id="latest-post" tabindex="-1">Latest Post</h2>
 <div class="block-language-dataview table-wrapper"><table class="dataview table-view-table">
@@ -893,14 +893,6 @@
 </thead>
 <tbody class="table-view-tbody">
 <tr>
-<td><a class="internal-link is-unresolved" href="/404">The Journey vs. The Destination</a></td>
-<td>9:34 PM - March 23, 2024</td>
-</tr>
-<tr>
-<td><a class="internal-link is-unresolved" href="/404">Uneducated, Unaffiliated</a></td>
-<td>9:33 PM - March 23, 2024</td>
-</tr>
-<tr>
 <td><a class="internal-link" data-note-icon="" href="/posts/personal/the-price-of-change/">The Price of Change</a></td>
 <td>9:03 PM - March 23, 2024</td>
 </tr>
@@ -911,6 +903,14 @@
 <tr>
 <td><a class="internal-link" data-note-icon="" href="/rumi/">Rumi</a></td>
 <td>10:38 AM - March 08, 2024</td>
+</tr>
+<tr>
+<td><a class="internal-link" data-note-icon="" href="/playlist/">Playlists</a></td>
+<td>4:16 PM - February 24, 2024</td>
+</tr>
+<tr>
+<td><a class="internal-link" data-note-icon="" href="/posts/tech/polkadot-s-build-horizon/">Polkadot's Build Horizon</a></td>
+<td>8:59 PM - November 01, 2023</td>
 </tr>
 </tbody>
 </table></div>
