@@ -18,13 +18,13 @@
 
 ## Latest Post 
 
-| File                                                                     | Created At                  |
-| ------------------------------------------------------------------------ | --------------------------- |
-| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]] | 10:33 AM - March 24, 2024   |
-| [[Posts/Personal/The Price of Change\|The Price of Change]]           | 9:03 PM - March 23, 2024    |
-| [[Posts/Personal/Gallery\|Gallery]]                                   | 12:29 PM - March 16, 2024   |
-| [[Posts/Personal/Rumi\|Rumi]]                                         | 10:38 AM - March 08, 2024   |
-| [[Posts/Personal/Playlists\|Playlists]]                               | 4:16 PM - February 24, 2024 |
+| File                                                                                                   | Created At                |
+| ------------------------------------------------------------------------------------------------------ | ------------------------- |
+| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 10:33 AM - March 24, 2024 |
+| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 9:33 PM - March 23, 2024  |
+| [[Posts/Personal/The Price of Change\|The Price of Change]]                                         | 9:03 PM - March 23, 2024  |
+| [[Posts/Personal/Gallery\|Gallery]]                                                                 | 12:29 PM - March 16, 2024 |
+| [[Posts/Personal/Rumi\|Rumi]]                                                                       | 10:38 AM - March 08, 2024 |
 
 { .block-language-dataview}
 
