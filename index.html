@@ -62,7 +62,7 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
     <link href="/styles/obsidian-base.css" rel="stylesheet">
-    <link href="/styles/_theme.d26b2b50.css" rel="stylesheet">
+    <link href="/styles/_theme.518770bb.css" rel="stylesheet">
 
 
 <link href="/styles/custom-style.css" rel="stylesheet">
@@ -614,7 +614,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-26T08:07:18.307Z';
+        const searchIndexDate = '2024-03-31T10:24:03.872Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -626,9 +626,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-26T08:07:18.307Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-31T10:24:03.872Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-26T08:07:18.307Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-31T10:24:03.872Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -908,6 +908,10 @@
 <td>10:33 AM - March 24, 2024</td>
 </tr>
 <tr>
+<td><a class="internal-link is-unresolved" href="/404">Uneducated, Unaffiliated, Disinterested</a></td>
+<td>9:33 PM - March 23, 2024</td>
+</tr>
+<tr>
 <td><a class="internal-link" data-note-icon="" href="/posts/personal/the-price-of-change/">The Price of Change</a></td>
 <td>9:03 PM - March 23, 2024</td>
 </tr>
@@ -918,10 +922,6 @@
 <tr>
 <td><a class="internal-link" data-note-icon="" href="/rumi/">Rumi</a></td>
 <td>10:38 AM - March 08, 2024</td>
-</tr>
-<tr>
-<td><a class="internal-link" data-note-icon="" href="/playlist/">Playlists</a></td>
-<td>4:16 PM - February 24, 2024</td>
 </tr>
 </tbody>
 </table></div>
