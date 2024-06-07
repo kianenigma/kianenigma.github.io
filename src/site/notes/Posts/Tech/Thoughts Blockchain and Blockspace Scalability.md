@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/thoughts-blockchain-and-blockspace-scalability/","tags":["polkadot","blockchain"],"created":"2023-11-01T20:57:28.378+00:00","updated":"2024-02-27T13:37:49.000+00:00"}
+{"dg-publish":true,"permalink":"/posts/tech/thoughts-blockchain-and-blockspace-scalability/","tags":["polkadot","blockchain"],"created":"2024-02-27T21:37:49.000+08:00","updated":"2024-02-27T21:37:49.000+08:00"}
 ---
 
 > Originally published in the [Polkadot forum](https://forum.polkadot.network/t/tellling-the-story-of-the-game-theory-behind-frame-pallets/2282/12?u=kianenigma).
