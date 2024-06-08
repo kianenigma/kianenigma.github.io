@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T18:35:09.000+08:00","updated":"2024-06-08T23:18:23.398+08:00"}
+{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T18:35:09.000+08:00","updated":"2024-06-08T23:35:14.931+08:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -15,8 +15,6 @@
 	- Polkadot Address: `1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE`
 	- Kusama Address: `HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1`
 - 🤖 Often found online with the name `@kianenigma`.
-- [[CV-2019.pdf]]
-
 ## Latest Post 
 
 | File                                                                                                   | Created At                |
