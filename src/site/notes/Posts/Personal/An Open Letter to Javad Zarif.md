@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/an-open-letter-to-javad-zarif/","created":"2023-08-28T20:47:12.000+08:00","updated":"2023-08-28T20:47:12.456+08:00"}
+{"dg-publish":true,"permalink":"/posts/personal/an-open-letter-to-javad-zarif/","created":"2023-08-28T20:47:12.000+08:00","updated":"2023-08-28T20:47:12.000+08:00"}
 ---
 
 
