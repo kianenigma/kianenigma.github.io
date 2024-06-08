@@ -625,7 +625,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-08T15:19:42.192Z';
+        const searchIndexDate = '2024-06-08T15:36:10.013Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -637,9 +637,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-08T15:19:42.192Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-08T15:36:10.013Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-08T15:19:42.192Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-08T15:36:10.013Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -904,7 +904,6 @@
 </ul>
 </li>
 <li>🤖 Often found online with the name <code>@kianenigma</code>.</li>
-<li>[[CV-2019.pdf]]</li>
 </ul>
 <h2 id="latest-post" tabindex="-1">Latest Post</h2>
 <div class="block-language-dataview table-wrapper"><table class="dataview table-view-table">
