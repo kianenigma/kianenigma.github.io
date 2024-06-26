@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-26T13:23:02.431+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-26T15:44:39.500+03:30"}
 ---
 
 
@@ -42,8 +42,7 @@ What do we do? We build everything that is needed for the _**Runtimes of the Pol
 > [!info]- Note on Naming 
 > In a lot of our communication, we refer to Relay Chain as **RC**, and System Chain as **SC**. Moreover, a lot of the system chains are called “_SomethingHub_”, which is often abbreviated as *_**H**_. For example, AssetHub is referred to as **AH**.
 
-TODO: org chart of the team
-
+![Screenshot 2024-06-26 at 14.36.11.png|rounded](/img/user/Screenshot%202024-06-26%20at%2014.36.11.png)
 ### 💊 The Reality of What We Do 
 Working in the above implies two very important self-evident truths about the type of work we do:
 * **We fly low:** The work we do is meant to interact with value-bearing, mission critical systems that are meant to survive the test of time. This implies:
@@ -68,18 +67,25 @@ We will repeatedly come back to these two points throughout this document.
 
 Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently achieving, in the words of the maintainers themselves:
 
-> [!tldr]- Release Process
-> Oliver
+> [!tldr]- Stability
+> Parity has a history of rug-pulling Polkadot builders. The [Stability](https://forum.polkadot.network/t/stabilizing-polkadot/7175) initiative is here to stop this.   By introducing stable releases ([New Release Process](https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md)), a no-code Parachain node ([Omni-node](https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823)) and focusing generally more on improving existing features instead of adding new ones we are aiming for a smother experience for Polkadot builders.
+> 
+> Oliver, Liam and Kian
 
 > [!tldr]- People Chain
-> George
+> The people chain is the place where real world identities are brought onto the blockchain. In other parts of the system (and blockchain in general), a lot of emphasis is put on *anonymity*; you are an account that interacts with other accounts. The people chain is where you can showcase your real world identity by linking your Polkadot account with various off-chain accounts such as Twitter, Discord, GitHub, email and more. 
 > 
+> This bridges a gap between on-chain and off-chain knowledge and allows users to introduce information from the outside world and securely use it for various on chain activities.
+> 
+> George
 
 > [!tldr]- Multi-Block Staking
+>    Discover Polkadot's innovative validator election method using [NPoS](https://wiki.polkadot.network/docs/learn-phragmen). Dive deeper into our efforts to [scale the number of stakers](https://wiki.polkadot.network/docs/learn-nomination-pools) nominating on Polkadot. Join us as we [migrate staking functionalities](https://github.com/paritytech/polkadot-sdk/issues/491) from the relay chain to a system parachain.
 > Ankan and Goncalo
 > 
 
 > [!tldr]- XCM v5
+> XCMv5 aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.
 > Cisco
 
 > [!tldr]- Coretime Broker Pallet
@@ -135,7 +141,7 @@ If your over-sharing and are actively annoying anyone, it is _their_ responsibly
 
 > [!example] Async Communication 101
 > * Adjust your workflow (as much as possible) such that you are ***NOT*** blocked by other's not replying to you immediately. 
-> * Be concise and to-the-point in conveying your message. [The "no hello" is a good example 😉]([https://nohello.net/en/](https://nohello.net/en/)). 
+> * Be concise and to-the-point in conveying your message. [The "no hello" is a good example 😉](https://nohello.net/en/). 
 > * Prefer sharing things *where most poeple can see it*. [[Posts/Runtime Function Onboarding 2024#Information Centralization\|#Information Centralization]] 
 > * Prefer sharing things where it has the most longevity. [[Posts/Runtime Function Onboarding 2024#Information Longevity\|#Information Longevity]]
 ### 🤪 Dumb Questions 
@@ -159,7 +165,7 @@ But, there is a few notes that you should keep in mind about questions:
 
 For your contribution, consider reading everything in our [`docs/contributing`](https://github.com/paritytech/polkadot-sdk/tree/master/docs/contributor) folder. 
 
-What we expect further from you, as an internal developer, is to be *even more conscious* of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in [[Runtime Function Onboarding#💊 The Reality of What we Do\|Runtime Function Onboarding#💊 The Reality of What we Do]]: Flying close to users. 
+What we expect further from you, as an internal developer, is to be *even more conscious* of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in [[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|#💊 The Reality of What We Do]]: Flying close to users. 
 
 Our changes often effect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your **PR description**. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate `hackmd`. 
 
