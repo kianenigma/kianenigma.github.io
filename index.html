@@ -625,7 +625,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-08T15:36:30.804Z';
+        const searchIndexDate = '2024-06-26T09:48:53.794Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -637,9 +637,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-08T15:36:30.804Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T09:48:53.794Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-08T15:36:30.804Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T09:48:53.794Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -915,8 +915,16 @@
 </thead>
 <tbody class="table-view-tbody">
 <tr>
+<td><a class="internal-link is-unresolved" href="/404">Runtime Function Onboarding 2024</a></td>
+<td>1:16 PM - June 26, 2024</td>
+</tr>
+<tr>
 <td><a class="internal-link" data-note-icon="" href="/">Home</a></td>
 <td>6:35 PM - March 24, 2024</td>
+</tr>
+<tr>
+<td><a class="internal-link" data-note-icon="" href="/posts/personal/meta-cognition-framework/">Meta Cognition Framework</a></td>
+<td>6:33 PM - March 24, 2024</td>
 </tr>
 <tr>
 <td><a class="internal-link" data-note-icon="" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested</a></td>
@@ -925,14 +933,6 @@
 <tr>
 <td><a class="internal-link" data-note-icon="" href="/posts/personal/the-price-of-change/">The Price of Change</a></td>
 <td>9:03 PM - March 23, 2024</td>
-</tr>
-<tr>
-<td><a class="internal-link" data-note-icon="" href="/gallery/">Gallery</a></td>
-<td>12:29 PM - March 16, 2024</td>
-</tr>
-<tr>
-<td><a class="internal-link" data-note-icon="" href="/rumi/">Rumi</a></td>
-<td>10:38 AM - March 08, 2024</td>
 </tr>
 </tbody>
 </table></div>
