@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/meta-cognition-framework/","created":"2024-03-24T18:33:28.140+08:00","updated":"2024-03-26T07:12:19.520+08:00"}
+{"dg-publish":true,"permalink":"/posts/personal/meta-cognition-framework/","created":"2024-03-24T14:03:28.140+03:30","updated":"2024-03-26T02:42:19.520+03:30"}
 ---
 
 > MIA -- Metacognitive Introspective Awareness -- is the ability to be aware of the state and activity of the mind continuously. That is, the awareness of the mind as the mind carries on with doing something, e.g. watching the breath
@@ -13,6 +13,6 @@ Doing this over and over again, I have noticed an interesting framework to categ
 
 Based on this, one could build a 3 dimensional space for thoughts, where you have. 
 
-![Screenshot 2024-03-25 at 23.09.46.png](/img/user/Screenshot%202024-03-25%20at%2023.09.46.png)
+![Screenshot 2024-03-25 at 23.09.46.png](/img/user/resources/Screenshot%202024-03-25%20at%2023.09.46.png)
 
 I was expecting to write this bit for myself with a conclusion to assert that a peaceful state of mind is one that is always in the center of this chart, but I am less sure about that and leave that open. Nonetheless the framework has been very useful to me in developing further MIA.  
