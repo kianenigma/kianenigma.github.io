@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/uneducated-unaffiliated-disinterested/","created":"2024-03-31T00:45:50.000+08:00","updated":"2024-03-31T00:45:50.000+08:00"}
+{"dg-publish":true,"permalink":"/posts/personal/uneducated-unaffiliated-disinterested/","created":"2024-03-30T20:15:50.000+03:30","updated":"2024-03-30T20:15:50.571+03:30"}
 ---
 
 The setup is simple: casting an opinion on the matter. 
