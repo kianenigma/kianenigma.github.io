@@ -635,7 +635,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-26T10:34:28.073Z';
+        const searchIndexDate = '2024-06-26T12:15:22.835Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -647,9 +647,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T10:34:28.073Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T12:15:22.835Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T10:34:28.073Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T12:15:22.835Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -890,7 +890,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-26T13:23:02.431+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-26T15:44:39.500+03:30"></span></div></div></div>
       
       
       </header>
@@ -955,7 +955,7 @@
 <p>
 In a lot of our communication, we refer to Relay Chain as <strong>RC</strong>, and System Chain as <strong>SC</strong>. Moreover, a lot of the system chains are called “<em>SomethingHub</em>”, which is often abbreviated as *<em><strong>H</strong></em>. For example, AssetHub is referred to as <strong>AH</strong>.</p>
 </div></div>
-<p>TODO: org chart of the team</p>
+<p><img src="/img/user/Screenshot%202024-06-26%20at%2014.36.11.png" alt="Screenshot 2024-06-26 at 14.36.11.png|rounded" width="roundedpx"></p>
 <h3 id="the-reality-of-what-we-do" tabindex="-1">💊 The Reality of What We Do</h3>
 <p>Working in the above implies two very important self-evident truths about the type of work we do:</p>
 <ul>
@@ -986,24 +986,29 @@ The main downtime of Polkadot is partially because of my code. Many collaborated
 <p><img src="/img/user/resources/8utsbt.jpg" alt="8utsbt.jpg"></p>
 <h3 id="function-portfolio" tabindex="-1">📈 Function Portfolio</h3>
 <p>Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently achieving, in the words of the maintainers themselves:</p>
-<div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Release Process<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Stability<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-Oliver</p>
+Parity has a history of rug-pulling Polkadot builders. The <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175" target="_blank" class="external-link">Stability</a> initiative is here to stop this.   By introducing stable releases (<a href="https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md" target="_blank" class="external-link">New Release Process</a>), a no-code Parachain node (<a href="https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823" target="_blank" class="external-link">Omni-node</a>) and focusing generally more on improving existing features instead of adding new ones we are aiming for a smother experience for Polkadot builders.</p>
+<p>Oliver, Liam and Kian</p>
 </div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> People Chain<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-George</p>
+The people chain is the place where real world identities are brought onto the blockchain. In other parts of the system (and blockchain in general), a lot of emphasis is put on <em>anonymity</em>; you are an account that interacts with other accounts. The people chain is where you can showcase your real world identity by linking your Polkadot account with various off-chain accounts such as Twitter, Discord, GitHub, email and more.</p>
+<p>This bridges a gap between on-chain and off-chain knowledge and allows users to introduce information from the outside world and securely use it for various on chain activities.</p>
+<p>George</p>
 </div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Multi-Block Staking<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
+Discover Polkadot's innovative validator election method using <a href="https://wiki.polkadot.network/docs/learn-phragmen" target="_blank" class="external-link">NPoS</a>. Dive deeper into our efforts to <a href="https://wiki.polkadot.network/docs/learn-nomination-pools" target="_blank" class="external-link">scale the number of stakers</a> nominating on Polkadot. Join us as we <a href="https://github.com/paritytech/polkadot-sdk/issues/491" target="_blank" class="external-link">migrate staking functionalities</a> from the relay chain to a system parachain.<br>
 Ankan and Goncalo</p>
 </div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> XCM v5<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
+XCMv5 aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.<br>
 Cisco</p>
 </div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Coretime Broker Pallet<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
@@ -1079,7 +1084,7 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 <p>
 <ul>
 <li>Adjust your workflow (as much as possible) such that you are <em><strong>NOT</strong></em> blocked by other's not replying to you immediately.</li>
-<li>Be concise and to-the-point in conveying your message. <a href="%5Bhttps://nohello.net/en/%5D(https://nohello.net/en/)" target="_blank" class="external-link">The &quot;no hello&quot; is a good example 😉</a>.</li>
+<li>Be concise and to-the-point in conveying your message. <a href="https://nohello.net/en/" target="_blank" class="external-link">The &quot;no hello&quot; is a good example 😉</a>.</li>
 <li>Prefer sharing things <em>where most poeple can see it</em>. <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-centralization"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> Centralization</a></li>
 <li>Prefer sharing things where it has the most longevity. <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> Longevity</a></li>
 </ul>
@@ -1105,7 +1110,7 @@ The information in this section is kept at minimum, as majority of what you have
 </div></div>
 <h3 id="road-to-merging-a-pr" tabindex="-1">🛣️ Road to Merging a PR</h3>
 <p>For your contribution, consider reading everything in our <a href="https://github.com/paritytech/polkadot-sdk/tree/master/docs/contributor" target="_blank" class="external-link"><code>docs/contributing</code></a> folder.</p>
-<p>What we expect further from you, as an internal developer, is to be <em>even more conscious</em> of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in <a class="internal-link is-unresolved" href="/404">Runtime Function Onboarding#💊 The Reality of What we Do</a>: Flying close to users.</p>
+<p>What we expect further from you, as an internal developer, is to be <em>even more conscious</em> of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do"><a class="tag" onclick="toggleTagSearch(this)" data-content="#💊">#💊</a> The Reality of What We Do</a>: Flying close to users.</p>
 <p>Our changes often effect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your <strong>PR description</strong>. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate <code>hackmd</code>.</p>
 <p>TODO: update PR template to reflect this as well.</p>
 <p>Lastly, remember that while we are all obliged to spend a part of our time reviewing each others' code, we are all busy. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others'. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly.</p>

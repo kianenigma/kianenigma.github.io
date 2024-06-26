@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-06-26T10:34:28Z</updated>
+    <updated>2024-06-26T12:15:23Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -487,7 +487,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-06-26T09:53:02.431Z</updated>
+            <updated>2024-06-26T12:14:39.500Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -548,7 +548,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
 &lt;p&gt;[!info]- Note on Naming&lt;br /&gt;
 In a lot of our communication, we refer to Relay Chain as &lt;strong&gt;RC&lt;/strong&gt;, and System Chain as &lt;strong&gt;SC&lt;/strong&gt;. Moreover, a lot of the system chains are called “&lt;em&gt;SomethingHub&lt;/em&gt;”, which is often abbreviated as *&lt;em&gt;&lt;strong&gt;H&lt;/strong&gt;&lt;/em&gt;. For example, AssetHub is referred to as &lt;strong&gt;AH&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;TODO: org chart of the team&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Screenshot%202024-06-26%20at%2014.36.11.png&quot; alt=&quot;Screenshot 2024-06-26 at 14.36.11.png|rounded&quot; width=&quot;roundedpx&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;the-reality-of-what-we-do&quot; tabindex=&quot;-1&quot;&gt;💊 The Reality of What We Do&lt;/h3&gt;
 &lt;p&gt;Working in the above implies two very important self-evident truths about the type of work we do:&lt;/p&gt;
 &lt;ul&gt;
@@ -579,19 +579,24 @@ The main downtime of Polkadot is partially because of my code. Many collaborated
 &lt;h3 id=&quot;function-portfolio&quot; tabindex=&quot;-1&quot;&gt;📈 Function Portfolio&lt;/h3&gt;
 &lt;p&gt;Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently achieving, in the words of the maintainers themselves:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!tldr]- Release Process&lt;br /&gt;
-Oliver&lt;/p&gt;
+&lt;p&gt;[!tldr]- Stability&lt;br /&gt;
+Parity has a history of rug-pulling Polkadot builders. The &lt;a href=&quot;https://forum.polkadot.network/t/stabilizing-polkadot/7175&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Stability&lt;/a&gt; initiative is here to stop this.   By introducing stable releases (&lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;New Release Process&lt;/a&gt;), a no-code Parachain node (&lt;a href=&quot;https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Omni-node&lt;/a&gt;) and focusing generally more on improving existing features instead of adding new ones we are aiming for a smother experience for Polkadot builders.&lt;/p&gt;
+&lt;p&gt;Oliver, Liam and Kian&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!tldr]- People Chain&lt;br /&gt;
-George&lt;/p&gt;
+The people chain is the place where real world identities are brought onto the blockchain. In other parts of the system (and blockchain in general), a lot of emphasis is put on &lt;em&gt;anonymity&lt;/em&gt;; you are an account that interacts with other accounts. The people chain is where you can showcase your real world identity by linking your Polkadot account with various off-chain accounts such as Twitter, Discord, GitHub, email and more.&lt;/p&gt;
+&lt;p&gt;This bridges a gap between on-chain and off-chain knowledge and allows users to introduce information from the outside world and securely use it for various on chain activities.&lt;/p&gt;
+&lt;p&gt;George&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!tldr]- Multi-Block Staking&lt;br /&gt;
+Discover Polkadot&#39;s innovative validator election method using &lt;a href=&quot;https://wiki.polkadot.network/docs/learn-phragmen&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;NPoS&lt;/a&gt;. Dive deeper into our efforts to &lt;a href=&quot;https://wiki.polkadot.network/docs/learn-nomination-pools&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;scale the number of stakers&lt;/a&gt; nominating on Polkadot. Join us as we &lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/issues/491&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;migrate staking functionalities&lt;/a&gt; from the relay chain to a system parachain.&lt;br /&gt;
 Ankan and Goncalo&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!tldr]- XCM v5&lt;br /&gt;
+XCMv5 aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.&lt;br /&gt;
 Cisco&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
@@ -663,7 +668,7 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 &lt;p&gt;[!example] Async Communication 101&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Adjust your workflow (as much as possible) such that you are &lt;em&gt;&lt;strong&gt;NOT&lt;/strong&gt;&lt;/em&gt; blocked by other&#39;s not replying to you immediately.&lt;/li&gt;
-&lt;li&gt;Be concise and to-the-point in conveying your message. &lt;a href=&quot;https://blog.kianenigma.nl/%5Bhttps://nohello.net/en/%5D(https://nohello.net/en/)&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The &amp;quot;no hello&amp;quot; is a good example 😉&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Be concise and to-the-point in conveying your message. &lt;a href=&quot;https://nohello.net/en/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The &amp;quot;no hello&amp;quot; is a good example 😉&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Prefer sharing things &lt;em&gt;where most poeple can see it&lt;/em&gt;. &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#information-centralization&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Information&quot;&gt;#Information&lt;/a&gt; Centralization&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Prefer sharing things where it has the most longevity. &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#information-longevity&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Information&quot;&gt;#Information&lt;/a&gt; Longevity&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -687,7 +692,7 @@ The information in this section is kept at minimum, as majority of what you have
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;road-to-merging-a-pr&quot; tabindex=&quot;-1&quot;&gt;🛣️ Road to Merging a PR&lt;/h3&gt;
 &lt;p&gt;For your contribution, consider reading everything in our &lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/tree/master/docs/contributor&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;docs/contributing&lt;/code&gt;&lt;/a&gt; folder.&lt;/p&gt;
-&lt;p&gt;What we expect further from you, as an internal developer, is to be &lt;em&gt;even more conscious&lt;/em&gt; of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot;&gt;Runtime Function Onboarding#💊 The Reality of What we Do&lt;/a&gt;: Flying close to users.&lt;/p&gt;
+&lt;p&gt;What we expect further from you, as an internal developer, is to be &lt;em&gt;even more conscious&lt;/em&gt; of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#💊&quot;&gt;#💊&lt;/a&gt; The Reality of What We Do&lt;/a&gt;: Flying close to users.&lt;/p&gt;
 &lt;p&gt;Our changes often effect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your &lt;strong&gt;PR description&lt;/strong&gt;. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate &lt;code&gt;hackmd&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;TODO: update PR template to reflect this as well.&lt;/p&gt;
 &lt;p&gt;Lastly, remember that while we are all obliged to spend a part of our time reviewing each others&#39; code, we are all busy. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others&#39;. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly.&lt;/p&gt;
