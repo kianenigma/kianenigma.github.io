@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T14:05:09.000+03:30","updated":"2024-06-08T19:05:14.000+03:30"}
+{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T14:05:09.000+03:30","updated":"2024-06-26T13:25:56.309+03:30"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -17,13 +17,18 @@
 - 🤖 Often found online with the name `@kianenigma`.
 ## Latest Post 
 
-| File                                                                                                   | Created At               |
-| ------------------------------------------------------------------------------------------------------ | ------------------------ |
-| [[Posts/Runtime Function Onboarding 2024\|Runtime Function Onboarding 2024]]                        | 1:16 PM - June 26, 2024  |
-| [[Home\|Home]]                                                                                      | 6:35 PM - March 24, 2024 |
-| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 6:33 PM - March 24, 2024 |
-| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 9:33 PM - March 23, 2024 |
-| [[Posts/Personal/The Price of Change\|The Price of Change]]                                         | 9:03 PM - March 23, 2024 |
+| File                                                                                                             | Created At                  |
+| ---------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                                         | 6:33 PM - March 24, 2024    |
+| [[Home\|Home]]                                                                                                | 2:05 PM - March 24, 2024    |
+| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]           | 9:33 PM - March 23, 2024    |
+| [[Posts/Personal/The Price of Change\|The Price of Change]]                                                   | 9:03 PM - March 23, 2024    |
+| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]]                                             | 4:40 PM - March 16, 2024    |
+| [[Posts/Personal/Gallery\|Gallery]]                                                                           | 12:29 PM - March 16, 2024   |
+| [[Posts/Personal/Rumi\|Rumi]]                                                                                 | 10:38 AM - March 08, 2024   |
+| [[Posts/Personal/Playlists\|Playlists]]                                                                       | 4:16 PM - February 24, 2024 |
+| [[Posts/Tech/Thoughts Blockchain and Blockspace Scalability\|Thoughts Blockchain and Blockspace Scalability]] | 8:57 PM - November 01, 2023 |
+| [[Posts/Tech/The 10x Developer Myth: All About Keyboard\|The 10x Developer Myth: All About Keyboard]]         | 3:49 PM - October 23, 2022  |
 
 { .block-language-dataview}
 
