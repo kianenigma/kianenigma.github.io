@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/","created":"2023-08-28T21:03:03.000+08:00","updated":"2023-08-28T21:03:03.765+08:00"}
+{"dg-publish":true,"permalink":"/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/","created":"2023-08-28T16:33:03.000+03:30","updated":"2023-08-28T16:33:03.765+03:30"}
 ---
 
 
