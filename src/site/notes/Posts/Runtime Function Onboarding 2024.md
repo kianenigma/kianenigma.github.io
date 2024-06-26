@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-26T15:44:39.500+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-26T19:19:53.079+03:30"}
 ---
 
 
@@ -85,10 +85,12 @@ Let’s take a moment and introduce you to a non-exhaustive list of great things
 > 
 
 > [!tldr]- XCM v5
-> XCMv5 aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.
+> [XCMv5](https://github.com/polkadot-fellows/xcm-format/issues/60) aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.
 > Cisco
 
 > [!tldr]- Coretime Broker Pallet
+> This year Kusama and Polkadot transition away from the slot auction model to Agile Coretime. The Coretime Chain is a marketplace where NFTs representing various configurations of blockspace can be bought, manipulated and allocated. Coretime (bulk and on-demand) is now the only way to validate workloads on Polkadot.  The broker pallet contains all the logic for the primary market for blockspace, upon which secondary markets can be built and is the main part of the coretime chain. The specification is contained within [RFC-1](https://polkadot-fellows.github.io/RFCs/approved/0001-agile-coretime.html) and [RFC-5](https://polkadot-fellows.github.io/RFCs/approved/0005-coretime-interface.html), and you can find out more in our [Coretime FAQs](https://polkadot-public.notion.site/Agile-Coretime-FAQ-c930796e8c884011adb1fa24ef22f77c#4044ec0996054c48b3f8dde0eaca4584).
+> 
 > Donal
 
 ## 📡 Communication 
