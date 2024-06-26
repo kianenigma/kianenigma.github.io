@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/phragmen-overview-substrate-seminar/","created":"2023-08-28T21:03:15.000+08:00","updated":"2023-08-28T21:03:15.168+08:00"}
+{"dg-publish":true,"permalink":"/talks/phragmen-overview-substrate-seminar/","created":"2023-08-28T16:33:15.000+03:30","updated":"2023-08-28T16:33:15.168+03:30"}
 ---
 
 
