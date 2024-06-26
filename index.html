@@ -625,7 +625,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-26T09:57:06.865Z';
+        const searchIndexDate = '2024-06-26T09:57:30.259Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -637,9 +637,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T09:57:06.865Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T09:57:30.259Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T09:57:06.865Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T09:57:30.259Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -919,10 +919,6 @@
 <td>6:33 PM - March 24, 2024</td>
 </tr>
 <tr>
-<td><a class="internal-link" data-note-icon="" href="/">Home</a></td>
-<td>2:05 PM - March 24, 2024</td>
-</tr>
-<tr>
 <td><a class="internal-link" data-note-icon="" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested</a></td>
 <td>9:33 PM - March 23, 2024</td>
 </tr>
@@ -937,22 +933,6 @@
 <tr>
 <td><a class="internal-link" data-note-icon="" href="/gallery/">Gallery</a></td>
 <td>12:29 PM - March 16, 2024</td>
-</tr>
-<tr>
-<td><a class="internal-link" data-note-icon="" href="/rumi/">Rumi</a></td>
-<td>10:38 AM - March 08, 2024</td>
-</tr>
-<tr>
-<td><a class="internal-link" data-note-icon="" href="/playlist/">Playlists</a></td>
-<td>4:16 PM - February 24, 2024</td>
-</tr>
-<tr>
-<td><a class="internal-link" data-note-icon="" href="/posts/tech/thoughts-blockchain-and-blockspace-scalability/">Thoughts Blockchain and Blockspace Scalability</a></td>
-<td>8:57 PM - November 01, 2023</td>
-</tr>
-<tr>
-<td><a class="internal-link" data-note-icon="" href="/posts/tech/the-10x-developer-myth-all-about-keyboard/">The 10x Developer Myth: All About Keyboard</a></td>
-<td>3:49 PM - October 23, 2022</td>
 </tr>
 </tbody>
 </table></div>
