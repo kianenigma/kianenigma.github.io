@@ -627,7 +627,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-26T09:48:59.161Z';
+        const searchIndexDate = '2024-06-26T09:49:18.182Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -639,9 +639,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T09:48:59.161Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T09:49:18.182Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T09:48:59.161Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T09:49:18.182Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -882,7 +882,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-24T18:33:28.140+08:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-26T07:12:19.520+08:00"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-24T14:03:28.140+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-26T02:42:19.520+03:30"></span></div></div></div>
       
       
       </header>
@@ -899,7 +899,7 @@
 <li><strong>Subject</strong>: Is it about you, or the outer world.</li>
 </ul>
 <p>Based on this, one could build a 3 dimensional space for thoughts, where you have.</p>
-<p><img src="/img/user/Screenshot%202024-03-25%20at%2023.09.46.png" alt="Screenshot 2024-03-25 at 23.09.46.png"></p>
+<p><img src="/img/user/resources/Screenshot%202024-03-25%20at%2023.09.46.png" alt="Screenshot 2024-03-25 at 23.09.46.png"></p>
 <p>I was expecting to write this bit for myself with a conclusion to assert that a peaceful state of mind is one that is always in the center of this chart, but I am less sure about that and leave that open. Nonetheless the framework has been very useful to me in developing further MIA.</p>
 
       
