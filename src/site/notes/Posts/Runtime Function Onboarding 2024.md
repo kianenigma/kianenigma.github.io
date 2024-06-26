@@ -54,7 +54,7 @@ Working in the above implies two very important self-evident truths about the ty
 > [!info]- An anecdote about breaking production code @kianenigma
 > The main downtime of Polkadot is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of `try-runtime-*` set of tools, just to name one.  
 
-![[8hsucaxkn5gb1.jpg\|8hsucaxkn5gb1.jpg]]
+![8hsucaxkn5gb1.jpg](/img/user/resources/8hsucaxkn5gb1.jpg)
 
 * **We fly close to end-users/developers**: Most of what we write affects our two major stakeholders: developers (parachains, UIs, and more), and blockchain users. 
 	* Always think about: user-facing code, vs. non-user facing code. 
@@ -63,7 +63,7 @@ Working in the above implies two very important self-evident truths about the ty
 
 We will repeatedly come back to these two points throughout this document. 
 
-![[8utsbt.jpg\|8utsbt.jpg]]
+![8utsbt.jpg](/img/user/resources/8utsbt.jpg)
 ### 📈 Function Portfolio
 
 Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently achieving, in the words of the maintainers themselves:
@@ -241,13 +241,13 @@ You will learn about the Parity culture in your onboarding, but here’s some ol
 
 First, here’s a little screenshot of an all-hands talk about vision of Parity in 2019 which I still stand by. You can find the full talk [here](https://drive.google.com/file/d/1yzS_ZoVdyt370hhuHwJaHelftKEH_6Yl/view?usp=sharing) (most of it is not super relevant anymore).
 
-![[Screenshot 2024-06-24 at 19.12.10.png\|Screenshot 2024-06-24 at 19.12.10.png]]
+![Screenshot 2024-06-24 at 19.12.10.png](/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png)
 A [culture talk from Gav](https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/view?usp=sharing) in the 2022 Tenerife retreat. This snippet of this talk is among my favorites.
 
-![[GavExcellence.mp4\|center]]
+![[GavExcellence.mp4|center]]
 You can find the deck itself [here](https://docs.google.com/presentation/d/15-lL1xKAVMt_50X2ri7hsEhU3Z0he04K017mZCIeRZI/edit#slide=id.g26b31d0a78ca97e7_10). If I wanted to name one slide from it that you should think about the most, it would be:
 
-![[Screenshot 2024-06-24 at 19.14.33.png\|Screenshot 2024-06-24 at 19.14.33.png]]
+![Screenshot 2024-06-24 at 19.14.33.png](/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png)
 
 The majority of the efforts of your team lead, and this document is to help you toward achieving the status mentioned in the above sentence.
 ### 🔬 Resources 
