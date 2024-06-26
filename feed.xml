@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-06-26T09:59:15Z</updated>
+    <updated>2024-06-26T10:34:28Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -564,7 +564,7 @@ In a lot of our communication, we refer to Relay Chain as &lt;strong&gt;RC&lt;/s
 &lt;p&gt;[!info]- An anecdote about breaking production code @kianenigma&lt;br /&gt;
 The main downtime of Polkadot is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of &lt;code&gt;try-runtime-*&lt;/code&gt; set of tools, just to name one.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot;&gt;8hsucaxkn5gb1.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/8hsucaxkn5gb1.jpg&quot; alt=&quot;8hsucaxkn5gb1.jpg&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;We fly close to end-users/developers&lt;/strong&gt;: Most of what we write affects our two major stakeholders: developers (parachains, UIs, and more), and blockchain users.
 &lt;ul&gt;
@@ -575,7 +575,7 @@ The main downtime of Polkadot is partially because of my code. Many collaborated
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We will repeatedly come back to these two points throughout this document.&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot;&gt;8utsbt.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/8utsbt.jpg&quot; alt=&quot;8utsbt.jpg&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;function-portfolio&quot; tabindex=&quot;-1&quot;&gt;📈 Function Portfolio&lt;/h3&gt;
 &lt;p&gt;Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently achieving, in the words of the maintainers themselves:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -780,11 +780,11 @@ Be sure to read &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/maste
 &lt;h3 id=&quot;culture&quot; tabindex=&quot;-1&quot;&gt;🎭 Culture&lt;/h3&gt;
 &lt;p&gt;You will learn about the Parity culture in your onboarding, but here’s some old-but-still-relevant material from former culture decks.&lt;/p&gt;
 &lt;p&gt;First, here’s a little screenshot of an all-hands talk about vision of Parity in 2019 which I still stand by. You can find the full talk &lt;a href=&quot;https://drive.google.com/file/d/1yzS_ZoVdyt370hhuHwJaHelftKEH_6Yl/view?usp=sharing&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt; (most of it is not super relevant anymore).&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot;&gt;Screenshot 2024-06-24 at 19.12.10.png&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png&quot; alt=&quot;Screenshot 2024-06-24 at 19.12.10.png&quot; /&gt;&lt;br /&gt;
 A &lt;a href=&quot;https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/view?usp=sharing&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;culture talk from Gav&lt;/a&gt; in the 2022 Tenerife retreat. This snippet of this talk is among my favorites.&lt;/p&gt;
 &lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot;&gt;center&lt;/a&gt;&lt;br /&gt;
 You can find the deck itself &lt;a href=&quot;https://docs.google.com/presentation/d/15-lL1xKAVMt_50X2ri7hsEhU3Z0he04K017mZCIeRZI/edit#slide=id.g26b31d0a78ca97e7_10&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;. If I wanted to name one slide from it that you should think about the most, it would be:&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot;&gt;Screenshot 2024-06-24 at 19.14.33.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png&quot; alt=&quot;Screenshot 2024-06-24 at 19.14.33.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The majority of the efforts of your team lead, and this document is to help you toward achieving the status mentioned in the above sentence.&lt;/p&gt;
 &lt;h3 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;🔬 Resources&lt;/h3&gt;
 &lt;ul&gt;

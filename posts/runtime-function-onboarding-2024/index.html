@@ -635,7 +635,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-26T09:59:15.158Z';
+        const searchIndexDate = '2024-06-26T10:34:28.073Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -647,9 +647,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T09:59:15.158Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T10:34:28.073Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T09:59:15.158Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T10:34:28.073Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -972,7 +972,7 @@ In a lot of our communication, we refer to Relay Chain as <strong>RC</strong>, a
 <p>
 The main downtime of Polkadot is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of <code>try-runtime-*</code> set of tools, just to name one.</p>
 </div></div>
-<p>!<a class="internal-link is-unresolved" href="/404">8hsucaxkn5gb1.jpg</a></p>
+<p><img src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg"></p>
 <ul>
 <li><strong>We fly close to end-users/developers</strong>: Most of what we write affects our two major stakeholders: developers (parachains, UIs, and more), and blockchain users.
 <ul>
@@ -983,7 +983,7 @@ The main downtime of Polkadot is partially because of my code. Many collaborated
 </li>
 </ul>
 <p>We will repeatedly come back to these two points throughout this document.</p>
-<p>!<a class="internal-link is-unresolved" href="/404">8utsbt.jpg</a></p>
+<p><img src="/img/user/resources/8utsbt.jpg" alt="8utsbt.jpg"></p>
 <h3 id="function-portfolio" tabindex="-1">📈 Function Portfolio</h3>
 <p>Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently achieving, in the words of the maintainers themselves:</p>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Release Process<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
@@ -1200,11 +1200,11 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 <h3 id="culture" tabindex="-1">🎭 Culture</h3>
 <p>You will learn about the Parity culture in your onboarding, but here’s some old-but-still-relevant material from former culture decks.</p>
 <p>First, here’s a little screenshot of an all-hands talk about vision of Parity in 2019 which I still stand by. You can find the full talk <a href="https://drive.google.com/file/d/1yzS_ZoVdyt370hhuHwJaHelftKEH_6Yl/view?usp=sharing" target="_blank" class="external-link">here</a> (most of it is not super relevant anymore).</p>
-<p>!<a class="internal-link is-unresolved" href="/404">Screenshot 2024-06-24 at 19.12.10.png</a><br>
+<p><img src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png"><br>
 A <a href="https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/view?usp=sharing" target="_blank" class="external-link">culture talk from Gav</a> in the 2022 Tenerife retreat. This snippet of this talk is among my favorites.</p>
 <p>!<a class="internal-link is-unresolved" href="/404">center</a><br>
 You can find the deck itself <a href="https://docs.google.com/presentation/d/15-lL1xKAVMt_50X2ri7hsEhU3Z0he04K017mZCIeRZI/edit#slide=id.g26b31d0a78ca97e7_10" target="_blank" class="external-link">here</a>. If I wanted to name one slide from it that you should think about the most, it would be:</p>
-<p>!<a class="internal-link is-unresolved" href="/404">Screenshot 2024-06-24 at 19.14.33.png</a></p>
+<p><img src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png"></p>
 <p>The majority of the efforts of your team lead, and this document is to help you toward achieving the status mentioned in the above sentence.</p>
 <h3 id="resources" tabindex="-1">🔬 Resources</h3>
 <ul>
