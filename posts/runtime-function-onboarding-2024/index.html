@@ -635,7 +635,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-26T12:15:57.749Z';
+        const searchIndexDate = '2024-06-26T15:50:34.175Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -647,9 +647,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T12:15:57.749Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-26T15:50:34.175Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T12:15:57.749Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-26T15:50:34.175Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -890,7 +890,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-26T15:44:39.500+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-26T19:19:53.079+03:30"></span></div></div></div>
       
       
       </header>
@@ -1008,13 +1008,14 @@ Ankan and Goncalo</p>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> XCM v5<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-XCMv5 aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.<br>
+<a href="https://github.com/polkadot-fellows/xcm-format/issues/60" target="_blank" class="external-link">XCMv5</a> aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.<br>
 Cisco</p>
 </div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Coretime Broker Pallet<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-Donal</p>
+This year Kusama and Polkadot transition away from the slot auction model to Agile Coretime. The Coretime Chain is a marketplace where NFTs representing various configurations of blockspace can be bought, manipulated and allocated. Coretime (bulk and on-demand) is now the only way to validate workloads on Polkadot.  The broker pallet contains all the logic for the primary market for blockspace, upon which secondary markets can be built and is the main part of the coretime chain. The specification is contained within <a href="https://polkadot-fellows.github.io/RFCs/approved/0001-agile-coretime.html" target="_blank" class="external-link">RFC-1</a> and <a href="https://polkadot-fellows.github.io/RFCs/approved/0005-coretime-interface.html" target="_blank" class="external-link">RFC-5</a>, and you can find out more in our <a href="https://polkadot-public.notion.site/Agile-Coretime-FAQ-c930796e8c884011adb1fa24ef22f77c#4044ec0996054c48b3f8dde0eaca4584" target="_blank" class="external-link">Coretime FAQs</a>.</p>
+<p>Donal</p>
 </div></div>
 <h2 id="communication" tabindex="-1">📡 Communication</h2>
 <h3 id="sync" tabindex="-1">📞 Sync</h3>
