@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-06-27T19:31:43.780+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-06-27T19:55:44.069+03:30"}
 ---
 
 - [[Posts/Tech/Demystifying JAM#Prelude: Polkadot 1\|Prelude: Polkadot 1]]
