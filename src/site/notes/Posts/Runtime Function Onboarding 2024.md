@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-26T19:19:53.079+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-27T17:08:28.143+03:30"}
 ---
 
 
@@ -42,7 +42,7 @@ What do we do? We build everything that is needed for the _**Runtimes of the Pol
 > [!info]- Note on Naming 
 > In a lot of our communication, we refer to Relay Chain as **RC**, and System Chain as **SC**. Moreover, a lot of the system chains are called “_SomethingHub_”, which is often abbreviated as *_**H**_. For example, AssetHub is referred to as **AH**.
 
-![Screenshot 2024-06-26 at 14.36.11.png|rounded](/img/user/Screenshot%202024-06-26%20at%2014.36.11.png)
+![Screenshot 2024-06-26 at 14.36.11.png](/img/user/Screenshot%202024-06-26%20at%2014.36.11.png)
 ### 💊 The Reality of What We Do 
 Working in the above implies two very important self-evident truths about the type of work we do:
 * **We fly low:** The work we do is meant to interact with value-bearing, mission critical systems that are meant to survive the test of time. This implies:
