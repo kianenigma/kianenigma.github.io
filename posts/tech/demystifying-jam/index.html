@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Uneducated, Unaffiliated, Disinterested</title>
+    <title>Demystifying JAM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -272,7 +272,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested </a>
                 </div>
             
         </div>
@@ -889,7 +889,7 @@
     <main class="content cm-s-obsidian ">
       <header>
         
-          <h1 data-note-icon="">Uneducated, Unaffiliated, Disinterested</h1>
+          <h1 data-note-icon="">Demystifying JAM</h1>
         
         <div class="header-meta">
           
@@ -897,26 +897,161 @@
               
                 
               
+                
+                  <a class="tag" onclick="toggleTagSearch(this)">
+                    #polkadot
+                  </a>
+                
+              
+                
+                  <a class="tag" onclick="toggleTagSearch(this)">
+                    #jam
+                  </a>
+                
+              
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-30T20:15:50.000+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-03-30T20:15:50.571+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-05-02T17:08:56.000+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-27T19:55:44.069+03:30"></span></div></div></div>
       
       
       </header>
       
       
-      <p>The setup is simple: casting an opinion on the matter.</p>
-<p>There are 3 parameters to evaluate between the person and the matter:</p>
+      <ul>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#prelude-polkadot-1">Prelude: Polkadot 1</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#all-about-cores">All About Cores</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#polkadot-2">Polkadot 2</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#inside-core-vs-on-the-chain">Inside Core vs. On the Chain</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">JAM</a>
 <ul>
-<li><strong>Personal affiliation</strong>: either having some degree of emotional attachment to the matter beyond baseline empathy that most people would have.</li>
-<li><strong>Interest</strong>: To be economically attached or not, i.e. <em>skin in the game</em>.</li>
-<li><strong>Education</strong>: having a very high degree of proficiency such that they know the matter at hand almost at full.</li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">Service and Work Items</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">Semi Coherence</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">CoreChain</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">PVM</a></li>
 </ul>
-<p>And the simple conclusion can be that all 3 parameters should be maximal to achieve a good opinion. But is that always the case? some counter examples that I have encountered in my life:</p>
+</li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#appendix-re-defining-blockspace">Appendix: Re Defining Blockspace</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#appendix-scalability-space-map">Appendix: Scalability Space Map</a></li>
+</ul>
+<h2 id="prelude-polkadot-1" tabindex="-1">Prelude: Polkadot 1</h2>
+<p>First, let's take a moment to jot down what I think are the top novel features of Polkadot. One on the technical side, and one on the social side.</p>
 <ul>
-<li><strong>Education</strong>: In many technical conversations between those that are experts in a sub-system, it is super useful to have the opinion of someone who has some degree of high level information, but is not an expert and therefore can provide an out-of-the-box opinion. I have been on both sides of this myself.</li>
-<li><strong>Interest and Affiliation</strong>: I am from Iran, and consider myself educated about conditions of living there, but because of living abroad for many years, less so emotionally and economically attached. In other words, I am in a position of privilege compared to those that actually still live in Iran. and I have found myself to sometimes have differing opinions about Iran, and think that this position of privilege can actually be useful (see <a class="internal-link" data-note-icon="" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran's Political Situation in 2022</a>).</li>
+<li>Social:
+<ul>
+<li>Biggest DAO. the only network that does fully onchain, self-enacting governance, including runtime upgrades.</li>
 </ul>
-<p>In short, what I would conclude is that in a given situation, it is useful to incorporate opinions that are either (somewhat) uneducated, unaffiliated and uninterested.</p>
+</li>
+<li>Technological:
+<ul>
+<li>Shared security, sharded execution</li>
+<li>Use of a WASM-based meta-protocol. Storing the code of the blockchain in the state as byte-code.</li>
+</ul>
+</li>
+</ul>
+<p>Let's dive further into the second one.</p>
+<h2 id="all-about-cores" tabindex="-1">All About Cores</h2>
+<blockquote>
+<p>For now, we are only talking in the context of a L1 network that hosts other L2 &quot;blockchain&quot; networks, much like Polkadot and Ethereum. Therefore, the words L2 and Parachain can be used interchangeably.</p>
+</blockquote>
+<p>The core problem with blockchain scalability can be put as: There exists a set of validator's who's execution can be trusted through crypto-economic and proof stake systems. But, it is very inefficient, and not scalable, to have all validators execute everything at all times.</p>
+<blockquote>
+<p>TODO: Diagram of a single threaded blockchain.</p>
+</blockquote>
+<p>In such a system, if the blockchain wants to host further L2s, all validators have to now re-execute the work of all rollups as well. Obviously, this will not scale. Optimistic rollups are one way to circumvent this issue, in that re-execution (aka. fraud-proofs) only happen if someone claims a fraud to have happened.</p>
+<p>A naive solution to sharding is to merely split the validator set into smaller subsets, and have a small group of them re-execute the L2 block. What is the issue with this approach? we are sharding the economic security of the network as well.</p>
+<blockquote>
+<p>TODO: BAD Sharded Security</p>
+</blockquote>
+<p>Contrary to Optimistic Rollups that cannot afford re-execution at all times due to architectural shortcomings, Polkadot can have a subset of its validators re-execute a L2 block, while providing sufficient crypto-economical evidence to all network participants that the veracity of the block is as secure as if the entire set of validators had re-executed it. This is possible through the novel (recently formally published) ELVES paper.</p>
+<blockquote>
+<p>TODO: GOOD Shared Security</p>
+</blockquote>
+<p>That is, &quot;<em>Sharded Execution</em>&quot;, with &quot;<em>Shared Security</em>&quot;, the main technological outcomes of Polkadot 1 when it comes to scalability.</p>
+<p>An execution-sharded blockchain is very much like a CPU: In much the same way that a CPU can have many cores and execute instructions in parallel, Polkadot can progress L2 blocks in parallel. This is why an L2 on Polkadot is called a <em><strong>Para</strong></em>chain, and the environment in which the smaller sub-group of validators re-execute a single L2 block is called a Core. Each core can be abstracted as &quot;a group of validators working in coordination&quot;.</p>
+<p>You can imagine a single-threaded blockchain as one that ingests a single block at any given 6s time-slot, while Polkadot ingests 1 relay-chain block, and 1 parachain block per core, per time-slot</p>
+<blockquote>
+<p>TODO: animation</p>
+</blockquote>
+<h2 id="polkadot-2" tabindex="-1">Polkadot 2</h2>
+<p>A bit part of Polkadot 2 is about making cores more flexibily use-able. In the original Polkadot model, a core could have been rented for 6m at a time.<br>
+a single-chain using multiple cores, a single chain using cores infrequently.<br>
+Very short, no need to spend more time here.</p>
+<blockquote>
+<p>TODO Diagram of long running task, and short running</p>
+</blockquote>
+<h2 id="inside-core-vs-on-the-chain" tabindex="-1">Inside Core vs. On the Chain</h2>
+<p>To understand JAM, it is first useful to look into what happens in a Polkadot Core when an L2 block comes in.</p>
+<blockquote>
+<p>This contains a lot of simplification.</p>
+</blockquote>
+<blockquote>
+<p>Recall that a core is constituted primarily from a group of validators. So, when we say some data is sent to the core, it is gossiped to this group of validators.</p>
+</blockquote>
+<ol start="0">
+<li>An L2 Block + a subset of that L2's state is sent to the core. This is all the data that is needed to execute the block<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</li>
+<li>Subset of validators, those that constitute a core, re-execute the L2 block and proceed with further consensus related tasks.</li>
+<li>Make the data needed for other validators (outside of the core) available<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> to re-execute the L2 block, if need be. Further validators might decide to re-execute this L2 block based on ELVES rules, and they need the data to do so.</li>
+<li>Note that all of the operation so far is outside the the Polkadot's main block and state.</li>
+<li>Eventually, a small commitment of the new L2 state becomes visible on the main Polkadot relay chain state. This operation, which is much cheaper than the actual re-execution of the L2 block, unlike everything thus far, affects the main Polkadot state, becomes visible in a Polkadot block, and is executed by all Polkadot validators<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>.</li>
+</ol>
+<p>Let's deduce some new ideas from the above: From 1, we can deduce that there exists a new type of execution in Polkadot that differs from normal blockchain operations. Typically, when all validators of a network execute some work, and as the outcome, the main state is updated, we call this an on-chain operation. This is what happens in step 4. Yet, what happens inside a core differs from this. We call this novel type of blockchain computation <strong>in-core</strong> execution, and it is different from <strong>on-chain</strong> execution.</p>
+<p>Next, from point 2 we can deduce that Polkadot already provides a native DA layer, and L2's automatically use it to keep their execution evidence present for some period of time. Yet, the type data that can be posted to this DA layer is fixed, and it is always the evidence needed to re-execute an L2 block.</p>
+<p>Understanding the above is foundation of understanding majority of what JAM does. Before going further, a recap:</p>
+<ul>
+<li>in-core execution</li>
+<li>on-chain execution</li>
+<li>DA</li>
+</ul>
+<h2 id="jam" tabindex="-1">JAM</h2>
+<p>With the understanding gained in <a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#inside-core-vs-on-the-chain"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Inside">#Inside</a> Core vs. On the Chain</a>, we can smoothly transition into what JAM is.</p>
+<p>JAM is a new protocol, heavily inspired by Polkadot, and fully compatible with it, that aims to replace the Polkadot Relay Chain<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>.</p>
+<p>JAM builds on top of <a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#polkadot-2"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Polkadot">#Polkadot</a> 2</a>, in that it tries to make Polkadot cores more useful, but in ways radically more flexible than <a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#polkadot-2"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Polkadot">#Polkadot</a> 2</a>.</p>
+<p>The main observation of JAM is to alter Polkadot cores as follows:</p>
+<ol>
+<li>Allow both the work that is being done in-core and  on-chain to be fully programmable.</li>
+<li>Allow any data to be read-from and written-into the Polkadot DA layer.</li>
+</ol>
+<p>Both of these stem from one key observation: &quot;Polkadot cores are amazingly powerful, why just use them to run L2s? they can run anything!&quot;.</p>
+<h3 id="service-and-work-items" tabindex="-1">Service and Work Items</h3>
+<p>This is why in the context of JAM, what used to called an L2/Parachain block is now called &quot;<em>Work</em><sup class="footnote-ref"><a href="#fn3" id="fnref3:1">[3:1]</a></sup>&quot;, a very generic term.</p>
+<p>Moreover, the &quot;application&quot; to which a work belongs is called a <code>Service</code>. A service is described by 3 entry points, two of which are <code>fn join()</code> and <code>fn accumulate()</code>. The former describes what the service does in-core, and the latter describes what the service does on-chain.</p>
+<p>Finally, the name of the two entry-points is why this protocol is called, JAM: the Join Accumulate Machine.</p>
+<p>This is a somewhat simplistic, yet foundational and groud-up description of what JAM aims to be. Needless to say, a lot has been simplified here, and the protocol might still evolve.</p>
+<p>On top of this foundation in mind, there are a few other aspects of JAM that now we can describe in the coming sections.</p>
+<h3 id="semi-coherence" tabindex="-1">Semi Coherence</h3>
+<p>TODO</p>
+<h3 id="core-chain" tabindex="-1">CoreChain</h3>
+<p>TODO</p>
+<h3 id="pvm" tabindex="-1">PVM</h3>
+<p>TODO</p>
+<h2 id="appendix-re-defining-blockspace" tabindex="-1">Appendix: Re Defining Blockspace</h2>
+<p>Polkadot's blockspace is therefore a combination of a lot of in-core blockspace, and a reasonable amount of on-chain blockspace.</p>
+<h2 id="appendix-scalability-space-map" tabindex="-1">Appendix: Scalability Space Map</h2>
+<ol>
+<li>Beefy hardware + optimization: Solana</li>
+<li>Optimistic Rollups</li>
+<li>ZKP</li>
+<li>Data and Execution Sharding</li>
+</ol>
+<p>A short digest from the graypaper.</p>
+<hr>
+<p><a href="https://ethresear.ch/t/bringing-polkadot-tech-to-ethereum/17104" target="_blank" class="external-link">https://ethresear.ch/t/bringing-polkadot-tech-to-ethereum/17104</a><br>
+<a href="https://medium.com/coinmonks/polkadot-a-pessimistic-rollup-world-89fee1cfcd5f" target="_blank" class="external-link">https://medium.com/coinmonks/polkadot-a-pessimistic-rollup-world-89fee1cfcd5f</a><br>
+<a href="https://miro.com/app/board/uXjVKT7riCM=/" target="_blank" class="external-link">https://miro.com/app/board/uXjVKT7riCM=/</a><br>
+<a href="https://grillapp.net/@filippoweb3/136004" target="_blank" class="external-link">https://grillapp.net/@filippoweb3/136004</a><br>
+<a href="https://github.com/openguild-labs/learn-jam" target="_blank" class="external-link">https://github.com/openguild-labs/learn-jam</a></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>We called the L2's state POV, and the combination of the two PVF. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>This is Polkadot's native Data Availability layer. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>Terms like <code>WorkItem</code>, <code>WorkRrport</code>, <code>WorkPackage</code>. <a href="#fnref3" class="footnote-backref">↩︎</a> <a href="#fnref3:1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>It is crucial to already point out that JAM is only meant to replace the Polkadot relay chain. Parachains, and all applications that run on top of Polkadot remain intact, mainly thanks to <a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#core-chain"><a class="tag" onclick="toggleTagSearch(this)" data-content="#CoreChain">#CoreChain</a></a>. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 
       
       
@@ -931,6 +1066,56 @@
 
                   
                         
+                        
+                              <div class="toc">
+                                    <div class="toc-title-container">
+                                          <div class="toc-title">
+                                                On this page
+                                          </div>
+                                    </div>
+                                    <div class="toc-container">
+                                          <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#prelude-polkadot-1">Prelude: Polkadot 1</a>
+            		</li>
+
+                    <li><a href="#all-about-cores">All About Cores</a>
+            		</li>
+
+                    <li><a href="#polkadot-2">Polkadot 2</a>
+            		</li>
+
+                    <li><a href="#inside-core-vs-on-the-chain">Inside Core vs. On the Chain</a>
+            		</li>
+
+                    <li><a href="#jam">JAM</a>
+            
+                <ol>
+                    
+                    <li><a href="#service-and-work-items">Service and Work Items</a>
+            		</li>
+
+                    <li><a href="#semi-coherence">Semi Coherence</a>
+            		</li>
+
+                    <li><a href="#core-chain">CoreChain</a>
+            		</li>
+
+                    <li><a href="#pvm">PVM</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#appendix-re-defining-blockspace">Appendix: Re Defining Blockspace</a>
+            		</li>
+
+                    <li><a href="#appendix-scalability-space-map">Appendix: Scalability Space Map</a>
+            		</li>
+                </ol>
+            </nav>
+                                    </div>
+                              </div>
                         
 
                   
