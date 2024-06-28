@@ -643,7 +643,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-28T06:50:58.056Z';
+        const searchIndexDate = '2024-06-28T08:06:51.687Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -655,9 +655,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T06:50:58.056Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:06:51.687Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T06:50:58.056Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:06:51.687Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -898,7 +898,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-27T17:08:28.143+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:32:53.127+03:30"></span></div></div></div>
       
       
       </header>
@@ -1120,10 +1120,9 @@ The information in this section is kept at minimum, as majority of what you have
 <h3 id="road-to-merging-a-pr" tabindex="-1">🛣️ Road to Merging a PR</h3>
 <p>For your contribution, consider reading everything in our <a href="https://github.com/paritytech/polkadot-sdk/tree/master/docs/contributor" target="_blank" class="external-link"><code>docs/contributing</code></a> folder.</p>
 <p>What we expect further from you, as an internal developer, is to be <em>even more conscious</em> of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do"><a class="tag" onclick="toggleTagSearch(this)" data-content="#💊">#💊</a> The Reality of What We Do</a>: Flying close to users.</p>
-<p>Our changes often effect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your <strong>PR description</strong>. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate <code>hackmd</code>.</p>
-<p>TODO: update PR template to reflect this as well.</p>
+<p>Our changes often affect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your <strong>PR description</strong>. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate <code>hackmd</code>.</p>
 <p>Lastly, remember that while we are all obliged to spend a part of our time reviewing each others' code, we are all busy. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others'. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly.</p>
-<p>!<a class="internal-link is-unresolved" href="/404">Screenshot from 2023-03-16 15-40-07.png</a></p>
+<p><img src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png"></p>
 <div class="callout " data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Release and Audit Rooms<br></div></div>
 <div class="callout-content">
 <p>
@@ -1232,8 +1231,8 @@ You can find the deck itself <a href="https://docs.google.com/presentation/d/15-
 <h3 id="stability-over-chaos" tabindex="-1">Stability Over Chaos</h3>
 <p>A theme in Parity, Polkadot in 2024 and beyond has been <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc" target="_blank" class="external-link">Stability</a>. We used to say: &quot;<em>We write code faster than we can write about it</em>&quot;. Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0.</p>
 <h3 id="information-de-centralization-and-longevity" tabindex="-1">Information (de)Centralization and Longevity</h3>
-<p>As noted in <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions"><a class="tag" onclick="toggleTagSearch(this)" data-content="#🤪">#🤪</a> Dumb Questions</a>, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of information centralization. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear.</p>
-<p>The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.</p>
+<p>As noted in <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions"><a class="tag" onclick="toggleTagSearch(this)" data-content="#🤪">#🤪</a> Dumb Questions</a>, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of <strong>information centralization</strong>. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.</p>
+<p><em><strong>The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.</strong></em></p>
 <p>The best example of this is something that I personally do: Policing people to move good conversations and Q&amp;As from Element to more permanent places. Every time I see a good technical question answered in Element, I do:</p>
 <ol>
 <li>If this question is already asked in StackExchange, then I don't need to rewrite the answer. I will paste a link and move on.</li>

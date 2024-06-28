@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-06-28T06:50:58Z</updated>
+    <updated>2024-06-28T08:06:52Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -652,7 +652,7 @@ Polkadot2, among other features, is unfolding as we speak, and not much further 
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-06-27T13:38:28.143Z</updated>
+            <updated>2024-06-28T08:02:53.127Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -859,10 +859,9 @@ The information in this section is kept at minimum, as majority of what you have
 &lt;h3 id=&quot;road-to-merging-a-pr&quot; tabindex=&quot;-1&quot;&gt;🛣️ Road to Merging a PR&lt;/h3&gt;
 &lt;p&gt;For your contribution, consider reading everything in our &lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/tree/master/docs/contributor&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;docs/contributing&lt;/code&gt;&lt;/a&gt; folder.&lt;/p&gt;
 &lt;p&gt;What we expect further from you, as an internal developer, is to be &lt;em&gt;even more conscious&lt;/em&gt; of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#💊&quot;&gt;#💊&lt;/a&gt; The Reality of What We Do&lt;/a&gt;: Flying close to users.&lt;/p&gt;
-&lt;p&gt;Our changes often effect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your &lt;strong&gt;PR description&lt;/strong&gt;. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate &lt;code&gt;hackmd&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;TODO: update PR template to reflect this as well.&lt;/p&gt;
+&lt;p&gt;Our changes often affect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your &lt;strong&gt;PR description&lt;/strong&gt;. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate &lt;code&gt;hackmd&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Lastly, remember that while we are all obliged to spend a part of our time reviewing each others&#39; code, we are all busy. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others&#39;. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly.&lt;/p&gt;
-&lt;p&gt;!&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot;&gt;Screenshot from 2023-03-16 15-40-07.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png&quot; alt=&quot;Screenshot from 2023-03-16 15-40-07.png&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info] Release and Audit Rooms&lt;br /&gt;
 Two critical pieces of information about contributing to &lt;code&gt;polkadot-sdk&lt;/code&gt; that is gated within Parity is being present in the release and audit Element rooms. These rooms ensure you are up to date with the latest of the two respectively, and can plan accordingly. Ideally, these processes should also move towards being as public as possible.&lt;/p&gt;
@@ -969,8 +968,8 @@ You can find the deck itself &lt;a href=&quot;https://docs.google.com/presentati
 &lt;h3 id=&quot;stability-over-chaos&quot; tabindex=&quot;-1&quot;&gt;Stability Over Chaos&lt;/h3&gt;
 &lt;p&gt;A theme in Parity, Polkadot in 2024 and beyond has been &lt;a href=&quot;https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Stability&lt;/a&gt;. We used to say: &amp;quot;&lt;em&gt;We write code faster than we can write about it&lt;/em&gt;&amp;quot;. Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0.&lt;/p&gt;
 &lt;h3 id=&quot;information-de-centralization-and-longevity&quot; tabindex=&quot;-1&quot;&gt;Information (de)Centralization and Longevity&lt;/h3&gt;
-&lt;p&gt;As noted in &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#dumb-questions&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#🤪&quot;&gt;#🤪&lt;/a&gt; Dumb Questions&lt;/a&gt;, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of information centralization. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear.&lt;/p&gt;
-&lt;p&gt;The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.&lt;/p&gt;
+&lt;p&gt;As noted in &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#dumb-questions&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#🤪&quot;&gt;#🤪&lt;/a&gt; Dumb Questions&lt;/a&gt;, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of &lt;strong&gt;information centralization&lt;/strong&gt;. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The best example of this is something that I personally do: Policing people to move good conversations and Q&amp;amp;As from Element to more permanent places. Every time I see a good technical question answered in Element, I do:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;If this question is already asked in StackExchange, then I don&#39;t need to rewrite the answer. I will paste a link and move on.&lt;/li&gt;
