@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:54:23.992+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:58:34.656+03:30"}
 ---
 
 
@@ -167,13 +167,13 @@ But, there is a few notes that you should keep in mind about questions:
 > The information in this section is kept at minimum, as majority of what you have to know to contribute inside of Parity also applies to *external contributors*, and is already documented for them. Whatever is not documented, should be added to the same public medium and NOT be exclusive to a private Parity onboarding note. 
 ### 🛣️ Road to Merging a PR
 
-For your contribution, consider reading everything in our [`docs/contributing`](https://github.com/paritytech/polkadot-sdk/tree/master/docs/contributor) folder. 
+For your contribution, consider reading everything in our [`docs/contributing`](https://github.com/paritytech/polkadot-sdk/tree/master/docs/contributor) folder. What you do here is more or less what we expect external contributors to do: 
+1. Proper PR description, as per `PULL_REQUEST_TEMPLATE`.
+2. Adhering to everything in `CONTRIBUTING.md`. 
 
-What we expect further from you, as an internal developer, is to be *even more conscious* of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in [[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|#💊 The Reality of What We Do]]: Flying close to users. 
+A common issue that might arise is for you to open a PR, and for it to not receive the reviews you hoped for. While we are all obliged to spend a part of our time reviewing each others' code, we all tend to be busy as well. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others'. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly. 
 
-Our changes often affect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your **PR description**. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate `hackmd`. 
-
-Lastly, remember that while we are all obliged to spend a part of our time reviewing each others' code, we are all busy. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others'. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly. 
+TODO: maybe the tone is a bit too strong^^
 
 ![Screenshot from 2023-03-16 15-40-07.png](/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png)
 
