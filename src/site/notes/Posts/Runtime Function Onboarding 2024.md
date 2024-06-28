@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:58:34.656+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T17:37:15.582+03:30"}
 ---
 
 
@@ -147,7 +147,7 @@ If your over-sharing and are actively annoying anyone, it is _their_ responsibly
 > * Be concise and to-the-point in conveying your message. [The "no hello" is a good example 😉](https://nohello.net/en/). 
 > * Prefer sharing things *where most poeple can see it*. 
 > * Prefer sharing things where it has the most longevity.
-> 	* (See [[Posts/Runtime Function Onboarding 2024#Information (de)Centralization and Longevity\|#Information (de)Centralization and Longevity]])
+> 	* (See [[Posts/Runtime Function Onboarding 2024#Information (de)Centralization and Longevity\|Information (de)Centralization and Longevity]])
 ### 🤪 Dumb Questions 
 
 Parity has an interesting attitude towards this. We have a room specifically called "*Parity Dumb Questions*", to remind you that there is no such thing as a dumb question[^2]. Let's be honest: Web3 is a super complicated space. Only a few are knowledgeable enough to have a high level understanding of *everything*. Most of us are new in this space. Moreover, this space, and Parity, move really fast. What you know today might need an update in 3 months. 
@@ -159,7 +159,7 @@ But, there is a few notes that you should keep in mind about questions:
 > [!info] Asking Questions 101
 > * First, while we assert there is no such thing as dumb questions, there is such a thing as a "lazy question". That is, when you are told to "do `x`" by person `A`, and then you go to person `B` and as "hey, how do I do `x`?". A good question should indicate that you have put some effort into the matter yourself. 
 > * Avoid [the xy problem](https://xyproblem.info/).
-> * See [[Posts/Runtime Function Onboarding 2024#Information (de)Centralization and Longevity\|#Information (de)Centralization and Longevity]]. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.
+> * See [[Posts/Runtime Function Onboarding 2024#Information (de)Centralization and Longevity\|Information (de)Centralization and Longevity]]. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.
 
 ## 🧑‍💻 Contributing
 
@@ -186,7 +186,7 @@ TODO: maybe the tone is a bit too strong^^
 
 Well, your PR is finally merged. Are we done? More often than not, no. 
 
-Yet again, a lot of this goes back to the dual realities ([[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|#💊 The Reality of What We Do]]) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following: 
+Yet again, a lot of this goes back to the dual realities ([[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|💊 The Reality of What We Do]]) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following: 
 
 1. **Test-network Runtime Upgrade**: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further? 
 2. **RC/SC Runtime Upgrade**: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs[^1]. This is another milestone for testing: Did everything go smoothly? 
@@ -202,7 +202,7 @@ Yet again, a lot of this goes back to the dual realities ([[Posts/Runtime Functi
 
 ### 🧐 Know Your API 
 
-As a final example to cement [[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|#💊 The Reality of What We Do]], let's consider the difference between two features, in order the highlight how important it is for you to be able to answer one question: 
+As a final example to cement [[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|💊 The Reality of What We Do]], let's consider the difference between two features, in order the highlight how important it is for you to be able to answer one question: 
 
 > Is my code end-user-facing or not?
 
@@ -270,7 +270,7 @@ Personal opinion of @kianenigma follows. These are things that I believe will he
 ### Stability Over Chaos 
 A theme in Parity, Polkadot in 2024 and beyond has been [Stability](https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc). We used to say: "*We write code faster than we can write about it*". Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0. 
 ### Information (de)Centralization and Longevity
-As noted in [[Posts/Runtime Function Onboarding 2024#🤪 Dumb Questions\|#🤪 Dumb Questions]], we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of **information centralization**. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.  
+As noted in [[Posts/Runtime Function Onboarding 2024#🤪 Dumb Questions\|🤪 Dumb Questions]], we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of **information centralization**. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.  
 
 ***The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.*** 
 
@@ -302,7 +302,7 @@ In tandem to the above, try and announce what you are working on early, and embr
 ### Don't Be Blocked On Decisions
 Share your thoughts, what you think is the best answer and should happen, share it publicly, and if after `x` weeks no objections comes, you execute.  
 ### Measuring Impact 
-The impact of what we do, specifically for end-user facing work (as defined in [[Posts/Runtime Function Onboarding 2024#🧐 Know Your API\|#🧐 Know Your API]]), is NOT how many PRs we manage can merge into `polkadot-sdk`, but rather how much our code is being user by end-users or developers. 
+The impact of what we do, specifically for end-user facing work (as defined in [[Posts/Runtime Function Onboarding 2024#🧐 Know Your API\|🧐 Know Your API]]), is NOT how many PRs we manage can merge into `polkadot-sdk`, but rather how much our code is being user by end-users or developers. 
 ### Liveness Above All 
 Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship. 
 
