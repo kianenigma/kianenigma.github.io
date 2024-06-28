@@ -1,545 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Runtime Function Onboarding 2024</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Runtime Function Onboarding 2024</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
-<script>
-    mermaid.initialize({
-        startOnLoad: true,
-    });
-</script>
+<script>mermaid.initialize({startOnLoad:!0})</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
-<script>
-    // Create callout icons
-    window.addEventListener("load", () => {
-        document.querySelectorAll(".callout").forEach((elem) => {
-            const icon = getComputedStyle(elem).getPropertyValue('--callout-icon');
-            const iconName = icon && icon.trim().replace(/^lucide-/, "");
-
-            if (iconName) {
-                const calloutTitle = elem.querySelector(".callout-title");
-
-                if (calloutTitle) {
-                    const calloutIconContainer = document.createElement("div");
-                    const calloutIcon = document.createElement("i");
-
-                    calloutIconContainer.appendChild(calloutIcon);
-                    calloutIcon.setAttribute("icon-name", iconName);
-                    calloutIconContainer.setAttribute("class", "callout-icon");
-                    calloutTitle.insertBefore(calloutIconContainer, calloutTitle.firstChild);
-                }
-            }
-        });
-
-        lucide.createIcons();
-
-        // Collapse callouts
-        Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((elem) => {
-            elem.querySelector('.callout-title').addEventListener("click", (event) => {
-                if (elem.classList.contains("is-collapsed")) {
-                    elem.classList.remove("is-collapsed");
-                } else {
-                    elem.classList.add("is-collapsed");
-                }
-            });
-        });
-    });
-</script>
-
-
+<script>window.addEventListener("load",()=>{document.querySelectorAll(".callout").forEach(e=>{var t,l,c=getComputedStyle(e).getPropertyValue("--callout-icon"),c=c&&c.trim().replace(/^lucide-/,"");c&&(e=e.querySelector(".callout-title"))&&(t=document.createElement("div"),l=document.createElement("i"),t.appendChild(l),l.setAttribute("icon-name",c),t.setAttribute("class","callout-icon"),e.insertBefore(t,e.firstChild))}),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach(t=>{t.querySelector(".callout-title").addEventListener("click",e=>{t.classList.contains("is-collapsed")?t.classList.remove("is-collapsed"):t.classList.add("is-collapsed")})})})</script>
 <script src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
-
-<script defer src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" defer></script>
-
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" defer="defer"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
-    <link href="/styles/obsidian-base.css" rel="stylesheet">
-    <link href="/styles/_theme.76b2bf3d.css" rel="stylesheet">
-
-
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.76b2bf3d.css" rel="stylesheet">
 <link href="/styles/custom-style.css" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
-
-
-
-
-
 <style></style>
-    
-    
-  </head>
-  <body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section ">
-    
-    
-    
-      
-    
-    <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" 
-            x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" 
-            x-data="{isDesktop: true, showFilesMobile: false}">
-
-        <div x-show.important="!isDesktop" style="display: none;">
-            <nav class="navbar">
-    <div class="navbar-inner">
-        <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  icon-name="menu"></i></span>
-        
-        <a href="/" style="text-decoration: none;">
-            <h1 style="margin: 15px !important;">Kian Paimani</h1>
-        </a>
-        
-    </div>
-    
-    
-        <div class="search-button align-icon" onclick="toggleSearch()">
-    <span class="search-icon">
-        <i icon-name="search" ></i>
-    </span>
-    <span class="search-text">
-        <span>Search</span>
-        <span style="font-size: 0.6rem; padding: 2px 2px 0 6px; text-align:center; transform: translateY(4px);" class="search-keys">
-            CTRL + K
-        </span>
-    </span>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
+<div x-show.important="!isDesktop" style="display:none">
+<nav class="navbar">
+<div class="navbar-inner">
+<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i icon-name="menu"></i></span>
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Kian Paimani</h1>
+</a>
 </div>
-    
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i icon-name="search"></i>
+</span>
+<span class="search-text">
+<span>Search</span>
+<span style="font-size:.6rem;padding:2px 2px 0 6px;text-align:center;transform:translateY(4px)" class="search-keys">
+CTRL + K
+</span>
+</span>
+</div>
 </nav>
-        </div>
-        
-        <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
-
-      <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
-        
-         <a href="/" style="text-decoration: none;">
-               <h1 style="text-align:center;">Kian Paimani</h1>
-         </a>
-         
-        
-            <div style="display: flex; justify-content: center;">
-                <div class="search-button align-icon" onclick="toggleSearch()">
-    <span class="search-icon">
-        <i icon-name="search" ></i>
-    </span>
-    <span class="search-text">
-        <span>Search</span>
-        <span style="font-size: 0.6rem; padding: 2px 2px 0 6px; text-align:center; transform: translateY(4px);" class="search-keys">
-            CTRL + K
-        </span>
-    </span>
 </div>
-            </div>
-        
-         <div class="folder" x-data="{isOpen: true}">
-    
-        <div x-show="isOpen" style="display:none" class="">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Posts')}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
-                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
-                    <span class="foldername">Posts</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Posts/Personal')}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
-                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
-                    <span class="foldername">Personal</span>
-                    </div>
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/gallery/">Gallery </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/playlist/">Playlists </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/rumi/">Rumi </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/amsterdam-bunker-talks-experience-1/">Amsterdam BunkerTalks Experience 1 </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/an-open-letter-to-javad-zarif/">An Open Letter to Javad Zarif </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/an-open-letter-to-panic-buyers/">An Open Letter to Panic Buyers </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/meta-cognition-framework/">Meta Cognition Framework </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran&#39;s Political Situation in 2022 </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/the-price-of-change/">The Price of Change </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Posts/Tech')}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
-                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
-                    <span class="foldername">Tech</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/">For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/tech/polkadot-s-build-horizon/">Polkadot&#39;s Build Horizon </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/tech/the-10x-developer-myth-all-about-keyboard/">The 10x Developer Myth: All About Keyboard </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/posts/tech/thoughts-blockchain-and-blockspace-scalability/">Thoughts Blockchain and Blockspace Scalability </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-    
-        <div x-show="isOpen" style="display:none" class="">
-            
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Talks')}" @click.stop="isOpen=!isOpen">
-                    <div class="foldername-wrapper align-icon">
-                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
-                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
-                    <span class="foldername">Talks</span>
-                    </div>
-                    
-                        
-    
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/persian-polkadot-seminar-for-rust-iran-community/">(Persian) Polkadot Seminar for Rust-Iran Community </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/persian-random-rust-video-tutorials/">(Persian) Random Rust Video Tutorials </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/">Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022 </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/">Offline Phragmen Tool and Substrate Debug Kit | Substrate Seminar </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/phragmen-and-the-n-po-s-problem-sub0-online/">Phragmen and The NPoS Problem | Sub0 Online </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/phragmen-overview-substrate-seminar/">Phragmen Overview | Substrate Seminar </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                </div>
-            
-        </div>
-        
-    
-    
-        <div x-show="isOpen" style="display:none" class="">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">Home </a>
-                </div>
-            
-        </div>
-        
-    </div>
-      </nav>
-    </div>
-
-    
-
-    
-      <div class="search-container" id="globalsearch" onclick="toggleSearch()">
-    <div class="search-box">
-        <input type="search" id="term" placeholder="Start typing...">
-        <div id="search-results"></div>
-        <footer class="search-box-footer">
-            <div class="navigation-hint">
-                <span>Enter to select</span>
-            </div>
-
-            <div class="navigation-hint align-icon">
-                <i  icon-name="arrow-up" aria-hidden="true"></i>
-                <i  icon-name="arrow-down" aria-hidden="true"></i>
-                <span>to navigate</span>
-            </div>
-
-            <div class="navigation-hint">
-                <span>ESC to close</span>
-            </div>
-
-        </footer>
-    </div>
+<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
+<nav class="filetree-sidebar" x-show.important="isDesktop || showFilesMobile" style="display:none">
+<a href="/" style="text-decoration:none">
+<h1 style="text-align:center">Kian Paimani</h1>
+</a>
+<div style="display:flex;justify-content:center">
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i icon-name="search"></i>
+</span>
+<span class="search-text">
+<span>Search</span>
+<span style="font-size:.6rem;padding:2px 2px 0 6px;text-align:center;transform:translateY(4px)" class="search-keys">
+CTRL + K
+</span>
+</span>
+</div>
+</div>
+<div class="folder" x-data="{isOpen: true}">
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Posts')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Posts</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Posts/Personal')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Personal</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/gallery/">Gallery </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/playlist/">Playlists </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/rumi/">Rumi </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/amsterdam-bunker-talks-experience-1/">Amsterdam BunkerTalks Experience 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/an-open-letter-to-javad-zarif/">An Open Letter to Javad Zarif </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/an-open-letter-to-panic-buyers/">An Open Letter to Panic Buyers </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/meta-cognition-framework/">Meta Cognition Framework </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran&#39;s Political Situation in 2022 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/the-price-of-change/">The Price of Change </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Posts/Tech')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Tech</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/">For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/polkadot-s-build-horizon/">Polkadot&#39;s Build Horizon </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/the-10x-developer-myth-all-about-keyboard/">The 10x Developer Myth: All About Keyboard </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/thoughts-blockchain-and-blockspace-scalability/">Thoughts Blockchain and Blockspace Scalability </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('Talks')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">Talks</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/persian-polkadot-seminar-for-rust-iran-community/">(Persian) Polkadot Seminar for Rust-Iran Community </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/persian-random-rust-video-tutorials/">(Persian) Random Rust Video Tutorials </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/">Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/">Offline Phragmen Tool and Substrate Debug Kit | Substrate Seminar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/phragmen-and-the-n-po-s-problem-sub0-online/">Phragmen and The NPoS Problem | Sub0 Online </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/phragmen-overview-substrate-seminar/">Phragmen Overview | Substrate Seminar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box">
+<input type="search" id="term" placeholder="Start typing...">
+<div id="search-results"></div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i icon-name="arrow-up" aria-hidden="true"></i>
+<i icon-name="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', init, false);
-    document.addEventListener('DOMContentLoaded', setCorrectShortcut, false);
-
-    window.toggleSearch = function () {
-        if (document.getElementById('globalsearch').classList.contains('active')) {
-            document
-                .getElementById('globalsearch')
-                .classList
-                .remove('active');
-        } else {
-            document
-                .getElementById('globalsearch')
-                .classList
-                .add('active');
-            document
-                .getElementById('term')
-                .focus();
-        }
-    }
-
-    window.toggleTagSearch = function (evt) {
-        console.log(evt.textContent);
-        const term = evt.textContent;
-        if (term) {
-            window
-                .document
-                .getElementById('term')
-                .value = term.trim();
-            window.toggleSearch();
-            window.search();
-        }
-    }
-
-    const loadingSvg = `
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);e=e.textContent;e&&(window.document.getElementById("term").value=e.trim(),window.toggleSearch(),window.search())};const loadingSvg=`
     <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
       <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">
           <circle cx="22" cy="22" r="6" stroke-opacity="0">
@@ -580,376 +259,76 @@
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;
-
-    function debounce(func, wait, immediate) {
-        var timeout;
-        return function () {
-            var context = this,
-                args = arguments;
-            var later = function () {
-                timeout = null;
-                if (!immediate) 
-                    func.apply(context, args);
-                };
-            var callNow = immediate && !timeout;
-            clearTimeout(timeout);
-            timeout = setTimeout(later, wait);
-            if (callNow) 
-                func.apply(context, args);
-            };
-    };
-
-    function setCorrectShortcut() {
-        if (navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
-            document
-                .querySelectorAll(".search-keys")
-                .forEach(x => x.innerHTML = "⌘ + K");
-        }
-    }
-
-    function createIndex(posts) {
-        const encoder = (str) => str
-            .toLowerCase()
-            .split(/([^a-z]|[^\x00-\x7F])/)
-        const contentIndex = new FlexSearch.Document({
-            cache: true,
-            charset: "latin:extra",
-            optimize: true,
-            index: [
-                {
-                    field: "content",
-                    tokenize: "reverse",
-                    encode: encoder
-                }, {
-                    field: "title",
-                    tokenize: "forward",
-                    encode: encoder
-                }, {
-                    field: "tags",
-                    tokenize: "forward",
-                    encode: encoder
-                }
-            ]
-        })
-        posts.forEach((p, idx) => {
-            contentIndex.add({
-                id: idx, title: p.title, content: p.content, tags: p.tags //Change to removeHTML
-            })
-        });
-        return contentIndex;
-    }
-
-    async function init() {
-        //init offline search index
-
-        const searchIndexDate = '2024-06-28T08:29:42.802Z';
-        let shouldFetch = true;
-        if(localStorage.getItem("searchIndex")) {
-            let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
-            if(date === searchIndexDate){
-                shouldFetch = false;
-                let index = createIndex(docs);
-                window.docs = docs
-                window.index = index;
-            }        
-        }
-        if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:29:42.802Z')).json();
-            let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:29:42.802Z', docs}));
-            window.docs = docs
-            window.index = index;
-        }
-
-        //open searchmodal when ctrl + k is pressed, cmd + k on mac
-        document.addEventListener('keydown', (e) => {
-            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-                e.preventDefault();
-                toggleSearch();
-            }
-            if (e.key === 'Escape') {
-                document
-                    .getElementById('globalsearch')
-                    .classList
-                    .remove('active');
-            }
-
-            //navigate search results with arrow keys
-            if (document.getElementById('globalsearch').classList.contains('active')) {
-                if (e.key === 'ArrowDown') {
-                    e.preventDefault();
-                    let active = document.querySelector('.searchresult.active');
-                    if (active) {
-                        active
-                            .classList
-                            .remove('active');
-                        if (active.nextElementSibling) {
-                            active
-                                .nextElementSibling
-                                .classList
-                                .add('active');
-                        } else {
-                            document
-                                .querySelector('.searchresult')
-                                .classList
-                                .add('active');
-                        }
-                    } else {
-                        document
-                            .querySelector('.searchresult')
-                            .classList
-                            .add('active');
-                    }
-
-                    let currentActive = document.querySelector('.searchresult.active');
-                    if (currentActive) {
-                        currentActive.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'});
-                    }
-                }
-                if (e.key === 'ArrowUp') {
-                    e.preventDefault();
-                    let active = document.querySelector('.searchresult.active');
-                    if (active) {
-                        active
-                            .classList
-                            .remove('active');
-                        if (active.previousElementSibling) {
-                            active
-                                .previousElementSibling
-                                .classList
-                                .add('active');
-                        } else {
-                            document
-                                .querySelectorAll('.searchresult')
-                                .forEach((el) => {
-                                    if (!el.nextElementSibling) {
-                                        el
-                                            .classList
-                                            .add('active');
-                                    }
-                                });
-                        }
-                    } else {
-                        document
-                            .querySelectorAll('.searchresult')
-                            .forEach((el) => {
-                                if (el.nextElementSibling) {
-                                    el
-                                        .classList
-                                        .add('active');
-                                }
-                            });
-                    }
-
-                    let currentActive = document.querySelector('.searchresult.active');
-                    if (currentActive) {
-                        currentActive.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'});
-                    }
-
-                }
-                if (e.key === 'Enter') {
-                    e.preventDefault();
-                    let active = document.querySelector('.searchresult.active');
-                    if (active) {
-                        window.location.href = active
-                            .querySelector("a")
-                            .href;
-                    }
-                }
-            }
-        });
-
-        const debouncedSearch = debounce(search, 200, false);
-        field = document.querySelector('#term');
-        field.addEventListener('keydown', (e) => {
-            if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') {
-                debouncedSearch();
-            }
-        });
-        resultsDiv = document.querySelector('#search-results');
-
-        const params = new URL(location.href).searchParams;
-        if (params.get('q')) {
-            field.setAttribute('value', params.get('q'));
-            toggleSearch();
-            search();
-        }
-    }
-    window.lastSearch = '';
-    async function search() {
-        let search = field
-            .value
-            .trim();
-        if (!search) 
-            return;
-        if (search == lastSearch) 
-            return;
-        console.log(`search for ${search}`);
-        window.lastSearch = search;
-
-        resultsDiv.innerHTML = loadingSvg;
-        //let searchRequest = await fetch(`/api/search?term=${encodeURIComponent(search)}`);
-        //let results = await searchRequest.json();
-        let results = offlineSearch(search);
-        let resultsHTML = '';
-        if (!results.length) {
-            let resultParagraph = document.createElement("p");
-            resultParagraph.innerText = `No results for "${search}"`;
-            resultsDiv.innerHTML = '';
-            resultsDiv.appendChild(resultParagraph);
-            return;
-        }
-        resultsHTML += '<div style="max-width:100%;">';
-        // we need to add title, url from ref
-        results.forEach(r => {
-            if(r.tags && r.tags.length > 0){
-                resultsHTML += `<div class="searchresult">
-                    <a class="search-link" href="${r.url}">${r.title}</a>
-                    <div onclick="window.location='${r.url}'">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-06-28T13:58:53.046Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-06-28T13:58:53.046Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-06-28T13:58:53.046Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+                    <a class="search-link" href="${e.url}">${e.title}</a>
+                    <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
                             <div class="header-tags">
-                                ${r.tags.map(tag=>'<a class="tag" href="JavaScript:Void(0);">#'+tag+'</a>').join("")}
+                                ${e.tags.map(e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>").join("")}
                             </div>
                         </div>
-                        ${r.content}
+                        ${e.content}
                     </div>
-                </div>`;
-            } else {
-                resultsHTML += `<div class="searchresult">
-                    <a class="search-link" href="${r.url}">${r.title}</a>
-                    <div onclick="window.location='${r.url}'">
-                        ${r.content}
+                </div>`:t+=`<div class="searchresult">
+                    <a class="search-link" href="${e.url}">${e.title}</a>
+                    <div onclick="window.location='${e.url}'">
+                        ${e.content}
                     </div>
-                </div>`;
-            }
-        });
-        resultsHTML += '</div>';
-        resultsDiv.innerHTML = resultsHTML;
-    }
-
-    function truncate(str, size) {
-        //first, remove HTML
-        str = str.replaceAll(/<[^>]*>/g, '');
-        if (str.length < size) 
-            return str;
-        return str.substring(0, size - 3) + '...';
-    }
-
-    function offlineSearch(searchQuery) {
-        let data = window.docs;
-
-        let isTagSearch = searchQuery[0] === "#" && searchQuery.length > 1;
-
-        let searchResults = isTagSearch
-            ? index.search(searchQuery.substring(1), [
-                {
-                    field: "tags"
-                }
-            ])
-            : index.search(searchQuery, [
-                {
-                    field: "title",
-                    limit: 5
-                }, {
-                    field: "content",
-                    weight: 10
-                }
-            ]);
-
-        const getByField = (field) => {
-            const results = searchResults.filter((x) => x.field === field)
-            if (results.length === 0) {
-                return []
-            } else {
-                return [...results[0].result]
-            }
-        }
-        const allIds = new Set([
-            ...getByField("title"),
-            ...getByField("content"),
-            ...getByField("tags")
-        ])
-        const dataIds = [...allIds];
-        const finalResults = dataIds.map((id) => {
-            let result = data[id];
-            result.content = truncate(result.content, 400);
-            result.tags = result
-                .tags
-                .filter((x) => x != "gardenEntry" && x != "note"); //Note is automatically added by 11ty. GardenEntry is used internally to mark the home page
-
-            return result;
-        })
-        return finalResults;
-
-    }
-</script>
-    
-
-    <main class="content cm-s-obsidian ">
-      <header>
-        
-          <h1 data-note-icon="">Runtime Function Onboarding 2024</h1>
-        
-        <div class="header-meta">
-          
-            <div class="header-tags">
-              
-                
-              
-            </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:58:34.656+03:30"></span></div></div></div>
-      
-      
-      </header>
-      
-      
-      <ul>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">👋🏻 Intro: Welcome to The Runtime Function</a>
+                </div>`}),t+="</div>",resultsDiv.innerHTML=t):((a=document.createElement("p")).innerText=`No results for "${e}"`,resultsDiv.innerHTML="",resultsDiv.appendChild(a))}}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs;let a="#"===e[0]&&1<e.length?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);e=t=>{var e=a.filter(e=>e.field===t);return 0===e.length?[]:[...e[0].result]};return[...new Set([...e("title"),...e("content"),...e("tags")])].map(e=>{e=t[e];return e.content=truncate(e.content,400),e.tags=e.tags.filter(e=>"gardenEntry"!=e&&"note"!=e),e})}window.lastSearch=""</script>
+<main class="content cm-s-obsidian">
+<header>
+<h1 data-note-icon="">Runtime Function Onboarding 2024</h1>
+<div class="header-meta">
+<div class="header-tags">
+</div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:58:34.656+03:30"></span></div></div></div>
+</header>
 <ul>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">💊 The Reality of What We Do</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">📈 Function Portfolio</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">👋🏻 Intro: Welcome to The Runtime Function</a>
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">💊 The Reality of What We Do</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">📈 Function Portfolio</a></li>
 </ul>
 </li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📡 Communication</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📡 Communication</a>
 <ul>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📞 Sync</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📧 Async</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📞 Sync</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📧 Async</a>
 <ul>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#async">😱 Where/How-much to Write?</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#async">😱 Where/How-much to Write?</a></li>
 </ul>
 </li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">🤪 Dumb Questions</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">🤪 Dumb Questions</a></li>
 </ul>
 </li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧑‍💻 Contributing</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧑‍💻 Contributing</a>
 <ul>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🛣️ Road to Merging a PR</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🔙 After Merging</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧐 Know Your API</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧹 Be The Housemeister</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🛣️ Road to Merging a PR</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🔙 After Merging</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧐 Know Your API</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧹 Be The Housemeister</a></li>
 </ul>
 </li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#keeping-up">🤓 Keeping Up</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">📍 Company</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#keeping-up">🤓 Keeping Up</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">📍 Company</a>
 <ul>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">🎭 Culture</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">🔬 Resources</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">🎭 Culture</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">🔬 Resources</a></li>
 </ul>
 </li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">💎 Appendix: Principles For Excellence</a>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">💎 Appendix: Principles For Excellence</a>
 <ul>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Stability Over Chaos</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Information (de)Centralization and Longevity</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Domain Ownership</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Announce Early</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Don't Be Blocked On Decisions</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Measuring Impact</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Liveness Above All</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Resilience Above All</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Stability Over Chaos</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Information (de)Centralization and Longevity</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Domain Ownership</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Announce Early</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Don't Be Blocked On Decisions</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Measuring Impact</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Liveness Above All</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Resilience Above All</a></li>
 </ul>
 </li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#wrap">Wrap</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#wrap">Wrap</a></li>
 </ul>
 <h2 id="intro-welcome-to-the-runtime-function" tabindex="-1">👋🏻 Intro: Welcome to The Runtime Function</h2>
 <p>Welcome to Parity, welcome to the Runtime Function, arguably one of the most important teams within Parity and the Polkadot Ecosystem.</p>
@@ -964,7 +343,9 @@
 <p>
 In a lot of our communication, we refer to Relay Chain as <strong>RC</strong>, and System Chain as <strong>SC</strong>. Moreover, a lot of the system chains are called “<em>SomethingHub</em>”, which is often abbreviated as *<em><strong>H</strong></em>. For example, AssetHub is referred to as <strong>AH</strong>.</p>
 </div></div>
-<p><img src="/img/user/resources/Screenshot%202024-06-26%20at%2014.36.11.png" alt="Screenshot 2024-06-26 at 14.36.11.png"></p>
+<p><picture src="/img/user/resources/Screenshot%202024-06-26%20at%2014.36.11.png" alt="Screenshot 2024-06-26 at 14.36.11.png"><source media="(max-width:480px)" srcset="/img/optimized/CoagQtAQ6L-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/CoagQtAQ6L-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/CoagQtAQ6L-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/CoagQtAQ6L-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-26%20at%2014.36.11.png" alt="Screenshot 2024-06-26 at 14.36.11.png" width=""></picture></p>
 <h3 id="the-reality-of-what-we-do" tabindex="-1">💊 The Reality of What We Do</h3>
 <p>Working in the above implies two very important self-evident truths about the type of work we do:</p>
 <ul>
@@ -981,7 +362,9 @@ In a lot of our communication, we refer to Relay Chain as <strong>RC</strong>, a
 <p>
 The main downtime of Polkadot is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of <code>try-runtime-*</code> set of tools, just to name one.</p>
 </div></div>
-<p><img src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg"></p>
+<p><picture src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg"><source media="(max-width:480px)" srcset="/img/optimized/s3fjM1smI6-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/s3fjM1smI6-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/s3fjM1smI6-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/s3fjM1smI6-700.jpeg"><img class="" src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg" width=""></picture></p>
 <ul>
 <li><strong>We fly close to end-users/developers</strong>: Most of what we write affects our two major stakeholders: developers (parachains, UIs, and more), and blockchain users.
 <ul>
@@ -992,13 +375,15 @@ The main downtime of Polkadot is partially because of my code. Many collaborated
 </li>
 </ul>
 <p>We will repeatedly come back to these two points throughout this document.</p>
-<p><img src="/img/user/resources/8utsbt.jpg" alt="8utsbt.jpg"></p>
+<p><picture src="/img/user/resources/8utsbt.jpg" alt="8utsbt.jpg"><source media="(max-width:480px)" srcset="/img/optimized/mhjPRzF1aE-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/mhjPRzF1aE-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/mhjPRzF1aE-642.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/mhjPRzF1aE-642.jpeg"><img class="" src="/img/user/resources/8utsbt.jpg" alt="8utsbt.jpg" width=""></picture></p>
 <h3 id="function-portfolio" tabindex="-1">📈 Function Portfolio</h3>
 <p>Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently achieving, in the words of the maintainers themselves:</p>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Stability<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-Parity has a history of rug-pulling Polkadot builders. The <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175" target="_blank" class="external-link">Stability</a> initiative is here to stop this.   By introducing stable releases (<a href="https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md" target="_blank" class="external-link">New Release Process</a>), a no-code Parachain node (<a href="https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823" target="_blank" class="external-link">Omni-node</a>) and focusing generally more on improving existing features instead of adding new ones we are aiming for a smother experience for Polkadot builders.</p>
+Parity has a history of rug-pulling Polkadot builders. The <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175" target="_blank" class="external-link">Stability</a> initiative is here to stop this. By introducing stable releases (<a href="https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md" target="_blank" class="external-link">New Release Process</a>), a no-code Parachain node (<a href="https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823" target="_blank" class="external-link">Omni-node</a>) and focusing generally more on improving existing features instead of adding new ones we are aiming for a smother experience for Polkadot builders.</p>
 <p>Oliver, Liam and Kian</p>
 </div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> People Chain<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
@@ -1023,7 +408,7 @@ Cisco</p>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Coretime Broker Pallet<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-This year Kusama and Polkadot transition away from the slot auction model to Agile Coretime. The Coretime Chain is a marketplace where NFTs representing various configurations of blockspace can be bought, manipulated and allocated. Coretime (bulk and on-demand) is now the only way to validate workloads on Polkadot.  The broker pallet contains all the logic for the primary market for blockspace, upon which secondary markets can be built and is the main part of the coretime chain. The specification is contained within <a href="https://polkadot-fellows.github.io/RFCs/approved/0001-agile-coretime.html" target="_blank" class="external-link">RFC-1</a> and <a href="https://polkadot-fellows.github.io/RFCs/approved/0005-coretime-interface.html" target="_blank" class="external-link">RFC-5</a>, and you can find out more in our <a href="https://polkadot-public.notion.site/Agile-Coretime-FAQ-c930796e8c884011adb1fa24ef22f77c#4044ec0996054c48b3f8dde0eaca4584" target="_blank" class="external-link">Coretime FAQs</a>.</p>
+This year Kusama and Polkadot transition away from the slot auction model to Agile Coretime. The Coretime Chain is a marketplace where NFTs representing various configurations of blockspace can be bought, manipulated and allocated. Coretime (bulk and on-demand) is now the only way to validate workloads on Polkadot. The broker pallet contains all the logic for the primary market for blockspace, upon which secondary markets can be built and is the main part of the coretime chain. The specification is contained within <a href="https://polkadot-fellows.github.io/RFCs/approved/0001-agile-coretime.html" target="_blank" class="external-link">RFC-1</a> and <a href="https://polkadot-fellows.github.io/RFCs/approved/0005-coretime-interface.html" target="_blank" class="external-link">RFC-5</a>, and you can find out more in our <a href="https://polkadot-public.notion.site/Agile-Coretime-FAQ-c930796e8c884011adb1fa24ef22f77c#4044ec0996054c48b3f8dde0eaca4584" target="_blank" class="external-link">Coretime FAQs</a>.</p>
 <p>Donal</p>
 </div></div>
 <h2 id="communication" tabindex="-1">📡 Communication</h2>
@@ -1038,7 +423,7 @@ This year Kusama and Polkadot transition away from the slot auction model to Agi
 </li>
 <li>1-1 with your team lead.</li>
 </ul>
-<div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Getting To Know Your Teammates<br></div></div>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Getting To Know Your Teammates<br></div></div>
 <div class="callout-content">
 <p>
 Inspired by what Oliver did when he joined in early 2022, I highly encourage you to setup 1-1 intro calls with all other RF members in the first week or two. Get to know them, what they work on and so on! It will help you settle-in, and give you opportunity to also ask any random questions you have about FRAME, XCM, Polkadot, Parity and so on!</p>
@@ -1064,7 +449,7 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 <div class="callout is-collapsible is-collapsed" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> More on Element</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-<ul>
+</p><ul>
 <li>You can always group a number of chats from different spaces (or no space in particular) into a private space, if you'd like to get more visibility</li>
 <li>Be mindful of joining too many rooms, if it prevents you from keeping up with notifications that actually matter.</li>
 <li>Consider using alternative clients, if it fits you better.</li>
@@ -1072,7 +457,7 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 <li><strong>Custom keyword notifications</strong> in Matrix are very useful to keep you up to date with certain topics.</li>
 <li>More in the devops wiki. Ask questions in Element Helpdesk if need be.</li>
 </ul>
-</p></div></div>
+<p></p></div></div>
 <p>TODO: a sentence on why we use element to begin with. I cannot write this as I hate it and genuinely think we should not use it.</p>
 <h4 id="where-how-much-to-write" tabindex="-1">😱 Where/How-much to Write?</h4>
 <p>A common question around async communication in chats is how loud you should be. For example, whether you should talk in big chats, as opposed to DM.</p>
@@ -1089,35 +474,35 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 <p>Short answer: <strong>It is not your problem</strong>.</p>
 <p>In an async environment, it is much easier to be under-heard and under-share, then the opposite. Therefore, it is safer to optimize for over-sharing than opposite.</p>
 <p>If your over-sharing and are actively annoying anyone, it is <em>their</em> responsibly to give you that feedback, and you should adapt if the feedback is reasonable. But if you are <em>silently</em> under-sharing, it is much harder to identify it as an issue and recover from it. I suggest always preferring to share something where the <em><strong>most broad audience can see it</strong></em>, unless you conclude otherwise for some specific reason.</p>
-<div class="callout " data-callout="example"><div class="callout-title"><div class="callout-title-inner"> Async Communication 101</div></div>
+<div class="callout" data-callout="example"><div class="callout-title"><div class="callout-title-inner"> Async Communication 101</div></div>
 <div class="callout-content">
 <p>
-<ul>
+</p><ul>
 <li>Adjust your workflow (as much as possible) such that you are <em><strong>NOT</strong></em> blocked by other's not replying to you immediately.</li>
 <li>Be concise and to-the-point in conveying your message. <a href="https://nohello.net/en/" target="_blank" class="external-link">The &quot;no hello&quot; is a good example 😉</a>.</li>
 <li>Prefer sharing things <em>where most poeple can see it</em>.</li>
 <li>Prefer sharing things where it has the most longevity.
 <ul>
-<li>(See <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> (de)Centralization and Longevity</a>)</li>
+<li>(See <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> (de)Centralization and Longevity</a>)</li>
 </ul>
 </li>
 </ul>
-</p></div></div>
+<p></p></div></div>
 <h3 id="dumb-questions" tabindex="-1">🤪 Dumb Questions</h3>
 <p>Parity has an interesting attitude towards this. We have a room specifically called &quot;<em>Parity Dumb Questions</em>&quot;, to remind you that there is no such thing as a dumb question<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. Let's be honest: Web3 is a super complicated space. Only a few are knowledgeable enough to have a high level understanding of <em>everything</em>. Most of us are new in this space. Moreover, this space, and Parity, move really fast. What you know today might need an update in 3 months.</p>
 <p>So, in short: There is a million things to (re)learn, and asking those who know better than you is the most wise thing you can do. As the saying goes: &quot;<em>The only dumb question is the one you don't ask</em>&quot;.</p>
 <p>But, there is a few notes that you should keep in mind about questions:</p>
-<div class="callout " data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Asking Questions 101</div></div>
+<div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Asking Questions 101</div></div>
 <div class="callout-content">
 <p>
-<ul>
+</p><ul>
 <li>First, while we assert there is no such thing as dumb questions, there is such a thing as a &quot;lazy question&quot;. That is, when you are told to &quot;do <code>x</code>&quot; by person <code>A</code>, and then you go to person <code>B</code> and as &quot;hey, how do I do <code>x</code>?&quot;. A good question should indicate that you have put some effort into the matter yourself.</li>
 <li>Avoid <a href="https://xyproblem.info/" target="_blank" class="external-link">the xy problem</a>.</li>
-<li>See <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> (de)Centralization and Longevity</a>. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.</li>
+<li>See <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> (de)Centralization and Longevity</a>. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.</li>
 </ul>
-</p></div></div>
+<p></p></div></div>
 <h2 id="contributing" tabindex="-1">🧑‍💻 Contributing</h2>
-<div class="callout " data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Public Contributor ~ Parity Employee<br></div></div>
+<div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Public Contributor ~ Parity Employee<br></div></div>
 <div class="callout-content">
 <p>
 The information in this section is kept at minimum, as majority of what you have to know to contribute inside of Parity also applies to <em>external contributors</em>, and is already documented for them. Whatever is not documented, should be added to the same public medium and NOT be exclusive to a private Parity onboarding note.</p>
@@ -1130,20 +515,22 @@ The information in this section is kept at minimum, as majority of what you have
 </ol>
 <p>A common issue that might arise is for you to open a PR, and for it to not receive the reviews you hoped for. While we are all obliged to spend a part of our time reviewing each others' code, we all tend to be busy as well. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others'. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly.</p>
 <p>TODO: maybe the tone is a bit too strong^^</p>
-<p><img src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png"></p>
-<div class="callout " data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Release and Audit Rooms<br></div></div>
+<p><picture src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png"><source media="(max-width:480px)" srcset="/img/optimized/OeBB1qF2KF-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/OeBB1qF2KF-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/OeBB1qF2KF-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OeBB1qF2KF-700.jpeg"><img class="" src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png" width=""></picture></p>
+<div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Release and Audit Rooms<br></div></div>
 <div class="callout-content">
 <p>
 Two critical pieces of information about contributing to <code>polkadot-sdk</code> that is gated within Parity is being present in the release and audit Element rooms. These rooms ensure you are up to date with the latest of the two respectively, and can plan accordingly. Ideally, these processes should also move towards being as public as possible.</p>
 </div></div>
-<div class="callout " data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Editor Tips<br></div></div>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Editor Tips<br></div></div>
 <div class="callout-content">
 <p>
 Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/development_environment_advice/index.html" target="_blank" class="external-link">this</a> (and <a href="https://github.com/paritytech/devops/wiki/Developer-Resources%3A-Using-the-build-host-&amp;-cargo-remote" target="_blank" class="external-link">this</a> private) great guide about what editor setups we often use.</p>
 </div></div>
 <h3 id="after-merging" tabindex="-1">🔙 After Merging</h3>
 <p>Well, your PR is finally merged. Are we done? More often than not, no.</p>
-<p>Yet again, a lot of this goes back to the dual realities (<a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do"><a class="tag" onclick="toggleTagSearch(this)" data-content="#💊">#💊</a> The Reality of What We Do</a>) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:</p>
+<p>Yet again, a lot of this goes back to the dual realities (<a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do"><a class="tag" onclick="toggleTagSearch(this)" data-content="#💊">#💊</a> The Reality of What We Do</a>) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:</p>
 <ol>
 <li><strong>Test-network Runtime Upgrade</strong>: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further?</li>
 <li><strong>RC/SC Runtime Upgrade</strong>: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>. This is another milestone for testing: Did everything go smoothly?</li>
@@ -1164,7 +551,7 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 </li>
 </ol>
 <h3 id="know-your-api" tabindex="-1">🧐 Know Your API</h3>
-<p>As a final example to cement <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do"><a class="tag" onclick="toggleTagSearch(this)" data-content="#💊">#💊</a> The Reality of What We Do</a>, let's consider the difference between two features, in order the highlight how important it is for you to be able to answer one question:</p>
+<p>As a final example to cement <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do"><a class="tag" onclick="toggleTagSearch(this)" data-content="#💊">#💊</a> The Reality of What We Do</a>, let's consider the difference between two features, in order the highlight how important it is for you to be able to answer one question:</p>
 <blockquote>
 <p>Is my code end-user-facing or not?</p>
 </blockquote>
@@ -1198,7 +585,7 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 <li>And <a href="https://matrix.to/#/#kusamawatercooler:web3.foundation" target="_blank" class="external-link">Kusama Watercooler</a>, <a href="https://matrix.to/#/#kusama:matrix.parity.io" target="_blank" class="external-link">Direction</a>.</li>
 </ul>
 </li>
-<li>Newsletters:  <a href="https://newsletter.dotleap.com/?triedSigningIn=true" target="_blank" class="external-link">DotLeap</a>. Bill Laboon's Daily Digest.</li>
+<li>Newsletters: <a href="https://newsletter.dotleap.com/?triedSigningIn=true" target="_blank" class="external-link">DotLeap</a>. Bill Laboon's Daily Digest.</li>
 <li>Polkadot Fellowship
 <ul>
 <li>Public Element Room 1, Room 2.</li>
@@ -1221,11 +608,15 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 <h3 id="culture" tabindex="-1">🎭 Culture</h3>
 <p>You will learn about the Parity culture in your onboarding, but here’s some old-but-still-relevant material from former culture decks.</p>
 <p>First, here’s a little screenshot of an all-hands talk about vision of Parity in 2019 which I still stand by. You can find the full talk <a href="https://drive.google.com/file/d/1yzS_ZoVdyt370hhuHwJaHelftKEH_6Yl/view?usp=sharing" target="_blank" class="external-link">here</a> (most of it is not super relevant anymore).</p>
-<p><img src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png"><br>
+<p><picture src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png"><source media="(max-width:480px)" srcset="/img/optimized/WyZkceyS53-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/WyZkceyS53-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/WyZkceyS53-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/WyZkceyS53-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png" width=""></picture><br>
 A <a href="https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/view?usp=sharing" target="_blank" class="external-link">culture talk from Gav</a> in the 2022 Tenerife retreat. This snippet of this talk is among my favorites.</p>
-<p>!<a class="internal-link is-unresolved" href="/404">center</a><br>
+<p>!<a class="internal-link is-unresolved" href="/404" target="">center</a><br>
 You can find the deck itself <a href="https://docs.google.com/presentation/d/15-lL1xKAVMt_50X2ri7hsEhU3Z0he04K017mZCIeRZI/edit#slide=id.g26b31d0a78ca97e7_10" target="_blank" class="external-link">here</a>. If I wanted to name one slide from it that you should think about the most, it would be:</p>
-<p><img src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png"></p>
+<p><picture src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png"><source media="(max-width:480px)" srcset="/img/optimized/qaDxriRBBj-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/qaDxriRBBj-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/qaDxriRBBj-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/qaDxriRBBj-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png" width=""></picture></p>
 <p>The majority of the efforts of your team lead, and this document is to help you toward achieving the status mentioned in the above sentence.</p>
 <h3 id="resources" tabindex="-1">🔬 Resources</h3>
 <ul>
@@ -1239,7 +630,7 @@ You can find the deck itself <a href="https://docs.google.com/presentation/d/15-
 <h3 id="stability-over-chaos" tabindex="-1">Stability Over Chaos</h3>
 <p>A theme in Parity, Polkadot in 2024 and beyond has been <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc" target="_blank" class="external-link">Stability</a>. We used to say: &quot;<em>We write code faster than we can write about it</em>&quot;. Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0.</p>
 <h3 id="information-de-centralization-and-longevity" tabindex="-1">Information (de)Centralization and Longevity</h3>
-<p>As noted in <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions"><a class="tag" onclick="toggleTagSearch(this)" data-content="#🤪">#🤪</a> Dumb Questions</a>, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of <strong>information centralization</strong>. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.</p>
+<p>As noted in <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions"><a class="tag" onclick="toggleTagSearch(this)" data-content="#🤪">#🤪</a> Dumb Questions</a>, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of <strong>information centralization</strong>. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.</p>
 <p><em><strong>The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.</strong></em></p>
 <p>The best example of this is something that I personally do: Policing people to move good conversations and Q&amp;As from Element to more permanent places. Every time I see a good technical question answered in Element, I do:</p>
 <ol>
@@ -1273,7 +664,7 @@ For example, if you aspire to be the owner of a domain, you would try to create 
 <h3 id="don-t-be-blocked-on-decisions" tabindex="-1">Don't Be Blocked On Decisions</h3>
 <p>Share your thoughts, what you think is the best answer and should happen, share it publicly, and if after <code>x</code> weeks no objections comes, you execute.</p>
 <h3 id="measuring-impact" tabindex="-1">Measuring Impact</h3>
-<p>The impact of what we do, specifically for end-user facing work (as defined in <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#know-your-api"><a class="tag" onclick="toggleTagSearch(this)" data-content="#🧐">#🧐</a> Know Your API</a>), is NOT how many PRs we manage can merge into <code>polkadot-sdk</code>, but rather how much our code is being user by end-users or developers.</p>
+<p>The impact of what we do, specifically for end-user facing work (as defined in <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#know-your-api"><a class="tag" onclick="toggleTagSearch(this)" data-content="#🧐">#🧐</a> Know Your API</a>), is NOT how many PRs we manage can merge into <code>polkadot-sdk</code>, but rather how much our code is being user by end-users or developers.</p>
 <h3 id="liveness-above-all" tabindex="-1">Liveness Above All</h3>
 <p>Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship.</p>
 <p>Making Polkadot successful is, one way or another, our main mission. Thereofre, ongoing bugs and existential issues that might arise should never be be discarded as &quot;it is not the task I am working on, so not my problem&quot;. If something important comes up, it is everyone's task.</p>
@@ -1288,341 +679,101 @@ For example, if you aspire to be the owner of a domain, you would try to create 
 </li>
 </ol>
 </section>
-
-      
-      
-    </main>
-
-    
-      <aside>
-      <div class="sidebar">
-            <div class="sidebar-container">
-                  
-                  
-
-                  
-                        
-                        
-                              <div class="toc">
-                                    <div class="toc-title-container">
-                                          <div class="toc-title">
-                                                On this page
-                                          </div>
-                                    </div>
-                                    <div class="toc-container">
-                                          <nav class="toc">
-                <ol>
-                    
-                    <li><a href="#intro-welcome-to-the-runtime-function">👋🏻 Intro: Welcome to The Runtime Function</a>
-            
-                <ol>
-                    
-                    <li><a href="#the-reality-of-what-we-do">💊 The Reality of What We Do</a>
-            		</li>
-
-                    <li><a href="#function-portfolio">📈 Function Portfolio</a>
-            		</li>
-                </ol>
-            		</li>
-
-                    <li><a href="#communication">📡 Communication</a>
-            
-                <ol>
-                    
-                    <li><a href="#sync">📞 Sync</a>
-            		</li>
-
-                    <li><a href="#async">📧 Async</a>
-            
-                <ol>
-                    
-                    <li><a href="#where-how-much-to-write">😱 Where/How-much to Write?</a>
-            		</li>
-                </ol>
-            		</li>
-
-                    <li><a href="#dumb-questions">🤪 Dumb Questions</a>
-            		</li>
-                </ol>
-            		</li>
-
-                    <li><a href="#contributing">🧑‍💻 Contributing</a>
-            
-                <ol>
-                    
-                    <li><a href="#road-to-merging-a-pr">🛣️ Road to Merging a PR</a>
-            		</li>
-
-                    <li><a href="#after-merging">🔙 After Merging</a>
-            		</li>
-
-                    <li><a href="#know-your-api">🧐 Know Your API</a>
-            		</li>
-
-                    <li><a href="#be-the-housemeister">🧹 Be The Housemeister</a>
-            		</li>
-                </ol>
-            		</li>
-
-                    <li><a href="#keeping-up">🤓 Keeping Up</a>
-            		</li>
-
-                    <li><a href="#company">📍 Company</a>
-            
-                <ol>
-                    
-                    <li><a href="#culture">🎭 Culture</a>
-            		</li>
-
-                    <li><a href="#resources">🔬 Resources</a>
-            		</li>
-                </ol>
-            		</li>
-
-                    <li><a href="#appendix-principles-for-excellence">💎 Appendix: Principles For Excellence</a>
-            
-                <ol>
-                    
-                    <li><a href="#stability-over-chaos">Stability Over Chaos</a>
-            		</li>
-
-                    <li><a href="#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>
-            		</li>
-
-                    <li><a href="#domain-ownership">Domain Ownership</a>
-            		</li>
-
-                    <li><a href="#announce-early">Announce Early</a>
-            		</li>
-
-                    <li><a href="#don-t-be-blocked-on-decisions">Don't Be Blocked On Decisions</a>
-            		</li>
-
-                    <li><a href="#measuring-impact">Measuring Impact</a>
-            		</li>
-
-                    <li><a href="#liveness-above-all">Liveness Above All</a>
-            		</li>
-
-                    <li><a href="#resilience-above-all">Resilience Above All</a>
-            		</li>
-                </ol>
-            		</li>
-                </ol>
-            </nav>
-                                    </div>
-                              </div>
-                        
-
-                  
-
-                        
-                  
-            </div>
-      </div>
-</aside>
-    
-
-    
-      
-<style>
-#tooltip-wrapper {
-  background: var(--background-primary);
-  padding: 1em;
-  border-radius: 4px;
-  overflow: hidden;
-  position: fixed;
-  width: 80%;
-  max-width: 400px;
-  height: auto;
-  max-height: 300px;
-  font-size: 0.8em;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-  opacity: 0;
-  transition: opacity 100ms;
-  unicode-bidi: plaintext;
-  overflow-y: scroll;
-  z-index: 10;
-}
-
-#tooltip-wrapper:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  left: 0;
-  pointer-events: none;
-  width: 100%;
-  unicode-bidi: plaintext;
-  height: 75px;
-}
-</style>
-<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
-  <div id='tooltip-content'>
-  </div>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
 </div>
-
-<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#intro-welcome-to-the-runtime-function">👋🏻 Intro: Welcome to The Runtime Function</a>
+<ol>
+<li><a href="#the-reality-of-what-we-do">💊 The Reality of What We Do</a>
+</li>
+<li><a href="#function-portfolio">📈 Function Portfolio</a>
+</li>
+</ol>
+</li>
+<li><a href="#communication">📡 Communication</a>
+<ol>
+<li><a href="#sync">📞 Sync</a>
+</li>
+<li><a href="#async">📧 Async</a>
+<ol>
+<li><a href="#where-how-much-to-write">😱 Where/How-much to Write?</a>
+</li>
+</ol>
+</li>
+<li><a href="#dumb-questions">🤪 Dumb Questions</a>
+</li>
+</ol>
+</li>
+<li><a href="#contributing">🧑‍💻 Contributing</a>
+<ol>
+<li><a href="#road-to-merging-a-pr">🛣️ Road to Merging a PR</a>
+</li>
+<li><a href="#after-merging">🔙 After Merging</a>
+</li>
+<li><a href="#know-your-api">🧐 Know Your API</a>
+</li>
+<li><a href="#be-the-housemeister">🧹 Be The Housemeister</a>
+</li>
+</ol>
+</li>
+<li><a href="#keeping-up">🤓 Keeping Up</a>
+</li>
+<li><a href="#company">📍 Company</a>
+<ol>
+<li><a href="#culture">🎭 Culture</a>
+</li>
+<li><a href="#resources">🔬 Resources</a>
+</li>
+</ol>
+</li>
+<li><a href="#appendix-principles-for-excellence">💎 Appendix: Principles For Excellence</a>
+<ol>
+<li><a href="#stability-over-chaos">Stability Over Chaos</a>
+</li>
+<li><a href="#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>
+</li>
+<li><a href="#domain-ownership">Domain Ownership</a>
+</li>
+<li><a href="#announce-early">Announce Early</a>
+</li>
+<li><a href="#don-t-be-blocked-on-decisions">Don't Be Blocked On Decisions</a>
+</li>
+<li><a href="#measuring-impact">Measuring Impact</a>
+</li>
+<li><a href="#liveness-above-all">Liveness Above All</a>
+</li>
+<li><a href="#resilience-above-all">Resilience Above All</a>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<style>#tooltip-wrapper{background:var(--background-primary);padding:1em;border-radius:4px;overflow:hidden;position:fixed;width:80%;max-width:400px;height:auto;max-height:300px;font-size:.8em;box-shadow:0 5px 10px rgba(0,0,0,.1);opacity:0;transition:opacity .1s;unicode-bidi:plaintext;overflow-y:scroll;z-index:10}#tooltip-wrapper:after{content:"";position:absolute;z-index:1;bottom:0;left:0;pointer-events:none;width:100%;unicode-bidi:plaintext;height:75px}</style>
+<div style="opacity:0;display:none" id="tooltip-wrapper">
+<div id="tooltip-content">
+</div>
+</div>
+<iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
 </iframe>
-
-<script>
-  var opacityTimeout;
-  var contentTimeout;
-  var transitionDurationMs = 100;
-
-  var iframe = document.getElementById('link-preview-iframe')
-  var tooltipWrapper = document.getElementById('tooltip-wrapper')
-  var tooltipContent = document.getElementById('tooltip-content')
-
-  var linkHistories = {};
-
-  function hideTooltip() {
-    opacityTimeout = setTimeout(function () {
-      tooltipWrapper.style.opacity = 0;
-      contentTimeout = setTimeout(function () {
-        tooltipContent.innerHTML = '';
-        tooltipWrapper.style.display = 'none';
-      }, transitionDurationMs + 1);
-    }, transitionDurationMs)
-  }
-
-  function showTooltip(event) {
-    var elem = event.target;
-    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
-    var top = window.pageYOffset || document.documentElement.scrollTop;
-    var url = event.target.getAttribute("href");
-    if (url.indexOf("http") === -1 || url.indexOf(window.location.host) !== -1) {
-      let contentURL = url.split('#')[0]
-      if (!linkHistories[contentURL]) {
-        iframe.src = contentURL
-        iframe.onload = function () {
-          tooltipContentHtml = ''
-          tooltipContentHtml += '<div style="font-weight: bold; unicode-bidi: plaintext;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
-          tooltipContentHtml += iframe.contentWindow.document.querySelector('.content').innerHTML
-          tooltipContent.innerHTML = tooltipContentHtml
-          linkHistories[contentURL] = tooltipContentHtml
-          tooltipWrapper.style.display = 'block';
-          tooltipWrapper.scrollTop = 0;
-          setTimeout(function () {
-            tooltipWrapper.style.opacity = 1;
-            if (url.indexOf("#") != -1) {
-              let id = url.split('#')[1];
-              const focus = tooltipWrapper.querySelector(`[id='${id}']`);
-              focus.classList.add('referred');
-              console.log(focus);
-              focus.scrollIntoView({behavior: 'smooth'}, true)
-            } else {
-              tooltipWrapper.scroll(0, 0);
-            }
-          }, 1)
-        }
-      } else {
-        tooltipContent.innerHTML = linkHistories[contentURL]
-        tooltipWrapper.style.display = 'block';
-        setTimeout(function () {
-          tooltipWrapper.style.opacity = 1;
-          if (url.indexOf("#") != -1) {
-              let id = url.split('#')[1];
-              const focus = tooltipWrapper.querySelector(`[id='${id}']`);
-              focus.classList.add('referred');
-              focus.scrollIntoView({behavior: 'smooth'}, true)
-          } else {
-              tooltipWrapper.scroll(0, 0);
-          }
-        }, 1)
-      }
-
-      function getInnerWidth(elem) {
-        var style = window.getComputedStyle(elem);
-        return elem.offsetWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight) - parseFloat(style.borderLeft) - parseFloat(style.borderRight) - parseFloat(style.marginLeft) - parseFloat(style.marginRight);
-      }
-
-      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
-
-      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
-        tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
-      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
-        tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
-      }
-
-      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
-        tooltipWrapper.style.left = "10px";
-      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
-        tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
-      }
-    }
-  }
-
-  function setupListeners(linkElement) {
-    linkElement.addEventListener('mouseleave', function (_event) {
-      hideTooltip();
-    });
-
-    tooltipWrapper.addEventListener('mouseleave', function (_event) {
-      hideTooltip();
-    });
-
-    linkElement.addEventListener('mouseenter', function (event) {
-      clearTimeout(opacityTimeout);
-      clearTimeout(contentTimeout);
-      showTooltip(event);
-    });
-
-    tooltipWrapper.addEventListener('mouseenter', function (event) {
-      clearTimeout(opacityTimeout);
-      clearTimeout(contentTimeout);
-    });
-  }
-
-  window.addEventListener("load", function(event) 
-  {
-    document.querySelectorAll('.internal-link').forEach(setupListeners);
-    document.querySelectorAll('.backlink-card a').forEach(setupListeners);
-  });
-</script>
-
-    
-        <script>
-      if (window.location.hash) {
-        document.getElementById(window.location.hash.slice(1)).classList.add('referred');
-      }
-      window.addEventListener('hashchange', (evt) => {
-        const oldParts = evt.oldURL.split("#");
-        if (oldParts[1]) {
-          document.getElementById(oldParts[1]).classList.remove('referred');
-        }
-        const newParts = evt.newURL.split("#");
-        if (newParts[1]) {
-          document.getElementById(newParts[1]).classList.add('referred');
-        }
-      }, false);
-      const url_parts = window.location.href.split("#")
-      const url = url_parts[0];
-      const referrence = url_parts[1];
-      document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function (el) {
-        el.ondblclick = function(evt) {
-          const ref_url = url + '#' + evt.target.id
-          navigator.clipboard.writeText(ref_url);
-      }
-      });
-
-      
-    </script>
-    <script src=" https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js "></script>
-<script defer>
-    TIMESTAMP_FORMAT = "MMM dd, yyyy";
-    document.querySelectorAll('.human-date').forEach(function (el) {
-        el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
-      });
-</script>
-    
-    
-    <script>
-lucide.createIcons({
-            attrs: {
-                class: ["svg-icon"]
-            }
-        });
-</script>
-  </body>
+<script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout(function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout(function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"},transitionDurationMs+1)},transitionDurationMs)}function showTooltip(t){var e=t.target,e=e.getClientRects()[e.getClientRects().length-1],o=window.pageYOffset||document.documentElement.scrollTop,i=t.target.getAttribute("href");if(-1===i.indexOf("http")||-1!==i.indexOf(window.location.host)){let t=i.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout(function(){var t;-(tooltipWrapper.style.opacity=1)!=i.indexOf("#")?(t=i.split("#")[1],(t=tooltipWrapper.querySelector(`[id='${t}']`)).classList.add("referred"),t.scrollIntoView({behavior:"smooth"},!0)):tooltipWrapper.scroll(0,0)},1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml=(tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>")+iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout(function(){var t;-(tooltipWrapper.style.opacity=1)!=i.indexOf("#")?(t=i.split("#")[1],(t=tooltipWrapper.querySelector(`[id='${t}']`)).classList.add("referred"),console.log(t),t.scrollIntoView({behavior:"smooth"},!0)):tooltipWrapper.scroll(0,0)},1)}),tooltipWrapper.style.left=e.left-tooltipWrapper.offsetWidth/2+e.width/2+"px",window.innerHeight-e.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=e.top+o-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-e.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=e.top+o+35+"px"),e.left+e.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-e.left-e.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",function(t){hideTooltip()}),tooltipWrapper.addEventListener("mouseleave",function(t){hideTooltip()}),t.addEventListener("mouseenter",function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)}),tooltipWrapper.addEventListener("mouseenter",function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)})}window.addEventListener("load",function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)})</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",e=>{var t=e.oldURL.split("#"),t=(t[1]&&document.getElementById(t[1]).classList.remove("referred"),e.newURL.split("#"));t[1]&&document.getElementById(t[1]).classList.add("referred")},!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function(e){e.ondblclick=function(e){e=url+"#"+e.target.id;navigator.clipboard.writeText(e)}})</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy",document.querySelectorAll(".human-date").forEach(function(t){t.innerHTML=luxon.DateTime.fromISO(t.getAttribute("data-date")||t.innerText).toFormat(TIMESTAMP_FORMAT)})</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
 </html>
