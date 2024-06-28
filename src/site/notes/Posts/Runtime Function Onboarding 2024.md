@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:32:53.127+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:41:20.837+03:30"}
 ---
 
 
@@ -184,7 +184,7 @@ Lastly, remember that while we are all obliged to spend a part of our time revie
 
 Well, your PR is finally merged. Are we done? More often than not, no. 
 
-Yet again, a lot of this goes back to the dual realities ([[Posts/Runtime Function Onboarding 2024#💊 The Reality of What we Do\|#💊 The Reality of What we Do]]) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following: 
+Yet again, a lot of this goes back to the dual realities ([[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|#💊 The Reality of What We Do]]) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following: 
 
 1. **Test-network Runtime Upgrade**: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further? 
 2. **RC/SC Runtime Upgrade**: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs[^1]. This is another milestone for testing: Did everything go smoothly? 
