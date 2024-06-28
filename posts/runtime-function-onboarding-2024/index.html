@@ -643,7 +643,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-28T08:12:20.699Z';
+        const searchIndexDate = '2024-06-28T08:20:13.491Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -655,9 +655,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:12:20.699Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:20:13.491Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:12:20.699Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:20:13.491Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -898,7 +898,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:41:20.837+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:49:44.780+03:30"></span></div></div></div>
       
       
       </header>
@@ -1227,7 +1227,7 @@ You can find the deck itself <a href="https://docs.google.com/presentation/d/15-
 <li><a href="https://forum.parity.io/c/parity-comms/internal-comms/106" target="_blank" class="external-link">Internal Comms in Forum</a></li>
 </ul>
 <h2 id="appendix-principles-for-excellence" tabindex="-1">💎 Appendix: Principles For Excellence</h2>
-<p>These are things that I believe will help you be excellent, and help others be excellent as well. I also believe most of these are properties of L5+ engineers.</p>
+<p>Personal opinion of @kianenigma follows. These are things that I believe will help you be excellent, and help others be the same. This is an opinionated re-iteration of some competencies that are noted in CultureAmp.</p>
 <h3 id="stability-over-chaos" tabindex="-1">Stability Over Chaos</h3>
 <p>A theme in Parity, Polkadot in 2024 and beyond has been <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc" target="_blank" class="external-link">Stability</a>. We used to say: &quot;<em>We write code faster than we can write about it</em>&quot;. Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0.</p>
 <h3 id="information-de-centralization-and-longevity" tabindex="-1">Information (de)Centralization and Longevity</h3>
@@ -1251,16 +1251,21 @@ A superb behavior is that Liam recorded a video answering FAQs and updates, acco
 <p>But, freedom always comes with responsibility. What are those:</p>
 <ul>
 <li>As the owner of a domain, both internally and externally, you need to make yourself known as the owner, so that others can find you.</li>
-<li>Follow your domain, and participate in conversations around it. For example, if you aspire to be the owner of a domain, you would try to create notifications to be informed about all activity around this topic in the Polkadot forum, SE and twitter, and participate accordingly.</li>
+<li>Follow your domain, and participate in conversations around it.</li>
 </ul>
-<p>Proper off-boarding and handover is also an important aspect of ownership. We move companies, teams, or most often, put a stop to initiatives for various reasons. But what happens to the part of the project that is already out there? Should we bring it down? should we archive a repo? Prevent letting initiatives going stale.</p>
+<div class="callout is-collapsible is-collapsed" data-callout="example"><div class="callout-title"><div class="callout-title-inner">Example</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+For example, if you aspire to be the owner of a domain, you would try to create notifications to be informed about all activity around this topic in the Polkadot forum, SE and twitter, and participate accordingly.</p>
+</div></div>
+<p>Proper off-boarding and handover is also an important aspect of <strong>ownership</strong>. We move companies, teams, or sometimes, put a stop to an initiatives for various reasons. But what happens to the part of the project that is already out there? Should we bring it down? should we archive a repo? Prevent letting initiatives going stale.</p>
 <p>Todo: note on choosing your battle</p>
 <h3 id="announce-early" tabindex="-1">Announce Early</h3>
 <p>In tandem to the above, try and announce what you are working on early, and embrace feedback. When you start an initiative, announce the vision in the public (eg. Parity forum if internal, Polkadot otherwise), then link to an Element room if one exists where one can join for a more in depth discussion about the project.</p>
-<h3 id="don-t-wait-on-decisions" tabindex="-1">Don't Wait On Decisions</h3>
-<p>Fail Fast. share your thoughts, what you think is the best answer and should happen, post in forum, if after <code>x</code> weeks no response comes, you execute.</p>
+<h3 id="don-t-be-blocked-on-decisions" tabindex="-1">Don't Be Blocked On Decisions</h3>
+<p>Share your thoughts, what you think is the best answer and should happen, share it publicly, and if after <code>x</code> weeks no objections comes, you execute.</p>
 <h3 id="measuring-impact" tabindex="-1">Measuring Impact</h3>
-<p>The impact of what we do, specifically for end-user facing work (as defined in <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#know-your-api"><a class="tag" onclick="toggleTagSearch(this)" data-content="#🧐">#🧐</a> Know Your API</a>), is not how many PRs we can merge into <code>polkadot-sdk</code> but rather how much our code is being user by end-users or developers.</p>
+<p>The impact of what we do, specifically for end-user facing work (as defined in <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#know-your-api"><a class="tag" onclick="toggleTagSearch(this)" data-content="#🧐">#🧐</a> Know Your API</a>), is NOT how many PRs we manage can merge into <code>polkadot-sdk</code>, but rather how much our code is being user by end-users or developers.</p>
 <h3 id="liveness-above-all" tabindex="-1">Liveness Above All</h3>
 <p>Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship.</p>
 <p>Making Polkadot successful is, one way or another, our main mission. Thereofre, ongoing bugs and existential issues that might arise should never be be discarded as &quot;it is not the task I am working on, so not my problem&quot;. If something important comes up, it is everyone's task.</p>
@@ -1388,7 +1393,7 @@ A superb behavior is that Liam recorded a video answering FAQs and updates, acco
                     <li><a href="#announce-early">Announce Early</a>
             		</li>
 
-                    <li><a href="#don-t-wait-on-decisions">Don't Wait On Decisions</a>
+                    <li><a href="#don-t-be-blocked-on-decisions">Don't Be Blocked On Decisions</a>
             		</li>
 
                     <li><a href="#measuring-impact">Measuring Impact</a>

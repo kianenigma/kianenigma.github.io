@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-06-28T08:12:21Z</updated>
+    <updated>2024-06-28T08:20:14Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -652,7 +652,7 @@ Polkadot2, among other features, is unfolding as we speak, and not much further 
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-06-28T08:11:20.837Z</updated>
+            <updated>2024-06-28T08:19:44.780Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -964,7 +964,7 @@ You can find the deck itself &lt;a href=&quot;https://docs.google.com/presentati
 &lt;li&gt;&lt;a href=&quot;https://forum.parity.io/c/parity-comms/internal-comms/106&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Internal Comms in Forum&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;appendix-principles-for-excellence&quot; tabindex=&quot;-1&quot;&gt;💎 Appendix: Principles For Excellence&lt;/h2&gt;
-&lt;p&gt;These are things that I believe will help you be excellent, and help others be excellent as well. I also believe most of these are properties of L5+ engineers.&lt;/p&gt;
+&lt;p&gt;Personal opinion of @kianenigma follows. These are things that I believe will help you be excellent, and help others be the same. This is an opinionated re-iteration of some competencies that are noted in CultureAmp.&lt;/p&gt;
 &lt;h3 id=&quot;stability-over-chaos&quot; tabindex=&quot;-1&quot;&gt;Stability Over Chaos&lt;/h3&gt;
 &lt;p&gt;A theme in Parity, Polkadot in 2024 and beyond has been &lt;a href=&quot;https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Stability&lt;/a&gt;. We used to say: &amp;quot;&lt;em&gt;We write code faster than we can write about it&lt;/em&gt;&amp;quot;. Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0.&lt;/p&gt;
 &lt;h3 id=&quot;information-de-centralization-and-longevity&quot; tabindex=&quot;-1&quot;&gt;Information (de)Centralization and Longevity&lt;/h3&gt;
@@ -987,16 +987,20 @@ A superb behavior is that Liam recorded a video answering FAQs and updates, acco
 &lt;p&gt;But, freedom always comes with responsibility. What are those:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;As the owner of a domain, both internally and externally, you need to make yourself known as the owner, so that others can find you.&lt;/li&gt;
-&lt;li&gt;Follow your domain, and participate in conversations around it. For example, if you aspire to be the owner of a domain, you would try to create notifications to be informed about all activity around this topic in the Polkadot forum, SE and twitter, and participate accordingly.&lt;/li&gt;
+&lt;li&gt;Follow your domain, and participate in conversations around it.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Proper off-boarding and handover is also an important aspect of ownership. We move companies, teams, or most often, put a stop to initiatives for various reasons. But what happens to the part of the project that is already out there? Should we bring it down? should we archive a repo? Prevent letting initiatives going stale.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!example]-&lt;br /&gt;
+For example, if you aspire to be the owner of a domain, you would try to create notifications to be informed about all activity around this topic in the Polkadot forum, SE and twitter, and participate accordingly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Proper off-boarding and handover is also an important aspect of &lt;strong&gt;ownership&lt;/strong&gt;. We move companies, teams, or sometimes, put a stop to an initiatives for various reasons. But what happens to the part of the project that is already out there? Should we bring it down? should we archive a repo? Prevent letting initiatives going stale.&lt;/p&gt;
 &lt;p&gt;Todo: note on choosing your battle&lt;/p&gt;
 &lt;h3 id=&quot;announce-early&quot; tabindex=&quot;-1&quot;&gt;Announce Early&lt;/h3&gt;
 &lt;p&gt;In tandem to the above, try and announce what you are working on early, and embrace feedback. When you start an initiative, announce the vision in the public (eg. Parity forum if internal, Polkadot otherwise), then link to an Element room if one exists where one can join for a more in depth discussion about the project.&lt;/p&gt;
-&lt;h3 id=&quot;don-t-wait-on-decisions&quot; tabindex=&quot;-1&quot;&gt;Don&#39;t Wait On Decisions&lt;/h3&gt;
-&lt;p&gt;Fail Fast. share your thoughts, what you think is the best answer and should happen, post in forum, if after &lt;code&gt;x&lt;/code&gt; weeks no response comes, you execute.&lt;/p&gt;
+&lt;h3 id=&quot;don-t-be-blocked-on-decisions&quot; tabindex=&quot;-1&quot;&gt;Don&#39;t Be Blocked On Decisions&lt;/h3&gt;
+&lt;p&gt;Share your thoughts, what you think is the best answer and should happen, share it publicly, and if after &lt;code&gt;x&lt;/code&gt; weeks no objections comes, you execute.&lt;/p&gt;
 &lt;h3 id=&quot;measuring-impact&quot; tabindex=&quot;-1&quot;&gt;Measuring Impact&lt;/h3&gt;
-&lt;p&gt;The impact of what we do, specifically for end-user facing work (as defined in &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#know-your-api&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#🧐&quot;&gt;#🧐&lt;/a&gt; Know Your API&lt;/a&gt;), is not how many PRs we can merge into &lt;code&gt;polkadot-sdk&lt;/code&gt; but rather how much our code is being user by end-users or developers.&lt;/p&gt;
+&lt;p&gt;The impact of what we do, specifically for end-user facing work (as defined in &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#know-your-api&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#🧐&quot;&gt;#🧐&lt;/a&gt; Know Your API&lt;/a&gt;), is NOT how many PRs we manage can merge into &lt;code&gt;polkadot-sdk&lt;/code&gt;, but rather how much our code is being user by end-users or developers.&lt;/p&gt;
 &lt;h3 id=&quot;liveness-above-all&quot; tabindex=&quot;-1&quot;&gt;Liveness Above All&lt;/h3&gt;
 &lt;p&gt;Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship.&lt;/p&gt;
 &lt;p&gt;Making Polkadot successful is, one way or another, our main mission. Thereofre, ongoing bugs and existential issues that might arise should never be be discarded as &amp;quot;it is not the task I am working on, so not my problem&amp;quot;. If something important comes up, it is everyone&#39;s task.&lt;/p&gt;
