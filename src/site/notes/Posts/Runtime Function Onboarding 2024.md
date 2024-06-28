@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-27T17:08:28.143+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:32:53.127+03:30"}
 ---
 
 
@@ -169,13 +169,11 @@ For your contribution, consider reading everything in our [`docs/contributing`](
 
 What we expect further from you, as an internal developer, is to be *even more conscious* of writing high quality PR description, and expecting it from others. This is directly a function of what we mentioned above in [[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|#💊 The Reality of What We Do]]: Flying close to users. 
 
-Our changes often effect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your **PR description**. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate `hackmd`. 
-
-TODO: update PR template to reflect this as well. 
+Our changes often affect many (if not hundreds) of down-stream projects. It is therefore important that you precisely explain and highlight any breaking changes in your **PR description**. Try to provide explanation for down-stream teams how this change would affect them and how this can be integrated into their project. Place notes that are only relevant to PR review in a separate `hackmd`. 
 
 Lastly, remember that while we are all obliged to spend a part of our time reviewing each others' code, we are all busy. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others'. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly. 
 
-![[Screenshot from 2023-03-16 15-40-07.png\|Screenshot from 2023-03-16 15-40-07.png]]
+![Screenshot from 2023-03-16 15-40-07.png](/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png)
 
 > [!info] Release and Audit Rooms
 > Two critical pieces of information about contributing to `polkadot-sdk` that is gated within Parity is being present in the release and audit Element rooms. These rooms ensure you are up to date with the latest of the two respectively, and can plan accordingly. Ideally, these processes should also move towards being as public as possible. 
@@ -270,9 +268,9 @@ These are things that I believe will help you be excellent, and help others be e
 ### Stability Over Chaos 
 A theme in Parity, Polkadot in 2024 and beyond has been [Stability](https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc). We used to say: "*We write code faster than we can write about it*". Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0. 
 ### Information (de)Centralization and Longevity
-As noted in [[Posts/Runtime Function Onboarding 2024#🤪 Dumb Questions\|#🤪 Dumb Questions]], we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of information centralization. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear. 
+As noted in [[Posts/Runtime Function Onboarding 2024#🤪 Dumb Questions\|#🤪 Dumb Questions]], we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of **information centralization**. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.  
 
-The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time. 
+***The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.*** 
 
 The best example of this is something that I personally do: Policing people to move good conversations and Q&As from Element to more permanent places. Every time I see a good technical question answered in Element, I do: 
 1. If this question is already asked in StackExchange, then I don't need to rewrite the answer. I will paste a link and move on. 
