@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:49:44.780+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:54:23.992+03:30"}
 ---
 
 
@@ -25,10 +25,11 @@
 	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Information (de)Centralization and Longevity]]
 	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Domain Ownership]]
 	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Announce Early]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Don't Wait On Decisions]]
+	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Don't Be Blocked On Decisions]]
 	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Measuring Impact]]
 	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Liveness Above All]]
 	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Resilience Above All]]
+- [[Posts/Runtime Function Onboarding 2024#Wrap\|Wrap]]
 
 ## 👋🏻 Intro: Welcome to The Runtime Function
 
@@ -144,8 +145,9 @@ If your over-sharing and are actively annoying anyone, it is _their_ responsibly
 > [!example] Async Communication 101
 > * Adjust your workflow (as much as possible) such that you are ***NOT*** blocked by other's not replying to you immediately. 
 > * Be concise and to-the-point in conveying your message. [The "no hello" is a good example 😉](https://nohello.net/en/). 
-> * Prefer sharing things *where most poeple can see it*. [[Posts/Runtime Function Onboarding 2024#Information Centralization\|#Information Centralization]] 
-> * Prefer sharing things where it has the most longevity. [[Posts/Runtime Function Onboarding 2024#Information Longevity\|#Information Longevity]]
+> * Prefer sharing things *where most poeple can see it*. 
+> * Prefer sharing things where it has the most longevity.
+> 	* (See [[Posts/Runtime Function Onboarding 2024#Information (de)Centralization and Longevity\|#Information (de)Centralization and Longevity]])
 ### 🤪 Dumb Questions 
 
 Parity has an interesting attitude towards this. We have a room specifically called "*Parity Dumb Questions*", to remind you that there is no such thing as a dumb question[^2]. Let's be honest: Web3 is a super complicated space. Only a few are knowledgeable enough to have a high level understanding of *everything*. Most of us are new in this space. Moreover, this space, and Parity, move really fast. What you know today might need an update in 3 months. 
@@ -157,7 +159,7 @@ But, there is a few notes that you should keep in mind about questions:
 > [!info] Asking Questions 101
 > * First, while we assert there is no such thing as dumb questions, there is such a thing as a "lazy question". That is, when you are told to "do `x`" by person `A`, and then you go to person `B` and as "hey, how do I do `x`?". A good question should indicate that you have put some effort into the matter yourself. 
 > * Avoid [the xy problem](https://xyproblem.info/).
-> * See [[Posts/Runtime Function Onboarding 2024#Information Longevity\|#Information Longevity]] and [[Posts/Runtime Function Onboarding 2024#Information Centralization\|#Information Centralization]]. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.
+> * See [[Posts/Runtime Function Onboarding 2024#Information (de)Centralization and Longevity\|#Information (de)Centralization and Longevity]]. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.
 
 ## 🧑‍💻 Contributing
 
@@ -307,13 +309,6 @@ Parity is a collective contributing to Polkadot. Most of us are part of other co
 Making Polkadot successful is, one way or another, our main mission. Thereofre, ongoing bugs and existential issues that might arise should never be be discarded as "it is not the task I am working on, so not my problem". If something important comes up, it is everyone's task. 
 ### Resilience Above All 
 TODO
-
-
---- 
-
-Next Steps: 
-- [ ] this is a good sign that we *need* an updated function roadmap + public page that introduces projects + members.
-- [ ] What is our updated culture deck? should we make one? 
 
 [^1]: This is usually done in two steps: first, a release made by the Polkadot fellowship, and a runtime upgrade being authorized by the community. Parity coordinates these operations, but does not have full control over them. 
 [^2]: Because if all questions are dumb questions, then no questions are dumb questions. 
