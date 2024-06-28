@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:41:20.837+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-06-28T11:49:44.780+03:30"}
 ---
 
 
@@ -264,7 +264,7 @@ The majority of the efforts of your team lead, and this document is to help you 
 
 ## 💎 Appendix: Principles For Excellence 
 
-These are things that I believe will help you be excellent, and help others be excellent as well. I also believe most of these are properties of L5+ engineers. 
+Personal opinion of @kianenigma follows. These are things that I believe will help you be excellent, and help others be the same. This is an opinionated re-iteration of some competencies that are noted in CultureAmp. 
 ### Stability Over Chaos 
 A theme in Parity, Polkadot in 2024 and beyond has been [Stability](https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc). We used to say: "*We write code faster than we can write about it*". Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0. 
 ### Information (de)Centralization and Longevity
@@ -282,29 +282,29 @@ This is merely one example, but the mentality it demonstrates is applicable to m
 > In H12024, Liam was one of the FRAME developers working on the release process. There entirety of the acceleration department had constant questions about the status of this work, and how it would affect them. 
 > A good behavior in this case would be for those who have questions to ask them publicly, in a large chat room, and for Liam to answer in the same place. 
 > A superb behavior is that Liam recorded a video answering FAQs and updates, accompanied by a forum post, and shared it. 
-
 ### Domain Ownership 
 Take radical and proactive ownership of what you have built, and be proud of it. We highly encourage engineers to grow a vision for what they are working on, and dictate its future. This is great, and it gives you a lot of flexibility and freedom. 
 
 But, freedom always comes with responsibility. What are those: 
-
 - As the owner of a domain, both internally and externally, you need to make yourself known as the owner, so that others can find you. 
-- Follow your domain, and participate in conversations around it. For example, if you aspire to be the owner of a domain, you would try to create notifications to be informed about all activity around this topic in the Polkadot forum, SE and twitter, and participate accordingly. 
+- Follow your domain, and participate in conversations around it. 
 
-Proper off-boarding and handover is also an important aspect of ownership. We move companies, teams, or most often, put a stop to initiatives for various reasons. But what happens to the part of the project that is already out there? Should we bring it down? should we archive a repo? Prevent letting initiatives going stale.
+>[!example]- 
+>For example, if you aspire to be the owner of a domain, you would try to create notifications to be informed about all activity around this topic in the Polkadot forum, SE and twitter, and participate accordingly. 
+
+Proper off-boarding and handover is also an important aspect of **ownership**. We move companies, teams, or sometimes, put a stop to an initiatives for various reasons. But what happens to the part of the project that is already out there? Should we bring it down? should we archive a repo? Prevent letting initiatives going stale. 
 
 Todo: note on choosing your battle
 ### Announce Early 
 In tandem to the above, try and announce what you are working on early, and embrace feedback. When you start an initiative, announce the vision in the public (eg. Parity forum if internal, Polkadot otherwise), then link to an Element room if one exists where one can join for a more in depth discussion about the project. 
-### Don't Wait On Decisions
-Fail Fast. share your thoughts, what you think is the best answer and should happen, post in forum, if after `x` weeks no response comes, you execute.  
+### Don't Be Blocked On Decisions
+Share your thoughts, what you think is the best answer and should happen, share it publicly, and if after `x` weeks no objections comes, you execute.  
 ### Measuring Impact 
-The impact of what we do, specifically for end-user facing work (as defined in [[Posts/Runtime Function Onboarding 2024#🧐 Know Your API\|#🧐 Know Your API]]), is not how many PRs we can merge into `polkadot-sdk` but rather how much our code is being user by end-users or developers. 
+The impact of what we do, specifically for end-user facing work (as defined in [[Posts/Runtime Function Onboarding 2024#🧐 Know Your API\|#🧐 Know Your API]]), is NOT how many PRs we manage can merge into `polkadot-sdk`, but rather how much our code is being user by end-users or developers. 
 ### Liveness Above All 
 Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship. 
 
 Making Polkadot successful is, one way or another, our main mission. Thereofre, ongoing bugs and existential issues that might arise should never be be discarded as "it is not the task I am working on, so not my problem". If something important comes up, it is everyone's task. 
-
 ### Resilience Above All 
 TODO
 
