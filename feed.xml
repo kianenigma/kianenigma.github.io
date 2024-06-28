@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-06-28T06:36:20Z</updated>
+    <updated>2024-06-28T06:50:58Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -487,10 +487,10 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-06-28T06:35:26.121Z</updated>
+            <updated>2024-06-28T06:49:53.936Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
-                &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards both a technical and non-technical audience.&lt;/p&gt;
+                &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards mainly a technical audience, but more so those that are not very familiar with Polkadot.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#prelude-polkadot-1&quot;&gt;Prelude: Polkadot 1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#all-about-cores&quot;&gt;All About Cores&lt;/a&gt;
@@ -506,8 +506,10 @@ useful. You can already see me use them in the previous gif. Highly recommended 
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#jam&quot;&gt;Semi Coherence&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#jam&quot;&gt;CoreChains Service&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#jam&quot;&gt;PVM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#jam&quot;&gt;CorePlay&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#appendix-data-sharding&quot;&gt;Appendix: Data Sharding&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#appendix-re-defining-blockspace&quot;&gt;Appendix: Re Defining Blockspace&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#appendix-scalability-space-map&quot;&gt;Appendix: Scalability Space Map&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -599,6 +601,15 @@ Polkadot2, among other features, is unfolding as we speak, and not much further 
 &lt;p&gt;TODO&lt;/p&gt;
 &lt;h3 id=&quot;pvm&quot; tabindex=&quot;-1&quot;&gt;PVM&lt;/h3&gt;
 &lt;p&gt;TODO&lt;/p&gt;
+&lt;h3 id=&quot;core-play&quot; tabindex=&quot;-1&quot;&gt;CorePlay&lt;/h3&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h2 id=&quot;appendix-data-sharding&quot; tabindex=&quot;-1&quot;&gt;Appendix: Data Sharding&lt;/h2&gt;
+&lt;p&gt;The type of data that a blockchain application has access to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sharded data: L2 state, parachain state. Cheap, only commitment is kept in L1,&lt;/li&gt;
+&lt;li&gt;L1 Data: smart contract living on L1&lt;/li&gt;
+&lt;li&gt;New: DA layer&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&quot;appendix-re-defining-blockspace&quot; tabindex=&quot;-1&quot;&gt;Appendix: Re Defining Blockspace&lt;/h2&gt;
 &lt;p&gt;Polkadot&#39;s blockspace is therefore a combination of a lot of in-core blockspace, and a reasonable amount of on-chain blockspace.&lt;/p&gt;
 &lt;h2 id=&quot;appendix-scalability-space-map&quot; tabindex=&quot;-1&quot;&gt;Appendix: Scalability Space Map&lt;/h2&gt;

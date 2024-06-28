@@ -643,7 +643,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-28T06:36:20.113Z';
+        const searchIndexDate = '2024-06-28T06:50:58.056Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -655,9 +655,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T06:36:20.113Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T06:50:58.056Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T06:36:20.113Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T06:50:58.056Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -910,13 +910,13 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-05-02T17:08:56.000+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T10:05:26.121+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-05-02T17:08:56.000+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T10:19:53.936+03:30"></span></div></div></div>
       
       
       </header>
       
       
-      <p>The following is a <a href="https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly" target="_blank" class="external-link">ground-up</a> explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards both a technical and non-technical audience.</p>
+      <p>The following is a <a href="https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly" target="_blank" class="external-link">ground-up</a> explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards mainly a technical audience, but more so those that are not very familiar with Polkadot.</p>
 <ul>
 <li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#prelude-polkadot-1">Prelude: Polkadot 1</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#all-about-cores">All About Cores</a>
@@ -932,8 +932,10 @@
 <li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">Semi Coherence</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">CoreChains Service</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">PVM</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#jam">CorePlay</a></li>
 </ul>
 </li>
+<li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#appendix-data-sharding">Appendix: Data Sharding</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#appendix-re-defining-blockspace">Appendix: Re Defining Blockspace</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#appendix-scalability-space-map">Appendix: Scalability Space Map</a></li>
 </ul>
@@ -1025,6 +1027,15 @@ Polkadot2, among other features, is unfolding as we speak, and not much further 
 <p>TODO</p>
 <h3 id="pvm" tabindex="-1">PVM</h3>
 <p>TODO</p>
+<h3 id="core-play" tabindex="-1">CorePlay</h3>
+<p>TODO</p>
+<h2 id="appendix-data-sharding" tabindex="-1">Appendix: Data Sharding</h2>
+<p>The type of data that a blockchain application has access to</p>
+<ul>
+<li>Sharded data: L2 state, parachain state. Cheap, only commitment is kept in L1,</li>
+<li>L1 Data: smart contract living on L1</li>
+<li>New: DA layer</li>
+</ul>
 <h2 id="appendix-re-defining-blockspace" tabindex="-1">Appendix: Re Defining Blockspace</h2>
 <p>Polkadot's blockspace is therefore a combination of a lot of in-core blockspace, and a reasonable amount of on-chain blockspace.</p>
 <h2 id="appendix-scalability-space-map" tabindex="-1">Appendix: Scalability Space Map</h2>
@@ -1116,7 +1127,13 @@ Polkadot2, among other features, is unfolding as we speak, and not much further 
 
                     <li><a href="#pvm">PVM</a>
             		</li>
+
+                    <li><a href="#core-play">CorePlay</a>
+            		</li>
                 </ol>
+            		</li>
+
+                    <li><a href="#appendix-data-sharding">Appendix: Data Sharding</a>
             		</li>
 
                     <li><a href="#appendix-re-defining-blockspace">Appendix: Re Defining Blockspace</a>
