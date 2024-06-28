@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-06-28T08:20:39Z</updated>
+    <updated>2024-06-28T08:24:59Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -652,7 +652,7 @@ Polkadot2, among other features, is unfolding as we speak, and not much further 
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-06-28T08:19:44.780Z</updated>
+            <updated>2024-06-28T08:24:23.992Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -694,12 +694,13 @@ Polkadot2, among other features, is unfolding as we speak, and not much further 
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Information (de)Centralization and Longevity&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Domain Ownership&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Announce Early&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Don&#39;t Wait On Decisions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Don&#39;t Be Blocked On Decisions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Measuring Impact&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Liveness Above All&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Resilience Above All&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#wrap&quot;&gt;Wrap&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;intro-welcome-to-the-runtime-function&quot; tabindex=&quot;-1&quot;&gt;👋🏻 Intro: Welcome to The Runtime Function&lt;/h2&gt;
 &lt;p&gt;Welcome to Parity, welcome to the Runtime Function, arguably one of the most important teams within Parity and the Polkadot Ecosystem.&lt;/p&gt;
@@ -835,8 +836,12 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 &lt;ul&gt;
 &lt;li&gt;Adjust your workflow (as much as possible) such that you are &lt;em&gt;&lt;strong&gt;NOT&lt;/strong&gt;&lt;/em&gt; blocked by other&#39;s not replying to you immediately.&lt;/li&gt;
 &lt;li&gt;Be concise and to-the-point in conveying your message. &lt;a href=&quot;https://nohello.net/en/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The &amp;quot;no hello&amp;quot; is a good example 😉&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Prefer sharing things &lt;em&gt;where most poeple can see it&lt;/em&gt;. &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#information-centralization&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Information&quot;&gt;#Information&lt;/a&gt; Centralization&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Prefer sharing things where it has the most longevity. &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#information-longevity&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Information&quot;&gt;#Information&lt;/a&gt; Longevity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prefer sharing things &lt;em&gt;where most poeple can see it&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Prefer sharing things where it has the most longevity.
+&lt;ul&gt;
+&lt;li&gt;(See &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Information&quot;&gt;#Information&lt;/a&gt; (de)Centralization and Longevity&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;dumb-questions&quot; tabindex=&quot;-1&quot;&gt;🤪 Dumb Questions&lt;/h3&gt;
@@ -848,7 +853,7 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 &lt;ul&gt;
 &lt;li&gt;First, while we assert there is no such thing as dumb questions, there is such a thing as a &amp;quot;lazy question&amp;quot;. That is, when you are told to &amp;quot;do &lt;code&gt;x&lt;/code&gt;&amp;quot; by person &lt;code&gt;A&lt;/code&gt;, and then you go to person &lt;code&gt;B&lt;/code&gt; and as &amp;quot;hey, how do I do &lt;code&gt;x&lt;/code&gt;?&amp;quot;. A good question should indicate that you have put some effort into the matter yourself.&lt;/li&gt;
 &lt;li&gt;Avoid &lt;a href=&quot;https://xyproblem.info/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the xy problem&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;See &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#information-longevity&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Information&quot;&gt;#Information&lt;/a&gt; Longevity&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#information-centralization&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Information&quot;&gt;#Information&lt;/a&gt; Centralization&lt;/a&gt;. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.&lt;/li&gt;
+&lt;li&gt;See &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Information&quot;&gt;#Information&lt;/a&gt; (de)Centralization and Longevity&lt;/a&gt;. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;contributing&quot; tabindex=&quot;-1&quot;&gt;🧑‍💻 Contributing&lt;/h2&gt;
@@ -1006,12 +1011,6 @@ For example, if you aspire to be the owner of a domain, you would try to create 
 &lt;p&gt;Making Polkadot successful is, one way or another, our main mission. Thereofre, ongoing bugs and existential issues that might arise should never be be discarded as &amp;quot;it is not the task I am working on, so not my problem&amp;quot;. If something important comes up, it is everyone&#39;s task.&lt;/p&gt;
 &lt;h3 id=&quot;resilience-above-all&quot; tabindex=&quot;-1&quot;&gt;Resilience Above All&lt;/h3&gt;
 &lt;p&gt;TODO&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Next Steps:&lt;/p&gt;
-&lt;ul class=&quot;task-list&quot;&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; this is a good sign that we &lt;em&gt;need&lt;/em&gt; an updated function roadmap + public page that introduces projects + members.&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; What is our updated culture deck? should we make one?&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;

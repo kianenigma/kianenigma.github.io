@@ -643,7 +643,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-28T08:20:39.090Z';
+        const searchIndexDate = '2024-06-28T08:24:58.762Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -655,9 +655,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:20:39.090Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:24:58.762Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:20:39.090Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:24:58.762Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -898,7 +898,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:49:44.780+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:54:23.992+03:30"></span></div></div></div>
       
       
       </header>
@@ -943,12 +943,13 @@
 <li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Information (de)Centralization and Longevity</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Domain Ownership</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Announce Early</a></li>
-<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Don't Wait On Decisions</a></li>
+<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Don't Be Blocked On Decisions</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Measuring Impact</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Liveness Above All</a></li>
 <li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Resilience Above All</a></li>
 </ul>
 </li>
+<li><a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#wrap">Wrap</a></li>
 </ul>
 <h2 id="intro-welcome-to-the-runtime-function" tabindex="-1">👋🏻 Intro: Welcome to The Runtime Function</h2>
 <p>Welcome to Parity, welcome to the Runtime Function, arguably one of the most important teams within Parity and the Polkadot Ecosystem.</p>
@@ -1094,8 +1095,12 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 <ul>
 <li>Adjust your workflow (as much as possible) such that you are <em><strong>NOT</strong></em> blocked by other's not replying to you immediately.</li>
 <li>Be concise and to-the-point in conveying your message. <a href="https://nohello.net/en/" target="_blank" class="external-link">The &quot;no hello&quot; is a good example 😉</a>.</li>
-<li>Prefer sharing things <em>where most poeple can see it</em>. <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-centralization"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> Centralization</a></li>
-<li>Prefer sharing things where it has the most longevity. <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> Longevity</a></li>
+<li>Prefer sharing things <em>where most poeple can see it</em>.</li>
+<li>Prefer sharing things where it has the most longevity.
+<ul>
+<li>(See <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> (de)Centralization and Longevity</a>)</li>
+</ul>
+</li>
 </ul>
 </p></div></div>
 <h3 id="dumb-questions" tabindex="-1">🤪 Dumb Questions</h3>
@@ -1108,7 +1113,7 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 <ul>
 <li>First, while we assert there is no such thing as dumb questions, there is such a thing as a &quot;lazy question&quot;. That is, when you are told to &quot;do <code>x</code>&quot; by person <code>A</code>, and then you go to person <code>B</code> and as &quot;hey, how do I do <code>x</code>?&quot;. A good question should indicate that you have put some effort into the matter yourself.</li>
 <li>Avoid <a href="https://xyproblem.info/" target="_blank" class="external-link">the xy problem</a>.</li>
-<li>See <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> Longevity</a> and <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-centralization"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> Centralization</a>. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.</li>
+<li>See <a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Information">#Information</a> (de)Centralization and Longevity</a>. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.</li>
 </ul>
 </p></div></div>
 <h2 id="contributing" tabindex="-1">🧑‍💻 Contributing</h2>
@@ -1271,12 +1276,6 @@ For example, if you aspire to be the owner of a domain, you would try to create 
 <p>Making Polkadot successful is, one way or another, our main mission. Thereofre, ongoing bugs and existential issues that might arise should never be be discarded as &quot;it is not the task I am working on, so not my problem&quot;. If something important comes up, it is everyone's task.</p>
 <h3 id="resilience-above-all" tabindex="-1">Resilience Above All</h3>
 <p>TODO</p>
-<hr>
-<p>Next Steps:</p>
-<ul class="task-list">
-<li class="task-list-item"><input type="checkbox" id="cbx_0" disabled="true"><label for="cbx_0"> this is a good sign that we <em>need</em> an updated function roadmap + public page that introduces projects + members.</label></li>
-<li class="task-list-item"><input type="checkbox" id="cbx_1" disabled="true"><label for="cbx_1"> What is our updated culture deck? should we make one?</label></li>
-</ul>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
