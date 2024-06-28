@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-06-28T10:19:53.936+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-06-28T10:25:47.862+03:30"}
 ---
 
 
@@ -29,7 +29,7 @@ First, let's take a moment and write down what we think are the top novel featur
 	- Polkadot is the biggest DAO. the only network that does fully onchain, self-enacting governance, including runtime upgrades. 
 - Technological: 
 	- Shared security, sharded execution
-	- Use of a WASM-based meta-protocol. Storing the code of the blockchain in the state as byte-code. This enabled *most* upgrades to be fork-less, and supercharges Polkadot to be, not only sharded, but heterogeneously sharded. More on this in [[Posts/Tech/Demystifying JAM#Heterogenous\|#Heterogenous]].
+	- Use of a [WASM-based meta-protocol](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/wasm_meta_protocol/index.html). Storing the code of the blockchain in the state as byte-code. This enabled *most* upgrades to be fork-less, and supercharges Polkadot to be, not only sharded, but heterogeneously sharded. More on this in [[Posts/Tech/Demystifying JAM#Heterogenous\|#Heterogenous]].
 
 Let's dive further into sharded execution and what we mean by it.
 ## All About Cores
