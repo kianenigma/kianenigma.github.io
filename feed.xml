@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-06-28T08:07:43Z</updated>
+    <updated>2024-06-28T08:11:56Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -487,7 +487,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-06-28T06:49:53.936Z</updated>
+            <updated>2024-06-28T06:55:47.862Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards mainly a technical audience, but more so those that are not very familiar with Polkadot.&lt;/p&gt;
@@ -524,7 +524,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
 &lt;li&gt;Technological:
 &lt;ul&gt;
 &lt;li&gt;Shared security, sharded execution&lt;/li&gt;
-&lt;li&gt;Use of a WASM-based meta-protocol. Storing the code of the blockchain in the state as byte-code. This enabled &lt;em&gt;most&lt;/em&gt; upgrades to be fork-less, and supercharges Polkadot to be, not only sharded, but heterogeneously sharded. More on this in &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#heterogenous&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Heterogenous&quot;&gt;#Heterogenous&lt;/a&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Use of a &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/wasm_meta_protocol/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;WASM-based meta-protocol&lt;/a&gt;. Storing the code of the blockchain in the state as byte-code. This enabled &lt;em&gt;most&lt;/em&gt; upgrades to be fork-less, and supercharges Polkadot to be, not only sharded, but heterogeneously sharded. More on this in &lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#heterogenous&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#Heterogenous&quot;&gt;#Heterogenous&lt;/a&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -652,7 +652,7 @@ Polkadot2, among other features, is unfolding as we speak, and not much further 
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-06-28T08:02:53.127Z</updated>
+            <updated>2024-06-28T08:11:20.837Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -872,7 +872,7 @@ Be sure to read &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/maste
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;after-merging&quot; tabindex=&quot;-1&quot;&gt;🔙 After Merging&lt;/h3&gt;
 &lt;p&gt;Well, your PR is finally merged. Are we done? More often than not, no.&lt;/p&gt;
-&lt;p&gt;Yet again, a lot of this goes back to the dual realities (&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#💊&quot;&gt;#💊&lt;/a&gt; The Reality of What we Do&lt;/a&gt;) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:&lt;/p&gt;
+&lt;p&gt;Yet again, a lot of this goes back to the dual realities (&lt;a class=&quot;internal-link&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do&quot;&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#💊&quot;&gt;#💊&lt;/a&gt; The Reality of What We Do&lt;/a&gt;) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Test-network Runtime Upgrade&lt;/strong&gt;: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further?&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;RC/SC Runtime Upgrade&lt;/strong&gt;: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;. This is another milestone for testing: Did everything go smoothly?&lt;/li&gt;

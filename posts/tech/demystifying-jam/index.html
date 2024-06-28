@@ -643,7 +643,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-28T08:07:42.632Z';
+        const searchIndexDate = '2024-06-28T08:11:55.848Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -655,9 +655,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:07:42.632Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:11:55.848Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:07:42.632Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:11:55.848Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -910,7 +910,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-05-02T17:08:56.000+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T10:19:53.936+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-05-02T17:08:56.000+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T10:25:47.862+03:30"></span></div></div></div>
       
       
       </header>
@@ -950,7 +950,7 @@
 <li>Technological:
 <ul>
 <li>Shared security, sharded execution</li>
-<li>Use of a WASM-based meta-protocol. Storing the code of the blockchain in the state as byte-code. This enabled <em>most</em> upgrades to be fork-less, and supercharges Polkadot to be, not only sharded, but heterogeneously sharded. More on this in <a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#heterogenous"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Heterogenous">#Heterogenous</a></a>.</li>
+<li>Use of a <a href="https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/wasm_meta_protocol/index.html" target="_blank" class="external-link">WASM-based meta-protocol</a>. Storing the code of the blockchain in the state as byte-code. This enabled <em>most</em> upgrades to be fork-less, and supercharges Polkadot to be, not only sharded, but heterogeneously sharded. More on this in <a class="internal-link" data-note-icon="" href="/posts/tech/demystifying-jam/#heterogenous"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Heterogenous">#Heterogenous</a></a>.</li>
 </ul>
 </li>
 </ul>

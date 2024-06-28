@@ -643,7 +643,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-06-28T08:07:42.632Z';
+        const searchIndexDate = '2024-06-28T08:11:55.848Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -655,9 +655,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:07:42.632Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-06-28T08:11:55.848Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:07:42.632Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-06-28T08:11:55.848Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -898,7 +898,7 @@
                 
               
             </div>
-          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:32:53.127+03:30"></span></div></div></div>
+          <div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T11:41:20.837+03:30"></span></div></div></div>
       
       
       </header>
@@ -1135,7 +1135,7 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 </div></div>
 <h3 id="after-merging" tabindex="-1">🔙 After Merging</h3>
 <p>Well, your PR is finally merged. Are we done? More often than not, no.</p>
-<p>Yet again, a lot of this goes back to the dual realities (<a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do"><a class="tag" onclick="toggleTagSearch(this)" data-content="#💊">#💊</a> The Reality of What we Do</a>) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:</p>
+<p>Yet again, a lot of this goes back to the dual realities (<a class="internal-link" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do"><a class="tag" onclick="toggleTagSearch(this)" data-content="#💊">#💊</a> The Reality of What We Do</a>) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:</p>
 <ol>
 <li><strong>Test-network Runtime Upgrade</strong>: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further?</li>
 <li><strong>RC/SC Runtime Upgrade</strong>: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>. This is another milestone for testing: Did everything go smoothly?</li>
