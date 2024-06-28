@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-06-28T10:05:26.121+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-06-28T10:19:53.936+03:30"}
 ---
 
 
-The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly) explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards both a technical and non-technical audience. 
+The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly) explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards mainly a technical audience, but more so those that are not very familiar with Polkadot. 
 
 - [[Posts/Tech/Demystifying JAM#Prelude: Polkadot 1\|Prelude: Polkadot 1]]
 - [[Posts/Tech/Demystifying JAM#All About Cores\|All About Cores]]
@@ -15,6 +15,8 @@ The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-rav
 	- [[Posts/Tech/Demystifying JAM#JAM\|Semi Coherence]]
 	- [[Posts/Tech/Demystifying JAM#JAM\|CoreChains Service]]
 	- [[Posts/Tech/Demystifying JAM#JAM\|PVM]]
+	- [[Posts/Tech/Demystifying JAM#JAM\|CorePlay]]
+- [[Posts/Tech/Demystifying JAM#Appendix: Data Sharding\|Appendix: Data Sharding]]
 - [[Posts/Tech/Demystifying JAM#Appendix: Re Defining Blockspace\|Appendix: Re Defining Blockspace]]
 - [[Posts/Tech/Demystifying JAM#Appendix: Scalability Space Map\|Appendix: Scalability Space Map]]
 
@@ -127,7 +129,6 @@ This is a somewhat simplistic, yet foundational description of what JAM aims to 
 
 On top of this foundation in mind, there are a few other aspects of JAM that now we can describe in the coming sections.  
 
-
 ### Semi Coherence 
 
 Recall from existing material around Polkadot's language of choice for enabling parachain communication, that all such communication is asynch
@@ -139,6 +140,16 @@ TODO
 ### PVM 
 
 TODO
+
+### CorePlay 
+
+TODO
+## Appendix: Data Sharding
+
+The type of data that a blockchain application has access to  
+- Sharded data: L2 state, parachain state. Cheap, only commitment is kept in L1,  
+- L1 Data: smart contract living on L1
+- New: DA layer
 
 ## Appendix: Re Defining Blockspace
 
