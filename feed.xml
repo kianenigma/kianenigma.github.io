@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" >
     <link href="https://blog.kianenigma.nl/" >
-    <updated>2024-07-01T10:46:23Z</updated>
+    <updated>2024-07-01T10:47:27Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -489,7 +489,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-01T10:45:32.261Z</updated>
+            <updated>2024-07-01T10:46:44.538Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of the Blockchain space as a whole, and possibly one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM &lt;a href=&quot;http://www.graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;graypaper&lt;/a&gt;.&lt;/p&gt;
@@ -617,7 +617,8 @@ This is achieved through exposing all the main 3 primitives discussed above to p
 &lt;p&gt;The latter is particularly important for CorePlay, explained next.&lt;/p&gt;
 &lt;p&gt;CorePlay is one example of using JAM flexible primitives to create a synchronous and scalable smart contract environment with a very flexible programming interface. CorePlay suggests deployment of actor-based smart contracts directly on JAM cores, and enabling them to enjoy a synchronous programming interface whereby they can coded as a normal &lt;code&gt;fn main()&lt;/code&gt;, in which they can communicate using &lt;code&gt;let _result = other_coreplay_actor(data).await?&lt;/code&gt;. In the case &lt;code&gt;other_coreplay_actor&lt;/code&gt; is in the same core in that JAM block, this call is synchronous, and in case in another care, the actor is paused and will be resumed in a later JAM block. This exactly possible because of JAM services and their flexible scheduling, and PVM&#39;s properties.&lt;/p&gt;
 &lt;h3 id=&quot;core-chains-service&quot; tabindex=&quot;-1&quot;&gt;CoreChains Service&lt;/h3&gt;
-&lt;p&gt;Finally, let&#39;s wrap up&lt;/p&gt;
+&lt;p&gt;Finally, let&#39;s wrap up&lt;br /&gt;
+TODO&lt;/p&gt;
 &lt;h2 id=&quot;appendix-data-sharding&quot; tabindex=&quot;-1&quot;&gt;Appendix: Data Sharding&lt;/h2&gt;
 &lt;p&gt;The type of data that a blockchain application has access to&lt;/p&gt;
 &lt;ul&gt;
@@ -625,16 +626,23 @@ This is achieved through exposing all the main 3 primitives discussed above to p
 &lt;li&gt;L1 Data: smart contract living on L1&lt;/li&gt;
 &lt;li&gt;New: DA layer&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;TODO&lt;/p&gt;
 &lt;h2 id=&quot;appendix-re-defining-blockspace&quot; tabindex=&quot;-1&quot;&gt;Appendix: Re Defining Blockspace&lt;/h2&gt;
 &lt;p&gt;Polkadot&#39;s blockspace is therefore a combination of a lot of in-core blockspace, and a reasonable amount of on-chain blockspace.&lt;/p&gt;
+&lt;p&gt;TODO&lt;/p&gt;
 &lt;h2 id=&quot;appendix-scalability-space-map&quot; tabindex=&quot;-1&quot;&gt;Appendix: Scalability Space Map&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Beefy hardware + optimization: Solana&lt;/li&gt;
+&lt;li&gt;Beefy hardware + optimization in a singleton blockchain: Solana&lt;/li&gt;
+&lt;li&gt;Sharding:
+&lt;ol&gt;
 &lt;li&gt;Optimistic Rollups&lt;/li&gt;
 &lt;li&gt;ZKP&lt;/li&gt;
-&lt;li&gt;Data and Execution Sharding&lt;/li&gt;
+&lt;li&gt;Data and Execution Sharding: Polkadot&#39;s Pessimistic Sharding&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;A short digest from the graypaper.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A short recap of the above.&lt;/p&gt;
+&lt;p&gt;TODO&lt;/p&gt;
 &lt;h2 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=n0ZCKjfIVhc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;7.9 Polkadot 2.0: CorePlay, CoreChains, Corejam, Safrole, PolkaVM - Polkadot by Gavin @PBA4 - YouTube&lt;/a&gt;&lt;/li&gt;
