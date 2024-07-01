@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" >
     <link href="https://blog.kianenigma.nl/" >
-    <updated>2024-07-01T10:34:06Z</updated>
+    <updated>2024-07-01T10:36:09Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -660,7 +660,7 @@ This is achieved through exposing all the main 3 primitives discussed above to p
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-07-01T08:25:59.658Z</updated>
+            <updated>2024-07-01T10:35:28.011Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -834,7 +834,11 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1WTLx1k46g0WeB6Afp02XS682SUFbqJUVp4bKhXksYFo/edit#heading=h.v9anig8niu5f&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Doc&lt;/a&gt; for our last round of element revamp.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;TODO: a sentence on why we use element to begin with.&lt;/p&gt;
+&lt;p&gt;Why do we use element to begin with?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Privacy-preserving, semi-redundant due to connectivity with other homeservers (so even if ours goes down, people on other homeservers can still interact with the channels they&#39;re in). Interoperable (with other chat protocols, due to bridges), customizable/programmable and control over our data.&lt;/p&gt;
+&lt;p&gt;Erin&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h4 id=&quot;where-how-much-to-write&quot; tabindex=&quot;-1&quot;&gt;😱 Where/How-much to Write?&lt;/h4&gt;
 &lt;p&gt;A common question around async communication in chats is how &amp;quot;loud&amp;quot; you should be. For example, whether you should talk in big chats, as opposed to DM.&lt;/p&gt;
 &lt;p&gt;We are a fairly small company. Prefer sharing things in broad element groups where most people can see them, rather than small chats with a handful of people. As an example, we have vibrant chats such as:&lt;/p&gt;
