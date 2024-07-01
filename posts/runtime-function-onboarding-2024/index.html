@@ -259,7 +259,7 @@ CTRL + K
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-06-28T14:08:36.622Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-06-28T14:08:36.622Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-06-28T14:08:36.622Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-01T07:58:47.220Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-01T07:58:47.220Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-01T07:58:47.220Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
                     <a class="search-link" href="${e.url}">${e.title}</a>
                     <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
@@ -281,7 +281,7 @@ CTRL + K
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-06-28T17:37:15.582+03:30"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-01T11:28:11.392+03:30"></span></div></div></div>
 </header>
 <ul>
 <li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">👋🏻 Intro: Welcome to The Runtime Function</a>
@@ -328,15 +328,14 @@ CTRL + K
 <li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Resilience Above All</a></li>
 </ul>
 </li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#wrap">Wrap</a></li>
 </ul>
 <h2 id="intro-welcome-to-the-runtime-function" tabindex="-1">👋🏻 Intro: Welcome to The Runtime Function</h2>
 <p>Welcome to Parity, welcome to the Runtime Function, arguably one of the most important teams within Parity and the Polkadot Ecosystem.</p>
 <p>What do we do? We build everything that is needed for the <em><strong>Runtimes of the Polkadot ecosystem to exist</strong></em>. Remember, <a href="https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/wasm_meta_protocol/index.html" target="_blank" class="external-link">the runtime</a> is where the application logic of all of our blockchains live. The runtime function is at the moment divided into 3 teams:</p>
 <ol>
-<li><strong>(Substrate +) FRAME + XCM</strong>: Build and maintain the (mostly) un-opinionated frameworks/SDKs that allows us to build blockchains, runtimes and enable communication between them. All of the aforementioned are part of <a href="https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/polkadot_sdk/index.html" target="_blank" class="external-link"><code>polkadot-sdk</code></a>.</li>
-<li><strong>Polkadot System Runtimes</strong>: Then, we build applications with Substrate, FRAME and XCM. This includes: The runtime of the Polkadot and Kusama relay chain + all system-chains. The community builds Parachains with all the same tools.</li>
-<li><strong>Bridges</strong>: Given its proximity to FRAME and XCM, the core developers working on trust-less bridges reside in the Runtime Function as well.</li>
+<li><strong>(Substrate<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> +) FRAME + XCM</strong>: Build and maintain the (mostly) un-opinionated frameworks/SDKs that allows us to build blockchains, runtimes and enable communication between them. All of the aforementioned are part of <a href="https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/polkadot_sdk/index.html" target="_blank" class="external-link"><code>polkadot-sdk</code></a>.</li>
+<li><strong>Polkadot <a href="https://wiki.polkadot.network/docs/learn-system-chains" target="_blank" class="external-link">System Runtimes</a></strong>: Then, we build applications with Substrate, FRAME and XCM. This includes: The runtime of the Polkadot and Kusama relay-chain, plus all system-chains. The community of Polkadot builds Parachains with all the same tools.</li>
+<li><strong><a href="https://wiki.polkadot.network/docs/learn-bridges" target="_blank" class="external-link">Bridges</a></strong>: Given its proximity to FRAME and XCM, the core developers working on trust-less bridges reside in the Runtime Function as well.</li>
 </ol>
 <div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Note on Naming<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
@@ -348,43 +347,55 @@ In a lot of our communication, we refer to Relay Chain as <strong>RC</strong>, a
 <source media="(max-width:1920px)" srcset="/img/optimized/CoagQtAQ6L-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/CoagQtAQ6L-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-26%20at%2014.36.11.png" alt="Screenshot 2024-06-26 at 14.36.11.png" width=""></picture></p>
 <h3 id="the-reality-of-what-we-do" tabindex="-1">💊 The Reality of What We Do</h3>
 <p>Working in the above implies two very important self-evident truths about the type of work we do:</p>
-<ul>
-<li><strong>We fly low:</strong> The work we do is meant to interact with value-bearing, mission critical systems that are meant to survive the test of time. This implies:
+<ol>
+<li><em>We fly low:</em>* The work we do is meant to interact with value-bearing, mission critical systems that are meant to survive the test of time. This implies:
 <ul>
 <li>Emphasis on testing.</li>
 <li>Demand and provide vigilant code review.</li>
 <li>Nonetheless, mistakes happen, and it is okay. What is <em>not</em> okay is to <em>repeat</em> a mistake. We maintain a categorical zero-blame mentality, learn from mistakes, make sure it cannot happen again, write a public post mortem, and move on.</li>
 </ul>
 </li>
-</ul>
-<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> An anecdote about breaking production code @kianenigma<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
-<div class="callout-content">
-<p>
-The main downtime of Polkadot is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of <code>try-runtime-*</code> set of tools, just to name one.</p>
-</div></div>
+</ol>
 <p><picture src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg"><source media="(max-width:480px)" srcset="/img/optimized/s3fjM1smI6-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/s3fjM1smI6-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/s3fjM1smI6-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/s3fjM1smI6-700.jpeg"><img class="" src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg" width=""></picture></p>
-<ul>
-<li><strong>We fly close to end-users/developers</strong>: Most of what we write affects our two major stakeholders: developers (parachains, UIs, and more), and blockchain users.
+<ol start="2">
+<li><em>We fly close to end-users/developers</em>*: Most of what we write affects our two major stakeholders: developers (parachains, UIs, and more), and blockchain users.
 <ul>
 <li>Always think about: user-facing code, vs. non-user facing code.</li>
 <li>Is my feature well documented? can someone else use/understand it?</li>
 <li>Is my feature a breaking change?</li>
 </ul>
 </li>
-</ul>
-<p>We will repeatedly come back to these two points throughout this document.</p>
+</ol>
 <p><picture src="/img/user/resources/8utsbt.jpg" alt="8utsbt.jpg"><source media="(max-width:480px)" srcset="/img/optimized/mhjPRzF1aE-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/mhjPRzF1aE-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/mhjPRzF1aE-642.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/mhjPRzF1aE-642.jpeg"><img class="" src="/img/user/resources/8utsbt.jpg" alt="8utsbt.jpg" width=""></picture></p>
+<p>We will repeatedly come back to these two points throughout this document.</p>
+<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> An anecdote about breaking production code @kianenigma<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+The main downtime of Polkadot is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of <a href="https://github.com/paritytech/try-runtime-cli" target="_blank" class="external-link"><code>try-runtime-*</code></a> set of <a href="https://forum.polkadot.network/t/testing-complex-frame-pallets-discussion-tools/356" target="_blank" class="external-link">tools</a>, just to name one.</p>
+</div></div>
 <h3 id="function-portfolio" tabindex="-1">📈 Function Portfolio</h3>
-<p>Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently achieving, in the words of the maintainers themselves:</p>
+<p>Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently working on, in the words of the maintainers themselves:</p>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Stability<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-Parity has a history of rug-pulling Polkadot builders. The <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175" target="_blank" class="external-link">Stability</a> initiative is here to stop this. By introducing stable releases (<a href="https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md" target="_blank" class="external-link">New Release Process</a>), a no-code Parachain node (<a href="https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823" target="_blank" class="external-link">Omni-node</a>) and focusing generally more on improving existing features instead of adding new ones we are aiming for a smother experience for Polkadot builders.</p>
+Parity has a history of rug-pulling Polkadot builders with new technology one after the other 🙈 The <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175" target="_blank" class="external-link">Stability</a> initiative is here to stop this. By introducing stable releases (<a href="https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md" target="_blank" class="external-link">New Release Process</a>), a no-code Parachain node (<a href="https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823" target="_blank" class="external-link">Omni-node</a>) and focusing generally more on improving existing features instead of adding new ones we are aiming for a smother experience for Polkadot builders.</p>
 <p>Oliver, Liam and Kian</p>
+</div></div>
+<div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> XCM v5<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+<a href="https://github.com/polkadot-fellows/xcm-format/issues/60" target="_blank" class="external-link">XCMv5</a> aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.</p>
+<p>Cisco</p>
+</div></div>
+<div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Coretime Broker Pallet<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+This year Kusama and Polkadot transition away from the slot auction model to Agile Coretime. The Coretime Chain is a marketplace where NFTs representing various configurations of blockspace can be bought, manipulated and allocated. Coretime (bulk and on-demand) is now the only way to validate workloads on Polkadot. The broker pallet contains all the logic for the primary market for blockspace, upon which secondary markets can be built and is the main part of the coretime chain. The specification is contained within <a href="https://polkadot-fellows.github.io/RFCs/approved/0001-agile-coretime.html" target="_blank" class="external-link">RFC-1</a> and <a href="https://polkadot-fellows.github.io/RFCs/approved/0005-coretime-interface.html" target="_blank" class="external-link">RFC-5</a>, and you can find out more in our <a href="https://polkadot-public.notion.site/Agile-Coretime-FAQ-c930796e8c884011adb1fa24ef22f77c#4044ec0996054c48b3f8dde0eaca4584" target="_blank" class="external-link">Coretime FAQs</a>.</p>
+<p>Donal</p>
 </div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> People Chain<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
@@ -396,25 +407,19 @@ The people chain is the place where real world identities are brought onto the b
 <div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Multi-Block Staking<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-Discover Polkadot's innovative validator election method using <a href="https://wiki.polkadot.network/docs/learn-phragmen" target="_blank" class="external-link">NPoS</a>. Dive deeper into our efforts to <a href="https://wiki.polkadot.network/docs/learn-nomination-pools" target="_blank" class="external-link">scale the number of stakers</a> nominating on Polkadot. Join us as we <a href="https://github.com/paritytech/polkadot-sdk/issues/491" target="_blank" class="external-link">migrate staking functionalities</a> from the relay chain to a system parachain.<br>
-Ankan and Goncalo</p>
-</div></div>
-<div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> XCM v5<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
-<div class="callout-content">
-<p>
-<a href="https://github.com/polkadot-fellows/xcm-format/issues/60" target="_blank" class="external-link">XCMv5</a> aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.<br>
-Cisco</p>
-</div></div>
-<div class="callout is-collapsible is-collapsed" data-callout="tldr"><div class="callout-title"><div class="callout-title-inner"> Coretime Broker Pallet<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
-<div class="callout-content">
-<p>
-This year Kusama and Polkadot transition away from the slot auction model to Agile Coretime. The Coretime Chain is a marketplace where NFTs representing various configurations of blockspace can be bought, manipulated and allocated. Coretime (bulk and on-demand) is now the only way to validate workloads on Polkadot. The broker pallet contains all the logic for the primary market for blockspace, upon which secondary markets can be built and is the main part of the coretime chain. The specification is contained within <a href="https://polkadot-fellows.github.io/RFCs/approved/0001-agile-coretime.html" target="_blank" class="external-link">RFC-1</a> and <a href="https://polkadot-fellows.github.io/RFCs/approved/0005-coretime-interface.html" target="_blank" class="external-link">RFC-5</a>, and you can find out more in our <a href="https://polkadot-public.notion.site/Agile-Coretime-FAQ-c930796e8c884011adb1fa24ef22f77c#4044ec0996054c48b3f8dde0eaca4584" target="_blank" class="external-link">Coretime FAQs</a>.</p>
-<p>Donal</p>
+Discover Polkadot's innovative validator election method using <a href="https://wiki.polkadot.network/docs/learn-phragmen" target="_blank" class="external-link">NPoS</a>. Dive deeper into our efforts to <a href="https://wiki.polkadot.network/docs/learn-nomination-pools" target="_blank" class="external-link">scale the number of stakers</a> nominating on Polkadot. Join us as we <a href="https://github.com/paritytech/polkadot-sdk/issues/491" target="_blank" class="external-link">migrate staking functionalities</a> from the relay chain to a system parachain.</p>
+<p>Ankan and Goncalo</p>
+<p>[!tldr]- Multi-Block Staking<br>
+Discover Polkadot's innovative validator election method using <a href="https://wiki.polkadot.network/docs/learn-phragmen" target="_blank" class="external-link">NPoS</a>. Dive deeper into our efforts to <a href="https://wiki.polkadot.network/docs/learn-nomination-pools" target="_blank" class="external-link">scale the number of stakers</a> nominating on Polkadot. Join us as we <a href="https://github.com/paritytech/polkadot-sdk/issues/491" target="_blank" class="external-link">migrate staking functionalities</a> from the relay chain to a system parachain.</p>
+<p>Ankan and Goncalo</p>
+<p>[!tldr]- Multi-Block Staking<br>
+Discover Polkadot's innovative validator election method using <a href="https://wiki.polkadot.network/docs/learn-phragmen" target="_blank" class="external-link">NPoS</a>. Dive deeper into our efforts to <a href="https://wiki.polkadot.network/docs/learn-nomination-pools" target="_blank" class="external-link">scale the number of stakers</a> nominating on Polkadot. Join us as we <a href="https://github.com/paritytech/polkadot-sdk/issues/491" target="_blank" class="external-link">migrate staking functionalities</a> from the relay chain to a system parachain.</p>
+<p>Ankan and Goncalo</p>
 </div></div>
 <h2 id="communication" tabindex="-1">📡 Communication</h2>
 <h3 id="sync" tabindex="-1">📞 Sync</h3>
 <ul>
-<li>Weekly &quot;Runtime Function Hangout&quot;
+<li>Weekly &quot;Runtime Function Hangout&quot; call.
 <ul>
 <li>Agenda curated collectively in calendar invite. If you'd like to encourage others to show up, put your item there.</li>
 <li>Communicate important decisions in the group chat for those who are not present.</li>
@@ -446,39 +451,47 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 </ul>
 </li>
 </ul>
+<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> The Runtime Function Element Space<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+This is an example of who the spaces and sub-spaces in our Element space looks like.<br>
+<img src="/img/user/resources/Screenshot%202024-07-01%20at%2010.08.20.png" alt="Screenshot 2024-07-01 at 10.08.20.png"></p>
+</div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> More on Element</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
 </p><ul>
-<li>You can always group a number of chats from different spaces (or no space in particular) into a private space, if you'd like to get more visibility</li>
+<li><strong>Pro tip</strong>: You can always group a number of chats from different spaces (or no space in particular) into a private space, if you'd like to group chats together and avoid the &quot;Other Rooms&quot; or &quot;Favorites&quot; to bloat.</li>
 <li>Be mindful of joining too many rooms, if it prevents you from keeping up with notifications that actually matter.</li>
-<li>Consider using alternative clients, if it fits you better.</li>
+<li>Consider using alternative Matrix clients, if it fits you better.</li>
 <li>Element supports a very simple to setup <strong>RSS feed</strong>, which can be useful to keep up with things.</li>
-<li><strong>Custom keyword notifications</strong> in Matrix are very useful to keep you up to date with certain topics.</li>
-<li>More in the devops wiki. Ask questions in Element Helpdesk if need be.</li>
+<li><strong>Custom keyword notifications</strong> in Element/Matrix are very useful to keep you up to date with certain topics that you feel responsible for.</li>
+<li>More in the devops wiki. Ask questions in Element/Devops Helpdesk if need be.</li>
+<li><a href="https://docs.google.com/document/d/1WTLx1k46g0WeB6Afp02XS682SUFbqJUVp4bKhXksYFo/edit#heading=h.v9anig8niu5f" target="_blank" class="external-link">Doc</a> for our last round of element revamp.</li>
 </ul>
 <p></p></div></div>
-<p>TODO: a sentence on why we use element to begin with. I cannot write this as I hate it and genuinely think we should not use it.</p>
+<p>TODO: a sentence on why we use element to begin with.</p>
 <h4 id="where-how-much-to-write" tabindex="-1">😱 Where/How-much to Write?</h4>
-<p>A common question around async communication in chats is how loud you should be. For example, whether you should talk in big chats, as opposed to DM.</p>
-<p>We are a fairly small company. Prefer sharing things in broad element groups where most people can see then, rather than small chats with a handful of people. As an example, we have vibrant chats such as:</p>
+<p>A common question around async communication in chats is how &quot;loud&quot; you should be. For example, whether you should talk in big chats, as opposed to DM.</p>
+<p>We are a fairly small company. Prefer sharing things in broad element groups where most people can see them, rather than small chats with a handful of people. As an example, we have vibrant chats such as:</p>
 <ol>
-<li>Engineering General</li>
-<li>FRAME Public</li>
-<li>XCM Public</li>
+<li><a href="https://matrix.to/#/#engineering-general:parity.io" target="_blank" class="external-link">Engineering General</a></li>
+<li><a href="https://matrix.to/#/#frame:parity.io" target="_blank" class="external-link">FRAME Public</a></li>
+<li><a href="https://matrix.to/#/#xcm:parity.io" target="_blank" class="external-link">XCM Public</a></li>
+<li><a href="https://matrix.to/#/#documentation-team:parity.io" target="_blank" class="external-link"><code>polkadot-sdk-docs</code></a></li>
 </ol>
-<p>That are used for various topics and Q&amp;As, and using them is highly recommended.</p>
+<p>That are used for various discussion topics, requesting reviews and Q&amp;As, and using them is highly recommended.</p>
 <blockquote>
-<p>.. But what if I am too loud, what it I annoy someone, or ask a stupid question?</p>
+<p>.. But what if I am too loud, what it I annoy someone, or ask a <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions"> dumb question</a>?</p>
 </blockquote>
 <p>Short answer: <strong>It is not your problem</strong>.</p>
-<p>In an async environment, it is much easier to be under-heard and under-share, then the opposite. Therefore, it is safer to optimize for over-sharing than opposite.</p>
+<p>In an async environment, it is much easier to be under-heard and under-share, then the opposite. Therefore, it is safer to optimize for over-sharing, and only adjust if necessary.</p>
 <p>If your over-sharing and are actively annoying anyone, it is <em>their</em> responsibly to give you that feedback, and you should adapt if the feedback is reasonable. But if you are <em>silently</em> under-sharing, it is much harder to identify it as an issue and recover from it. I suggest always preferring to share something where the <em><strong>most broad audience can see it</strong></em>, unless you conclude otherwise for some specific reason.</p>
 <div class="callout" data-callout="example"><div class="callout-title"><div class="callout-title-inner"> Async Communication 101</div></div>
 <div class="callout-content">
 <p>
 </p><ul>
-<li>Adjust your workflow (as much as possible) such that you are <em><strong>NOT</strong></em> blocked by other's not replying to you immediately.</li>
+<li>Adjust your workflow (as much as possible) such that you are <em><strong>NOT</strong></em> blocked by other's not replying to you immediately. Explore a reasonable degree of multi-tasking.</li>
 <li>Be concise and to-the-point in conveying your message. <a href="https://nohello.net/en/" target="_blank" class="external-link">The &quot;no hello&quot; is a good example 😉</a>.</li>
 <li>Prefer sharing things <em>where most poeple can see it</em>.</li>
 <li>Prefer sharing things where it has the most longevity.
@@ -489,14 +502,15 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 </ul>
 <p></p></div></div>
 <h3 id="dumb-questions" tabindex="-1">🤪 Dumb Questions</h3>
-<p>Parity has an interesting attitude towards this. We have a room specifically called &quot;<em>Parity Dumb Questions</em>&quot;, to remind you that there is no such thing as a dumb question<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. Let's be honest: Web3 is a super complicated space. Only a few are knowledgeable enough to have a high level understanding of <em>everything</em>. Most of us are new in this space. Moreover, this space, and Parity, move really fast. What you know today might need an update in 3 months.</p>
+<p>Parity has an interesting attitude towards this. We have a room specifically called &quot;<em>Parity Dumb Questions</em>&quot;, to remind you that there is no such thing as a dumb question<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
+<p>Let's be honest: Web3 is a complicated space, for both engineers and non-engineers. Only a few are knowledgeable enough to have a high level understanding of <em>everything</em>. Most of us are new in this space. Moreover, this space (and Parity) move really fast. What you know today might need an update in 6 months.</p>
 <p>So, in short: There is a million things to (re)learn, and asking those who know better than you is the most wise thing you can do. As the saying goes: &quot;<em>The only dumb question is the one you don't ask</em>&quot;.</p>
 <p>But, there is a few notes that you should keep in mind about questions:</p>
 <div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Asking Questions 101</div></div>
 <div class="callout-content">
 <p>
 </p><ul>
-<li>First, while we assert there is no such thing as dumb questions, there is such a thing as a &quot;lazy question&quot;. That is, when you are told to &quot;do <code>x</code>&quot; by person <code>A</code>, and then you go to person <code>B</code> and as &quot;hey, how do I do <code>x</code>?&quot;. A good question should indicate that you have put some effort into the matter yourself.</li>
+<li>First, while we assert there is no such thing as dumb questions, there is such a thing as a <em>lazy question</em>. That is, when you are told to &quot;do <code>x</code>&quot; by person <code>A</code>, and then you go to person <code>B</code> and as &quot;hey, how do I do <code>x</code>?&quot; This might be seen as a lazy question, and not so cool to do it often. A good question should indicate that you have put some effort into the matter yourself, and are now seeking validation of your progress.</li>
 <li>Avoid <a href="https://xyproblem.info/" target="_blank" class="external-link">the xy problem</a>.</li>
 <li>See <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.</li>
 </ul>
@@ -513,11 +527,14 @@ The information in this section is kept at minimum, as majority of what you have
 <li>Proper PR description, as per <code>PULL_REQUEST_TEMPLATE</code>.</li>
 <li>Adhering to everything in <code>CONTRIBUTING.md</code>.</li>
 </ol>
-<p>A common issue that might arise is for you to open a PR, and for it to not receive the reviews you hoped for. While we are all obliged to spend a part of our time reviewing each others' code, we all tend to be busy as well. Opening a PR, yet silently letting it sit stale for a month is your shortcoming, not others'. As noted above, be vocal in making sure you get enough feedback to get your PR merged in time. When asked for, we often review very quickly.</p>
-<p>TODO: maybe the tone is a bit too strong^^</p>
+<div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> The stale PR issue<br></div></div>
+<div class="callout-content">
+<p>
+A common issue that might arise is for you to open a PR, and for it to not receive the reviews you hoped for. While we are all obliged to spend a part of our time reviewing each others' code, we all tend to be busy as well. Opening a PR, yet silently letting it sit stale for a month is your foremost your shortcoming, not others'. Be vocal, both in public and with your manager/TL to ensure your PRs get the amount of review they deserve.</p>
 <p><picture src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png"><source media="(max-width:480px)" srcset="/img/optimized/OeBB1qF2KF-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/OeBB1qF2KF-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/OeBB1qF2KF-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OeBB1qF2KF-700.jpeg"><img class="" src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png" width=""></picture></p>
+</div></div>
 <div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Release and Audit Rooms<br></div></div>
 <div class="callout-content">
 <p>
@@ -533,21 +550,20 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 <p>Yet again, a lot of this goes back to the dual realities (<a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do">💊 The Reality of What We Do</a>) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:</p>
 <ol>
 <li><strong>Test-network Runtime Upgrade</strong>: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further?</li>
-<li><strong>RC/SC Runtime Upgrade</strong>: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>. This is another milestone for testing: Did everything go smoothly?</li>
+<li><strong>RC/SC Runtime Upgrade</strong>: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>. This is another milestone for testing: Did everything go smoothly? The release process of RC runtimes, and their enactment is fully public and managed by the Polkadot fellowship, so you can easily tag along.</li>
 <li><strong>Developer Community Impact</strong>.
 <ol>
 <li>Did any UIs break because of your feature? could we have communicated better with them?</li>
-<li>Are any new documentation pages needed? (easier to forget) Are any of the existing ones outdated now? Maybe one of the most visited StackExchange questions needs being updated?</li>
+<li>Are any new documentation pages needed? (easier to forget:) Are any of the <em>existing ones outdated now</em>? Maybe one of the most visited StackExchange questions needs being updated?</li>
 <li>Was your PR description good for downstream teams to be able to adopt the feature?</li>
 </ol>
 </li>
 <li><strong>Monitoring and Data</strong>
-<ol>
-<li>TODO:</li>
-<li>Devops Wiki</li>
-<li>Transparency into when Westend is updated.</li>
-<li>Access to gitlab</li>
-</ol>
+<ul>
+<li><a href="https://github.com/paritytech/devops/wiki" target="_blank" class="external-link">Devops Wiki</a>: A lot of great resources about our infra, and how to do monitoring of parity run nodes, validators, logs, and more!</li>
+<li><a href="https://x.com/dotlake_xyz" target="_blank" class="external-link">DotLake</a> (public)</li>
+<li><a href="https://metabase.data.paritytech.io/" target="_blank" class="external-link">Metabase</a> (private)</li>
+</ul>
 </li>
 </ol>
 <h3 id="know-your-api" tabindex="-1">🧐 Know Your API</h3>
@@ -557,12 +573,12 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 </blockquote>
 <p>Consider:</p>
 <ol>
-<li>An optimization made to the networking of the parachains protocol. This will improve the performance of parachain networking by 10%, without any action needed by anyone, as soon as the crate is released and updated. In such cases, be my guest, and ignore the majority of this rant. Your work is not directly affecting end-users. You can still demonstrate competence by adhering to everything said here, but is is less critical</li>
+<li>An optimization made to the networking of the parachains protocol. This will improve the performance of parachain networking by 10%, without any action needed by anyone, as soon as the crate is released and updated. In such cases, be my guest, and ignore the majority of this rant. Your work is not directly affecting end-users. You can still demonstrate competence by adhering to everything said here, but a lot of it is not relevant.</li>
 <li>Contrary, consider the following:
 <ul>
 <li>Working on a new major revision of any of the <code>FRAME</code> modules used by Polkadot end-users, such as <code>staking</code>, <code>proxy</code> or <code>multisig</code>.</li>
-<li>Similarly, working on any feature that is expected to be integrated into wallets, exchanges, or other 3rd party software.</li>
-<li>Changed an API in FRAME or Substrate Node that might make existing code that compiles no longer compile
+<li>Working on any feature that is expected to be integrated into wallets, exchanges, or other 3rd party software.</li>
+<li>Changed an API in FRAME or Substrate that might make existing code that compiles no longer compile.
 <ul>
 <li>Even more pesky, existing correct code might still compile, but be incorrect if some upgrade path is not followed.</li>
 </ul>
@@ -570,25 +586,35 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 </ul>
 </li>
 </ol>
-<p>Our PRDoc system's audience section is a good framework to help you think about the final audience of your code.</p>
+<p>Our <a href="https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/prdoc/schema_user.json" target="_blank" class="external-link">PRDoc system's audience section</a> is a good framework to help you think about the final audience of your code.</p>
 <p>Moreover, new release process, with its emphasis on semantic versioning, will force you to think about this to a high extent, but it does not encapsulate the full magnitude of the above. For example, in your PR, you might be causing major bump to many crates, but only one of the crates is something that actually matters to the main audience, noted in the PRDoc.</p>
 <h3 id="be-the-housemeister" tabindex="-1">🧹 Be The Housemeister</h3>
-<p>TODO: Clean issues, triage them, put the right label etc.</p>
+<p>We are a true open-source project, and our entire issue-tracking system is what we publicly have in Github. While our issue list has grown very large and it is unlikely that our team can clean it up, we can keep <em>issues that are relevant to our team</em> tidy, well described and properly labeled. Practically:</p>
+<ol>
+<li>Keep the issues that you have created tidy.</li>
+<li>Keep an eye on the issues opened by external contributors (they are auto-labeled as <code>unconfirmed</code>) and see if you can triage them. We sometimes get important bug reports from external users and the only way to do so</li>
+<li>Similarly, you can have some degree of supervision upon areas of our StackExchange.</li>
+<li>Keeping a good list of mentor</li>
+</ol>
+<blockquote>
+<p>Needless to say, most of this is not relevant to you at day-0, but it will become as you grow to be an expert in some domains.</p>
+</blockquote>
 <h2 id="keeping-up" tabindex="-1">🤓 Keeping Up</h2>
 <p>In reality, you are joining the Polkadot ecosystem, not just Parity. And there is a lot happening in Polkadot! Some links for you to explore based on your interest in various topics:</p>
 <ul>
 <li>Governance: <a href="https://kusama.polkassembly.io/" target="_blank" class="external-link">Polkassembly</a>, <a href="https://kusama.subsquare.io/" target="_blank" class="external-link">SubSquare</a>, AAG.</li>
-<li>The Kusamarian, SpaceMonkey</li>
+<li>The <a href="https://x.com/TheKusamarian" target="_blank" class="external-link">Kusamarian</a></li>
 <li>Community Element Chats:
 <ul>
 <li><a href="https://matrix.to/#/#polkadot-watercooler:web3.foundation" target="_blank" class="external-link">Watercooler</a>, <a href="https://matrix.to/#/#polkadot-direction:matrix.parity.io" target="_blank" class="external-link">Direction</a>, and <a href="https://matrix.to/#/#polkadotvalidatorlounge:web3.foundation" target="_blank" class="external-link">Validator Lounge</a> if you want more exposure</li>
 <li>And <a href="https://matrix.to/#/#kusamawatercooler:web3.foundation" target="_blank" class="external-link">Kusama Watercooler</a>, <a href="https://matrix.to/#/#kusama:matrix.parity.io" target="_blank" class="external-link">Direction</a>.</li>
 </ul>
 </li>
-<li>Newsletters: <a href="https://newsletter.dotleap.com/?triedSigningIn=true" target="_blank" class="external-link">DotLeap</a>. Bill Laboon's Daily Digest.</li>
+<li>Newsletters: <a href="https://newsletter.dotleap.com/?triedSigningIn=true" target="_blank" class="external-link">DotLeap</a>.</li>
+<li><a href="https://x.com/BillLaboon" target="_blank" class="external-link">Bill Laboon</a>'s <a href="https://x.com/hashtag/PolkadotDigest?src=hashtag_click" target="_blank" class="external-link">Daily Digest</a>.</li>
 <li>Polkadot Fellowship
 <ul>
-<li>Public Element Room 1, Room 2.</li>
+<li>Public Element <a href="https://matrix.to/#/#fellowship-open-channel:parity.io" target="_blank" class="external-link">Room 1</a>, <a href="https://matrix.to/#/#fellowship-members:parity.io" target="_blank" class="external-link">Room 2</a>.</li>
 <li><a href="https://github.com/polkadot-fellows/" target="_blank" class="external-link">Github org, including manifesto.</a></li>
 </ul>
 </li>
@@ -596,7 +622,7 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 <li>I personally like to follow these for general crypto stuff:
 <ul>
 <li><a href="https://decrypt.co/" target="_blank" class="external-link">Decrypt</a>.</li>
-<li>Podcast: <a href="https://thedefiant.io/podcasts" target="_blank" class="external-link">Defiant</a>, Bankless and <a href="https://www.youtube.com/c/unchainedpodcast" target="_blank" class="external-link">Unchained</a> Podcast.</li>
+<li>Podcast: <a href="https://thedefiant.io/podcasts" target="_blank" class="external-link">Defiant</a>, <a href="https://podcast.banklesshq.com/" target="_blank" class="external-link">Bankless</a> and <a href="https://www.youtube.com/c/unchainedpodcast" target="_blank" class="external-link">Unchained</a>.</li>
 <li><a href="https://www.coinbureau.com/videos/" target="_blank" class="external-link">CoinBureau’s weekly crypto</a> update videos every Monday (yes, but it is good to know what the <em>mainstream</em> thinks..)</li>
 <li>Bloomberg Crypto reports, <a href="https://newsletterhunt.com/newsletters/money-stuff-by-matt-levine" target="_blank" class="external-link">Matt Levine Money Stuff</a>.</li>
 </ul>
@@ -611,71 +637,99 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 <p><picture src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png"><source media="(max-width:480px)" srcset="/img/optimized/WyZkceyS53-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/WyZkceyS53-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/WyZkceyS53-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/WyZkceyS53-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png" width=""></picture><br>
-A <a href="https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/view?usp=sharing" target="_blank" class="external-link">culture talk from Gav</a> in the 2022 Tenerife retreat. This snippet of this talk is among my favorites.</p>
+A <a href="https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/view?usp=sharing" target="_blank" class="external-link">culture talk from Gav</a> in the 2022 Tenerife retreat. This snippet of this talk is among my favorites:</p>
 <p>!<a class="internal-link is-unresolved" href="/404" target="">center</a><br>
-You can find the deck itself <a href="https://docs.google.com/presentation/d/15-lL1xKAVMt_50X2ri7hsEhU3Z0he04K017mZCIeRZI/edit#slide=id.g26b31d0a78ca97e7_10" target="_blank" class="external-link">here</a>. If I wanted to name one slide from it that you should think about the most, it would be:</p>
+You can find the culture deck from 2022 <a href="https://docs.google.com/presentation/d/15-lL1xKAVMt_50X2ri7hsEhU3Z0he04K017mZCIeRZI/edit#slide=id.g26b31d0a78ca97e7_10" target="_blank" class="external-link">here</a>. If I wanted to name one slide from it that you should think about the most, it would be:</p>
 <p><picture src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png"><source media="(max-width:480px)" srcset="/img/optimized/qaDxriRBBj-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/qaDxriRBBj-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/qaDxriRBBj-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/qaDxriRBBj-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png" width=""></picture></p>
 <p>The majority of the efforts of your team lead, and this document is to help you toward achieving the status mentioned in the above sentence.</p>
-<h3 id="resources" tabindex="-1">🔬 Resources</h3>
+<h3 id="parity-xp" tabindex="-1">🔬 Parity XP</h3>
 <ul>
-<li>All Hands Archive</li>
-<li>Handbook</li>
-<li>Parity XP Course</li>
-<li><a href="https://forum.parity.io/c/parity-comms/internal-comms/106" target="_blank" class="external-link">Internal Comms in Forum</a></li>
+<li><a href="https://www.parity.io/login" target="_blank" class="external-link">Parity XP</a> contains links to everything else that is part of the internal org-wide onboarding.</li>
 </ul>
 <h2 id="appendix-principles-for-excellence" tabindex="-1">💎 Appendix: Principles For Excellence</h2>
-<p>Personal opinion of @kianenigma follows. These are things that I believe will help you be excellent, and help others be the same. This is an opinionated re-iteration of some competencies that are noted in CultureAmp.</p>
+<blockquote>
+<p>Personal opinion of @kianenigma follows.</p>
+</blockquote>
+<p><strong>These are ideas that I believe will help you be excellent, and help others be the same</strong>. This is an opinionated re-iteration of some competencies that are noted in our CultureAmp.</p>
 <h3 id="stability-over-chaos" tabindex="-1">Stability Over Chaos</h3>
-<p>A theme in Parity, Polkadot in 2024 and beyond has been <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc" target="_blank" class="external-link">Stability</a>. We used to say: &quot;<em>We write code faster than we can write about it</em>&quot;. Parity has always been a company known for engineering excellence, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to solve a new issue is 0.</p>
+<p>A theme in Polkadot in 2024 has been <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc" target="_blank" class="external-link">Stability</a>. We used to say: &quot;<em>We write code faster than we can write about it</em>&quot;. Parity has always been a company known for <em>engineering excellence</em>, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to deliver a new feature is 0. The simpler, less-breaking a solution, the more elegant it is.</p>
 <h3 id="information-de-centralization-and-longevity" tabindex="-1">Information (de)Centralization and Longevity</h3>
 <p>As noted in <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions">🤪 Dumb Questions</a>, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of <strong>information centralization</strong>. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.</p>
 <p><em><strong>The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.</strong></em></p>
-<p>The best example of this is something that I personally do: Policing people to move good conversations and Q&amp;As from Element to more permanent places. Every time I see a good technical question answered in Element, I do:</p>
+<p>The best example of this is something that I personally do: Policing people to move good conversations and Q&amp;As from a small Element room to more permanent places. Every time I see a good technical question asked in our Element:</p>
 <ol>
-<li>If this question is already asked in StackExchange, then I don't need to rewrite the answer. I will paste a link and move on.</li>
+<li>If this question is already asked in StackExchange, or in any of our docs, then I don't need to rewrite the answer. I will paste a link and move on.</li>
 <li>If not asked, and I know the answer, I don't answer the question in chat, but instead ask the person to ask it in StackExchange, and only then answer.</li>
 </ol>
-<p>This is merely one example, but the mentality it demonstrates is applicable to many situations. &quot;<em>If you had to spend 1h answering a question, how can you make sure no one else has to endure the same</em>&quot;?</p>
-<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Another Great Example<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<p>This is merely one example, but the mentality it demonstrates is applicable to many situations. &quot;<em>If you had to spend 1h answering a question, how can you make sure the next time someone has the same question, it takes them 1m?</em>&quot;?</p>
+<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> A Great Example<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
-In H12024, Liam was one of the FRAME developers working on the release process. There entirety of the acceleration department had constant questions about the status of this work, and how it would affect them.<br>
-A good behavior in this case would be for those who have questions to ask them publicly, in a large chat room, and for Liam to answer in the same place.<br>
-A superb behavior is that Liam recorded a video answering FAQs and updates, accompanied by a forum post, and shared it.</p>
+In H12024, Liam was working on the release process. There entirety of the acceleration department had constant questions about the status of this work, and how it would affect them.<br>
+Keeping an eye on chats and answering question promptly would have been a responsible thing to do by Liam, but he even went a step further and recorded a quick Loom + FAQ and posted it in the forum. This ensures a lot of questions are answered all at once + it is not list in the history of some chat. This is a great example of working towards <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>.</p>
 </div></div>
 <h3 id="domain-ownership" tabindex="-1">Domain Ownership</h3>
-<p>Take radical and proactive ownership of what you have built, and be proud of it. We highly encourage engineers to grow a vision for what they are working on, and dictate its future. This is great, and it gives you a lot of flexibility and freedom.</p>
-<p>But, freedom always comes with responsibility. What are those:</p>
+<p>Take radical and proactive ownership of what you have built, and be proud of it. We highly encourage engineers to grow a vision for what they are working on, and influence its future. This gives you a high degree of freedom to not only have a say on <em>how</em> some feature is implemented, but also <em>which</em> features are worthwhile.</p>
+<p>But, <strong>freedom comes with responsibility</strong>:</p>
 <ul>
 <li>As the owner of a domain, both internally and externally, you need to make yourself known as the owner, so that others can find you.</li>
-<li>Follow your domain, and participate in conversations around it.</li>
+<li>Follow your domain carefully, participate in conversations around it, answer questions.</li>
+<li>You need to interact with experts and higher level leaders both in Parity and the community to share your ideas and come to a conclusion about the future</li>
 </ul>
 <div class="callout is-collapsible is-collapsed" data-callout="example"><div class="callout-title"><div class="callout-title-inner">Example</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
 <p>
 For example, if you aspire to be the owner of a domain, you would try to create notifications to be informed about all activity around this topic in the Polkadot forum, SE and twitter, and participate accordingly.</p>
 </div></div>
+<div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Not For Everyone<br></div></div>
+<div class="callout-content">
+<p>
+Of course this attitude of wanting a higher level of ownership and responsibility is not what everyone wishes, and is generally expected for an L5+ engineer.</p>
+</div></div>
 <p>Proper off-boarding and handover is also an important aspect of <strong>ownership</strong>. We move companies, teams, or sometimes, put a stop to an initiatives for various reasons. But what happens to the part of the project that is already out there? Should we bring it down? should we archive a repo? Prevent letting initiatives going stale.</p>
-<p>Todo: note on choosing your battle</p>
 <h3 id="announce-early" tabindex="-1">Announce Early</h3>
-<p>In tandem to the above, try and announce what you are working on early, and embrace feedback. When you start an initiative, announce the vision in the public (eg. Parity forum if internal, Polkadot otherwise), then link to an Element room if one exists where one can join for a more in depth discussion about the project.</p>
+<p>In tandem to the above, try and announce<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup> what you are working on early, and embrace feedback. When you start an initiative, announce the vision, then link to a public Element room if one exists where one can join for a more in depth discussion about the project.</p>
 <h3 id="don-t-be-blocked-on-decisions" tabindex="-1">Don't Be Blocked On Decisions</h3>
-<p>Share your thoughts, what you think is the best answer and should happen, share it publicly, and if after <code>x</code> weeks no objections comes, you execute.</p>
+<p>Sometimes it is hard to come up with an answer to an decision. Unless if it is a very irreversible one, you can do the following: Share what you think is the best approach, and if after <code>x</code> weeks no objections comes, you execute.</p>
 <h3 id="measuring-impact" tabindex="-1">Measuring Impact</h3>
 <p>The impact of what we do, specifically for end-user facing work (as defined in <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#know-your-api">🧐 Know Your API</a>), is NOT how many PRs we manage can merge into <code>polkadot-sdk</code>, but rather how much our code is being user by end-users or developers.</p>
 <h3 id="liveness-above-all" tabindex="-1">Liveness Above All</h3>
 <p>Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship.</p>
-<p>Making Polkadot successful is, one way or another, our main mission. Thereofre, ongoing bugs and existential issues that might arise should never be be discarded as &quot;it is not the task I am working on, so not my problem&quot;. If something important comes up, it is everyone's task.</p>
+<p><strong>Making Polkadot successful is, one way or another, our main mission</strong>. Therefore, important bugs and existential issues that might arise should never be be discarded as &quot;it is not the task I am working on, so not my problem&quot;. If something important comes up that is possibly an existential threat to Polkadot, it is everyone's first priority.</p>
 <h3 id="resilience-above-all" tabindex="-1">Resilience Above All</h3>
-<p>TODO</p>
+<p>We proudly consider ourselves as one of the (few) companies that is &quot;<em>doing blockchain right</em>&quot;. In that, we are not in this for a short term profit, for capturing a hype or anything other than making the <a href="https://gavwood.com/web3lt.html" target="_blank" class="external-link">true</a> <a href="https://www.reddit.com/r/ethereum/comments/23beb3/insights_into_a_modern_world_%C3%B0apps_what_web_30/" target="_blank" class="external-link">Web3 vision</a> come to fruition.</p>
+<p>And what is that Web3 vision: That we need to build the tools necessary to be able to build resilient systems that can survive the test of time. Blockchains are one important type of such systems.</p>
+<p>We are also proud to be on the forefront of scalability of Blockchains, without sacrificing Resilience, something that we think other blockchain systems have deliberately opted to sacrifice.</p>
+<p>With all that said, what is practically means for us, is that when we are developing runtimes and blockchains, making sure the system is sound, secure and sybil resistance is non-negotiable.</p>
+<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> But What About UX?<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+Historically, we have also sacrifices a lot of UX for resilience. We do wish to put a stop to that, and build more user-friendly systems going forward. That being said, we should similarly openly explore ways to improve UX without sacrificing resilience.</p>
+</div></div>
+<h2 id="learning-resources" tabindex="-1">Learning Resources</h2>
+<ul>
+<li>Polkadot Blockchain Academy
+<ul>
+<li><a href="https://www.youtube.com/@polkadotblockchainacademy/playlists" target="_blank" class="external-link">Recordings</a></li>
+<li><a href="https://github.com/Polkadot-Blockchain-Academy/pba-content" target="_blank" class="external-link">slides</a></li>
+</ul>
+</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/posts/tech/polkadot-s-build-horizon/">Polkadot's Build Horizon</a>: Contains some up-to-date learning resources</li>
+</ul>
+<h2 id="wrapping-up" tabindex="-1">Wrapping Up</h2>
+<p>Okay, this was long! thank you for reading! for any feedback, reach out to @kianenigma.</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>Because if all questions are dumb questions, then no questions are dumb questions. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+<li id="fn1" class="footnote-item"><p>Notionally part of another team called <code>node-ask</code>, but we contribute to the node side of Substrate as well. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn2" class="footnote-item"><p>This is usually done in two steps: first, a release made by the Polkadot fellowship, and a runtime upgrade being authorized by the community. Parity coordinates these operations, but does not have full control over them. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+<li id="fn2" class="footnote-item"><p>Because if all questions are dumb questions, then no questions are dumb questions. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>This is usually done in two steps: first, a release made by the Polkadot fellowship, and a runtime upgrade being authorized by the community. Parity coordinates these operations, but does not have full control over them. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>Announcements should generally be done in the Polkadot forum, unless if for some reason it needs to be private, in which case it can be done in the Parity Forum. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
@@ -732,7 +786,7 @@ On this page
 <ol>
 <li><a href="#culture">🎭 Culture</a>
 </li>
-<li><a href="#resources">🔬 Resources</a>
+<li><a href="#parity-xp">🔬 Parity XP</a>
 </li>
 </ol>
 </li>
@@ -755,6 +809,10 @@ On this page
 <li><a href="#resilience-above-all">Resilience Above All</a>
 </li>
 </ol>
+</li>
+<li><a href="#learning-resources">Learning Resources</a>
+</li>
+<li><a href="#wrapping-up">Wrapping Up</a>
 </li>
 </ol>
 </nav>
