@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T11:55:59.658+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T14:05:28.011+03:30"}
 ---
 
 - [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|👋🏻 Intro: Welcome to The Runtime Function]]
@@ -135,7 +135,11 @@ Let’s take a moment and introduce you to a non-exhaustive list of great things
 > * More in the devops wiki. Ask questions in Element/Devops Helpdesk if need be. 
 > * [Doc](https://docs.google.com/document/d/1WTLx1k46g0WeB6Afp02XS682SUFbqJUVp4bKhXksYFo/edit#heading=h.v9anig8niu5f) for our last round of element revamp.
 
-TODO: a sentence on why we use element to begin with. 
+Why do we use element to begin with? 
+
+> Privacy-preserving, semi-redundant due to connectivity with other homeservers (so even if ours goes down, people on other homeservers can still interact with the channels they're in). Interoperable (with other chat protocols, due to bridges), customizable/programmable and control over our data.
+> 
+> Erin
 #### 😱 Where/How-much to Write? 
 
 A common question around async communication in chats is how "loud" you should be. For example, whether you should talk in big chats, as opposed to DM. 
