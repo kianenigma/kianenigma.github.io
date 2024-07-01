@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-01T14:15:32.261+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-01T14:16:44.538+03:30"}
 ---
 
 
@@ -166,6 +166,7 @@ CorePlay is one example of using JAM flexible primitives to create a synchronous
 ### CoreChains Service
 
 Finally, let's wrap up 
+TODO
 
 ## Appendix: Data Sharding
 
@@ -174,18 +175,24 @@ The type of data that a blockchain application has access to
 - L1 Data: smart contract living on L1
 - New: DA layer
 
+TODO
 ## Appendix: Re Defining Blockspace
 
 Polkadot's blockspace is therefore a combination of a lot of in-core blockspace, and a reasonable amount of on-chain blockspace. 
 
+TODO
 ## Appendix: Scalability Space Map
 
-1. Beefy hardware + optimization: Solana
-2. Optimistic Rollups
-3. ZKP
-4. Data and Execution Sharding
+1. Beefy hardware + optimization in a singleton blockchain: Solana
+2. Sharding:
+	1. Optimistic Rollups
+	2. ZKP
+	3. Data and Execution Sharding: Polkadot's Pessimistic Sharding
 
-A short digest from the graypaper.
+A short recap of the above. 
+
+TODO
+
 
 
 ## Resources 
