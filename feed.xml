@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" >
     <link href="https://blog.kianenigma.nl/" >
-    <updated>2024-07-01T10:47:27Z</updated>
+    <updated>2024-07-01T10:48:59Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -489,7 +489,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-01T10:46:44.538Z</updated>
+            <updated>2024-07-01T10:48:16.434Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of the Blockchain space as a whole, and possibly one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM &lt;a href=&quot;http://www.graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;graypaper&lt;/a&gt;.&lt;/p&gt;
@@ -580,9 +580,9 @@ Polkadot 2, among other features, is unfolding as we speak, and not much further
 &lt;p&gt;JAM builds on top of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#polkadot-2&quot;&gt;Polkadot 2&lt;/a&gt;, in that it tries to make Polkadot cores more useful, but in ways radically more flexible and unopinionated manner than agile-coretime.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Polkadot 2 makes the deployment of L2s radically more flexible on cores.&lt;/li&gt;
-&lt;li&gt;JAM is all about deploying &lt;em&gt;any application&lt;/em&gt; on Polkadot cores, even those that don&#39;t resemble a blockchain.&lt;br /&gt;
-This is achieved through exposing all the main 3 primitives discussed above to programmers, namely: on-chain, in-core, and the DA layer.&lt;/li&gt;
+&lt;li&gt;JAM is all about deploying &lt;em&gt;any application&lt;/em&gt; on Polkadot cores, even those that don&#39;t resemble a blockchain.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;This is primarily achieved through exposing all the main 3 primitives discussed in the previous section to programmers, namely: on-chain, in-core, and the DA layer.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;More verbosely, in JAM, cores are exposed at a much more flexible manner to:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Allow both the work that is being done in-core and on-chain to be fully programmable.&lt;/li&gt;
