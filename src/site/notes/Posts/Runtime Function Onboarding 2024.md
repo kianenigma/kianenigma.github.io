@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T11:51:10.075+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T11:54:10.053+03:30"}
 ---
 
 - [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|👋🏻 Intro: Welcome to The Runtime Function]]
@@ -56,7 +56,7 @@ Working in the above implies two very important self-evident truths about the ty
 	* Is my feature well documented? can someone else use/understand it? 
 	* Is my feature a breaking change? 
 
-![8utsbt.jpg](/img/user/resources/8utsbt.jpg)
+![8vjgdz.jpg](/img/user/resources/8vjgdz.jpg)
 
 We will repeatedly come back to these two points throughout this document. 
 
@@ -354,5 +354,5 @@ Okay, this was long! thank you for reading! for any feedback, reach out to @kian
 
 [^1]: This is usually done in two steps: first, a release made by the Polkadot fellowship, and a runtime upgrade being authorized by the community. Parity coordinates these operations, but does not have full control over them. 
 [^2]: Because if all questions are dumb questions, then no questions are dumb questions. 
-[^3]: Notionally part of another team called `node-ask`, but we contribute to the node side of Substrate as well.
+[^3]: Notionally part of another team called `node-sdk`, but we contribute to the node side of Substrate as well.
 [^4]: Announcements should generally be done in the Polkadot forum, unless if for some reason it needs to be private, in which case it can be done in the Parity Forum. 
