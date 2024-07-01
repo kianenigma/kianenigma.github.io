@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-01T14:01:24.083+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-01T14:15:32.261+03:30"}
 ---
 
 
@@ -10,7 +10,9 @@ The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-rav
 This article makes use and assumes familiarity of the following concepts: 
 * Describing a blockchain as a state-transition function. 
 * Understanding of what is "State"
+	* Both explained [here](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/blockchain_state_machines/index.html).
 * Economic Security and Proof of Stake. 
+	* Explained in [this PBA lecture](https://polkadot-blockchain-academy.github.io/pba-book/economics/economics-of-polkadot/page.html#staking-concept), [recording](https://www.youtube.com/watch?v=suyram9vaFc)
 ## Prelude: Polkadot 1
 
 First, let's take a moment and write down what I consider the top novel features of Polkadot 1. 
