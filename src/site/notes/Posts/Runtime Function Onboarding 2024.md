@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T11:28:11.392+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T11:51:10.075+03:30"}
 ---
 
 - [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|👋🏻 Intro: Welcome to The Runtime Function]]
@@ -273,7 +273,8 @@ First, here’s a little screenshot of an all-hands talk about vision of Parity 
 ![Screenshot 2024-06-24 at 19.12.10.png](/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png)
 A [culture talk from Gav](https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/view?usp=sharing) in the 2022 Tenerife retreat. This snippet of this talk is among my favorites:
 
-![[GavExcellence.mp4|center]]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k9ArOU_QK8M?si=bCGu8WpYqeZJoRGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 You can find the culture deck from 2022 [here](https://docs.google.com/presentation/d/15-lL1xKAVMt_50X2ri7hsEhU3Z0he04K017mZCIeRZI/edit#slide=id.g26b31d0a78ca97e7_10). If I wanted to name one slide from it that you should think about the most, it would be:
 
 ![Screenshot 2024-06-24 at 19.14.33.png](/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png)
