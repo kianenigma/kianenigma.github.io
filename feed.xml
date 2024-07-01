@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" >
     <link href="https://blog.kianenigma.nl/" >
-    <updated>2024-07-01T10:36:32Z</updated>
+    <updated>2024-07-01T10:46:23Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -489,7 +489,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-01T10:31:24.083Z</updated>
+            <updated>2024-07-01T10:45:32.261Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of the Blockchain space as a whole, and possibly one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM &lt;a href=&quot;http://www.graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;graypaper&lt;/a&gt;.&lt;/p&gt;
@@ -497,8 +497,16 @@ useful. You can already see me use them in the previous gif. Highly recommended 
 &lt;p&gt;This article makes use and assumes familiarity of the following concepts:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Describing a blockchain as a state-transition function.&lt;/li&gt;
-&lt;li&gt;Understanding of what is &amp;quot;State&amp;quot;&lt;/li&gt;
-&lt;li&gt;Economic Security and Proof of Stake.&lt;/li&gt;
+&lt;li&gt;Understanding of what is &amp;quot;State&amp;quot;
+&lt;ul&gt;
+&lt;li&gt;Both explained &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/blockchain_state_machines/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Economic Security and Proof of Stake.
+&lt;ul&gt;
+&lt;li&gt;Explained in &lt;a href=&quot;https://polkadot-blockchain-academy.github.io/pba-book/economics/economics-of-polkadot/page.html#staking-concept&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this PBA lecture&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=suyram9vaFc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;recording&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;prelude-polkadot-1&quot; tabindex=&quot;-1&quot;&gt;Prelude: Polkadot 1&lt;/h2&gt;
 &lt;p&gt;First, let&#39;s take a moment and write down what I consider the top novel features of Polkadot 1.&lt;/p&gt;
