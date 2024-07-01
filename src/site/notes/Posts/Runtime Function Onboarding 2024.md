@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T11:54:10.053+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T11:55:59.658+03:30"}
 ---
 
 - [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|👋🏻 Intro: Welcome to The Runtime Function]]
@@ -262,7 +262,6 @@ In reality, you are joining the Polkadot ecosystem, not just Parity. And there i
     - [CoinBureau’s weekly crypto](https://www.coinbureau.com/videos/) update videos every Monday (yes, but it is good to know what the _mainstream_ thinks..)
     - Bloomberg Crypto reports, [Matt Levine Money Stuff](https://newsletterhunt.com/newsletters/money-stuff-by-matt-levine).
 - [Official Polkadot Ecosystem Room](https://matrix.to/#/!ysLGVMIyuKKIpwjhAT:matrix.parity.io?via=parity.io&via=matrix.org&via=matrix.parity.io) in Element — a fairly active chat with many parachain teams.
-
 ## 📍 Company 
 A few high level notes about the company, and not just the RF. 
 ### 🎭 Culture 
