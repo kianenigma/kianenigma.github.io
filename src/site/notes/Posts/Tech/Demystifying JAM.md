@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-01T14:16:44.538+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-01T14:18:16.434+03:30"}
 ---
 
 
@@ -111,7 +111,8 @@ With the understanding gained in the previous section, we can smoothly transitio
 JAM builds on top of [[Posts/Tech/Demystifying JAM#Polkadot 2\|Polkadot 2]], in that it tries to make Polkadot cores more useful, but in ways radically more flexible and unopinionated manner than agile-coretime. 
 - Polkadot 2 makes the deployment of L2s radically more flexible on cores. 
 - JAM is all about deploying *any application* on Polkadot cores, even those that don't resemble a blockchain. 
-This is achieved through exposing all the main 3 primitives discussed above to programmers, namely: on-chain, in-core, and the DA layer. 
+
+**This is primarily achieved through exposing all the main 3 primitives discussed in the previous section to programmers, namely: on-chain, in-core, and the DA layer.** 
 
 More verbosely, in JAM, cores are exposed at a much more flexible manner to: 
 1. Allow both the work that is being done in-core and on-chain to be fully programmable.
@@ -192,8 +193,6 @@ TODO
 A short recap of the above. 
 
 TODO
-
-
 
 ## Resources 
 
