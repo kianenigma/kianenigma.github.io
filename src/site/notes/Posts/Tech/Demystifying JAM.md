@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-01T14:18:16.434+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-01T14:18:45.182+03:30"}
 ---
 
 
@@ -114,7 +114,7 @@ JAM builds on top of [[Posts/Tech/Demystifying JAM#Polkadot 2\|Polkadot 2]], in 
 
 **This is primarily achieved through exposing all the main 3 primitives discussed in the previous section to programmers, namely: on-chain, in-core, and the DA layer.** 
 
-More verbosely, in JAM, cores are exposed at a much more flexible manner to: 
+More verbosely, in JAM, developers are exposed to: 
 1. Allow both the work that is being done in-core and on-chain to be fully programmable.
 2. Allow arbitrary data to be read-from and written-into the Polkadot DA layer.
 
