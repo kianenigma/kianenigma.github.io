@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/polkadot-s-build-horizon/","contentClasses":"build-map","tags":["polkadot"],"created":"2024-03-16T16:40:43.000+03:30","updated":"2024-06-26T13:17:44.153+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/polkadot-s-build-horizon/","contentClasses":"build-map","tags":["polkadot"],"created":"2024-03-16T16:40:43.000+03:30","updated":"2024-07-01T11:23:40.375+03:30"}
 ---
 
 This write-up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion: 
@@ -95,5 +95,7 @@ Polkadot ecosystem comes with a slew of APIs to write decentralized[^1] applicat
 - [https://polkadot-blockchain-academy.github.io/pba-book/frame/index.html](https://polkadot-blockchain-academy.github.io/pba-book/frame/index.html)
 - https://github.com/Awsmdot/awesome-dot
 - https://github.com/shawntabrizi/rust-state-machine
+- https://dotcodeschool.com/
+- https://www.youtube.com/@polkadotblockchainacademy/playlists
 
 [^1]: decentralized: Polkadot comes with a light-client-first application development mindset, which means applications written with the following tools can connect to light clients (instead of centralized API providers) and actually be decentralized.
