@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-02T14:48:57.284+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-02T14:49:07.240+03:30"}
 ---
 
 
-The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly) explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of the Blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM [graypaper](http://www.graypaper.com).
+The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly) explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM [graypaper](http://www.graypaper.com).
 
 - [[Posts/Tech/Demystifying JAM#Background Knowledge\|Background Knowledge]]
 - [[Posts/Tech/Demystifying JAM#Prelude: Polkadot 1\|Prelude: Polkadot 1]]
