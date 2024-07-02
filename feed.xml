@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-02T12:48:01Z</updated>
+    <updated>2024-07-02T17:50:10Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -489,7 +489,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-02T11:19:07.240Z</updated>
+            <updated>2024-07-02T17:49:39.812Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM &lt;a href=&quot;http://www.graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;graypaper&lt;/a&gt;.&lt;/p&gt;
@@ -593,11 +593,11 @@ The above demonstrated a &lt;em&gt;monolithic&lt;/em&gt; (as opposed to &lt;em&g
 &lt;p&gt;Note that all the operation so far is outside the Polkadot&#39;s main block and state transition function.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;Eventually, a small commitment of the L2&#39;s latest state becomes visible on the main Polkadot relay chain state. This operation, which is much cheaper than the actual re-execution of the L2 block, unlike everything else so far, affects the main Polkadot state, becomes visible in a Polkadot block, and is executed by all Polkadot validators&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn5&quot; id=&quot;fnref5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Eventually, a small commitment of the L2&#39;s latest state becomes visible on the main Polkadot relay chain state. This operation, which is much cheaper than the actual re-execution of the L2 block, unlike everything else so far, affects the main Polkadot state, becomes visible in a Polkadot block, and is executed by all Polkadot validators.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;From the above, let&#39;s explore some of the services that Polkadot is performing:&lt;/p&gt;
 &lt;p&gt;From 1, we can learn that there exists a new type of execution in Polkadot that differs from normal blockchain state transition function. Typically, when all validators of a network execute some work, and as the outcome the main blockchain state is updated, we call this an &lt;strong&gt;on-chain operation&lt;/strong&gt;. This is what happens in step 4. Yet, what happens inside a core (step 1) differs from this. We call this novel type of blockchain computation &lt;strong&gt;in-core execution&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Next, from point 2 we can deduce that Polkadot already provides a native Data-Availability (henceforth &lt;em&gt;DA&lt;/em&gt;) layer, and L2&#39;s automatically use it to keep their execution evidence available for some period of time. Yet, the blob that can be posted to this DA&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn6&quot; id=&quot;fnref6&quot;&gt;[6]&lt;/a&gt;&lt;/sup&gt; layer is fixed, and it is always the evidence needed to re-execute an L2 block. Moreover, parachains never read from the DA layer.&lt;/p&gt;
+&lt;p&gt;Next, from point 2 we can deduce that Polkadot already provides a native Data-Availability (henceforth &lt;em&gt;DA&lt;/em&gt;) layer, and L2&#39;s automatically use it to keep their execution evidence available for some period of time. Yet, the blob that can be posted to this DA&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn5&quot; id=&quot;fnref5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt; layer is fixed, and it is always the evidence needed to re-execute an L2 block. Moreover, parachains never read from the DA layer.&lt;/p&gt;
 &lt;p&gt;Understanding the above is foundation of understanding majority of what JAM does. To recap:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;in-core execution: What happens inside a core. Abundance, scalable, yet as secure as on-chain execution through crypto-economics.&lt;/li&gt;
@@ -607,7 +607,7 @@ The above demonstrated a &lt;em&gt;monolithic&lt;/em&gt; (as opposed to &lt;em&g
 &lt;p&gt;TODO: animation&lt;/p&gt;
 &lt;h2 id=&quot;jam&quot; tabindex=&quot;-1&quot;&gt;JAM&lt;/h2&gt;
 &lt;p&gt;With the understanding gained in the previous section, we can smoothly transition into what JAM is.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;JAM is a new protocol, heavily inspired by Polkadot, and fully compatible with it, aiming to replace the Polkadot Relay Chain and make the usage of cores radically more un-opinionated&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn7&quot; id=&quot;fnref7&quot;&gt;[7]&lt;/a&gt;&lt;/sup&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;JAM is a new protocol, heavily inspired by Polkadot, and fully compatible with it, aiming to replace the Polkadot Relay Chain and make the usage of cores radically more un-opinionated&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn6&quot; id=&quot;fnref6&quot;&gt;[6]&lt;/a&gt;&lt;/sup&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;JAM builds on top of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#polkadot-2&quot;&gt;Polkadot 2&lt;/a&gt;, in that it tries to make Polkadot cores more accessible, but in ways radically more flexible and un-opinionated than agile-coretime.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Polkadot 2 makes the deployment of L2s more flexible on cores.&lt;/li&gt;
@@ -621,11 +621,11 @@ The above demonstrated a &lt;em&gt;monolithic&lt;/em&gt; (as opposed to &lt;em&g
 &lt;/ol&gt;
 &lt;p&gt;This is a foundational description of what JAM aims to be. Needless to say, a lot has been simplified here, and the protocol might still evolve. With this foundation in mind, we can now dive further into a few details of JAM in the coming sections.&lt;/p&gt;
 &lt;h3 id=&quot;service-and-work-items&quot; tabindex=&quot;-1&quot;&gt;Service and Work Items&lt;/h3&gt;
-&lt;p&gt;This is why in the context of JAM, what used to called an L2/Parachain block/transaction is now called &lt;em&gt;Work-x&lt;/em&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn5&quot; id=&quot;fnref5:1&quot;&gt;[5:1]&lt;/a&gt;&lt;/sup&gt;. Moreover, the application to which a &lt;code&gt;WorkItem&lt;/code&gt;  belongs is called a &lt;em&gt;Service&lt;/em&gt;. Both terms of deliberately chosen to be generic enough to encapsulate use-cases beyond a blockchain/L2.&lt;/p&gt;
+&lt;p&gt;This is why in the context of JAM, what used to called an L2/Parachain block/transaction is now called &lt;em&gt;Work-x&lt;/em&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn7&quot; id=&quot;fnref7&quot;&gt;[7]&lt;/a&gt;&lt;/sup&gt;. Moreover, the application to which a &lt;code&gt;WorkItem&lt;/code&gt;  belongs is called a &lt;em&gt;Service&lt;/em&gt;. Both terms are deliberately chosen to be generic enough to encapsulate use-cases beyond a blockchain/L2.&lt;/p&gt;
 &lt;p&gt;A service is described by 3 entry points, two of which are &lt;code&gt;fn refine()&lt;/code&gt; and &lt;code&gt;fn accumulate()&lt;/code&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn8&quot; id=&quot;fnref8&quot;&gt;[8]&lt;/a&gt;&lt;/sup&gt;. The former describes what the service does in-core, and the latter describes what the service does on-chain.&lt;/p&gt;
-&lt;p&gt;Finally, the name of the two entry-points is why this protocol is called JAM: the Join Accumulate Machine. &lt;strong&gt;Join&lt;/strong&gt; is &lt;code&gt;fn refine()&lt;/code&gt;, when all Polkadot cores do a lot of work, all in parallel, for different services. &lt;strong&gt;Accumulate&lt;/strong&gt; is when the result of all the aforementioned are all &lt;em&gt;accumulated&lt;/em&gt; into the main JAM state. This is the on-chain execution part.&lt;/p&gt;
+&lt;p&gt;Finally, the name of the two entry-points is why the protocol is called JAM: the Join Accumulate Machine. &lt;strong&gt;Join&lt;/strong&gt; is &lt;code&gt;fn refine()&lt;/code&gt;, when all Polkadot cores do a lot of work, all in parallel, for different services. &lt;strong&gt;Accumulate&lt;/strong&gt; is when the result of all the aforementioned are &lt;em&gt;accumulated&lt;/em&gt; into the main JAM state. This is the on-chain execution part.&lt;/p&gt;
 &lt;h3 id=&quot;semi-coherence&quot; tabindex=&quot;-1&quot;&gt;Semi Coherence&lt;/h3&gt;
-&lt;p&gt;Recall from existing material around Polkadot&#39;s language of choice for enabling parachain communication (XCM), that &lt;a href=&quot;https://github.com/polkadot-fellows/xcm-format?tab=readme-ov-file#11-xcm-communication-model&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;all such communication is asynchronous&lt;/a&gt;. That is, a message is sent, and its reply cannot be waited upon.&lt;/p&gt;
+&lt;p&gt;Recall from existing material around XCM, Polkadot&#39;s language of choice for parachain communication, that &lt;a href=&quot;https://github.com/polkadot-fellows/xcm-format?tab=readme-ov-file#11-xcm-communication-model&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;all such communication is asynchronous&lt;/a&gt;. That is, a message is sent, and its reply cannot be waited upon.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Asynchrony&lt;/strong&gt; is the manifestation of an &lt;strong&gt;incoherent&lt;/strong&gt; system, and is a major drawback of systems that are permanently sharded, such as Polkadot 1 and Polkadot 2 and the existing L2 landscape in Ethereum.&lt;/p&gt;
 &lt;p&gt;Yet, as described in the &lt;a href=&quot;https://graypaper.com/graypaper.pdf&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;graypaper&lt;/a&gt; section 2.4, a fully &lt;strong&gt;coherent&lt;/strong&gt; system that is always &lt;strong&gt;synchronous&lt;/strong&gt; for all of its tenants can also only grow so much without compromising generality, accessibility or resilience.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -666,7 +666,9 @@ The above demonstrated a &lt;em&gt;monolithic&lt;/em&gt; (as opposed to &lt;em&g
 &lt;p&gt;The scalability in blockchains follows the approaches used in traditional distributed systems for the most part: scaling up, and scaling out.&lt;/p&gt;
 &lt;p&gt;Scaling up is what the likes of Solana are doing. Hyper optimize both the code, and the hardware to achieve maximal throughput.&lt;/p&gt;
 &lt;p&gt;Scaling out is what Ethereum and Polkadot are doing: Reducing the amount of work that has to be done by everyone. In a traditional distributed system, this is done by adding more replicated machines. In blockchains, the &amp;quot;computation machine&amp;quot; is the entire validator set of a network. By splitting work between them (what ELVES does), or optimistically discounting their duties (what optimistic rollups do), we are reducing the workload on the entire validator set as a whole, and therefore scaling out the system.&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;[!info] Scaling out in blockchains is analogous to &amp;quot;reducing the number of machines that have to execute everything&amp;quot;.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;To summarize:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Scaling up: Beefy hardware + optimization in a monolithic blockchain.&lt;/li&gt;
@@ -700,11 +702,11 @@ Further Ideas to elaborate:&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;We called the L2&#39;s state POV, and the combination of the two PVF. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;A &lt;code&gt;WorkItem&lt;/code&gt; resembles a transaction, and a &lt;code&gt;WorkPackage&lt;/code&gt; resembles a block. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt; &lt;a href=&quot;https://blog.kianenigma.nl/#fnref5:1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Note that the graypaper calls this DA layer, the Distributed Data Lake, DDL for short. For the sake reducing the number of new keywords in the article, we continue to refer to it as DA, or DA Layer. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn6&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Note that the graypaper calls this DA layer, the Distributed Data Lake, DDL for short. For the sake reducing the number of new keywords in the article, we continue to refer to it as DA, or DA Layer. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref6&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn6&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;It is crucial to already point out that JAM is only meant to replace the Polkadot &lt;strong&gt;relay chain&lt;/strong&gt;. Parachains, and all applications that run on top of Polkadot remain intact, mainly thanks to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#core-chain&quot;&gt;CoreChain&lt;/a&gt;. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref6&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn7&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;It is crucial to already point out that JAM is only meant to replace the Polkadot &lt;strong&gt;relay chain&lt;/strong&gt;. Parachains, and all applications that run on top of Polkadot remain intact, mainly thanks to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#core-chain&quot;&gt;CoreChain&lt;/a&gt;. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref7&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn7&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;A &lt;code&gt;WorkItem&lt;/code&gt; resembles a transaction, and a &lt;code&gt;WorkPackage&lt;/code&gt; resembles a block. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref7&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&quot;fn8&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;And the 3rd one being an &lt;code&gt;on_message&lt;/code&gt;, which is called when a message from another service arrives. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref8&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
