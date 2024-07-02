@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" >
     <link href="https://blog.kianenigma.nl/" >
-    <updated>2024-07-02T10:46:09Z</updated>
+    <updated>2024-07-02T10:46:26Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -676,7 +676,7 @@ TODO&lt;/p&gt;
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-07-01T10:35:28.011Z</updated>
+            <updated>2024-07-02T08:42:26.526Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;ul&gt;
@@ -819,10 +819,10 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://forum.polkadot.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Parity forum&lt;/a&gt; &lt;a href=&quot;https://forum.parity.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot forum&lt;/a&gt;.
 &lt;ul&gt;
-&lt;li&gt;Prefer accompanying Google docs for discussions that will need lots of revision.&lt;/li&gt;
+&lt;li&gt;Prefer accompanying Google Docs for discussions that will need lots of revision.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Github
+&lt;li&gt;GitHub
 &lt;ul&gt;
 &lt;li&gt;Build a system around notifications, you are expected to reply to your @mentions.&lt;/li&gt;
 &lt;/ul&gt;
@@ -844,7 +844,7 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 &lt;li&gt;&lt;strong&gt;Pro tip&lt;/strong&gt;: You can always group a number of chats from different spaces (or no space in particular) into a private space, if you&#39;d like to group chats together and avoid the &amp;quot;Other Rooms&amp;quot; or &amp;quot;Favorites&amp;quot; to bloat.&lt;/li&gt;
 &lt;li&gt;Be mindful of joining too many rooms, if it prevents you from keeping up with notifications that actually matter.&lt;/li&gt;
 &lt;li&gt;Consider using alternative Matrix clients, if it fits you better.&lt;/li&gt;
-&lt;li&gt;Element supports a very simple to setup &lt;strong&gt;RSS feed&lt;/strong&gt;, which can be useful to keep up with things.&lt;/li&gt;
+&lt;li&gt;Element supports a very simple to set up &lt;strong&gt;RSS feed&lt;/strong&gt;, which can be useful to keep up with things.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Custom keyword notifications&lt;/strong&gt; in Element/Matrix are very useful to keep you up to date with certain topics that you feel responsible for.&lt;/li&gt;
 &lt;li&gt;More in the devops wiki. Ask questions in Element/Devops Helpdesk if need be.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1WTLx1k46g0WeB6Afp02XS682SUFbqJUVp4bKhXksYFo/edit#heading=h.v9anig8niu5f&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Doc&lt;/a&gt; for our last round of element revamp.&lt;/li&gt;
@@ -866,11 +866,11 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 &lt;/ol&gt;
 &lt;p&gt;That are used for various discussion topics, requesting reviews and Q&amp;amp;As, and using them is highly recommended.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;.. But what if I am too loud, what it I annoy someone, or ask a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#dumb-questions&quot;&gt; dumb question&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;.. But what if I am too loud, what if I annoy someone, or ask a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#dumb-questions&quot;&gt; dumb question&lt;/a&gt;?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Short answer: &lt;strong&gt;It is not your problem&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;In an async environment, it is much easier to be under-heard and under-share, then the opposite. Therefore, it is safer to optimize for over-sharing, and only adjust if necessary.&lt;/p&gt;
-&lt;p&gt;If your over-sharing and are actively annoying anyone, it is &lt;em&gt;their&lt;/em&gt; responsibly to give you that feedback, and you should adapt if the feedback is reasonable. But if you are &lt;em&gt;silently&lt;/em&gt; under-sharing, it is much harder to identify it as an issue and recover from it. I suggest always preferring to share something where the &lt;em&gt;&lt;strong&gt;most broad audience can see it&lt;/strong&gt;&lt;/em&gt;, unless you conclude otherwise for some specific reason.&lt;/p&gt;
+&lt;p&gt;In an async environment, it is much easier to be under-heard and under-share, than the opposite. Therefore, it is safer to optimize for over-sharing, and only adjust if necessary.&lt;/p&gt;
+&lt;p&gt;If you&#39;re over-sharing and are actively annoying anyone, it is &lt;em&gt;their&lt;/em&gt; responsibly to give you that feedback, and you should adapt if the feedback is reasonable. But if you are &lt;em&gt;silently&lt;/em&gt; under-sharing, it is much harder to identify it as an issue and recover from it. I suggest always preferring to share something where the &lt;em&gt;&lt;strong&gt;most broad audience can see it&lt;/strong&gt;&lt;/em&gt;, unless you conclude otherwise for some specific reason.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!example] Async Communication 101&lt;/p&gt;
 &lt;ul&gt;
@@ -887,8 +887,8 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 &lt;h3 id=&quot;dumb-questions&quot; tabindex=&quot;-1&quot;&gt;🤪 Dumb Questions&lt;/h3&gt;
 &lt;p&gt;Parity has an interesting attitude towards this. We have a room specifically called &amp;quot;&lt;em&gt;Parity Dumb Questions&lt;/em&gt;&amp;quot;, to remind you that there is no such thing as a dumb question&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Let&#39;s be honest: Web3 is a complicated space, for both engineers and non-engineers. Only a few are knowledgeable enough to have a high level understanding of &lt;em&gt;everything&lt;/em&gt;. Most of us are new in this space. Moreover, this space (and Parity) move really fast. What you know today might need an update in 6 months.&lt;/p&gt;
-&lt;p&gt;So, in short: There is a million things to (re)learn, and asking those who know better than you is the most wise thing you can do. As the saying goes: &amp;quot;&lt;em&gt;The only dumb question is the one you don&#39;t ask&lt;/em&gt;&amp;quot;.&lt;/p&gt;
-&lt;p&gt;But, there is a few notes that you should keep in mind about questions:&lt;/p&gt;
+&lt;p&gt;So, in short: There are a million things to (re)learn, and asking those who know better than you is the wisest thing you can do. As the saying goes: &amp;quot;&lt;em&gt;The only dumb question is the one you don&#39;t ask&lt;/em&gt;&amp;quot;.&lt;/p&gt;
+&lt;p&gt;But, there are a few notes that you should keep in mind about questions:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info] Asking Questions 101&lt;/p&gt;
 &lt;ul&gt;
@@ -926,10 +926,10 @@ Be sure to read &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/maste
 &lt;p&gt;Yet again, a lot of this goes back to the dual realities (&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do&quot;&gt;💊 The Reality of What We Do&lt;/a&gt;) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Test-network Runtime Upgrade&lt;/strong&gt;: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;RC/SC Runtime Upgrade&lt;/strong&gt;: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. This is another milestone for testing: Did everything go smoothly?  The release process of RC runtimes, and their enactment is fully public and managed by the Polkadot fellowship, so you can easily tag along.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RC/SC Runtime Upgrade&lt;/strong&gt;: Days, weeks or months after your PR is merged, it might finally land in the RC or one of the SCs&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. This is another milestone for testing: Did everything go smoothly?  The release process of RC runtimes, and their enactment, is fully public and managed by the Polkadot fellowship, so you can easily tag along.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Developer Community Impact&lt;/strong&gt;.
 &lt;ol&gt;
-&lt;li&gt;Did any UIs break because of your feature? could we have communicated better with them?&lt;/li&gt;
+&lt;li&gt;Did any UIs break because of your feature? Could we have communicated better with them?&lt;/li&gt;
 &lt;li&gt;Are any new documentation pages needed? (easier to forget:) Are any of the &lt;em&gt;existing ones outdated now&lt;/em&gt;? Maybe one of the most visited StackExchange questions needs being updated?&lt;/li&gt;
 &lt;li&gt;Was your PR description good for downstream teams to be able to adopt the feature?&lt;/li&gt;
 &lt;/ol&gt;
@@ -943,7 +943,7 @@ Be sure to read &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/maste
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;know-your-api&quot; tabindex=&quot;-1&quot;&gt;🧐 Know Your API&lt;/h3&gt;
-&lt;p&gt;As a final example to cement &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do&quot;&gt;💊 The Reality of What We Do&lt;/a&gt;, let&#39;s consider the difference between two features, in order the highlight how important it is for you to be able to answer one question:&lt;/p&gt;
+&lt;p&gt;As a final example to cement &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do&quot;&gt;💊 The Reality of What We Do&lt;/a&gt;, let&#39;s consider the difference between two features, in order to highlight how important it is for you to be able to answer one question:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Is my code end-user-facing or not?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -963,9 +963,9 @@ Be sure to read &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/maste
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Our &lt;a href=&quot;https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/prdoc/schema_user.json&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PRDoc system&#39;s audience section&lt;/a&gt; is a good framework to help you think about the final audience of your code.&lt;/p&gt;
-&lt;p&gt;Moreover, new release process, with its emphasis on semantic versioning, will force you to think about this to a high extent, but it does not encapsulate the full magnitude of the above. For example, in your PR, you might be causing major bump to many crates, but only one of the crates is something that actually matters to the main audience, noted in the PRDoc.&lt;/p&gt;
+&lt;p&gt;Moreover, the new release process, with its emphasis on semantic versioning, will force you to think about this to a high extent, but it does not encapsulate the full magnitude of the above. For example, in your PR, you might be causing a major bump to many crates, but only one of the crates is something that actually matters to the main audience, noted in the PRDoc.&lt;/p&gt;
 &lt;h3 id=&quot;be-the-housemeister&quot; tabindex=&quot;-1&quot;&gt;🧹 Be The Housemeister&lt;/h3&gt;
-&lt;p&gt;We are a true open-source project, and our entire issue-tracking system is what we publicly have in Github. While our issue list has grown very large and it is unlikely that our team can clean it up, we can keep &lt;em&gt;issues that are relevant to our team&lt;/em&gt; tidy, well described and properly labeled.  Practically:&lt;/p&gt;
+&lt;p&gt;We are a true open-source project, and our entire issue-tracking system is what we publicly have in GitHub. While our issue list has grown very large, and it is unlikely that our team can clean it up, we can keep &lt;em&gt;issues that are relevant to our team&lt;/em&gt; tidy, well described and properly labeled.  Practically:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Keep the issues that you have created tidy.&lt;/li&gt;
 &lt;li&gt;Keep an eye on the issues opened by external contributors (they are auto-labeled as &lt;code&gt;unconfirmed&lt;/code&gt;) and see if you can triage them. We sometimes get important bug reports from external users and the only way to do so&lt;/li&gt;
@@ -1066,7 +1066,7 @@ Of course this attitude of wanting a higher level of ownership and responsibilit
 &lt;p&gt;The impact of what we do, specifically for end-user facing work (as defined in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#know-your-api&quot;&gt;🧐 Know Your API&lt;/a&gt;), is NOT how many PRs we manage can merge into &lt;code&gt;polkadot-sdk&lt;/code&gt;, but rather how much our code is being user by end-users or developers.&lt;/p&gt;
 &lt;h3 id=&quot;liveness-above-all&quot; tabindex=&quot;-1&quot;&gt;Liveness Above All&lt;/h3&gt;
 &lt;p&gt;Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Making Polkadot successful is, one way or another, our main mission&lt;/strong&gt;. Therefore, important bugs and existential issues that might arise should never be be discarded as &amp;quot;it is not the task I am working on, so not my problem&amp;quot;. If something important comes up that is possibly an existential threat to Polkadot, it is everyone&#39;s first priority.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Making Polkadot successful is, one way or another, our main mission&lt;/strong&gt;. Therefore, important bugs and existential issues that might arise should never be discarded as &amp;quot;it is not the task I am working on, so not my problem&amp;quot;. If something important comes up that is possibly an existential threat to Polkadot, it is everyone&#39;s first priority.&lt;/p&gt;
 &lt;h3 id=&quot;resilience-above-all&quot; tabindex=&quot;-1&quot;&gt;Resilience Above All&lt;/h3&gt;
 &lt;p&gt;We proudly consider ourselves as one of the (few) companies that is &amp;quot;&lt;em&gt;doing blockchain right&lt;/em&gt;&amp;quot;. In that, we are not in this for a short term profit, for capturing a hype or anything other than making the &lt;a href=&quot;https://gavwood.com/web3lt.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;true&lt;/a&gt; &lt;a href=&quot;https://www.reddit.com/r/ethereum/comments/23beb3/insights_into_a_modern_world_%C3%B0apps_what_web_30/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Web3 vision&lt;/a&gt; come to fruition.&lt;/p&gt;
 &lt;p&gt;And what is that Web3 vision: That we need to build the tools necessary to be able to build resilient systems that can survive the test of time. Blockchains are one important type of such systems.&lt;/p&gt;

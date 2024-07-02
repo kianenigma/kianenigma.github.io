@@ -259,7 +259,7 @@ CTRL + K
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-02T10:46:08.856Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-02T10:46:08.856Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-02T10:46:08.856Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-02T10:46:26.026Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-02T10:46:26.026Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-02T10:46:26.026Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
                     <a class="search-link" href="${e.url}">${e.title}</a>
                     <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
@@ -281,7 +281,7 @@ CTRL + K
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-01T14:05:28.011+03:30"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T13:16:17.880+03:30"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-02T12:12:26.526+03:30"></span></div></div></div>
 </header>
 <ul>
 <li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">👋🏻 Intro: Welcome to The Runtime Function</a>
@@ -437,10 +437,10 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 <ul>
 <li><a href="https://forum.polkadot.network/" target="_blank" class="external-link">Parity forum</a> <a href="https://forum.parity.io/" target="_blank" class="external-link">Polkadot forum</a>.
 <ul>
-<li>Prefer accompanying Google docs for discussions that will need lots of revision.</li>
+<li>Prefer accompanying Google Docs for discussions that will need lots of revision.</li>
 </ul>
 </li>
-<li>Github
+<li>GitHub
 <ul>
 <li>Build a system around notifications, you are expected to reply to your @mentions.</li>
 </ul>
@@ -466,7 +466,7 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 <li><strong>Pro tip</strong>: You can always group a number of chats from different spaces (or no space in particular) into a private space, if you'd like to group chats together and avoid the &quot;Other Rooms&quot; or &quot;Favorites&quot; to bloat.</li>
 <li>Be mindful of joining too many rooms, if it prevents you from keeping up with notifications that actually matter.</li>
 <li>Consider using alternative Matrix clients, if it fits you better.</li>
-<li>Element supports a very simple to setup <strong>RSS feed</strong>, which can be useful to keep up with things.</li>
+<li>Element supports a very simple to set up <strong>RSS feed</strong>, which can be useful to keep up with things.</li>
 <li><strong>Custom keyword notifications</strong> in Element/Matrix are very useful to keep you up to date with certain topics that you feel responsible for.</li>
 <li>More in the devops wiki. Ask questions in Element/Devops Helpdesk if need be.</li>
 <li><a href="https://docs.google.com/document/d/1WTLx1k46g0WeB6Afp02XS682SUFbqJUVp4bKhXksYFo/edit#heading=h.v9anig8niu5f" target="_blank" class="external-link">Doc</a> for our last round of element revamp.</li>
@@ -488,11 +488,11 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 </ol>
 <p>That are used for various discussion topics, requesting reviews and Q&amp;As, and using them is highly recommended.</p>
 <blockquote>
-<p>.. But what if I am too loud, what it I annoy someone, or ask a <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions"> dumb question</a>?</p>
+<p>.. But what if I am too loud, what if I annoy someone, or ask a <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions"> dumb question</a>?</p>
 </blockquote>
 <p>Short answer: <strong>It is not your problem</strong>.</p>
-<p>In an async environment, it is much easier to be under-heard and under-share, then the opposite. Therefore, it is safer to optimize for over-sharing, and only adjust if necessary.</p>
-<p>If your over-sharing and are actively annoying anyone, it is <em>their</em> responsibly to give you that feedback, and you should adapt if the feedback is reasonable. But if you are <em>silently</em> under-sharing, it is much harder to identify it as an issue and recover from it. I suggest always preferring to share something where the <em><strong>most broad audience can see it</strong></em>, unless you conclude otherwise for some specific reason.</p>
+<p>In an async environment, it is much easier to be under-heard and under-share, than the opposite. Therefore, it is safer to optimize for over-sharing, and only adjust if necessary.</p>
+<p>If you're over-sharing and are actively annoying anyone, it is <em>their</em> responsibly to give you that feedback, and you should adapt if the feedback is reasonable. But if you are <em>silently</em> under-sharing, it is much harder to identify it as an issue and recover from it. I suggest always preferring to share something where the <em><strong>most broad audience can see it</strong></em>, unless you conclude otherwise for some specific reason.</p>
 <div class="callout" data-callout="example"><div class="callout-title"><div class="callout-title-inner"> Async Communication 101</div></div>
 <div class="callout-content">
 <p>
@@ -510,8 +510,8 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 <h3 id="dumb-questions" tabindex="-1">🤪 Dumb Questions</h3>
 <p>Parity has an interesting attitude towards this. We have a room specifically called &quot;<em>Parity Dumb Questions</em>&quot;, to remind you that there is no such thing as a dumb question<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
 <p>Let's be honest: Web3 is a complicated space, for both engineers and non-engineers. Only a few are knowledgeable enough to have a high level understanding of <em>everything</em>. Most of us are new in this space. Moreover, this space (and Parity) move really fast. What you know today might need an update in 6 months.</p>
-<p>So, in short: There is a million things to (re)learn, and asking those who know better than you is the most wise thing you can do. As the saying goes: &quot;<em>The only dumb question is the one you don't ask</em>&quot;.</p>
-<p>But, there is a few notes that you should keep in mind about questions:</p>
+<p>So, in short: There are a million things to (re)learn, and asking those who know better than you is the wisest thing you can do. As the saying goes: &quot;<em>The only dumb question is the one you don't ask</em>&quot;.</p>
+<p>But, there are a few notes that you should keep in mind about questions:</p>
 <div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Asking Questions 101</div></div>
 <div class="callout-content">
 <p>
@@ -556,10 +556,10 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 <p>Yet again, a lot of this goes back to the dual realities (<a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do">💊 The Reality of What We Do</a>) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:</p>
 <ol>
 <li><strong>Test-network Runtime Upgrade</strong>: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further?</li>
-<li><strong>RC/SC Runtime Upgrade</strong>: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>. This is another milestone for testing: Did everything go smoothly? The release process of RC runtimes, and their enactment is fully public and managed by the Polkadot fellowship, so you can easily tag along.</li>
+<li><strong>RC/SC Runtime Upgrade</strong>: Days, weeks or months after your PR is merged, it might finally land in the RC or one of the SCs<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>. This is another milestone for testing: Did everything go smoothly? The release process of RC runtimes, and their enactment, is fully public and managed by the Polkadot fellowship, so you can easily tag along.</li>
 <li><strong>Developer Community Impact</strong>.
 <ol>
-<li>Did any UIs break because of your feature? could we have communicated better with them?</li>
+<li>Did any UIs break because of your feature? Could we have communicated better with them?</li>
 <li>Are any new documentation pages needed? (easier to forget:) Are any of the <em>existing ones outdated now</em>? Maybe one of the most visited StackExchange questions needs being updated?</li>
 <li>Was your PR description good for downstream teams to be able to adopt the feature?</li>
 </ol>
@@ -573,7 +573,7 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 </li>
 </ol>
 <h3 id="know-your-api" tabindex="-1">🧐 Know Your API</h3>
-<p>As a final example to cement <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do">💊 The Reality of What We Do</a>, let's consider the difference between two features, in order the highlight how important it is for you to be able to answer one question:</p>
+<p>As a final example to cement <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do">💊 The Reality of What We Do</a>, let's consider the difference between two features, in order to highlight how important it is for you to be able to answer one question:</p>
 <blockquote>
 <p>Is my code end-user-facing or not?</p>
 </blockquote>
@@ -593,9 +593,9 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 </li>
 </ol>
 <p>Our <a href="https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/prdoc/schema_user.json" target="_blank" class="external-link">PRDoc system's audience section</a> is a good framework to help you think about the final audience of your code.</p>
-<p>Moreover, new release process, with its emphasis on semantic versioning, will force you to think about this to a high extent, but it does not encapsulate the full magnitude of the above. For example, in your PR, you might be causing major bump to many crates, but only one of the crates is something that actually matters to the main audience, noted in the PRDoc.</p>
+<p>Moreover, the new release process, with its emphasis on semantic versioning, will force you to think about this to a high extent, but it does not encapsulate the full magnitude of the above. For example, in your PR, you might be causing a major bump to many crates, but only one of the crates is something that actually matters to the main audience, noted in the PRDoc.</p>
 <h3 id="be-the-housemeister" tabindex="-1">🧹 Be The Housemeister</h3>
-<p>We are a true open-source project, and our entire issue-tracking system is what we publicly have in Github. While our issue list has grown very large and it is unlikely that our team can clean it up, we can keep <em>issues that are relevant to our team</em> tidy, well described and properly labeled. Practically:</p>
+<p>We are a true open-source project, and our entire issue-tracking system is what we publicly have in GitHub. While our issue list has grown very large, and it is unlikely that our team can clean it up, we can keep <em>issues that are relevant to our team</em> tidy, well described and properly labeled. Practically:</p>
 <ol>
 <li>Keep the issues that you have created tidy.</li>
 <li>Keep an eye on the issues opened by external contributors (they are auto-labeled as <code>unconfirmed</code>) and see if you can triage them. We sometimes get important bug reports from external users and the only way to do so</li>
@@ -703,7 +703,7 @@ Of course this attitude of wanting a higher level of ownership and responsibilit
 <p>The impact of what we do, specifically for end-user facing work (as defined in <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#know-your-api">🧐 Know Your API</a>), is NOT how many PRs we manage can merge into <code>polkadot-sdk</code>, but rather how much our code is being user by end-users or developers.</p>
 <h3 id="liveness-above-all" tabindex="-1">Liveness Above All</h3>
 <p>Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship.</p>
-<p><strong>Making Polkadot successful is, one way or another, our main mission</strong>. Therefore, important bugs and existential issues that might arise should never be be discarded as &quot;it is not the task I am working on, so not my problem&quot;. If something important comes up that is possibly an existential threat to Polkadot, it is everyone's first priority.</p>
+<p><strong>Making Polkadot successful is, one way or another, our main mission</strong>. Therefore, important bugs and existential issues that might arise should never be discarded as &quot;it is not the task I am working on, so not my problem&quot;. If something important comes up that is possibly an existential threat to Polkadot, it is everyone's first priority.</p>
 <h3 id="resilience-above-all" tabindex="-1">Resilience Above All</h3>
 <p>We proudly consider ourselves as one of the (few) companies that is &quot;<em>doing blockchain right</em>&quot;. In that, we are not in this for a short term profit, for capturing a hype or anything other than making the <a href="https://gavwood.com/web3lt.html" target="_blank" class="external-link">true</a> <a href="https://www.reddit.com/r/ethereum/comments/23beb3/insights_into_a_modern_world_%C3%B0apps_what_web_30/" target="_blank" class="external-link">Web3 vision</a> come to fruition.</p>
 <p>And what is that Web3 vision: That we need to build the tools necessary to be able to build resilient systems that can survive the test of time. Blockchains are one important type of such systems.</p>
