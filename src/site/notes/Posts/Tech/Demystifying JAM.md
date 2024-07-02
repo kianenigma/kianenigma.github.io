@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-02T14:49:07.240+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-02T21:19:39.812+03:30"}
 ---
 
 
@@ -105,7 +105,7 @@ Recall that a core is constituted primarily from a group of validators. So, when
 
 > Note that all the operation so far is outside the Polkadot's main block and state transition function.
 
-3. Eventually, a small commitment of the L2's latest state becomes visible on the main Polkadot relay chain state. This operation, which is much cheaper than the actual re-execution of the L2 block, unlike everything else so far, affects the main Polkadot state, becomes visible in a Polkadot block, and is executed by all Polkadot validators[^3]. 
+3. Eventually, a small commitment of the L2's latest state becomes visible on the main Polkadot relay chain state. This operation, which is much cheaper than the actual re-execution of the L2 block, unlike everything else so far, affects the main Polkadot state, becomes visible in a Polkadot block, and is executed by all Polkadot validators. 
 
 From the above, let's explore some of the services that Polkadot is performing: 
 
@@ -143,7 +143,7 @@ More verbosely, in JAM, developers are exposed to:
 This is a foundational description of what JAM aims to be. Needless to say, a lot has been simplified here, and the protocol might still evolve. With this foundation in mind, we can now dive further into a few details of JAM in the coming sections. 
 ### Service and Work Items 
 
-This is why in the context of JAM, what used to called an L2/Parachain block/transaction is now called *Work-x*[^3]. Moreover, the application to which a `WorkItem`  belongs is called a *Service*. Both terms of deliberately chosen to be generic enough to encapsulate use-cases beyond a blockchain/L2. 
+This is why in the context of JAM, what used to called an L2/Parachain block/transaction is now called *Work-x*[^3]. Moreover, the application to which a `WorkItem`  belongs is called a *Service*. Both terms are deliberately chosen to be generic enough to encapsulate use-cases beyond a blockchain/L2. 
 
 [^3]: A `WorkItem` resembles a transaction, and a `WorkPackage` resembles a block. 
 
@@ -151,10 +151,10 @@ A service is described by 3 entry points, two of which are `fn refine()` and `fn
 
 [^6]: And the 3rd one being an `on_message`, which is called when a message from another service arrives. 
 
-Finally, the name of the two entry-points is why this protocol is called JAM: the Join Accumulate Machine. **Join** is `fn refine()`, when all Polkadot cores do a lot of work, all in parallel, for different services. **Accumulate** is when the result of all the aforementioned are all *accumulated* into the main JAM state. This is the on-chain execution part. 
+Finally, the name of the two entry-points is why the protocol is called JAM: the Join Accumulate Machine. **Join** is `fn refine()`, when all Polkadot cores do a lot of work, all in parallel, for different services. **Accumulate** is when the result of all the aforementioned are *accumulated* into the main JAM state. This is the on-chain execution part. 
 ### Semi Coherence 
 
-Recall from existing material around Polkadot's language of choice for enabling parachain communication (XCM), that [all such communication is asynchronous](https://github.com/polkadot-fellows/xcm-format?tab=readme-ov-file#11-xcm-communication-model). That is, a message is sent, and its reply cannot be waited upon. 
+Recall from existing material around XCM, Polkadot's language of choice for parachain communication, that [all such communication is asynchronous](https://github.com/polkadot-fellows/xcm-format?tab=readme-ov-file#11-xcm-communication-model). That is, a message is sent, and its reply cannot be waited upon. 
 
 **Asynchrony** is the manifestation of an **incoherent** system, and is a major drawback of systems that are permanently sharded, such as Polkadot 1 and Polkadot 2 and the existing L2 landscape in Ethereum.
 
@@ -216,7 +216,7 @@ Scaling up is what the likes of Solana are doing. Hyper optimize both the code, 
 
 Scaling out is what Ethereum and Polkadot are doing: Reducing the amount of work that has to be done by everyone. In a traditional distributed system, this is done by adding more replicated machines. In blockchains, the "computation machine" is the entire validator set of a network. By splitting work between them (what ELVES does), or optimistically discounting their duties (what optimistic rollups do), we are reducing the workload on the entire validator set as a whole, and therefore scaling out the system. 
 
-[!info] Scaling out in blockchains is analogous to "reducing the number of machines that have to execute everything".
+> [!info] Scaling out in blockchains is analogous to "reducing the number of machines that have to execute everything".
 
 To summarize: 
 
