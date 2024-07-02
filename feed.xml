@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-02T17:50:10Z</updated>
+    <updated>2024-07-02T17:58:00Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -489,7 +489,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-02T17:49:39.812Z</updated>
+            <updated>2024-07-02T17:57:25.809Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM &lt;a href=&quot;http://www.graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;graypaper&lt;/a&gt;.&lt;/p&gt;
@@ -658,9 +658,9 @@ The above demonstrated a &lt;em&gt;monolithic&lt;/em&gt; (as opposed to &lt;em&g
 &lt;hr /&gt;
 &lt;h2 id=&quot;appendix-data-sharding&quot; tabindex=&quot;-1&quot;&gt;Appendix: Data Sharding&lt;/h2&gt;
 &lt;p&gt;The majority of this article covered the topic of scalability from the perspective of execution sharding. We can also look at the same in the context of data. Interestingly, we find a similar situation as with what was mentioned in &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#semi-coherence&quot;&gt;Semi Coherence&lt;/a&gt;: A fully coherent system is better in principle, but does not scale. A fully incoherent system scales, but is not desirable, and JAM, with its semi-coherent model, poses a new possibility.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Fully Coherent System&lt;/strong&gt;: This is what we see in a fully synchronous, smart contract platform, like Solana, or those brave enough to only deploy on Ethereum L1. All the user  data is stored on-chain, and is easily accessible to everyone else. A perfect property for program-ability, but not scalable.&lt;br /&gt;
-&lt;strong&gt;Incoherent System&lt;/strong&gt;: Application data is kept outside the L1, and in different shards. Extremely scalable, but not great for composability.&lt;/p&gt;
-&lt;p&gt;JAM, other than providing both of the above, also allows programmers to post arbitrary data into the JAM DA layer, which in some sense is a middle-ground between on-chain and off-chain data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fully Coherent System&lt;/strong&gt;: This is what we see in a fully synchronous, smart contract platform, like Solana, or those brave enough to only deploy on Ethereum L1. All the application data is stored on-chain, and is easily accessible to all other applications. A perfect property for program-ability, but not scalable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Incoherent System&lt;/strong&gt;: Application data is kept outside the L1, and in different, isolated shards. Extremely scalable, but not great for composability. Polkadot and the Ethereum rollup model.&lt;/p&gt;
+&lt;p&gt;JAM, other than providing both of the above, also allows programmers to post arbitrary data into the JAM DA layer, which in some sense is a middle-ground between on-chain and off-chain data. A novel category of applications can be written while leveraging the DA layer for majority of the application data, while only persisting what is absolutely crucial into the JAM state.&lt;/p&gt;
 &lt;h2 id=&quot;appendix-scalability-space-map&quot; tabindex=&quot;-1&quot;&gt;Appendix: Scalability Space Map&lt;/h2&gt;
 &lt;p&gt;This part re-explain our view on the blockchain scalability landscape. This is also explained in the graypaper, and this is a more concise version of that.&lt;/p&gt;
 &lt;p&gt;The scalability in blockchains follows the approaches used in traditional distributed systems for the most part: scaling up, and scaling out.&lt;/p&gt;
