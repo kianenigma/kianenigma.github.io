@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-02T11:53:36.891+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-02T14:48:57.284+03:30"}
 ---
 
 
-The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly) explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good understanding high level of the Blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM [graypaper](http://www.graypaper.com).
+The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly) explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of the Blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM [graypaper](http://www.graypaper.com).
 
 - [[Posts/Tech/Demystifying JAM#Background Knowledge\|Background Knowledge]]
 - [[Posts/Tech/Demystifying JAM#Prelude: Polkadot 1\|Prelude: Polkadot 1]]
@@ -233,5 +233,5 @@ To summarize:
 
 TODO: 
 Further Ideas to elaborate: 
-- Why polkadot has to have some kind of a rent: Because there is a scarce resource to compete over. 
-- Re-defining blockspace as in-core + on-chain execution power of a blockchains. Most blockchains only have the former. 
+- Why polkadot has to have some kind of rent: Because there is a scarce resource to compete over. 
+- Re-defining blockspace as in-core + on-chain execution power of a blockchain. Most blockchains only have the former. 
