@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-02T21:19:39.812+03:30"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","hide":true,"tags":["polkadot","jam"],"created":"2024-05-02T17:08:56.000+03:30","updated":"2024-07-02T21:27:25.809+03:30"}
 ---
 
 
@@ -202,10 +202,11 @@ Further Services can be deployed on JAM, and the existing `CoreChains` service c
 
 The majority of this article covered the topic of scalability from the perspective of execution sharding. We can also look at the same in the context of data. Interestingly, we find a similar situation as with what was mentioned in [[Posts/Tech/Demystifying JAM#Semi Coherence\|Semi Coherence]]: A fully coherent system is better in principle, but does not scale. A fully incoherent system scales, but is not desirable, and JAM, with its semi-coherent model, poses a new possibility. 
 
-**Fully Coherent System**: This is what we see in a fully synchronous, smart contract platform, like Solana, or those brave enough to only deploy on Ethereum L1. All the user  data is stored on-chain, and is easily accessible to everyone else. A perfect property for program-ability, but not scalable. 
-**Incoherent System**: Application data is kept outside the L1, and in different shards. Extremely scalable, but not great for composability. 
+**Fully Coherent System**: This is what we see in a fully synchronous, smart contract platform, like Solana, or those brave enough to only deploy on Ethereum L1. All the application data is stored on-chain, and is easily accessible to all other applications. A perfect property for program-ability, but not scalable. 
 
-JAM, other than providing both of the above, also allows programmers to post arbitrary data into the JAM DA layer, which in some sense is a middle-ground between on-chain and off-chain data. 
+**Incoherent System**: Application data is kept outside the L1, and in different, isolated shards. Extremely scalable, but not great for composability. Polkadot and the Ethereum rollup model.
+
+JAM, other than providing both of the above, also allows programmers to post arbitrary data into the JAM DA layer, which in some sense is a middle-ground between on-chain and off-chain data. A novel category of applications can be written while leveraging the DA layer for majority of the application data, while only persisting what is absolutely crucial into the JAM state.   
 ## Appendix: Scalability Space Map
 
 This part re-explain our view on the blockchain scalability landscape. This is also explained in the graypaper, and this is a more concise version of that.
