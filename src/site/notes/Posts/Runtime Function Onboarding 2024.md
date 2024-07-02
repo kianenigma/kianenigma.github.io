@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-01T14:05:28.011+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-02T12:12:26.526+03:30"}
 ---
 
 - [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|👋🏻 Intro: Welcome to The Runtime Function]]
@@ -116,8 +116,8 @@ Let’s take a moment and introduce you to a non-exhaustive list of great things
 > Inspired by what Oliver did when he joined in early 2022, I highly encourage you to setup 1-1 intro calls with all other RF members in the first week or two. Get to know them, what they work on and so on! It will help you settle-in, and give you opportunity to also ask any random questions you have about FRAME, XCM, Polkadot, Parity and so on!
 ### 📧 Async 
 - [Parity forum](https://forum.polkadot.network/) [Polkadot forum](https://forum.parity.io/).
-    - Prefer accompanying Google docs for discussions that will need lots of revision.
-- Github
+    - Prefer accompanying Google Docs for discussions that will need lots of revision.
+- GitHub
 	- Build a system around notifications, you are expected to reply to your @mentions. 
 - Element
 	- Everything under `Runtime Function` space. Explore sub-spaces and rooms accordingly 
@@ -130,7 +130,7 @@ Let’s take a moment and introduce you to a non-exhaustive list of great things
 > * **Pro tip**: You can always group a number of chats from different spaces (or no space in particular) into a private space, if you'd like to group chats together and avoid the "Other Rooms" or "Favorites" to bloat.
 > * Be mindful of joining too many rooms, if it prevents you from keeping up with notifications that actually matter. 
 > * Consider using alternative Matrix clients, if it fits you better. 
-> * Element supports a very simple to setup **RSS feed**, which can be useful to keep up with things. 
+> * Element supports a very simple to set up **RSS feed**, which can be useful to keep up with things. 
 > * **Custom keyword notifications** in Element/Matrix are very useful to keep you up to date with certain topics that you feel responsible for. 
 > * More in the devops wiki. Ask questions in Element/Devops Helpdesk if need be. 
 > * [Doc](https://docs.google.com/document/d/1WTLx1k46g0WeB6Afp02XS682SUFbqJUVp4bKhXksYFo/edit#heading=h.v9anig8niu5f) for our last round of element revamp.
@@ -152,13 +152,13 @@ We are a fairly small company. Prefer sharing things in broad element groups whe
  
 That are used for various discussion topics, requesting reviews and Q&As, and using them is highly recommended.
 
-> .. But what if I am too loud, what it I annoy someone, or ask a [[Posts/Runtime Function Onboarding 2024#🤪 Dumb Questions\| dumb question]]? 
+> .. But what if I am too loud, what if I annoy someone, or ask a [[Posts/Runtime Function Onboarding 2024#🤪 Dumb Questions\| dumb question]]? 
 
 Short answer: **It is not your problem**.
 
-In an async environment, it is much easier to be under-heard and under-share, then the opposite. Therefore, it is safer to optimize for over-sharing, and only adjust if necessary.
+In an async environment, it is much easier to be under-heard and under-share, than the opposite. Therefore, it is safer to optimize for over-sharing, and only adjust if necessary.
 
-If your over-sharing and are actively annoying anyone, it is _their_ responsibly to give you that feedback, and you should adapt if the feedback is reasonable. But if you are *silently* under-sharing, it is much harder to identify it as an issue and recover from it. I suggest always preferring to share something where the _**most broad audience can see it**_, unless you conclude otherwise for some specific reason.
+If you're over-sharing and are actively annoying anyone, it is _their_ responsibly to give you that feedback, and you should adapt if the feedback is reasonable. But if you are *silently* under-sharing, it is much harder to identify it as an issue and recover from it. I suggest always preferring to share something where the _**most broad audience can see it**_, unless you conclude otherwise for some specific reason.
 
 > [!example] Async Communication 101
 > * Adjust your workflow (as much as possible) such that you are ***NOT*** blocked by other's not replying to you immediately. Explore a reasonable degree of multi-tasking. 
@@ -172,9 +172,9 @@ Parity has an interesting attitude towards this. We have a room specifically cal
 
 Let's be honest: Web3 is a complicated space, for both engineers and non-engineers. Only a few are knowledgeable enough to have a high level understanding of *everything*. Most of us are new in this space. Moreover, this space (and Parity) move really fast. What you know today might need an update in 6 months. 
 
-So, in short: There is a million things to (re)learn, and asking those who know better than you is the most wise thing you can do. As the saying goes: "*The only dumb question is the one you don't ask*". 
+So, in short: There are a million things to (re)learn, and asking those who know better than you is the wisest thing you can do. As the saying goes: "*The only dumb question is the one you don't ask*". 
 
-But, there is a few notes that you should keep in mind about questions: 
+But, there are a few notes that you should keep in mind about questions: 
 
 > [!info] Asking Questions 101
 > * First, while we assert there is no such thing as dumb questions, there is such a thing as a *lazy question*. That is, when you are told to "do `x`" by person `A`, and then you go to person `B` and as "hey, how do I do `x`?" This might be seen as a lazy question, and not so cool to do it often. A good question should indicate that you have put some effort into the matter yourself, and are now seeking validation of your progress. 
@@ -209,9 +209,9 @@ Well, your PR is finally merged. Are we done? More often than not, no.
 Yet again, a lot of this goes back to the dual realities ([[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|💊 The Reality of What We Do]]) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following: 
 
 1. **Test-network Runtime Upgrade**: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further? 
-2. **RC/SC Runtime Upgrade**: Days, weeks or months after your PR is merged, it might finally land in in the RC or one of the SCs[^1]. This is another milestone for testing: Did everything go smoothly?  The release process of RC runtimes, and their enactment is fully public and managed by the Polkadot fellowship, so you can easily tag along.
+2. **RC/SC Runtime Upgrade**: Days, weeks or months after your PR is merged, it might finally land in the RC or one of the SCs[^1]. This is another milestone for testing: Did everything go smoothly?  The release process of RC runtimes, and their enactment, is fully public and managed by the Polkadot fellowship, so you can easily tag along.
 3. **Developer Community Impact**.
-    1. Did any UIs break because of your feature? could we have communicated better with them? 
+    1. Did any UIs break because of your feature? Could we have communicated better with them? 
     2. Are any new documentation pages needed? (easier to forget:) Are any of the *existing ones outdated now*? Maybe one of the most visited StackExchange questions needs being updated? 
     3. Was your PR description good for downstream teams to be able to adopt the feature?
 4. **Monitoring and Data**
@@ -221,7 +221,7 @@ Yet again, a lot of this goes back to the dual realities ([[Posts/Runtime Functi
 
 ### 🧐 Know Your API 
 
-As a final example to cement [[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|💊 The Reality of What We Do]], let's consider the difference between two features, in order the highlight how important it is for you to be able to answer one question: 
+As a final example to cement [[Posts/Runtime Function Onboarding 2024#💊 The Reality of What We Do\|💊 The Reality of What We Do]], let's consider the difference between two features, in order to highlight how important it is for you to be able to answer one question: 
 
 > Is my code end-user-facing or not?
 
@@ -235,10 +235,10 @@ Consider:
 
 Our [PRDoc system's audience section](https://raw.githubusercontent.com/paritytech/polkadot-sdk/master/prdoc/schema_user.json) is a good framework to help you think about the final audience of your code.  
 
-Moreover, new release process, with its emphasis on semantic versioning, will force you to think about this to a high extent, but it does not encapsulate the full magnitude of the above. For example, in your PR, you might be causing major bump to many crates, but only one of the crates is something that actually matters to the main audience, noted in the PRDoc. 
+Moreover, the new release process, with its emphasis on semantic versioning, will force you to think about this to a high extent, but it does not encapsulate the full magnitude of the above. For example, in your PR, you might be causing a major bump to many crates, but only one of the crates is something that actually matters to the main audience, noted in the PRDoc. 
 ### 🧹 Be The Housemeister
 
-We are a true open-source project, and our entire issue-tracking system is what we publicly have in Github. While our issue list has grown very large and it is unlikely that our team can clean it up, we can keep *issues that are relevant to our team* tidy, well described and properly labeled.  Practically: 
+We are a true open-source project, and our entire issue-tracking system is what we publicly have in GitHub. While our issue list has grown very large, and it is unlikely that our team can clean it up, we can keep *issues that are relevant to our team* tidy, well described and properly labeled.  Practically: 
 1. Keep the issues that you have created tidy.
 2. Keep an eye on the issues opened by external contributors (they are auto-labeled as `unconfirmed`) and see if you can triage them. We sometimes get important bug reports from external users and the only way to do so
 3. Similarly, you can have some degree of supervision upon areas of our StackExchange.
@@ -331,7 +331,7 @@ The impact of what we do, specifically for end-user facing work (as defined in [
 ### Liveness Above All 
 Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship. 
 
-**Making Polkadot successful is, one way or another, our main mission**. Therefore, important bugs and existential issues that might arise should never be be discarded as "it is not the task I am working on, so not my problem". If something important comes up that is possibly an existential threat to Polkadot, it is everyone's first priority. 
+**Making Polkadot successful is, one way or another, our main mission**. Therefore, important bugs and existential issues that might arise should never be discarded as "it is not the task I am working on, so not my problem". If something important comes up that is possibly an existential threat to Polkadot, it is everyone's first priority. 
 ### Resilience Above All 
 We proudly consider ourselves as one of the (few) companies that is "*doing blockchain right*". In that, we are not in this for a short term profit, for capturing a hype or anything other than making the [true](https://gavwood.com/web3lt.html) [Web3 vision](https://www.reddit.com/r/ethereum/comments/23beb3/insights_into_a_modern_world_%C3%B0apps_what_web_30/) come to fruition. 
 
@@ -343,7 +343,6 @@ With all that said, what is practically means for us, is that when we are develo
 
 > [!Info]- But What About UX? 
 > Historically, we have also sacrifices a lot of UX for resilience. We do wish to put a stop to that, and build more user-friendly systems going forward. That being said, we should similarly openly explore ways to improve UX without sacrificing resilience. 
-> 
 
 ## Learning Resources 
 
