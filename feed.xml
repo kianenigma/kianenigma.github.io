@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-03T06:53:53Z</updated>
+    <updated>2024-07-03T15:46:01Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -17,6 +17,25 @@
 
             </content>
             <link href="https://blog.kianenigma.nl//talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/" />
+        </entry>
+        <entry>
+            <title>
+                PBA4 Hong Kong
+                
+            </title>
+            <updated>2024-07-03T15:45:18.250Z</updated>
+            <id>https://blog.kianenigma.nl//talks/polkadot-blockchain-academy/pba-4-hong-kong/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;Full video series tweet: &lt;a href=&quot;https://x.com/AcademyPolkadot/status/1805278082581811425&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;x.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Full playlist on youtube: &lt;a href=&quot;https://www.youtube.com/playlist?list=PL-w_i5kwVqblgwQfXbR-n8pC1QE1IaxBZ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PBA Cryptography Module - Lesson Videos - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Some of my lectures follows:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?si=J0VF6BL1ZYtQSdSV&amp;amp;list=PL-w_i5kwVqbkRmfDn5nzeuU1S_FFW8dDg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/y8ZnmM555UY?si=awZUSFc86ckk1sHS&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//talks/polkadot-blockchain-academy/pba-4-hong-kong/" />
         </entry>
         <entry>
             <title>
@@ -1688,6 +1707,10 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/polkadot-blockchain-academy/pba-4-hong-kong/&quot;&gt;PBA4 Hong Kong&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8:00 PM - June 27, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/meta-cognition-framework/&quot;&gt;Meta Cognition Framework&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;6:33 PM - March 24, 2024&lt;/td&gt;
 &lt;/tr&gt;
@@ -1702,10 +1725,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot&#39;s Build Horizon&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;4:40 PM - March 16, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;12:29 PM - March 16, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
