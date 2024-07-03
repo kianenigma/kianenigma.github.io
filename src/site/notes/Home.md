@@ -17,13 +17,13 @@
 - 🤖 Often found online with the name `@kianenigma`.
 ## Latest Post 
 
-| File                                                                                                   | Created At                |
-| ------------------------------------------------------------------------------------------------------ | ------------------------- |
-| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 6:33 PM - March 24, 2024  |
-| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 9:33 PM - March 23, 2024  |
-| [[Posts/Personal/The Price of Change\|The Price of Change]]                                         | 9:03 PM - March 23, 2024  |
-| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]]                                   | 4:40 PM - March 16, 2024  |
-| [[Posts/Personal/Gallery\|Gallery]]                                                                 | 12:29 PM - March 16, 2024 |
+| File                                                                                                   | Created At               |
+| ------------------------------------------------------------------------------------------------------ | ------------------------ |
+| [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 8:00 PM - June 27, 2024  |
+| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 6:33 PM - March 24, 2024 |
+| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 9:33 PM - March 23, 2024 |
+| [[Posts/Personal/The Price of Change\|The Price of Change]]                                         | 9:03 PM - March 23, 2024 |
+| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]]                                   | 4:40 PM - March 16, 2024 |
 
 { .block-language-dataview}
 
