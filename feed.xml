@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-09T21:06:00Z</updated>
+    <updated>2024-07-09T21:09:10Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -508,10 +508,14 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-09T21:05:11.991Z</updated>
+            <updated>2024-07-09T21:08:27.422Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
-                &lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM &lt;a href=&quot;http://www.graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;graypaper&lt;/a&gt;.&lt;/p&gt;
+                &lt;blockquote&gt;
+&lt;p&gt;[!info]- Collaboration&lt;br /&gt;
+If you would like to collaborate on this article and/or leave feedback, consider opening a Pull Request &lt;a href=&quot;https://github.com/kianenigma/kianenigma.github.io/blob/main/src/site/notes/Posts/Tech/Demystifying%20JAM.md&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The following is a &lt;a href=&quot;https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ground-up&lt;/a&gt; explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM &lt;a href=&quot;http://www.graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;graypaper&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#background-knowledge&quot;&gt;Background Knowledge&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#prelude-polkadot-1&quot;&gt;Prelude: Polkadot 1&lt;/a&gt;&lt;/li&gt;
