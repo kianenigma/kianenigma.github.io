@@ -1,7 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-07-09T22:05:11.991+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-07-09T22:08:27.422+01:00"}
 ---
 
+> [!info]- Collaboration 
+> If you would like to collaborate on this article and/or leave feedback, consider opening a Pull Request [here](https://github.com/kianenigma/kianenigma.github.io/blob/main/src/site/notes/Posts/Tech/Demystifying%20JAM.md). 
 
 The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly) explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM [graypaper](http://www.graypaper.com).
 
@@ -21,7 +23,6 @@ The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-rav
 - [[Posts/Tech/Demystifying JAM#Appendix: Scalability Space Map\|Appendix: Scalability Space Map]]
 - [[Posts/Tech/Demystifying JAM#Appendix: Same Hardware, Kernel Update\|Appendix: Same Hardware, Kernel Update]]
 - [[Posts/Tech/Demystifying JAM#Resources\|Resources]]
-
 ## Background Knowledge
 
 This article makes use and assumes familiarity of the following concepts: 
