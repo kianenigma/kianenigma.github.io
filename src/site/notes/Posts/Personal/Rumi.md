@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"rumi","permalink":"/rumi/","pinned":true,"created":"2024-03-10T18:13:42.000+03:30","updated":"2024-03-10T18:13:42.603+03:30"}
+{"dg-publish":true,"dg-permalink":"rumi","permalink":"/rumi/","pinned":true,"created":"2024-03-10T14:43:42.000+00:00","updated":"2024-03-10T14:43:42.603+00:00"}
 ---
 
 
