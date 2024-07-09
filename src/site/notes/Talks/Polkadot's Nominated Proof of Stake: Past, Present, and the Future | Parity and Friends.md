@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/","created":"2023-08-28T16:33:35.000+03:30","updated":"2023-08-28T16:33:35.281+03:30"}
+{"dg-publish":true,"permalink":"/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/","created":"2023-08-28T14:03:35.000+01:00","updated":"2023-08-28T14:03:35.281+01:00"}
 ---
 
 
