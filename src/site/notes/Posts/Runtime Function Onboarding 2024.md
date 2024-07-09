@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T13:16:17.880+03:30","updated":"2024-07-02T12:12:26.526+03:30"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-07-02T09:42:26.526+01:00"}
 ---
 
 - [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|👋🏻 Intro: Welcome to The Runtime Function]]
