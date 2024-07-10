@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-07-09T22:12:09.587+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-07-10T15:45:53.281+01:00"}
 ---
+
+![[jam-pen-polkadot.webp]]
+
 
 > [!info]- Collaboration 
 > If you would like to collaborate on this article and/or leave feedback, consider opening a Pull Request [here](https://github.com/kianenigma/kianenigma.github.io/blob/main/src/site/notes/Posts/Tech/Demystifying%20JAM.md). 
@@ -76,7 +79,7 @@ An execution-sharded blockchain is very much like a CPU: In much the same way th
 You can imagine a monolithic blockchain as one that ingests a single block at any given 6s time-slot, while Polkadot ingests 1 relay-chain block, and 1 parachain block per core, per time-slot
 ### Heterogeneous 
 
-So far, we only talked about scalability, and that Polkadot provides sharded execution. It is important to note that each of Polkadot's shards is an entirely different application[^5]. This is achieved through the usage of a bytecode-stored meta-protocol: A protocol in which the definition of the blockchain is stored as bytecode in state of the blockchain itself. In Polkadot 1, WASM was used as the bytecode of choice, and in JAM, [[Posts/Tech/Demystifying JAM#PVM\|PVM]]/RISC-V is being adopted.  
+So far, we only talked about scalability, and that Polkadot provides sharded execution. It is important to note that each of Polkadot's shards is an entirely different application[^5]. This is achieved through the usage of a bytecode-stored meta-protocol: A protocol in which the definition of the blockchain is stored as bytecode in state of the blockchain itself. In Polkadot 1 WASM was used as the bytecode of choice, and in JAM, [[Posts/Tech/Demystifying JAM#PVM\|PVM]]/RISC-V is being adopted.  
 [^5]: aka. Blockchain, or state transition function. 
 
 All in all, this is why Polkadot is called a [*heterogeneously sharded blockchain*](https://x.com/kianenigma/status/1790763921600606259). Each of the L2s is an entirely different application.
@@ -208,7 +211,7 @@ The majority of this article covered the topic of scalability from the perspecti
 JAM, other than providing both of the above, also allows programmers to post arbitrary data into the JAM DA layer, which in some sense is a middle-ground between on-chain and off-chain data. A novel category of applications can be written while leveraging the DA layer for majority of the application data, while only persisting what is absolutely crucial into the JAM state.   
 ## Appendix: Scalability Space Map
 
-This part re-explains our view on the blockchain scalability landscape. This is also explained in the graypaper, and this is a more concise version of that.
+This part re-explain our view on the blockchain scalability landscape. This is also explained in the graypaper, and this is a more concise version of that.
 
 The scalability in blockchains follows the approaches used in traditional distributed systems for the most part: scaling up (vertical), and scaling out (horizontal). 
 
