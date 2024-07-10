@@ -1,9 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-07-10T15:45:53.281+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-07-10T15:51:11.767+01:00"}
 ---
 
-![[jam-pen-polkadot.webp]]
-
+![jam-pen-polkadot.png](/img/user/resources/jam-pen-polkadot.png)
 
 > [!info]- Collaboration 
 > If you would like to collaborate on this article and/or leave feedback, consider opening a Pull Request [here](https://github.com/kianenigma/kianenigma.github.io/blob/main/src/site/notes/Posts/Tech/Demystifying%20JAM.md). 
