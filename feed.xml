@@ -3,7 +3,7 @@
     <title>Kian Paimani</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-10T14:46:37Z</updated>
+    <updated>2024-07-10T14:51:49Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -505,13 +505,39 @@ useful. You can already see me use them in the previous gif. Highly recommended 
         </entry>
         <entry>
             <title>
+                Documentation of POLKADOT-SDK
+                
+            </title>
+            <updated>2024-07-10T10:14:58.784Z</updated>
+            <id>https://blog.kianenigma.nl//posts/tech/documentation-of-polkadot-sdk/</id>
+            <content type="html">
+                &lt;h2 id=&quot;tweet-form&quot; tabindex=&quot;-1&quot;&gt;Tweet Form&lt;/h2&gt;
+&lt;h2 id=&quot;long-form&quot; tabindex=&quot;-1&quot;&gt;Long Form&lt;/h2&gt;
+&lt;h2 id=&quot;script&quot; tabindex=&quot;-1&quot;&gt;Script&lt;/h2&gt;
+&lt;p&gt;Ack that Polkadot SDK is hard to understand, for multiple reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Depth of the knowledge, Web3, among the complicated web3 projects, novel aspects&lt;/li&gt;
+&lt;li&gt;Use of Rust, in a very very generic manner&lt;/li&gt;
+&lt;li&gt;Lots of changes from core-devs.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;3rd being fixed by stability.&lt;/li&gt;
+&lt;li&gt;2nd is not solve-able, and merely requires practice. We can to some extent improve it by using ideas like &lt;code&gt;opinionated frame system&lt;/code&gt;, or &lt;code&gt;dumbing down FRAME&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;1st is something like PBA content, and polkadot-sdk-docs can help with.&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//posts/tech/documentation-of-polkadot-sdk/" />
+        </entry>
+        <entry>
+            <title>
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-10T14:45:53.281Z</updated>
+            <updated>2024-07-10T14:51:11.767Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
-                &lt;p&gt;![[jam-pen-polkadot.webp]]&lt;/p&gt;
+                &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/jam-pen-polkadot.png&quot; alt=&quot;jam-pen-polkadot.png&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]- Collaboration&lt;br /&gt;
 If you would like to collaborate on this article and/or leave feedback, consider opening a Pull Request &lt;a href=&quot;https://github.com/kianenigma/kianenigma.github.io/blob/main/src/site/notes/Posts/Tech/Demystifying%20JAM.md&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;

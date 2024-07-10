@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Phragmen Overview | Substrate Seminar</title>
+<title>Documentation of POLKADOT-SDK</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:!0})</script>
@@ -199,7 +199,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/phragmen-overview-substrate-seminar/">Phragmen Overview | Substrate Seminar </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/phragmen-overview-substrate-seminar/">Phragmen Overview | Substrate Seminar </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -294,17 +294,49 @@ CTRL + K
                 </div>`}),t+="</div>",resultsDiv.innerHTML=t):((a=document.createElement("p")).innerText=`No results for "${e}"`,resultsDiv.innerHTML="",resultsDiv.appendChild(a))}}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs;let a="#"===e[0]&&1<e.length?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);e=t=>{var e=a.filter(e=>e.field===t);return 0===e.length?[]:[...e[0].result]};return[...new Set([...e("title"),...e("content"),...e("tags")])].map(e=>{e=t[e];return e.content=truncate(e.content,400),e.tags=e.tags.filter(e=>"gardenEntry"!=e&&"note"!=e),e})}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Phragmen Overview | Substrate Seminar</h1>
+<h1 data-note-icon="">Documentation of POLKADOT-SDK</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2023-08-28T14:03:15.000+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2023-08-28T14:03:15.168+01:00"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-07-10T10:48:36.533+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-10T11:14:58.784+01:00"></span></div></div></div>
 </header>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MjOvVhc1oXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="tweet-form" tabindex="-1">Tweet Form</h2>
+<h2 id="long-form" tabindex="-1">Long Form</h2>
+<h2 id="script" tabindex="-1">Script</h2>
+<p>Ack that Polkadot SDK is hard to understand, for multiple reasons:</p>
+<ol>
+<li>Depth of the knowledge, Web3, among the complicated web3 projects, novel aspects</li>
+<li>Use of Rust, in a very very generic manner</li>
+<li>Lots of changes from core-devs.</li>
+</ol>
+<ul>
+<li>3rd being fixed by stability.</li>
+<li>2nd is not solve-able, and merely requires practice. We can to some extent improve it by using ideas like <code>opinionated frame system</code>, or <code>dumbing down FRAME</code>.</li>
+<li>1st is something like PBA content, and polkadot-sdk-docs can help with.</li>
+</ul>
 </main>
 <aside>
 <div class="sidebar">
 <div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#tweet-form">Tweet Form</a>
+</li>
+<li><a href="#long-form">Long Form</a>
+</li>
+<li><a href="#script">Script</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 </div>
 </div>
 </aside>
