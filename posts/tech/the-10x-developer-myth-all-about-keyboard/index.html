@@ -32,7 +32,7 @@
 <div class="navbar-inner">
 <span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i icon-name="menu"></i></span>
 <a href="/" style="text-decoration:none">
-<h1 style="margin:15px!important">Kian Paimani</h1>
+<h1 style="margin:15px!important">Kian&#39;s Garden</h1>
 </a>
 </div>
 <div class="search-button align-icon" onclick="toggleSearch()">
@@ -51,7 +51,7 @@ CTRL + K
 <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
 <nav class="filetree-sidebar" x-show.important="isDesktop || showFilesMobile" style="display:none">
 <a href="/" style="text-decoration:none">
-<h1 style="text-align:center">Kian Paimani</h1>
+<h1 style="text-align:center">Kian&#39;s Garden</h1>
 </a>
 <div style="display:flex;justify-content:center">
 <div class="search-button align-icon" onclick="toggleSearch()">
@@ -187,6 +187,10 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/blockchain-reimagined/">Blockchain Reimagined </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/">Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022 </a>
 </div>
 </div>
@@ -276,7 +280,7 @@ CTRL + K
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-12T15:36:18.020Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-12T15:36:18.020Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-12T15:36:18.020Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-12T16:56:48.605Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-12T16:56:48.605Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-12T16:56:48.605Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
                     <a class="search-link" href="${e.url}">${e.title}</a>
                     <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
@@ -346,7 +350,9 @@ CTRL + K
 <li>Find it by <strong>name</strong>.</li>
 </ol>
 <p>The find a file by its <strong>location</strong>, you want a keyboard shortcut that can quickly move the focus of your editor from the code you are editing to the the file-tree (remember, no touching the damn mouse for any of this!).</p>
-<p><img src="/img/user/resources/10x-1.gif" alt="10x-1.gif"></p>
+<p><picture src="/img/user/resources/10x-1.gif" alt="10x-1.gif"><source media="(max-width:480px)" srcset="/img/optimized/7LpQQ9V5b_-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/7LpQQ9V5b_-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/7LpQQ9V5b_-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/7LpQQ9V5b_-700.jpeg"><img class="" src="/img/user/resources/10x-1.gif" alt="10x-1.gif" width=""></picture></p>
 <p>The keyboard shortcut config name for this is &quot;<strong>View: Show Explorer</strong>&quot; in Vscode.</p>
 <p>Sometimes, you have the file that is already of interest open in a different tab, and you know that tab is nearby. For this, you need a shortcut to move to the next/previous tab real quick.</p>
 <blockquote>
@@ -356,7 +362,9 @@ CTRL + K
 <p>If you use the integrated terminal in vscode (I don't) you probably want shortcuts to switch focus to/from it as well.</p>
 </blockquote>
 <p>If you want to use a file by <strong>location</strong>, the way to do it is the fuzzy finder. I don't know what editor you use, but it must have a fuzzy finder. A fuzzy finder is one that more or less does it best to match the string you are inserting to anything in the path of the final file. For example, if you are looking for a file that is located in <code>/foo/bar/prettyUniquePart/src/mod.rs</code> it is not wise to try and find it in the fuzzy finder with the <code>mod.rs</code> part, but rather inserting <code>pretty</code> might be enough.</p>
-<p><img src="/img/user/resources/10x-6-cmdp.gif" alt="10x-6-cmdp.gif"></p>
+<p><picture src="/img/user/resources/10x-6-cmdp.gif" alt="10x-6-cmdp.gif"><source media="(max-width:480px)" srcset="/img/optimized/TN3X8pOAYa-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/TN3X8pOAYa-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/TN3X8pOAYa-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/TN3X8pOAYa-700.jpeg"><img class="" src="/img/user/resources/10x-6-cmdp.gif" alt="10x-6-cmdp.gif" width=""></picture></p>
 <p>The fuzzy search can be opened by VScode using <code>cmd+p</code> by default, and it can do a lot more than fuzzy search!</p>
 <h4 id="navigating-the-right-file" tabindex="-1">Navigating The Right File.</h4>
 <p>Now, assuming you are the master of opening files, you want to be able to navigate it in a skillful way.</p>
@@ -366,10 +374,14 @@ CTRL + K
 <li>Jump to end and beginning of the file (shortcut name: <code>cursorBottom</code>).</li>
 </ol>
 <p>As a backup, should you fail and need to use your trackpad, VSCode can be configured to have a <a href="https://www.youtube.com/watch?v=iZP1cfAI_rY" target="_blank" class="external-link">fast-scroll</a> next to the normal scroll, which is pretty useful.</p>
-<p><img src="/img/user/resources/10x-8-scroll.gif" alt="10x-8-scroll.gif"></p>
+<p><picture src="/img/user/resources/10x-8-scroll.gif" alt="10x-8-scroll.gif"><source media="(max-width:480px)" srcset="/img/optimized/Smj8YIWmes-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Smj8YIWmes-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Smj8YIWmes-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Smj8YIWmes-700.jpeg"><img class="" src="/img/user/resources/10x-8-scroll.gif" alt="10x-8-scroll.gif" width=""></picture></p>
 <p>Then, you want to be able to find some symbols. If you have a language server, you will get a lot of information related to this in your screen already, but there's still a few tips to be added.</p>
 <p>Firstly, if you have a proper language server, you better be apt at using it. This involves knowing the keyboard shortcut for super useful operations such as: &quot;Jump To Definition&quot;, &quot;Peek Definition&quot;, &quot;Find References&quot; and such.</p>
-<p><img src="/img/user/resources/10x-peek-def.gif" alt="10x-peek-def.gif"></p>
+<p><picture src="/img/user/resources/10x-peek-def.gif" alt="10x-peek-def.gif"><source media="(max-width:480px)" srcset="/img/optimized/4OeRwGYOtU-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/4OeRwGYOtU-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/4OeRwGYOtU-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/4OeRwGYOtU-700.jpeg"><img class="" src="/img/user/resources/10x-peek-def.gif" alt="10x-peek-def.gif" width=""></picture></p>
 <p>Then, two additions to the fuzzy search <code>cmd+p</code>. If you open the same, and prefix it with <code>@</code>, then it turns into a local symbol search. If you prefix it with <code>#</code> it turns into a global symbol search (might not work on large projects). If you prefix it with <code>:</code> it will help you jump to a file with a specific line number.</p>
 <blockquote>
 <p>Lastly, if you put <code>&gt;</code> it will allow you to execute internal commands, such as &quot;format document&quot; etc.</p>
@@ -381,30 +393,44 @@ CTRL + K
 <p>With or without Rust analyzer, I have a <a href="https://hello.kianenigma.nl/posts/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/" target="_blank" class="external-link">few regex-based custom commands</a> that I find vastly useful in large Rust Mono-repos, to find symbols quickly.</p>
 </blockquote>
 <p>Then, let's talk about the (much underrated) <code>cmf+f</code> and <code>cmf+shift+f</code>. You know what they do: they invoke local file search, and global search. They are okay as they are, but what are you going to do with the results, without needing to use the cursed mouse? that's right, you need shortcuts to navigate the results. This is really powerful, and turns these mundane shortcuts into super tools.</p>
-<p><img src="/img/user/resources/10x-search.gif" alt="10x-search.gif"></p>
+<p><picture src="/img/user/resources/10x-search.gif" alt="10x-search.gif"><source media="(max-width:480px)" srcset="/img/optimized/UbC12lSo84-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/UbC12lSo84-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/UbC12lSo84-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/UbC12lSo84-700.jpeg"><img class="" src="/img/user/resources/10x-search.gif" alt="10x-search.gif" width=""></picture></p>
 <p>The keyboard shortcut for these is called &quot;<code>Find Next/Previous</code>&quot;, &quot;<code>Search: Focus Next/Previous Search Result</code>&quot;.</p>
 <h4 id="editing-the-right-file" tabindex="-1">Editing The Right File.</h4>
 <p>Lastly, let's talk a bit about edit editing files. Writing code is mostly easy if you are only adding words. It mostly gets hard if you want to do bulk edits, or if you want to do more complicated things. Here are a few things that I find important, but my suggestions here are really non-exhaustive.</p>
 <ul>
 <li>indent/de-indent</li>
 </ul>
-<p><img src="/img/user/resources/10x-2-indent.gif" alt="10x-2-indent.gif"></p>
+<p><picture src="/img/user/resources/10x-2-indent.gif" alt="10x-2-indent.gif"><source media="(max-width:480px)" srcset="/img/optimized/yGVOBbK1Z9-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/yGVOBbK1Z9-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/yGVOBbK1Z9-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/yGVOBbK1Z9-700.jpeg"><img class="" src="/img/user/resources/10x-2-indent.gif" alt="10x-2-indent.gif" width=""></picture></p>
 <ul>
 <li>duplicate line</li>
 </ul>
-<p><img src="/img/user/resources/10x-3-duplicate.gif" alt="10x-3-duplicate.gif"></p>
+<p><picture src="/img/user/resources/10x-3-duplicate.gif" alt="10x-3-duplicate.gif"><source media="(max-width:480px)" srcset="/img/optimized/m2ov5UpRxf-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/m2ov5UpRxf-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/m2ov5UpRxf-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/m2ov5UpRxf-700.jpeg"><img class="" src="/img/user/resources/10x-3-duplicate.gif" alt="10x-3-duplicate.gif" width=""></picture></p>
 <ul>
 <li>move line(s)</li>
 </ul>
-<p><img src="/img/user/resources/10x-4-move.gif" alt="10x-4-move.gif"></p>
+<p><picture src="/img/user/resources/10x-4-move.gif" alt="10x-4-move.gif"><source media="(max-width:480px)" srcset="/img/optimized/kpHo-aTPev-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/kpHo-aTPev-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/kpHo-aTPev-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/kpHo-aTPev-700.jpeg"><img class="" src="/img/user/resources/10x-4-move.gif" alt="10x-4-move.gif" width=""></picture></p>
 <ul>
 <li>some knowledge of how to do multi-cursor operations.</li>
 </ul>
-<p><img src="/img/user/resources/10x-7-multi-1.gif" alt="10x-7-multi-1.gif"></p>
-<p><img src="/img/user/resources/10x-7-multi-2.gif" alt="10x-7-multi-2.gif"></p>
+<p><picture src="/img/user/resources/10x-7-multi-1.gif" alt="10x-7-multi-1.gif"><source media="(max-width:480px)" srcset="/img/optimized/CtRcznUcH1-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/CtRcznUcH1-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/CtRcznUcH1-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/CtRcznUcH1-700.jpeg"><img class="" src="/img/user/resources/10x-7-multi-1.gif" alt="10x-7-multi-1.gif" width=""></picture></p>
+<p><picture src="/img/user/resources/10x-7-multi-2.gif" alt="10x-7-multi-2.gif"><source media="(max-width:480px)" srcset="/img/optimized/q_uDHm9umt-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/q_uDHm9umt-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/q_uDHm9umt-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/q_uDHm9umt-700.jpeg"><img class="" src="/img/user/resources/10x-7-multi-2.gif" alt="10x-7-multi-2.gif" width=""></picture></p>
 <h3 id="terminal-level" tabindex="-1">Terminal Level</h3>
 <p>I won't get into details here because this has already gotten long, but be aware that you can also optimize your use of terminal by quite a lot as well. The single most useful thing I can suggest for coding is the ability to jump right from your editor into the file path where some error has occurred (sadly, using your trackpad). I believe ITerm2 and Vscode's internal terminal support this out of the box.</p>
-<p><img src="/img/user/resources/10x-terminal.gif" alt="10x-terminal.gif"></p>
+<p><picture src="/img/user/resources/10x-terminal.gif" alt="10x-terminal.gif"><source media="(max-width:480px)" srcset="/img/optimized/NdIB1pVq0m-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/NdIB1pVq0m-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/NdIB1pVq0m-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/NdIB1pVq0m-700.jpeg"><img class="" src="/img/user/resources/10x-terminal.gif" alt="10x-terminal.gif" width=""></picture></p>
 <hr>
 <p>All in all, there's not much new that I am saying here. Most of these shortcuts and operations are already known. The main argument is: &quot;Use the keyboard!&quot; 😅.</p>
 </main>
