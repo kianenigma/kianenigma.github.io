@@ -19,11 +19,11 @@
 
 | File                                                                                                   | Created At               |
 | ------------------------------------------------------------------------------------------------------ | ------------------------ |
+| [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                              | 4:35 PM - July 12, 2024  |
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 8:00 PM - June 27, 2024  |
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024   |
 | [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 6:33 PM - March 24, 2024 |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 9:33 PM - March 23, 2024 |
-| [[Posts/Personal/The Price of Change\|The Price of Change]]                                         | 9:03 PM - March 23, 2024 |
 
 { .block-language-dataview}
 
