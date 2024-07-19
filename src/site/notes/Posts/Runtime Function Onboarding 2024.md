@@ -1,33 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-07-02T09:42:26.526+01:00"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-07-19T11:39:01.681+01:00"}
 ---
 
-- [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|👋🏻 Intro: Welcome to The Runtime Function]]
-	- [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|💊 The Reality of What We Do]]
-	- [[Posts/Runtime Function Onboarding 2024#👋🏻 Intro: Welcome to The Runtime Function\|📈 Function Portfolio]]
-- [[Posts/Runtime Function Onboarding 2024#📡 Communication\|📡 Communication]]
-	- [[Posts/Runtime Function Onboarding 2024#📡 Communication\|📞 Sync]]
-	- [[Posts/Runtime Function Onboarding 2024#📡 Communication\|📧 Async]]
-		- [[Posts/Runtime Function Onboarding 2024#📧 Async\|😱 Where/How-much to Write?]]
-	- [[Posts/Runtime Function Onboarding 2024#📡 Communication\|🤪 Dumb Questions]]
-- [[Posts/Runtime Function Onboarding 2024#🧑‍💻 Contributing\|🧑‍💻 Contributing]]
-	- [[Posts/Runtime Function Onboarding 2024#🧑‍💻 Contributing\|🛣️ Road to Merging a PR]]
-	- [[Posts/Runtime Function Onboarding 2024#🧑‍💻 Contributing\|🔙 After Merging]]
-	- [[Posts/Runtime Function Onboarding 2024#🧑‍💻 Contributing\|🧐 Know Your API]]
-	- [[Posts/Runtime Function Onboarding 2024#🧑‍💻 Contributing\|🧹 Be The Housemeister]]
-- [[Posts/Runtime Function Onboarding 2024#🤓 Keeping Up\|🤓 Keeping Up]]
-- [[Posts/Runtime Function Onboarding 2024#📍 Company\|📍 Company]]
-	- [[Posts/Runtime Function Onboarding 2024#📍 Company\|🎭 Culture]]
-	- [[Posts/Runtime Function Onboarding 2024#📍 Company\|🔬 Resources]]
-- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|💎 Appendix: Principles For Excellence]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Stability Over Chaos]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Information (de)Centralization and Longevity]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Domain Ownership]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Announce Early]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Don't Be Blocked On Decisions]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Measuring Impact]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Liveness Above All]]
-	- [[Posts/Runtime Function Onboarding 2024#💎 Appendix: Principles For Excellence\|Resilience Above All]]
+> [!info]- Collaboration 
+> If you would like to collaborate on this article and/or leave feedback, consider opening a Pull Request [here](https://github.com/kianenigma/kianenigma.github.io/blob/main/src/site/notes/Posts/Runtime%20Function%20Onboarding%202024.md). 
 
 ## 👋🏻 Intro: Welcome to The Runtime Function
 
