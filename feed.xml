@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" >
     <link href="https://blog.kianenigma.nl/" >
-    <updated>2024-07-19T10:40:00Z</updated>
+    <updated>2024-07-19T10:41:11Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -786,7 +786,7 @@ This implies that the Polkadot relay chain deals only with providing the paracha
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-07-19T10:39:01.681Z</updated>
+            <updated>2024-07-19T10:40:43.246Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -831,7 +831,7 @@ In a lot of our communication, we refer to Relay Chain as &lt;strong&gt;RC&lt;/s
 &lt;p&gt;We will repeatedly come back to these two points throughout this document.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]- An anecdote about breaking production code @kianenigma&lt;br /&gt;
-The main downtime of Polkadot is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of &lt;a href=&quot;https://github.com/paritytech/try-runtime-cli&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;try-runtime-*&lt;/code&gt;&lt;/a&gt; set of &lt;a href=&quot;https://forum.polkadot.network/t/testing-complex-frame-pallets-discussion-tools/356&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;tools&lt;/a&gt;, just to name one.&lt;/p&gt;
+The &lt;a href=&quot;https://polkadot.network/blog/a-polkadot-postmortem-24-05-2021/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;main downtime of Polkadot&lt;/a&gt; is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of &lt;a href=&quot;https://github.com/paritytech/try-runtime-cli&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;try-runtime-*&lt;/code&gt;&lt;/a&gt; set of &lt;a href=&quot;https://forum.polkadot.network/t/testing-complex-frame-pallets-discussion-tools/356&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;tools&lt;/a&gt;, just to name one.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;function-portfolio&quot; tabindex=&quot;-1&quot;&gt;📈 Function Portfolio&lt;/h3&gt;
 &lt;p&gt;Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently working on, in the words of the maintainers themselves:&lt;/p&gt;
