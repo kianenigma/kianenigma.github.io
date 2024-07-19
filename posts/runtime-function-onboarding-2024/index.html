@@ -280,7 +280,7 @@ CTRL + K
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-15T16:41:08.734Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-15T16:41:08.734Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-15T16:41:08.734Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-19T10:39:45.748Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-19T10:39:45.748Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-19T10:39:45.748Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
                     <a class="search-link" href="${e.url}">${e.title}</a>
                     <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
@@ -302,54 +302,13 @@ CTRL + K
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T10:46:17.880+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-02T09:42:26.526+01:00"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-06-26T10:46:17.880+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-19T11:39:01.681+01:00"></span></div></div></div>
 </header>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">👋🏻 Intro: Welcome to The Runtime Function</a>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">💊 The Reality of What We Do</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function">📈 Function Portfolio</a></li>
-</ul>
-</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📡 Communication</a>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📞 Sync</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">📧 Async</a>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#async">😱 Where/How-much to Write?</a></li>
-</ul>
-</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#communication">🤪 Dumb Questions</a></li>
-</ul>
-</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧑‍💻 Contributing</a>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🛣️ Road to Merging a PR</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🔙 After Merging</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧐 Know Your API</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#contributing">🧹 Be The Housemeister</a></li>
-</ul>
-</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#keeping-up">🤓 Keeping Up</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">📍 Company</a>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">🎭 Culture</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#company">🔬 Resources</a></li>
-</ul>
-</li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">💎 Appendix: Principles For Excellence</a>
-<ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Stability Over Chaos</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Information (de)Centralization and Longevity</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Domain Ownership</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Announce Early</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Don't Be Blocked On Decisions</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Measuring Impact</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Liveness Above All</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence">Resilience Above All</a></li>
-</ul>
-</li>
-</ul>
+<div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Collaboration<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+If you would like to collaborate on this article and/or leave feedback, consider opening a Pull Request <a href="https://github.com/kianenigma/kianenigma.github.io/blob/main/src/site/notes/Posts/Runtime%20Function%20Onboarding%202024.md" target="_blank" class="external-link">here</a>.</p>
+</div></div>
 <h2 id="intro-welcome-to-the-runtime-function" tabindex="-1">👋🏻 Intro: Welcome to The Runtime Function</h2>
 <p>Welcome to Parity, welcome to the Runtime Function, arguably one of the most important teams within Parity and the Polkadot Ecosystem.</p>
 <p>What do we do? We build everything that is needed for the <em><strong>Runtimes of the Polkadot ecosystem to exist</strong></em>. Remember, <a href="https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/wasm_meta_protocol/index.html" target="_blank" class="external-link">the runtime</a> is where the application logic of all of our blockchains live. The runtime function is at the moment divided into 3 teams:</p>

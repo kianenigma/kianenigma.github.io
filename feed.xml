@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" >
     <link href="https://blog.kianenigma.nl/" >
-    <updated>2024-07-15T16:41:09Z</updated>
+    <updated>2024-07-19T10:39:46Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -786,55 +786,13 @@ This implies that the Polkadot relay chain deals only with providing the paracha
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-07-02T08:42:26.526Z</updated>
+            <updated>2024-07-19T10:39:01.681Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
-                &lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function&quot;&gt;👋🏻 Intro: Welcome to The Runtime Function&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function&quot;&gt;💊 The Reality of What We Do&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#intro-welcome-to-the-runtime-function&quot;&gt;📈 Function Portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#communication&quot;&gt;📡 Communication&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#communication&quot;&gt;📞 Sync&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#communication&quot;&gt;📧 Async&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#async&quot;&gt;😱 Where/How-much to Write?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#communication&quot;&gt;🤪 Dumb Questions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#contributing&quot;&gt;🧑‍💻 Contributing&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#contributing&quot;&gt;🛣️ Road to Merging a PR&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#contributing&quot;&gt;🔙 After Merging&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#contributing&quot;&gt;🧐 Know Your API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#contributing&quot;&gt;🧹 Be The Housemeister&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#keeping-up&quot;&gt;🤓 Keeping Up&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#company&quot;&gt;📍 Company&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#company&quot;&gt;🎭 Culture&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#company&quot;&gt;🔬 Resources&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;💎 Appendix: Principles For Excellence&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Stability Over Chaos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Information (de)Centralization and Longevity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Domain Ownership&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Announce Early&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Don&#39;t Be Blocked On Decisions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Measuring Impact&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Liveness Above All&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/runtime-function-onboarding-2024/#appendix-principles-for-excellence&quot;&gt;Resilience Above All&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+                &lt;blockquote&gt;
+&lt;p&gt;[!info]- Collaboration&lt;br /&gt;
+If you would like to collaborate on this article and/or leave feedback, consider opening a Pull Request &lt;a href=&quot;https://github.com/kianenigma/kianenigma.github.io/blob/main/src/site/notes/Posts/Runtime%20Function%20Onboarding%202024.md&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&quot;intro-welcome-to-the-runtime-function&quot; tabindex=&quot;-1&quot;&gt;👋🏻 Intro: Welcome to The Runtime Function&lt;/h2&gt;
 &lt;p&gt;Welcome to Parity, welcome to the Runtime Function, arguably one of the most important teams within Parity and the Polkadot Ecosystem.&lt;/p&gt;
 &lt;p&gt;What do we do? We build everything that is needed for the &lt;em&gt;&lt;strong&gt;Runtimes of the Polkadot ecosystem to exist&lt;/strong&gt;&lt;/em&gt;. Remember, &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/wasm_meta_protocol/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the runtime&lt;/a&gt; is where the application logic of all of our blockchains live. The runtime function is at the moment divided into 3 teams:&lt;/p&gt;
