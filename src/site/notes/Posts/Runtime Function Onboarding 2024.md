@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-07-19T11:39:01.681+01:00"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-07-19T11:40:43.246+01:00"}
 ---
 
 > [!info]- Collaboration 
@@ -37,7 +37,7 @@ Working in the above implies two very important self-evident truths about the ty
 We will repeatedly come back to these two points throughout this document. 
 
 > [!info]- An anecdote about breaking production code @kianenigma
-> The main downtime of Polkadot is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of [`try-runtime-*`](https://github.com/paritytech/try-runtime-cli) set of [tools](https://forum.polkadot.network/t/testing-complex-frame-pallets-discussion-tools/356), just to name one.  
+> The [main downtime of Polkadot](https://polkadot.network/blog/a-polkadot-postmortem-24-05-2021/) is partially because of my code. Many collaborated to fix the issue, and we learned countless lessons about how to test our code, eventually leading to the creation of [`try-runtime-*`](https://github.com/paritytech/try-runtime-cli) set of [tools](https://forum.polkadot.network/t/testing-complex-frame-pallets-discussion-tools/356), just to name one.  
 ### 📈 Function Portfolio
 
 Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently working on, in the words of the maintainers themselves:
