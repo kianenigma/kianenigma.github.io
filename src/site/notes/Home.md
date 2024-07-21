@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-06-26T10:56:27.707+01:00"}
+{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-21T22:09:10.528+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -26,5 +26,25 @@
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 9:33 PM - March 23, 2024 |
 
 { .block-language-dataview}
+
+## Outro 
+
+_banī-ādam aʿzāy-e yek digarand_
+_keh dar āfarīnesh 'zeh yek goharand_
+_cho ʿozvī be-dard āvarad rūzgār_
+_degar ʿozvhā rā namānad qarār_
+_to k'az meḥnat-e dīgarān bī-ghamī_
+_nashāyad keh nāmat nahand ādamī_
+
+Human Beings are members of a whole
+In creation of one essence and soul
+If one member is inflicted with pain
+Other members uneasy will remain
+If you have no sympathy for human pain
+The name of human you can not pertain
+
+> [Bani Adam - Wikipedia](https://en.wikipedia.org/wiki/Bani_Adam)
+
+---
 
 > Made with [Obsidian-Digital-Garden](https://github.com/oleeskild/Obsidian-Digital-Garden)
