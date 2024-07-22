@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-22T11:02:06.541+01:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-22T11:10:49.383+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -30,19 +30,21 @@
 
 ## Outro 
 
-_banī-ādam aʿzāy-e yek digarand_
-_keh dar āfarīnesh 'zeh yek goharand_
-_cho ʿozvī be-dard āvarad rūzgār_
-_degar ʿozvhā rā namānad qarār_
-_to k'az meḥnat-e dīgarān bī-ghamī_
-_nashāyad keh nāmat nahand ādamī_
+![Sa'di_and_His_Dedicatee_Abu_Bakr_b._Sa'd_b._Zangi.jpg](/img/user/resources/Sa'di_and_His_Dedicatee_Abu_Bakr_b._Sa'd_b._Zangi.jpg)
 
-Human Beings are members of a whole
-In creation of one essence and soul
-If one member is inflicted with pain
-Other members uneasy will remain
-If you have no sympathy for human pain
-The name of human you can not pertain
+*banī-ādam aʿzāy-e yek digarand*
+*keh dar āfarīnesh 'zeh yek goharand*
+*cho ʿozvī be-dard āvarad rūzgār*
+*degar ʿozvhā rā namānad qarār*
+*to k'az meḥnat-e dīgarān bī-ghamī*
+*nashāyad keh nāmat nahand ādamī*
+
+*Human Beings are members of a whole*
+*In creation of one essence and soul*
+*If one member is inflicted with pain*
+*Other members uneasy will remain*
+*If you have no sympathy for human pain*
+*The name of human you can not pertain*
 
 > [Bani Adam - Wikipedia](https://en.wikipedia.org/wiki/Bani_Adam)
 
