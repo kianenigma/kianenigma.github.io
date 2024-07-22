@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-22T10:57:00.296+01:00"}
+{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-22T11:02:06.541+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -10,7 +10,7 @@
 - 🎧 [[Posts/Personal/Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
 - 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive)
 - 🦀 Rust Developer [@paritytech](https://twitter.com/ParityTech/). 
-- 📚 Parallel and Distributed Systems Msc. Student at [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam).
+- 📚 Parallel and Distributed Systems Msc. graduate from [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam).
 	- Thesis: [GitHub - kianenigma/SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes 🚀.](https://github.com/kianenigma/SonicChain?tab=readme-ov-file)
 - 🔴 [Polkadot](https://www.polkadot.network) Fellow. 
 	- Polkadot Address: `1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE`
