@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-22T11:20:11.740+01:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-22T20:44:15.420+01:00"}
 ---
 
-![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
+![Screenshot 2023-11-01 at 21.21.06.jpeg|400](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 
 ## About 
 
@@ -21,10 +21,10 @@
 | File                                                                                                   | Created At               |
 | ------------------------------------------------------------------------------------------------------ | ------------------------ |
 | [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                              | 4:35 PM - July 12, 2024  |
-| [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 8:00 PM - June 27, 2024  |
+| [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024  |
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024   |
-| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 6:33 PM - March 24, 2024 |
-| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 9:33 PM - March 23, 2024 |
+| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024 |
+| [[Posts/Personal/Gallery\|Gallery]]                                                                 | 4:43 PM - March 30, 2024 |
 
 { .block-language-dataview}
 

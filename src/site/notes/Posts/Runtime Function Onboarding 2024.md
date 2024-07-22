@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-07-19T11:40:43.246+01:00"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-07-19T11:42:49.574+01:00"}
 ---
 
 > [!info]- Collaboration 
@@ -171,7 +171,6 @@ For your contribution, consider reading everything in our [`docs/contributing`](
 A common issue that might arise is for you to open a PR, and for it to not receive the reviews you hoped for. While we are all obliged to spend a part of our time reviewing each others' code, we all tend to be busy as well. Opening a PR, yet silently letting it sit stale for a month is your foremost your shortcoming, not others'. Be vocal, both in public and with your manager/TL to ensure your PRs get the amount of review they deserve. 
  > 
  > ![Screenshot from 2023-03-16 15-40-07.png](/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png)
-
 
 > [!info] Release and Audit Rooms
 > Two critical pieces of information about contributing to `polkadot-sdk` that is gated within Parity is being present in the release and audit Element rooms. These rooms ensure you are up to date with the latest of the two respectively, and can plan accordingly. Ideally, these processes should also move towards being as public as possible. 
