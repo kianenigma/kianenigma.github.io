@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-22T11:10:49.383+01:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-22T11:20:11.740+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -29,8 +29,6 @@
 { .block-language-dataview}
 
 ## Outro 
-
-![Sa'di_and_His_Dedicatee_Abu_Bakr_b._Sa'd_b._Zangi.jpg](/img/user/resources/Sa'di_and_His_Dedicatee_Abu_Bakr_b._Sa'd_b._Zangi.jpg)
 
 *banī-ādam aʿzāy-e yek digarand*
 *keh dar āfarīnesh 'zeh yek goharand*
