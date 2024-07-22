@@ -281,7 +281,7 @@ CTRL + K
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-22T19:44:19.912Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-22T19:44:19.912Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-22T19:44:19.912Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-22T19:45:51.782Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-22T19:45:51.782Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-22T19:45:51.782Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
                     <a class="search-link" href="${e.url}">${e.title}</a>
                     <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
@@ -305,9 +305,9 @@ CTRL + K
 </div>
 </div>
 </header>
-<p><picture src="/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg" alt="Screenshot 2023-11-01 at 21.21.06.jpeg|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/bXKFFXbjqW-500.webp" type="image/webp">
+<p><picture src="/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg" alt="Screenshot 2023-11-01 at 21.21.06.jpeg|400" width="400px"><source media="(max-width:480px)" srcset="/img/optimized/bXKFFXbjqW-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/bXKFFXbjqW-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/bXKFFXbjqW-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/bXKFFXbjqW-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg" alt="Screenshot 2023-11-01 at 21.21.06.jpeg|300" width="300px"></picture></p>
+<source media="(max-width:1920px)" srcset="/img/optimized/bXKFFXbjqW-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/bXKFFXbjqW-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg" alt="Screenshot 2023-11-01 at 21.21.06.jpeg|400" width="400px"></picture></p>
 <h2 id="about" tabindex="-1">About</h2>
 <ul>
 <li>📸 Personal Gallery: <a class="internal-link" target="" data-note-icon="" href="/gallery/">Gallery</a></li>
@@ -342,19 +342,19 @@ CTRL + K
 </tr>
 <tr>
 <td><a class="internal-link" target="" data-note-icon="" href="/talks/polkadot-blockchain-academy/pba-4-hong-kong/">PBA4 Hong Kong</a></td>
-<td>8:00 PM - June 27, 2024</td>
+<td>5:30 PM - June 27, 2024</td>
 </tr>
 <tr>
 <td><a class="internal-link" target="" data-note-icon="" href="/posts/tech/demystifying-jam/">Demystifying JAM</a></td>
 <td>2:38 PM - May 02, 2024</td>
 </tr>
 <tr>
-<td><a class="internal-link" target="" data-note-icon="" href="/posts/personal/meta-cognition-framework/">Meta Cognition Framework</a></td>
-<td>6:33 PM - March 24, 2024</td>
+<td><a class="internal-link" target="" data-note-icon="" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested</a></td>
+<td>4:45 PM - March 30, 2024</td>
 </tr>
 <tr>
-<td><a class="internal-link" target="" data-note-icon="" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested</a></td>
-<td>9:33 PM - March 23, 2024</td>
+<td><a class="internal-link" target="" data-note-icon="" href="/gallery/">Gallery</a></td>
+<td>4:43 PM - March 30, 2024</td>
 </tr>
 </tbody>
 </table></div>
