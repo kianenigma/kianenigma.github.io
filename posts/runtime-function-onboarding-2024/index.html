@@ -17,7 +17,7 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 <link href="/styles/obsidian-base.css" rel="stylesheet">
-<link href="/styles/_theme.82f819db.css" rel="stylesheet">
+<link href="/styles/_theme.d58a6a21.css" rel="stylesheet">
 <link href="/styles/custom-style.css" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -281,7 +281,7 @@ CTRL + K
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-23T09:23:08.483Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-23T09:23:08.483Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-23T09:23:08.483Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-07-23T09:28:37.958Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-07-23T09:28:37.958Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-23T09:28:37.958Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
                     <a class="search-link" href="${e.url}">${e.title}</a>
                     <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
@@ -323,9 +323,7 @@ If you would like to collaborate on this article and/or leave feedback, consider
 <p>
 In a lot of our communication, we refer to Relay Chain as <strong>RC</strong>, and System Chain as <strong>SC</strong>. Moreover, a lot of the system chains are called “<em>SomethingHub</em>”, which is often abbreviated as *<em><strong>H</strong></em>. For example, AssetHub is referred to as <strong>AH</strong>.</p>
 </div></div>
-<p><picture src="/img/user/resources/Screenshot%202024-06-26%20at%2014.36.11.png" alt="Screenshot 2024-06-26 at 14.36.11.png"><source media="(max-width:480px)" srcset="/img/optimized/CoagQtAQ6L-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/CoagQtAQ6L-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/CoagQtAQ6L-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/CoagQtAQ6L-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-26%20at%2014.36.11.png" alt="Screenshot 2024-06-26 at 14.36.11.png" width=""></picture></p>
+<p><img src="/img/user/resources/Screenshot%202024-06-26%20at%2014.36.11.png" alt="Screenshot 2024-06-26 at 14.36.11.png"></p>
 <h3 id="the-reality-of-what-we-do" tabindex="-1">💊 The Reality of What We Do</h3>
 <p>Working in the above implies two very important self-evident truths about the type of work we do:</p>
 <ol>
@@ -337,9 +335,7 @@ In a lot of our communication, we refer to Relay Chain as <strong>RC</strong>, a
 </ul>
 </li>
 </ol>
-<p><picture src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg"><source media="(max-width:480px)" srcset="/img/optimized/s3fjM1smI6-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/s3fjM1smI6-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/s3fjM1smI6-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/s3fjM1smI6-700.jpeg"><img class="" src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg" width=""></picture></p>
+<p><img src="/img/user/resources/8hsucaxkn5gb1.jpg" alt="8hsucaxkn5gb1.jpg"></p>
 <ol start="2">
 <li><em>We fly close to end-users/developers</em>*: Most of what we write affects our two major stakeholders: developers (parachains, UIs, and more), and blockchain users.
 <ul>
@@ -349,9 +345,7 @@ In a lot of our communication, we refer to Relay Chain as <strong>RC</strong>, a
 </ul>
 </li>
 </ol>
-<p><picture src="/img/user/resources/8vjgdz.jpg" alt="8vjgdz.jpg"><source media="(max-width:480px)" srcset="/img/optimized/IizhUWS5Dw-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/IizhUWS5Dw-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/IizhUWS5Dw-642.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/IizhUWS5Dw-642.jpeg"><img class="" src="/img/user/resources/8vjgdz.jpg" alt="8vjgdz.jpg" width=""></picture></p>
+<p><img src="/img/user/resources/8vjgdz.jpg" alt="8vjgdz.jpg"></p>
 <p>We will repeatedly come back to these two points throughout this document.</p>
 <div class="callout is-collapsible is-collapsed" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> An anecdote about breaking production code @kianenigma<br></div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
@@ -436,9 +430,7 @@ Inspired by what Oliver did when he joined in early 2022, I highly encourage you
 <div class="callout-content">
 <p>
 This is an example of who the spaces and sub-spaces in our Element space looks like.<br>
-<picture src="/img/user/resources/Screenshot%202024-07-01%20at%2010.08.20.png" alt="Screenshot 2024-07-01 at 10.08.20.png"><source media="(max-width:480px)" srcset="/img/optimized/9fRsFkTBHd-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/9fRsFkTBHd-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/9fRsFkTBHd-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/9fRsFkTBHd-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-07-01%20at%2010.08.20.png" alt="Screenshot 2024-07-01 at 10.08.20.png" width=""></picture></p>
+<img src="/img/user/resources/Screenshot%202024-07-01%20at%2010.08.20.png" alt="Screenshot 2024-07-01 at 10.08.20.png"></p>
 </div></div>
 <div class="callout is-collapsible is-collapsed" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> More on Element</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
 <div class="callout-content">
@@ -518,9 +510,7 @@ The information in this section is kept at minimum, as majority of what you have
 <div class="callout-content">
 <p>
 A common issue that might arise is for you to open a PR, and for it to not receive the reviews you hoped for. While we are all obliged to spend a part of our time reviewing each others' code, we all tend to be busy as well. Opening a PR, yet silently letting it sit stale for a month is your foremost your shortcoming, not others'. Be vocal, both in public and with your manager/TL to ensure your PRs get the amount of review they deserve.</p>
-<p><picture src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png"><source media="(max-width:480px)" srcset="/img/optimized/OeBB1qF2KF-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/OeBB1qF2KF-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/OeBB1qF2KF-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OeBB1qF2KF-700.jpeg"><img class="" src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png" width=""></picture></p>
+<p><img src="/img/user/resources/Screenshot%20from%202023-03-16%2015-40-07.png" alt="Screenshot from 2023-03-16 15-40-07.png"></p>
 </div></div>
 <div class="callout" data-callout="info"><div class="callout-title"><div class="callout-title-inner"> Release and Audit Rooms<br></div></div>
 <div class="callout-content">
@@ -621,15 +611,11 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 <h3 id="culture" tabindex="-1">🎭 Culture</h3>
 <p>You will learn about the Parity culture in your onboarding, but here’s some old-but-still-relevant material from former culture decks.</p>
 <p>First, here’s a little screenshot of an all-hands talk about vision of Parity in 2019 which I still stand by. You can find the full talk <a href="https://drive.google.com/file/d/1yzS_ZoVdyt370hhuHwJaHelftKEH_6Yl/view?usp=sharing" target="_blank" class="external-link">here</a> (most of it is not super relevant anymore).</p>
-<p><picture src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png"><source media="(max-width:480px)" srcset="/img/optimized/WyZkceyS53-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/WyZkceyS53-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/WyZkceyS53-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/WyZkceyS53-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png" width=""></picture><br>
+<p><img src="/img/user/resources/Screenshot%202024-06-24%20at%2019.12.10.png" alt="Screenshot 2024-06-24 at 19.12.10.png"><br>
 A <a href="https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/view?usp=sharing" target="_blank" class="external-link">culture talk from Gav</a> in the 2022 Tenerife retreat. This snippet of this talk is among my favorites:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k9ArOU_QK8M?si=bCGu8WpYqeZJoRGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>You can find the culture deck from 2022 <a href="https://docs.google.com/presentation/d/15-lL1xKAVMt_50X2ri7hsEhU3Z0he04K017mZCIeRZI/edit#slide=id.g26b31d0a78ca97e7_10" target="_blank" class="external-link">here</a>. If I wanted to name one slide from it that you should think about the most, it would be:</p>
-<p><picture src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png"><source media="(max-width:480px)" srcset="/img/optimized/qaDxriRBBj-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/qaDxriRBBj-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/qaDxriRBBj-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/qaDxriRBBj-700.jpeg"><img class="" src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png" width=""></picture></p>
+<p><img src="/img/user/resources/Screenshot%202024-06-24%20at%2019.14.33.png" alt="Screenshot 2024-06-24 at 19.14.33.png"></p>
 <p>The majority of the efforts of your team lead, and this document is to help you toward achieving the status mentioned in the above sentence.</p>
 <h3 id="parity-xp" tabindex="-1">🔬 Parity XP</h3>
 <ul>
