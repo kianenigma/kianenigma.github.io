@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/polkadot-blockchain-academy/pba-4-hong-kong/","created":"2024-06-27T17:30:02.063+01:00","updated":"2024-07-22T21:08:08.827+01:00"}
+{"dg-publish":true,"permalink":"/talks/polkadot-blockchain-academy/pba-4-hong-kong/","contentClasses":"img pba","created":"2024-06-27T17:30:02.063+01:00","updated":"2024-07-22T21:08:08.827+01:00"}
 ---
 
 - Full video series tweet: [x.com](https://x.com/AcademyPolkadot/status/1805278082581811425)

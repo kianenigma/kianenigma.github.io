@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"gallery","permalink":"/gallery/","pinned":true,"created":"2024-03-30T16:43:00.000+00:00","updated":"2024-07-22T21:08:01.655+01:00"}
+{"dg-publish":true,"dg-permalink":"gallery","permalink":"/gallery/","pinned":true,"contentClasses":"gallery","created":"2024-03-30T16:43:00.000+00:00","updated":"2024-07-22T21:08:01.655+01:00"}
 ---
 
 
