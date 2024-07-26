@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T09:49:10Z</updated>
+    <updated>2024-07-26T09:50:35Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,8 +667,8 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting `polkadot-sdk`
                 
             </title>
-            <updated>2024-07-26T09:33:02.970Z</updated>
-            <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
+            <updated>2024-07-26T09:49:46.751Z</updated>
+            <id>https://blog.kianenigma.nl//polkadot-sdk-docs/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to work on &lt;code&gt;polkadot-sdk&lt;/code&gt; docs for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve. as a lot of teams are applying to solve the same problems through governance funding and/or DF, I am sharing my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;retrospective&quot;&gt;#Retrospective&lt;/a&gt; a year+ of working on this. I will also share how I believe teams getting funding from DF will be most effective in working on this: &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;Wishlist&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I am to a high extent wrapping up my contributions to this effort, and my intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion by all means, and not Parity&#39;s.&lt;/p&gt;
@@ -778,7 +778,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;/section&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/" />
+            <link href="https://blog.kianenigma.nl//polkadot-sdk-docs/" />
         </entry>
         <entry>
             <title>
@@ -874,7 +874,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-19T13:52:45.632Z</updated>
+            <updated>2024-07-26T09:49:18.359Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/jam-pen-polkadot.png&quot; alt=&quot;jam-pen-polkadot.png&quot; /&gt;&lt;/p&gt;
@@ -1794,6 +1794,10 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;On Documenting &lt;code&gt;polkadot-sdk&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10:48 AM - July 10, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/&quot;&gt;Demystifying JAM&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2:38 PM - May 02, 2024&lt;/td&gt;
 &lt;/tr&gt;
@@ -1974,6 +1978,10 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;td&gt;4:35 PM - July 12, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;On Documenting &lt;code&gt;polkadot-sdk&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10:48 AM - July 10, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/polkadot-blockchain-academy/pba-4-hong-kong/&quot;&gt;PBA4 Hong Kong&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;5:30 PM - June 27, 2024&lt;/td&gt;
 &lt;/tr&gt;
@@ -2000,10 +2008,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/playlist/&quot;&gt;Playlists&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;1:10 PM - March 16, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/rumi/&quot;&gt;Rumi&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:43 PM - March 10, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
