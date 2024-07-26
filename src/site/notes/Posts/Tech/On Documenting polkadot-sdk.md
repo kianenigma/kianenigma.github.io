@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:44:57.098+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:49:34.286+01:00"}
 ---
 
 
@@ -69,7 +69,7 @@ With this hypothesis, I believe there are two tools future educators can use to 
 ## Wishlist
 
 This is how I think teams applying for funding regarding documentation will be most impactful. 
-### Forward looking 
+### Forward-Looking 
 
 * I wish to see more content created around the ***latest topics in Polkadot, rather than rehashing existing ones***. Of course, a large part of the old materials that we currently have are still relevant, but they should be carefully handpicked and vetted. The topics of the year that are exciting to me are:
 	* It is going to be all about **Agile-coretime** going forward, especially on-demand. A number of great tutorials should start with writing a pallet, adding it to a parachain-ready template, and end with acquiring one on-demand block on Paseo, and producing a block. [This guide](https://wiki.polkadot.network/docs/build-guides-template-basic) by Bader from Web3 Foundation is along these lines.
@@ -95,6 +95,8 @@ You might argue that a lot of this is pretty advanced, and hard to grasp for tho
 *Expect better* from core devs of `polkadot-sdk`. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a *nice-to-have*, but a *must*. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in `polkadot-sdk-docs`. 
 
 Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive for both parties to benefit from one another and maintain provide their share of the work. More specifically, I would imagine that `polkadot-sdk` maintainers will be more and more encouraged to provide foundational API documentation, if they know these are often used. 
+
+_Build on the shoulder of giants_, as the saying goes. 
 ### Awesome Lists 
 
 There are so many cool developer tools out there, yet I am surprised to not often find them. I think the best way to aggregate these are indeed a standard [`awesome-list`](https://github.com/sindresorhus/awesome). We have an [old one that is no longer maintained by Parity](https://github.com/substrate-developer-hub/awesome-substrate), and a new community driven [`awesome-dot`](https://github.com/haquefardeen/awesome-dot). I hope to see a consolidation of the two into `awesome-polkadot`, with a dedicated maintainer. 
