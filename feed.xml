@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T09:50:35Z</updated>
+    <updated>2024-07-26T09:53:02Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,8 +667,8 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting `polkadot-sdk`
                 
             </title>
-            <updated>2024-07-26T09:49:46.751Z</updated>
-            <id>https://blog.kianenigma.nl//polkadot-sdk-docs/</id>
+            <updated>2024-07-26T09:52:23.174Z</updated>
+            <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to work on &lt;code&gt;polkadot-sdk&lt;/code&gt; docs for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve. as a lot of teams are applying to solve the same problems through governance funding and/or DF, I am sharing my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;retrospective&quot;&gt;#Retrospective&lt;/a&gt; a year+ of working on this. I will also share how I believe teams getting funding from DF will be most effective in working on this: &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;Wishlist&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I am to a high extent wrapping up my contributions to this effort, and my intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion by all means, and not Parity&#39;s.&lt;/p&gt;
@@ -778,7 +778,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;/section&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl//polkadot-sdk-docs/" />
+            <link href="https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/" />
         </entry>
         <entry>
             <title>
