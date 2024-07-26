@@ -1,12 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","hide":true,"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T10:13:29.595+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","hide":true,"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T10:33:02.970+01:00"}
 ---
 
 
-I have been trying to work on `polkadot-sdk` docs for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve. as a lot of teams are applying to solve the same problems through governance funding and/or DF, I am sharing my [[Posts/Tech/On Documenting `polkadot-sdk`#Retrospective\|#Retrospective]] a year+ of working on this. I will also share how I believe teams getting funding from DF will be most effective in working on this: [[Posts/Tech/On Documenting `polkadot-sdk`#My Wishlist for DF Teams\|#My Wishlist for DF Teams]]. 
+I have been trying to work on `polkadot-sdk` docs for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve. as a lot of teams are applying to solve the same problems through governance funding and/or DF, I am sharing my [[Posts/Tech/On Documenting `polkadot-sdk`#Retrospective\|retrospective]] a year+ of working on this. I will also share how I believe teams getting funding from DF will be most effective in working on this: [[Posts/Tech/On Documenting `polkadot-sdk`#My Wishlist for DF Teams\|Wishlist]]. 
 
-All of this is my personal opinion by all means. 
-## Retrospective  
+I am to a high extent wrapping up my contributions to this effort, and my intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion by all means, and not Parity's. 
 
 > [!Info]  Generally, when I refer to as `polkadot-sdk` here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a *meaninful* and *useful* application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. For example: 
 
@@ -21,6 +20,7 @@ flowchart
 	offchain --> PAPI
 	offchain --> PJS-API
 ```
+## Retrospective  
 ### The Bad  
 
 I would start by acknowledging that that explaining `polkadot-sdk` is hard. 
@@ -57,15 +57,27 @@ And with this hypothesis, I believe there are two tools at the hands of future e
 2. [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|Recordings from the Polkadot Blockchain Academy]]. I hope to see the latest Singapore edition be out soon (as the XCM module has had significant changes), but for now the Hong Kong recordings are an excellent resource.
 ### The Future 
 
-- Finish more foundational knowledge
-- [ ] System accounts 
-- [ ] Benchmarking and Weights 
-- [ ] Compile it to markdown, better looks, better search etc. 
-- Explore Converting this to a markdown version for better readability and search and aesthetics. 
-- substrate.io 
+- There are still a number of core topics around `polkadot-sdk` that I am personally not content with the degree of documentation around them, and I intend to provide those as soon as I can: 
+	- [ ] How accounts are stored and behave in `frame-system` . 
+	- [ ] Benchmarking and Weights 
+	- [ ] Fees: Why they exist, under which conditions one can be exempted, and what tools FRAME provides for this. This should include the new `feeless_if` macro, and incorporate new personhood ideas presented by Gav in Polkadot Decoded 2024[^3].
+[^3]: Explaining the typical example of allowing free transactions if one has a valid personhood certificate. 
+- Explore converting this body of information to a markdown version for better readability and search and aesthetics. Possibly branded as a "*Mastering Polkadot SDK Book*". 
 ## My Wishlist for DF Teams 
 
-1. Don't wash and rinse and repackage existing content. Polkadot is moving on, yet I am seeing people still re-packaging "how to launch a parachain on rococo". This is not the trend of Polkadot in 2024 anymore. The hot topics of this year are on-demand on Paseo, OZ templates, omni-node, umbrella crates, and so on. Produce less, but original, novel and new content.
-2. Expect better from core devs of polkadot sdk. Foundational knowledge should be explained at the root. Core contributors of `polakdot-sdk` should document their work to the extent that other developers and educations can understand them.  You, as educators, build on top of them, rather than poorly re-explaining them. 
-	1. For example, `SignedExtension`, a topic already not well understood by our dev community, is already being replaced with with `TransactionExtension`. It is a reasonable expectation from developers and educators to see some kind of a low level API documentation about this 
-3. 
+* I wish to see more content created around the latest topics in `polkadot-sdk`, rather than rinsing and re-packaging what was written in 2019, by people who are long gone. The topics of the year that are exciting to me are:
+	* On-demand coretime tutorial on Paseo
+	* OZ templates
+	* Omni-node
+	* Umbrella crates
+	* Transaction/Signed Extension
+	* Personhood. 
+
+Produce less, but original, novel and new content. 
+
+You might argue that a lot of this is pretty advanced, and hard to grasp for those who are outside the circle of core contributors of `polkadot-sdk`, and you are right about that. And this brings me to the next point: 
+
+* ****Expect better*** from core devs of `polkadot-sdk`. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a nice-to-have, but rather a must. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in `polkadot-sdk-docs`. 
+* Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive 
+
+> [!example] For example, `SignedExtension`, a topic that is arguably already not well understood by our dev community, is being replaced with with `TransactionExtension`. We should ensure that this new feature comes with all the right foundational documentation needed for it to be used in the ecosystem, taught by our educators. 
