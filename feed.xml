@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T11:16:46Z</updated>
+    <updated>2024-07-26T11:34:32Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,7 +667,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting polkadot-sdk
                 
             </title>
-            <updated>2024-07-26T11:16:04.229Z</updated>
+            <updated>2024-07-26T11:33:47.432Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve.&lt;/p&gt;
@@ -677,7 +677,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;p&gt;[!Info]  Generally, when I refer to as &lt;code&gt;polkadot-sdk&lt;/code&gt; here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a &lt;em&gt;meaninful&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. A high level understanding of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot itself&lt;/a&gt; is also needed. For example:&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre class=&quot;mermaid&quot;&gt;flowchart
-	polkadot[Polkadot as a Platform]
+	polkadot[Polkadot as a Platform] --&gt; polkadot_sdk
 	polkadot_sdk --&gt; onchain
 	polkadot_sdk --&gt; offchain 
 	onchain --&gt; substrate
@@ -776,7 +776,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;p&gt;You might argue that a lot of this is pretty advanced, and hard to grasp for those who are outside the circle of core contributors of &lt;code&gt;polkadot-sdk&lt;/code&gt;, and you are right about that. And this brings me to the next point.&lt;/p&gt;
 &lt;h3 id=&quot;expect-better&quot; tabindex=&quot;-1&quot;&gt;Expect Better&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Expect better&lt;/em&gt; from core devs of &lt;code&gt;polkadot-sdk&lt;/code&gt;. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a &lt;em&gt;nice-to-have&lt;/em&gt;, but a &lt;em&gt;must&lt;/em&gt;. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in &lt;code&gt;polkadot-sdk-docs&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive&lt;/p&gt;
+&lt;p&gt;Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive for both parties to benefit from one another and maintain provide their share of the work. More specifically, I would imagine that &lt;code&gt;polkadot-sdk&lt;/code&gt; maintainers will be more and more encouraged to provide foundational API documentation, if they know these are often used.&lt;/p&gt;
 &lt;h3 id=&quot;awesome-lists&quot; tabindex=&quot;-1&quot;&gt;Awesome Lists&lt;/h3&gt;
 &lt;p&gt;There are so many cool developer tools out there, yet I am surprised to not often find them. I think the best way to aggregate these is indeed is a standard &lt;a href=&quot;https://github.com/sindresorhus/awesome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;awesome-list&lt;/code&gt;&lt;/a&gt;. We have an &lt;a href=&quot;https://github.com/substrate-developer-hub/awesome-substrate&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;old one that is no longer maintained by Parity&lt;/a&gt;, and a new community driven &lt;a href=&quot;https://github.com/haquefardeen/awesome-dot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;awesome-dot&lt;/code&gt;&lt;/a&gt;. I hope to see a consolidation of the two into &lt;code&gt;awesome-polkadot&lt;/code&gt;, with a dedicated maintainer.&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
