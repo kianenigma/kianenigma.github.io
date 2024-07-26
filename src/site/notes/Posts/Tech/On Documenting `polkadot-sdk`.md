@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","hide":true,"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T09:45:19.710+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","hide":true,"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T10:13:29.595+01:00"}
 ---
 
 
@@ -33,7 +33,7 @@ I would start by acknowledging that that explaining `polkadot-sdk` is hard.
 
 ### The Good
 
-- The 3rd issue is in general being solved by making Polkadot more [stable](https://forum.polkadot.network/t/stabilizing-polkadot/7175) as a whole. This is a strong promise that [we hear from Parity](https://youtu.be/DLofyGI3mw8?si=nJZiVApWTj6ae_Wz&t=1115) and fellowship: For our developers, we will make Polkadot Stable, and Stable for a long time. This also means less changes in `polkadot-sdk`, and therefore increasing the longevity of all educational material that is *henceforth* created.
+- The 3rd issue is in general being solved by making Polkadot more [stable](https://forum.polkadot.network/t/stabilizing-polkadot/7175) as a whole. This is a strong promise that we hear from Parity and fellowship: For our developers, we will make Polkadot *stable*, and stable for *a [long time](https://youtu.be/DLofyGI3mw8?si=nJZiVApWTj6ae_Wz&t=1115)*. This also means less changes in `polkadot-sdk`, and therefore increasing the longevity of all educational material that is *henceforth* created.
 
 > [!info] It is worth emphasizing here that this **increased longevity** applies to (new) content that is already correct and up-to-date. 
 
@@ -47,11 +47,14 @@ I would start by acknowledging that that explaining `polkadot-sdk` is hard.
 	- Re-explain in their own words, risking fragmentation, or being poorly explained. 
 	- Skip, and *assume* the reader already knows it. 
 
-> [!example] I have demonstrated an example of this here. 
+> [!example] I have demonstrated an example of this [here](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#example-explaining-palletcall). 
 
 And with this hypothesis, I believe there are two tools at the hands of future educators to help with this: 
-1. `polkadot-sdk-docs`
-2. Recordings from the Polkadot Blockchain Academy. 
+1. [`polkadot-sdk-docs`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/index.html): A strong foundation of API docs, references on foundational topics, and examples that are guaranteed to be *always correct* (because they live in `polkadot-sdk` repository and are always compiled as a part of its CI). Some of the FAQ that might be asked about this crate is covered in:
+	1. [Why Rust Docs?](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#why-rust-docs)
+	2. [Scope](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#scope) 
+	3. [Principles](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#principles) 
+2. [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|Recordings from the Polkadot Blockchain Academy]]. I hope to see the latest Singapore edition be out soon (as the XCM module has had significant changes), but for now the Hong Kong recordings are an excellent resource.
 ### The Future 
 
 - Finish more foundational knowledge
