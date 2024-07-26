@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T11:13:14.913+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:11:28.739+01:00"}
 ---
 
 
@@ -72,7 +72,7 @@ This is how I think teams applying for funding regarding documentation will be m
 
 * I wish to see more content created around the latest topics in `polkadot-sdk`, rather than rinsing and re-packaging existing ones. Of course, a large part of the old materials that we currently have are still relevant, but they should be carefully handpicked and vetted. The topics of the year that are exciting to me are:
 	* It is going to be all about **agile-coretime** going forward, especially on-demand. A number of great tutorials should start with writing a pallet, adding it to a parachain-ready tempalte, and end at acquiring one on-demand block on Paseo, and producing a block. [This guide](https://wiki.polkadot.network/docs/build-guides-template-basic) by Bader from Web3 Foundation is along these lines.
-	* Use of new developer toolings that simplify Developer Experience: Tanssi, POP, etc.[^5] 
+	* Use of new developer toolings that simplify Developer Experience: [Tanssi](https://www.google.com/search?q=tanssi+network&oq=Tanssi+network&sourceid=chrome&ie=UTF-8), [PoP](https://pop.r0gue.io/), etc.[^5] 
 	* [OZ Templates](https://github.com/OpenZeppelin/polkadot-runtime-templates)
 	* [`OmniNode`](https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823)
 	* [Umbrella crates](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/umbrella_crate/index.html)
@@ -84,7 +84,7 @@ This is how I think teams applying for funding regarding documentation will be m
 		* [polkadot\_sdk\_docs::reference\_docs::runtime\_vs\_smart\_contract - Rust](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/runtime_vs_smart_contract/index.html)
 	* [Personhood](https://youtu.be/xXS9w4wqHWo?si=O8am8htFesUQzj97&t=1555).  
 
-[^5]: I am sure more exists, yet I am not familiar with them. 
+[^5]: I am sure more exists, yet I am not familiar with them, see [[Posts/Tech/On Documenting polkadot-sdk#Awesome Lists\|Awesome Lists]]. 
 
 All in all, I suggest educators to focus on creating tutorials on forward looking topics, even if it means producing less.
 
@@ -97,3 +97,6 @@ You might argue that a lot of this is pretty advanced, and hard to grasp for tho
 
 > [!example] For example, `SignedExtension`, a topic that is arguably already not well understood by our dev community, is being replaced with with `TransactionExtension`. We should ensure that this new feature comes with all the right foundational documentation needed for it to be used in the ecosystem, taught by our educators. 
 
+### Awesome Lists 
+
+There are so many cool developer tools out there, yet I am surprised to not often find them. I think the best way to aggregate these is indeed is a standard [`awesome-list`](https://github.com/sindresorhus/awesome). We have an [old one that is no longer maintained by Parity](https://github.com/substrate-developer-hub/awesome-substrate), and a new community driven [`awesome-dot`](https://github.com/haquefardeen/awesome-dot). I hope to see a consolidation of the two into `awesome-polkadot`, with a dedicated maintainer. 
