@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-07-19T14:52:45.632+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-07-26T10:49:18.359+01:00"}
 ---
 
 ![jam-pen-polkadot.png](/img/user/resources/jam-pen-polkadot.png)
