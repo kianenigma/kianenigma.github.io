@@ -19,3 +19,12 @@ img[alt*="center"] {
 	margin: 10px;
 }
 
+.toc-container {
+	max-height: 100% !important;
+}
+
+body {
+	--accent-h: 250 !important;
+	--accent-s: 60% !important;
+	--accent-l: 68% !important;
+}
