@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T11:50:30Z</updated>
+    <updated>2024-07-26T12:23:29Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,14 +667,14 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting polkadot-sdk
                 
             </title>
-            <updated>2024-07-26T11:49:34.286Z</updated>
+            <updated>2024-07-26T12:22:45.420Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what I and a handful of others can reasonably solve.&lt;/p&gt;
 &lt;p&gt;As a lot of teams are applying to solve the same problems through governance and/or &lt;a href=&quot;https://futures.web3.foundation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Decentralized Futures&lt;/a&gt;, I am sharing my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/on-documenting-polkadot-sdk/#retrospective&quot;&gt;retrospective&lt;/a&gt; of a year+ of working on this. I will also &lt;a href=&quot;https://blog.kianenigma.nl/#wishlist&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;share&lt;/a&gt; how I believe teams getting funding will be most effective in working on this:.&lt;/p&gt;
 &lt;p&gt;To a large extent, I am wrapping up my contributions to this effort. My intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion, and not Parity&#39;s.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!Info]  Generally, when I refer to as &lt;code&gt;polkadot-sdk&lt;/code&gt; here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a &lt;em&gt;meaninful&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. A high level understanding of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot itself&lt;/a&gt; is also needed. For example:&lt;/p&gt;
+&lt;p&gt;[!Info]  Generally, when I refer to &lt;code&gt;polkadot-sdk&lt;/code&gt; here, I mean a subset of the tools in Polkadot SDK that one needs to build a &lt;em&gt;meaningful&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; application on Polkadot. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a UI. A high level understanding of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot itself&lt;/a&gt; is also needed. In summary:&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre class=&quot;mermaid&quot;&gt;flowchart
 	polkadot[Polkadot as a Platform] --&gt; polkadot_sdk
@@ -687,11 +687,11 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 	offchain --&gt; PAPI
 	offchain --&gt; PJS-API&lt;/pre&gt;&lt;h2 id=&quot;retrospective&quot; tabindex=&quot;-1&quot;&gt;Retrospective&lt;/h2&gt;
 &lt;h3 id=&quot;the-bad&quot; tabindex=&quot;-1&quot;&gt;The Bad&lt;/h3&gt;
-&lt;p&gt;I would start by acknowledging that explaining &lt;code&gt;polkadot[/-sdk]&lt;/code&gt; is hard.&lt;/p&gt;
+&lt;p&gt;I will start by acknowledging that explaining &lt;code&gt;polkadot[/-sdk]&lt;/code&gt; is hard. This is what I learned both from doing async documentation, and participating as a teacher in the &lt;a href=&quot;https://polkadot.network/development/blockchain-academy/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot Blockchain Academy&lt;/a&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;First, there is a lot of Web3 background knowledge that needs to be explained, or assumed. More troublesome, Polkadot itself is a unique Web3 system, and has lots of novel concepts: Origins, Extrinsic, Runtime, Runtime API, Forkless Runtime upgrades and its implications, Host Functions, Metadata, Dispatch, Core (Polkadot Core), Parachain. I am not even opening the jar of all XCM related concepts here.&lt;/li&gt;
 &lt;li&gt;Rust is a difficult language, and the intricate way we decided to use it does not help.&lt;/li&gt;
-&lt;li&gt;Moreover, the space moves fast. Look at the material around &lt;code&gt;polakdot-sdk&lt;/code&gt; 2 years ago. A lot of it is less and less relevant today. Heck, even the name &lt;code&gt;polkadot-sdk&lt;/code&gt; was not around, we are still in the process of re-establishing &lt;code&gt;polkadot-sdk&lt;/code&gt; as a replacement of &lt;code&gt;substrate&lt;/code&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;Moreover, the space moves fast. Look at the material around &lt;code&gt;polkadot-sdk&lt;/code&gt; 2 years ago. A lot of it is less and less relevant today. Heck, even the name &lt;code&gt;polkadot-sdk&lt;/code&gt; was not around, we are still in the process of re-establishing &lt;code&gt;polkadot-sdk&lt;/code&gt; as a replacement of &lt;code&gt;substrate&lt;/code&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;the-good&quot; tabindex=&quot;-1&quot;&gt;The Good&lt;/h3&gt;
 &lt;ul&gt;
