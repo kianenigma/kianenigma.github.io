@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T10:13:45Z</updated>
+    <updated>2024-07-26T10:17:56Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -664,14 +664,14 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
         </entry>
         <entry>
             <title>
-                On Documenting `polkadot-sdk`
+                On Documenting polkadot-sdk
                 
             </title>
             <updated>2024-07-26T10:13:14.913Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve.&lt;/p&gt;
-&lt;p&gt;as a lot of teams are applying to solve the same problems through governance and/or &lt;a href=&quot;https://futures.web3.foundation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Decentralized Futures&lt;/a&gt;, I am sharing my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;retrospective&quot;&gt;#Retrospective&lt;/a&gt; of a year+ of working on this. I will also &lt;a href=&quot;https://blog.kianenigma.nl/#wishlist&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;share&lt;/a&gt; how I believe teams getting funding will be most effective in working on this:.&lt;/p&gt;
+&lt;p&gt;as a lot of teams are applying to solve the same problems through governance and/or &lt;a href=&quot;https://futures.web3.foundation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Decentralized Futures&lt;/a&gt;, I am sharing my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/on-documenting-polkadot-sdk/#retrospective&quot;&gt;retrospective&lt;/a&gt; of a year+ of working on this. I will also &lt;a href=&quot;https://blog.kianenigma.nl/#wishlist&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;share&lt;/a&gt; how I believe teams getting funding will be most effective in working on this:.&lt;/p&gt;
 &lt;p&gt;I am to a high extent wrapping up my contributions to this effort, and my intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion by all means, and not Parity&#39;s.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!Info]  Generally, when I refer to as &lt;code&gt;polkadot-sdk&lt;/code&gt; here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a &lt;em&gt;meaninful&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. For example:&lt;/p&gt;
@@ -1812,7 +1812,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;On Documenting &lt;code&gt;polkadot-sdk&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/on-documenting-polkadot-sdk/&quot;&gt;On Documenting polkadot-sdk&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;10:48 AM - July 10, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -1996,7 +1996,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;td&gt;4:35 PM - July 12, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;On Documenting &lt;code&gt;polkadot-sdk&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/on-documenting-polkadot-sdk/&quot;&gt;On Documenting polkadot-sdk&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;10:48 AM - July 10, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
