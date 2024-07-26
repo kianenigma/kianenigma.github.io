@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-26T10:43:04.744+01:00"}
+{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-26T10:44:51.393+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -19,13 +19,13 @@
 
 | File                                                                                                   | Created At               |
 | ------------------------------------------------------------------------------------------------------ | ------------------------ |
+| [[Sa'di\|Sa'di]]                                                                                    | 10:44 AM - July 26, 2024 |
 | [[Posts/Index\|Index]]                                                                              | 10:35 AM - July 26, 2024 |
 | [[Talks/Index\|Index]]                                                                              | 10:34 AM - July 26, 2024 |
 | [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                              | 4:35 PM - July 12, 2024  |
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024  |
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024   |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024 |
-| [[Gallery\|Gallery]]                                                                                | 4:43 PM - March 30, 2024 |
 
 { .block-language-dataview}
 
@@ -33,26 +33,6 @@
 The full, time sorted list of posts in this digital garden. 
 - [[Talks/Index\|Talks - Index]]
 - [[Posts/Index\|Posts - Index]]
-
-## Outro 
-
-![sadi.jpg](/img/user/resources/sadi.jpg)
-
-*banī-ādam aʿzāy-e yek digarand*
-*keh dar āfarīnesh 'zeh yek goharand*
-*cho ʿozvī be-dard āvarad rūzgār*
-*degar ʿozvhā rā namānad qarār*
-*to k'az meḥnat-e dīgarān bī-ghamī*
-*nashāyad keh nāmat nahand ādamī*
-
-*Human Beings are members of a whole*
-*In creation of one essence and soul*
-*If one member is inflicted with pain*
-*Other members uneasy will remain*
-*If you have no sympathy for human pain*
-*The name of human you can not pertain*
-
-> [Bani Adam - Wikipedia](https://en.wikipedia.org/wiki/Bani_Adam)
 
 ---
 
