@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T13:55:06Z</updated>
+    <updated>2024-07-26T13:58:09Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -891,7 +891,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-07-26T09:49:18.359Z</updated>
+            <updated>2024-07-26T13:57:34.308Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/jam-pen-polkadot.png&quot; alt=&quot;jam-pen-polkadot.png&quot; /&gt;&lt;/p&gt;
@@ -1110,7 +1110,7 @@ This implies that the Polkadot relay chain deals only with providing the paracha
 &lt;/li&gt;
 &lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Note that the graypaper calls this DA layer, the Distributed Data Lake, DDL for short. For the sake reducing the number of new keywords in the article, we continue to refer to it as DA, or DA Layer. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;It is crucial to point out that JAM is only meant to replace the Polkadot &lt;strong&gt;relay chain&lt;/strong&gt;. Parachains, and all applications that run on top of Polkadot remain intact, mainly thanks to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#core-chain&quot;&gt;CoreChain&lt;/a&gt;. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;It is crucial to point out that JAM is only meant to replace the Polkadot &lt;strong&gt;relay chain&lt;/strong&gt;. Parachains, and all applications that run on top of Polkadot remain intact, mainly thanks to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/#core-chains-service&quot;&gt;CoreChain&lt;/a&gt;. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&quot;fn6&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;And the 3rd one being an &lt;code&gt;on_message&lt;/code&gt;, which is called when a message from another service arrives. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref6&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
