@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:49:34.286+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T13:22:45.420+01:00"}
 ---
 
 
@@ -9,7 +9,7 @@ As a lot of teams are applying to solve the same problems through governance and
 
 To a large extent, I am wrapping up my contributions to this effort. My intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion, and not Parity's. 
 
-> [!Info]  Generally, when I refer to as `polkadot-sdk` here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a *meaninful* and *useful* application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. A high level understanding of [[Posts/Tech/Polkadot's Build Horizon\|Polkadot itself]] is also needed. For example: 
+> [!Info]  Generally, when I refer to `polkadot-sdk` here, I mean a subset of the tools in Polkadot SDK that one needs to build a *meaningful* and *useful* application on Polkadot. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a UI. A high level understanding of [[Posts/Tech/Polkadot's Build Horizon\|Polkadot itself]] is also needed. In summary: 
 
 ```mermaid
 flowchart
@@ -26,11 +26,11 @@ flowchart
 ## Retrospective  
 ### The Bad  
 
-I would start by acknowledging that explaining `polkadot[/-sdk]` is hard. 
+I will start by acknowledging that explaining `polkadot[/-sdk]` is hard. This is what I learned both from doing async documentation, and participating as a teacher in the [Polkadot Blockchain Academy](https://polkadot.network/development/blockchain-academy/). 
 
 1. First, there is a lot of Web3 background knowledge that needs to be explained, or assumed. More troublesome, Polkadot itself is a unique Web3 system, and has lots of novel concepts: Origins, Extrinsic, Runtime, Runtime API, Forkless Runtime upgrades and its implications, Host Functions, Metadata, Dispatch, Core (Polkadot Core), Parachain. I am not even opening the jar of all XCM related concepts here. 
 2. Rust is a difficult language, and the intricate way we decided to use it does not help.
-3. Moreover, the space moves fast. Look at the material around `polakdot-sdk` 2 years ago. A lot of it is less and less relevant today. Heck, even the name `polkadot-sdk` was not around, we are still in the process of re-establishing `polkadot-sdk` as a replacement of `substrate`[^1].
+3. Moreover, the space moves fast. Look at the material around `polkadot-sdk` 2 years ago. A lot of it is less and less relevant today. Heck, even the name `polkadot-sdk` was not around, we are still in the process of re-establishing `polkadot-sdk` as a replacement of `substrate`[^1].
 
 [^1]: I am of the opinion that we should stop using "*Substrate*" as a keyword, and use "*Polkadot SDK*" as much as possible instead. Substrate should not be used as a standalone term, and instead it is a part of Polkadot SDK. 
 
