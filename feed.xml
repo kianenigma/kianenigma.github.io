@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T10:17:56Z</updated>
+    <updated>2024-07-26T11:12:05Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,7 +667,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting polkadot-sdk
                 
             </title>
-            <updated>2024-07-26T10:13:14.913Z</updated>
+            <updated>2024-07-26T11:11:28.739Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve.&lt;/p&gt;
@@ -751,7 +751,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;li&gt;I wish to see more content created around the latest topics in &lt;code&gt;polkadot-sdk&lt;/code&gt;, rather than rinsing and re-packaging existing ones. Of course, a large part of the old materials that we currently have are still relevant, but they should be carefully handpicked and vetted. The topics of the year that are exciting to me are:
 &lt;ul&gt;
 &lt;li&gt;It is going to be all about &lt;strong&gt;agile-coretime&lt;/strong&gt; going forward, especially on-demand. A number of great tutorials should start with writing a pallet, adding it to a parachain-ready tempalte, and end at acquiring one on-demand block on Paseo, and producing a block. &lt;a href=&quot;https://wiki.polkadot.network/docs/build-guides-template-basic&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;This guide&lt;/a&gt; by Bader from Web3 Foundation is along these lines.&lt;/li&gt;
-&lt;li&gt;Use of new developer toolings that simplify Developer Experience: Tanssi, POP, etc.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Use of new developer toolings that simplify Developer Experience: &lt;a href=&quot;https://www.google.com/search?q=tanssi+network&amp;amp;oq=Tanssi+network&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Tanssi&lt;/a&gt;, &lt;a href=&quot;https://pop.r0gue.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PoP&lt;/a&gt;, etc.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/OpenZeppelin/polkadot-runtime-templates&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;OZ Templates&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;OmniNode&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/umbrella_crate/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Umbrella crates&lt;/a&gt;&lt;/li&gt;
@@ -781,6 +781,8 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!example] For example, &lt;code&gt;SignedExtension&lt;/code&gt;, a topic that is arguably already not well understood by our dev community, is being replaced with with &lt;code&gt;TransactionExtension&lt;/code&gt;. We should ensure that this new feature comes with all the right foundational documentation needed for it to be used in the ecosystem, taught by our educators.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3 id=&quot;awesome-lists&quot; tabindex=&quot;-1&quot;&gt;Awesome Lists&lt;/h3&gt;
+&lt;p&gt;There are so many cool developer tools out there, yet I am surprised to not often find them. I think the best way to aggregate these is indeed is a standard &lt;a href=&quot;https://github.com/sindresorhus/awesome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;awesome-list&lt;/code&gt;&lt;/a&gt;. We have an &lt;a href=&quot;https://github.com/substrate-developer-hub/awesome-substrate&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;old one that is no longer maintained by Parity&lt;/a&gt;, and a new community driven &lt;a href=&quot;https://github.com/haquefardeen/awesome-dot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;awesome-dot&lt;/code&gt;&lt;/a&gt;. I hope to see a consolidation of the two into &lt;code&gt;awesome-polkadot&lt;/code&gt;, with a dedicated maintainer.&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
@@ -790,7 +792,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Explaining the typical example of allowing free transactions if one has a valid personhood certificate. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I am sure more exists, yet I am not familiar with them. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I am sure more exists, yet I am not familiar with them, see &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/on-documenting-polkadot-sdk/#awesome-lists&quot;&gt;Awesome Lists&lt;/a&gt;. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
