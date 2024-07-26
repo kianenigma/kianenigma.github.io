@@ -112,7 +112,7 @@ With the understanding gained in the previous section, we can smoothly transitio
 
 *JAM is a new protocol, heavily inspired by Polkadot, and fully compatible with it, aiming to replace the Polkadot relay chain and make the usage of cores radically un-opinionated[^4].* 
 
-[^4]: It is crucial to point out that JAM is only meant to replace the Polkadot **relay chain**. Parachains, and all applications that run on top of Polkadot remain intact, mainly thanks to [[Posts/Tech/Demystifying JAM#CoreChains Service\|CoreChains]]. 
+[^4]: It is crucial to point out that JAM is only meant to replace the Polkadot **relay chain**. Parachains, and all applications that run on top of Polkadot remain intact, mainly thanks to [[Posts/Tech/Demystifying JAM#CoreChain\|CoreChain]]. 
 
 JAM builds on top of [[Posts/Tech/Demystifying JAM#Polkadot 2\|Polkadot 2]], in that it tries to make Polkadot cores more accessible, but in ways radically more flexible and un-opinionated than agile-coretime. 
 - Polkadot 2 makes the deployment of L2s more flexible on cores. 
