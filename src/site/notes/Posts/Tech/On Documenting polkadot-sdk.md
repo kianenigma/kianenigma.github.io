@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:44:42.139+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:44:57.098+01:00"}
 ---
 
 
@@ -26,7 +26,7 @@ flowchart
 ## Retrospective  
 ### The Bad  
 
-I would start by acknowledging that that explaining `polkadot[/-sdk]` is hard. 
+I would start by acknowledging that explaining `polkadot[/-sdk]` is hard. 
 
 1. First, there is a lot of Web3 background knowledge that needs to be explained, or assumed. More troublesome, Polkadot itself is a unique Web3 system, and has lots of novel concepts: Origins, Extrinsic, Runtime, Runtime API, Forkless Runtime upgrades and its implications, Host Functions, Metadata, Dispatch, Core (Polkadot Core), Parachain. I am not even opening the jar of all XCM related concepts here. 
 2. Rust is a difficult language, and the intricate way we decided to use it does not help.
@@ -41,11 +41,11 @@ I would start by acknowledging that that explaining `polkadot[/-sdk]` is hard.
 > [!info] It is worth emphasizing here that this **increased longevity** applies to (new) content that is already correct and up-to-date. 
 
 - The second is not solve-able by us per se, as we are not the creators of Rust and cannot reverse the decision to use Rust. But, some of the great steps we have taken to improve this include:
-	- [`pba-qualifier-exam`](https://github.com/Polkadot-Blockchain-Academy/pba-qualifier-exam) being open-source from the get go.
+	- [`pba-qualifier-exam`](https://github.com/Polkadot-Blockchain-Academy/pba-qualifier-exam) being open-source from the get-go.
 	- [Rust state-machine](https://www.shawntabrizi.com/rust-state-machine/) tutorial from @shawntabrizi, exactly created to improve this situation.
 	- [Trait based programming](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/trait_based_programming/index.html) guide for FRAME developers. 
 	- (more ideas here, to be published later[^2])
-[^2]: I am most excited about exploring the idea of _opinionated `frame_system` variants_. As in, FRAME is not `frame_system`. A runtime can be written with FRAME, and not use `frame_system`. An _opinionated_ `frame_system` can be one that is 1. has more assumptions, and already encompasses multiple pallets in it, such as `timestamp` 2. has fewer generics, and more types hardcoded. 
+[^2]: I am most excited about exploring the idea of _opinionated `frame_system` variants_. As in, FRAME is not `frame_system`. A runtime can be written with FRAME, and not use `frame_system`. An _opinionated_ `frame_system` can be one that is 1. has more assumptions, and already encompasses multiple pallets in it, such as `timestamp` 2. has fewer generics, and more types hard-coded. 
 - The first issue is mainly what I have tried to solve in the last year. I believe a lot of educational content in the Polkadot space feels incoherent, because it lacks solid foundation. As in, there is a lot of common foundational knowledge, that many educators have to either:
 	- Re-explain in their own words, risking fragmentation, or being poorly explained. 
 	- Skip, and *assume* the reader already knows it. 
