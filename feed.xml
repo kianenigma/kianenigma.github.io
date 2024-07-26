@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T11:12:05Z</updated>
+    <updated>2024-07-26T11:16:46Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,16 +667,17 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting polkadot-sdk
                 
             </title>
-            <updated>2024-07-26T11:11:28.739Z</updated>
+            <updated>2024-07-26T11:16:04.229Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve.&lt;/p&gt;
 &lt;p&gt;as a lot of teams are applying to solve the same problems through governance and/or &lt;a href=&quot;https://futures.web3.foundation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Decentralized Futures&lt;/a&gt;, I am sharing my &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/on-documenting-polkadot-sdk/#retrospective&quot;&gt;retrospective&lt;/a&gt; of a year+ of working on this. I will also &lt;a href=&quot;https://blog.kianenigma.nl/#wishlist&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;share&lt;/a&gt; how I believe teams getting funding will be most effective in working on this:.&lt;/p&gt;
 &lt;p&gt;I am to a high extent wrapping up my contributions to this effort, and my intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion by all means, and not Parity&#39;s.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!Info]  Generally, when I refer to as &lt;code&gt;polkadot-sdk&lt;/code&gt; here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a &lt;em&gt;meaninful&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. For example:&lt;/p&gt;
+&lt;p&gt;[!Info]  Generally, when I refer to as &lt;code&gt;polkadot-sdk&lt;/code&gt; here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a &lt;em&gt;meaninful&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. A high level understanding of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot itself&lt;/a&gt; is also needed. For example:&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre class=&quot;mermaid&quot;&gt;flowchart
+	polkadot[Polkadot as a Platform]
 	polkadot_sdk --&gt; onchain
 	polkadot_sdk --&gt; offchain 
 	onchain --&gt; substrate
@@ -686,7 +687,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 	offchain --&gt; PAPI
 	offchain --&gt; PJS-API&lt;/pre&gt;&lt;h2 id=&quot;retrospective&quot; tabindex=&quot;-1&quot;&gt;Retrospective&lt;/h2&gt;
 &lt;h3 id=&quot;the-bad&quot; tabindex=&quot;-1&quot;&gt;The Bad&lt;/h3&gt;
-&lt;p&gt;I would start by acknowledging that that explaining &lt;code&gt;polkadot-sdk&lt;/code&gt; is hard.&lt;/p&gt;
+&lt;p&gt;I would start by acknowledging that that explaining &lt;code&gt;polkadot[/-sdk]&lt;/code&gt; is hard.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;First, There is a lot of Web3 background knowledge that needs to be explained, or assumed. More troublesome, Polkadot itself is a unique Web3 system, and has lots of novel concepts: Origins, Extrinsic, Runtime, Runtime API, Forkless Runtime upgrades and its implications, Host Functions, Metadata, Dispatch, Core (Polkadot Core), Parachain. I am not even opening the jar of all XCM related concepts here.&lt;/li&gt;
 &lt;li&gt;Rust is a difficult language, and the intricate way we decided to use it does not help.&lt;/li&gt;
@@ -774,13 +775,8 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;p&gt;All in all, I suggest educators to focus on creating tutorials on forward looking topics, even if it means producing less.&lt;/p&gt;
 &lt;p&gt;You might argue that a lot of this is pretty advanced, and hard to grasp for those who are outside the circle of core contributors of &lt;code&gt;polkadot-sdk&lt;/code&gt;, and you are right about that. And this brings me to the next point.&lt;/p&gt;
 &lt;h3 id=&quot;expect-better&quot; tabindex=&quot;-1&quot;&gt;Expect Better&lt;/h3&gt;
-&lt;p&gt;*&lt;em&gt;&lt;strong&gt;Expect better&lt;/strong&gt;&lt;/em&gt; from core devs of &lt;code&gt;polkadot-sdk&lt;/code&gt;. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a nice-to-have, but rather a must. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in &lt;code&gt;polkadot-sdk-docs&lt;/code&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[!example] For example, &lt;code&gt;SignedExtension&lt;/code&gt;, a topic that is arguably already not well understood by our dev community, is being replaced with with &lt;code&gt;TransactionExtension&lt;/code&gt;. We should ensure that this new feature comes with all the right foundational documentation needed for it to be used in the ecosystem, taught by our educators.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Expect better&lt;/em&gt; from core devs of &lt;code&gt;polkadot-sdk&lt;/code&gt;. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a &lt;em&gt;nice-to-have&lt;/em&gt;, but a &lt;em&gt;must&lt;/em&gt;. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in &lt;code&gt;polkadot-sdk-docs&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive&lt;/p&gt;
 &lt;h3 id=&quot;awesome-lists&quot; tabindex=&quot;-1&quot;&gt;Awesome Lists&lt;/h3&gt;
 &lt;p&gt;There are so many cool developer tools out there, yet I am surprised to not often find them. I think the best way to aggregate these is indeed is a standard &lt;a href=&quot;https://github.com/sindresorhus/awesome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;awesome-list&lt;/code&gt;&lt;/a&gt;. We have an &lt;a href=&quot;https://github.com/substrate-developer-hub/awesome-substrate&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;old one that is no longer maintained by Parity&lt;/a&gt;, and a new community driven &lt;a href=&quot;https://github.com/haquefardeen/awesome-dot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;awesome-dot&lt;/code&gt;&lt;/a&gt;. I hope to see a consolidation of the two into &lt;code&gt;awesome-polkadot&lt;/code&gt;, with a dedicated maintainer.&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
