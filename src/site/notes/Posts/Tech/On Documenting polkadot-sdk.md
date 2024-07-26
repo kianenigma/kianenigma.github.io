@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:16:04.229+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:33:47.432+01:00"}
 ---
 
 
@@ -13,7 +13,7 @@ I am to a high extent wrapping up my contributions to this effort, and my intent
 
 ```mermaid
 flowchart
-	polkadot[Polkadot as a Platform]
+	polkadot[Polkadot as a Platform] --> polkadot_sdk
 	polkadot_sdk --> onchain
 	polkadot_sdk --> offchain 
 	onchain --> substrate
@@ -94,7 +94,7 @@ You might argue that a lot of this is pretty advanced, and hard to grasp for tho
 
 *Expect better* from core devs of `polkadot-sdk`. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a *nice-to-have*, but a *must*. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in `polkadot-sdk-docs`. 
 
-Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive 
+Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive for both parties to benefit from one another and maintain provide their share of the work. More specifically, I would imagine that `polkadot-sdk` maintainers will be more and more encouraged to provide foundational API documentation, if they know these are often used. 
 ### Awesome Lists 
 
 There are so many cool developer tools out there, yet I am surprised to not often find them. I think the best way to aggregate these is indeed is a standard [`awesome-list`](https://github.com/sindresorhus/awesome). We have an [old one that is no longer maintained by Parity](https://github.com/substrate-developer-hub/awesome-substrate), and a new community driven [`awesome-dot`](https://github.com/haquefardeen/awesome-dot). I hope to see a consolidation of the two into `awesome-polkadot`, with a dedicated maintainer. 
