@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-26T10:48:33.149+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-26T16:45:57.702+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
-## About 
+## 📝 About 
 
 - 📸 Personal Gallery: [[Gallery\|Gallery]]
 - 🎧 [[Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
@@ -15,7 +15,7 @@
 	- Polkadot Address: `1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE`
 	- Kusama Address: `HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1`
 - 🤖 Often found online with the name `@kianenigma`.
-## Latest Post 
+## 📣 Latest Post 
 
 | File                                                                                                   | Created At                |
 | ------------------------------------------------------------------------------------------------------ | ------------------------- |
@@ -32,7 +32,7 @@
 
 { .block-language-dataview}
 
-## Garden Indices 
+## 🪴 Garden Indices 
 The full, time sorted list of posts in this digital garden. 
 - [[Talks/Index\|Talks - Index]]
 - [[Posts/Index\|Posts - Index]]
