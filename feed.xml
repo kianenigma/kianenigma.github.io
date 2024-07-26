@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T09:44:22Z</updated>
+    <updated>2024-07-26T09:46:02Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -204,6 +204,34 @@
 
             </content>
             <link href="https://blog.kianenigma.nl//talks/persian-polkadot-seminar-for-rust-iran-community/" />
+        </entry>
+        <entry>
+            <title>
+                Sa&#39;di
+                
+            </title>
+            <updated>2024-07-26T09:45:15.072Z</updated>
+            <id>https://blog.kianenigma.nl//sadi/</id>
+            <content type="html">
+                &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/sadi.jpg&quot; alt=&quot;sadi.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;banī-ādam aʿzāy-e yek digarand&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;keh dar āfarīnesh &#39;zeh yek goharand&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;cho ʿozvī be-dard āvarad rūzgār&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;degar ʿozvhā rā namānad qarār&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;to k&#39;az meḥnat-e dīgarān bī-ghamī&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;nashāyad keh nāmat nahand ādamī&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Human Beings are members of a whole&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;In creation of one essence and soul&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;If one member is inflicted with pain&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Other members uneasy will remain&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;If you have no sympathy for human pain&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;The name of human you can not pertain&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bani_Adam&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bani Adam - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//sadi/" />
         </entry>
         <entry>
             <title>
@@ -1909,7 +1937,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-07-26T09:43:04.744Z</updated>
+            <updated>2024-07-26T09:44:51.393Z</updated>
             <id>https://blog.kianenigma.nl//</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
@@ -1942,6 +1970,10 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/sadi/&quot;&gt;Sa&#39;di&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10:44 AM - July 26, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/index/&quot;&gt;Index&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;10:35 AM - July 26, 2024&lt;/td&gt;
 &lt;/tr&gt;
@@ -1965,10 +1997,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/uneducated-unaffiliated-disinterested/&quot;&gt;Uneducated, Unaffiliated, Disinterested&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;4:45 PM - March 30, 2024&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;4:43 PM - March 30, 2024&lt;/td&gt;
-&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&quot;garden-indices&quot; tabindex=&quot;-1&quot;&gt;Garden Indices&lt;/h2&gt;
@@ -1977,23 +2005,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/index/&quot;&gt;Talks - Index&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/index/&quot;&gt;Posts - Index&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;outro&quot; tabindex=&quot;-1&quot;&gt;Outro&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/sadi.jpg&quot; alt=&quot;sadi.jpg&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;banī-ādam aʿzāy-e yek digarand&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;keh dar āfarīnesh &#39;zeh yek goharand&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;cho ʿozvī be-dard āvarad rūzgār&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;degar ʿozvhā rā namānad qarār&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;to k&#39;az meḥnat-e dīgarān bī-ghamī&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;nashāyad keh nāmat nahand ādamī&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Human Beings are members of a whole&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;In creation of one essence and soul&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;If one member is inflicted with pain&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;Other members uneasy will remain&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;If you have no sympathy for human pain&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;The name of human you can not pertain&lt;/em&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bani_Adam&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bani Adam - Wikipedia&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;hr /&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Made with &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian-Digital-Garden&lt;/a&gt;&lt;/p&gt;
