@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:11:28.739+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-26T12:16:04.229+01:00"}
 ---
 
 
@@ -9,10 +9,11 @@ as a lot of teams are applying to solve the same problems through governance and
 
 I am to a high extent wrapping up my contributions to this effort, and my intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion by all means, and not Parity's. 
 
-> [!Info]  Generally, when I refer to as `polkadot-sdk` here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a *meaninful* and *useful* application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. For example: 
+> [!Info]  Generally, when I refer to as `polkadot-sdk` here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a *meaninful* and *useful* application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. A high level understanding of [[Posts/Tech/Polkadot's Build Horizon\|Polkadot itself]] is also needed. For example: 
 
 ```mermaid
 flowchart
+	polkadot[Polkadot as a Platform]
 	polkadot_sdk --> onchain
 	polkadot_sdk --> offchain 
 	onchain --> substrate
@@ -25,7 +26,7 @@ flowchart
 ## Retrospective  
 ### The Bad  
 
-I would start by acknowledging that that explaining `polkadot-sdk` is hard. 
+I would start by acknowledging that that explaining `polkadot[/-sdk]` is hard. 
 
 1. First, There is a lot of Web3 background knowledge that needs to be explained, or assumed. More troublesome, Polkadot itself is a unique Web3 system, and has lots of novel concepts: Origins, Extrinsic, Runtime, Runtime API, Forkless Runtime upgrades and its implications, Host Functions, Metadata, Dispatch, Core (Polkadot Core), Parachain. I am not even opening the jar of all XCM related concepts here. 
 2. Rust is a difficult language, and the intricate way we decided to use it does not help.
@@ -89,14 +90,11 @@ This is how I think teams applying for funding regarding documentation will be m
 All in all, I suggest educators to focus on creating tutorials on forward looking topics, even if it means producing less.
 
 You might argue that a lot of this is pretty advanced, and hard to grasp for those who are outside the circle of core contributors of `polkadot-sdk`, and you are right about that. And this brings me to the next point.
-
 ### Expect Better 
 
-****Expect better*** from core devs of `polkadot-sdk`. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a nice-to-have, but rather a must. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in `polkadot-sdk-docs`. 
-* Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive 
+*Expect better* from core devs of `polkadot-sdk`. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a *nice-to-have*, but a *must*. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in `polkadot-sdk-docs`. 
 
-> [!example] For example, `SignedExtension`, a topic that is arguably already not well understood by our dev community, is being replaced with with `TransactionExtension`. We should ensure that this new feature comes with all the right foundational documentation needed for it to be used in the ecosystem, taught by our educators. 
-
+Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive 
 ### Awesome Lists 
 
 There are so many cool developer tools out there, yet I am surprised to not often find them. I think the best way to aggregate these is indeed is a standard [`awesome-list`](https://github.com/sindresorhus/awesome). We have an [old one that is no longer maintained by Parity](https://github.com/substrate-developer-hub/awesome-substrate), and a new community driven [`awesome-dot`](https://github.com/haquefardeen/awesome-dot). I hope to see a consolidation of the two into `awesome-polkadot`, with a dedicated maintainer. 
