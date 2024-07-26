@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T09:53:02Z</updated>
+    <updated>2024-07-26T10:13:45Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,10 +667,11 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting `polkadot-sdk`
                 
             </title>
-            <updated>2024-07-26T09:52:23.174Z</updated>
+            <updated>2024-07-26T10:13:14.913Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
-                &lt;p&gt;I have been trying to work on &lt;code&gt;polkadot-sdk&lt;/code&gt; docs for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve. as a lot of teams are applying to solve the same problems through governance funding and/or DF, I am sharing my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;retrospective&quot;&gt;#Retrospective&lt;/a&gt; a year+ of working on this. I will also share how I believe teams getting funding from DF will be most effective in working on this: &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;Wishlist&lt;/a&gt;.&lt;/p&gt;
+                &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve.&lt;/p&gt;
+&lt;p&gt;as a lot of teams are applying to solve the same problems through governance and/or &lt;a href=&quot;https://futures.web3.foundation/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Decentralized Futures&lt;/a&gt;, I am sharing my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;retrospective&quot;&gt;#Retrospective&lt;/a&gt; of a year+ of working on this. I will also &lt;a href=&quot;https://blog.kianenigma.nl/#wishlist&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;share&lt;/a&gt; how I believe teams getting funding will be most effective in working on this:.&lt;/p&gt;
 &lt;p&gt;I am to a high extent wrapping up my contributions to this effort, and my intention in writing this is to ensure all of my thoughts around it are publicly available, should they be useful to anyone in posterity. All of this is my personal opinion by all means, and not Parity&#39;s.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!Info]  Generally, when I refer to as &lt;code&gt;polkadot-sdk&lt;/code&gt; here, I mean a subset of the tools in Polkadot SDK that a team typically needs in order to build a &lt;em&gt;meaninful&lt;/em&gt; and &lt;em&gt;useful&lt;/em&gt; application on Polkadot cores. That is, at the minimum: FRAME, Substrate, XCM and some offchain library to build a DApp. For example:&lt;/p&gt;
@@ -743,23 +744,38 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Explore converting this body of information to a markdown version for better readability and search and aesthetics. Possibly branded as a &amp;quot;&lt;em&gt;Mastering Polkadot SDK Book&lt;/em&gt;&amp;quot;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;my-wishlist-for-df-teams&quot; tabindex=&quot;-1&quot;&gt;My Wishlist for DF Teams&lt;/h2&gt;
+&lt;h2 id=&quot;wishlist&quot; tabindex=&quot;-1&quot;&gt;Wishlist&lt;/h2&gt;
+&lt;p&gt;This is how I think teams applying for funding regarding documentation will be most impactful.&lt;/p&gt;
+&lt;h3 id=&quot;forward-looking&quot; tabindex=&quot;-1&quot;&gt;Forward looking&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;I wish to see more content created around the latest topics in &lt;code&gt;polkadot-sdk&lt;/code&gt;, rather than rinsing and re-packaging what was written in 2019, by people who are long gone. The topics of the year that are exciting to me are:
+&lt;li&gt;I wish to see more content created around the latest topics in &lt;code&gt;polkadot-sdk&lt;/code&gt;, rather than rinsing and re-packaging existing ones. Of course, a large part of the old materials that we currently have are still relevant, but they should be carefully handpicked and vetted. The topics of the year that are exciting to me are:
 &lt;ul&gt;
-&lt;li&gt;On-demand coretime tutorial on Paseo&lt;/li&gt;
-&lt;li&gt;OZ templates&lt;/li&gt;
-&lt;li&gt;Omni-node&lt;/li&gt;
-&lt;li&gt;Umbrella crates&lt;/li&gt;
-&lt;li&gt;Transaction/Signed Extension&lt;/li&gt;
-&lt;li&gt;Personhood.&lt;/li&gt;
+&lt;li&gt;It is going to be all about &lt;strong&gt;agile-coretime&lt;/strong&gt; going forward, especially on-demand. A number of great tutorials should start with writing a pallet, adding it to a parachain-ready tempalte, and end at acquiring one on-demand block on Paseo, and producing a block. &lt;a href=&quot;https://wiki.polkadot.network/docs/build-guides-template-basic&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;This guide&lt;/a&gt; by Bader from Web3 Foundation is along these lines.&lt;/li&gt;
+&lt;li&gt;Use of new developer toolings that simplify Developer Experience: Tanssi, POP, etc.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/OpenZeppelin/polkadot-runtime-templates&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;OZ Templates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;OmniNode&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/umbrella_crate/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Umbrella crates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The above 3 imply we can massively simplify our templates to
+&lt;ol&gt;
+&lt;li&gt;Use the umbrella crates, instead of dozens of crates&lt;/li&gt;
+&lt;li&gt;Use omni-nodes, and be mere &lt;em&gt;Runtime Templates&lt;/em&gt;, removing the entire &lt;code&gt;/node&lt;/code&gt; directory.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/pull/3685&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Transaction/Signed Extension&lt;/a&gt;, and other features &lt;em&gt;that are unique&lt;/em&gt; to what you can do a blockchain, and you cannot do in a smart contract environment.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://forum.polkadot.network/t/where-contracts-fail-and-runtimes-chains-are-needed/4464&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Where contracts fail, and runtimes/chains are needed - Ecosystem - Polkadot Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/runtime_vs_smart_contract/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;polkadot_sdk_docs::reference_docs::runtime_vs_smart_contract - Rust&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/xXS9w4wqHWo?si=O8am8htFesUQzj97&amp;amp;t=1555&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Personhood&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Produce less, but original, novel and new content.&lt;/p&gt;
-&lt;p&gt;You might argue that a lot of this is pretty advanced, and hard to grasp for those who are outside the circle of core contributors of &lt;code&gt;polkadot-sdk&lt;/code&gt;, and you are right about that. And this brings me to the next point:&lt;/p&gt;
+&lt;p&gt;All in all, I suggest educators to focus on creating tutorials on forward looking topics, even if it means producing less.&lt;/p&gt;
+&lt;p&gt;You might argue that a lot of this is pretty advanced, and hard to grasp for those who are outside the circle of core contributors of &lt;code&gt;polkadot-sdk&lt;/code&gt;, and you are right about that. And this brings me to the next point.&lt;/p&gt;
+&lt;h3 id=&quot;expect-better&quot; tabindex=&quot;-1&quot;&gt;Expect Better&lt;/h3&gt;
+&lt;p&gt;*&lt;em&gt;&lt;strong&gt;Expect better&lt;/strong&gt;&lt;/em&gt; from core devs of &lt;code&gt;polkadot-sdk&lt;/code&gt;. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a nice-to-have, but rather a must. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in &lt;code&gt;polkadot-sdk-docs&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;*&lt;em&gt;&lt;strong&gt;Expect better&lt;/strong&gt;&lt;/em&gt; from core devs of &lt;code&gt;polkadot-sdk&lt;/code&gt;. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a nice-to-have, but rather a must. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in &lt;code&gt;polkadot-sdk-docs&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
@@ -773,6 +789,8 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I am most excited about exploring the idea of &lt;em&gt;opinionated &lt;code&gt;frame_system&lt;/code&gt; variants&lt;/em&gt;. As in, FRAME is not &lt;code&gt;frame_system&lt;/code&gt;. A runtime can be written with FRAME, and not use &lt;code&gt;frame_system&lt;/code&gt;. An &lt;em&gt;opinionated&lt;/em&gt; &lt;code&gt;frame_system&lt;/code&gt; can be one that is 1. has more assumptions, and already encompasses multiple pallets in it, such as &lt;code&gt;timestamp&lt;/code&gt; 2. has fewer generics, and more types hardcoded. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Explaining the typical example of allowing free transactions if one has a valid personhood certificate. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I am sure more exists, yet I am not familiar with them. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
