@@ -1316,17 +1316,17 @@ body {
   }
   /* Remove the native selection to avoid stacking
      selection styles with CM6
-  
+
   .markdown-source-view.mod-cm6 {
       ::selection {
           background-color: transparent;
       }
-  
+
       .inline-title::selection,
       .cm-inline-code::selection {
           background-color: var(--text-selection);
       }
-  
+
       .HyperMD-codeblock {
           ::selection {
               background-color: var(--text-selection);
@@ -1504,27 +1504,27 @@ body {
     display: none;
   }
   /*
-  
-  OS-dependent rules to make space for traffic lights buttons, 
+
+  OS-dependent rules to make space for traffic lights buttons,
   window buttons and sidebar toggles.
-  
+
   ---
-  
-  Scenarios to account for: 
-  
+
+  Scenarios to account for:
+
   Window frame styles
   - Hidden
   - Custom
   - Native
   - Full screen
-  
+
   Sidebar states
   - Left sidebar open
   - Left sidebar closed
   - Right sidebar open
   - Right sidebar closed
   - Pop-out (no sidebars)
-  
+
   */
   body {
     --zoom-factor: 1;
@@ -3841,7 +3841,7 @@ body {
     color: var(--text-accent);
   }
   /* Document search and replace */
-  /* 
+  /*
   Moves search to the top
   #todo move this into DOM */
   .markdown-reading-view.is-searching,
@@ -10626,4 +10626,4 @@ body {
     font-size: var(--font-ui-medium);
     width: 100%;
   }
-  
+

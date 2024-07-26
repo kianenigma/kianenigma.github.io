@@ -24,7 +24,8 @@ img[alt*="center"] {
 }
 
 body {
-	--accent-h: 250 !important;
-	--accent-s: 60% !important;
-	--accent-l: 68% !important;
+	// not sure why have to override this, something in theme broken?
+	::selection {
+		background: hsla(254, 80%, 60%, 20%) !important
+	}
 }
