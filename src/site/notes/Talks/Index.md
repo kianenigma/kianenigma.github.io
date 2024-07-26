@@ -1,11 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/talks/index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2024-07-26T10:40:35.444+01:00"}
+{"dg-publish":true,"permalink":"/talks/index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2024-07-26T10:46:38.272+01:00"}
 ---
 
 
 | File                                                                                                                                                                                             | Created At                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
-| [[Talks/Index\|Index]]                                                                                                                                                                        | 10:34 AM - July 26, 2024  |
 | [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                                                                                                                        | 4:35 PM - July 12, 2024   |
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                                                                                                          | 5:30 PM - June 27, 2024   |
 | [[Talks/(Persian) Polkadot Seminar for Rust-Iran Community\|(Persian) Polkadot Seminar for Rust-Iran Community]]                                                                              | 2:05 PM - August 28, 2023 |
