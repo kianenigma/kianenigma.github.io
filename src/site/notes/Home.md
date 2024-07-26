@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-26T10:45:27.943+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-26T10:48:19.644+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -17,15 +17,15 @@
 - 🤖 Often found online with the name `@kianenigma`.
 ## Latest Post 
 
-| File                                                                                                   | Created At               |
-| ------------------------------------------------------------------------------------------------------ | ------------------------ |
-| [[Sa'di\|Sa'di]]                                                                                    | 10:44 AM - July 26, 2024 |
-| [[Posts/Index\|Index]]                                                                              | 10:35 AM - July 26, 2024 |
-| [[Talks/Index\|Index]]                                                                              | 10:34 AM - July 26, 2024 |
-| [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                              | 4:35 PM - July 12, 2024  |
-| [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024  |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024   |
-| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024 |
+| File                                                                                                   | Created At                |
+| ------------------------------------------------------------------------------------------------------ | ------------------------- |
+| [[Sa'di\|Sa'di]]                                                                                    | 10:44 AM - July 26, 2024  |
+| [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                              | 4:35 PM - July 12, 2024   |
+| [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024   |
+| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024    |
+| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024  |
+| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 10:33 AM - March 24, 2024 |
+| [[Posts/Personal/The Price of Change\|The Price of Change]]                                         | 9:30 PM - March 23, 2024  |
 
 { .block-language-dataview}
 
