@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/posts/index/","pinned":true,"created":"2024-07-26T10:35:08.540+01:00","updated":"2024-07-26T10:46:51.328+01:00"}
+{"dg-publish":true,"permalink":"/posts/index/","pinned":true,"created":"2024-07-26T10:35:08.540+01:00","updated":"2024-07-26T10:47:31.320+01:00"}
 ---
-
 
 ## Tech 
 
@@ -14,7 +13,9 @@
 | [[Posts/Tech/The 10x Developer Myth: All About Keyboard\|The 10x Developer Myth: All About Keyboard]]                                               | 2:41 PM - August 31, 2023   |
 
 { .block-language-dataview}
+
 ## Personal 
+
 | File                                                                                                                       | Created At                  |
 | -------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                     | 4:45 PM - March 30, 2024    |
