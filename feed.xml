@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T08:55:04Z</updated>
+    <updated>2024-07-26T09:16:22Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -447,7 +447,7 @@
                 On Documenting `polkadot-sdk`
                 
             </title>
-            <updated>2024-07-26T08:45:19.710Z</updated>
+            <updated>2024-07-26T09:13:29.595Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to work on &lt;code&gt;polkadot-sdk&lt;/code&gt; docs for more than a year now. It has been a difficult journey, and admittedly beyond what me and a handful of others can reasonably solve. as a lot of teams are applying to solve the same problems through governance funding and/or DF, I am sharing my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;&quot;&gt;#Retrospective&lt;/a&gt; a year+ of working on this. I will also share how I believe teams getting funding from DF will be most effective in working on this: &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;#My Wishlist for DF Teams&lt;/a&gt;.&lt;/p&gt;
@@ -473,7 +473,7 @@
 &lt;/ol&gt;
 &lt;h3 id=&quot;the-good&quot; tabindex=&quot;-1&quot;&gt;The Good&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;The 3rd issue is in general being solved by making Polkadot more &lt;a href=&quot;https://forum.polkadot.network/t/stabilizing-polkadot/7175&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;stable&lt;/a&gt; as a whole. This is a strong promise that &lt;a href=&quot;https://youtu.be/DLofyGI3mw8?si=nJZiVApWTj6ae_Wz&amp;amp;t=1115&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;we hear from Parity&lt;/a&gt; and fellowship: For our developers, we will make Polkadot Stable, and Stable for a long time. This also means less changes in &lt;code&gt;polkadot-sdk&lt;/code&gt;, and therefore increasing the longevity of all educational material that is &lt;em&gt;henceforth&lt;/em&gt; created.&lt;/li&gt;
+&lt;li&gt;The 3rd issue is in general being solved by making Polkadot more &lt;a href=&quot;https://forum.polkadot.network/t/stabilizing-polkadot/7175&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;stable&lt;/a&gt; as a whole. This is a strong promise that we hear from Parity and fellowship: For our developers, we will make Polkadot &lt;em&gt;stable&lt;/em&gt;, and stable for &lt;em&gt;a &lt;a href=&quot;https://youtu.be/DLofyGI3mw8?si=nJZiVApWTj6ae_Wz&amp;amp;t=1115&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;long time&lt;/a&gt;&lt;/em&gt;. This also means less changes in &lt;code&gt;polkadot-sdk&lt;/code&gt;, and therefore increasing the longevity of all educational material that is &lt;em&gt;henceforth&lt;/em&gt; created.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info] It is worth emphasizing here that this &lt;strong&gt;increased longevity&lt;/strong&gt; applies to (new) content that is already correct and up-to-date.&lt;/p&gt;
@@ -497,12 +497,18 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!example] I have demonstrated an example of this here.&lt;/p&gt;
+&lt;p&gt;[!example] I have demonstrated an example of this &lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#example-explaining-palletcall&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;And with this hypothesis, I believe there are two tools at the hands of future educators to help with this:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;polkadot-sdk-docs&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Recordings from the Polkadot Blockchain Academy.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;polkadot-sdk-docs&lt;/code&gt;&lt;/a&gt;: A strong foundation of API docs, references on foundational topics, and examples that are guaranteed to be &lt;em&gt;always correct&lt;/em&gt; (because they live in &lt;code&gt;polkadot-sdk&lt;/code&gt; repository and are always compiled as a part of its CI). Some of the FAQ that might be asked about this crate is covered in:
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#why-rust-docs&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Why Rust Docs?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#scope&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Scope&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#principles&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Principles&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/polkadot-blockchain-academy/pba-4-hong-kong/&quot;&gt;Recordings from the Polkadot Blockchain Academy&lt;/a&gt;. I hope to see the latest Singapore edition be out soon (as the XCM module has had significant changes), but for now the Hong Kong recordings are an excellent resource.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;the-future&quot; tabindex=&quot;-1&quot;&gt;The Future&lt;/h3&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
