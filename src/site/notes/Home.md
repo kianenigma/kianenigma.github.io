@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-23T16:45:53.272+01:00"}
+{"dg-publish":true,"permalink":"/home/","contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-26T10:43:04.744+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 ## About 
 
-- 📸 Personal Gallery: [[Posts/Personal/Gallery\|Gallery]]
-- 🎧 [[Posts/Personal/Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
+- 📸 Personal Gallery: [[Gallery\|Gallery]]
+- 🎧 [[Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
 - 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive)
 - 🦀 Rust Developer [@paritytech](https://twitter.com/ParityTech/). 
 - 📚 Parallel and Distributed Systems Msc. graduate from [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam).
@@ -19,13 +19,20 @@
 
 | File                                                                                                   | Created At               |
 | ------------------------------------------------------------------------------------------------------ | ------------------------ |
+| [[Posts/Index\|Index]]                                                                              | 10:35 AM - July 26, 2024 |
+| [[Talks/Index\|Index]]                                                                              | 10:34 AM - July 26, 2024 |
 | [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                              | 4:35 PM - July 12, 2024  |
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024  |
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024   |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024 |
-| [[Posts/Personal/Gallery\|Gallery]]                                                                 | 4:43 PM - March 30, 2024 |
+| [[Gallery\|Gallery]]                                                                                | 4:43 PM - March 30, 2024 |
 
 { .block-language-dataview}
+
+## Garden Indices 
+The full, time sorted list of posts in this digital garden. 
+- [[Talks/Index\|Talks - Index]]
+- [[Posts/Index\|Posts - Index]]
 
 ## Outro 
 
