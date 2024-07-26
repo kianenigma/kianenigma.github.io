@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-26T11:45:12Z</updated>
+    <updated>2024-07-26T11:50:30Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,7 +667,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting polkadot-sdk
                 
             </title>
-            <updated>2024-07-26T11:44:42.139Z</updated>
+            <updated>2024-07-26T11:49:34.286Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what I and a handful of others can reasonably solve.&lt;/p&gt;
@@ -687,7 +687,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 	offchain --&gt; PAPI
 	offchain --&gt; PJS-API&lt;/pre&gt;&lt;h2 id=&quot;retrospective&quot; tabindex=&quot;-1&quot;&gt;Retrospective&lt;/h2&gt;
 &lt;h3 id=&quot;the-bad&quot; tabindex=&quot;-1&quot;&gt;The Bad&lt;/h3&gt;
-&lt;p&gt;I would start by acknowledging that that explaining &lt;code&gt;polkadot[/-sdk]&lt;/code&gt; is hard.&lt;/p&gt;
+&lt;p&gt;I would start by acknowledging that explaining &lt;code&gt;polkadot[/-sdk]&lt;/code&gt; is hard.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;First, there is a lot of Web3 background knowledge that needs to be explained, or assumed. More troublesome, Polkadot itself is a unique Web3 system, and has lots of novel concepts: Origins, Extrinsic, Runtime, Runtime API, Forkless Runtime upgrades and its implications, Host Functions, Metadata, Dispatch, Core (Polkadot Core), Parachain. I am not even opening the jar of all XCM related concepts here.&lt;/li&gt;
 &lt;li&gt;Rust is a difficult language, and the intricate way we decided to use it does not help.&lt;/li&gt;
@@ -703,7 +703,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The second is not solve-able by us per se, as we are not the creators of Rust and cannot reverse the decision to use Rust. But, some of the great steps we have taken to improve this include:
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/Polkadot-Blockchain-Academy/pba-qualifier-exam&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;pba-qualifier-exam&lt;/code&gt;&lt;/a&gt; being open-source from the get go.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Polkadot-Blockchain-Academy/pba-qualifier-exam&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;pba-qualifier-exam&lt;/code&gt;&lt;/a&gt; being open-source from the get-go.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.shawntabrizi.com/rust-state-machine/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Rust state-machine&lt;/a&gt; tutorial from @shawntabrizi, exactly created to improve this situation.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/trait_based_programming/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Trait based programming&lt;/a&gt; guide for FRAME developers.&lt;/li&gt;
 &lt;li&gt;(more ideas here, to be published later&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;)&lt;/li&gt;
@@ -747,7 +747,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;wishlist&quot; tabindex=&quot;-1&quot;&gt;Wishlist&lt;/h2&gt;
 &lt;p&gt;This is how I think teams applying for funding regarding documentation will be most impactful.&lt;/p&gt;
-&lt;h3 id=&quot;forward-looking&quot; tabindex=&quot;-1&quot;&gt;Forward looking&lt;/h3&gt;
+&lt;h3 id=&quot;forward-looking&quot; tabindex=&quot;-1&quot;&gt;Forward-Looking&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;I wish to see more content created around the &lt;em&gt;&lt;strong&gt;latest topics in Polkadot, rather than rehashing existing ones&lt;/strong&gt;&lt;/em&gt;. Of course, a large part of the old materials that we currently have are still relevant, but they should be carefully handpicked and vetted. The topics of the year that are exciting to me are:
 &lt;ul&gt;
@@ -777,6 +777,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;h3 id=&quot;expect-better&quot; tabindex=&quot;-1&quot;&gt;Expect Better&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Expect better&lt;/em&gt; from core devs of &lt;code&gt;polkadot-sdk&lt;/code&gt;. Foundational knowledge that explains the basics of an API and how it is intended to be used is not a &lt;em&gt;nice-to-have&lt;/em&gt;, but a &lt;em&gt;must&lt;/em&gt;. Core developers should provide the foundation for educators and technical writers in the space to create new content about the latest features. I hope to see most of this low level documentation to live in &lt;code&gt;polkadot-sdk-docs&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Finally, to make this process fruitful, you, as educators, build on top of the core documentation and backlink to it. This creates a strong mutual incentive for both parties to benefit from one another and maintain provide their share of the work. More specifically, I would imagine that &lt;code&gt;polkadot-sdk&lt;/code&gt; maintainers will be more and more encouraged to provide foundational API documentation, if they know these are often used.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Build on the shoulder of giants&lt;/em&gt;, as the saying goes.&lt;/p&gt;
 &lt;h3 id=&quot;awesome-lists&quot; tabindex=&quot;-1&quot;&gt;Awesome Lists&lt;/h3&gt;
 &lt;p&gt;There are so many cool developer tools out there, yet I am surprised to not often find them. I think the best way to aggregate these are indeed a standard &lt;a href=&quot;https://github.com/sindresorhus/awesome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;awesome-list&lt;/code&gt;&lt;/a&gt;. We have an &lt;a href=&quot;https://github.com/substrate-developer-hub/awesome-substrate&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;old one that is no longer maintained by Parity&lt;/a&gt;, and a new community driven &lt;a href=&quot;https://github.com/haquefardeen/awesome-dot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;awesome-dot&lt;/code&gt;&lt;/a&gt;. I hope to see a consolidation of the two into &lt;code&gt;awesome-polkadot&lt;/code&gt;, with a dedicated maintainer.&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
@@ -784,7 +785,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
 &lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I am of the opinion that we should stop using &amp;quot;&lt;em&gt;Substrate&lt;/em&gt;&amp;quot; as a keyword, and use &amp;quot;&lt;em&gt;Polkadot SDK&lt;/em&gt;&amp;quot; as much as possible instead. Substrate should not be used as a standalone term, and instead it is a part of Polkadot SDK. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I am most excited about exploring the idea of &lt;em&gt;opinionated &lt;code&gt;frame_system&lt;/code&gt; variants&lt;/em&gt;. As in, FRAME is not &lt;code&gt;frame_system&lt;/code&gt;. A runtime can be written with FRAME, and not use &lt;code&gt;frame_system&lt;/code&gt;. An &lt;em&gt;opinionated&lt;/em&gt; &lt;code&gt;frame_system&lt;/code&gt; can be one that is 1. has more assumptions, and already encompasses multiple pallets in it, such as &lt;code&gt;timestamp&lt;/code&gt; 2. has fewer generics, and more types hardcoded. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I am most excited about exploring the idea of &lt;em&gt;opinionated &lt;code&gt;frame_system&lt;/code&gt; variants&lt;/em&gt;. As in, FRAME is not &lt;code&gt;frame_system&lt;/code&gt;. A runtime can be written with FRAME, and not use &lt;code&gt;frame_system&lt;/code&gt;. An &lt;em&gt;opinionated&lt;/em&gt; &lt;code&gt;frame_system&lt;/code&gt; can be one that is 1. has more assumptions, and already encompasses multiple pallets in it, such as &lt;code&gt;timestamp&lt;/code&gt; 2. has fewer generics, and more types hard-coded. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Explaining the typical example of allowing free transactions if one has a valid personhood certificate. &lt;a href=&quot;https://blog.kianenigma.nl/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
