@@ -24,7 +24,7 @@
 <style></style>
 <style></style>
 </head>
-<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section css-settings-manager">
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section filetree-note-icon css-settings-manager">
 <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
 <div x-show.important="!isDesktop" style="display:none">
 <nav class="navbar">
@@ -67,7 +67,7 @@ CTRL + K
 </div>
 <div class="folder" x-data="{isOpen: true}">
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/">Home </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
@@ -78,7 +78,7 @@ CTRL + K
 <span class="foldername">Posts</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/index/">Index </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/index/">Index </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -89,31 +89,31 @@ CTRL + K
 <span class="foldername">Personal</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/amsterdam-bunker-talks-experience-1/">Amsterdam BunkerTalks Experience 1 </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/personal/amsterdam-bunker-talks-experience-1/">Amsterdam BunkerTalks Experience 1 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/an-open-letter-to-javad-zarif/">An Open Letter to Javad Zarif </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/personal/an-open-letter-to-javad-zarif/">An Open Letter to Javad Zarif </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/an-open-letter-to-panic-buyers/">An Open Letter to Panic Buyers </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/personal/an-open-letter-to-panic-buyers/">An Open Letter to Panic Buyers </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/meta-cognition-framework/">Meta Cognition Framework </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/personal/meta-cognition-framework/">Meta Cognition Framework </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran&#39;s Political Situation in 2022 </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran&#39;s Political Situation in 2022 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/the-price-of-change/">The Price of Change </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/personal/the-price-of-change/">The Price of Change </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested </a>
 </div>
 </div>
 </div>
@@ -126,27 +126,27 @@ CTRL + K
 <span class="foldername">Tech</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/demystifying-jam/">Demystifying JAM </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/tech/demystifying-jam/">Demystifying JAM </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/">For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/">For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/on-documenting-polkadot-sdk/">On Documenting polkadot-sdk </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/tech/on-documenting-polkadot-sdk/">On Documenting polkadot-sdk </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/polkadot-s-build-horizon/">Polkadot&#39;s Build Horizon </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/tech/polkadot-s-build-horizon/">Polkadot&#39;s Build Horizon </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/the-10x-developer-myth-all-about-keyboard/">The 10x Developer Myth: All About Keyboard </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/tech/the-10x-developer-myth-all-about-keyboard/">The 10x Developer Myth: All About Keyboard </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/thoughts-blockchain-and-blockspace-scalability/">Thoughts Blockchain and Blockspace Scalability </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/posts/tech/thoughts-blockchain-and-blockspace-scalability/">Thoughts Blockchain and Blockspace Scalability </a>
 </div>
 </div>
 </div>
@@ -163,7 +163,7 @@ CTRL + K
 <span class="foldername">Talks</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/index/">Index </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/index/">Index </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -174,41 +174,41 @@ CTRL + K
 <span class="foldername">Polkadot Blockchain Academy</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/polkadot-blockchain-academy/pba-4-hong-kong/">PBA4 Hong Kong </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/polkadot-blockchain-academy/pba-4-hong-kong/">PBA4 Hong Kong </a>
 </div>
 </div>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/persian-polkadot-seminar-for-rust-iran-community/">(Persian) Polkadot Seminar for Rust-Iran Community </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/persian-polkadot-seminar-for-rust-iran-community/">(Persian) Polkadot Seminar for Rust-Iran Community </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/persian-random-rust-video-tutorials/">(Persian) Random Rust Video Tutorials </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/persian-random-rust-video-tutorials/">(Persian) Random Rust Video Tutorials </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/blockchain-reimagined/">Blockchain Reimagined </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/blockchain-reimagined/">Blockchain Reimagined </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/">Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022 </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/">Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022 </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/">Offline Phragmen Tool and Substrate Debug Kit | Substrate Seminar </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/">Offline Phragmen Tool and Substrate Debug Kit | Substrate Seminar </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/phragmen-and-the-n-po-s-problem-sub0-online/">Phragmen and The NPoS Problem | Sub0 Online </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/phragmen-and-the-n-po-s-problem-sub0-online/">Phragmen and The NPoS Problem | Sub0 Online </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/phragmen-overview-substrate-seminar/">Phragmen Overview | Substrate Seminar </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/phragmen-overview-substrate-seminar/">Phragmen Overview | Substrate Seminar </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/">Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends </a>
 </div>
 </div>
 </div>
@@ -216,15 +216,15 @@ CTRL + K
 <div x-show="isOpen" style="display:none" class="">
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/playlist/">Playlists </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/playlist/">Playlists </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/rumi/">Rumi </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/rumi/">Rumi </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/sadi/">Sa&#39;di </a>
+<div @click.stop class="notelink"><a data-note-icon="📝" style="text-decoration:none" class="filename" href="/sadi/">Sa&#39;di </a>
 </div>
 </div>
 </div>
@@ -250,10 +250,10 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-07-26T15:46:28.141Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-07-26T15:46:28.141Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-26T15:46:28.141Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-07-28T14:14:22.468Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-07-28T14:14:22.468Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-07-28T14:14:22.468Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Runtime Function Onboarding 2024</h1>
+<h1 data-note-icon="📝">Runtime Function Onboarding 2024</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
@@ -415,7 +415,7 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 </ol>
 <p>That are used for various discussion topics, requesting reviews and Q&amp;As, and using them is highly recommended.</p>
 <blockquote>
-<p>.. But what if I am too loud, what if I annoy someone, or ask a <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions"> dumb question</a>?</p>
+<p>.. But what if I am too loud, what if I annoy someone, or ask a <a class="internal-link" target="" data-note-icon="📝" href="/posts/runtime-function-onboarding-2024/#dumb-questions"> dumb question</a>?</p>
 </blockquote>
 <p>Short answer: <strong>It is not your problem</strong>.</p>
 <p>In an async environment, it is much easier to be under-heard and under-share, than the opposite. Therefore, it is safer to optimize for over-sharing, and only adjust if necessary.</p>
@@ -429,7 +429,7 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 <li>Prefer sharing things <em>where most poeple can see it</em>.</li>
 <li>Prefer sharing things where it has the most longevity.
 <ul>
-<li>(See <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>)</li>
+<li>(See <a class="internal-link" target="" data-note-icon="📝" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>)</li>
 </ul>
 </li>
 </ul>
@@ -445,7 +445,7 @@ This is an example of who the spaces and sub-spaces in our Element space looks l
 </p><ul>
 <li>First, while we assert there is no such thing as dumb questions, there is such a thing as a <em>lazy question</em>. That is, when you are told to &quot;do <code>x</code>&quot; by person <code>A</code>, and then you go to person <code>B</code> and as &quot;hey, how do I do <code>x</code>?&quot; This might be seen as a lazy question, and not so cool to do it often. A good question should indicate that you have put some effort into the matter yourself, and are now seeking validation of your progress.</li>
 <li>Avoid <a href="https://xyproblem.info/" target="_blank" class="external-link">the xy problem</a>.</li>
-<li>See <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.</li>
+<li>See <a class="internal-link" target="" data-note-icon="📝" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>. In short, once you have asked a question, and have received your answer, think about how you can make this knowledge accessible to more people, and for a long time.</li>
 </ul>
 <p></p></div></div>
 <h2 id="contributing" tabindex="-1">🧑‍💻 Contributing</h2>
@@ -478,7 +478,7 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 </div></div>
 <h3 id="after-merging" tabindex="-1">🔙 After Merging</h3>
 <p>Well, your PR is finally merged. Are we done? More often than not, no.</p>
-<p>Yet again, a lot of this goes back to the dual realities (<a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do">💊 The Reality of What We Do</a>) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:</p>
+<p>Yet again, a lot of this goes back to the dual realities (<a class="internal-link" target="" data-note-icon="📝" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do">💊 The Reality of What We Do</a>) of our team: Flying low and flying close to end users. This implies that, before kissing and saying goodbye to a merged PR, you need to reflect on the following:</p>
 <ol>
 <li><strong>Test-network Runtime Upgrade</strong>: Fairly soon after your PR is merged, it will be enacted on our test-networks, most notably Westend. This is your best opportunity to do your final round of (live) testing. Ask yourself: Is everything alright in Westend? How can I test my feature further?</li>
 <li><strong>RC/SC Runtime Upgrade</strong>: Days, weeks or months after your PR is merged, it might finally land in the RC or one of the SCs<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>. This is another milestone for testing: Did everything go smoothly? The release process of RC runtimes, and their enactment, is fully public and managed by the Polkadot fellowship, so you can easily tag along.</li>
@@ -498,7 +498,7 @@ Be sure to read <a href="https://paritytech.github.io/polkadot-sdk/master/polkad
 </li>
 </ol>
 <h3 id="know-your-api" tabindex="-1">🧐 Know Your API</h3>
-<p>As a final example to cement <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do">💊 The Reality of What We Do</a>, let's consider the difference between two features, in order to highlight how important it is for you to be able to answer one question:</p>
+<p>As a final example to cement <a class="internal-link" target="" data-note-icon="📝" href="/posts/runtime-function-onboarding-2024/#the-reality-of-what-we-do">💊 The Reality of What We Do</a>, let's consider the difference between two features, in order to highlight how important it is for you to be able to answer one question:</p>
 <blockquote>
 <p>Is my code end-user-facing or not?</p>
 </blockquote>
@@ -583,7 +583,7 @@ A <a href="https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/vie
 <h3 id="stability-over-chaos" tabindex="-1">Stability Over Chaos</h3>
 <p>A theme in Polkadot in 2024 has been <a href="https://forum.polkadot.network/t/stabilizing-polkadot/7175/19?u=xlc" target="_blank" class="external-link">Stability</a>. We used to say: &quot;<em>We write code faster than we can write about it</em>&quot;. Parity has always been a company known for <em>engineering excellence</em>, at the cost of lots of breaking changes. This all used to be cool, but not anymore. The best number of lines of new code to deliver a new feature is 0. The simpler, less-breaking a solution, the more elegant it is.</p>
 <h3 id="information-de-centralization-and-longevity" tabindex="-1">Information (de)Centralization and Longevity</h3>
-<p>As noted in <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#dumb-questions">🤪 Dumb Questions</a>, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of <strong>information centralization</strong>. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.</p>
+<p>As noted in <a class="internal-link" target="" data-note-icon="📝" href="/posts/runtime-function-onboarding-2024/#dumb-questions">🤪 Dumb Questions</a>, we acknowledge that there is a lot to be learned for all of us in this space. The underlying issue is that there is a lot of <strong>information centralization</strong>. Veterans in the space know a lot of things, yet the path for new joiners to learn the same is unclear and bumpy, and the constant evolvement of the space does not help.</p>
 <p><em><strong>The rule is: Once you have learned something, think about how you can make sure it is accessible to more people, and for a long time.</strong></em></p>
 <p>The best example of this is something that I personally do: Policing people to move good conversations and Q&amp;As from a small Element room to more permanent places. Every time I see a good technical question asked in our Element:</p>
 <ol>
@@ -595,7 +595,7 @@ A <a href="https://drive.google.com/file/d/1owfjrBve9nLPy6TwZyA4qygDCwEwxlgY/vie
 <div class="callout-content">
 <p>
 In H12024, Liam was working on the release process. There entirety of the acceleration department had constant questions about the status of this work, and how it would affect them.<br>
-Keeping an eye on chats and answering question promptly would have been a responsible thing to do by Liam, but he even went a step further and recorded a quick Loom + FAQ and posted it in the forum. This ensures a lot of questions are answered all at once + it is not list in the history of some chat. This is a great example of working towards <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>.</p>
+Keeping an eye on chats and answering question promptly would have been a responsible thing to do by Liam, but he even went a step further and recorded a quick Loom + FAQ and posted it in the forum. This ensures a lot of questions are answered all at once + it is not list in the history of some chat. This is a great example of working towards <a class="internal-link" target="" data-note-icon="📝" href="/posts/runtime-function-onboarding-2024/#information-de-centralization-and-longevity">Information (de)Centralization and Longevity</a>.</p>
 </div></div>
 <h3 id="domain-ownership" tabindex="-1">Domain Ownership</h3>
 <p>Take radical and proactive ownership of what you have built, and be proud of it. We highly encourage engineers to grow a vision for what they are working on, and influence its future. This gives you a high degree of freedom to not only have a say on <em>how</em> some feature is implemented, but also <em>which</em> features are worthwhile.</p>
@@ -621,7 +621,7 @@ Of course this attitude of wanting a higher level of ownership and responsibilit
 <h3 id="don-t-be-blocked-on-decisions" tabindex="-1">Don't Be Blocked On Decisions</h3>
 <p>Sometimes it is hard to come up with an answer to an decision. Unless if it is a very irreversible one, you can do the following: Share what you think is the best approach, and if after <code>x</code> weeks no objections comes, you execute.</p>
 <h3 id="measuring-impact" tabindex="-1">Measuring Impact</h3>
-<p>The impact of what we do, specifically for end-user facing work (as defined in <a class="internal-link" target="" data-note-icon="" href="/posts/runtime-function-onboarding-2024/#know-your-api">🧐 Know Your API</a>), is NOT how many PRs we manage can merge into <code>polkadot-sdk</code>, but rather how much our code is being user by end-users or developers.</p>
+<p>The impact of what we do, specifically for end-user facing work (as defined in <a class="internal-link" target="" data-note-icon="📝" href="/posts/runtime-function-onboarding-2024/#know-your-api">🧐 Know Your API</a>), is NOT how many PRs we manage can merge into <code>polkadot-sdk</code>, but rather how much our code is being user by end-users or developers.</p>
 <h3 id="liveness-above-all" tabindex="-1">Liveness Above All</h3>
 <p>Parity is a collective contributing to Polkadot. Most of us are part of other collectives that contribute to Polkadot in other ways, such as ChaosDAO or the Polkadot fellowship.</p>
 <p><strong>Making Polkadot successful is, one way or another, our main mission</strong>. Therefore, important bugs and existential issues that might arise should never be discarded as &quot;it is not the task I am working on, so not my problem&quot;. If something important comes up that is possibly an existential threat to Polkadot, it is everyone's first priority.</p>
@@ -643,7 +643,7 @@ Historically, we have also sacrifices a lot of UX for resilience. We do wish to 
 <li><a href="https://github.com/Polkadot-Blockchain-Academy/pba-content" target="_blank" class="external-link">slides</a></li>
 </ul>
 </li>
-<li><a class="internal-link" target="" data-note-icon="" href="/posts/tech/polkadot-s-build-horizon/">Polkadot's Build Horizon</a>: Contains some up-to-date learning resources</li>
+<li><a class="internal-link" target="" data-note-icon="📝" href="/posts/tech/polkadot-s-build-horizon/">Polkadot's Build Horizon</a>: Contains some up-to-date learning resources</li>
 </ul>
 <h2 id="wrapping-up" tabindex="-1">Wrapping Up</h2>
 <p>Okay, this was long! thank you for reading! for any feedback, reach out to @kianenigma.</p>
