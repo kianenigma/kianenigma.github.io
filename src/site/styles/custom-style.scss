@@ -23,6 +23,10 @@ img[alt*="center"] {
 	max-height: 100% !important;
 }
 
+.filetree-sidebar {
+	width: 300px;
+}
+
 body {
 	// not sure why have to override this, something in theme broken?
 	::selection {
