@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-28T15:37:33.843+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-28T15:39:26.497+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 ## 📝 About 
 
-- 📸 Personal Gallery: [[Gallery\|Gallery]]
+- 📸 Personal [[Gallery\|Gallery]].
 - 🎧 [[Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
 - 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive)
 - 🦀 Rust Developer [@paritytech](https://twitter.com/ParityTech/). 
@@ -27,8 +27,8 @@
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024   |
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024    |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024  |
+| [[Gallery\|Gallery]]                                                                                | 4:43 PM - March 30, 2024  |
 | [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 10:33 AM - March 24, 2024 |
-| [[Posts/Personal/The Price of Change\|The Price of Change]]                                         | 9:30 PM - March 23, 2024  |
 
 { .block-language-dataview}
 
