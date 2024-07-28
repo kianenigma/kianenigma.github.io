@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-28T14:20:05Z</updated>
+    <updated>2024-07-28T14:20:51Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -667,7 +667,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting polkadot-sdk
                 
             </title>
-            <updated>2024-07-26T12:22:45.420Z</updated>
+            <updated>2024-07-26T13:47:51.105Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what I and a handful of others can reasonably solve.&lt;/p&gt;
