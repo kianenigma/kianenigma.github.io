@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-28T14:38:11Z</updated>
+    <updated>2024-07-28T14:40:18Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -163,64 +163,6 @@
 
             </content>
             <link href="https://blog.kianenigma.nl//talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/" />
-        </entry>
-        <entry>
-            <title>
-                Index
-                
-            </title>
-            <updated>2024-07-26T09:46:38.272Z</updated>
-            <id>https://blog.kianenigma.nl//talks/index/</id>
-            <content type="html">
-                &lt;table class=&quot;block-language-dataview&quot;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;File&lt;/th&gt;
-&lt;th&gt;Created At&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/blockchain-reimagined/&quot;&gt;Blockchain Reimagined&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;4:35 PM - July 12, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/polkadot-blockchain-academy/pba-4-hong-kong/&quot;&gt;PBA4 Hong Kong&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;5:30 PM - June 27, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/persian-polkadot-seminar-for-rust-iran-community/&quot;&gt;(Persian) Polkadot Seminar for Rust-Iran Community&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:05 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt; Polkadot Decoded &lt;a href=&quot;http://2022.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;2022.md&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt; Parity and &lt;a href=&quot;http://friends.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Friends.md&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt; Sub0 &lt;a href=&quot;http://online.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Online.md&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt; Substrate &lt;a href=&quot;http://seminar.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Seminar.md&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt; Substrate &lt;a href=&quot;http://seminar.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Seminar.md&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/persian-random-rust-video-tutorials/&quot;&gt;(Persian) Random Rust Video Tutorials&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:02 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.nl//talks/index/" />
         </entry>
         <entry>
             <title>
@@ -1943,92 +1885,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
         </entry>
         <entry>
             <title>
-                Index
-                
-            </title>
-            <updated>2024-07-26T09:47:31.320Z</updated>
-            <id>https://blog.kianenigma.nl//posts/index/</id>
-            <content type="html">
-                &lt;h2 id=&quot;tech&quot; tabindex=&quot;-1&quot;&gt;Tech&lt;/h2&gt;
-&lt;table class=&quot;block-language-dataview&quot;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;File&lt;/th&gt;
-&lt;th&gt;Created At&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/on-documenting-polkadot-sdk/&quot;&gt;On Documenting polkadot-sdk&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;10:48 AM - July 10, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/&quot;&gt;Demystifying JAM&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:38 PM - May 02, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot&#39;s Build Horizon&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1:10 PM - March 16, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/thoughts-blockchain-and-blockspace-scalability/&quot;&gt;Thoughts Blockchain and Blockspace Scalability&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1:37 PM - February 27, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rul-them-all/&quot;&gt;For Those Who Don&#39;t Want rust-analyzer: One Regex to rul them all&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:47 PM - August 31, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/the-10x-developer-myth-all-about-keyboard/&quot;&gt;The 10x Developer Myth: All About Keyboard&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:41 PM - August 31, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&quot;personal&quot; tabindex=&quot;-1&quot;&gt;Personal&lt;/h2&gt;
-&lt;table class=&quot;block-language-dataview&quot;&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;File&lt;/th&gt;
-&lt;th&gt;Created At&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/uneducated-unaffiliated-disinterested/&quot;&gt;Uneducated, Unaffiliated, Disinterested&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;4:45 PM - March 30, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/meta-cognition-framework/&quot;&gt;Meta Cognition Framework&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;10:33 AM - March 24, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/the-price-of-change/&quot;&gt;The Price of Change&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;9:30 PM - March 23, 2024&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/&quot;&gt;My Thoughts On Iran&#39;s Political Situation in 2022&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;8:23 AM - December 27, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/amsterdam-bunker-talks-experience-1/&quot;&gt;Amsterdam BunkerTalks Experience 1&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1:51 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/an-open-letter-to-panic-buyers/&quot;&gt;An Open Letter to Panic Buyers&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1:48 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/an-open-letter-to-javad-zarif/&quot;&gt;An Open Letter to Javad Zarif&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1:47 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.nl//posts/index/" />
-        </entry>
-        <entry>
-            <title>
                 Playlists
                 
             </title>
@@ -2102,13 +1958,13 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-07-28T14:37:33.843Z</updated>
+            <updated>2024-07-28T14:39:26.497Z</updated>
             <id>https://blog.kianenigma.nl//</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;about&quot; tabindex=&quot;-1&quot;&gt;📝 About&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;📸 Personal Gallery: &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📸 Personal &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/gallery/&quot;&gt;Gallery&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;🎧 &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/playlist/&quot;&gt;Playlists&lt;/a&gt; - &lt;a href=&quot;https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Spotify&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;🐙 &lt;a href=&quot;https://github.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Twitter&lt;/a&gt;  | &lt;a href=&quot;https://www.linkedin.com/in/kian-paimani-a3618022b/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Linkedin&lt;/a&gt; (inactive)&lt;/li&gt;
 &lt;li&gt;🦀 Rust Developer &lt;a href=&quot;https://twitter.com/ParityTech/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;@paritytech&lt;/a&gt;.&lt;/li&gt;
@@ -2167,12 +2023,12 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;td&gt;4:45 PM - March 30, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/meta-cognition-framework/&quot;&gt;Meta Cognition Framework&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;10:33 AM - March 24, 2024&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;4:43 PM - March 30, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/the-price-of-change/&quot;&gt;The Price of Change&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;9:30 PM - March 23, 2024&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/meta-cognition-framework/&quot;&gt;Meta Cognition Framework&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10:33 AM - March 24, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2195,7 +2051,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Gallery
                 
             </title>
-            <updated>2024-07-26T09:45:58.988Z</updated>
+            <updated>2024-07-28T14:39:33.390Z</updated>
             <id>https://blog.kianenigma.nl//gallery/</id>
             <content type="html">
                 &lt;blockquote&gt;
