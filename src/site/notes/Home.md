@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-28T16:10:57.444+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-07-30T12:04:48.937+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -18,18 +18,13 @@
 - Made with [💎 Obsidian-Digital-Garden](https://github.com/oleeskild/Obsidian-Digital-Garden)
 ## 📣 Latest Post 
 
-| File                                                                                                   | Created At                |
-| ------------------------------------------------------------------------------------------------------ | ------------------------- |
-| [[Sa'di\|Sa'di]]                                                                                    | 10:44 AM - July 26, 2024  |
-| [[Posts/Posts Index\|Posts Index]]                                                                  | 10:35 AM - July 26, 2024  |
-| [[Talks/Talks Index\|Talks Index]]                                                                  | 10:34 AM - July 26, 2024  |
-| [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                              | 4:35 PM - July 12, 2024   |
-| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                             | 10:48 AM - July 10, 2024  |
-| [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024   |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024    |
-| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024  |
-| [[Gallery\|Gallery]]                                                                                | 4:43 PM - March 30, 2024  |
-| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 10:33 AM - March 24, 2024 |
+| File                                                                                                   | Created At               | Tags                                     |
+| ------------------------------------------------------------------------------------------------------ | ------------------------ | ---------------------------------------- |
+| [[Talks/Blockchain Reimagined\|Blockchain Reimagined]]                                              | 4:35 PM - July 12, 2024  | <ul></ul>                                |
+| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                             | 10:48 AM - July 10, 2024 | <ul></ul>                                |
+| [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024  | <ul></ul>                                |
+| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024   | <ul><li>#polkadot</li><li>#jam</li></ul> |
+| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024 | <ul></ul>                                |
 
 { .block-language-dataview}
 
