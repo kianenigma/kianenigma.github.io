@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-07-30T11:08:28Z</updated>
+    <updated>2024-08-01T09:29:07Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -671,7 +671,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
                 On Documenting polkadot-sdk
                 
             </title>
-            <updated>2024-07-30T11:07:04.261Z</updated>
+            <updated>2024-08-01T09:28:35.733Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/</id>
             <content type="html">
                 &lt;p&gt;I have been trying to improve &lt;code&gt;polkadot-sdk&lt;/code&gt;&#39;s documentation for more than a year now. It has been a difficult journey, and admittedly beyond what I and a handful of others can reasonably solve.&lt;/p&gt;
@@ -738,7 +738,7 @@ bâzârche-ye ģasab foruushân degar ast&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;the-future&quot; tabindex=&quot;-1&quot;&gt;The Future&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;there are still a number of core topics around &lt;code&gt;polkadot-sdk&lt;/code&gt; for which I am personally not content with the degree of documentation, and I intend to provide those as soon as I can:
+&lt;li&gt;there are still a number of core topics around &lt;code&gt;polkadot-sdk&lt;/code&gt; for which I am personally not content with the degree of written documentation, and I intend to provide those as soon as I can:
 &lt;ul class=&quot;task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; How accounts are stored and behave in &lt;code&gt;frame-system&lt;/code&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; Benchmarking and Weights&lt;/label&gt;&lt;/li&gt;
