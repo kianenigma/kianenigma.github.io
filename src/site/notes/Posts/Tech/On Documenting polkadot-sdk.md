@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","tags":["polkadot","polkadot-sdk"],"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-07-30T12:07:04.261+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","tags":["polkadot","polkadot-sdk"],"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-08-01T10:28:35.733+01:00"}
 ---
 
 
@@ -60,7 +60,7 @@ With this hypothesis, I believe there are two tools future educators can use to 
 2. [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|Recordings from the Polkadot Blockchain Academy]]. I hope to see the latest Singapore edition be out soon (as the XCM module has undergone significant changes), but for now the Hong Kong recordings are an excellent resource.
 ### The Future 
 
-- there are still a number of core topics around `polkadot-sdk` for which I am personally not content with the degree of documentation, and I intend to provide those as soon as I can: 
+- there are still a number of core topics around `polkadot-sdk` for which I am personally not content with the degree of written documentation, and I intend to provide those as soon as I can: 
 	- [ ] How accounts are stored and behave in `frame-system` 
 	- [ ] Benchmarking and Weights 
 	- [ ] Fees: Why they exist, under which conditions one can be exempted, and what tools FRAME provides for this. This should include the new `feeless_if` macro, and incorporate new personhood ideas presented by Gavin in Polkadot Decoded 2024[^3].
