@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","tags":["polkadot","polkadot-sdk"],"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-08-01T10:28:35.733+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","tags":["polkadot","polkadot-sdk"],"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-08-05T09:43:52.793+01:00"}
 ---
 
 
@@ -73,7 +73,7 @@ This is how I think teams applying for funding regarding documentation will be m
 
 * I wish to see more content created around the ***latest topics in Polkadot, rather than rehashing existing ones***. Of course, a large part of the old materials that we currently have are still relevant, but they should be carefully handpicked and vetted. The topics of the year that are exciting to me are:
 	* It is going to be all about **Agile-coretime** going forward, especially on-demand. A number of great tutorials should start with writing a pallet, adding it to a parachain-ready template, and end with acquiring one on-demand block on Paseo, and producing a block. [This guide](https://wiki.polkadot.network/docs/build-guides-template-basic) by Bader from Web3 Foundation is along these lines.
-	* Use of new developer tooling that simplify Developer Experience: [Tanssi](https://www.google.com/search?q=tanssi+network&oq=Tanssi+network&sourceid=chrome&ie=UTF-8), [PoP](https://pop.r0gue.io/), etc.[^5] 
+	* Use of new developer tooling that simplify Developer Experience: [Tanssi](https://www.google.com/search?q=tanssi+network&oq=Tanssi+network&sourceid=chrome&ie=UTF-8), [PoP](https://pop.r0gue.io/), [Chopsticks](https://github.com/AcalaNetwork/chopsticks), etc.[^5] 
 	* [OZ Templates](https://github.com/OpenZeppelin/polkadot-runtime-templates)
 	* [`OmniNode`](https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823)
 	* [Umbrella crates](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/umbrella_crate/index.html)
