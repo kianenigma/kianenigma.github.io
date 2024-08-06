@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/blockchain-reimagined/","created":"2024-07-12T16:35:17.118+01:00","updated":"2024-07-12T16:37:18.725+01:00"}
+{"dg-publish":true,"dg-permalink":"talks/blockchain-reimagined/","permalink":"/talks/blockchain-reimagined/","hide":true,"created":"2024-07-12T16:35:17.118+01:00","updated":"2024-08-06T11:15:59.648+01:00"}
 ---
 
 ![[Blockchain, Bitcoin, Polkadot, JAM_ Lisbon Hangout.pdf]]
