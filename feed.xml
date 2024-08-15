@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-08-09T10:43:04Z</updated>
+    <updated>2024-08-15T11:17:47Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -1960,7 +1960,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-07-30T11:04:48.937Z</updated>
+            <updated>2024-08-15T11:17:18.750Z</updated>
             <id>https://blog.kianenigma.nl//</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
@@ -1969,7 +1969,11 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;li&gt;📸 Personal &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/gallery/&quot;&gt;Gallery&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;🎧 &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/playlist/&quot;&gt;Playlists&lt;/a&gt; - &lt;a href=&quot;https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Spotify&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;🐙 &lt;a href=&quot;https://github.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Twitter&lt;/a&gt;  | &lt;a href=&quot;https://www.linkedin.com/in/kian-paimani-a3618022b/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Linkedin&lt;/a&gt; (inactive)&lt;/li&gt;
-&lt;li&gt;🦀 Rust Developer &lt;a href=&quot;https://twitter.com/ParityTech/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;@paritytech&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;🦀 Rust Developer &lt;a href=&quot;https://twitter.com/ParityTech/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;@paritytech&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;Matrix: &lt;code&gt;@kianenigma:parity.io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;📚 Parallel and Distributed Systems Msc. graduate from &lt;a href=&quot;https://twitter.com/VUamsterdam&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Vrije Universiteit Amsterdam&lt;/a&gt;.
 &lt;ul&gt;
 &lt;li&gt;Thesis: &lt;a href=&quot;https://github.com/kianenigma/SonicChain?tab=readme-ov-file&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;GitHub - kianenigma/SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes 🚀.&lt;/a&gt;&lt;/li&gt;
@@ -1995,11 +1999,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/blockchain-reimagined/&quot;&gt;Blockchain Reimagined&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;4:35 PM - July 12, 2024&lt;/td&gt;
-&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/on-documenting-polkadot-sdk/&quot;&gt;On Documenting polkadot-sdk&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;10:48 AM - July 10, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#polkadot&quot;&gt;#polkadot&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#polkadot-sdk&quot;&gt;#polkadot-sdk&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
@@ -2017,6 +2016,11 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/uneducated-unaffiliated-disinterested/&quot;&gt;Uneducated, Unaffiliated, Disinterested&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;4:45 PM - March 30, 2024&lt;/td&gt;
+&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/posts/personal/meta-cognition-framework/&quot;&gt;Meta Cognition Framework&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10:33 AM - March 24, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
