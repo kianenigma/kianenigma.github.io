@@ -8,6 +8,10 @@
 
 body {
 	font-family: "PT Serif"!important;
+	--note-icon-fallback: "" !important;
+	--note-icon-1: "" !important;
+	--note-icon-2: "" !important;
+	--note-icon-3: "" !important;
 }
 
 // img[alt*="center"] {
@@ -30,11 +34,4 @@ body {
 
 // .filetree-sidebar {
 // 	width: 300px;
-// }
-
-// body {
-// 	// not sure why have to override this, something in theme broken?
-// 	::selection {
-// 		background: hsla(254, 80%, 60%, 20%) !important
-// 	}
 // }
