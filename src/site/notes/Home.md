@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T11:35:09.000+01:00","updated":"2024-08-21T22:15:13.326+02:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T11:35:09.000+01:00","updated":"2024-08-21T22:27:19.981+02:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -18,11 +18,8 @@
 - Made with [💎 Obsidian-Digital-Garden](https://github.com/oleeskild/Obsidian-Digital-Garden)
 
 ## Keeping Up 
-
 - [RSS Feed](./feed.xml)
-- 
 ## 📣 Latest Post 
-
 | File                                                                                                   | Created At               | Tags                                              |
 | ------------------------------------------------------------------------------------------------------ | ------------------------ | ------------------------------------------------- |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                              | 10:44 AM - July 26, 2024 | <ul></ul>                                         |
