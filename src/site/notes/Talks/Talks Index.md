@@ -1,11 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T11:34:59.884+02:00","updated":"2024-07-26T11:46:38.272+02:00"}
+{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T11:34:59.884+02:00","updated":"2024-08-21T22:08:28.387+02:00"}
 ---
 
 
 | File                                                                                      | Created At                |
 | ----------------------------------------------------------------------------------------- | ------------------------- |
-| [[Talks/Talks Index\|Talks Index]]                                                     | 10:34 AM - July 26, 2024  |
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                   | 5:30 PM - June 27, 2024   |
 | [[Talks/(Persian) Introduction to Polkadot\|(Persian) Introduction to Polkadot]]       | 2:05 PM - August 28, 2023 |
 | [[Talks/Nomination Pools\|Nomination Pools]]                                           | 3:03 PM - August 28, 2023 |

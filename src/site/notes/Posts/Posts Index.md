@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T11:35:08.540+02:00","updated":"2024-07-26T11:47:31.320+02:00"}
+{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T11:35:08.540+02:00","updated":"2024-08-21T22:08:52.471+02:00"}
 ---
 
 ## Tech 
@@ -21,6 +21,7 @@
 | -------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                  | 10:44 AM - July 26, 2024    |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                     | 4:45 PM - March 30, 2024    |
+| [[Posts/Personal/Gallery\|Gallery]]                                                                                     | 4:43 PM - March 30, 2024    |
 | [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                                                   | 10:33 AM - March 24, 2024   |
 | [[Posts/Personal/The Price of Change\|The Price of Change]]                                                             | 9:30 PM - March 23, 2024    |
 | [[Posts/Personal/Playlists\|Playlists]]                                                                                 | 1:10 PM - March 16, 2024    |
