@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-08-21T12:54:29Z</updated>
+    <updated>2024-08-21T12:54:51Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -83,19 +83,6 @@
         </entry>
         <entry>
             <title>
-                Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends
-                
-            </title>
-            <updated>2023-08-28T13:03:35.281Z</updated>
-            <id>https://blog.kianenigma.nl//talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/</id>
-            <content type="html">
-                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OZpQ2FouDOU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.nl//talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/" />
-        </entry>
-        <entry>
-            <title>
                 Polkadot&#39;s Nominated Proof of Stake
                 
             </title>
@@ -169,45 +156,6 @@
         </entry>
         <entry>
             <title>
-                Phragmen and The NPoS Problem | Sub0 Online
-                
-            </title>
-            <updated>2023-08-28T13:03:26.846Z</updated>
-            <id>https://blog.kianenigma.nl//talks/phragmen-and-the-n-po-s-problem-sub0-online/</id>
-            <content type="html">
-                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H9OvpAOebTs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.nl//talks/phragmen-and-the-n-po-s-problem-sub0-online/" />
-        </entry>
-        <entry>
-            <title>
-                Phragmen Overview | Substrate Seminar
-                
-            </title>
-            <updated>2023-08-28T13:03:15.168Z</updated>
-            <id>https://blog.kianenigma.nl//talks/phragmen-overview-substrate-seminar/</id>
-            <content type="html">
-                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MjOvVhc1oXw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.nl//talks/phragmen-overview-substrate-seminar/" />
-        </entry>
-        <entry>
-            <title>
-                Offline Phragmen Tool and Substrate Debug Kit | Substrate Seminar
-                
-            </title>
-            <updated>2023-08-28T13:03:03.765Z</updated>
-            <id>https://blog.kianenigma.nl//talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/</id>
-            <content type="html">
-                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6omrrY11HEg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.nl//talks/offline-phragmen-tool-and-substrate-debug-kit-substrate-seminar/" />
-        </entry>
-        <entry>
-            <title>
                 Nomination Pools
                 
             </title>
@@ -219,19 +167,6 @@
 
             </content>
             <link href="https://blog.kianenigma.nl//talks/nomination-pools/" />
-        </entry>
-        <entry>
-            <title>
-                Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022
-                
-            </title>
-            <updated>2023-08-28T13:03:43.640Z</updated>
-            <id>https://blog.kianenigma.nl//talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/</id>
-            <content type="html">
-                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_wjAYivFQBU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.nl//talks/nomination-pools-and-the-story-of-the-polkadot-s-n-po-s-polkadot-decoded-2022/" />
         </entry>
         <entry>
             <title>
