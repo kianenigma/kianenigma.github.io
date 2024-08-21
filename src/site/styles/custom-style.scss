@@ -8,10 +8,10 @@
 
 body {
 	font-family: "PT Serif"!important;
-	--note-icon-fallback: "" !important;
-	--note-icon-1: "" !important;
-	--note-icon-2: "" !important;
-	--note-icon-3: "" !important;
+}
+
+body .notelink.active-note {
+	font-weight: bold;
 }
 
 // img[alt*="center"] {
