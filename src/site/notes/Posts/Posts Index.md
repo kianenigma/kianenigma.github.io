@@ -19,9 +19,12 @@
 
 | File                                                                                                                       | Created At                  |
 | -------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                  | 10:44 AM - July 26, 2024    |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                     | 4:45 PM - March 30, 2024    |
 | [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                                                   | 10:33 AM - March 24, 2024   |
 | [[Posts/Personal/The Price of Change\|The Price of Change]]                                                             | 9:30 PM - March 23, 2024    |
+| [[Posts/Personal/Playlists\|Playlists]]                                                                                 | 1:10 PM - March 16, 2024    |
+| [[Posts/Personal/Poetry/Rumi\|Rumi]]                                                                                    | 2:43 PM - March 10, 2024    |
 | [[Posts/Personal/My Thoughts On Iran's Political Situation in 2022\|My Thoughts On Iran's Political Situation in 2022]] | 8:23 AM - December 27, 2023 |
 | [[Posts/Personal/Amsterdam BunkerTalks Experience 1\|Amsterdam BunkerTalks Experience 1]]                               | 1:51 PM - August 28, 2023   |
 | [[Posts/Personal/An Open Letter to Panic Buyers\|An Open Letter to Panic Buyers]]                                       | 1:48 PM - August 28, 2023   |
