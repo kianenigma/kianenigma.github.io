@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T11:35:09.000+01:00","updated":"2024-08-21T19:22:12.269+02:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T11:35:09.000+01:00","updated":"2024-08-21T22:15:07.683+02:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -16,6 +16,10 @@
 - 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive)
 - 📸 Personal [[Posts/Personal/Gallery\|Gallery]].
 - Made with [💎 Obsidian-Digital-Garden](https://github.com/oleeskild/Obsidian-Digital-Garden)
+
+## Keeping Up 
+
+- [RSS Feed](./feed.xml)
 ## 📣 Latest Post 
 
 | File                                                                                                   | Created At               | Tags                                              |
