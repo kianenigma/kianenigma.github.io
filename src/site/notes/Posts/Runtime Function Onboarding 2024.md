@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-07-19T11:42:49.574+01:00"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T11:46:17.880+02:00","updated":"2024-08-07T13:53:53.223+02:00"}
 ---
 
 > [!info]- Collaboration 
@@ -108,7 +108,7 @@ Let’s take a moment and introduce you to a non-exhaustive list of great things
 > * Consider using alternative Matrix clients, if it fits you better. 
 > * Element supports a very simple to set up **RSS feed**, which can be useful to keep up with things. 
 > * **Custom keyword notifications** in Element/Matrix are very useful to keep you up to date with certain topics that you feel responsible for. 
-> * More in the devops wiki. Ask questions in Element/Devops Helpdesk if need be. 
+> * More in the [devops wiki](https://github.com/paritytech/product-engineering/tree/main/docs). Ask questions in Element/Devops Helpdesk if need be. 
 > * [Doc](https://docs.google.com/document/d/1WTLx1k46g0WeB6Afp02XS682SUFbqJUVp4bKhXksYFo/edit#heading=h.v9anig8niu5f) for our last round of element revamp.
 
 Why do we use element to begin with? 
@@ -190,7 +190,7 @@ Yet again, a lot of this goes back to the dual realities ([[Posts/Runtime Functi
     2. Are any new documentation pages needed? (easier to forget:) Are any of the *existing ones outdated now*? Maybe one of the most visited StackExchange questions needs being updated? 
     3. Was your PR description good for downstream teams to be able to adopt the feature?
 4. **Monitoring and Data**
-	* [Devops Wiki](https://github.com/paritytech/devops/wiki): A lot of great resources about our infra, and how to do monitoring of parity run nodes, validators, logs, and more! 
+	* [Devops Wiki](https://github.com/paritytech/product-engineering/tree/main/docs/devops) A lot of great resources about our infra, and how to do monitoring of parity run nodes, validators, logs, and more! 
 	* [DotLake](https://x.com/dotlake_xyz) (public)
 	* [Metabase](https://metabase.data.paritytech.io/) (private)
 

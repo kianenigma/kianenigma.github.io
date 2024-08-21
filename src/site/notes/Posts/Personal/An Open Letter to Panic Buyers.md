@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/an-open-letter-to-panic-buyers/","created":"2023-08-28T13:48:00.000+01:00","updated":"2023-08-28T13:48:00.631+01:00"}
+{"dg-publish":true,"permalink":"/posts/personal/an-open-letter-to-panic-buyers/","created":"2023-08-28T14:48:00.000+02:00","updated":"2023-08-28T14:48:00.631+02:00"}
 ---
 
 

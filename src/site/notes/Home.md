@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-08-15T12:17:18.750+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T11:35:09.000+01:00","updated":"2024-08-21T13:54:11.706+02:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -8,7 +8,7 @@
 - 📸 Personal [[Gallery\|Gallery]].
 - 🎧 [[Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
 - 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive)
-- 🦀 Rust Developer [@paritytech](https://twitter.com/ParityTech/). 
+- 🦀 Rust Developer [@paritytech](https://twitter.com/ParityTech/).           
 	- Matrix: `@kianenigma:parity.io`
 - 📚 Parallel and Distributed Systems Msc. graduate from [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam).
 	- Thesis: [GitHub - kianenigma/SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes 🚀.](https://github.com/kianenigma/SonicChain?tab=readme-ov-file)
@@ -23,7 +23,7 @@
 | ------------------------------------------------------------------------------------------------------ | ------------------------- | ------------------------------------------------- |
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                             | 10:48 AM - July 10, 2024  | <ul><li>#polkadot</li><li>#polkadot-sdk</li></ul> |
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024   | <ul></ul>                                         |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024    | <ul><li>#polkadot</li><li>#jam</li></ul>          |
+| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 3:38 PM - May 02, 2024    | <ul><li>#polkadot</li><li>#jam</li></ul>          |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024  | <ul></ul>                                         |
 | [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                               | 10:33 AM - March 24, 2024 | <ul></ul>                                         |
 
