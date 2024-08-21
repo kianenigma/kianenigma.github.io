@@ -14,7 +14,7 @@
 - 🤖 Often found online with the name `@kianenigma`.
 - 🎧 [[Posts/Personal/Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
 - 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive)
-- 📸 Personal [[Gallery\|Gallery]].
+- 📸 Personal [[Posts/Personal/Gallery\|Gallery]].
 - Made with [💎 Obsidian-Digital-Garden](https://github.com/oleeskild/Obsidian-Digital-Garden)
 ## 📣 Latest Post 
 
