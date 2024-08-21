@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-08-21T12:48:29Z</updated>
+    <updated>2024-08-21T12:54:29Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -26,7 +26,7 @@
 &lt;td&gt;10:34 AM - July 26, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/blockchain-reimagined/&quot;&gt;Blockchain Reimagined&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;Blockchain Reimagined&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;4:35 PM - July 12, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -34,7 +34,7 @@
 &lt;td&gt;5:30 PM - June 27, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/persian-polkadot-seminar-for-rust-iran-community/&quot;&gt;(Persian) Polkadot Seminar for Rust-Iran Community&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;(Persian) Polkadot Seminar for Rust-Iran Community&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2:05 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -69,6 +69,20 @@
         </entry>
         <entry>
             <title>
+                Substrate Debug Kit
+                
+            </title>
+            <updated>2024-08-21T12:45:40.466Z</updated>
+            <id>https://blog.kianenigma.nl//talks/substrate-debug-kit/</id>
+            <content type="html">
+                &lt;p&gt;Longer version of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/phragmen-overview/&quot;&gt;Phragmén Overview&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/phragmen-for-polkadot-s-n-po-s/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt; at Substrate Seminar.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6omrrY11HEg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//talks/substrate-debug-kit/" />
+        </entry>
+        <entry>
+            <title>
                 Polkadot&#39;s Nominated Proof of Stake: Past, Present, and the Future | Parity and Friends
                 
             </title>
@@ -79,6 +93,20 @@
 
             </content>
             <link href="https://blog.kianenigma.nl//talks/polkadot-s-nominated-proof-of-stake-past-present-and-the-future-parity-and-friends/" />
+        </entry>
+        <entry>
+            <title>
+                Polkadot&#39;s Nominated Proof of Stake
+                
+            </title>
+            <updated>2024-08-21T12:44:20.136Z</updated>
+            <id>https://blog.kianenigma.nl//talks/polkadot-s-nominated-proof-of-stake/</id>
+            <content type="html">
+                &lt;p&gt;..Past, Present, and the Future.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OZpQ2FouDOU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//talks/polkadot-s-nominated-proof-of-stake/" />
         </entry>
         <entry>
             <title>
@@ -111,6 +139,33 @@
 
             </content>
             <link href="https://blog.kianenigma.nl//talks/polkadot-blockchain-academy/pba-4-hong-kong/" />
+        </entry>
+        <entry>
+            <title>
+                Phragmén for Polkadot&#39;s NPoS
+                
+            </title>
+            <updated>2024-08-21T12:44:38.309Z</updated>
+            <id>https://blog.kianenigma.nl//talks/phragmen-for-polkadot-s-n-po-s/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H9OvpAOebTs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//talks/phragmen-for-polkadot-s-n-po-s/" />
+        </entry>
+        <entry>
+            <title>
+                Phragmén Overview
+                
+            </title>
+            <updated>2024-08-21T12:45:15.927Z</updated>
+            <id>https://blog.kianenigma.nl//talks/phragmen-overview/</id>
+            <content type="html">
+                &lt;p&gt;Longer version of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;📝&quot; href=&quot;https://blog.kianenigma.nl/talks/phragmen-for-polkadot-s-n-po-s/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt; at Substrate Seminar.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MjOvVhc1oXw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//talks/phragmen-overview/" />
         </entry>
         <entry>
             <title>
@@ -153,6 +208,20 @@
         </entry>
         <entry>
             <title>
+                Nomination Pools
+                
+            </title>
+            <updated>2024-08-21T12:44:00.699Z</updated>
+            <id>https://blog.kianenigma.nl//talks/nomination-pools/</id>
+            <content type="html">
+                &lt;p&gt;..and The Story of The Polkadot&#39;s NPoS at Polkadot Decoded 2022&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_wjAYivFQBU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//talks/nomination-pools/" />
+        </entry>
+        <entry>
+            <title>
                 Nomination Pools and The Story of The Polkadot&#39;s NPoS | Polkadot Decoded 2022
                 
             </title>
@@ -169,13 +238,45 @@
                 Blockchain Reimagined
                 
             </title>
-            <updated>2024-08-09T10:42:35.244Z</updated>
+            <updated>2024-08-18T19:14:45.304Z</updated>
             <id>https://blog.kianenigma.nl//talks/blockchain-reimagined/</id>
             <content type="html">
                 &lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1UPmnISt8OH8CzgxbY2q9kX34rYP8Me-0qkLoiSXPyAQ/edit?usp=sharing&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Blockchain, Bitcoin, Polkadot, JAM: Lisbon Hangout - Google Slides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Blockchain, Bitcoin, Polkadot, JAM: Lisbon Hangout - Google Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;toc&quot; tabindex=&quot;-1&quot;&gt;TOC&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;Prelude&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Part 1: Blockchain Basics.
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;The Search for Authority&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;Verifiable Distributed Systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;Proof of Work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.nl/404&quot; target=&quot;&quot;&gt;Proof of Work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Conclusion:
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;Crypto economically secured systems&amp;quot;, as a way to establish trust.&lt;/li&gt;
+&lt;li&gt;Blockchain as a data structure is overrated, and is just an implementation detail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Part 2: Scaling Crypto Economic Systems&lt;/li&gt;
+&lt;li&gt;Part 3: Polkadot&lt;/li&gt;
+&lt;li&gt;Part 4: JAM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reading Checklis:&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; The guy who was into classical distributed systems and blockchains&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Publication Checklist:&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; Parity, Polkadot Twitter&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; Blockchain Newsletters, news outlets.&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; Share with book publishers that have already published anything about blockchain&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; Blockchain Podcasts, Any other influencer.&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
@@ -196,16 +297,16 @@
         </entry>
         <entry>
             <title>
-                (Persian) Polkadot Seminar for Rust-Iran Community
+                (Persian) Introduction to Polkadot
                 
             </title>
             <updated>2023-08-28T13:05:20.872Z</updated>
-            <id>https://blog.kianenigma.nl//talks/persian-polkadot-seminar-for-rust-iran-community/</id>
+            <id>https://blog.kianenigma.nl//talks/persian-introduction-to-polkadot/</id>
             <content type="html">
                 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f6k7TFyQUdM?si=zHgBXb1kNGFdlH1o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl//talks/persian-polkadot-seminar-for-rust-iran-community/" />
+            <link href="https://blog.kianenigma.nl//talks/persian-introduction-to-polkadot/" />
         </entry>
         <entry>
             <title>
