@@ -6,15 +6,20 @@
 	margin-right: auto;
 }
 
-img[alt*="center"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+body {
+	font-family: "PT Serif"!important;
 }
+
+// img[alt*="center"] {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
 
 .playlist iframe {
 	margin: 10px 0px
 }
+
 .playlist div iframe {
 	margin: 10px;
 }
@@ -23,13 +28,13 @@ img[alt*="center"] {
 	max-height: 100% !important;
 }
 
-.filetree-sidebar {
-	width: 300px;
-}
+// .filetree-sidebar {
+// 	width: 300px;
+// }
 
-body {
-	// not sure why have to override this, something in theme broken?
-	::selection {
-		background: hsla(254, 80%, 60%, 20%) !important
-	}
-}
+// body {
+// 	// not sure why have to override this, something in theme broken?
+// 	::selection {
+// 		background: hsla(254, 80%, 60%, 20%) !important
+// 	}
+// }
