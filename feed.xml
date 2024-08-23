@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-08-21T20:30:00Z</updated>
+    <updated>2024-08-23T15:47:50Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -714,7 +714,7 @@ useful. You can already see me use them in the previous gif. Highly recommended 
                 Demystifying JAM
                 
             </title>
-            <updated>2024-08-21T12:16:43.521Z</updated>
+            <updated>2024-08-23T15:44:13.853Z</updated>
             <id>https://blog.kianenigma.nl//posts/tech/demystifying-jam/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/jam-pen-polkadot.png&quot; alt=&quot;jam-pen-polkadot.png&quot; /&gt;&lt;/p&gt;
@@ -854,7 +854,7 @@ Polkadot 2, among other features, is unfolding as we speak, and not much further
 &lt;p&gt;This section describes &lt;code&gt;CorePlay&lt;/code&gt;, an experimental idea in the context of JAM, which can be described as a new model for programming smart contracts. CorePlay is, at the time of writing, un-specified&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn8&quot; id=&quot;fnref8&quot;&gt;[8]&lt;/a&gt;&lt;/sup&gt; and remain an idea.&lt;/p&gt;
 &lt;p&gt;To understand CorePlay, we need to first introduce JAM&#39;s virtual machine of choice, PVM&lt;/p&gt;
 &lt;h4 id=&quot;pvm&quot; tabindex=&quot;-1&quot;&gt;PVM&lt;/h4&gt;
-&lt;p&gt;An important detail of JAM and CorePlay is PVM. Low level details of PVM are beyond the scope of this article and are best described in the graypaper by the domain experts. Yet, for the sake of this article, we only have to elaborate on a few properties of PVM:&lt;/p&gt;
+&lt;p&gt;An important detail of JAM and CorePlay is &lt;a href=&quot;https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot Virtual Machine, PVM for short&lt;/a&gt;. Low level details of PVM are beyond the scope of this article and are best described in the graypaper by the domain experts. Yet, for the sake of this article, we only have to elaborate on a few properties of PVM:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Efficient metering&lt;/li&gt;
 &lt;li&gt;Ability to pause and resume execution&lt;/li&gt;
@@ -1364,7 +1364,7 @@ Historically, we have also sacrifices a lot of UX for resilience. We do wish to 
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/&quot;&gt;Demystifying JAM&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3:38 PM - May 02, 2024&lt;/td&gt;
+&lt;td&gt;2:38 PM - May 02, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot&#39;s Build Horizon&lt;/a&gt;&lt;/td&gt;
@@ -2037,7 +2037,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/posts/tech/demystifying-jam/&quot;&gt;Demystifying JAM&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3:38 PM - May 02, 2024&lt;/td&gt;
+&lt;td&gt;2:38 PM - May 02, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#polkadot&quot;&gt;#polkadot&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#jam&quot;&gt;#jam&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -2062,7 +2062,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Blockchain Reimagined
                 
             </title>
-            <updated>2024-08-21T20:29:13.575Z</updated>
+            <updated>2024-08-22T21:54:28.346Z</updated>
             <id>https://blog.kianenigma.nl//blockchain-reimagined/</id>
             <content type="html">
                 &lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
@@ -2091,7 +2091,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;li&gt;Part 3: Polkadot&lt;/li&gt;
 &lt;li&gt;Part 4: JAM&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Reading Checklis:&lt;/p&gt;
+&lt;p&gt;Reading Checklist:&lt;/p&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; The guy who was into classical distributed systems and blockchains&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
