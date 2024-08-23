@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/persian-introduction-to-polkadot/","created":"2023-08-28T15:05:20.000+02:00","updated":"2023-08-28T15:05:20.872+02:00"}
+{"dg-publish":true,"permalink":"/talks/persian-introduction-to-polkadot/","created":"2023-08-28T14:05:20.000+01:00","updated":"2023-08-28T14:05:20.872+01:00"}
 ---
 
 

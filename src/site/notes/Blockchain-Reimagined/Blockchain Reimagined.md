@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/","permalink":"/blockchain-reimagined/","hide":true,"created":"2024-07-12T17:35:17.118+02:00","updated":"2024-08-21T22:29:13.575+02:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/","permalink":"/blockchain-reimagined/","hide":true,"created":"2024-07-12T16:35:17.118+01:00","updated":"2024-08-22T22:54:28.346+01:00"}
 ---
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -21,7 +21,7 @@
 - Part 3: Polkadot 
 - Part 4: JAM 
 
-Reading Checklis: 
+Reading Checklist: 
 - [ ] The guy who was into classical distributed systems and blockchains
 
 Publication Checklist: 

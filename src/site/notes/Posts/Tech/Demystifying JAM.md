@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T15:38:56.000+02:00","updated":"2024-08-21T14:16:43.521+02:00"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-08-23T16:44:13.853+01:00"}
 ---
 
 ![jam-pen-polkadot.png](/img/user/resources/jam-pen-polkadot.png)
@@ -175,7 +175,7 @@ To understand CorePlay, we need to first introduce JAM's virtual machine of choi
 [^12]: The best written resource on CorePlay is [this](https://github.com/polkadot-fellows/RFCs/tree/gav-coreplay) draft RFC. 
 
 #### PVM 
-An important detail of JAM and CorePlay is PVM. Low level details of PVM are beyond the scope of this article and are best described in the graypaper by the domain experts. Yet, for the sake of this article, we only have to elaborate on a few properties of PVM:
+An important detail of JAM and CorePlay is [Polkadot Virtual Machine, PVM for short](https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811). Low level details of PVM are beyond the scope of this article and are best described in the graypaper by the domain experts. Yet, for the sake of this article, we only have to elaborate on a few properties of PVM:
 - Efficient metering
 - Ability to pause and resume execution
 
