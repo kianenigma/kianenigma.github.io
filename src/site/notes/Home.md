@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-08-24T13:29:03.490+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-08-26T14:26:01.208+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -19,6 +19,7 @@
 
 ## Keeping Up 
 - [RSS Feed](./feed.xml)
+- [Telegram Channel](https://t.me/+u0tGVT-QEyAyYWU0)
 ## 📣 Latest Post 
 | File                                                                                                   | Created At               | Tags                                              |
 | ------------------------------------------------------------------------------------------------------ | ------------------------ | ------------------------------------------------- |
