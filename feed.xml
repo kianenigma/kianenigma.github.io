@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-08-24T12:30:37Z</updated>
+    <updated>2024-08-26T13:31:01Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -26,19 +26,11 @@
 &lt;td&gt;5:30 PM - June 27, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/persian-introduction-to-polkadot/&quot;&gt;(Persian) Introduction to Polkadot&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:05 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/nomination-pools/&quot;&gt;Nomination Pools&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/polkadot-s-nominated-proof-of-stake/&quot;&gt;Polkadot&#39;s Nominated Proof of Stake&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/phragmen-for-polkadot-s-n-po-s/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -48,6 +40,14 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/substrate-debug-kit/&quot;&gt;Substrate Debug Kit&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/persian-introduction-to-polkadot/&quot;&gt;(Persian) Introduction to Polkadot&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2:05 PM - August 28, 2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/phragmen-for-polkadot-s-n-po-s/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/persian-random-rust-video-tutorials/&quot;&gt;(Persian) Random Rust Video Tutorials&lt;/a&gt;&lt;/td&gt;
@@ -1978,7 +1978,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-08-24T12:29:03.490Z</updated>
+            <updated>2024-08-26T13:26:01.208Z</updated>
             <id>https://blog.kianenigma.nl//</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
@@ -2009,6 +2009,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;h2 id=&quot;keeping-up&quot; tabindex=&quot;-1&quot;&gt;Keeping Up&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.kianenigma.nl/feed.xml&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;RSS Feed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://t.me/+u0tGVT-QEyAyYWU0&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Telegram Channel&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;latest-post&quot; tabindex=&quot;-1&quot;&gt;📣 Latest Post&lt;/h2&gt;
 &lt;table class=&quot;block-language-dataview&quot;&gt;
