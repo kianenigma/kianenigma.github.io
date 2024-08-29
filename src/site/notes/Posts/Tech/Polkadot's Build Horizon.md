@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/polkadot-s-build-horizon/","contentClasses":"build-map","tags":["polkadot"],"created":"2024-03-16T13:10:43.000+00:00","updated":"2024-08-21T13:17:18.036+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/polkadot-s-build-horizon/","contentClasses":"build-map","tags":["polkadot"],"created":"2024-03-16T13:10:43.000+00:00","updated":"2024-08-29T22:26:25.793+01:00"}
 ---
 
 This write-up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion: 
@@ -34,13 +34,11 @@ First, what is Polkadot itself, as a platform? A ubiquitous computer/blockchain 
 Runtimes are the primary type of tasks that can run on Polkadot cores. They are expressed as WASM blobs. They are scheduled anywhere between one block at a time (formerly known as on-demand parachain, or parathreads) to 2 years (formerly known as a parachain) to anywhere in between (*agile-coretime*). Commonly built with FRAME, and typically representing a blockchain application logic. But, crucially, a runtime can also represent any other application.
 
 ### Resources 
-- [https://education.web3.foundation/docs/introsubstrate](https://education.web3.foundation/docs/introsubstrate) 
-- [https://education.web3.foundation/docs/introparachain](https://education.web3.foundation/docs/introparachain)
+- [Polkadot SDK | Substrate\_ Docs](https://docs.substrate.io/polkadot-sdk/)
 - [`polkadot-sdk-docs`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/)
-- All of our templates
-	- [Substrate-node-template](https://github.com/substrate-developer-hub/substrate-node-template)
-	- [Cumulus-parachain-template](https://github.com/substrate-developer-hub/substrate-parachain-template)
-	- [Extended-parachain-template](https://github.com/paritytech/extended-parachain-template)
+	- [templates](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/polkadot_sdk/templates/index.html)
+- [Introduction to Polkadot SDK - Substrate & FRAME | Polkadot Education Initiative](https://education.web3.foundation/docs/introsubstrate)
+- [Parachain Development Guide | Polkadot Education Initiative](https://education.web3.foundation/docs/introparachain)
 
 ## 3. Onchain Development – Smart Contracts 
 A task/runtime that run on a Polkadot core can itself be what is known as a smart contract platform, similar to Ethereum or Solana, examples of which are Moonbeam and Astar. These platforms could support multiple virtual machines such as EVM and WASM, or both. 
