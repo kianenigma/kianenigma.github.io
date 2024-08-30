@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-08-07T12:53:53.223+01:00"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-08-30T12:45:19.803+01:00"}
 ---
 
 > [!info]- Collaboration 
@@ -64,16 +64,6 @@ Let’s take a moment and introduce you to a non-exhaustive list of great things
 > 
 > George
 
-> [!tldr]- Multi-Block Staking
->    Discover Polkadot's innovative validator election method using [NPoS](https://wiki.polkadot.network/docs/learn-phragmen). Dive deeper into our efforts to [scale the number of stakers](https://wiki.polkadot.network/docs/learn-nomination-pools) nominating on Polkadot. Join us as we [migrate staking functionalities](https://github.com/paritytech/polkadot-sdk/issues/491) from the relay chain to a system parachain.
-> 
-> Ankan and Goncalo
-> 
-> [!tldr]- Multi-Block Staking
->    Discover Polkadot's innovative validator election method using [NPoS](https://wiki.polkadot.network/docs/learn-phragmen). Dive deeper into our efforts to [scale the number of stakers](https://wiki.polkadot.network/docs/learn-nomination-pools) nominating on Polkadot. Join us as we [migrate staking functionalities](https://github.com/paritytech/polkadot-sdk/issues/491) from the relay chain to a system parachain.
-> 
-> Ankan and Goncalo
-> 
 > [!tldr]- Multi-Block Staking
 >    Discover Polkadot's innovative validator election method using [NPoS](https://wiki.polkadot.network/docs/learn-phragmen). Dive deeper into our efforts to [scale the number of stakers](https://wiki.polkadot.network/docs/learn-nomination-pools) nominating on Polkadot. Join us as we [migrate staking functionalities](https://github.com/paritytech/polkadot-sdk/issues/491) from the relay chain to a system parachain.
 > 
