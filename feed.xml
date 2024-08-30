@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-08-29T21:26:59Z</updated>
+    <updated>2024-08-30T11:45:57Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -952,7 +952,7 @@ This implies that the Polkadot relay chain deals only with providing the paracha
                 Runtime Function Onboarding 2024
                 
             </title>
-            <updated>2024-08-07T11:53:53.223Z</updated>
+            <updated>2024-08-30T11:45:19.803Z</updated>
             <id>https://blog.kianenigma.nl//posts/runtime-function-onboarding-2024/</id>
             <content type="html">
                 &lt;blockquote&gt;
@@ -1023,12 +1023,6 @@ The people chain is the place where real world identities are brought onto the b
 &lt;p&gt;George&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!tldr]- Multi-Block Staking&lt;br /&gt;
-Discover Polkadot&#39;s innovative validator election method using &lt;a href=&quot;https://wiki.polkadot.network/docs/learn-phragmen&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;NPoS&lt;/a&gt;. Dive deeper into our efforts to &lt;a href=&quot;https://wiki.polkadot.network/docs/learn-nomination-pools&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;scale the number of stakers&lt;/a&gt; nominating on Polkadot. Join us as we &lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/issues/491&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;migrate staking functionalities&lt;/a&gt; from the relay chain to a system parachain.&lt;/p&gt;
-&lt;p&gt;Ankan and Goncalo&lt;/p&gt;
-&lt;p&gt;[!tldr]- Multi-Block Staking&lt;br /&gt;
-Discover Polkadot&#39;s innovative validator election method using &lt;a href=&quot;https://wiki.polkadot.network/docs/learn-phragmen&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;NPoS&lt;/a&gt;. Dive deeper into our efforts to &lt;a href=&quot;https://wiki.polkadot.network/docs/learn-nomination-pools&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;scale the number of stakers&lt;/a&gt; nominating on Polkadot. Join us as we &lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/issues/491&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;migrate staking functionalities&lt;/a&gt; from the relay chain to a system parachain.&lt;/p&gt;
-&lt;p&gt;Ankan and Goncalo&lt;/p&gt;
 &lt;p&gt;[!tldr]- Multi-Block Staking&lt;br /&gt;
 Discover Polkadot&#39;s innovative validator election method using &lt;a href=&quot;https://wiki.polkadot.network/docs/learn-phragmen&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;NPoS&lt;/a&gt;. Dive deeper into our efforts to &lt;a href=&quot;https://wiki.polkadot.network/docs/learn-nomination-pools&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;scale the number of stakers&lt;/a&gt; nominating on Polkadot. Join us as we &lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/issues/491&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;migrate staking functionalities&lt;/a&gt; from the relay chain to a system parachain.&lt;/p&gt;
 &lt;p&gt;Ankan and Goncalo&lt;/p&gt;
