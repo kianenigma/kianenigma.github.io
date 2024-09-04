@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:42:54.365+01:00"}
+{"dg-publish":true,"dg-permalink":"/multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:45:08.344+01:00"}
 ---
 
 A quick brain-dump around what I would describe as an API for the "Polkadot Network". 
@@ -40,7 +40,7 @@ The above basically suggests: *Let's make life very very very hard for a few JS 
 
 This is a worthwhile tradeoff, and is aligned with making Polkadot more accessible: As a novice Application developer, you are not thrown in the pitfalls of a multi-chain, asynchronous, XCM-riddled ecosystem. 
 
-> [!info] Projects like `txwrapper` and `api-sidecar` are, in some sense, the same thing, yet since they are not vertically integrated into `polkadot-sdk` and/or `PAPI`/`PJS`, I am not sure if they get the attention they deserve. 
+> [!info] Projects like [`txwrapper`](https://github.com/paritytech/txwrapper-core) and [`api-sidecar`](https://github.com/paritytech/substrate-api-sidecar) are, in some sense, the same thing, yet since they are not vertically integrated into `polkadot-sdk` and/or `PAPI`/`PJS`, I am not sure if they get the attention they deserve. 
 
 Instead, you have the option to start with the "Polkadot Network API", and then graduate into using low level APIs that let you deal with chains and pallets from the get go. 
 
