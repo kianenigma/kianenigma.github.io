@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-04T10:51:00Z</updated>
+    <updated>2024-09-04T10:52:06Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -623,11 +623,11 @@
                 Multi-Chain SDK Vision
                 
             </title>
-            <updated>2024-09-04T10:48:40.741Z</updated>
+            <updated>2024-09-04T10:51:27.976Z</updated>
             <id>https://blog.kianenigma.nl//multichain-api/</id>
             <content type="html">
                 &lt;p&gt;A quick brain-dump around what I would describe as an API for the &amp;quot;Polkadot Network&amp;quot;.&lt;/p&gt;
-&lt;p&gt;This is mostly a summary of the discussion in &lt;a href=&quot;https://github.com/polkadot-api/polkadot-api/issues/666#issuecomment-2321095016&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to decode the result of convictionVotes · Issue &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#666&quot;&gt;#666&lt;/a&gt; · polkadot-api/polkadot-api · GitHub&lt;/a&gt; and &lt;a href=&quot;https://github.com/polkadot-api/polkadot-api/issues/689&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Vision: Pallet Based SDK -&amp;gt; Network-based SDK · Issue &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#689&quot;&gt;#689&lt;/a&gt; · polkadot-api/polkadot-api · GitHub&lt;/a&gt;, but I have posted the meat here as it might be relevant to all SDKs such as &lt;a href=&quot;https://github.com/polkadot-js/api&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;GitHub - polkadot-js/api: Promise and RxJS APIs around Polkadot and Substrate based chains via RPC calls. It is dynamically generated based on what the Substrate runtime provides in terms of metadata.&lt;/a&gt; and &lt;a href=&quot;https://github.com/paritytech/subxt&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;GitHub - paritytech/subxt: Interact with Substrate based nodes in Rust or WebAssembly&lt;/a&gt;, not just &lt;code&gt;PAPI&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This is mostly a summary of the discussion in &lt;a href=&quot;https://github.com/polkadot-api/polkadot-api/issues/666#issuecomment-2321095016&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How to decode the result of convictionVotes · Issue &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#666&quot;&gt;#666&lt;/a&gt; · polkadot-api/polkadot-api · GitHub&lt;/a&gt; and &lt;a href=&quot;https://github.com/polkadot-api/polkadot-api/issues/689&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Vision: Pallet Based SDK -&amp;gt; Network-based SDK · Issue &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#689&quot;&gt;#689&lt;/a&gt; · polkadot-api/polkadot-api · GitHub&lt;/a&gt;, but I have posted the meat here as it might be relevant to all SDKs such as &lt;a href=&quot;https://github.com/polkadot-js/api&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;polkadot-js-api&lt;/a&gt; and &lt;a href=&quot;https://github.com/paritytech/subxt&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;paritytech/subxt&lt;/a&gt;, not just &lt;code&gt;PAPI&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;what-is-polkadot-network&quot; tabindex=&quot;-1&quot;&gt;What is Polkadot Network&lt;/h2&gt;
 &lt;p&gt;Going forward, the Polkadot network is not the Polkadot relay chain anymore, and it is not AssetHub. It a combination of system chains that might fluidly decide to scatter themselves further (example: Staking functionality moving to a different system parachain), or unify to achieve synchrony (example: Coretime chain merging into AH).&lt;/p&gt;
 &lt;p&gt;So, Polkadot Network is &lt;strong&gt;not the relay chain&lt;/strong&gt;, and it is &lt;strong&gt;not a specific system chain&lt;/strong&gt;. It is the combination thereof. In this view, a proper SDK is one that abstracts away over, not a pallet, not a single chain, but rather over the entire network, the red dashed circle below.&lt;/p&gt;
