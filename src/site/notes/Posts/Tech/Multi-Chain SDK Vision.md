@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:34:47.157+01:00"}
+{"dg-publish":true,"dg-permalink":"multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:36:15.590+01:00"}
 ---
 
 A quick brain-dump around what I would describe as an API for the "Polkadot Network". 
@@ -9,7 +9,7 @@ This might be useful to future `PJS`, `PAPI`, or `SubXT` developers.
 
 Going forward, the Polkadot network is not the Polkadot relay chain anymore, and it is not AssetHub. It a combination of system chains that might fluidly decide to scatter themselves further (example: Staking functionality moving to a different system parachain), or unify to achieve synchrony (example: Coretime chain merging into AH).
 
-So, Polkadot Network is not the relay chain, or specific system chain. It is the combination
+So, Polkadot Network is **not the relay chain**, and it is **not a specific system chain**. It is the combination thereof. 
 
 ![Pasted image 20240904110357.png](/img/user/resources/Pasted%20image%2020240904110357.png)
 ## API For The Polkadot Network
