@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-permalink":"/multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:45:08.344+01:00"}
+{"dg-publish":true,"dg-permalink":"/multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:48:40.741+01:00"}
 ---
 
 A quick brain-dump around what I would describe as an API for the "Polkadot Network". 
 
-This might be useful to future `PJS`, `PAPI`, or `SubXT` developers.
+This is mostly a summary of the discussion in [How to decode the result of convictionVotes · Issue #666 · polkadot-api/polkadot-api · GitHub](https://github.com/polkadot-api/polkadot-api/issues/666#issuecomment-2321095016) and [Vision: Pallet Based SDK -\> Network-based SDK · Issue #689 · polkadot-api/polkadot-api · GitHub](https://github.com/polkadot-api/polkadot-api/issues/689), but I have posted the meat here as it might be relevant to all SDKs such as [GitHub - polkadot-js/api: Promise and RxJS APIs around Polkadot and Substrate based chains via RPC calls. It is dynamically generated based on what the Substrate runtime provides in terms of metadata.](https://github.com/polkadot-js/api) and [GitHub - paritytech/subxt: Interact with Substrate based nodes in Rust or WebAssembly](https://github.com/paritytech/subxt), not just `PAPI`.
 ## What is Polkadot Network
 
 Going forward, the Polkadot network is not the Polkadot relay chain anymore, and it is not AssetHub. It a combination of system chains that might fluidly decide to scatter themselves further (example: Staking functionality moving to a different system parachain), or unify to achieve synchrony (example: Coretime chain merging into AH).
