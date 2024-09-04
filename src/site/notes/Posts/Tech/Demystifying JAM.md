@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-09-02T16:43:13.591+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-09-04T09:42:01.834+01:00"}
 ---
 
 ![jam-pen-polkadot.png](/img/user/resources/jam-pen-polkadot.png)
@@ -14,7 +14,7 @@
 > Feel free to share your re-publications in a comment down below to be featured here! 
 
 > [!info]- Diagrams
-> The diagrams provided in this article are all SVG files and can be downloaded directly from the HTML source and adopted to a different style guide. You can also access all of the drawings [here](https://drive.google.com/drive/folders/10SdLQpZCvE9sJy4uYGnQiY77u_5yAEyh?usp=sharing). 
+> The diagrams provided in this article are all SVG files and can be downloaded directly from the HTML source and adopted to a different style guide. You can also access all of the drawings [here](). 
 
 The following is a [ground-up](https://www.navalmanack.com/almanack-of-naval-ravikant/how-to-think-clearly) explanation of Polkadot 1, Polkadot 2, and how it will evolve to JAM. It is targeted towards a technical audience, but more so those that are not very familiar with Polkadot, but have a good high level understanding of blockchain based systems, and are possibly familiar with one other ecosystem at a technical level. I believe reading this can be a great prelude before reading the JAM [graypaper](http://www.graypaper.com).
 ## Background Knowledge
