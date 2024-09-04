@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:37:07.251+01:00"}
+{"dg-publish":true,"dg-permalink":"/multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:42:54.365+01:00"}
 ---
 
 A quick brain-dump around what I would describe as an API for the "Polkadot Network". 
@@ -44,7 +44,9 @@ This is a worthwhile tradeoff, and is aligned with making Polkadot more accessib
 
 Instead, you have the option to start with the "Polkadot Network API", and then graduate into using low level APIs that let you deal with chains and pallets from the get go. 
 
-That being said, one major technique that can be used while building this infrastructure to prevent it from becoming a maintenance snowball: Using `RuntimeAPIs`. That is, refraining from reading the direct pallet storage for as much as possible, and instead rely on more high level queries that the runtime exposes in the form of raw runtime-apis and/or view-function[^1][^2]. 
+That being said, one major technique that can be used while building this infrastructure to prevent it from becoming a maintenance snowball: Using `RuntimeAPIs`. That is, refraining from reading the direct pallet storage for as much as possible, and instead rely on more high level queries that the runtime exposes in the form of raw runtime-apis and/or view-function[^1]. 
+
+[^1]: [Wasm view functions - Tech Talk - Polkadot Forum](https://forum.polkadot.network/t/wasm-view-functions/1045)
 
 This moves at least a part of the complexity of implementing the above into the runtime, which has a few advantages: 
 
