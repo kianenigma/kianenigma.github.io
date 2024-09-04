@@ -1,20 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-09-04T11:49:57.040+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-09-04T13:30:29.410+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 ## 📝 About 
-- 🦀 Engineering Lead / Rust Core Developer [@paritytech](https://twitter.com/ParityTech/).           
+- 🦀 Engineering Lead / Rust Core Developer [@paritytech](https://twitter.com/ParityTech/)
 	- Matrix: `@kianenigma:parity.io`
-- 📚 Parallel and Distributed Systems Msc. graduate from [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam).
+	- Email: `hello at kianeingma dot nl`
+	- 🤖 Often found online with the name `@kianenigma`
+- 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive)
+- 📚 Parallel and Distributed Systems Msc. graduate from [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam)
 	- Thesis: [GitHub - kianenigma/SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes 🚀.](https://github.com/kianenigma/SonicChain?tab=readme-ov-file)
-- 🔴 [Polkadot](https://www.polkadot.network) Fellow. 
+- 🔴 [Polkadot](https://www.polkadot.network) Fellow
 	- Polkadot Address: `1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE`
 	- Kusama Address: `HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1`
-- 🤖 Often found online with the name `@kianenigma`.
 - 🎧 [[Posts/Personal/Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
-- 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) (inactive)
-- 📸 Personal [[Posts/Personal/Gallery\|Gallery]].
+- 📸 Personal [[Posts/Personal/Gallery\|Gallery]]
 - Made with [💎 Obsidian-Digital-Garden](https://github.com/oleeskild/Obsidian-Digital-Garden)
 
 ## Keeping Up 
