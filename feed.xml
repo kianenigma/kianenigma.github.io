@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-02T15:44:07Z</updated>
+    <updated>2024-09-04T10:36:09Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -617,6 +617,54 @@
 
             </content>
             <link href="https://blog.kianenigma.nl//posts/tech/on-documenting-polkadot-sdk/" />
+        </entry>
+        <entry>
+            <title>
+                Multi-Chain SDK Vision
+                
+            </title>
+            <updated>2024-09-04T10:34:47.157Z</updated>
+            <id>https://blog.kianenigma.nl//multichain-api/</id>
+            <content type="html">
+                &lt;p&gt;A quick brain-dump around what I would describe as an API for the &amp;quot;Polkadot Network&amp;quot;.&lt;/p&gt;
+&lt;p&gt;This might be useful to future &lt;code&gt;PJS&lt;/code&gt;, &lt;code&gt;PAPI&lt;/code&gt;, or &lt;code&gt;SubXT&lt;/code&gt; developers.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-polkadot-network&quot; tabindex=&quot;-1&quot;&gt;What is Polkadot Network&lt;/h2&gt;
+&lt;p&gt;Going forward, the Polkadot network is not the Polkadot relay chain anymore, and it is not AssetHub. It a combination of system chains that might fluidly decide to scatter themselves further (example: Staking functionality moving to a different system parachain), or unify to achieve synchrony (example: Coretime chain merging into AH).&lt;/p&gt;
+&lt;p&gt;So, Polkadot Network is not the relay chain, or specific system chain. It is the combination&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/resources/Pasted%20image%2020240904110357.png&quot; alt=&quot;Pasted image 20240904110357.png&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;api-for-the-polkadot-network&quot; tabindex=&quot;-1&quot;&gt;API For The Polkadot Network&lt;/h2&gt;
+&lt;p&gt;With that definition in mind, let&#39;s consider:&lt;/p&gt;
+&lt;p&gt;The &amp;quot;Polkadot Network&amp;quot; (!= relay chain) as a whole always provides the following list of functionalities:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Query and transfer of the DOT token.&lt;/li&gt;
+&lt;li&gt;Staking the DOT token&lt;/li&gt;
+&lt;li&gt;Ability to vote on a referendum with the DOT token&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The goal should be to provide an API that is abstract over &amp;quot;&lt;em&gt;on which chain each of these functionalities reside&lt;/em&gt;&amp;quot;, but rather the mere fact that &amp;quot;&lt;em&gt;They exist somewhere in the Polkadot network&lt;/em&gt;&amp;quot;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;dotApi = await new PolkadotNetwork(); 
+{ transferrable, reserved } = dotApi.balance_of(&amp;quot;kian&amp;quot;);
+
+// options for staking, such as who you want to supprot. 
+opts = {}
+result = dotApi.stake(transferrable / 2, opts);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice in the above, I do not specify a network, or a pallet. I merely ask the &amp;quot;&lt;em&gt;Polkadot Network&lt;/em&gt;, please tell me how much DOT I have in your entirety.&lt;/p&gt;
+&lt;h2 id=&quot;easier-said-than-done&quot; tabindex=&quot;-1&quot;&gt;Easier Said Than Done&lt;/h2&gt;
+&lt;p&gt;The above basically suggests: &lt;em&gt;Let&#39;s make life very very very hard for a few JS API teams, in return for all other builder teams having an easier time&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This is a worthwhile tradeoff, and is aligned with making Polkadot more accessible: As a novice Application developer, you are not thrown in the pitfalls of a multi-chain, asynchronous, XCM-riddled ecosystem.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!info] Projects like &lt;code&gt;txwrapper&lt;/code&gt; and &lt;code&gt;api-sidecar&lt;/code&gt; are, in some sense, the same thing, yet since they are not vertically integrated into &lt;code&gt;polkadot-sdk&lt;/code&gt; and/or &lt;code&gt;PAPI&lt;/code&gt;/&lt;code&gt;PJS&lt;/code&gt;, I am not sure if they get the attention they deserve.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Instead, you have the option to start with the &amp;quot;Polkadot Network API&amp;quot;, and then graduate into using low level APIs that let you deal with chains and pallets from the get go.&lt;/p&gt;
+&lt;p&gt;That being said, one major technique that can be used while building this infrastructure to prevent it from becoming a maintenance snowball: Using &lt;code&gt;RuntimeAPIs&lt;/code&gt;. That is, refraining from reading the direct pallet storage for as much as possible, and instead rely on more high level queries that the runtime exposes in the form of raw runtime-apis and/or view-function[^1][^2].&lt;/p&gt;
+&lt;p&gt;This moves at least a part of the complexity of implementing the above into the runtime, which has a few advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It is the responsibility of the polkadot-sdk maintainers to update them, not you. Of course, these APIs are meant to have a super stable interface, and only their implementation might change.&lt;/li&gt;
+&lt;li&gt;It remains backwards compatible and upgrade-able by nature: If the &lt;code&gt;:code&lt;/code&gt; changes, the implementation might changes.&lt;/li&gt;
+&lt;/ol&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//multichain-api/" />
         </entry>
         <entry>
             <title>
