@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-04T10:37:34Z</updated>
+    <updated>2024-09-04T10:43:23Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -623,7 +623,7 @@
                 Multi-Chain SDK Vision
                 
             </title>
-            <updated>2024-09-04T10:37:07.251Z</updated>
+            <updated>2024-09-04T10:42:54.365Z</updated>
             <id>https://blog.kianenigma.nl//multichain-api/</id>
             <content type="html">
                 &lt;p&gt;A quick brain-dump around what I would describe as an API for the &amp;quot;Polkadot Network&amp;quot;.&lt;/p&gt;
@@ -656,12 +656,19 @@ result = dotApi.stake(transferrable / 2, opts);
 &lt;p&gt;[!info] Projects like &lt;code&gt;txwrapper&lt;/code&gt; and &lt;code&gt;api-sidecar&lt;/code&gt; are, in some sense, the same thing, yet since they are not vertically integrated into &lt;code&gt;polkadot-sdk&lt;/code&gt; and/or &lt;code&gt;PAPI&lt;/code&gt;/&lt;code&gt;PJS&lt;/code&gt;, I am not sure if they get the attention they deserve.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Instead, you have the option to start with the &amp;quot;Polkadot Network API&amp;quot;, and then graduate into using low level APIs that let you deal with chains and pallets from the get go.&lt;/p&gt;
-&lt;p&gt;That being said, one major technique that can be used while building this infrastructure to prevent it from becoming a maintenance snowball: Using &lt;code&gt;RuntimeAPIs&lt;/code&gt;. That is, refraining from reading the direct pallet storage for as much as possible, and instead rely on more high level queries that the runtime exposes in the form of raw runtime-apis and/or view-function[^1][^2].&lt;/p&gt;
+&lt;p&gt;That being said, one major technique that can be used while building this infrastructure to prevent it from becoming a maintenance snowball: Using &lt;code&gt;RuntimeAPIs&lt;/code&gt;. That is, refraining from reading the direct pallet storage for as much as possible, and instead rely on more high level queries that the runtime exposes in the form of raw runtime-apis and/or view-function&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;This moves at least a part of the complexity of implementing the above into the runtime, which has a few advantages:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;It is the responsibility of the polkadot-sdk maintainers to update them, not you. Of course, these APIs are meant to have a super stable interface, and only their implementation might change.&lt;/li&gt;
 &lt;li&gt;It remains backwards compatible and upgrade-able by nature: If the &lt;code&gt;:code&lt;/code&gt; changes, the implementation might changes.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://forum.polkadot.network/t/wasm-view-functions/1045&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Wasm view functions - Tech Talk - Polkadot Forum&lt;/a&gt; &lt;a href=&quot;https://blog.kianenigma.nl/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 
             </content>
             <link href="https://blog.kianenigma.nl//multichain-api/" />
