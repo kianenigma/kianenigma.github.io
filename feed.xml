@@ -3,7 +3,7 @@
     <title>Kian&#39;s Garden</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-04T10:43:23Z</updated>
+    <updated>2024-09-04T10:45:45Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -623,7 +623,7 @@
                 Multi-Chain SDK Vision
                 
             </title>
-            <updated>2024-09-04T10:42:54.365Z</updated>
+            <updated>2024-09-04T10:45:08.344Z</updated>
             <id>https://blog.kianenigma.nl//multichain-api/</id>
             <content type="html">
                 &lt;p&gt;A quick brain-dump around what I would describe as an API for the &amp;quot;Polkadot Network&amp;quot;.&lt;/p&gt;
@@ -653,7 +653,7 @@ result = dotApi.stake(transferrable / 2, opts);
 &lt;p&gt;The above basically suggests: &lt;em&gt;Let&#39;s make life very very very hard for a few JS API teams, in return for all other builder teams having an easier time&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;This is a worthwhile tradeoff, and is aligned with making Polkadot more accessible: As a novice Application developer, you are not thrown in the pitfalls of a multi-chain, asynchronous, XCM-riddled ecosystem.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[!info] Projects like &lt;code&gt;txwrapper&lt;/code&gt; and &lt;code&gt;api-sidecar&lt;/code&gt; are, in some sense, the same thing, yet since they are not vertically integrated into &lt;code&gt;polkadot-sdk&lt;/code&gt; and/or &lt;code&gt;PAPI&lt;/code&gt;/&lt;code&gt;PJS&lt;/code&gt;, I am not sure if they get the attention they deserve.&lt;/p&gt;
+&lt;p&gt;[!info] Projects like &lt;a href=&quot;https://github.com/paritytech/txwrapper-core&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;txwrapper&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/paritytech/substrate-api-sidecar&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&lt;code&gt;api-sidecar&lt;/code&gt;&lt;/a&gt; are, in some sense, the same thing, yet since they are not vertically integrated into &lt;code&gt;polkadot-sdk&lt;/code&gt; and/or &lt;code&gt;PAPI&lt;/code&gt;/&lt;code&gt;PJS&lt;/code&gt;, I am not sure if they get the attention they deserve.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Instead, you have the option to start with the &amp;quot;Polkadot Network API&amp;quot;, and then graduate into using low level APIs that let you deal with chains and pallets from the get go.&lt;/p&gt;
 &lt;p&gt;That being said, one major technique that can be used while building this infrastructure to prevent it from becoming a maintenance snowball: Using &lt;code&gt;RuntimeAPIs&lt;/code&gt;. That is, refraining from reading the direct pallet storage for as much as possible, and instead rely on more high level queries that the runtime exposes in the form of raw runtime-apis and/or view-function&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://blog.kianenigma.nl/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
