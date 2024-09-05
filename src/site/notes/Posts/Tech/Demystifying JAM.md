@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-09-04T09:42:01.834+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-09-05T14:31:16.537+01:00"}
 ---
 
 ![jam-pen-polkadot.png](/img/user/resources/jam-pen-polkadot.png)
@@ -9,7 +9,9 @@
 
 > [!tip]- Translations / Re-Publishing
 > The following are further translations of this article: 
+> 
 > - [Korean](https://research.despread.io/ko/report-jam/) 
+> - [Chinese](https://github.com/subscan-explorer/jam-research/blob/main/material/demystifying-jam-zh-CN.md) 
 > 
 > Feel free to share your re-publications in a comment down below to be featured here! 
 
