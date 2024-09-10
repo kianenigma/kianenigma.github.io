@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T12:21:51.329+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T12:27:22.959+01:00"}
 ---
 
 
@@ -10,7 +10,6 @@
 - Polkadot for ~6 years
 - Re-discover the fundamentals of blockchains
 - I am here to solve industry-scale problems, not sell product
-
 
 Notes: 
 
@@ -31,29 +30,32 @@ Notes:
 
 Why do we trust each? 
 
-- In Revolut, there is, in principle, as little as one computer, owned by Revolut, processes this transaction, and we trust the outcome of that, because of all the legal regulations around banking, government, law enforcements etc. 
-- In the bitcoin network, we ***synthesize a new type of trust***, that is less based on social norms and central power, and more based on science, and is therefore verify-able, namely: mathematics, game theory and economics. 
+- In Revolut, there is, in principle, as little as one computer, owned by Revolut, processes a transaction, and we trust the outcome of that, because of all the legal regulations around banking, government, law enforcements etc. 
+- In the bitcoin network, we ***synthesize a new type of trust***, that is not based on social-norms, central-power, and law-enforcement, and is instead more based on branches of science, and is therefore **verifiable**, namely: mathematics, game theory and economics. 
 
-- A big part of this "*based on science*" is the fact that in a network like Bitcoin: 
-	- a large number of actors can be the authority
-	- and many others, can check what that authority has done.
-		- We call this collective of nodes the above two groups "Validators".
+> We don't trust a hash function to be one-way because a certain nation has a strong military, it is one way no matter who you are, and where you live. 
+
+- A big part of this "*based on branches science*" is the fact that in a network like Bitcoin: 
+	- a large number of actors can be the authority, each taking turn in become the **leader**
+	- and many others, can check what that **leader** has done
+		- We call this collective of the above two groups of entities "Validators"
 	- All validators have skin in the game -> Economic Security 
-	- All other nodes can observe and re-verify the behavior of validators. 
+	- All other nodes can observe and re-verify the behavior of validators
 
 ---
 ## Validator Set
 
 ![bi_cpu_models.png](/img/user/Excalidraw/blockchain-reimagined/bi_cpu_models.png)
 
-Is One Massive, ***SLOW***, **TRUSTWORTHY** CPU 
+Is One Massive, ***SLOW***, **TRUSTWORTHY** Computer 
 
 Notes: 
+
 - And a key reason why blockchains have a hard time scaling: All validator's at the simplest model, have to re-execute everyone else's work, and come to consensus/finality about it.
 
-Question: Which CPU model is good, or perhaps good for which use cases? idk, deeper philosophical question.
+Question: Which Computer model is good, or perhaps good for which use cases? idk, deeper philosophical question.
 
-Question statement: **How can I make the Web3 CPU go faster?** and while doing so, am I am compromising on the trust-worthy-ness of it? 
+Question statement: **How can I make the Web3 Computer go faster?** and while doing so, am I am compromising on the trust-worthy-ness of it? 
 
 This is the core issue we try to tackle, how can we remove this property of "everyone re-executes everything". 
 
@@ -62,7 +64,7 @@ This is the core issue we try to tackle, how can we remove this property of "eve
 
 ---
 
-![hyperopt.png](/img/user/Excalidraw/blockchain-reimagined/hyperopt.png)
+![Excalidraw/blockchain-reimagined/hyperopt.png](/img/user/Excalidraw/blockchain-reimagined/hyperopt.png)
 - Brute force / Cutting corners? 
 
 Note: 
