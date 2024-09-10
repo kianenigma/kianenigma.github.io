@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-10T15:12:21Z</updated>
+    <updated>2024-09-10T20:01:30Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -2128,7 +2128,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Blockchain Scalability - A Holistic Recap
                 
             </title>
-            <updated>2024-09-10T15:11:00.817Z</updated>
+            <updated>2024-09-10T19:58:50.200Z</updated>
             <id>https://blog.kianenigma.nl//blockchain-reimagined/presentation-tum/</id>
             <content type="html">
                 &lt;style&gt;
@@ -2202,7 +2202,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/hyperopt.png&quot; alt=&quot;hyperopt.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Brute force / Cutting corners?&lt;/li&gt;
+&lt;li&gt;Vertical scaling / Cutting corners?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Note:&lt;/p&gt;
 &lt;ul&gt;
@@ -2213,7 +2213,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/shardingsecyurity.png&quot; alt=&quot;shardingsecyurity.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Sharding Security and Capital / Limited Capital / Communication&lt;/li&gt;
+&lt;li&gt;Sharding Security and Capital / Limited Capital&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Note:&lt;/p&gt;
 &lt;ul&gt;
@@ -2229,13 +2229,15 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/optimistic.png&quot; alt=&quot;optimistic.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Scales well / Slow finality / ⚠️ Need FP / Fragmented&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-&lt;/code&gt; Slow finality / ⚠️ Need FP / Fragmented&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+&lt;/code&gt;  Scaling (Execution, DA)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;little overhead on the base security layer, scales well:
 &lt;ul&gt;
 &lt;li&gt;New rollup, in the absence of fraud, no overhead on L1 in terms of execution, only DA&lt;/li&gt;
+&lt;li&gt;Although, in the presence of fraud, the L1 has to re-execute everything. I wonder how much this scales in the presence of frauds, and when compared to the cost of performing fraud.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;slow finality&lt;/li&gt;
@@ -2244,9 +2246,9 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/cynical.png&quot; alt=&quot;cynical.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;FP Is proactive and secure / Fast finality / Validator room analogy&lt;/li&gt;
-&lt;li&gt;ELVES: Sharded Execution, Shared Security&lt;/li&gt;
-&lt;li&gt;Cost to attack&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+&lt;/code&gt; FP Is proactive and secure /  MUCH faster finality / Homogenous security&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-&lt;/code&gt; proactiveness is &lt;em&gt;not free&lt;/em&gt;, but still scales vert well&lt;/li&gt;
+&lt;li&gt;ELVES / Sharded Execution, Shared Security  / &amp;quot;Validator waiting room&amp;quot; analogy&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ul&gt;
@@ -2265,7 +2267,8 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/asym.png&quot; alt=&quot;asym.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Secure, Expensive&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+&lt;/code&gt; Secure&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-&lt;/code&gt; Expensive to produce proofs, Generality&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ul&gt;
@@ -2304,6 +2307,8 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/jam.png&quot; alt=&quot;jam.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Gutting and exposing Polkadot&#39;s core abilities.&lt;/li&gt;
+&lt;li&gt;You can only do this under the shadow of Cynical Rollups&#39; shared security.&lt;/li&gt;
+&lt;li&gt;.. and a very powerful VM.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;p&gt;JAM is a gutting of Polkadot that exposes:&lt;/p&gt;
@@ -2324,6 +2329,7 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;p&gt;All models so far suffer from a property that we can call persistent fragmentation. The state associated with each application must live within the boundaries of its own walled garden.&lt;/p&gt;
 &lt;p&gt;Through access to DA, and a fully unspecified scheduling, application that run on JAM (Services) need not suffer from persistent fragmentation, should they wish to.&lt;/p&gt;
 &lt;p&gt;This is a big deal, and a step forward in the space of sharded blockchain.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://graypaper.com/resources/#download&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;JAM Resources&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;summary&quot; tabindex=&quot;-1&quot;&gt;Summary&lt;/h2&gt;
 &lt;table&gt;
@@ -2338,13 +2344,13 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Hyper Optimized Networks&lt;/td&gt;
-&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;✅*&lt;/td&gt;
 &lt;td&gt;N/A&lt;/td&gt;
 &lt;td&gt;✅&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Sharded Multi Chain&lt;/td&gt;
-&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;✅📉&lt;/td&gt;
 &lt;td&gt;❌&lt;/td&gt;
 &lt;td&gt;❌&lt;/td&gt;
 &lt;/tr&gt;
@@ -2384,6 +2390,9 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;h2 id=&quot;close&quot; tabindex=&quot;-1&quot;&gt;Close&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Question: Which application is best suited to which computer?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;How can we build a system that is not a time-bomb towards the next black swan event?&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Strong Opinions? Later ;)&lt;/p&gt;
 &lt;p&gt;Note:&lt;/p&gt;
