@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T13:40:49.354+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T14:00:06.935+01:00"}
 ---
 
 
@@ -13,8 +13,7 @@
 </style>
 ## Prelude 
 
-- Hello 👋🏻
-- `@kianenigma / kianenigma.nl`
+- Hello 👋🏻 `@kianenigma / kianenigma.nl`
 - Polkadot for ~6 years
 - Re-discover the fundamentals of blockchains
 - I am here to solve industry-scale problems, not sell product
@@ -206,10 +205,11 @@ This is a big deal, and a step forward in the space of sharded blockchain.
 | JAM                      | ✅                         | ✅                                | ✅*                |
 
 ---
-## Opinions
+## Close
 
-- I tried to keep this talk intentionally un-opinionated, but I do have more strong opinions ;) 
-- Come talk to me afterwards, or perhaps the panel later today.
+- I tried to keep this talk intentionally un-opinionated, but I do have *stronger opinions* ;) 
+	- Come talk to me afterwards, or perhaps the panel later today.
+- Full talk with notes: [https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/](https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/)
 
 ---
 ## Appendix
