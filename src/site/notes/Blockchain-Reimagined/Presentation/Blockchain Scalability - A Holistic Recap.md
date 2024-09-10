@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T16:11:00.817+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T20:58:50.200+01:00"}
 ---
 
 
@@ -72,7 +72,7 @@ This is the core issue we try to tackle, how can we remove this property of "eve
 ---
 
 ![hyperopt.png](/img/user/Excalidraw/blockchain-reimagined/hyperopt.png)
-- Brute force / Cutting corners? 
+- Vertical scaling / Cutting corners?
 
 Note: 
 - Somewhat like brute forcing it. 
@@ -82,7 +82,7 @@ Note:
 ---
 
 ![shardingsecyurity.png](/img/user/Excalidraw/blockchain-reimagined/shardingsecyurity.png)
-- Sharding Security and Capital / Limited Capital / Communication 
+- Sharding Security and Capital / Limited Capital 
 
 Note: 
 
@@ -95,12 +95,14 @@ Note:
 
 ![optimistic.png](/img/user/Excalidraw/blockchain-reimagined/optimistic.png)
 
-- Scales well / Slow finality / ⚠️ Need FP / Fragmented
+- `-` Slow finality / ⚠️ Need FP / Fragmented
+- `+`  Scaling (Execution, DA)
 
 Notes:
 
 - little overhead on the base security layer, scales well:
 	- New rollup, in the absence of fraud, no overhead on L1 in terms of execution, only DA
+	- Although, in the presence of fraud, the L1 has to re-execute everything. I wonder how much this scales in the presence of frauds, and when compared to the cost of performing fraud. 
 - slow finality
 - In the presence of fraud proofs, it is secure. In the lack of of fraud proofs, it is a non-starter because it fully loses touch with the initial assumption of "the system is secure because of the L1 validators' economic security".
 
@@ -108,9 +110,9 @@ Notes:
 
 ![cynical.png](/img/user/Excalidraw/blockchain-reimagined/cynical.png)
 
-- FP Is proactive and secure / Fast finality / Validator room analogy 
-- ELVES: Sharded Execution, Shared Security 
-- Cost to attack
+- `+` FP Is proactive and secure /  MUCH faster finality / Homogenous security 
+- `-` proactiveness is *not free*, but still scales vert well
+- ELVES / Sharded Execution, Shared Security  / "Validator waiting room" analogy 
 
 Notes:
 - Fraud prover is my neighboring validator, and is ***as secure as I am***. 
@@ -127,7 +129,8 @@ Notes:
 
 ![asym.png](/img/user/Excalidraw/blockchain-reimagined/asym.png)
 
-- Secure, Expensive
+- `+` Secure
+- `-` Expensive to produce proofs, Generality
 
 Notes:
 - [Coprocessor Market Structure: Cryptoeconomic vs ZK | rob.tech](https://www.rob.tech/blog/coprocessor-competition/)
@@ -165,6 +168,8 @@ Notes:
 ![jam.png](/img/user/Excalidraw/blockchain-reimagined/jam.png)
 
 - Gutting and exposing Polkadot's core abilities. 
+- You can only do this under the shadow of Cynical Rollups' shared security. 
+- .. and a very powerful VM. 
 
 Notes:
 
@@ -192,13 +197,15 @@ Through access to DA, and a fully unspecified scheduling, application that run o
 
 This is a big deal, and a step forward in the space of sharded blockchain. 
 
+[JAM Resources](https://graypaper.com/resources/#download)
+
 ---
 ## Summary 
 
 |                          | Economically Secure? 💻💰 | Homogenous Economic Security  🥷 | Fragmented?<br>🐢 |
 | ------------------------ | ------------------------- | -------------------------------- | ----------------- |
-| Hyper Optimized Networks | ✅                         | N/A                              | ✅                 |
-| Sharded Multi Chain      | ✅                         | ❌                                | ❌                 |
+| Hyper Optimized Networks | ✅*                        | N/A                              | ✅                 |
+| Sharded Multi Chain      | ✅📉                       | ❌                                | ❌                 |
 | Optimistic Rollups W FP  | ✅                         | ❌*                               | ❌                 |
 | Optimistic Rollups WO FP | ❌                         | ❌                                | ❌                 |
 | SNARK  Rollups           | ✅                         | ❌*                               | ❌                 |
@@ -210,6 +217,7 @@ This is a big deal, and a step forward in the space of sharded blockchain.
 
 > *Question: Which application is best suited to which computer?* 
 
+> How can we build a system that is not a time-bomb towards the next black swan event? 
 
 Strong Opinions? Later ;) 
 
