@@ -1,8 +1,16 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T12:27:22.959+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T13:40:49.354+01:00"}
 ---
 
 
+<style>
+.reveal .slides section img { 
+	max-height: 70vh; /* Limit image height to 70% of the viewport height */ 
+	width: auto; /* Maintain aspect ratio */ 
+	 border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+	 padding: 20px;
+}
+</style>
 ## Prelude 
 
 - Hello 👋🏻
@@ -64,7 +72,7 @@ This is the core issue we try to tackle, how can we remove this property of "eve
 
 ---
 
-![Excalidraw/blockchain-reimagined/hyperopt.png](/img/user/Excalidraw/blockchain-reimagined/hyperopt.png)
+![hyperopt.png](/img/user/Excalidraw/blockchain-reimagined/hyperopt.png)
 - Brute force / Cutting corners? 
 
 Note: 
@@ -77,7 +85,13 @@ Note:
 ![shardingsecyurity.png](/img/user/Excalidraw/blockchain-reimagined/shardingsecyurity.png)
 - Sharding Security and Capital / Limited Capital / Communication 
 
+Note: 
 
+- Cosmos' original view 
+- There's only limited capital in the world, shard execution, and economic security. 
+- Multi chains, in general real to a multitude of issues: 
+	- 🐢 Slow and asynchronous communication
+	- 💴 vs 💰 / 🥷: varying degrees of economic security, leading to a the weakest link issue
 ---
 
 ![optimistic.png](/img/user/Excalidraw/blockchain-reimagined/optimistic.png)
@@ -86,9 +100,10 @@ Note:
 
 Notes:
 
-- little overhead on the base security layer, scales well and is basically free/very-cheap.
+- little overhead on the base security layer, scales well:
+	- New rollup, in the absence of fraud, no overhead on L1 in terms of execution, only DA
 - slow finality
-- In the presence of fraud proofs, it is secure. In the lack of of fraud proofs, it is not at all. 
+- In the presence of fraud proofs, it is secure. In the lack of of fraud proofs, it is a non-starter because it fully loses touch with the initial assumption of "the system is secure because of the L1 validators' economic security".
 
 ---
 
@@ -98,10 +113,15 @@ Notes:
 - ELVES: Sharded Execution, Shared Security 
 
 Notes:
-- Fraud prover is my neighboring validator, and is as secure as I am. Fraud prover is proactively asked to check my work. 
-- In case of escalation, all. Hydra analogy. 
+- Fraud prover is my neighboring validator, and is ***as secure as I am***. 
+- Fraud prover is ***proactively*** asked to check my work. 
+- In case of escalation, all validators participate. Hydra analogy. 
 - This leads, through game theoretic and economic rules into a system that is functionally equivalent to **Shared Security, but sharded execution**. 
-- ELVES: The cost of attacking any of the L2s in this model, is as high as the cost of attacking the entire L1. 
+- [ELVES](https://eprint.iacr.org/2024/961): The cost of attacking any of the L2s in this model, is as high as the cost of attacking the entire L1. 
+	- [x.com](https://x.com/rphmeier/status/1807884271157187007)
+- Optimistic: Go to the room of validators, and if after 2 weeks no one says that something was wrong, you are good. 
+- Cynical: Go to the room of validators, and ask 5 random validators out of 1000 what they think. Then ask 5 more random ones what they think of the
+
 
 ---
 
