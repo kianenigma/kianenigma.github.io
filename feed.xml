@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-10T13:01:17Z</updated>
+    <updated>2024-09-10T15:12:21Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -2128,7 +2128,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Blockchain Scalability - A Holistic Recap
                 
             </title>
-            <updated>2024-09-10T13:00:06.935Z</updated>
+            <updated>2024-09-10T15:11:00.817Z</updated>
             <id>https://blog.kianenigma.nl//blockchain-reimagined/presentation-tum/</id>
             <content type="html">
                 &lt;style&gt;
@@ -2144,7 +2144,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;li&gt;Hello 👋🏻 &lt;code&gt;@kianenigma / kianenigma.nl&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Polkadot for ~6 years&lt;/li&gt;
 &lt;li&gt;Re-discover the fundamentals of blockchains&lt;/li&gt;
-&lt;li&gt;I am here to solve industry-scale problems, not sell product&lt;/li&gt;
+&lt;li&gt;I am here to solve industry-scale problems, not &lt;em&gt;sell a product&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ol&gt;
@@ -2159,8 +2159,8 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;hr /&gt;
 &lt;h2 id=&quot;owning-digital-money&quot; tabindex=&quot;-1&quot;&gt;Owning Digital Money&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;€1000 in Revolut (🔫👮🧑‍⚖️⛪️)&lt;/li&gt;
-&lt;li&gt;€1000 in the Bitcoin network (🧮 ♾️)&lt;/li&gt;
+&lt;li&gt;€1000 in Revolut (🔫👮🧑‍⚖️⛪️ -&amp;gt; Trust)&lt;/li&gt;
+&lt;li&gt;€1000 in the Bitcoin network (🧮 ♾️ -&amp;gt; Verifiable trust)&lt;/li&gt;
 &lt;li&gt;Economically secured validators doing redundant work 💰&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
@@ -2244,8 +2244,9 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/cynical.png&quot; alt=&quot;cynical.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;FP Is embedded, and proactive / Fast finality&lt;/li&gt;
+&lt;li&gt;FP Is proactive and secure / Fast finality / Validator room analogy&lt;/li&gt;
 &lt;li&gt;ELVES: Sharded Execution, Shared Security&lt;/li&gt;
+&lt;li&gt;Cost to attack&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ul&gt;
@@ -2350,7 +2351,7 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;tr&gt;
 &lt;td&gt;Optimistic Rollups W FP&lt;/td&gt;
 &lt;td&gt;✅&lt;/td&gt;
-&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌*&lt;/td&gt;
 &lt;td&gt;❌&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -2362,7 +2363,7 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;tr&gt;
 &lt;td&gt;SNARK  Rollups&lt;/td&gt;
 &lt;td&gt;✅&lt;/td&gt;
-&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌*&lt;/td&gt;
 &lt;td&gt;❌&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -2381,6 +2382,11 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;/table&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;close&quot; tabindex=&quot;-1&quot;&gt;Close&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Question: Which application is best suited to which computer?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Strong Opinions? Later ;)&lt;/p&gt;
+&lt;p&gt;Note:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I tried to keep this talk intentionally un-opinionated, but I do have &lt;em&gt;stronger opinions&lt;/em&gt; ;)
 &lt;ul&gt;
