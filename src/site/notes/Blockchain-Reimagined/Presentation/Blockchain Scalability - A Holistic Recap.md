@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T12:07:21.530+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T12:21:51.329+01:00"}
 ---
 
 
@@ -7,7 +7,6 @@
 
 - Hello 👋🏻
 - `@kianenigma / kianenigma.nl`
-
 - Polkadot for ~6 years
 - Re-discover the fundamentals of blockchains
 - I am here to solve industry-scale problems, not sell product
