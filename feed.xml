@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-10T11:22:58Z</updated>
+    <updated>2024-09-10T11:32:47Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -2128,7 +2128,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Blockchain Scalability - A Holistic Recap
                 
             </title>
-            <updated>2024-09-10T11:21:51.329Z</updated>
+            <updated>2024-09-10T11:27:22.959Z</updated>
             <id>https://blog.kianenigma.nl//blockchain-reimagined/presentation-tum/</id>
             <content type="html">
                 &lt;h2 id=&quot;prelude&quot; tabindex=&quot;-1&quot;&gt;Prelude&lt;/h2&gt;
@@ -2159,41 +2159,41 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;p&gt;Why do we trust each?&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;In Revolut, there is, in principle, as little as one computer, owned by Revolut, processes this transaction, and we trust the outcome of that, because of all the legal regulations around banking, government, law enforcements etc.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;In the bitcoin network, we &lt;em&gt;&lt;strong&gt;synthesize a new type of trust&lt;/strong&gt;&lt;/em&gt;, that is less based on social norms and central power, and more based on science, and is therefore verify-able, namely: mathematics, game theory and economics.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A big part of this &amp;quot;&lt;em&gt;based on science&lt;/em&gt;&amp;quot; is the fact that in a network like Bitcoin:&lt;/p&gt;
+&lt;li&gt;In Revolut, there is, in principle, as little as one computer, owned by Revolut, processes a transaction, and we trust the outcome of that, because of all the legal regulations around banking, government, law enforcements etc.&lt;/li&gt;
+&lt;li&gt;In the bitcoin network, we &lt;em&gt;&lt;strong&gt;synthesize a new type of trust&lt;/strong&gt;&lt;/em&gt;, that is not based on social-norms, central-power, and law-enforcement, and is instead more based on branches of science, and is therefore &lt;strong&gt;verifiable&lt;/strong&gt;, namely: mathematics, game theory and economics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We don&#39;t trust a hash function to be one-way because a certain nation has a strong military, it is one way no matter who you are, and where you live.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;a large number of actors can be the authority&lt;/li&gt;
-&lt;li&gt;and many others, can check what that authority has done.
+&lt;li&gt;A big part of this &amp;quot;&lt;em&gt;based on branches science&lt;/em&gt;&amp;quot; is the fact that in a network like Bitcoin:
 &lt;ul&gt;
-&lt;li&gt;We call this collective of nodes the above two groups &amp;quot;Validators&amp;quot;.&lt;/li&gt;
+&lt;li&gt;a large number of actors can be the authority, each taking turn in become the &lt;strong&gt;leader&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;and many others, can check what that &lt;strong&gt;leader&lt;/strong&gt; has done
+&lt;ul&gt;
+&lt;li&gt;We call this collective of the above two groups of entities &amp;quot;Validators&amp;quot;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;All validators have skin in the game -&amp;gt; Economic Security&lt;/li&gt;
-&lt;li&gt;All other nodes can observe and re-verify the behavior of validators.&lt;/li&gt;
+&lt;li&gt;All other nodes can observe and re-verify the behavior of validators&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;validator-set&quot; tabindex=&quot;-1&quot;&gt;Validator Set&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/bi_cpu_models.png&quot; alt=&quot;bi_cpu_models.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Is One Massive, &lt;em&gt;&lt;strong&gt;SLOW&lt;/strong&gt;&lt;/em&gt;, &lt;strong&gt;TRUSTWORTHY&lt;/strong&gt; CPU&lt;/p&gt;
+&lt;p&gt;Is One Massive, &lt;em&gt;&lt;strong&gt;SLOW&lt;/strong&gt;&lt;/em&gt;, &lt;strong&gt;TRUSTWORTHY&lt;/strong&gt; Computer&lt;/p&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;And a key reason why blockchains have a hard time scaling: All validator&#39;s at the simplest model, have to re-execute everyone else&#39;s work, and come to consensus/finality about it.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Question: Which CPU model is good, or perhaps good for which use cases? idk, deeper philosophical question.&lt;/p&gt;
-&lt;p&gt;Question statement: &lt;strong&gt;How can I make the Web3 CPU go faster?&lt;/strong&gt; and while doing so, am I am compromising on the trust-worthy-ness of it?&lt;/p&gt;
+&lt;p&gt;Question: Which Computer model is good, or perhaps good for which use cases? idk, deeper philosophical question.&lt;/p&gt;
+&lt;p&gt;Question statement: &lt;strong&gt;How can I make the Web3 Computer go faster?&lt;/strong&gt; and while doing so, am I am compromising on the trust-worthy-ness of it?&lt;/p&gt;
 &lt;p&gt;This is the core issue we try to tackle, how can we remove this property of &amp;quot;everyone re-executes everything&amp;quot;.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;scaling-options&quot; tabindex=&quot;-1&quot;&gt;Scaling Options&lt;/h2&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/hyperopt.png&quot; alt=&quot;hyperopt.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/hyperopt.png&quot; alt=&quot;Excalidraw/blockchain-reimagined/hyperopt.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Brute force / Cutting corners?&lt;/li&gt;
 &lt;/ul&gt;
