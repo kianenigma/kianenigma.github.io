@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T14:00:06.935+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T16:11:00.817+01:00"}
 ---
 
 
@@ -16,7 +16,7 @@
 - Hello 👋🏻 `@kianenigma / kianenigma.nl`
 - Polkadot for ~6 years
 - Re-discover the fundamentals of blockchains
-- I am here to solve industry-scale problems, not sell product
+- I am here to solve industry-scale problems, not *sell a product*
 
 Notes: 
 
@@ -29,8 +29,8 @@ Notes:
 
 ## Owning Digital Money 
 
-- €1000 in Revolut (🔫👮🧑‍⚖️⛪️)
-- €1000 in the Bitcoin network (🧮 ♾️)
+- €1000 in Revolut (🔫👮🧑‍⚖️⛪️ -> Trust)
+- €1000 in the Bitcoin network (🧮 ♾️ -> Verifiable trust)
 - Economically secured validators doing redundant work 💰
 
 Notes: 
@@ -108,8 +108,9 @@ Notes:
 
 ![cynical.png](/img/user/Excalidraw/blockchain-reimagined/cynical.png)
 
-- FP Is embedded, and proactive / Fast finality
+- FP Is proactive and secure / Fast finality / Validator room analogy 
 - ELVES: Sharded Execution, Shared Security 
+- Cost to attack
 
 Notes:
 - Fraud prover is my neighboring validator, and is ***as secure as I am***. 
@@ -198,18 +199,25 @@ This is a big deal, and a step forward in the space of sharded blockchain.
 | ------------------------ | ------------------------- | -------------------------------- | ----------------- |
 | Hyper Optimized Networks | ✅                         | N/A                              | ✅                 |
 | Sharded Multi Chain      | ✅                         | ❌                                | ❌                 |
-| Optimistic Rollups W FP  | ✅                         | ❌                                | ❌                 |
+| Optimistic Rollups W FP  | ✅                         | ❌*                               | ❌                 |
 | Optimistic Rollups WO FP | ❌                         | ❌                                | ❌                 |
-| SNARK  Rollups           | ✅                         | ❌                                | ❌                 |
+| SNARK  Rollups           | ✅                         | ❌*                               | ❌                 |
 | Cynical Rollups          | ✅                         | ✅                                | ❌                 |
 | JAM                      | ✅                         | ✅                                | ✅*                |
 
 ---
 ## Close
 
+> *Question: Which application is best suited to which computer?* 
+
+
+Strong Opinions? Later ;) 
+
+Note: 
 - I tried to keep this talk intentionally un-opinionated, but I do have *stronger opinions* ;) 
 	- Come talk to me afterwards, or perhaps the panel later today.
 - Full talk with notes: [https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/](https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/)
+
 
 ---
 ## Appendix
