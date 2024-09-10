@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-10T11:32:47Z</updated>
+    <updated>2024-09-10T12:42:02Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -2128,10 +2128,18 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Blockchain Scalability - A Holistic Recap
                 
             </title>
-            <updated>2024-09-10T11:27:22.959Z</updated>
+            <updated>2024-09-10T12:40:49.354Z</updated>
             <id>https://blog.kianenigma.nl//blockchain-reimagined/presentation-tum/</id>
             <content type="html">
-                &lt;h2 id=&quot;prelude&quot; tabindex=&quot;-1&quot;&gt;Prelude&lt;/h2&gt;
+                &lt;style&gt;
+.reveal .slides section img { 
+	max-height: 70vh; /* Limit image height to 70% of the viewport height */ 
+	width: auto; /* Maintain aspect ratio */ 
+	 border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+	 padding: 20px;
+}
+&lt;/style&gt;
+&lt;h2 id=&quot;prelude&quot; tabindex=&quot;-1&quot;&gt;Prelude&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Hello 👋🏻&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;@kianenigma / kianenigma.nl&lt;/code&gt;&lt;/li&gt;
@@ -2193,7 +2201,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;hr /&gt;
 &lt;h2 id=&quot;scaling-options&quot; tabindex=&quot;-1&quot;&gt;Scaling Options&lt;/h2&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/hyperopt.png&quot; alt=&quot;Excalidraw/blockchain-reimagined/hyperopt.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/hyperopt.png&quot; alt=&quot;hyperopt.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Brute force / Cutting corners?&lt;/li&gt;
 &lt;/ul&gt;
@@ -2208,6 +2216,17 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;ul&gt;
 &lt;li&gt;Sharding Security and Capital / Limited Capital / Communication&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Note:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cosmos&#39; original view&lt;/li&gt;
+&lt;li&gt;There&#39;s only limited capital in the world, shard execution, and economic security.&lt;/li&gt;
+&lt;li&gt;Multi chains, in general real to a multitude of issues:
+&lt;ul&gt;
+&lt;li&gt;🐢 Slow and asynchronous communication&lt;/li&gt;
+&lt;li&gt;💴 vs 💰 / 🥷: varying degrees of economic security, leading to a the weakest link issue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/optimistic.png&quot; alt=&quot;optimistic.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2215,9 +2234,13 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;little overhead on the base security layer, scales well and is basically free/very-cheap.&lt;/li&gt;
+&lt;li&gt;little overhead on the base security layer, scales well:
+&lt;ul&gt;
+&lt;li&gt;New rollup, in the absence of fraud, no overhead on L1 in terms of execution, only DA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;slow finality&lt;/li&gt;
-&lt;li&gt;In the presence of fraud proofs, it is secure. In the lack of of fraud proofs, it is not at all.&lt;/li&gt;
+&lt;li&gt;In the presence of fraud proofs, it is secure. In the lack of of fraud proofs, it is a non-starter because it fully loses touch with the initial assumption of &amp;quot;the system is secure because of the L1 validators&#39; economic security&amp;quot;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/cynical.png&quot; alt=&quot;cynical.png&quot; /&gt;&lt;/p&gt;
@@ -2227,10 +2250,17 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/ul&gt;
 &lt;p&gt;Notes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fraud prover is my neighboring validator, and is as secure as I am. Fraud prover is proactively asked to check my work.&lt;/li&gt;
-&lt;li&gt;In case of escalation, all. Hydra analogy.&lt;/li&gt;
+&lt;li&gt;Fraud prover is my neighboring validator, and is &lt;em&gt;&lt;strong&gt;as secure as I am&lt;/strong&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Fraud prover is &lt;em&gt;&lt;strong&gt;proactively&lt;/strong&gt;&lt;/em&gt; asked to check my work.&lt;/li&gt;
+&lt;li&gt;In case of escalation, all validators participate. Hydra analogy.&lt;/li&gt;
 &lt;li&gt;This leads, through game theoretic and economic rules into a system that is functionally equivalent to &lt;strong&gt;Shared Security, but sharded execution&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;ELVES: The cost of attacking any of the L2s in this model, is as high as the cost of attacking the entire L1.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eprint.iacr.org/2024/961&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ELVES&lt;/a&gt;: The cost of attacking any of the L2s in this model, is as high as the cost of attacking the entire L1.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://x.com/rphmeier/status/1807884271157187007&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;x.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Optimistic: Go to the room of validators, and if after 2 weeks no one says that something was wrong, you are good.&lt;/li&gt;
+&lt;li&gt;Cynical: Go to the room of validators, and ask 5 random validators out of 1000 what they think. Then ask 5 more random ones what they think of the&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/asym.png&quot; alt=&quot;asym.png&quot; /&gt;&lt;/p&gt;
