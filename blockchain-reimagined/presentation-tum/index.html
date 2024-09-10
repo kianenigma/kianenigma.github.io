@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Gallery</title>
+<title>Blockchain Scalability - A Holistic Recap</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -86,7 +86,7 @@ CTRL + K
 <span class="foldername">Presentation</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink">
+<div @click.stop class="notelink active-note">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/blockchain-reimagined/presentation-tum/">Blockchain Scalability - A Holistic Recap </a>
 </div>
 </div>
@@ -150,7 +150,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/gallery/">Gallery </a>
 </div>
 </div>
@@ -316,28 +316,258 @@ CTRL + K
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-09-10T11:13:15.937Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-09-10T11:13:15.937Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-09-10T11:13:15.937Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
-<main class="content cm-s-obsidian gallery">
+<main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Gallery</h1>
+<h1 data-note-icon="">Blockchain Scalability - A Holistic Recap</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-03-30T16:43:00.000+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-07-28T15:39:33.390+01:00"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-09-08T13:01:24.988+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-09-10T12:07:21.530+01:00"></span></div></div></div>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </header>
-<blockquote>
-<p>WIP: <a href="https://github.com/oleeskild/obsidian-digital-garden/issues/568" target="_blank" class="external-link">https://github.com/oleeskild/obsidian-digital-garden/issues/568</a></p>
-</blockquote>
-<p><img src="/img/user/resources/gallery/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg" alt="17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg"><br>
-<img src="/img/user/resources/gallery/7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg" alt="7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg"><br>
-<img src="/img/user/resources/gallery/5014238E-B244-47D0-962F-323B7371B3D6_1_105_c.jpeg" alt="5014238E-B244-47D0-962F-323B7371B3D6_1_105_c.jpeg"></p>
-<pre><code class="language-img-gallery">path: resources/gallery
-type: vertical
-radius: 8
-gutter: 12
-</code></pre>
+<h2 id="prelude" tabindex="-1">Prelude</h2>
+<ul>
+<li>
+<p>Hello 👋🏻</p>
+</li>
+<li>
+<p><code>@kianenigma / kianenigma.nl</code></p>
+</li>
+<li>
+<p>Polkadot for ~6 years</p>
+</li>
+<li>
+<p>Re-discover the fundamentals of blockchains</p>
+</li>
+<li>
+<p>I am here to solve industry-scale problems, not sell product</p>
+</li>
+</ul>
+<p>Notes:</p>
+<ol>
+<li>I am a core engineer of Polkadot.</li>
+<li>On a journey to re-discover the fundamentals of blockchains. This talk is part of my journey.
+<ul>
+<li><em>Purpose-dysphoria</em></li>
+</ul>
+</li>
+<li>Academic talk, not selling anything. Not talking much about Polkadot (<em>very little</em>)</li>
+</ol>
+<hr>
+<h2 id="owning-digital-money" tabindex="-1">Owning Digital Money</h2>
+<ul>
+<li>€1000 in Revolut (🔫👮🧑‍⚖️⛪️)</li>
+<li>€1000 in the Bitcoin network (🧮 ♾️)</li>
+<li>Economically secured validators doing redundant work 💰</li>
+</ul>
+<p>Notes:</p>
+<p>Why do we trust each?</p>
+<ul>
+<li>
+<p>In Revolut, there is, in principle, as little as one computer, owned by Revolut, processes this transaction, and we trust the outcome of that, because of all the legal regulations around banking, government, law enforcements etc.</p>
+</li>
+<li>
+<p>In the bitcoin network, we <em><strong>synthesize a new type of trust</strong></em>, that is less based on social norms and central power, and more based on science, and is therefore verify-able, namely: mathematics, game theory and economics.</p>
+</li>
+<li>
+<p>A big part of this &quot;<em>based on science</em>&quot; is the fact that in a network like Bitcoin:</p>
+<ul>
+<li>a large number of actors can be the authority</li>
+<li>and many others, can check what that authority has done.
+<ul>
+<li>We call this collective of nodes the above two groups &quot;Validators&quot;.</li>
+</ul>
+</li>
+<li>All validators have skin in the game -&gt; Economic Security</li>
+<li>All other nodes can observe and re-verify the behavior of validators.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="validator-set" tabindex="-1">Validator Set</h2>
+<p><img src="/img/user/Excalidraw/blockchain-reimagined/bi_cpu_models.png" alt="bi_cpu_models.png"></p>
+<p>Is One Massive, <em><strong>SLOW</strong></em>, <strong>TRUSTWORTHY</strong> CPU</p>
+<p>Notes:</p>
+<ul>
+<li>And a key reason why blockchains have a hard time scaling: All validator's at the simplest model, have to re-execute everyone else's work, and come to consensus/finality about it.</li>
+</ul>
+<p>Question: Which CPU model is good, or perhaps good for which use cases? idk, deeper philosophical question.</p>
+<p>Question statement: <strong>How can I make the Web3 CPU go faster?</strong> and while doing so, am I am compromising on the trust-worthy-ness of it?</p>
+<p>This is the core issue we try to tackle, how can we remove this property of &quot;everyone re-executes everything&quot;.</p>
+<hr>
+<h2 id="scaling-options" tabindex="-1">Scaling Options</h2>
+<hr>
+<p><img src="/img/user/Excalidraw/blockchain-reimagined/hyperopt.png" alt="hyperopt.png"></p>
+<ul>
+<li>Brute force / Cutting corners?</li>
+</ul>
+<p>Note:</p>
+<ul>
+<li>Somewhat like brute forcing it.</li>
+<li>Needs careful consideration of how much of trust-worthiness of the original model it retains.</li>
+<li><a href="https://report.helius.dev/" target="_blank" class="external-link">Solana - How it Works (Helius)</a></li>
+</ul>
+<hr>
+<p><img src="/img/user/Excalidraw/blockchain-reimagined/shardingsecyurity.png" alt="shardingsecyurity.png"></p>
+<ul>
+<li>Sharding Security and Capital / Limited Capital / Communication</li>
+</ul>
+<hr>
+<p><img src="/img/user/Excalidraw/blockchain-reimagined/optimistic.png" alt="optimistic.png"></p>
+<ul>
+<li>Scales well / Slow finality / ⚠️ Need FP / Fragmented</li>
+</ul>
+<p>Notes:</p>
+<ul>
+<li>little overhead on the base security layer, scales well and is basically free/very-cheap.</li>
+<li>slow finality</li>
+<li>In the presence of fraud proofs, it is secure. In the lack of of fraud proofs, it is not at all.</li>
+</ul>
+<hr>
+<p><img src="/img/user/Excalidraw/blockchain-reimagined/cynical.png" alt="cynical.png"></p>
+<ul>
+<li>FP Is embedded, and proactive / Fast finality</li>
+<li>ELVES: Sharded Execution, Shared Security</li>
+</ul>
+<p>Notes:</p>
+<ul>
+<li>Fraud prover is my neighboring validator, and is as secure as I am. Fraud prover is proactively asked to check my work.</li>
+<li>In case of escalation, all. Hydra analogy.</li>
+<li>This leads, through game theoretic and economic rules into a system that is functionally equivalent to <strong>Shared Security, but sharded execution</strong>.</li>
+<li>ELVES: The cost of attacking any of the L2s in this model, is as high as the cost of attacking the entire L1.</li>
+</ul>
+<hr>
+<p><img src="/img/user/Excalidraw/blockchain-reimagined/asym.png" alt="asym.png"></p>
+<ul>
+<li>Secure, Expensive</li>
+</ul>
+<p>Notes:</p>
+<ul>
+<li><a href="https://www.rob.tech/blog/coprocessor-competition/" target="_blank" class="external-link">Coprocessor Market Structure: Cryptoeconomic vs ZK | rob.tech</a></li>
+<li><a href="https://www.youtube.com/watch?v=SQWgrfCwVkk&amp;list=PLa81rqLujkvsdo5XXCfE6mp0XmYzXtSKU&amp;index=9" target="_blank" class="external-link">4.1 Heated Pannel: Programmable Crypto (ZK) v.s. Programmable Trust (Restaking) - YouTube</a></li>
+<li><a href="https://a16zcrypto.com/posts/article/a-technical-faq-on-lasso-jolt-and-recent-advancements-in-snark-design/" target="_blank" class="external-link">A technical FAQ on Lasso, Jolt, and recent advancements in SNARK design - a16z crypto</a></li>
+</ul>
+<hr>
+<p><img src="/img/user/Excalidraw/blockchain-reimagined/polkadot.png" alt="polkadot.png"></p>
+<ul>
+<li>Cores, Parachains</li>
+</ul>
+<p>Notes:</p>
+<ul>
+<li><a href="https://ethresear.ch/t/bringing-polkadot-tech-to-ethereum/17104" target="_blank" class="external-link">Bringing Polkadot tech to Ethereum - Layer 2 - Ethereum Research</a></li>
+</ul>
+<ol>
+<li>Higher Cost, an inevitability of the proactiveness of the security that Polkadot offers</li>
+<li>Shorter time to finality</li>
+<li>Possibility of implementing SPREE</li>
+<li>No weakest link issue.</li>
+</ol>
+<hr>
+<h3 id="polkadot-2-0" tabindex="-1">Polkadot 2.0</h3>
+<ul>
+<li>Make the usage of cores more flexible:
+<ul>
+<li>Agile and On-demand</li>
+<li>Elastic Scaling</li>
+<li>Lower Block Times, 0.5 parachains are coming</li>
+</ul>
+</li>
+</ul>
+<p>Notes:</p>
+<hr>
+<p><img src="/img/user/Excalidraw/blockchain-reimagined/jam.png" alt="jam.png"></p>
+<ul>
+<li>Gutting and exposing Polkadot's core abilities.</li>
+</ul>
+<p>Notes:</p>
+<p>JAM is a gutting of Polkadot that exposes:</p>
+<ol>
+<li>DA</li>
+<li>Onchain</li>
+<li>In-Core</li>
+</ol>
+<p>To the user of each core.</p>
+<hr>
+<h3 id="jam-2" tabindex="-1">JAM (2)</h3>
+<p>Why is JAM a big deal, and a step forward?</p>
+<div class="callout" data-callout="error"><div class="callout-title"><div class="callout-title-inner">Error</div></div>
+<div class="callout-content">
+<p>
+Persistent Fragmentation ❌</p>
+</div></div>
+<p>Notes:</p>
+<p>All models so far suffer from a property that we can call persistent fragmentation. The state associated with each application must live within the boundaries of its own walled garden.</p>
+<p>Through access to DA, and a fully unspecified scheduling, application that run on JAM (Services) need not suffer from persistent fragmentation, should they wish to.</p>
+<p>This is a big deal, and a step forward in the space of sharded blockchain.</p>
+<hr>
+<h2 id="summary" tabindex="-1">Summary</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th></th>
+<th>Economically Secure? 💻💰</th>
+<th>Homogenous Economic Security 🥷</th>
+<th>Fragmented?<br>🐢</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hyper Optimized Networks</td>
+<td>✅</td>
+<td>N/A</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Sharded Multi Chain</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Optimistic Rollups W FP</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Optimistic Rollups WO FP</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>SNARK Rollups</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Cynical Rollups</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>JAM</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅*</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<h2 id="opinions" tabindex="-1">Opinions</h2>
+<ul>
+<li>I tried to keep this talk intentionally un-opinionated, but I do have more strong opinions ;)</li>
+<li>Come talk to me afterwards, or perhaps the panel later today.</li>
+</ul>
+<hr>
+<h2 id="appendix" tabindex="-1">Appendix</h2>
+<ul>
+<li>I merged PoW and PoS fully, and I argue PoW is a specialized case of PoS in which stake is paid in hardware. Come change my mind.</li>
+</ul>
 <div>
 <script src="https://giscus.app/client.js" data-repo="kianenigma/kianenigma.github.io" data-repo-id="R_kgDOKLv3jQ" data-category="General" data-category-id="DIC_kwDOKLv3jc4ChPIy" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async></script>
 </div>
@@ -345,10 +575,43 @@ gutter: 12
 <aside>
 <div class="sidebar">
 <div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#prelude">Prelude</a>
+</li>
+<li><a href="#owning-digital-money">Owning Digital Money</a>
+</li>
+<li><a href="#validator-set">Validator Set</a>
+</li>
+<li><a href="#scaling-options">Scaling Options</a>
+<ol>
+<li><a href="#polkadot-2-0">Polkadot 2.0</a>
+</li>
+<li><a href="#jam-2">JAM (2)</a>
+</li>
+</ol>
+</li>
+<li><a href="#summary">Summary</a>
+</li>
+<li><a href="#opinions">Opinions</a>
+</li>
+<li><a href="#appendix">Appendix</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/" data-note-icon="" class="backlink">Home</a>
-</div><div class="backlink-card"><i icon-name="link"></i><a href="/posts/posts-index/" data-note-icon="" class="backlink">Posts Index</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 <script>async function fetchGraphData(){const e=await fetch("/graph.json").then((e=>e.json()));return{graphData:e,fullGraphData:filterFullGraphData(e)}}function getNextLevelNeighbours(e,t){const n=Object.values(e).map((e=>e.neighbors)).flat();return Object.keys(t).reduce(((r,l)=>(-1!=n.indexOf(l)?t[l].hide||(e[l]=t[l]):r[l]=t[l],r)),{})}function filterLocalGraphData(e,t){if(null==e)return null;let n=JSON.parse(JSON.stringify(e.nodes)),r=JSON.parse(JSON.stringify(e.links)),l=n[decodeURI(window.location.pathname)]||Object.values(n).find((e=>e.home));if(delete n[l.url],!l.home){delete n[Object.values(n).find((e=>e.home)).url]}l.current=!0;let i={};i[l.url]=l;for(let e=0;e<t;e++)n=getNextLevelNeighbours(i,n);nodes=Object.values(i),l.home||(nodes=nodes.filter((e=>!e.home)));let o=nodes.map((e=>e.id));return{nodes:nodes,links:r.filter((function(e){return o.indexOf(e.target)>-1&&o.indexOf(e.source)>-1}))}}function getCssVar(e){return getComputedStyle(document.body).getPropertyValue(e)}function htmlDecode(e){return(new DOMParser).parseFromString(e,"text/html").documentElement.textContent}function renderGraph(e,t,n,r){if(null==e)return;const l=document.getElementById(t);width=l.offsetWidth,height=l.offsetHeight;const i=new Set;let o=null;const a=getCssVar("--graph-main"),s=getCssVar("--graph-muted");let u=ForceGraph()(l).graphData(e).nodeId("id").nodeLabel("title").linkSource("source").linkTarget("target").d3AlphaDecay(.1).width(width).height(height).linkDirectionalArrowLength(2).linkDirectionalArrowRelPos(.5).autoPauseRedraw(!1).linkColor((e=>null==o||e.source.id==o.id||e.target.id==o.id?a:s)).nodeCanvasObject(((e,t)=>{const n=e.neighbors&&e.neighbors.length||2,r=Math.min(7,Math.max(n/2,2));t.beginPath(),t.arc(e.x,e.y,r,0,2*Math.PI,!1),null==o||e==o||i.has(e.url)?t.fillStyle=a:t.fillStyle=s,t.fill(),e.current&&(t.beginPath(),t.arc(e.x,e.y,r+1,0,2*Math.PI,!1),t.lineWidth=.5,t.strokeStyle=a,t.stroke());const l=htmlDecode(e.title);t.font="3.5px Sans-Serif",t.textAlign="center",t.textBaseline="top",t.fillText(l,e.x,e.y+r+2)})).onNodeClick((e=>{window.location=e.url})).onNodeHover((e=>{i.clear(),e&&(i.add(e),e.neighbors.forEach((e=>i.add(e)))),o=e||null}));return(r||null!=n&&e.nodes.length>4)&&setTimeout((()=>{u.zoomToFit(5,75)}),n||200),u}function renderLocalGraph(e,t,n){window.graph&&window.graph._destructor();return renderGraph(filterLocalGraphData(e,t),"link-graph",null,n)}function filterFullGraphData(e){if(null==e)return null;e=JSON.parse(JSON.stringify(e));const t=Object.values(e.nodes).filter((e=>e.hide)).map((e=>e.id));return{links:JSON.parse(JSON.stringify(e.links)).filter((e=>-1==t.indexOf(e.source)&&-1==t.indexOf(e.target))),nodes:[...Object.values(e.nodes).filter((e=>!e.hide))]}}function openFullGraph(e){return lucide.createIcons({attrs:{class:["svg-icon"]}}),renderGraph(e,"full-graph-container",200,!1)}function closefullGraph(e){return e&&e._destructor(),null}</script>

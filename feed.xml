@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-09T12:40:39Z</updated>
+    <updated>2024-09-10T11:13:16Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -34,19 +34,19 @@
 &lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/phragmen-overview/&quot;&gt;Phragmén Overview&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/substrate-debug-kit/&quot;&gt;Substrate Debug Kit&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/persian-introduction-to-polkadot/&quot;&gt;(Persian) Introduction to Polkadot&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2:05 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/phragmen-for-polkadot-s-n-po-s/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/phragmen-overview/&quot;&gt;Phragmén Overview&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.nl/talks/substrate-debug-kit/&quot;&gt;Substrate Debug Kit&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -2125,11 +2125,263 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
         </entry>
         <entry>
             <title>
+                Blockchain Scalability - A Holistic Recap
+                
+            </title>
+            <updated>2024-09-10T11:07:21.530Z</updated>
+            <id>https://blog.kianenigma.nl//blockchain-reimagined/presentation-tum/</id>
+            <content type="html">
+                &lt;h2 id=&quot;prelude&quot; tabindex=&quot;-1&quot;&gt;Prelude&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hello 👋🏻&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;@kianenigma / kianenigma.nl&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Polkadot for ~6 years&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Re-discover the fundamentals of blockchains&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I am here to solve industry-scale problems, not sell product&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I am a core engineer of Polkadot.&lt;/li&gt;
+&lt;li&gt;On a journey to re-discover the fundamentals of blockchains. This talk is part of my journey.
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Purpose-dysphoria&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Academic talk, not selling anything. Not talking much about Polkadot (&lt;em&gt;very little&lt;/em&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;owning-digital-money&quot; tabindex=&quot;-1&quot;&gt;Owning Digital Money&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;€1000 in Revolut (🔫👮🧑‍⚖️⛪️)&lt;/li&gt;
+&lt;li&gt;€1000 in the Bitcoin network (🧮 ♾️)&lt;/li&gt;
+&lt;li&gt;Economically secured validators doing redundant work 💰&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;p&gt;Why do we trust each?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In Revolut, there is, in principle, as little as one computer, owned by Revolut, processes this transaction, and we trust the outcome of that, because of all the legal regulations around banking, government, law enforcements etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the bitcoin network, we &lt;em&gt;&lt;strong&gt;synthesize a new type of trust&lt;/strong&gt;&lt;/em&gt;, that is less based on social norms and central power, and more based on science, and is therefore verify-able, namely: mathematics, game theory and economics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A big part of this &amp;quot;&lt;em&gt;based on science&lt;/em&gt;&amp;quot; is the fact that in a network like Bitcoin:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a large number of actors can be the authority&lt;/li&gt;
+&lt;li&gt;and many others, can check what that authority has done.
+&lt;ul&gt;
+&lt;li&gt;We call this collective of nodes the above two groups &amp;quot;Validators&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;All validators have skin in the game -&amp;gt; Economic Security&lt;/li&gt;
+&lt;li&gt;All other nodes can observe and re-verify the behavior of validators.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;validator-set&quot; tabindex=&quot;-1&quot;&gt;Validator Set&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/bi_cpu_models.png&quot; alt=&quot;bi_cpu_models.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Is One Massive, &lt;em&gt;&lt;strong&gt;SLOW&lt;/strong&gt;&lt;/em&gt;, &lt;strong&gt;TRUSTWORTHY&lt;/strong&gt; CPU&lt;/p&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;And a key reason why blockchains have a hard time scaling: All validator&#39;s at the simplest model, have to re-execute everyone else&#39;s work, and come to consensus/finality about it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Question: Which CPU model is good, or perhaps good for which use cases? idk, deeper philosophical question.&lt;/p&gt;
+&lt;p&gt;Question statement: &lt;strong&gt;How can I make the Web3 CPU go faster?&lt;/strong&gt; and while doing so, am I am compromising on the trust-worthy-ness of it?&lt;/p&gt;
+&lt;p&gt;This is the core issue we try to tackle, how can we remove this property of &amp;quot;everyone re-executes everything&amp;quot;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;scaling-options&quot; tabindex=&quot;-1&quot;&gt;Scaling Options&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/hyperopt.png&quot; alt=&quot;hyperopt.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brute force / Cutting corners?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Somewhat like brute forcing it.&lt;/li&gt;
+&lt;li&gt;Needs careful consideration of how much of trust-worthiness of the original model it retains.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://report.helius.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Solana - How it Works (Helius)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/shardingsecyurity.png&quot; alt=&quot;shardingsecyurity.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sharding Security and Capital / Limited Capital / Communication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/optimistic.png&quot; alt=&quot;optimistic.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scales well / Slow finality / ⚠️ Need FP / Fragmented&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;little overhead on the base security layer, scales well and is basically free/very-cheap.&lt;/li&gt;
+&lt;li&gt;slow finality&lt;/li&gt;
+&lt;li&gt;In the presence of fraud proofs, it is secure. In the lack of of fraud proofs, it is not at all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/cynical.png&quot; alt=&quot;cynical.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FP Is embedded, and proactive / Fast finality&lt;/li&gt;
+&lt;li&gt;ELVES: Sharded Execution, Shared Security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fraud prover is my neighboring validator, and is as secure as I am. Fraud prover is proactively asked to check my work.&lt;/li&gt;
+&lt;li&gt;In case of escalation, all. Hydra analogy.&lt;/li&gt;
+&lt;li&gt;This leads, through game theoretic and economic rules into a system that is functionally equivalent to &lt;strong&gt;Shared Security, but sharded execution&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;ELVES: The cost of attacking any of the L2s in this model, is as high as the cost of attacking the entire L1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/asym.png&quot; alt=&quot;asym.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Secure, Expensive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rob.tech/blog/coprocessor-competition/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Coprocessor Market Structure: Cryptoeconomic vs ZK | rob.tech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SQWgrfCwVkk&amp;amp;list=PLa81rqLujkvsdo5XXCfE6mp0XmYzXtSKU&amp;amp;index=9&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;4.1 Heated Pannel: Programmable Crypto (ZK) v.s. Programmable Trust (Restaking) - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://a16zcrypto.com/posts/article/a-technical-faq-on-lasso-jolt-and-recent-advancements-in-snark-design/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;A technical FAQ on Lasso, Jolt, and recent advancements in SNARK design - a16z crypto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/polkadot.png&quot; alt=&quot;polkadot.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cores, Parachains&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ethresear.ch/t/bringing-polkadot-tech-to-ethereum/17104&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bringing Polkadot tech to Ethereum - Layer 2 - Ethereum Research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Higher Cost, an inevitability of the proactiveness of the security that Polkadot offers&lt;/li&gt;
+&lt;li&gt;Shorter time to finality&lt;/li&gt;
+&lt;li&gt;Possibility of implementing SPREE&lt;/li&gt;
+&lt;li&gt;No weakest link issue.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;polkadot-2-0&quot; tabindex=&quot;-1&quot;&gt;Polkadot 2.0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Make the usage of cores more flexible:
+&lt;ul&gt;
+&lt;li&gt;Agile and On-demand&lt;/li&gt;
+&lt;li&gt;Elastic Scaling&lt;/li&gt;
+&lt;li&gt;Lower Block Times, 0.5 parachains are coming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/jam.png&quot; alt=&quot;jam.png&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gutting and exposing Polkadot&#39;s core abilities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;p&gt;JAM is a gutting of Polkadot that exposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;DA&lt;/li&gt;
+&lt;li&gt;Onchain&lt;/li&gt;
+&lt;li&gt;In-Core&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To the user of each core.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;jam-2&quot; tabindex=&quot;-1&quot;&gt;JAM (2)&lt;/h3&gt;
+&lt;p&gt;Why is JAM a big deal, and a step forward?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!error]&lt;br /&gt;
+Persistent Fragmentation ❌&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;p&gt;All models so far suffer from a property that we can call persistent fragmentation. The state associated with each application must live within the boundaries of its own walled garden.&lt;/p&gt;
+&lt;p&gt;Through access to DA, and a fully unspecified scheduling, application that run on JAM (Services) need not suffer from persistent fragmentation, should they wish to.&lt;/p&gt;
+&lt;p&gt;This is a big deal, and a step forward in the space of sharded blockchain.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;summary&quot; tabindex=&quot;-1&quot;&gt;Summary&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Economically Secure? 💻💰&lt;/th&gt;
+&lt;th&gt;Homogenous Economic Security  🥷&lt;/th&gt;
+&lt;th&gt;Fragmented?&lt;br /&gt;🐢&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Hyper Optimized Networks&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sharded Multi Chain&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Optimistic Rollups W FP&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Optimistic Rollups WO FP&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SNARK  Rollups&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cynical Rollups&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;JAM&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;✅*&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;opinions&quot; tabindex=&quot;-1&quot;&gt;Opinions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I tried to keep this talk intentionally un-opinionated, but I do have more strong opinions ;)&lt;/li&gt;
+&lt;li&gt;Come talk to me afterwards, or perhaps the panel later today.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;appendix&quot; tabindex=&quot;-1&quot;&gt;Appendix&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I merged PoW and PoS fully, and I argue PoW is a specialized case of PoS in which stake is paid in hardware. Come change my mind.&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.nl//blockchain-reimagined/presentation-tum/" />
+        </entry>
+        <entry>
+            <title>
                 Blockchain Reimagined
                 
             </title>
-            <updated>2024-08-22T21:54:28.346Z</updated>
-            <id>https://blog.kianenigma.nl//blockchain-reimagined/</id>
+            <updated>2024-09-08T17:04:51.156Z</updated>
+            <id>https://blog.kianenigma.nl//blockchains-reimagined/</id>
             <content type="html">
                 &lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 &lt;ul&gt;
@@ -2170,6 +2422,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/ul&gt;
 
             </content>
-            <link href="https://blog.kianenigma.nl//blockchain-reimagined/" />
+            <link href="https://blog.kianenigma.nl//blockchains-reimagined/" />
         </entry>
 </feed>
