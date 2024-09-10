@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-10T12:42:02Z</updated>
+    <updated>2024-09-10T13:01:17Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -2128,7 +2128,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Blockchain Scalability - A Holistic Recap
                 
             </title>
-            <updated>2024-09-10T12:40:49.354Z</updated>
+            <updated>2024-09-10T13:00:06.935Z</updated>
             <id>https://blog.kianenigma.nl//blockchain-reimagined/presentation-tum/</id>
             <content type="html">
                 &lt;style&gt;
@@ -2141,8 +2141,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/style&gt;
 &lt;h2 id=&quot;prelude&quot; tabindex=&quot;-1&quot;&gt;Prelude&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Hello 👋🏻&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@kianenigma / kianenigma.nl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Hello 👋🏻 &lt;code&gt;@kianenigma / kianenigma.nl&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Polkadot for ~6 years&lt;/li&gt;
 &lt;li&gt;Re-discover the fundamentals of blockchains&lt;/li&gt;
 &lt;li&gt;I am here to solve industry-scale problems, not sell product&lt;/li&gt;
@@ -2381,10 +2380,14 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr /&gt;
-&lt;h2 id=&quot;opinions&quot; tabindex=&quot;-1&quot;&gt;Opinions&lt;/h2&gt;
+&lt;h2 id=&quot;close&quot; tabindex=&quot;-1&quot;&gt;Close&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;I tried to keep this talk intentionally un-opinionated, but I do have more strong opinions ;)&lt;/li&gt;
+&lt;li&gt;I tried to keep this talk intentionally un-opinionated, but I do have &lt;em&gt;stronger opinions&lt;/em&gt; ;)
+&lt;ul&gt;
 &lt;li&gt;Come talk to me afterwards, or perhaps the panel later today.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Full talk with notes: &lt;a href=&quot;https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;appendix&quot; tabindex=&quot;-1&quot;&gt;Appendix&lt;/h2&gt;
