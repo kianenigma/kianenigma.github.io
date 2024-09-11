@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-10T20:58:50.200+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-11T11:08:21.202+01:00"}
 ---
 
 
@@ -219,7 +219,10 @@ This is a big deal, and a step forward in the space of sharded blockchain.
 
 > How can we build a system that is not a time-bomb towards the next black swan event? 
 
-Strong Opinions? Later ;) 
+- Strong Opinions? Later ;) 
+- Talk + Recording
+	- https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/
+	- https://www.loom.com/share/af03a7963a7b4df3a9ab2cc9dcd7d346?sid=acc935f6-30b2-4eb7-8a5d-1a4e40ae3350
 
 Note: 
 - I tried to keep this talk intentionally un-opinionated, but I do have *stronger opinions* ;) 
