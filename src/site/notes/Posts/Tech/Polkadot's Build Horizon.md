@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/polkadot-s-build-horizon/","contentClasses":"build-map","tags":["polkadot"],"created":"2024-03-16T13:10:43.000+00:00","updated":"2024-08-29T22:26:25.000+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/polkadot-s-build-horizon/","contentClasses":"build-map","tags":["polkadot"],"created":"2024-03-16T14:10:43.000+01:00","updated":"2024-08-29T23:26:25.000+02:00"}
 ---
 
 This write-up explains what Polkadot is at 4+1 different levels for Builders, in a color coded fashion: 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","tags":["polkadot","polkadot-sdk"],"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-08-05T09:43:52.793+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","tags":["polkadot","polkadot-sdk"],"created":"2024-07-10T11:48:36.533+02:00","updated":"2024-08-05T10:43:52.793+02:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T13:01:24.988+01:00","updated":"2024-09-11T11:08:21.202+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T14:01:24.988+02:00","updated":"2024-09-12T08:11:35.664+02:00"}
 ---
 
 
@@ -11,6 +11,12 @@
 	 padding: 20px;
 }
 </style>
+
+# Blockchain Scalability 
+
+A Holistic Recap
+
+---
 ## Prelude 
 
 - Hello 👋🏻 `@kianenigma / kianenigma.nl`
@@ -29,10 +35,10 @@ Notes:
 
 ## Owning Digital Money 
 
-- €1000 in Revolut (🔫👮🧑‍⚖️⛪️ -> Trust)
-- €1000 in the Bitcoin network (🧮 ♾️ -> Verifiable trust)
-- Economically secured validators doing redundant work 💰
-
+- €1000 in Revolut (🔫👮🧑‍⚖️⛪️ -> *Conditional Trust*)
+- €1000 in the Bitcoin network (🧮 ♾️ -> *Synthesizes Verifiable Trust*)
+- Economically secured validators (💻💰) doing redundant work 
+ 
 Notes: 
 
 Why do we trust each? 
@@ -50,11 +56,11 @@ Why do we trust each?
 	- All other nodes can observe and re-verify the behavior of validators
 
 ---
-## Validator Set
+## Secure Validator Set Working Together 
 
 ![bi_cpu_models.png](/img/user/Excalidraw/blockchain-reimagined/bi_cpu_models.png)
 
-Is One Massive, ***SLOW***, **TRUSTWORTHY** Computer 
+Is one massive, ***SLOW***, **TRUSTWORTHY** computer.
 
 Notes: 
 
@@ -72,7 +78,8 @@ This is the core issue we try to tackle, how can we remove this property of "eve
 ---
 
 ![hyperopt.png](/img/user/Excalidraw/blockchain-reimagined/hyperopt.png)
-- Vertical scaling / Cutting corners?
+- `+` No fragmentation
+- `-` Vertical scaling / Cutting corners? 
 
 Note: 
 - Somewhat like brute forcing it. 
@@ -82,7 +89,7 @@ Note:
 ---
 
 ![shardingsecyurity.png](/img/user/Excalidraw/blockchain-reimagined/shardingsecyurity.png)
-- Sharding Security and Capital / Limited Capital 
+- `-` Sharding Security and Capital / Limited Capital 
 
 Note: 
 
@@ -96,7 +103,7 @@ Note:
 ![optimistic.png](/img/user/Excalidraw/blockchain-reimagined/optimistic.png)
 
 - `-` Slow finality / ⚠️ Need FP / Fragmented
-- `+`  Scaling (Execution, DA)
+- `+`  Little overhead on L1 (Execution, DA)
 
 Notes:
 
@@ -110,8 +117,8 @@ Notes:
 
 ![cynical.png](/img/user/Excalidraw/blockchain-reimagined/cynical.png)
 
-- `+` FP Is proactive and secure /  MUCH faster finality / Homogenous security 
-- `-` proactiveness is *not free*, but still scales vert well
+- `+` FP Is proactive and secure /  FAST finality / 🥷🔫 HOMOGENOUS security 
+- `-` proactiveness is *not free*, but still scales well
 - ELVES / Sharded Execution, Shared Security  / "Validator waiting room" analogy 
 
 Notes:
@@ -121,6 +128,7 @@ Notes:
 - This leads, through game theoretic and economic rules into a system that is functionally equivalent to **Shared Security, but sharded execution**. 
 - [ELVES](https://eprint.iacr.org/2024/961): The cost of attacking any of the L2s in this model, is as high as the cost of attacking the entire L1. 
 	- [x.com](https://x.com/rphmeier/status/1807884271157187007)
+	- [Jeff Burdges (Web3 Foundation) - " WIP: Efficient Block-Auditing for Blockchains" - YouTube](https://www.youtube.com/watch?v=C1teIFTSphE)
 - Optimistic: Go to the room of validators, and if after 2 weeks no one says that something was wrong, you are good. 
 - Cynical: Go to the room of validators, and ask 5 random validators out of 1000 what they think. Then ask 5 more random ones what they think of the
 
@@ -130,7 +138,7 @@ Notes:
 ![asym.png](/img/user/Excalidraw/blockchain-reimagined/asym.png)
 
 - `+` Secure
-- `-` Expensive to produce proofs, Generality
+- `-` Expensive to prove, Generality
 
 Notes:
 - [Coprocessor Market Structure: Cryptoeconomic vs ZK | rob.tech](https://www.rob.tech/blog/coprocessor-competition/)
@@ -202,32 +210,31 @@ This is a big deal, and a step forward in the space of sharded blockchain.
 ---
 ## Summary 
 
-|                          | Economically Secure? 💻💰 | Homogenous Economic Security  🥷 | Fragmented?<br>🐢 |
-| ------------------------ | ------------------------- | -------------------------------- | ----------------- |
-| Hyper Optimized Networks | ✅*                        | N/A                              | ✅                 |
-| Sharded Multi Chain      | ✅📉                       | ❌                                | ❌                 |
-| Optimistic Rollups W FP  | ✅                         | ❌*                               | ❌                 |
-| Optimistic Rollups WO FP | ❌                         | ❌                                | ❌                 |
-| SNARK  Rollups           | ✅                         | ❌*                               | ❌                 |
-| Cynical Rollups          | ✅                         | ✅                                | ❌                 |
-| JAM                      | ✅                         | ✅                                | ✅*                |
+|                     | Economically Secure? 💻💰 | Homogenous Economic Security  🥷 | Fragmented?<br>🐢 |
+| ------------------- | ------------------------- | -------------------------------- | ----------------- |
+| Hyper Optimized     | ✅ 🙈                      | N/A                              | ✅                 |
+| Sharded MC          | ✅ 📉                      | ❌                                | ❌                 |
+| Optimistic RU W FP  | ✅                         | ❌ ~ ✅                            | ❌                 |
+| Optimistic RU WO FP | ❌                         | ❌                                | ❌                 |
+| SNARK  Rollups      | ✅                         | ❌ ~ ✅                            | ❌                 |
+| Cynical Rollups     | ✅                         | ✅                                | ❌                 |
+| JAM                 | ✅                         | ✅                                | ✅*                |
 
 ---
 ## Close
 
 > *Question: Which application is best suited to which computer?* 
 
-> How can we build a system that is not a time-bomb towards the next black swan event? 
+> *How can we build a system that **are faster** but are not a time-bomb waiting for the next black swan event?* 
 
 - Strong Opinions? Later ;) 
 - Talk + Recording
 	- https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/
-	- https://www.loom.com/share/af03a7963a7b4df3a9ab2cc9dcd7d346?sid=acc935f6-30b2-4eb7-8a5d-1a4e40ae3350
 
 Note: 
 - I tried to keep this talk intentionally un-opinionated, but I do have *stronger opinions* ;) 
 	- Come talk to me afterwards, or perhaps the panel later today.
-- Full talk with notes: [https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/](https://blog.kianenigma.nl/blockchain-reimagined/presentation-tum/)
+- [TUM Dry Run](https://www.loom.com/share/af03a7963a7b4df3a9ab2cc9dcd7d346?sid=acc935f6-30b2-4eb7-8a5d-1a4e40ae3350)
 
 
 ---

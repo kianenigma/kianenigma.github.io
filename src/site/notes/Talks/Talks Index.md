@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2024-08-21T21:08:28.387+01:00"}
+{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T11:34:59.884+02:00","updated":"2024-08-21T22:08:28.387+02:00"}
 ---
 
 

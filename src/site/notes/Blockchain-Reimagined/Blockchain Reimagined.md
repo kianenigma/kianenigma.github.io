@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchains-reimagined/","permalink":"/blockchains-reimagined/","hide":true,"created":"2024-07-12T16:35:17.118+01:00","updated":"2024-09-08T18:04:51.156+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchains-reimagined/","permalink":"/blockchains-reimagined/","hide":true,"created":"2024-07-12T17:35:17.118+02:00","updated":"2024-09-08T19:04:51.156+02:00"}
 ---
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

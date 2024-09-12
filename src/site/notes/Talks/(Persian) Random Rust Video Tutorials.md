@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/persian-random-rust-video-tutorials/","created":"2023-08-28T14:02:32.000+01:00","updated":"2023-08-28T14:02:32.955+01:00"}
+{"dg-publish":true,"permalink":"/talks/persian-random-rust-video-tutorials/","created":"2023-08-28T15:02:32.000+02:00","updated":"2023-08-28T15:02:32.955+02:00"}
 ---
 
 
