@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T14:01:24.988+02:00","updated":"2024-09-12T08:11:35.664+02:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","created":"2024-09-08T14:01:24.988+02:00","updated":"2024-09-12T23:14:48.986+02:00"}
 ---
 
 
@@ -84,6 +84,8 @@ This is the core issue we try to tackle, how can we remove this property of "eve
 Note: 
 - Somewhat like brute forcing it. 
 - Needs careful consideration of how much of trust-worthiness of the original model it retains. 
+	- Not having merklized state -> no light clients ever
+	- Hardware requirements to run the network beyond what an individual can ever afford. 
 - [Solana - How it Works (Helius)](https://report.helius.dev/)
 
 ---
@@ -152,7 +154,6 @@ Notes:
 - Cores, Parachains
 
 Notes:
-
 - [Bringing Polkadot tech to Ethereum - Layer 2 - Ethereum Research](https://ethresear.ch/t/bringing-polkadot-tech-to-ethereum/17104)
 1. Higher Cost, an inevitability of the proactiveness of the security that Polkadot offers
 2. Shorter time to finality
@@ -166,10 +167,6 @@ Notes:
 	- Agile and On-demand
 	- Elastic Scaling
 	- Lower Block Times, 0.5 parachains are coming
-
-Notes: 
-
-
 
 ---
 
@@ -225,7 +222,7 @@ This is a big deal, and a step forward in the space of sharded blockchain.
 
 > *Question: Which application is best suited to which computer?* 
 
-> *How can we build a system that **are faster** but are not a time-bomb waiting for the next black swan event?* 
+> *How can we build systems that **are faster** but are not a time-bomb waiting for the next black swan event?* 
 
 - Strong Opinions? Later ;) 
 - Talk + Recording
