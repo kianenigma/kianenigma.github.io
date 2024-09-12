@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.nl//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.nl/" />
-    <updated>2024-09-12T21:14:06Z</updated>
+    <updated>2024-09-12T21:15:20Z</updated>
     <id>https://blog.kianenigma.nl/</id>
         <entry>
             <title>
@@ -2128,7 +2128,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Blockchain Scalability - A Holistic Recap
                 
             </title>
-            <updated>2024-09-12T06:11:35.664Z</updated>
+            <updated>2024-09-12T21:14:48.986Z</updated>
             <id>https://blog.kianenigma.nl//blockchain-reimagined/presentation-tum/</id>
             <content type="html">
                 &lt;style&gt;
@@ -2211,7 +2211,12 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;p&gt;Note:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Somewhat like brute forcing it.&lt;/li&gt;
-&lt;li&gt;Needs careful consideration of how much of trust-worthiness of the original model it retains.&lt;/li&gt;
+&lt;li&gt;Needs careful consideration of how much of trust-worthiness of the original model it retains.
+&lt;ul&gt;
+&lt;li&gt;Not having merklized state -&amp;gt; no light clients ever&lt;/li&gt;
+&lt;li&gt;Hardware requirements to run the network beyond what an individual can ever afford.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://report.helius.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Solana - How it Works (Helius)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
@@ -2307,7 +2312,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Notes:&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.nl/img/user/Excalidraw/blockchain-reimagined/jam.png&quot; alt=&quot;jam.png&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2397,7 +2401,7 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Question: Which application is best suited to which computer?&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;How can we build a system that &lt;strong&gt;are faster&lt;/strong&gt; but are not a time-bomb waiting for the next black swan event?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;How can we build systems that &lt;strong&gt;are faster&lt;/strong&gt; but are not a time-bomb waiting for the next black swan event?&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Strong Opinions? Later ;)&lt;/li&gt;
