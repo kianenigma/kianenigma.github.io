@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/polkadot-s-nominated-proof-of-stake/","created":"2023-08-28T15:03:35.000+02:00","updated":"2024-08-21T14:44:20.136+02:00"}
+{"dg-publish":true,"permalink":"/talks/polkadot-s-nominated-proof-of-stake/","created":"2023-08-28T14:03:35.000+01:00","updated":"2024-08-21T13:44:20.136+01:00"}
 ---
 
 ..Past, Present, and the Future.
