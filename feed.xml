@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2024-09-18T20:35:40Z</updated>
+    <updated>2024-09-18T20:37:39Z</updated>
     <id>https://blog.kianenigma.com/</id>
         <entry>
             <title>
@@ -2042,13 +2042,13 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-09-18T20:25:31.864Z</updated>
+            <updated>2024-09-18T20:30:35.395Z</updated>
             <id>https://blog.kianenigma.com//</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.com/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/about/&quot;&gt;About&lt;/a&gt; | &lt;a href=&quot;https://blog.kianenigma.com/feed.xml&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;RSS Feed&lt;/a&gt; | &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/talks-index/&quot;&gt;Talks&lt;/a&gt; | &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/posts-index/&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div style=&quot;align: center&quot;&gt;
+&lt;/div&gt;
+&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;About&lt;/a&gt; | [RSS Feed](./feed.xml) | &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Talks&lt;/a&gt; | &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Posts&lt;/a&gt;
 &lt;h2 id=&quot;latest-post&quot; tabindex=&quot;-1&quot;&gt;Latest Post&lt;/h2&gt;
 &lt;table class=&quot;block-language-dataview&quot;&gt;
 &lt;thead&gt;
@@ -2401,7 +2401,7 @@ Persistent Fragmentation ❌&lt;/p&gt;
                 Blockchain Reimagined
                 
             </title>
-            <updated>2024-09-08T17:04:51.156Z</updated>
+            <updated>2024-09-13T19:35:12.983Z</updated>
             <id>https://blog.kianenigma.com//blockchains-reimagined/</id>
             <content type="html">
                 &lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
@@ -2414,6 +2414,7 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Prelude&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Part 1: Blockchain Basics.
 &lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;What Is This All About?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;The Search for Authority&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Verifiable Distributed Systems&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Proof of Work&lt;/a&gt;&lt;/li&gt;
@@ -2440,7 +2441,24 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; Blockchain Newsletters, news outlets.&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; Share with book publishers that have already published anything about blockchain&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; Blockchain Podcasts, Any other influencer.&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; Short form video clips narrated&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; ability to tip me!&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&quot;brain-dumps-after-blockchain-reimagined-presentation-blockchain-scalability-a-holistic-recap-blockchain-scalability-a-holistic-recap&quot; tabindex=&quot;-1&quot;&gt;Brain Dumps after &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/blockchain-reimagined/presentation-tum/&quot;&gt;Blockchain Scalability - A Holistic Recap&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DLTs broadly provide:
+&lt;ul&gt;
+&lt;li&gt;Execution of some code that:
+&lt;ul&gt;
+&lt;li&gt;Always happen and cannot be sensorred&lt;/li&gt;
+&lt;li&gt;Happens correctly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Audit-ability of history. This is where the blockchain dat structure comes into play.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A punch line I should think about is: Is a system that was formerly fully based on human trust, and now is partially based on human trust better?&lt;/p&gt;
 
             </content>
             <link href="https://blog.kianenigma.com//blockchains-reimagined/" />
