@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2024-09-18T20:50:45Z</updated>
+    <updated>2024-09-18T20:52:24Z</updated>
     <id>https://blog.kianenigma.com/</id>
         <entry>
             <title>
@@ -2042,14 +2042,14 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-09-18T20:49:52.736Z</updated>
+            <updated>2024-09-18T20:51:34.490Z</updated>
             <id>https://blog.kianenigma.com//</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.com/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 &lt;div style=&quot;align: center&quot;&gt;
 &lt;/div&gt;
 &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;About&lt;/a&gt; | [RSS Feed](./feed.xml) | &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Talks&lt;/a&gt; | &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Posts&lt;/a&gt;
-&lt;h2 id=&quot;latest-posts&quot; tabindex=&quot;-1&quot;&gt;Latest Posts&lt;/h2&gt;
+&lt;h2 id=&quot;latest-post&quot; tabindex=&quot;-1&quot;&gt;Latest Post&lt;/h2&gt;
 &lt;table class=&quot;block-language-dataview&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2059,11 +2059,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/blockchain-reimagined/presentation-tum/&quot;&gt;Blockchain Scalability - A Holistic Recap&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2:01 PM - September 08, 2024&lt;/td&gt;
-&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/multichain-api/&quot;&gt;Multi-Chain SDK Vision&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;10:46 AM - September 04, 2024&lt;/td&gt;
@@ -2075,11 +2070,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/blockchains-reimagined/&quot;&gt;Blockchain Reimagined&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;4:35 PM - July 12, 2024&lt;/td&gt;
-&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/tech/on-documenting-polkadot-sdk/&quot;&gt;On Documenting polkadot-sdk&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;10:48 AM - July 10, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#polkadot&quot;&gt;#polkadot&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#polkadot-sdk&quot;&gt;#polkadot-sdk&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
@@ -2087,11 +2077,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/polkadot-blockchain-academy/pba-4-hong-kong/&quot;&gt;PBA4 Hong Kong&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;5:30 PM - June 27, 2024&lt;/td&gt;
-&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/runtime-function-onboarding-2024/&quot;&gt;Runtime Function Onboarding 2024&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;10:46 AM - June 26, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -2108,6 +2093,21 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;4:43 PM - March 30, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/personal/meta-cognition-framework/&quot;&gt;Meta Cognition Framework&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;10:33 AM - March 24, 2024&lt;/td&gt;
+&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/personal/the-price-of-change/&quot;&gt;The Price of Change&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9:30 PM - March 23, 2024&lt;/td&gt;
+&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot&#39;s Build Horizon&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;1:10 PM - March 16, 2024&lt;/td&gt;
+&lt;td&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#polkadot&quot;&gt;#polkadot&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
