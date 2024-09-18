@@ -4,6 +4,10 @@
                   {% for imp in dynamics.sidebar.top %}
                         {% include imp %}
                   {% endfor %}
+                  {%if settings.dgShowLocalGraph === true%}
+                        {%include "components/graphScript.njk"%}
+                  {%endif%}
+
                   {%if settings.dgShowToc === true%}
                         {%set tocHtml= (content and (content|toc)) %}
                         {%if tocHtml %}
@@ -18,7 +22,9 @@
                                     </div>
                               </div>
                         {%endif%}
+
                   {%endif%}
+
                         {%if settings.dgShowBacklinks === true %}
                               {%if settings.dgShowBacklinks === true %}
                               <div class="backlinks">
@@ -55,9 +61,6 @@
                               </div>
                         {%endif%}
                   {%endif%}
-				  {%if settings.dgShowLocalGraph === true%}
-					{%include "components/graphScript.njk"%}
-				{%endif%}
                   {% for imp in dynamics.sidebar.bottom %}
                         {% include imp %}
                   {% endfor %}
