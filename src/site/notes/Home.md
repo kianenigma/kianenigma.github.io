@@ -1,27 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T11:35:09.000+01:00","updated":"2024-09-05T22:11:06.624+02:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-09-18T21:25:31.864+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
-## 📝 About 
-- 🦀 Engineering Lead / Rust Core Developer [@paritytech](https://twitter.com/ParityTech/)
-	- Matrix: `@kianenigma:parity.io`
-	- Email: `hello at kianeingma dot nl`
-	- 🤖 Often found online with the name `@kianenigma`
-- 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kian-paimani-a3618022b/) | [ResearchGate](https://www.researchgate.net/profile/Kian-Paimani) | 
-- 📚 Parallel and Distributed Systems Msc. graduate from [Vrije Universiteit Amsterdam](https://twitter.com/VUamsterdam)
-	- Thesis: [GitHub - kianenigma/SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes 🚀.](https://github.com/kianenigma/SonicChain?tab=readme-ov-file)
-- 🔴 [Polkadot](https://www.polkadot.network) Fellow
-	- Polkadot Address: `1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE`
-	- Kusama Address: `HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1`
-- 🎧 [[Posts/Personal/Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
-- 📸 Personal [[Posts/Personal/Gallery\|Gallery]]
-- Made with [💎 Obsidian-Digital-Garden](https://github.com/oleeskild/Obsidian-Digital-Garden)
 
-## Keeping Up 
-- [RSS Feed](./feed.xml)
-- [Telegram Channel](https://t.me/+u0tGVT-QEyAyYWU0)
-## 📣 Latest Post 
+- [[About\|About]] | [RSS Feed](./feed.xml) | [[Talks/Talks Index\|Talks]] | [[Posts/Posts Index\|Posts]]
+
+## Latest Post 
 | File                                                                       | Created At                    | Tags                                              |
 | -------------------------------------------------------------------------- | ----------------------------- | ------------------------------------------------- |
 | [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]           | 10:46 AM - September 04, 2024 | <ul></ul>                                         |
@@ -32,7 +17,3 @@
 
 { .block-language-dataview}
 
-## 🪴 Garden Indices 
-The full, time sorted list of posts in this digital garden. 
-- [[Talks/Talks Index\|Talks Index]]
-- [[Posts/Posts Index\|Posts Index]]
