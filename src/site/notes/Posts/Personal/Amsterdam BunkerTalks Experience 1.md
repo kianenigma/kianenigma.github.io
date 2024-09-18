@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/amsterdam-bunker-talks-experience-1/","created":"2023-08-28T14:51:10.000+02:00","updated":"2023-08-28T14:51:10.493+02:00"}
+{"dg-publish":true,"permalink":"/posts/personal/amsterdam-bunker-talks-experience-1/","created":"2023-08-28T13:51:10.000+01:00","updated":"2023-08-28T13:51:10.493+01:00"}
 ---
 
 

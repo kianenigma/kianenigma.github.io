@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/multichain-api","permalink":"/multichain-api/","created":"2024-09-04T11:46:04.790+02:00","updated":"2024-09-04T12:59:40.023+02:00"}
+{"dg-publish":true,"dg-permalink":"/multichain-api","permalink":"/multichain-api/","created":"2024-09-04T10:46:04.790+01:00","updated":"2024-09-04T11:59:40.023+01:00"}
 ---
 
 A quick brain-dump around what I would describe as an API for the "Polkadot Network". 
