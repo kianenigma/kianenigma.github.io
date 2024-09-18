@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2024-09-18T19:36:57Z</updated>
+    <updated>2024-09-18T20:29:15Z</updated>
     <id>https://blog.kianenigma.com/</id>
         <entry>
             <title>
@@ -2042,41 +2042,14 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-09-05T20:11:06.624Z</updated>
+            <updated>2024-09-18T20:25:31.864Z</updated>
             <id>https://blog.kianenigma.com//</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.com/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;about&quot; tabindex=&quot;-1&quot;&gt;📝 About&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;🦀 Engineering Lead / Rust Core Developer &lt;a href=&quot;https://twitter.com/ParityTech/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;@paritytech&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Matrix: &lt;code&gt;@kianenigma:parity.io&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Email: &lt;code&gt;hello at kianeingma dot nl&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;🤖 Often found online with the name &lt;code&gt;@kianenigma&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;About&lt;/a&gt; | &lt;a href=&quot;https://blog.kianenigma.com/feed.xml&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;RSS Feed&lt;/a&gt; | &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/talks-index/&quot;&gt;Talks&lt;/a&gt; | &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/posts-index/&quot;&gt;Posts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;🐙 &lt;a href=&quot;https://github.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://twitter.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Twitter&lt;/a&gt;  | &lt;a href=&quot;https://www.linkedin.com/in/kian-paimani-a3618022b/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Linkedin&lt;/a&gt; | &lt;a href=&quot;https://www.researchgate.net/profile/Kian-Paimani&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ResearchGate&lt;/a&gt; |&lt;/li&gt;
-&lt;li&gt;📚 Parallel and Distributed Systems Msc. graduate from &lt;a href=&quot;https://twitter.com/VUamsterdam&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Vrije Universiteit Amsterdam&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Thesis: &lt;a href=&quot;https://github.com/kianenigma/SonicChain?tab=readme-ov-file&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;GitHub - kianenigma/SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes 🚀.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;🔴 &lt;a href=&quot;https://www.polkadot.network/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot&lt;/a&gt; Fellow
-&lt;ul&gt;
-&lt;li&gt;Polkadot Address: &lt;code&gt;1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Kusama Address: &lt;code&gt;HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;🎧 &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/playlist/&quot;&gt;Playlists&lt;/a&gt; - &lt;a href=&quot;https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Spotify&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📸 Personal &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Made with &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;💎 Obsidian-Digital-Garden&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;keeping-up&quot; tabindex=&quot;-1&quot;&gt;Keeping Up&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.kianenigma.com/feed.xml&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;RSS Feed&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://t.me/+u0tGVT-QEyAyYWU0&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Telegram Channel&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;latest-post&quot; tabindex=&quot;-1&quot;&gt;📣 Latest Post&lt;/h2&gt;
+&lt;h2 id=&quot;latest-post&quot; tabindex=&quot;-1&quot;&gt;Latest Post&lt;/h2&gt;
 &lt;table class=&quot;block-language-dataview&quot;&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2113,12 +2086,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&quot;garden-indices&quot; tabindex=&quot;-1&quot;&gt;🪴 Garden Indices&lt;/h2&gt;
-&lt;p&gt;The full, time sorted list of posts in this digital garden.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/talks-index/&quot;&gt;Talks Index&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/posts-index/&quot;&gt;Posts Index&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
             </content>
             <link href="https://blog.kianenigma.com//" />
