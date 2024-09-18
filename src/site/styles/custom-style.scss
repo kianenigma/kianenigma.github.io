@@ -1,13 +1,13 @@
+body {
+	font-family: "PT Serif"!important;
+}
+
 .homepage img {
-	border-radius: 100%;
+	border-radius: 100% !important;
 	width: 300px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-body {
-	font-family: "PT Serif"!important;
 }
 
 body .notelink.active-note {
@@ -32,6 +32,6 @@ body .notelink.active-note {
 	max-height: 100% !important;
 }
 
-// .filetree-sidebar {
-// 	width: 300px;
-// }
+.navbar-inner {
+	margin-left: 15px;
+}
