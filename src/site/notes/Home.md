@@ -1,11 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-09-18T21:51:34.490+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-09-18T21:52:43.059+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 
-<div style="align: center">
-</div>
 [[About\|About]] | [RSS Feed](./feed.xml) | [[Talks/Talks Index\|Talks]] | [[Posts/Posts Index\|Posts]]
 
 ## Latest Post 
