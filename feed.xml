@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2024-09-18T20:55:16Z</updated>
+    <updated>2024-09-20T09:15:59Z</updated>
     <id>https://blog.kianenigma.com/</id>
         <entry>
             <title>
@@ -2042,7 +2042,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
                 Home
                 
             </title>
-            <updated>2024-09-18T20:52:43.059Z</updated>
+            <updated>2024-09-20T09:15:22.266Z</updated>
             <id>https://blog.kianenigma.com//</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://blog.kianenigma.com/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg&quot; alt=&quot;Screenshot 2023-11-01 at 21.21.06.jpeg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
@@ -2057,6 +2057,11 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/blockchain-reimagined/presentation-tum/&quot;&gt;Blockchain Scalability - A Holistic Recap&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2:01 PM - September 08, 2024&lt;/td&gt;
+&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/multichain-api/&quot;&gt;Multi-Chain SDK Vision&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;10:46 AM - September 04, 2024&lt;/td&gt;
@@ -2101,11 +2106,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/personal/the-price-of-change/&quot;&gt;The Price of Change&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;9:30 PM - March 23, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/tech/polkadot-s-build-horizon/&quot;&gt;Polkadot&#39;s Build Horizon&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1:10 PM - March 16, 2024&lt;/td&gt;
-&lt;td&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#polkadot&quot;&gt;#polkadot&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
