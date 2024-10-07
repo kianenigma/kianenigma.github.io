@@ -42,30 +42,35 @@ We will repeatedly come back to these two points throughout this document.
 
 Let’s take a moment and introduce you to a non-exhaustive list of great things that function is currently working on, in the words of the maintainers themselves:
 
-> [!tldr]- Stability
+> Stability
+> 
 > Parity has a history of rug-pulling Polkadot builders with new technology one after the other 🙈 The [Stability](https://forum.polkadot.network/t/stabilizing-polkadot/7175) initiative is here to stop this. By introducing stable releases ([New Release Process](https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md)), a no-code Parachain node ([Omni-node](https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823)) and focusing generally more on improving existing features instead of adding new ones we are aiming for a smother experience for Polkadot builders.
 > 
 > Oliver, Liam and Kian
 
-> [!tldr]- XCM v5
-> [XCMv5](https://github.com/polkadot-fellows/xcm-format/issues/60) aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.
+> [XCMv5]
+>
+> (https://github.com/polkadot-fellows/xcm-format/issues/60) aims to improve developer and user experience for all cross-chain interactions. Its main features are seamless fee integration, facilities for claiming trapped assets and helper instructions for easier cross-chain transfers. This is the latest evolution of the XCM standard via the open RFC process.
 > 
 > Cisco
 
-> [!tldr]- Coretime Broker Pallet
+> Coretime Broker Pallet
+> 
 > This year Kusama and Polkadot transition away from the slot auction model to Agile Coretime. The Coretime Chain is a marketplace where NFTs representing various configurations of blockspace can be bought, manipulated and allocated. Coretime (bulk and on-demand) is now the only way to validate workloads on Polkadot.  The broker pallet contains all the logic for the primary market for blockspace, upon which secondary markets can be built and is the main part of the coretime chain. The specification is contained within [RFC-1](https://polkadot-fellows.github.io/RFCs/approved/0001-agile-coretime.html) and [RFC-5](https://polkadot-fellows.github.io/RFCs/approved/0005-coretime-interface.html), and you can find out more in our [Coretime FAQs](https://polkadot-public.notion.site/Agile-Coretime-FAQ-c930796e8c884011adb1fa24ef22f77c#4044ec0996054c48b3f8dde0eaca4584).
 > 
 > Donal
 
-> [!tldr]- People Chain
+> People Chain
+> 
 > The people chain is the place where real world identities are brought onto the blockchain. In other parts of the system (and blockchain in general), a lot of emphasis is put on *anonymity*; you are an account that interacts with other accounts. The people chain is where you can showcase your real world identity by linking your Polkadot account with various off-chain accounts such as Twitter, Discord, GitHub, email and more. 
 > 
 > This bridges a gap between on-chain and off-chain knowledge and allows users to introduce information from the outside world and securely use it for various on chain activities.
 > 
 > George
 
-> [!tldr]- Multi-Block Staking
->    Discover Polkadot's innovative validator election method using [NPoS](https://wiki.polkadot.network/docs/learn-phragmen). Dive deeper into our efforts to [scale the number of stakers](https://wiki.polkadot.network/docs/learn-nomination-pools) nominating on Polkadot. Join us as we [migrate staking functionalities](https://github.com/paritytech/polkadot-sdk/issues/491) from the relay chain to a system parachain.
+> Multi-Block Staking
+> 
+> Discover Polkadot's innovative validator election method using [NPoS](https://wiki.polkadot.network/docs/learn-phragmen). Dive deeper into our efforts to [scale the number of stakers](https://wiki.polkadot.network/docs/learn-nomination-pools) nominating on Polkadot. Join us as we [migrate staking functionalities](https://github.com/paritytech/polkadot-sdk/issues/491) from the relay chain to a system parachain.
 > 
 > Ankan and Goncalo
 
