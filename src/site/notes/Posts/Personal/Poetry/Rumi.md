@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"rumi","permalink":"/rumi/","created":"2024-03-10T14:43:42.000+00:00","updated":"2024-07-26T10:41:40.484+01:00"}
+{"dg-publish":true,"dg-permalink":"rumi","permalink":"/rumi/","created":"2024-03-10T14:43:42.000+00:00","updated":"2024-10-19T23:06:34.000+01:00"}
 ---
 
 
@@ -145,9 +145,7 @@ tâ hosh’yâri, be taa’me masti
 tâ tan nadahi, be jân parasti 
 tâ dar rah-e eshģ-e duust chon âtash o âb 
 az khod nashavi niist, be hasti naresi
-
 ## Art of Living
-
 We are lovers of love. Submission to a creed is something else. 
 We are poor ants, collecting love. 
 Solomon’s kingly life is something else. 

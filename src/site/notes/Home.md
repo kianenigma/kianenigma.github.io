@@ -9,8 +9,8 @@
 ## Latest 
 | File                                                                                                                           | Date                          | Tags                                              |
 | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- | ------------------------------------------------- |
-| [[Blockchain-Reimagined/Presentation/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]] | 2:01 PM - September 08, 2024  | <ul></ul>                                         |
-| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                               | 10:46 AM - September 04, 2024 | <ul></ul>                                         |
+| [[Blockchain-Reimagined/Presentation/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]] | 1:01 PM - September 08, 2024  | <ul><li>#blockchain</li><li>#polkadot</li></ul>   |
+| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                               | 10:46 AM - September 04, 2024 | <ul><li>#polkadot</li></ul>                       |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                      | 10:44 AM - July 26, 2024      | <ul></ul>                                         |
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                                     | 10:48 AM - July 10, 2024      | <ul><li>#polkadot</li><li>#polkadot-sdk</li></ul> |
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                                        | 5:30 PM - June 27, 2024       | <ul></ul>                                         |
