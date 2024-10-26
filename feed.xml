@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2024-10-25T09:04:02Z</updated>
+    <updated>2024-10-26T12:20:23Z</updated>
     <id>https://blog.kianenigma.com/</id>
         <entry>
             <title>
@@ -2422,16 +2422,15 @@ Persistent Fragmentation ❌&lt;/p&gt;
         </entry>
         <entry>
             <title>
-                Blockchain Reimagined
+                Blockchain-Reimagined
                 
             </title>
-            <updated>2024-10-15T21:28:51.442Z</updated>
+            <updated>2024-10-26T11:49:12.559Z</updated>
             <id>https://blog.kianenigma.com//blockchains-reimagined/</id>
             <content type="html">
                 &lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1UPmnISt8OH8CzgxbY2q9kX34rYP8Me-0qkLoiSXPyAQ/edit?usp=sharing&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Blockchain, Bitcoin, Polkadot, JAM: Lisbon Hangout - Google Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Blockchain, Bitcoin, Polkadot, JAM: Lisbon Hangout - Google Slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;toc&quot; tabindex=&quot;-1&quot;&gt;TOC&lt;/h2&gt;
 &lt;ul&gt;
@@ -2441,6 +2440,7 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;What Is This All About?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;More On Authorities&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Verifiable Distributed Systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Value Offering&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Proof of Work&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Proof of Work&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Conclusion:
@@ -2474,10 +2474,11 @@ Persistent Fragmentation ❌&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Execution of some code that:
 &lt;ul&gt;
-&lt;li&gt;Always happen and cannot be sensorred&lt;/li&gt;
-&lt;li&gt;Happens correctly.&lt;/li&gt;
+&lt;li&gt;Always happen and cannot be sensored&lt;/li&gt;
+&lt;li&gt;Happens correctly&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Order in which the correct code was executed&lt;/li&gt;
 &lt;li&gt;Audit-ability of history. This is where the blockchain dat structure comes into play.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
