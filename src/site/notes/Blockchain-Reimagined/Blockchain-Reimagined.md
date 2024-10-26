@@ -1,15 +1,20 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchains-reimagined/","permalink":"/blockchains-reimagined/","hide":true,"created":"2024-07-12T16:35:17.118+01:00","updated":"2024-10-26T12:49:12.559+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/","permalink":"/blockchain-reimagined/","hide":true,"created":"2024-07-12T16:35:17.118+01:00","updated":"2024-10-26T14:03:22.119+01:00"}
 ---
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 - [Blockchain, Bitcoin, Polkadot, JAM: Lisbon Hangout - Google Slides](https://docs.google.com/presentation/d/1UPmnISt8OH8CzgxbY2q9kX34rYP8Me-0qkLoiSXPyAQ/edit?usp=sharing)
-## TOC 
+## Table Of Content
 - [[Blockchain-Reimagined/Content/Prelude\|Prelude]]
 - Part 1: Blockchain Basics. 
 	- [[Blockchain-Reimagined/Content/What Is This All About?\|What Is This All About?]]
 	- [[Blockchain-Reimagined/Content/More On Authorities\|More On Authorities]]
+	- Execution, Ordering, History
+		- Authorities have some state, and perform mutations on it. We can be pretty sure that this mutation was then correct. 
+		- Imagine some computer program exists `f(x) -> y`. We either give it to an authority with human-based trust to execute it for us, or we give it to a blockchain like Ethereum to execute it for us. And we know that the execution in Ethereum is also correct. So this is "Verifiable execution of code". 
+		- But what if there are two branches of history, which conflict with one another, but each are correct in their own branch? 
+		- This is why verifiable execution is not enough, you also need to figure out the ordering, and from ordering you can derive the full history.  
 	- [[Blockchain-Reimagined/Content/Verifiable Distributed Systems\|Verifiable Distributed Systems]]
 	- [[Blockchain-Reimagined/Content/Value Offering\|Value Offering]]
 	- [[Blockchain-Reimagined/Content/Proof of Work\|Proof of Work]]
@@ -23,6 +28,7 @@
 
 Reading Checklist: 
 - [ ] The guy who was into classical distributed systems and blockchains
+- [ ] Don't be evil vs. Can't be evil. 
 
 Publication Checklist: 
 - [ ] Parity, Polkadot Twitter
