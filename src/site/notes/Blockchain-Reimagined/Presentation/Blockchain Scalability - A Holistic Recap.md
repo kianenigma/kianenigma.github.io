@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","hide":true,"tags":["blockchain","polkadot"],"created":"2024-09-08T13:01:24.988+01:00","updated":"2024-10-26T14:15:55.794+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","hide":true,"tags":["blockchain","polkadot"],"created":"2024-09-08T13:01:24.988+01:00","updated":"2024-11-05T14:59:35.330+00:00"}
 ---
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mSoA2HOQiC0?si=CuuiJaP3iKMpFDYl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <style>
 .reveal .slides section img { 
