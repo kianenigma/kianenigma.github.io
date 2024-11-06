@@ -1,35 +1,21 @@
 ---
-{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T10:35:08.540+01:00","updated":"2024-08-21T21:08:52.471+01:00"}
+{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T10:35:08.540+01:00","updated":"2024-11-06T17:45:35.923+00:00"}
 ---
 
 ## Tech 
 
-| File                                                                                                                                                   | Created At                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
-| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                                                       | 10:46 AM - September 04, 2024 |
-| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                                                             | 10:48 AM - July 10, 2024      |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                                                   | 2:38 PM - May 02, 2024        |
-| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]]                                                                                   | 1:10 PM - March 16, 2024      |
-| [[Posts/Tech/Thoughts Blockchain and Blockspace Scalability\|Thoughts Blockchain and Blockspace Scalability]]                                       | 1:37 PM - February 27, 2024   |
-| [[Posts/Tech/For Those Who Don't Want rust-analyzer: One Regex to rul them all\|For Those Who Don't Want rust-analyzer: One Regex to rul them all]] | 2:47 PM - August 31, 2023     |
-| [[Posts/Tech/The 10x Developer Myth: All About Keyboard\|The 10x Developer Myth: All About Keyboard]]                                               | 2:41 PM - August 31, 2023     |
+| Year | Name                                                                                                                                                                                                                                                                                                                                                                                                                                          | Date                                                                                                          |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 2023 | <ul><li>[[Posts/Tech/For Those Who Don't Want rust-analyzer: One Regex to rul them all.md\\|For Those Who Don't Want rust-analyzer: One Regex to rul them all]]</li><li>[[Posts/Tech/The 10x Developer Myth: All About Keyboard.md\\|The 10x Developer Myth: All About Keyboard]]</li></ul>                                                                                                                                                   | <ul><li>Aug 31 2023</li><li>Aug 31 2023</li></ul>                                                             |
+| 2024 | <ul><li>[[Posts/Tech/Multi-Chain SDK Vision.md\\|Multi-Chain SDK Vision]]</li><li>[[Posts/Tech/On Documenting polkadot-sdk.md\\|On Documenting polkadot-sdk]]</li><li>[[Posts/Tech/Demystifying JAM.md\\|Demystifying JAM]]</li><li>[[Posts/Tech/Polkadot's Build Horizon.md\\|Polkadot's Build Horizon]]</li><li>[[Posts/Tech/Thoughts Blockchain and Blockspace Scalability.md\\|Thoughts Blockchain and Blockspace Scalability]]</li></ul> | <ul><li>Sep 04 2024</li><li>Jul 10 2024</li><li>May 02 2024</li><li>Mar 16 2024</li><li>Feb 27 2024</li></ul> |
 
 { .block-language-dataview}
 
 ## Personal 
 
-| File                                                                                                                       | Created At                  |
-| -------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                  | 10:44 AM - July 26, 2024    |
-| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                     | 4:45 PM - March 30, 2024    |
-| [[Posts/Personal/Gallery\|Gallery]]                                                                                     | 4:43 PM - March 30, 2024    |
-| [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                                                   | 10:33 AM - March 24, 2024   |
-| [[Posts/Personal/The Price of Change\|The Price of Change]]                                                             | 9:30 PM - March 23, 2024    |
-| [[Posts/Personal/Playlists\|Playlists]]                                                                                 | 1:10 PM - March 16, 2024    |
-| [[Posts/Personal/Poetry/Rumi\|Rumi]]                                                                                    | 2:43 PM - March 10, 2024    |
-| [[Posts/Personal/My Thoughts On Iran's Political Situation in 2022\|My Thoughts On Iran's Political Situation in 2022]] | 8:23 AM - December 27, 2023 |
-| [[Posts/Personal/Amsterdam BunkerTalks Experience 1\|Amsterdam BunkerTalks Experience 1]]                               | 1:51 PM - August 28, 2023   |
-| [[Posts/Personal/An Open Letter to Panic Buyers\|An Open Letter to Panic Buyers]]                                       | 1:48 PM - August 28, 2023   |
-| [[Posts/Personal/An Open Letter to Javad Zarif\|An Open Letter to Javad Zarif]]                                         | 1:47 PM - August 28, 2023   |
+| Year | Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Date                                                                                                                                                  |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2023 | <ul><li>[[Posts/Personal/My Thoughts On Iran's Political Situation in 2022.md\\|My Thoughts On Iran's Political Situation in 2022]]</li><li>[[Posts/Personal/Amsterdam BunkerTalks Experience 1.md\\|Amsterdam BunkerTalks Experience 1]]</li><li>[[Posts/Personal/An Open Letter to Panic Buyers.md\\|An Open Letter to Panic Buyers]]</li><li>[[Posts/Personal/An Open Letter to Javad Zarif.md\\|An Open Letter to Javad Zarif]]</li></ul>                                               | <ul><li>Dec 27 2023</li><li>Aug 28 2023</li><li>Aug 28 2023</li><li>Aug 28 2023</li></ul>                                                             |
+| 2024 | <ul><li>[[Posts/Personal/Poetry/Sa'di.md\\|Sa'di]]</li><li>[[Posts/Personal/Uneducated, Unaffiliated, Disinterested.md\\|Uneducated, Unaffiliated, Disinterested]]</li><li>[[Posts/Personal/Gallery.md\\|Gallery]]</li><li>[[Posts/Personal/Meta Cognition Framework.md\\|Meta Cognition Framework]]</li><li>[[Posts/Personal/The Price of Change.md\\|The Price of Change]]</li><li>[[Posts/Personal/Playlists.md\\|Playlists]]</li><li>[[Posts/Personal/Poetry/Rumi.md\\|Rumi]]</li></ul> | <ul><li>Jul 26 2024</li><li>Mar 30 2024</li><li>Mar 30 2024</li><li>Mar 24 2024</li><li>Mar 23 2024</li><li>Mar 16 2024</li><li>Mar 10 2024</li></ul> |
 
 { .block-language-dataview}

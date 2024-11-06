@@ -1,20 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2024-08-21T21:08:28.387+01:00"}
+{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2024-11-06T17:46:05.550+00:00"}
 ---
 
 
-| File                                                                                                   | Created At                   |
-| ------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                 | 5:33 PM - November 06, 2024  |
-| [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                     | 3:43 PM - November 06, 2024  |
-| [[Talks/2024/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]] | 1:01 PM - September 08, 2024 |
-| [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024      |
-| [[Talks/Farsi/Introduction to Polkadot\|Introduction to Polkadot]]                                  | 2:05 PM - August 28, 2023    |
-| [[Talks/2022/Nomination Pools\|Nomination Pools]]                                                   | 2:03 PM - August 28, 2023    |
-| [[Talks/2021/Polkadot's Nominated Proof of Stake\|Polkadot's Nominated Proof of Stake]]             | 2:03 PM - August 28, 2023    |
-| [[Talks/2020/Phragmén for Polkadot's NPoS\|Phragmén for Polkadot's NPoS]]                           | 2:03 PM - August 28, 2023    |
-| [[Talks/2020/Phragmén Overview\|Phragmén Overview]]                                                 | 2:03 PM - August 28, 2023    |
-| [[Talks/2020/Substrate Debug Kit\|Substrate Debug Kit]]                                             | 2:03 PM - August 28, 2023    |
-| [[Talks/Farsi/Random Rust Video Tutorials\|Random Rust Video Tutorials]]                            | 2:02 PM - August 28, 2023    |
+| Year | Name                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Date                                                                                                                                                  |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2023 | <ul><li>[[Talks/Farsi/Introduction to Polkadot.md\\|Introduction to Polkadot]]</li><li>[[Talks/2022/Nomination Pools.md\\|Nomination Pools]]</li><li>[[Talks/2021/Polkadot's Nominated Proof of Stake.md\\|Polkadot's Nominated Proof of Stake]]</li><li>[[Talks/2020/Phragmén for Polkadot's NPoS.md\\|Phragmén for Polkadot's NPoS]]</li><li>[[Talks/2020/Phragmén Overview.md\\|Phragmén Overview]]</li><li>[[Talks/2020/Substrate Debug Kit.md\\|Substrate Debug Kit]]</li><li>[[Talks/Farsi/Random Rust Video Tutorials.md\\|Random Rust Video Tutorials]]</li></ul> | <ul><li>Aug 28 2023</li><li>Aug 28 2023</li><li>Aug 28 2023</li><li>Aug 28 2023</li><li>Aug 28 2023</li><li>Aug 28 2023</li><li>Aug 28 2023</li></ul> |
+| 2024 | <ul><li>[[Talks/2024/Polkadot-SDK FRAME @ 2024.md\\|Polkadot-SDK FRAME @ 2024]]</li><li>[[Talks/2024/Demystifying JAM - Presentation.md\\|Demystifying JAM - Presentation]]</li><li>[[Talks/2024/Blockchain Scalability - A Holistic Recap.md\\|Blockchain Scalability - A Holistic Recap]]</li><li>[[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong.md\\|PBA4 Hong Kong]]</li></ul>                                                                                                                                                                                    | <ul><li>Nov 06 2024</li><li>Nov 06 2024</li><li>Sep 08 2024</li><li>Jun 27 2024</li></ul>                                                             |
 
 { .block-language-dataview}
