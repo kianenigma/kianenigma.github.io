@@ -35,7 +35,7 @@ Publication Checklist:
 - [ ] ability to tip me! 
 
 
-## Brain Dumps after [[Talks/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]]
+## Brain Dumps after [[Talks/2024/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]]
 
 - DLTs broadly provide: 
 	- Execution of some code that: 
