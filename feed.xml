@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2024-11-06T17:27:20Z</updated>
+    <updated>2024-11-06T17:38:09Z</updated>
     <id>https://blog.kianenigma.com/</id>
         <entry>
             <title>
@@ -22,6 +22,10 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/frame-2024/&quot;&gt;Polkadot-SDK FRAME @ 2024&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5:33 PM - November 06, 2024&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/tech/demystifying-jam/presentation/&quot;&gt;Demystifying JAM - Presentation&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;3:43 PM - November 06, 2024&lt;/td&gt;
 &lt;/tr&gt;
@@ -34,23 +38,23 @@
 &lt;td&gt;5:30 PM - June 27, 2024&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/nomination-pools/&quot;&gt;Nomination Pools&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/polkadot-s-nominated-proof-of-stake/&quot;&gt;Polkadot&#39;s Nominated Proof of Stake&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3:03 PM - August 28, 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/persian-introduction-to-polkadot/&quot;&gt;(Persian) Introduction to Polkadot&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/fa/polkadot/&quot;&gt;Introduction to Polkadot&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2:05 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen-for-polkadot-s-n-po-s/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/nomination-pools/&quot;&gt;Nomination Pools&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen-overview/&quot;&gt;Phragmén Overview&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/polkadot-npos/&quot;&gt;Polkadot&#39;s Nominated Proof of Stake&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen2/&quot;&gt;Phragmén Overview&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -58,7 +62,7 @@
 &lt;td&gt;2:03 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/persian-random-rust-video-tutorials/&quot;&gt;(Persian) Random Rust Video Tutorials&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/fa/rust/&quot;&gt;Random Rust Video Tutorials&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;2:02 PM - August 28, 2023&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -66,34 +70,6 @@
 
             </content>
             <link href="https://blog.kianenigma.com//talks/talks-index/" />
-        </entry>
-        <entry>
-            <title>
-                Substrate Debug Kit
-                
-            </title>
-            <updated>2024-08-21T12:45:40.466Z</updated>
-            <id>https://blog.kianenigma.com//talks/substrate-debug-kit/</id>
-            <content type="html">
-                &lt;p&gt;Longer version of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen-overview/&quot;&gt;Phragmén Overview&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen-for-polkadot-s-n-po-s/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt; at Substrate Seminar.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6omrrY11HEg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.com//talks/substrate-debug-kit/" />
-        </entry>
-        <entry>
-            <title>
-                Polkadot&#39;s Nominated Proof of Stake
-                
-            </title>
-            <updated>2024-08-21T12:44:20.136Z</updated>
-            <id>https://blog.kianenigma.com//talks/polkadot-s-nominated-proof-of-stake/</id>
-            <content type="html">
-                &lt;p&gt;..Past, Present, and the Future.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OZpQ2FouDOU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.com//talks/polkadot-s-nominated-proof-of-stake/" />
         </entry>
         <entry>
             <title>
@@ -129,44 +105,41 @@
         </entry>
         <entry>
             <title>
-                Phragmén for Polkadot&#39;s NPoS
+                Random Rust Video Tutorials
                 
             </title>
-            <updated>2024-08-21T12:44:38.309Z</updated>
-            <id>https://blog.kianenigma.com//talks/phragmen-for-polkadot-s-n-po-s/</id>
+            <updated>2024-11-06T17:37:04.619Z</updated>
+            <id>https://blog.kianenigma.com//talks/fa/rust/</id>
             <content type="html">
-                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H9OvpAOebTs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLH9G_m3SzhWvPqP2eF-aHikD1Q6wU4EOW&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.com//talks/phragmen-for-polkadot-s-n-po-s/" />
+            <link href="https://blog.kianenigma.com//talks/fa/rust/" />
         </entry>
         <entry>
             <title>
-                Phragmén Overview
+                Introduction to Polkadot
                 
             </title>
-            <updated>2024-08-21T12:45:15.927Z</updated>
-            <id>https://blog.kianenigma.com//talks/phragmen-overview/</id>
+            <updated>2024-11-06T17:36:59.487Z</updated>
+            <id>https://blog.kianenigma.com//talks/fa/polkadot/</id>
             <content type="html">
-                &lt;p&gt;Longer version of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen-for-polkadot-s-n-po-s/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt; at Substrate Seminar.&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MjOvVhc1oXw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f6k7TFyQUdM?si=zHgBXb1kNGFdlH1o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.com//talks/phragmen-overview/" />
+            <link href="https://blog.kianenigma.com//talks/fa/polkadot/" />
         </entry>
         <entry>
             <title>
-                Nomination Pools
+                Polkadot-SDK FRAME @ 2024
                 
             </title>
-            <updated>2024-08-21T12:44:00.699Z</updated>
-            <id>https://blog.kianenigma.com//talks/nomination-pools/</id>
+            <updated>2024-11-06T17:36:05.690Z</updated>
+            <id>https://blog.kianenigma.com//talks/frame-2024/</id>
             <content type="html">
-                &lt;p&gt;..and The Story of The Polkadot&#39;s NPoS at Polkadot Decoded 2022&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_wjAYivFQBU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
+                
             </content>
-            <link href="https://blog.kianenigma.com//talks/nomination-pools/" />
+            <link href="https://blog.kianenigma.com//talks/frame-2024/" />
         </entry>
         <entry>
             <title>
@@ -673,29 +646,72 @@ Persistent Fragmentation ❌&lt;/p&gt;
         </entry>
         <entry>
             <title>
-                (Persian) Random Rust Video Tutorials
+                Nomination Pools
                 
             </title>
-            <updated>2023-08-28T13:02:32.955Z</updated>
-            <id>https://blog.kianenigma.com//talks/persian-random-rust-video-tutorials/</id>
+            <updated>2024-11-06T17:34:28.421Z</updated>
+            <id>https://blog.kianenigma.com//talks/nomination-pools/</id>
             <content type="html">
-                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLH9G_m3SzhWvPqP2eF-aHikD1Q6wU4EOW&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+                &lt;p&gt;..and The Story of The Polkadot&#39;s NPoS at Polkadot Decoded 2022&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_wjAYivFQBU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.com//talks/persian-random-rust-video-tutorials/" />
+            <link href="https://blog.kianenigma.com//talks/nomination-pools/" />
         </entry>
         <entry>
             <title>
-                (Persian) Introduction to Polkadot
+                Polkadot&#39;s Nominated Proof of Stake
                 
             </title>
-            <updated>2023-08-28T13:05:20.872Z</updated>
-            <id>https://blog.kianenigma.com//talks/persian-introduction-to-polkadot/</id>
+            <updated>2024-11-06T17:34:38.989Z</updated>
+            <id>https://blog.kianenigma.com//talks/polkadot-npos/</id>
             <content type="html">
-                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/f6k7TFyQUdM?si=zHgBXb1kNGFdlH1o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+                &lt;p&gt;..Past, Present, and the Future.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OZpQ2FouDOU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
             </content>
-            <link href="https://blog.kianenigma.com//talks/persian-introduction-to-polkadot/" />
+            <link href="https://blog.kianenigma.com//talks/polkadot-npos/" />
+        </entry>
+        <entry>
+            <title>
+                Substrate Debug Kit
+                
+            </title>
+            <updated>2024-11-06T17:35:17.260Z</updated>
+            <id>https://blog.kianenigma.com//talks/substrate-debug-kit/</id>
+            <content type="html">
+                &lt;p&gt;Longer version of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen2/&quot;&gt;Phragmén Overview&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt; at Substrate Seminar.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6omrrY11HEg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.com//talks/substrate-debug-kit/" />
+        </entry>
+        <entry>
+            <title>
+                Phragmén for Polkadot&#39;s NPoS
+                
+            </title>
+            <updated>2024-11-06T17:34:58.027Z</updated>
+            <id>https://blog.kianenigma.com//talks/phragmen/</id>
+            <content type="html">
+                &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H9OvpAOebTs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.com//talks/phragmen/" />
+        </entry>
+        <entry>
+            <title>
+                Phragmén Overview
+                
+            </title>
+            <updated>2024-11-06T17:35:10.021Z</updated>
+            <id>https://blog.kianenigma.com//talks/phragmen2/</id>
+            <content type="html">
+                &lt;p&gt;Longer version of &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/phragmen/&quot;&gt;Phragmén for Polkadot&#39;s NPoS&lt;/a&gt; at Substrate Seminar.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MjOvVhc1oXw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.com//talks/phragmen2/" />
         </entry>
         <entry>
             <title>
@@ -2571,6 +2587,11 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/frame-2024/&quot;&gt;Polkadot-SDK FRAME @ 2024&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5:33 PM - November 06, 2024&lt;/td&gt;
+&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/tech/demystifying-jam/presentation/&quot;&gt;Demystifying JAM - Presentation&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;3:43 PM - November 06, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#polkadot&quot;&gt;#polkadot&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#jam&quot;&gt;#jam&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
@@ -2613,11 +2634,6 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/gallery/&quot;&gt;Gallery&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;4:43 PM - March 30, 2024&lt;/td&gt;
-&lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/posts/personal/meta-cognition-framework/&quot;&gt;Meta Cognition Framework&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;10:33 AM - March 24, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -3105,7 +3121,7 @@ A very common fallacy in the blockchain space is applications that create a bloc
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_6&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_6&quot;&gt; Short form video clips narrated&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_7&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_7&quot;&gt; ability to tip me!&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;brain-dumps-after-talks-blockchain-scalability-a-holistic-recap-blockchain-scalability-a-holistic-recap&quot; tabindex=&quot;-1&quot;&gt;Brain Dumps after &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/blockchain-reimagined/presentation-tum/&quot;&gt;Blockchain Scalability - A Holistic Recap&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;brain-dumps-after-talks-2024-blockchain-scalability-a-holistic-recap-blockchain-scalability-a-holistic-recap&quot; tabindex=&quot;-1&quot;&gt;Brain Dumps after &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/blockchain-reimagined/presentation-tum/&quot;&gt;Blockchain Scalability - A Holistic Recap&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;DLTs broadly provide:
 &lt;ul&gt;
