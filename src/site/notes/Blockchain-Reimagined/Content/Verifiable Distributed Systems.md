@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/content/verifiable-distributed-systems/","hide":true,"created":"2024-08-11T18:28:26.428+01:00","updated":"2024-11-06T17:25:58.392+00:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/content/verifiable-distributed-systems/","hide":true,"created":"2024-08-11T18:28:26.428+01:00","updated":"2024-11-06T17:26:43.360+00:00"}
 ---
 
 As clearly elaborated on [[Blockchain-Reimagined/Content/More On Authorities\|More On Authorities]], blockchains are digital systems. More precisely, they are forms of digital distributed systems that  
@@ -8,13 +8,7 @@ As clearly elaborated on [[Blockchain-Reimagined/Content/More On Authorities\|Mo
 
 For anyone unfamiliar: a distributed network is one in which many computers collaborate to perform a computation. For example, a small network could consist of 3 nodes: `A`, `B` and `C`. These nodes are interconnected, and can communicate with one another.  
 
-```mermaid
-flowchart 
-	A <--> B <--> C
-	A <--> C
-```
-
-TODO make this circular
+TODO: diagram 
 
 Consider the following properties in a distributed system: 
 - Replication and Verification: Nodes sufficiently replicate one another's execution
