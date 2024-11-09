@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/nomination-pools","permalink":"/talks/nomination-pools/","created":"2023-08-28T14:03:43.000+01:00","updated":"2024-11-06T17:34:28.421+00:00"}
+{"dg-publish":true,"dg-permalink":"talks/nomination-pools","permalink":"/talks/nomination-pools/","created":"2023-08-28T20:03:43.000+07:00","updated":"2024-11-07T00:34:28.421+07:00"}
 ---
 
 ..and The Story of The Polkadot's NPoS at Polkadot Decoded 2022

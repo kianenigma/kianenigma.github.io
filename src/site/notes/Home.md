@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2024-09-20T10:15:47.683+01:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T17:35:09.000+07:00","updated":"2024-09-20T16:15:47.683+07:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -9,9 +9,9 @@
 ## Latest 
 | File                                                                                                   | Date                          | Tags                                              |
 | ------------------------------------------------------------------------------------------------------ | ----------------------------- | ------------------------------------------------- |
-| [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                 | 5:33 PM - November 06, 2024   | <ul></ul>                                         |
-| [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                     | 3:43 PM - November 06, 2024   | <ul><li>#polkadot</li><li>#jam</li></ul>          |
-| [[Talks/2024/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]] | 1:01 PM - September 08, 2024  | <ul><li>#blockchain</li><li>#polkadot</li></ul>   |
+| [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                 | 8:33 PM - November 06, 2024   | <ul></ul>                                         |
+| [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                     | 6:43 PM - November 06, 2024   | <ul><li>#polkadot</li><li>#jam</li></ul>          |
+| [[Talks/2024/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]] | 3:01 PM - September 08, 2024  | <ul><li>#blockchain</li><li>#polkadot</li></ul>   |
 | [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                       | 10:46 AM - September 04, 2024 | <ul><li>#polkadot</li></ul>                       |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                              | 10:44 AM - July 26, 2024      | <ul></ul>                                         |
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                             | 10:48 AM - July 10, 2024      | <ul><li>#polkadot</li><li>#polkadot-sdk</li></ul> |

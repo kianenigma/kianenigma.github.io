@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/content/verifiable-distributed-systems/","hide":true,"created":"2024-08-11T18:28:26.428+01:00","updated":"2024-11-06T17:26:43.360+00:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/content/verifiable-distributed-systems/","hide":true,"created":"2024-08-12T00:28:26.428+07:00","updated":"2024-11-07T00:26:43.360+07:00"}
 ---
 
 As clearly elaborated on [[Blockchain-Reimagined/Content/More On Authorities\|More On Authorities]], blockchains are digital systems. More precisely, they are forms of digital distributed systems that  

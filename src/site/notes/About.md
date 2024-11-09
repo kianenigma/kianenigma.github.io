@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","created":"2024-09-18T20:37:11.055+01:00","updated":"2024-10-28T13:55:38.387+00:00"}
+{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","created":"2024-09-19T02:37:11.055+07:00","updated":"2024-10-28T20:55:38.387+07:00"}
 ---
 
 -  🦀 Engineering Lead / Rust Core Developer [@paritytech](https://twitter.com/ParityTech/)

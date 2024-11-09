@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/the-10x-developer-myth-all-about-keyboard/","created":"2023-08-31T14:41:53.000+01:00","updated":"2023-08-31T14:41:53.429+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/the-10x-developer-myth-all-about-keyboard/","created":"2023-08-31T20:41:53.000+07:00","updated":"2023-08-31T20:41:53.429+07:00"}
 ---
 
 ## Theory

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/appendix/less-trust-more-truth/","hide":true,"created":"2024-10-26T13:01:23.737+01:00","updated":"2024-10-26T14:15:55.785+01:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/appendix/less-trust-more-truth/","hide":true,"created":"2024-10-26T19:01:23.737+07:00","updated":"2024-10-26T20:15:55.785+07:00"}
 ---
 
 This phrase is one of the known mottos of the Web3 space, often used by Web3 Foundation, Polkadot, and its founder Gavin Wood. It is important to add more context to this statement: Trust is not inherently bad. 

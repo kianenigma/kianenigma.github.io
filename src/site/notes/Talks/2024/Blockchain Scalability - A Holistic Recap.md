@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","tags":["blockchain","polkadot"],"created":"2024-09-08T13:01:24.988+01:00","updated":"2024-11-06T15:42:57.826+00:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","tags":["blockchain","polkadot"],"created":"2024-09-08T19:01:24.988+07:00","updated":"2024-11-06T22:42:57.826+07:00"}
 ---
 
 

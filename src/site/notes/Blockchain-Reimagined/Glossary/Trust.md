@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/glossary/trust","permalink":"/blockchain-reimagined/glossary/trust/","hide":true,"created":"2024-09-13T19:58:03.887+01:00","updated":"2024-10-26T13:22:08.959+01:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/glossary/trust","permalink":"/blockchain-reimagined/glossary/trust/","hide":true,"created":"2024-09-14T01:58:03.887+07:00","updated":"2024-10-26T19:22:08.959+07:00"}
 ---
 
 

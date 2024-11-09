@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/content/what-is-this-all-about/","hide":true,"created":"2024-09-13T19:41:43.296+01:00","updated":"2024-10-26T14:15:55.790+01:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/content/what-is-this-all-about/","hide":true,"created":"2024-09-14T01:41:43.296+07:00","updated":"2024-10-26T20:15:55.790+07:00"}
 ---
 
 > Promise to forget everything you know about blockchains, and follow me step by step. I promise it will make sense.

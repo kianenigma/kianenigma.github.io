@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/content/more-on-authorities/","hide":true,"created":"2024-08-11T18:26:44.599+01:00","updated":"2024-10-26T14:15:55.791+01:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/content/more-on-authorities/","hide":true,"created":"2024-08-12T00:26:44.599+07:00","updated":"2024-10-26T20:15:55.791+07:00"}
 ---
 
 [[Blockchain-Reimagined/Content/What Is This All About?\|What Is This All About?]] briefly touched upon the nature of trust and authorities. In this chapter, we will dive deeper into both. 
