@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2024-11-09T02:40:14Z</updated>
+    <updated>2024-11-09T04:18:10Z</updated>
     <id>https://blog.kianenigma.com/</id>
         <entry>
             <title>
@@ -30,7 +30,7 @@
 &lt;tr&gt;
 &lt;td&gt;2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Polkadot-SDK FRAME @ 2024&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Demystifying JAM - Presentation&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;Blockchain Scalability - A Holistic Recap&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://blog.kianenigma.com/404&quot; target=&quot;&quot;&gt;PBA4 Hong Kong&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
-&lt;td&gt;&lt;ul&gt;&lt;li&gt;Nov 06 2024&lt;/li&gt;&lt;li&gt;Nov 06 2024&lt;/li&gt;&lt;li&gt;Sep 08 2024&lt;/li&gt;&lt;li&gt;Jun 27 2024&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
+&lt;td&gt;&lt;ul&gt;&lt;li&gt;Nov 07 2024&lt;/li&gt;&lt;li&gt;Nov 06 2024&lt;/li&gt;&lt;li&gt;Sep 08 2024&lt;/li&gt;&lt;li&gt;Jun 27 2024&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -101,7 +101,7 @@
                 Polkadot-SDK FRAME @ 2024
                 
             </title>
-            <updated>2024-11-08T04:23:53.198Z</updated>
+            <updated>2024-11-09T04:17:29.042Z</updated>
             <id>https://blog.kianenigma.com//talks/frame-2024/</id>
             <content type="html">
                 &lt;style&gt;
@@ -149,7 +149,7 @@
 &lt;ul&gt;
 &lt;li&gt;Every 3 month, maintained for 1 year with a monthly patching schedule.&lt;/li&gt;
 &lt;li&gt;PRs need to specify &lt;code&gt;major&lt;/code&gt;/&lt;code&gt;minor&lt;/code&gt;/&lt;code&gt;patch&lt;/code&gt; on the crates they alter.&lt;/li&gt;
-&lt;li&gt;You can expect to never need to update the dependencies of crates that actually don&#39;t change often.&lt;/li&gt;
+&lt;li&gt;No change? no bump 👆&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/paritytech/release-registry/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;paritytech/release-registry&lt;/a&gt;&lt;/li&gt;
@@ -176,27 +176,30 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/issues/5242&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Make `polkadot-sdk` templates OMNI and GREAT again -- part 2 · Issue &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#5242&quot;&gt;#5242&lt;/a&gt; · paritytech/polkadot-sdk · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;We notice a cunning simplification in the template&#39;s &lt;code&gt;Cargo.toml&lt;/code&gt; for the runtime.. 🤔&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;--&lt;/p&gt;
 &lt;h2 id=&quot;umbrella-crates&quot; tabindex=&quot;-1&quot;&gt;Umbrella Crates&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&quot;language-toml[1-100|4-7]&quot;&gt;[dependencies]
+&lt;pre&gt;&lt;code class=&quot;language-toml[1-100|3-6]&quot;&gt;[dependencies]
 codec = { workspace = true }
 scale-info = { workspace = true }
-polkadot-sdk = { workspace = true, features = [
-	&amp;quot;experimental&amp;quot;, 
-	&amp;quot;pallet-balances&amp;quot;, &amp;quot;pallet-sudo&amp;quot;, &amp;quot;pallet-timestamp&amp;quot;, &amp;quot;runtime&amp;quot;] }
-pallet-minimal-template.workspace = true
+polkadot-sdk = { version = &amp;quot;x.y.z&amp;quot;, features = [
+	&amp;quot;pallet-balances&amp;quot;, &amp;quot;pallet-sudo&amp;quot;, &amp;quot;pallet-timestamp&amp;quot;, &amp;quot;runtime&amp;quot;] 
+}
 
 [features]
 default = [&amp;quot;std&amp;quot;]
 std = [
 	&amp;quot;codec/std&amp;quot;,
-	&amp;quot;pallet-minimal-template/std&amp;quot;,
-	&amp;quot;polkadot-sdk/std&amp;quot;,
 	&amp;quot;scale-info/std&amp;quot;,
+	
+	&amp;quot;polkadot-sdk/std&amp;quot;,
 ]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;--&lt;/p&gt;
@@ -226,18 +229,15 @@ std = [
 --&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;code-polkadot-sdk-frame-code-crate&quot; tabindex=&quot;-1&quot;&gt;&lt;code&gt;polkadot-sdk-frame&lt;/code&gt; Crate&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&quot;language-rust[1-100|6-100|9-10]&quot;&gt;#![cfg_attr(not(feature = &amp;quot;std&amp;quot;), no_std)]
+&lt;pre&gt;&lt;code class=&quot;language-rust[1-100|6-100]&quot;&gt;#![cfg_attr(not(feature = &amp;quot;std&amp;quot;), no_std)]
 
 extern crate alloc;
 use alloc::{vec, vec::Vec};
 
-use polkadot_sdk::{
-	polkadot_sdk_frame::{
-		self as frame,
-		prelude::*,
-		runtime::{apis, prelude::*},
-	},
-	*,
+use polkadot_sdk::{polkadot_sdk_frame as frame, *};
+use frame::{
+	prelude::*,
+	runtime::{apis, prelude::*},
 };
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;--&lt;/p&gt;
@@ -291,7 +291,7 @@ use polkadot_sdk::{
 &lt;h2 id=&quot;api-documentation-2&quot; tabindex=&quot;-1&quot;&gt;API Documentation:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;These docs are tightly integrated with polkadot-sdk&lt;/li&gt;
-&lt;li&gt;THEY CANNOT GO STALE!&lt;/li&gt;
+&lt;li&gt;THEY CANNOT GET OUTDATED!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;reflection&quot; tabindex=&quot;-1&quot;&gt;Reflection&lt;/h2&gt;
@@ -364,18 +364,29 @@ impl frame_system::Config for Test {
 &lt;p&gt;--&lt;/p&gt;
 &lt;h2 id=&quot;omni-node&quot; tabindex=&quot;-1&quot;&gt;Omni Node&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Capably of running (most) parachains, and a local dev chain.&lt;/li&gt;
+&lt;li&gt;Capable of running (most) parachains, and a local dev chain.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/omni_node/index.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Early docs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;First iteration will be released with &lt;code&gt;stable2412&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;closing-remarks&quot; tabindex=&quot;-1&quot;&gt;Closing Remarks&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;A lot of what I have said are initiatives that need contributors t push through the finish line! See speaker notes&lt;/li&gt;
-&lt;li&gt;This is to say how developing a blockchain on Polkadot-SDK has gotten even simpler now, but..&lt;/li&gt;
+&lt;li&gt;A lot of what I have said are initiatives that need contributors to push through the finish line!
+&lt;ul&gt;
+&lt;li&gt;Mentor-able, tip-able issues in the speaker notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Developing a blockchain with Polkadot-SDK has gotten even simpler now, but..
+&lt;ul&gt;
 &lt;li&gt;Contracts will always be easier!&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Note:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All good-first issues: &lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/issues?q=is:issue+is:open+label:C2-good-first-issue&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Issues · paritytech/polkadot-sdk · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;All mentor issues: &lt;a href=&quot;https://github.com/paritytech/polkadot-sdk/issues?q=is:issue+is:open+label:C1-mentor&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Issues · paritytech/polkadot-sdk · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
             </content>
             <link href="https://blog.kianenigma.com//talks/frame-2024/" />
@@ -2785,7 +2796,7 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://blog.kianenigma.com/talks/frame-2024/&quot;&gt;Polkadot-SDK FRAME @ 2024&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;8:33 PM - November 06, 2024&lt;/td&gt;
+&lt;td&gt;12:33 AM - November 07, 2024&lt;/td&gt;
 &lt;td&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
