@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","created":"2024-11-07T00:33:56.750+07:00","updated":"2024-11-09T11:17:29.042+07:00"}
+{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","created":"2024-11-07T00:33:56.750+07:00","updated":"2024-11-09T11:18:05.154+07:00"}
 ---
 
 <style>
@@ -190,7 +190,7 @@ Note:
 
 ## Reflection 
 
-All of this, releases, stable and better documented API, is to say `polkadot-sdk` is a step closer to a mature, stable mono-repo.
+All of this, *releases*, *stable* and *well-documented API*, is to say `polkadot-sdk` is a **step closer to a mature mono-repo**.
 
 > and we shall keep it that way. 
 
