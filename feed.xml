@@ -3,7 +3,7 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2024-11-09T04:18:10Z</updated>
+    <updated>2024-11-09T04:18:29Z</updated>
     <id>https://blog.kianenigma.com/</id>
         <entry>
             <title>
@@ -101,7 +101,7 @@
                 Polkadot-SDK FRAME @ 2024
                 
             </title>
-            <updated>2024-11-09T04:17:29.042Z</updated>
+            <updated>2024-11-09T04:18:05.154Z</updated>
             <id>https://blog.kianenigma.com//talks/frame-2024/</id>
             <content type="html">
                 &lt;style&gt;
@@ -295,7 +295,7 @@ use frame::{
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;reflection&quot; tabindex=&quot;-1&quot;&gt;Reflection&lt;/h2&gt;
-&lt;p&gt;All of this, releases, stable and better documented API, is to say &lt;code&gt;polkadot-sdk&lt;/code&gt; is a step closer to a mature, stable mono-repo.&lt;/p&gt;
+&lt;p&gt;All of this, &lt;em&gt;releases&lt;/em&gt;, &lt;em&gt;stable&lt;/em&gt; and &lt;em&gt;well-documented API&lt;/em&gt;, is to say &lt;code&gt;polkadot-sdk&lt;/code&gt; is a &lt;strong&gt;step closer to a mature mono-repo&lt;/strong&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;and we shall keep it that way.&lt;/p&gt;
 &lt;/blockquote&gt;
