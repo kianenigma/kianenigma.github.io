@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","created":"2024-11-07T00:33:56.750+07:00","updated":"2024-11-08T11:23:53.198+07:00"}
+{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","created":"2024-11-07T00:33:56.750+07:00","updated":"2024-11-09T11:17:29.042+07:00"}
 ---
 
 <style>
@@ -50,7 +50,7 @@
 - `stableYYMM` 
 	- Every 3 month, maintained for 1 year with a monthly patching schedule. 
 	- PRs need to specify `major`/`minor`/`patch` on the crates they alter. 
-	- You can expect to never need to update the dependencies of crates that actually don't change often.
+	- No change? no bump 👆
 - [paritytech/release-registry](https://github.com/paritytech/release-registry/)
 
 ---
@@ -69,6 +69,10 @@
 - External opinionated templates also listed, open to more suggestions. 
 	- PoP
 	- OpenZeppelin
+
+Notes: 
+- [Make \`polkadot-sdk\` templates OMNI and GREAT again -- part 2 · Issue #5242 · paritytech/polkadot-sdk · GitHub](https://github.com/paritytech/polkadot-sdk/issues/5242)
+
 ---
 
 - We notice a cunning simplification in the template's `Cargo.toml` for the runtime.. 🤔
@@ -76,22 +80,21 @@
 --
 ## Umbrella Crates 
 
-```toml[1-100|4-7]
+```toml[1-100|3-6]
 [dependencies]
 codec = { workspace = true }
 scale-info = { workspace = true }
-polkadot-sdk = { workspace = true, features = [
-	"experimental", 
-	"pallet-balances", "pallet-sudo", "pallet-timestamp", "runtime"] }
-pallet-minimal-template.workspace = true
+polkadot-sdk = { version = "x.y.z", features = [
+	"pallet-balances", "pallet-sudo", "pallet-timestamp", "runtime"] 
+}
 
 [features]
 default = ["std"]
 std = [
 	"codec/std",
-	"pallet-minimal-template/std",
-	"polkadot-sdk/std",
 	"scale-info/std",
+	
+	"polkadot-sdk/std",
 ]
 ```
 
@@ -117,19 +120,16 @@ Note:
 --
 ## `polkadot-sdk-frame` Crate
 
-```rust[1-100|6-100|9-10]
+```rust[1-100|6-100]
 #![cfg_attr(not(feature = "std"), no_std)]
 
 extern crate alloc;
 use alloc::{vec, vec::Vec};
 
-use polkadot_sdk::{
-	polkadot_sdk_frame::{
-		self as frame,
-		prelude::*,
-		runtime::{apis, prelude::*},
-	},
-	*,
+use polkadot_sdk::{polkadot_sdk_frame as frame, *};
+use frame::{
+	prelude::*,
+	runtime::{apis, prelude::*},
 };
 ```
 
@@ -184,7 +184,7 @@ Note:
 
 ## API Documentation: 
 - These docs are tightly integrated with polkadot-sdk
-- THEY CANNOT GO STALE!
+- THEY CANNOT GET OUTDATED!
 
 ---
 
@@ -266,16 +266,19 @@ impl frame_system::Config for Test {
 
 --
 ## Omni Node 
-- Capably of running (most) parachains, and a local dev chain.
+- Capable of running (most) parachains, and a local dev chain.
 - [Early docs](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/omni_node/index.html)
 - First iteration will be released with `stable2412`
 
 ---
 ## Closing Remarks 
 
-- A lot of what I have said are initiatives that need contributors t push through the finish line! See speaker notes
-- This is to say how developing a blockchain on Polkadot-SDK has gotten even simpler now, but..
-- Contracts will always be easier!
+- A lot of what I have said are initiatives that need contributors to push through the finish line! 
+	- Mentor-able, tip-able issues in the speaker notes
+- Developing a blockchain with Polkadot-SDK has gotten even simpler now, but..
+	- Contracts will always be easier!
 
 Note: 
 
+- All good-first issues: [Issues · paritytech/polkadot-sdk · GitHub](https://github.com/paritytech/polkadot-sdk/issues?q=is:issue+is:open+label:C2-good-first-issue)
+- All mentor issues: [Issues · paritytech/polkadot-sdk · GitHub](https://github.com/paritytech/polkadot-sdk/issues?q=is:issue+is:open+label:C1-mentor)
