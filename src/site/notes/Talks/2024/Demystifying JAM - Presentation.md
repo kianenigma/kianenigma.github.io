@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-10T15:54:00.493+07:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-10T16:04:15.218+07:00"}
 ---
 
 
@@ -22,11 +22,14 @@
 
 # Demystifying 
 
-![jam-white.png](/img/user/resources/jam-white.png)
+![[jam-white.png \|jam-white.png ]]
 
-
-- blog.kianenigma.com/posts/tech/demystifying-jam/
 - blog.kianenigma.com/posts/tech/demystifying-jam/presentation/
+
+Note: 
+blog.kianenigma.com/posts/tech/demystifying-jam/
+
+
 ---
 ### Polkadot 1
 
