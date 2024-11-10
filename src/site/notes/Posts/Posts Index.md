@@ -1,13 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T16:35:08.540+07:00","updated":"2024-11-07T00:45:35.923+07:00"}
+{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T16:35:08.540+07:00","updated":"2024-11-10T13:55:36.721+07:00"}
 ---
 
 ## Tech 
 
-| Year | Name                                                                                                                                                                                                                                                                                                                                                                                                                                          | Date                                                                                                          |
-| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| 2023 | <ul><li>[[Posts/Tech/For Those Who Don't Want rust-analyzer: One Regex to rul them all.md\\|For Those Who Don't Want rust-analyzer: One Regex to rul them all]]</li><li>[[Posts/Tech/The 10x Developer Myth: All About Keyboard.md\\|The 10x Developer Myth: All About Keyboard]]</li></ul>                                                                                                                                                   | <ul><li>Aug 31 2023</li><li>Aug 31 2023</li></ul>                                                             |
-| 2024 | <ul><li>[[Posts/Tech/Multi-Chain SDK Vision.md\\|Multi-Chain SDK Vision]]</li><li>[[Posts/Tech/On Documenting polkadot-sdk.md\\|On Documenting polkadot-sdk]]</li><li>[[Posts/Tech/Demystifying JAM.md\\|Demystifying JAM]]</li><li>[[Posts/Tech/Polkadot's Build Horizon.md\\|Polkadot's Build Horizon]]</li><li>[[Posts/Tech/Thoughts Blockchain and Blockspace Scalability.md\\|Thoughts Blockchain and Blockspace Scalability]]</li></ul> | <ul><li>Sep 04 2024</li><li>Jul 10 2024</li><li>May 02 2024</li><li>Mar 16 2024</li><li>Feb 27 2024</li></ul> |
+| File                                                                                                                                                   | Name | Date |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- | ---- |
+| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                                                       | \-   | \-   |
+| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                                                             | \-   | \-   |
+| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                                                   | \-   | \-   |
+| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]]                                                                                   | \-   | \-   |
+| [[Posts/Tech/Thoughts Blockchain and Blockspace Scalability\|Thoughts Blockchain and Blockspace Scalability]]                                       | \-   | \-   |
+| [[Posts/Tech/For Those Who Don't Want rust-analyzer: One Regex to rul them all\|For Those Who Don't Want rust-analyzer: One Regex to rul them all]] | \-   | \-   |
+| [[Posts/Tech/The 10x Developer Myth: All About Keyboard\|The 10x Developer Myth: All About Keyboard]]                                               | \-   | \-   |
 
 { .block-language-dataview}
 
