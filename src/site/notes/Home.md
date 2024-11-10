@@ -16,7 +16,7 @@
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                              | 10:44 AM - July 26, 2024      | <ul></ul>                                         |
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                             | 10:48 AM - July 10, 2024      | <ul><li>#polkadot</li><li>#polkadot-sdk</li></ul> |
 | [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|PBA4 Hong Kong]]                                | 5:30 PM - June 27, 2024       | <ul></ul>                                         |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024        | <ul><li>#polkadot</li><li>#jam</li></ul>          |
+| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 8:38 PM - May 02, 2024        | <ul><li>#polkadot</li><li>#jam</li></ul>          |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024      | <ul></ul>                                         |
 | [[Posts/Personal/Gallery\|Gallery]]                                                                 | 4:43 PM - March 30, 2024      | <ul></ul>                                         |
 
