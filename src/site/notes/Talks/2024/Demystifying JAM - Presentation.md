@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-10T13:32:13.718+07:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-10T13:34:29.210+07:00"}
 ---
 
 
@@ -260,8 +260,9 @@ come to think of it, a smart contract can have arbitrary, user-defined entry-poi
 
 ## Questions
 
+![resources/JAM.png](/img/user/resources/JAM.png)
 
---
+---
 
 ## Appendix 
 

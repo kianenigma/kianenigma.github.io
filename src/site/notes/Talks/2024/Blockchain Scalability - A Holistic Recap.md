@@ -173,7 +173,7 @@ Notes:
 
 ---
 
-![jam.png](/img/user/Excalidraw/blockchain-reimagined/jam.png)
+![jam.png](/img/user/resources/JAM.png)
 
 - Gutting and exposing Polkadot's core abilities. 
 - You can only do this under the shadow of Cynical Rollups' shared security. 
