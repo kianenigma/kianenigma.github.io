@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-10T16:04:15.218+07:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-10T16:06:25.078+07:00"}
 ---
 
 
@@ -188,9 +188,9 @@ Note:
 --
 ### Refine 
 
-- No direct access to the JAM State (stateless)
 - Massive amounts of gas available.
-- Access to data availability
+- Access to data availability (~28 day persistence)
+- No direct access to the JAM state (stateless)
 
 --
 ### Accumulate 
