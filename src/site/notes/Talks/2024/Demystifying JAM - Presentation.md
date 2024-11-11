@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-10T16:58:02.909+07:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-11T09:45:23.407+07:00"}
 ---
 
 
@@ -38,8 +38,10 @@ blog.kianenigma.com/posts/tech/demystifying-jam/
 	- DOT Token → Security
 	- Fellowship 
 - Technological
-	- Heterogeneous Execution Sharding, with Shared Security
-	- ... enabled using WASM bytecode to represent a "shard". 
+	- **Heterogeneous Execution Sharding, with Shared Security**
+
+Note:
+Sharding and heterogeneity enabled by the use of WASM. 
 
 ---
 
@@ -48,7 +50,7 @@ blog.kianenigma.com/posts/tech/demystifying-jam/
 Let's break it down: 
 1. Execution Sharding 
 2. With Shared Security
-3. Heterogenous
+3. Heterogeneous
 
 --
 
@@ -85,7 +87,8 @@ Let's break it down:
 
 ... is all about flexible usage of cores
 
-- You need more cores? Elastic scaling and async backing! <!-- element class="fragment" -->
+- You need more to get more out of your core? Async Backing! <!-- element class="fragment" -->
+- You need more cores? Elastic scaling! <!-- element class="fragment" -->
 - You don't want to commit to 6m? Agile-coretime! <!-- element class="fragment" -->
 - You need less than one core? On-demand coretime! <!-- element class="fragment" -->
 - You want to do something other than a parachain in your core? JAM! <!-- element class="fragment" -->
@@ -123,9 +126,9 @@ Notes:
 ### On-chain vs. In-core 
 
 - In-core 
-	- Execution by core validators + made available for further auditing 
+	- Executed by a subset of validators + made available for further auditing 
 - On-chain
-	- State root updated by all Polkadot validators 
+	- Executed by all validators: state root update. 
 
 <hr>
 
@@ -145,10 +148,10 @@ Now you know everything to understand JAM.
 --
 ### JAM (0)
 
-Gutting of Polkadot such that the following are exposed to developers. 
-1. **In-core** execution
-2. **On-chain** execution
-3. **Data Availability** 
+Gutting of Polkadot such that the following are directly exposed to developers. 
+1. What happens **In-core** 
+2. What happens **On-chain** 
+3. What is placed in **Data Availability** 
 
 Note:
 
@@ -157,7 +160,7 @@ A parachain can only control what happens in-core. It cannot really control what
 --
 ### JAM (1)
 
-..and removes a lot of opinions that limits the system to be only useful for Parachains/L2s/Blockchains. 
+- ..and removes a lot of blockchain/parachain-centric opinions. 
 
 --
 
@@ -167,13 +170,12 @@ A parachain can only control what happens in-core. It cannot really control what
 - Parachains, Governance, Staking, AH and everything else remains intact. 
 
 ---
-
 ### Removing Opinions 
 
 - JAM is programmable via a *Service*. 
 	- PVM Bytecode.
-- Instances of a service are called a *Work Item*[^1]. 
-- JAM is transaction-less for users.
+- Invocation of a service are called a *Work Item*[^1].
+	- A group of work Items are called *Work Package*.
 
 Note: 
 [^1]: And depending on the context, *Work Package*, *Work Result* and *Work Report*. 
@@ -255,14 +257,21 @@ Polkadot Parachains as a JAM Service.
 
 (personal opinion)
 
+- What is best implemented as a service?
+	- Low level
+	- Crucial to get this right
+- Polkadot has JAM within it, but it is "fixed"
+- Services <> Interoperability
+- Semi-coherence
+- No transactions? Great! 
+
+Note: 
 - Services will likely not be equivalent to smart contract or even parachains; Think more along the lines of "Kernel functions".
 	- Crucial to get this right
 - Service interoperability? Wrong question.
 - Semi-Coherence. Good!
 - Polkadot has all the JAM components, but they are fixed.
 - Less is more: No transactions? Good!
-
-Note: 
 come to think of it, a smart contract can have arbitrary, user-defined entry-points. A service is not. 
 
 --
