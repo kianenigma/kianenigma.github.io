@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-11T09:45:23.407+07:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-11T14:48:00.713+07:00"}
 ---
 
 
@@ -13,7 +13,7 @@
 .reveal h6 {
   font-family: "PT Serif";
 }
-.reveal .slides section img  { 
+.reveal .slides section img { 
 	max-height: 70vh; /* Limit image height to 70% of the viewport height */ 
 	width: auto; /* Maintain aspect ratio */ 
 	 object-fit: contain !important;
@@ -22,7 +22,8 @@
 
 # Demystifying 
 
-![[jam-white.png \|jam-white.png ]]
+
+![jam-white.png](/img/user/resources/jam-white.png)
 
 - blog.kianenigma.com/posts/tech/demystifying-jam/presentation/
 
