@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam","permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T20:38:56.000+07:00","updated":"2024-11-10T16:23:51.810+07:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam","permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T20:38:56.000+07:00","updated":"2024-11-13T21:50:05.899+07:00"}
 ---
 
 ![jam-pen-polkadot.png](/img/user/resources/jam-pen-polkadot.png)
@@ -14,6 +14,7 @@
 > - [Chinese](https://github.com/subscan-explorer/jam-research/blob/main/material/demystifying-jam-zh-CN.md) 
 > - [Parity's Website](https://www.parity.io/blog/JAM-demystified-explainer)
 > - Shorter presentation version [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]
+> 	- [Recording](https://www.youtube.com/watch?v=eGLCedIT94U)
 > 
 > Feel free to share your re-publications in a comment down below to be featured here! 
 

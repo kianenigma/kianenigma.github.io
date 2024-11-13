@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-11T14:48:00.713+07:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation","permalink":"/posts/tech/demystifying-jam/presentation/","tags":["polkadot","jam"],"created":"2024-11-06T22:43:17.636+07:00","updated":"2024-11-13T21:51:17.179+07:00"}
 ---
 
 
@@ -30,6 +30,7 @@
 Note: 
 blog.kianenigma.com/posts/tech/demystifying-jam/
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eGLCedIT94U?si=bku3jyZfuTp7mojM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ### Polkadot 1
