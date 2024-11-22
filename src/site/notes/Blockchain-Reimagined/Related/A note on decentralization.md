@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/related/a-note-on-decentralization/","hide":true,"created":"2022-10-19T21:52:33.000+07:00","updated":"2024-10-26T20:16:33.997+07:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/related/a-note-on-decentralization/","hide":true,"created":"2022-10-19T15:52:33.000+01:00","updated":"2024-10-26T14:16:33.997+01:00"}
 ---
 
 

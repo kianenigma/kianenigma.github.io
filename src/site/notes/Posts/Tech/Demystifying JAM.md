@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam","permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T20:38:56.000+07:00","updated":"2024-11-13T21:50:05.899+07:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam","permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-11-22T12:22:33.173+00:00"}
 ---
 
 ![jam-pen-polkadot.png](/img/user/resources/jam-pen-polkadot.png)
@@ -13,7 +13,7 @@
 > - [Korean](https://research.despread.io/ko/report-jam/) 
 > - [Chinese](https://github.com/subscan-explorer/jam-research/blob/main/material/demystifying-jam-zh-CN.md) 
 > - [Parity's Website](https://www.parity.io/blog/JAM-demystified-explainer)
-> - Shorter presentation version [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]
+> - Shorter presentation version at Sub0 Bangkok 2024 [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]
 > 	- [Recording](https://www.youtube.com/watch?v=eGLCedIT94U)
 > 
 > Feel free to share your re-publications in a comment down below to be featured here! 
@@ -274,4 +274,3 @@ In other words, we can see the JAM migration as a kernel upgrade. The underlying
 
 * [7.9 Polkadot 2.0: CorePlay, CoreChains, Corejam, Safrole, PolkaVM - Polkadot by Gavin @PBA4 - YouTube](https://www.youtube.com/watch?v=n0ZCKjfIVhc)
 * [Gavin Wood: The Gray Paper Interview - JAM & the Future of Polkadot - Behind the Code: Web3 Thinkers - YouTube](https://youtu.be/O3kRAVBTkfs?si=Uc6SxxkNn1g8lHkA)
-

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/axioms/axiom-weakest-link/","hide":true,"created":"2024-10-26T18:39:25.801+07:00","updated":"2024-10-26T20:15:55.786+07:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/axioms/axiom-weakest-link/","hide":true,"created":"2024-10-26T12:39:25.801+01:00","updated":"2024-10-26T14:15:55.786+01:00"}
 ---
 
 The strength of any chain is only as strong as its weakest link. 

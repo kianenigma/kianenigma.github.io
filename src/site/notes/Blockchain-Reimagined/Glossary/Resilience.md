@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/glossary/resilience","permalink":"/blockchain-reimagined/glossary/resilience/","hide":true,"created":"2024-10-16T03:45:31.541+07:00","updated":"2024-10-26T19:21:47.985+07:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/glossary/resilience","permalink":"/blockchain-reimagined/glossary/resilience/","hide":true,"created":"2024-10-15T21:45:31.541+01:00","updated":"2024-10-26T13:21:47.985+01:00"}
 ---
 
 The broad term used to describe common properties of blockchain-based computation, most notably:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","tags":["polkadot","polkadot-sdk"],"created":"2024-07-10T16:48:36.533+07:00","updated":"2024-08-05T15:43:52.793+07:00"}
+{"dg-publish":true,"permalink":"/posts/tech/on-documenting-polkadot-sdk/","tags":["polkadot","polkadot-sdk"],"created":"2024-07-10T10:48:36.533+01:00","updated":"2024-11-22T12:46:43.678+00:00"}
 ---
 
 
@@ -57,7 +57,7 @@ With this hypothesis, I believe there are two tools future educators can use to 
 	1. [Why Rust Docs?](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#why-rust-docs)
 	2. [Scope](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#scope) 
 	3. [Principles](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/meta_contributing/index.html#principles) 
-2. [[Talks/Polkadot Blockchain Academy/PBA4 Hong Kong\|Recordings from the Polkadot Blockchain Academy]]. I hope to see the latest Singapore edition be out soon (as the XCM module has undergone significant changes), but for now the Hong Kong recordings are an excellent resource.
+2. [[Talks/2024/Polkadot Blockchain Academy Hong Kong\|Recordings from the Polkadot Blockchain Academy]]. I hope to see the latest Singapore edition be out soon (as the XCM module has undergone significant changes), but for now the Hong Kong recordings are an excellent resource.
 ### The Future 
 
 - there are still a number of core topics around `polkadot-sdk` for which I am personally not content with the degree of written documentation, and I intend to provide those as soon as I can: 

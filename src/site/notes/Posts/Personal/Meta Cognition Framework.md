@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/meta-cognition-framework/","created":"2024-03-24T17:33:28.140+07:00","updated":"2024-03-26T06:12:19.520+07:00"}
+{"dg-publish":true,"permalink":"/posts/personal/meta-cognition-framework/","created":"2024-03-24T10:33:28.140+00:00","updated":"2024-03-25T23:12:19.520+00:00"}
 ---
 
 > MIA -- Metacognitive Introspective Awareness -- is the ability to be aware of the state and activity of the mind continuously. That is, the awareness of the mind as the mind carries on with doing something, e.g. watching the breath
