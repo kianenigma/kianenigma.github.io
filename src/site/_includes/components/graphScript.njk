@@ -92,12 +92,12 @@
                 } else {
                     return mutedColor;
                 }
-                
+
             })
             .nodeCanvasObject((node, ctx) => {
                 const numberOfNeighbours = (node.neighbors && node.neighbors.length) || 2;
                 const nodeR = Math.min(7, Math.max(numberOfNeighbours / 2, 2));
-                
+
                 ctx.beginPath();
                 ctx.arc(node.x, node.y, nodeR, 0, 2 * Math.PI, false);
                 if (hoverNode == null) {
@@ -109,9 +109,9 @@
                         ctx.fillStyle = mutedColor;
                     }
                 }
-                 
+
                 ctx.fill();
-                
+
                 if (node.current) {
                     ctx.beginPath();
                     ctx.arc(node.x, node.y, nodeR + 1, 0, 2 * Math.PI, false);
@@ -138,7 +138,7 @@
                 node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
                 }
                 hoverNode = node || null;
-                
+
             });
             if (fullScreen || (delay != null && graphData.nodes.length > 4)) {
                 setTimeout(() => {

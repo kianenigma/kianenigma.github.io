@@ -38,3 +38,48 @@ body .notelink.active-note {
 .navbar-inner {
 	margin-left: 15px;
 }
+
+#floating-control {
+	padding-top: 10px;
+	margin-left: 20px;
+	font-size: 24px;
+
+	.svg-icon,
+	i {
+		cursor: pointer;
+		height: 24px;
+		width: auto;
+	}
+
+	#theme-switch {
+		.light {
+			display: none;
+		}
+
+		.dark {
+			display: none;
+		}
+
+		.auto {
+			display: none;
+		}
+	}
+
+	#theme-switch.light {
+		.light {
+			display: inline;
+		}
+	}
+
+	#theme-switch.dark {
+		.dark {
+			display: inline;
+		}
+	}
+
+	#theme-switch.auto {
+		.auto {
+			display: inline;
+		}
+	}
+}
