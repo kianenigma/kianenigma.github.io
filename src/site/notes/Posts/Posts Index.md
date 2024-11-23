@@ -21,6 +21,7 @@
 | File                                                                                                                       | Name        |
 | -------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                  | Jul 26 2024 |
+| [[Posts/Personal/Gallery\|Gallery]]                                                                                     | Mar 30 2024 |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                     | Mar 30 2024 |
 | [[Posts/Personal/Meta Cognition Framework\|Meta Cognition Framework]]                                                   | Mar 24 2024 |
 | [[Posts/Personal/The Price of Change\|The Price of Change]]                                                             | Mar 23 2024 |
