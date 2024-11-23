@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"dg-permalink":"gallery","permalink":"/gallery/","pinned":true,"contentClasses":"gallery","created":"2024-03-30T16:43:00.000+00:00","updated":"2024-11-23T11:55:40.225+00:00"}
+{"dg-publish":true,"dg-permalink":"gallery","permalink":"/gallery/","pinned":true,"contentClasses":"gallery","created":"2024-03-30T16:43:00.000+00:00","updated":"2024-11-23T12:07:51.576+00:00"}
 ---
 
+<div id="start"></div>
 
 ![17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg](/img/user/resources/gallery/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg)
 ![ABA157ED-A059-4945-B372-E9B3D2313712_1_105_c.jpeg](/img/user/resources/ABA157ED-A059-4945-B372-E9B3D2313712_1_105_c.jpeg)
@@ -109,7 +110,6 @@
 }
 </style>
 
-/* JavaScript */
 <script>
 // Create modal elements
 const modal = document.createElement('div');
