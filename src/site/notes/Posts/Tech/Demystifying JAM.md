@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam","permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-11-24T11:20:24.667+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam","permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2024-11-24T11:22:26.929+00:00"}
 ---
 
-![jam-pen-polkadot.png](/img/user/resources/jam-pen-polkadot.png)
+![jam-white.png](/img/user/resources/jam-white.png)
 
 
 > [!tip] Translations / Re-Publishing
