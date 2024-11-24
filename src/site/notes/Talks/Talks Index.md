@@ -5,7 +5,7 @@
 | File                                                                                                                                             | Name        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
 | [[Talks/2024/Building Bridges and Ecosystems - Multichain Day - Devcon 2024\|Building Bridges and Ecosystems - Multichain Day - Devcon 2024]] | Nov 22 2024 |
-| [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                                                           | Nov 07 2024 |
+| [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                                                           | Nov 06 2024 |
 | [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                                                               | Nov 06 2024 |
 | [[Talks/2024/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]]                                           | Sep 08 2024 |
 | [[Talks/2024/Polkadot Blockchain Academy Hong Kong\|Polkadot Blockchain Academy Hong Kong]]                                                   | Jun 27 2024 |

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","created":"2024-11-06T17:33:56.750+00:00","updated":"2024-11-09T04:18:05.154+00:00"}
+{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","created":"2024-11-06T17:33:56.750+00:00","updated":"2024-11-24T11:21:14.976+00:00"}
 ---
 
 <style>
@@ -28,6 +28,10 @@
 
 - in 2024
 - blog.kianenigma.com/talks/frame-2024
+
+Note: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dEFaEgg8Em4?si=UVLzXUict6Lzo9KU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
