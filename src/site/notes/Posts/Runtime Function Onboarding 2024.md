@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-08-30T12:45:19.803+01:00"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-12-13T12:52:47.048+00:00"}
 ---
 
 > [!info]- Collaboration 
@@ -225,6 +225,7 @@ In reality, you are joining the Polkadot ecosystem, not just Parity. And there i
 	- Public Element [Room 1](https://matrix.to/#/#fellowship-open-channel:parity.io), [Room 2](https://matrix.to/#/#fellowship-members:parity.io). 
     - [Github org, including manifesto.](https://github.com/polkadot-fellows/)
 - **Rust**: [This week in Rust](https://this-week-in-rust.org/), [Rust in Blockchain](https://rustinblockchain.org/).
+	- Be sure to see this: [Interview with Senior Rust Developer in 2023 - YouTube](https://www.youtube.com/watch?v=TGfQu0bQTKc) if you are new to Rust 😁🙈
 - I personally like to follow these for general crypto stuff:
     - [Decrypt](https://decrypt.co/). 
     - Podcast: [Defiant](https://thedefiant.io/podcasts), [Bankless](https://podcast.banklesshq.com/) and [Unchained](https://www.youtube.com/c/unchainedpodcast).
