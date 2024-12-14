@@ -9,6 +9,7 @@
 ## Latest 
 | File                                                                                                                                             | Date                          | Tags                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- | ------------------------------------------------- |
+| [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Global Community Call\|Plaza Polkadot Hub - OpenGiuld Global Community Call]]                     | 1:53 PM - December 13, 2024   | <ul></ul>                                         |
 | [[Talks/2024/Building Bridges and Ecosystems - Multichain Day - Devcon 2024\|Building Bridges and Ecosystems - Multichain Day - Devcon 2024]] | 4:57 PM - November 22, 2024   | <ul></ul>                                         |
 | [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                                                               | 10:43 PM - November 06, 2024  | <ul><li>#polkadot</li><li>#jam</li></ul>          |
 | [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                                                           | 5:33 PM - November 06, 2024   | <ul></ul>                                         |
@@ -18,7 +19,6 @@
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                                                       | 10:48 AM - July 10, 2024      | <ul><li>#polkadot</li><li>#polkadot-sdk</li></ul> |
 | [[Talks/2024/Polkadot Blockchain Academy Hong Kong\|Polkadot Blockchain Academy Hong Kong]]                                                   | 6:30 PM - June 27, 2024       | <ul></ul>                                         |
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                                             | 2:38 PM - May 02, 2024        | <ul><li>#polkadot</li><li>#jam</li></ul>          |
-| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                                           | 4:45 PM - March 30, 2024      | <ul></ul>                                         |
 
 { .block-language-dataview}
 
