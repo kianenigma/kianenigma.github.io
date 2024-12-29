@@ -4,15 +4,15 @@
 
 ## Tech 
 
-| File                                                                                                                                                   | Date        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                                                       | Sep 04 2024 |
-| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                                                             | Jul 10 2024 |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                                                   | May 02 2024 |
-| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]]                                                                                   | Mar 16 2024 |
-| [[Posts/Tech/Thoughts Blockchain and Blockspace Scalability\|Thoughts Blockchain and Blockspace Scalability]]                                       | Feb 27 2024 |
-| [[Posts/Tech/For Those Who Don't Want rust-analyzer: One Regex to rul them all\|For Those Who Don't Want rust-analyzer: One Regex to rul them all]] | Aug 31 2023 |
-| [[Posts/Tech/The 10x Developer Myth: All About Keyboard\|The 10x Developer Myth: All About Keyboard]]                                               | Aug 31 2023 |
+| File                                                                                                                                                       | Date        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                                                           | Sep 04 2024 |
+| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                                                                 | Jul 10 2024 |
+| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                                                       | May 02 2024 |
+| [[Posts/Tech/Polkadot's Build Horizon\|Polkadot's Build Horizon]]                                                                                       | Mar 16 2024 |
+| [[Posts/Tech/Thoughts Blockchain and Blockspace Scalability\|Thoughts Blockchain and Blockspace Scalability]]                                           | Feb 27 2024 |
+| [[Posts/Tech/For Those Who Don't Want rust-analyzer - One Regex to rule them all\|For Those Who Don't Want rust-analyzer - One Regex to rule them all]] | Aug 31 2023 |
+| [[Posts/Tech/The 10x Developer Myth: All About Keyboard\|The 10x Developer Myth: All About Keyboard]]                                                   | Aug 31 2023 |
 
 { .block-language-dataview}
 
