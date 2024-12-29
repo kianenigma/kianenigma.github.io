@@ -1,26 +1,36 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/the-10x-developer-myth-all-about-keyboard/","created":"2023-08-31T14:41:53.000+01:00","updated":"2023-08-31T14:41:53.429+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/the-10x-developer-myth-all-about-keyboard/","created":"2023-08-31T14:41:53.000+01:00","updated":"2024-12-29T12:25:55.092+00:00"}
 ---
 
 ## Theory
 
-Recently, I engaged in a few discussions about optimal use of editors and keyboard shortcuts with new team members. It eventually inspired me to write this short article, asserting that while this ["10x developer"](https://medium.com/ingeniouslysimple/the-origins-of-the-10x-developer-2e0177ecef60) idea is for the most part about keyboard shortcuts. In other words, while I think developers also vary in terms of how they think about problems, and their cognitive abilities, 90% of the time, the ones that stood out among others, and are sometimes as much as 10 time more "*productive*", are simply better at the *craft*. Any I think 99% of the craft of programming revolves around the relationship between you and your keyboard.
+Recently, I engaged in a few discussions about optimal use of editors and keyboard shortcuts with new team members. It eventually inspired me to write this short article, **asserting that this ["10x developer"](https://medium.com/ingeniouslysimple/the-origins-of-the-10x-developer-2e0177ecef60) idea is for the most part about keyboard shortcuts**. 
 
-I am already expressing my first thesis implicitly. **Keyboard**. Not your mouse, not your trackpad. **Keyboard**. Those are inefficient alternatives put there for the times where the programmer fails to use the keyboard (I use my trackpad often, like most others, sadly). As I will demonstrate later, every instance where you use the trackpad your are already losing a little bit of time. So, focus on learning more about how to efficiently use your keyboard, rather than dragging things out with your mouse.
+In other words, while I think developers also vary in terms of how they think about problems, and their cognitive abilities, 90% of the time, the ones that stood out among others, and are perceived as much as 10 time more "*productive*", are simply better at the *craft*. And I think 99% of the craft of programming revolves around the relationship between you and your keyboard.
 
-A little story about how I came to be so dogmatic about this: The first laptop I had as a programmer was [this piece of history](https://en.wikipedia.org/wiki/Acer_Aspire_laptops), and for whatever reason I didn't have an external mouse. The trackpad on these machines is a joke. It is so small that you barely can move it from one corner of the screen to the other. Instead od trying to fight it, I learned from a very early stage of my career as a programmer to hyper utilize the keyboard. Over time, this became a blessing. Nowadays, having had multiple generations of MacBooks, even though I appreciate the trackpad for other tasks and am happy to not need to brows my file system anymore using keyboard, I happily hold the same habit *while I am coding* and try to avoid the trackpad as much as I can.
+I am already expressing my first thesis implicitly. **Keyboard**. Not your mouse, not your trackpad. **Keyboard**. Those are inefficient alternatives put there for the times where the programmer fails to use the keyboard (I use my trackpad often, like most others, sadly). 
 
-Second, and main part of the thesis: In general, as a programmer, your attention is disrupted in generally one instance: **when your hands over the keyboard fail to keep up what it in your mind in a timely manner**. Let's consider this both when you are reading and writing code.
+As I will demonstrate later, every instance where you use the trackpad, you are already losing a little bit of time. So, focus on learning more about how to efficiently use your keyboard, rather than dragging things out with your mouse.
 
-In writing, you want to be able to quickly prototype different approaches, and put words on the screen. Imagine you have to do a refactor, where, for example, you have to unwind a few loops and change their indentation real quick, duplicate a few lines etc. If you manage to do this almost as fast as your brain is unpacking it, while you are in the creative process, you can continue, and your attention is not disrupted. If you delay doing this for multiple minutes (probably your damn mouse, hitting copy and paste and moving the cursor with it) you have most probably lost the train of thought that led you to want to do this anyway. Moreover, I frequently see people finding doing such code writings as "annoying", which is understandable because it is being done in a very poor way. This can sadly lead to a decline in general interest in programming as whole.
+A little story about how I came to be so dogmatic about this: The first laptop I had as a programmer was [this piece of history](https://en.wikipedia.org/wiki/Acer_Aspire_laptops), and for whatever reason I didn't have an external mouse. The trackpad on these machines is a joke. It is so small that you barely can move it from one corner of the screen to the other. Instead of trying to fight it, I learned from a very early stage of my career as a programmer to **hyper utilize the keyboard**. 
+
+Over time, this became a blessing. Nowadays, having had multiple generations of MacBooks, even though I appreciate the trackpad for other tasks and am happy to not need to brows my file system anymore using keyboard, I happily hold the same habit *while I am coding* and try to avoid the trackpad as much as I can.
+
+Second, and main part of the thesis: In general, as a programmer, your attention is disrupted in generally one instance: **when your hands over the keyboard fail to keep up what it in your mind's thinking**. Let's consider this both when you are reading and writing code.
+
+In writing, you want to be able to quickly prototype different approaches, and put words on the screen. Imagine you have to do a refactor, where, for example, you have to unwind a few loops and change their indentation real quick, duplicate a few lines etc. If you manage to do this almost as fast as your brain is unpacking it, while you are in the creative process, you can continue, and your attention is not disrupted. If you delay doing this for multiple minutes (probably your damn mouse, hitting copy and paste and moving the cursor with it) you have most probably lost the train of thought that led you to want to do in the first place. 
+
+Moreover, I frequently see people find doing such code refactors as "annoying", which is understandable because it is being done in a very poor way. This can sadly lead to a decline in general interest in programming as whole.
 
 > Ideally, you want your hands on the keyboard to be so agile that even mundane refactors are actually fun to do, because you get to practice all the cool tricks you know.
 
-In reading, I think this is even more visible. Imagine you want to follow a train of types and traits that relate to one another, trying to demystify them. If it takes you too long to jump from the file where you see the symbol `Foo` to where `Foo` is defined or used, then this process becomes mighty ANNOYING, and again can be demotivating to experience, other than being unproductive as well. And this is assuming you know where `Foo` is defined. If not, you have two tasks at hand: where is `Foo` (which is mostly solved for you if you have a language server), and how can I get there in the most efficient way (and the most efficient way never involves using a trackpad).
+In reading, I think this is even more visible. Imagine you want to follow a train of types and traits that relate to one another, trying to demystify them. If it takes you too long to jump from the file where you see the symbol `Foo` to where `Foo` is defined or used, then this process becomes mighty ANNOYING, and again can be demotivating to experience, other than being unproductive as well. And this is assuming you know where `Foo` is defined. If not, you have two tasks at hand: where is `Foo` (which is mostly solved for you if you have a language server), and how can I get there in the most efficient way (and the most efficient way never *involves using a trackpad*, it should be a single shortcut).
 
 This is where my whole rant about not using the mouse is coming from. I think if you are really bad in the above, there is a long way that you can go while using a mouse. But sooner or later, you will reach a point where you realize that point of "losing the attention" is every time your hands must leave the keyboard, because you want to perform an action that you cannot do while your hands are already on the keyboard.
 
-So all in all, in theory: **you want your hands, on the keyboard, to be able to keep up with your head while it is thinking**. This is the main message, and how you achieve can vary. But the important point is to keep **improving**. Every time you face that annoying moment of not being able to do something easily, go the Google, and the documentation of whatever editor you are using, and see if/how you can improve this. Don't cope with such micro-inefficiencies, as they accumulate over time. To the contrary, once you start fixing them, you will learn your editor in much greater depth, which has a compounding positive effect.
+So all in all, in theory: **you want your hands, on the keyboard, to be able to keep up with your head while it is thinking**. This is the main message, and how you achieve can vary. 
+
+But the important point is to keep **improving**. Every time you face that annoying moment of not being able to do something easily, go to Google, and the documentation of whatever editor you are using, and see if/how you can improve this. Don't cope with such micro-inefficiencies, as they accumulate over time. To the contrary, once you start fixing them, you will learn your editor in much greater depth, which has a compounding positive effect.
 
 Your editor is of choice is very important here. It is like the brush to the painter. Make sure you become a strong fanboy of it by following all the releases, seeing what is new etc.
 
@@ -31,13 +41,13 @@ With all of that, I will list some of the settings, configurations, and shortcut
 The assumption here is that like most programmers, you have a few desktops, in which you have separated at least 3 main tools: An editor, a terminal, and a browser (and perhaps more).
 ### Operating System Level
 
-1. The absolute first step is learn your cursor. The involves a few settings:
+1. The absolute first step is master your **cursor**. The involves a few settings:
    * Increasing its speed significantly. The default cursor speed is way too slow.
    * Learning how to jump by word rather than character.
    * Learning how to jump the beginning and end of the line.
 
 2. Learning to move between the few desktops you have open via keyboard.
-   * In my linux days, the shortcut to move the active application to another desktop but was rather easy, but is rather dodgy to setup right in MacOs. I have mostly forgotten about this
+   * In my Linux days, the shortcut to move the active application to another desktop was rather easy, but is rather dodgy to setup in MacOs. I have mostly forgotten about this.
 
 3. Lastly, you want to be able to easily split your screen into two, left and right. I personally find anything more than this to be an overkill, but most apps that allow you to do one allow you to do all of them, such as [rectangle](https://rectangleapp.com/).
 

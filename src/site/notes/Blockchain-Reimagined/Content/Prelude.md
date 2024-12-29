@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/content/prelude/","hide":true,"created":"2024-08-18T19:22:42.051+01:00","updated":"2024-12-28T12:33:38.681+00:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/content/prelude/","hide":true,"created":"2024-08-18T19:22:42.051+01:00","updated":"2024-12-29T12:12:35.939+00:00"}
 ---
 
 For many years, I have struggled with the simple question of "what is Blockchain useful for?". I had some "memorized" answers, but I can confess that I never set aside the time to deeply understand it. 
@@ -29,6 +29,8 @@ My main audience for this work are programmers and practitioners who already und
 
 > Four steps: choose a field, learn enough to get to the frontier, notice gaps, explore promising ones. This is how practically everyone who's done great work has done it, from painters to physicists.
 > [Paul Graham, How to do great work](https://paulgraham.com/greatwork.html)
+
+In some sense, I am creating the book that I *wish* I had access to at the year 2018, when I was finishing my Computer Science Msc. degree, and exploring a career in a blockchain company. 
 
 ## Polkadot? 
 

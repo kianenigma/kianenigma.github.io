@@ -27,14 +27,14 @@ Trust can be categorized into the following:
 Which is:
 - Conditional 
 - Corruptible 
-- Limited
+- Limited or Permissioned
 - Not easily auditable (discussed in [[Blockchain-Reimagined/Content/What/Execution, Ordering and History Yields State Machine\|Execution, Ordering and History Yields State Machine]])
 
 ## Science-based Trust
 Which is: 
 - Reliable
 - Verifiable
-- Accessible
+- Accessible, Permissionless
 - Easily auditable (discussed in [[Blockchain-Reimagined/Content/What/Execution, Ordering and History Yields State Machine\|Execution, Ordering and History Yields State Machine]])
 - This type of trust has [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]]. 
 
