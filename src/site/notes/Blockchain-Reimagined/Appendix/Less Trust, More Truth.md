@@ -28,12 +28,14 @@ Which is:
 - Conditional 
 - Corruptible 
 - Limited
+- Not easily auditable (discussed in [[Blockchain-Reimagined/Content/What/Execution, Ordering and History Yields State Machine\|Execution, Ordering and History Yields State Machine]])
 
 ## Science-based Trust
 Which is: 
 - Reliable
 - Verifiable
 - Accessible
+- Easily auditable (discussed in [[Blockchain-Reimagined/Content/What/Execution, Ordering and History Yields State Machine\|Execution, Ordering and History Yields State Machine]])
 - This type of trust has [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]]. 
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/content/what/what-is-this-all-about/","hide":true,"created":"2024-09-13T19:41:43.296+01:00","updated":"2024-12-28T11:23:34.350+00:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/content/what/what-is-this-all-about/","hide":true,"created":"2024-09-13T19:41:43.296+01:00","updated":"2024-12-29T10:31:33.742+00:00"}
 ---
 
 ## Owning Digital Money 
@@ -96,7 +96,7 @@ This is really what blockchain-based technology is all about: Commoditizing the 
 
 Human-based [[Blockchain-Reimagined/Glossary/Trust\|Trust]] is corruptible, conditional and limited. Science-based trust, such as that of Bitcoin, is verifiable, reliable and accessible. 
 
-> We summarize these properties that blockchain-based systems bring about as [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]]. Blockchains are a more resilient way to establish trust. 
+> We summarize these properties that blockchain-based systems bring about as [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]]. Blockchains are a more *resilient* way to establish [[Blockchain-Reimagined/Glossary/Trust\|Trust]]. When we take these properties and apply them to the Web, we may call that Web3. 
 
 Bitcoin was the first demonstration that you can do this. It was the first digital bank, establishing [[Blockchain-Reimagined/Glossary/Trust\|Trust]] without a central [[Blockchain-Reimagined/Glossary/Authority\|Authority]]. This was the first step towards commoditization of money[^5].
 
