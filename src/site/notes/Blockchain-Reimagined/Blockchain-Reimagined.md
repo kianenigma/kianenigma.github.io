@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/blockchain-reimagined/","hide":true,"created":"2024-07-12T16:35:17.118+01:00","updated":"2024-10-26T14:18:04.324+01:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/blockchain-reimagined/","hide":true,"created":"2024-07-12T16:35:17.118+01:00","updated":"2024-12-28T12:38:55.350+00:00"}
 ---
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQb_OXXMBQFHJTbUDDOm-UePQzf_oigtaX1kG8jlpuUXBuw-yrL3nutul3OJReByj3FW5RqAKw6QQdu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -7,17 +7,18 @@
 - [Blockchain, Bitcoin, Polkadot, JAM: Lisbon Hangout - Google Slides](https://docs.google.com/presentation/d/1UPmnISt8OH8CzgxbY2q9kX34rYP8Me-0qkLoiSXPyAQ/edit?usp=sharing)
 ## Table Of Content
 - [[Blockchain-Reimagined/Content/Prelude\|Prelude]]
-- Part 1: Blockchain Basics. 
-	- [[Blockchain-Reimagined/Content/What Is This All About?\|What Is This All About?]]
-	- [[Blockchain-Reimagined/Content/More On Authorities\|More On Authorities]]
-	- [[Blockchain-Reimagined/Content/Execution, Ordering, History\|Execution, Ordering, History]]
-	- [[Blockchain-Reimagined/Content/Value Offering\|Value Offering]]
-	- [[Blockchain-Reimagined/Content/Verifiable Distributed Systems\|Verifiable Distributed Systems]]
-	- [[Blockchain-Reimagined/Content/Proof of Work\|Proof of Work]]
-	- [[Blockchain-Reimagined/Content/Proof of Work\|Proof of Work]]
+- Part 1: WHAT blockchains do. 
+	- [[Blockchain-Reimagined/Content/What/What Is This All About?\|What Is This All About?]]
+	- [[Blockchain-Reimagined/Content/What/Blockchain-based Authorities\|Blockchain-based Authorities]]
+	- [[Blockchain-Reimagined/Content/What/Execution, Ordering and History Yields State Machine\|Execution, Ordering and History Yields State Machine]]
+- Part 2: HOW blockchains do it (in short)
+	- [[Blockchain-Reimagined/Content/How/Verifiable Distributed Systems\|Verifiable Distributed Systems]]
+	- [[Blockchain-Reimagined/Content/How/Proof of Work\|Proof of Work]]
+	- [[Blockchain-Reimagined/Content/How/Proof of Work\|Proof of Work]]
 	- Conclusion: 
 		- "Crypto economically secured systems", as a way to establish trust. 
 		- Blockchain as a data structure is overrated, and is just an implementation detail. 
+-  [[Blockchain-Reimagined/Content/Value Offering\|Value Offering]]
 - Part 2: Scaling Crypto Economic Systems
 - Part 3: Polkadot 
 - Part 4: JAM 

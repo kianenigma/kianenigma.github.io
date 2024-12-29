@@ -21,16 +21,22 @@ Or, we can replace human-based and science-based with one of their corresponding
 
 The property of us believing an [[Blockchain-Reimagined/Glossary/Authority\|Authority]] behaves according to some rules. 
 
-Trust can be categorized into: 
-- Human based, which make it:
-	- Conditional 
-	- Corruptible 
-	- Limited
-- Science based, which make it:
-	- Reliable
-	- Verifiable
-	- Accessible
-	- This type of trust has [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]]. 
+Trust can be categorized into the following: 
+
+## Human-based Trust
+Which is:
+- Conditional 
+- Corruptible 
+- Limited
+
+## Science-based Trust
+Which is: 
+- Reliable
+- Verifiable
+- Accessible
+- This type of trust has [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]]. 
+
+
 
 </div></div>
 

@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T10:35:08.540+01:00","updated":"2024-11-10T06:57:34.138+00:00"}
+{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T10:35:08.540+01:00","updated":"2024-12-29T10:11:01.086+00:00"}
 ---
 
 ## Tech 
 
-| File                                                                                                                                                   | Name        |
+| File                                                                                                                                                   | Date        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
 | [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                                                       | Sep 04 2024 |
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                                                             | Jul 10 2024 |
@@ -18,7 +18,7 @@
 
 ## Personal 
 
-| File                                                                                                                       | Name        |
+| File                                                                                                                       | Date        |
 | -------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                  | Jul 26 2024 |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                     | Mar 30 2024 |

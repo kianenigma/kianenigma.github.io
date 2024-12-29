@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2024-11-10T06:57:43.272+00:00"}
+{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2024-12-29T10:10:47.310+00:00"}
 ---
 
-| File                                                                                                                                             | Name        |
+| File                                                                                                                                             | Date        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
 | [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Global Community Call\|Plaza Polkadot Hub - OpenGiuld Global Community Call]]                     | Dec 13 2024 |
 | [[Talks/2024/Building Bridges and Ecosystems - Multichain Day - Devcon 2024\|Building Bridges and Ecosystems - Multichain Day - Devcon 2024]] | Nov 22 2024 |
