@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blockchain-reimagined/content/prelude/","hide":true,"created":"2024-08-18T19:22:42.051+01:00","updated":"2024-12-29T12:12:35.939+00:00"}
+{"dg-publish":true,"permalink":"/blockchain-reimagined/content/prelude/","hide":true,"created":"2024-08-18T19:22:42.051+01:00","updated":"2024-12-30T10:24:05.598+00:00"}
 ---
 
 For many years, I have struggled with the simple question of "what is Blockchain useful for?". I had some "memorized" answers, but I can confess that I never set aside the time to deeply understand it. 
@@ -34,8 +34,8 @@ In some sense, I am creating the book that I *wish* I had access to at the year 
 
 ## Polkadot? 
 
-While spent about 6 years working on Polkadot at the time of writing, I do not intend this writing to be particularly centered around Polkadot. The early chapters will purely be about general blockchains, and later chapters about scaling will cover Polkadot as one of the approaches. 
+While I spent about 6 years working on Polkadot at the time of writing, I do not intend this writing to be particularly centered around Polkadot. This is not a sale's pitch of Polkadot. The early chapters will purely be about general blockchains, and later chapters about scaling will cover Polkadot as one of the approaches. 
 
 Yet, I cannot deny that my understanding of blockchains has a Polkadot-oriented Bias: I learned all of this through the lens of Polkadot, so some degree of bias is unavoidable.
 
-That being said, I wholly believe that Polkadot is indeed a good blockchain to let influence our biases to a small degree as it is founded by one of main architects of the blockchain space, and the Ethereum cofounder Gavin Wood.
+That being said, I believe that Polkadot is indeed a good blockchain to let influence our biases to a small degree as it is founded by one of main architects of the blockchain space, the person who coined many of the principles I use in this book such as [[Blockchain-Reimagined/Glossary/Web3\|Web3]] and [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]], the Ethereum cofounder and Polkadot founder Gavin Wood. This gives me confident that such biases will all be towards keeping the blockchain space centered around its main value offering, creating [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]] systems and replacing elements of [[Blockchain-Reimagined/Glossary/Trust#Human-based Trust\|Trust#Human-based Trust]] with [[Blockchain-Reimagined/Glossary/Trust#Science-based Trust\|Trust#Science-based Trust]]. 

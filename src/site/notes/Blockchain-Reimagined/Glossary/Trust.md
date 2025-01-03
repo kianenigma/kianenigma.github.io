@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/glossary/trust","permalink":"/blockchain-reimagined/glossary/trust/","hide":true,"created":"2024-09-13T19:58:03.887+01:00","updated":"2024-12-29T12:05:12.716+00:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/glossary/trust","permalink":"/blockchain-reimagined/glossary/trust/","hide":true,"created":"2024-09-13T19:58:03.887+01:00","updated":"2024-12-29T16:56:14.371+00:00"}
 ---
 
 
@@ -12,13 +12,13 @@ Which is:
 - Conditional 
 - Corruptible 
 - Limited or Permissioned
-- Not easily auditable (discussed in [[Blockchain-Reimagined/Content/What/Execution, Ordering and History Yields State Machine\|Execution, Ordering and History Yields State Machine]])
+- Not easily auditable (discussed in [[Blockchain-Reimagined/Content/What/Execution, Ordering, History and State Machines\|Execution, Ordering, History and State Machines]])
 
 ## Science-based Trust
 Which is: 
 - Reliable
 - Verifiable
 - Accessible, Permissionless
-- Easily auditable (discussed in [[Blockchain-Reimagined/Content/What/Execution, Ordering and History Yields State Machine\|Execution, Ordering and History Yields State Machine]])
+- Easily auditable (discussed in [[Blockchain-Reimagined/Content/What/Execution, Ordering, History and State Machines\|Execution, Ordering, History and State Machines]])
 - This type of trust has [[Blockchain-Reimagined/Glossary/Resilience\|Resilience]]. 
 
