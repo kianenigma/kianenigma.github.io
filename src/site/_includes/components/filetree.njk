@@ -21,8 +21,8 @@
         {%endif%}
     {% endmacro %}
 
-    <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;"
-            x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;"
+    <div x-init="isDesktop = (window.innerWidth>=14000000) ? true: false;"
+            x-on:resize.window="isDesktop = (window.innerWidth>=14000000) ? true : false;"
             x-data="{isDesktop: true, showFilesMobile: false}">
 
         <div x-show.important="!isDesktop" style="display: none;">
@@ -41,6 +41,11 @@
          {% for imp in dynamics.filetree.afterTitle %}
             {% include imp %}
         {% endfor %}
+		{% if settings.dgEnableSearch === true%}
+            <div style="display: flex; justify-content: center;">
+                {% include "components/searchButton.njk" %}
+            </div>
+        {%endif%}
 		<hr>
          <div class="folder" x-data="{isOpen: true}">
                {%- for fileOrFolderName, fileOrFolder in filetree -%}
