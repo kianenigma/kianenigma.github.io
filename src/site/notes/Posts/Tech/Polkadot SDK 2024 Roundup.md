@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-03T17:22:13.757+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-04T12:18:39.829+00:00"}
 ---
 
 
 As we close the year 2024, and we have seen great roundup articles from the Polkadot ecosystem, I would like to have the honor to present some of the great work that has been done by the maintainers of `polkadot-sdk` in 2024. Other noteworthy roundups: 
-- Polkadot roundup by Gavin Wood
-- Polkadot data roundup by DotLake
+- [Polkadot roundup by Gavin Wood](https://polkadot.com/blog/gavin-wood-polkadot-2024-roundup)
+- [Polkadot data roundup by DotLake](https://data.parity.io/eoyr2024)
 
 > [!info] Summary 
-> This is a written superset of what I have presented in Sub0 Reset Bangkok in November 2024. [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]
+> This is a written superset of what I have presented in Sub0 Reset Bangkok in November 2024. See [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]].
 
 ## Prelude: `substrate` To `polkadot-sdk` 
 ### Substrate 
@@ -61,7 +61,7 @@ With this intro setting the foundation of our history thus far, let's look at so
 
 ## `docs.polkadot.com`
 
-Little needs to be added here by me, as the recent article in Polkadot.com says it all: After a few years of scattered documentation (which admittedly was partly the consequence of transition from `substrate` to `polkadot-sdk`), Polkadot now has a brand new documentation portal, hosted right at the official website, which also covers numerous `polkadot-sdk` products, such as launching your own Parachain. 
+Little needs to be added here by me, as the [recent article in Polkadot.com says it all](https://polkadot.com/blog/polkadot-dev-docs-hub): After a few years of scattered documentation (which admittedly was partly the consequence of transition from `substrate` to `polkadot-sdk`), Polkadot now has a brand new documentation portal, hosted right at the official website, which also covers numerous `polkadot-sdk` products, such as launching your own Parachain. 
 
 `docs.polkadot.com` has only seen its initial release in December 2024, so a lot of further improvements are expected to land in 2025. That being said, we can confidently assert: **`docs.polkadot.com` will be the single source of truth for documentation around Polkadot going forward, and all new features will be documented here.**
 ## [`stable`](https://forum.polkadot.network/t/stabilizing-polkadot/7175) Releases
