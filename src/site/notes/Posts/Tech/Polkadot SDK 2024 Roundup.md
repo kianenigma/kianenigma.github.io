@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T10:08:26.876+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T14:33:38.129+00:00"}
 ---
 
 
@@ -57,7 +57,7 @@ With this intro setting the foundation of our history thus far, let's look at so
 - Improving your life in `lib.rs`: Also in [[Posts/Tech/Polkadot SDK 2024 Roundup#☂️ Umbrella Crates\|#☂️ Umbrella Crates]]
 - Improving your life in managing node binaries: [[Posts/Tech/Polkadot SDK 2024 Roundup#polkadot-omni-node\|#polkadot-omni-node]]
 - A note on [[Posts/Tech/Polkadot SDK 2024 Roundup#Templates\|#Templates]] 
-- With a final reflection on role of `polkadot-sdk`, Parachains and Solochains in light of [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Global Community Call\| Polkadot Hub and Solidity Smart Contracts]]. 
+- With a final reflection on role of `polkadot-sdk`, Parachains and Solochains in light of [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\| Polkadot Hub and Solidity Smart Contracts]]. 
 - [[Posts/Tech/Polkadot SDK 2024 Roundup#Work In Progress™️\|#Work In Progress™️]]: A note on the progress of each item, clarifying what stage of maturity they are at. 
 
 ## docs.polkadot.com
