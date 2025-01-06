@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T09:29:31.643+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T09:36:47.062+00:00"}
 ---
 
 
@@ -56,7 +56,7 @@ With this intro setting the foundation of our history thus far, let's look at so
 - Improving your life in `Cargo.toml`: [[Posts/Tech/Polkadot SDK 2024 Roundup#[Stable](https //forum.polkadot.network/t/stabilizing-polkadot/7175) Releases\| Stable Releases]] and [[Posts/Tech/Polkadot SDK 2024 Roundup#☂️ Umbrella Crates\|#☂️ Umbrella Crates]]
 - Improving your life in `lib.rs`: Also in [[Posts/Tech/Polkadot SDK 2024 Roundup#☂️ Umbrella Crates\|#☂️ Umbrella Crates]]
 - Improving your life in managing node binaries: [[#`polkadot-omni-node`]]
-- Misc: [[Posts/Tech/Polkadot SDK 2024 Roundup#Templates\|#Templates]] and [[Posts/Tech/Polkadot SDK 2024 Roundup#Repository Cleanup\|#Repository Cleanup]]
+- A note on [[Posts/Tech/Polkadot SDK 2024 Roundup#Templates\|#Templates]] 
 - With a final reflection on role of `polkadot-sdk`, Parachains and Solochains in light of [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Global Community Call\| Polkadot Hub and Solidity Smart Contracts]]. 
 - [[Posts/Tech/Polkadot SDK 2024 Roundup#Work In Progress™️\|#Work In Progress™️]]: A note on the progress of each item, clarifying what stage of maturity they are at. 
 
@@ -122,9 +122,11 @@ One notable example of this is FRAME macros. Today, they all have extensive API 
 TODO: image
 
 All of the released docs are present in `docs.rs` ([e.g.](https://docs.rs/polkadot-sdk-frame/latest/polkadot_sdk_frame/)) with proper versioning in each `stable-YYYYMM`, and the master version is deployed on every commit to `polkadot-sdk` under parity [paritytech.github.io/polkadot-sdk/master/](https://paritytech.github.io/polkadot-sdk/master/). 
-## Repository Cleanup 
 
 ## ... And What About Smart Contracts???
+All of the above is improvements to the original product of Polkadot-SDK, *the Parachain/Solochain*. While all of the above is a testimony to this product becoming simpler to build with, it is worth noting that Polkadot will soon have a brand new product, being developed under the project codename [Plaza/Hub](https://forum.polkadot.network/t/contracts-on-assethub-roadmap/9513), which will allow Solidity smart contracts to be directly deployed to Polkadot. 
+
+The important point is that Solidity contracts will inevitably be simpler than building a Parachain, no matter what. This features is planned for deployment by Q22025 on Kusama, and by Q42025 on Polkadot. The preliminary documentation for the demo version on the Westend test network is available in [Intro | Contracts](https://contracts.polkadot.io/).
 ## Appendix
 
 ### Work In Progress™️
