@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T10:07:58.072+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T10:08:26.876+00:00"}
 ---
 
 
@@ -87,9 +87,6 @@ The emergent benefits of this can be broken down into:
 [^6]: Those who contribute to `polkadot-sdk` via PRs are asked to provide a `prdoc` that encapsulates all changes to crates and respective version bumps, example. 
 
 To learn more about the release process, see [`RELEASE.md`](https://github.com/paritytech/polkadot-sdk/blob/master/docs/RELEASE.md), and the [paritytech/release-registry](https://github.com/paritytech/release-registry/).
-
-TODO: image 
-
 ## ☂️ Umbrella Crates 
 Today, Polkadot-SDK, when not used with umbrella crates, is an aggregate of more than 500 crates. When starting with any of our templates, one typically would work with 80 crates to maintain the node software, and around 50 crates to maintain their runtime and a set of custom pallets[^7]. This degree of modularity is useful for power user, yet a hinderance to new joiners. Moreover, dealing with a larger number of crates also means more complicated dependency upgrades, as noted above. 
 [^7]: Numbers are estimated based on an old commit of the polkadot-sdk-parachain-template's [node](https://github.com/paritytech/polkadot-sdk-parachain-template/blob/ecaf71deeb81418b80c69b7a0bf8ce19ff624a76/node/Cargo.toml#L17-L110) and [runtime](https://github.com/paritytech/polkadot-sdk-parachain-template/blob/ecaf71deeb81418b80c69b7a0bf8ce19ff624a76/runtime/Cargo.toml#L20-L77) `Cargo.toml`. 
@@ -103,8 +100,11 @@ These crates are crafted to abstract away the immense size and modularity of Pol
 This is the umbrella crate that is mainly meant to simplify your `Cargo.toml`. Both in the `node` and  `runtime` component, instead of dealing with all the low level `sc-*` and `sp-*` crates, you can use the single `polkadot-sdk` crate. This crate will then automatically pull all of the relevant dependencies based on the feature flags. 
 
 <div style="overflow:hidden;margin-left:auto;margin-right:auto;border-radius:10px;width:100%;max-width:1190px;position:relative"><div style="width:100%;padding-bottom:60.75630252100841%"></div><iframe width="1190" height="723" title="Simplifying `Cargo.toml`" src="https://snappify.com/embed/3c06e53b-712d-4ba9-ab81-8c403956dbbe?responsive=1&p=1&b=1" allow="clipboard-write" allowfullscreen="" loading="lazy" style="background:linear-gradient(120deg,#f6d365ff,#fda085ff);position:absolute;left:0;top:0;width:100%" frameborder="0"></iframe></div>
+
 ### [`polkadot-sdk-frame`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_frame/index.html)
 This is the umbrella crate that is mainly meant to simplify your `.rs` files within FRAME pallets and runtimes. It is a wrapper around all of the common type, trait and functions that are often used within a typical FRAME pallet. 
+
+
 ## [polkadot-omni-node](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/omni_node/index.html)
 Taking a step further in the same direction, another realization is that most parachain teams prefer to [not even maintain their node, as they do not customize anything in particular with it](https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823). This is where `polkadot-omni-node` steps in: a single binary, now available as a part of `stable-202412` for both Linux and Mac, that can run the runtime of most parachain. 
 
