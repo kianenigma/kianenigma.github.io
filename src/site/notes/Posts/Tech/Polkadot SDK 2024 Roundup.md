@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T09:36:47.062+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T09:37:25.326+00:00"}
 ---
 
 
@@ -55,7 +55,7 @@ With this intro setting the foundation of our history thus far, let's look at so
 - New documentation: [[Posts/Tech/Polkadot SDK 2024 Roundup#docs.polkadot.com\|#docs.polkadot.com]] and [[Posts/Tech/Polkadot SDK 2024 Roundup#docs.rs\|#docs.rs]] 
 - Improving your life in `Cargo.toml`: [[Posts/Tech/Polkadot SDK 2024 Roundup#[Stable](https //forum.polkadot.network/t/stabilizing-polkadot/7175) Releases\| Stable Releases]] and [[Posts/Tech/Polkadot SDK 2024 Roundup#☂️ Umbrella Crates\|#☂️ Umbrella Crates]]
 - Improving your life in `lib.rs`: Also in [[Posts/Tech/Polkadot SDK 2024 Roundup#☂️ Umbrella Crates\|#☂️ Umbrella Crates]]
-- Improving your life in managing node binaries: [[#`polkadot-omni-node`]]
+- Improving your life in managing node binaries: [[Posts/Tech/Polkadot SDK 2024 Roundup#polkadot-omni-node\|#polkadot-omni-node]]
 - A note on [[Posts/Tech/Polkadot SDK 2024 Roundup#Templates\|#Templates]] 
 - With a final reflection on role of `polkadot-sdk`, Parachains and Solochains in light of [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Global Community Call\| Polkadot Hub and Solidity Smart Contracts]]. 
 - [[Posts/Tech/Polkadot SDK 2024 Roundup#Work In Progress™️\|#Work In Progress™️]]: A note on the progress of each item, clarifying what stage of maturity they are at. 
@@ -99,7 +99,7 @@ These crates are crafted to abstract away the immense size and modularity of Pol
 This is the umbrella crate that is mainly meant to simplify your `Cargo.toml`. Both in the `node` and  `runtime` component, instead of dealing with all the low level `sc-*` and `sp-*` crates, you can use the single `polkadot-sdk` crate. This crate will then automatically pull all of the relevant dependencies based on the feature flags. 
 ### [`polkadot-sdk-frame`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_frame/index.html)
 This is the umbrella crate that is mainly meant to simplify your `.rs` files within FRAME pallets and runtimes. It is a wrapper around all of the common type, trait and functions that are often used within a typical FRAME pallet. 
-## [`polkadot-omni-node`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/omni_node/index.html)
+## [polkadot-omni-node](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/omni_node/index.html)
 Taking a step further in the same direction, another realization is that most parachain teams prefer to [not even maintain their node, as they do not customize anything in particular with it](https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823). This is where `polkadot-omni-node` steps in: a single binary, now available as a part of `stable-202412` for both Linux and Mac, that can run the runtime of most parachain. 
 
 This essentially allows a parachain team to reduce their code maintenance footprint into just maintaining a `runtime` template, the output of which would be a `runtime.wasm` or a `chainspec.json` file, which can be fed into `polkadot-omni-node` binary both for local development, and for production deployment. 
