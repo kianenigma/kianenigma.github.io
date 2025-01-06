@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T09:37:25.326+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T10:06:42.126+00:00"}
 ---
 
 
@@ -64,8 +64,12 @@ With this intro setting the foundation of our history thus far, let's look at so
 
 Little needs to be added here by me, as the [recent article in Polkadot.com says it all](https://polkadot.com/blog/polkadot-dev-docs-hub): After a few years of scattered documentation (which admittedly was partly the consequence of transition from `substrate` to `polkadot-sdk`), Polkadot now has a brand new documentation portal, hosted right at the official website, which also covers numerous `polkadot-sdk` products, such as launching your own Parachain. 
 
+![Screenshot 2025-01-06 at 09.39.26.png](/img/user/resources/Screenshot%202025-01-06%20at%2009.39.26.png)
+
 `docs.polkadot.com` has only seen its initial release in December 2024, so a lot of further improvements are expected to land in 2025. That being said, we can confidently assert: **`docs.polkadot.com` will be the single source of truth for documentation around Polkadot going forward, and all new features will be documented here.**
 ## [Stable](https://forum.polkadot.network/t/stabilizing-polkadot/7175) Releases
+
+![Screenshot 2024-11-08 at 03.01.45.png](/img/user/resources/Screenshot%202024-11-08%20at%2003.01.45.png)
 
 Some of us were around for long enough to remember the early days where building on Substrate entailed using `git` dependencies in `Cargo.toml`[^5]. 
 
@@ -97,6 +101,8 @@ In 2024, Polkadot-SDK saw two new crates which we like to call umbrella crates:
 These crates are crafted to abstract away the immense size and modularity of Polkadot-SDK away from new joiners, in return for less control over exact versions. Let's see how each of them work one by one. 
 ### [`polkadot-sdk`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/umbrella_crate/index.html)
 This is the umbrella crate that is mainly meant to simplify your `Cargo.toml`. Both in the `node` and  `runtime` component, instead of dealing with all the low level `sc-*` and `sp-*` crates, you can use the single `polkadot-sdk` crate. This crate will then automatically pull all of the relevant dependencies based on the feature flags. 
+
+<div style="overflow:hidden;margin-left:auto;margin-right:auto;border-radius:10px;width:100%;max-width:1190px;position:relative"><div style="width:100%;padding-bottom:60.75630252100841%"></div><iframe width="1190" height="723" title="" src="https://snappify.com/embed/3c06e53b-712d-4ba9-ab81-8c403956dbbe?responsive=1&p=1&b=1" allow="clipboard-write" allowfullscreen="" loading="lazy" style="background:linear-gradient(120deg,#f6d365ff,#fda085ff);position:absolute;left:0;top:0;width:100%" frameborder="0"></iframe></div>
 ### [`polkadot-sdk-frame`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_frame/index.html)
 This is the umbrella crate that is mainly meant to simplify your `.rs` files within FRAME pallets and runtimes. It is a wrapper around all of the common type, trait and functions that are often used within a typical FRAME pallet. 
 ## [polkadot-omni-node](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/omni_node/index.html)
@@ -132,3 +138,4 @@ The important point is that Solidity contracts will inevitably be simpler than b
 ### Work In Progress™️
 
 ### Acknowledgment 
+While I am the messenger of all of the above features, delivering the above is mainly the work of numerous other Parity engineers and Polkadot fellows. 
