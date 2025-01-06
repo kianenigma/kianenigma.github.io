@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T09:20:19.564+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T09:29:31.643+00:00"}
 ---
 
 
@@ -26,7 +26,7 @@ This goal primarily manifested as the inception of [`substrate`](https://github.
 Substrate was eventually used to build Polkadot Relay Chain, and with the help of a neighboring framework of `cumulus`, it enabled any Substrate chain to become a Polkadot Parachain. Needless to say, many Polkadot-independent blockchains have also been built with Substrate, such as within the [Cardano Partner Chains](https://forum.polkadot.network/t/cardano-partnerchain-v1-release-built-on-substrate/9548), [Midnight](https://midnight.network/), [Avail](https://github.com/availproject/polkadot-sdk) or [BitTensor](https://github.com/opentensor/subtensor) to name a few[^4].
 
 [^4]: See [here](https://coinmarketcap.com/view/polkadot-ecosystem/) or [here]() for further list of non-Parachain Substrate chains. 
-### `polkadot-sdk` 
+### Polkadot-SDK
 In May 2023, `substrate`, `cumulus`, `xcm`, and a few other key infrastructure technologies of Polkadot [migrated to a new mono-repo called `polkadot-sdk`](https://forum.polkadot.network/t/psa-parity-is-currently-working-on-merging-the-polkadot-stack-repositories-into-one-single-repository/2883). This  migration had multiple driving factors, that we can set aside for the sake of time. Yet, it marked an important transition to give more emphasis to the fact that Substrate is a part of `polkadot-sdk`.
 
 ![Screenshot 2025-01-03 at 16.02.15.png](/img/user/resources/Screenshot%202025-01-03%20at%2016.02.15.png)
@@ -49,30 +49,29 @@ This has manifested itself in a few places worthy of noting:
 > [!info]- `polkadot-sdk` is HUGE
 > TODO: some stats on `cloc` of `polkadot-sdk`. 
 
-So, to summarize, Substrate is a part of Polakdot SDK now, and as a technology framework, remains as-is. It has served builders within and outside of Polkadot, and continues to do so, with only a slight change in the name. 
+So, to summarize, Substrate is a part of Polkadot-SDK now, and as a technology framework, remains as-is. It has served builders within and outside of Polkadot, and continues to do so, with only a slight change in the name. 
 
 With this intro setting the foundation of our history thus far, let's look at some of the most major improvements to `polkadot-sdk` that have landed in 2024. These updates can be categorized into: 
-- New documentation: [[#`docs.polkadot.com`]] and [[#`docs.rs`]] 
-- Improving your life in `Cargo.toml`: [[#[`stable`](https //forum.polkadot.network/t/stabilizing-polkadot/7175) Releases| Stable Releases]] and [[Posts/Tech/Polkadot SDK 2024 Roundup#☂️ Umbrella Crates\|#☂️ Umbrella Crates]]
+- New documentation: [[Posts/Tech/Polkadot SDK 2024 Roundup#docs.polkadot.com\|#docs.polkadot.com]] and [[Posts/Tech/Polkadot SDK 2024 Roundup#docs.rs\|#docs.rs]] 
+- Improving your life in `Cargo.toml`: [[Posts/Tech/Polkadot SDK 2024 Roundup#[Stable](https //forum.polkadot.network/t/stabilizing-polkadot/7175) Releases\| Stable Releases]] and [[Posts/Tech/Polkadot SDK 2024 Roundup#☂️ Umbrella Crates\|#☂️ Umbrella Crates]]
 - Improving your life in `lib.rs`: Also in [[Posts/Tech/Polkadot SDK 2024 Roundup#☂️ Umbrella Crates\|#☂️ Umbrella Crates]]
 - Improving your life in managing node binaries: [[#`polkadot-omni-node`]]
 - Misc: [[Posts/Tech/Polkadot SDK 2024 Roundup#Templates\|#Templates]] and [[Posts/Tech/Polkadot SDK 2024 Roundup#Repository Cleanup\|#Repository Cleanup]]
 - With a final reflection on role of `polkadot-sdk`, Parachains and Solochains in light of [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Global Community Call\| Polkadot Hub and Solidity Smart Contracts]]. 
-- [[Posts/Tech/Polkadot SDK 2024 Roundup#Work In Progress™️\|#Work In Progress™️]]: A not on the progress of each item, clarifying what stage of maturity they are at. 
+- [[Posts/Tech/Polkadot SDK 2024 Roundup#Work In Progress™️\|#Work In Progress™️]]: A note on the progress of each item, clarifying what stage of maturity they are at. 
 
-
-## `docs.polkadot.com`
+## docs.polkadot.com
 
 Little needs to be added here by me, as the [recent article in Polkadot.com says it all](https://polkadot.com/blog/polkadot-dev-docs-hub): After a few years of scattered documentation (which admittedly was partly the consequence of transition from `substrate` to `polkadot-sdk`), Polkadot now has a brand new documentation portal, hosted right at the official website, which also covers numerous `polkadot-sdk` products, such as launching your own Parachain. 
 
 `docs.polkadot.com` has only seen its initial release in December 2024, so a lot of further improvements are expected to land in 2025. That being said, we can confidently assert: **`docs.polkadot.com` will be the single source of truth for documentation around Polkadot going forward, and all new features will be documented here.**
-## [`stable`](https://forum.polkadot.network/t/stabilizing-polkadot/7175) Releases
+## [Stable](https://forum.polkadot.network/t/stabilizing-polkadot/7175) Releases
 
 Some of us were around for long enough to remember the early days where building on Substrate entailed using `git` dependencies in `Cargo.toml`[^5]. 
 
 A bit later, polkadot-sdk crates were being published to `crates.io`, yet without proper semantic versioning and with a system that I like to call *YOLO-MAJOR-BUMP-EVERYTHING*. This meant that updating one dependency always entailed updating all dependencies, and was a particularly good experience for developers either. 
 
-Those days are well passed us now, thanks to the *stable* and *semver-aware* release schedule of (everything in) [`polakdot-sdk`](https://github.com/paritytech/polkadot-sdk). 
+Those days are well passed us now, thanks to the *stable* and *semver-aware* release schedule of (everything in) [`polkadot-sdk`](https://github.com/paritytech/polkadot-sdk). 
 
 Today, all crates in `polkadot-sdk` get a new release every quarter (named `stable-YYYYMM`, for example the last one being `stable-202412`), all crate versions are updated based on exact changes that have happened since the last release[^6], and each stable release will receive bug and security fixes for a **full year**. 
 
@@ -101,7 +100,7 @@ This is the umbrella crate that is mainly meant to simplify your `Cargo.toml`. B
 ### [`polkadot-sdk-frame`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_frame/index.html)
 This is the umbrella crate that is mainly meant to simplify your `.rs` files within FRAME pallets and runtimes. It is a wrapper around all of the common type, trait and functions that are often used within a typical FRAME pallet. 
 ## [`polkadot-omni-node`](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/reference_docs/omni_node/index.html)
-Taking a step further in the same direction, another realization is that most parachain teams prefer to not even maintain their node, as they do not customize anything in particular with it. This is where `polkadot-omni-node` steps in: a single binary, now available as a part of `stable-202412` for both Linux and Mac, that can run the runtime of most parachain. 
+Taking a step further in the same direction, another realization is that most parachain teams prefer to [not even maintain their node, as they do not customize anything in particular with it](https://forum.polkadot.network/t/polkadot-parachain-omni-node-gathering-ideas-and-feedback/7823). This is where `polkadot-omni-node` steps in: a single binary, now available as a part of `stable-202412` for both Linux and Mac, that can run the runtime of most parachain. 
 
 This essentially allows a parachain team to reduce their code maintenance footprint into just maintaining a `runtime` template, the output of which would be a `runtime.wasm` or a `chainspec.json` file, which can be fed into `polkadot-omni-node` binary both for local development, and for production deployment. 
 ## [Templates](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/polkadot_sdk/templates/index.html)
@@ -110,9 +109,9 @@ Speaking of templates, it is worth noting that `polkadot-sdk` now has a set of 3
 - [paritytech/polkadot-sdk-solochain-template: The Solochain-Ready Template From Polkadot SDK](https://github.com/paritytech/polkadot-sdk-solochain-template)
 - [paritytech/polkadot-sdk-parachain-template: The Parachain-Ready Template From Polkadot SDK](https://github.com/paritytech/polkadot-sdk-parachain-template)
 
-## `docs.rs`
+## docs.rs
 Moving on to more low level details, you may have noticed that a lot of the above topics, which are new concepts, are backed by links to Rust's API documentation toolkit, `docs.rs`. Throughout 2024, we have identified that: 
-- All of the high level documentation of Polkadot-SDK should be centralized in a single source, which ended up being [[#`docs.polkadot.com`]]
+- All of the high level documentation of Polkadot-SDK should be centralized in a single source, which ended up being [[Posts/Tech/Polkadot SDK 2024 Roundup#docs.polkadot.com\|#docs.polkadot.com]]
 - Polkadot-SDK, like any other mature Rust framework, should maintain its own API documentation in docs.rs
 [^8]: Not to mention they act as great learning material for LLMs.
 
@@ -121,6 +120,8 @@ These API docs are important, as they serve to sit a different audience compared
 One notable example of this is FRAME macros. Today, they all have extensive API documentation which you can access directly in your IDE, or from `docs.rs`:
 
 TODO: image
+
+All of the released docs are present in `docs.rs` ([e.g.](https://docs.rs/polkadot-sdk-frame/latest/polkadot_sdk_frame/)) with proper versioning in each `stable-YYYYMM`, and the master version is deployed on every commit to `polkadot-sdk` under parity [paritytech.github.io/polkadot-sdk/master/](https://paritytech.github.io/polkadot-sdk/master/). 
 ## Repository Cleanup 
 
 ## ... And What About Smart Contracts???

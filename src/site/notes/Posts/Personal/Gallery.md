@@ -36,7 +36,12 @@
 
 </div>
 
+  
+  
+
 <style>
+
+  
 
 .grid {
 
@@ -50,7 +55,7 @@ padding: 1rem;
 
 }
 
-
+  
 
 @media (max-width: 1200px) {
 
@@ -62,7 +67,7 @@ column-count: 3;
 
 }
 
-
+  
 
 @media (max-width: 800px) {
 
@@ -74,7 +79,7 @@ column-count: 2;
 
 }
 
-
+  
 
 @media (max-width: 400px) {
 
@@ -86,7 +91,7 @@ column-count: 1;
 
 }
 
-
+  
 
 /* Only target images that come after #start within .grid */
 
@@ -106,7 +111,7 @@ transition: opacity 0.3s ease;
 
 }
 
-
+  
 
 .grid img:hover {
 
@@ -114,7 +119,7 @@ opacity: 0.9;
 
 }
 
-
+  
 
 /* Modal styles */
 
@@ -142,7 +147,7 @@ box-sizing: border-box;
 
 }
 
-
+  
 
 .modal.active {
 
@@ -154,7 +159,7 @@ align-items: center;
 
 }
 
-
+  
 
 .modal img {
 
@@ -166,7 +171,7 @@ object-fit: contain;
 
 }
 
-
+  
 
 .close-button {
 
@@ -200,7 +205,7 @@ font-weight: bold;
 
 }
 
-
+  
 
 .close-button:hover {
 
@@ -210,7 +215,7 @@ background: #eee;
 
 </style>
 
-
+  
 
 <script>
 
@@ -234,7 +239,7 @@ modal.appendChild(closeButton);
 
 document.body.appendChild(modal);
 
-
+  
 
 // Add click handlers only to gallery images after #start
 
@@ -250,7 +255,7 @@ modal.classList.add('active');
 
 });
 
-
+  
 
 // Close modal when clicking close button or outside the image
 
@@ -260,7 +265,7 @@ modal.classList.remove('active');
 
 });
 
-
+  
 
 modal.addEventListener('click', (e) => {
 
@@ -272,7 +277,7 @@ modal.classList.remove('active');
 
 });
 
-
+  
 
 // Close modal with escape key
 
