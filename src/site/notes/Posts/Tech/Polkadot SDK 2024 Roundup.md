@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T14:33:38.129+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/polkadot-sdk-2024","permalink":"/posts/tech/polkadot-sdk-2024/","hide":true,"created":"2024-11-22T21:43:04.000+00:00","updated":"2025-01-06T14:53:49.311+00:00"}
 ---
 
 
@@ -136,6 +136,8 @@ The important point is that Solidity contracts will inevitably be simpler than b
 ## Appendix
 
 ### Work In Progress™️
+
+TODO: [Update polkadot-sdk README after doc launch · Issue #238 · polkadot-developers/polkadot-docs · GitHub](https://github.com/polkadot-developers/polkadot-docs/issues/238)
 
 ### Acknowledgment 
 While I am the messenger of all of the above features, delivering the above is mainly the work of numerous other Parity engineers and Polkadot fellows. 
