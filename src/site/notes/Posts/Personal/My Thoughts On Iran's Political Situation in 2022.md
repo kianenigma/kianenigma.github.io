@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2023-12-27T08:23:11.000+00:00","updated":"2024-07-28T16:21:01.031+01:00"}
+{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2023-12-27T08:23:11.000+00:00","updated":"2025-01-11T17:36:27.445+00:00"}
 ---
 
 
@@ -56,7 +56,16 @@ It is entirely understandable that certain people might have a hard(er) time cop
 So, while times are hard, I think we should embrace wellbeing more, and support each other to all feel better, less affected, and less unhappy about the situation, while combating it. Then, we would both feel better as individuals, and I hope we can come to a better outcome collectively.
 ### There is nothing exciting about the violence involved.
 
-![[rings-of-power.mp4]]
+> Theo: (talking about Orcs) How many have you killed?
+> Galadriel: Many.
+> Theo: Good.
+> Galadriel: I would not use such words.
+> Theo: Why not?
+> Galadriel: It darkens the heart to call dark deeds “good.” It gives place for evil to thrive inside us. Every war is fought both without and within.
+> Of that, every soldier must be mindful.
+> Even I. Even you.
+> 
+> - Rings of Power
 
 I was recently told by a very close acquaintance of mine: "Yeah, if you feel down, I can send you this video where the people beat the shit out of that other guy (the other guy being a ["basiji"](https://en.wikipedia.org/wiki/Basij)), see it, and you feel better".
 
