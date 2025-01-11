@@ -4,6 +4,7 @@
 
 | File                                                                                                           | Date        |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                   | Jan 05 2025 |
 | [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]] | Dec 13 2024 |
 | [[Talks/2024/Building Bridges and Ecosystems - Devcon 2024\|Building Bridges and Ecosystems - Devcon 2024]] | Nov 22 2024 |
 | [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                             | Nov 06 2024 |

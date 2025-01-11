@@ -9,6 +9,7 @@
 ## Latest 
 | File                                                                                                           | Date                          |
 | -------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                   | 8:11 PM - January 05, 2025    |
 | [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]] | 1:53 PM - December 13, 2024   |
 | [[Talks/2024/Building Bridges and Ecosystems - Devcon 2024\|Building Bridges and Ecosystems - Devcon 2024]] | 4:57 PM - November 22, 2024   |
 | [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                             | 10:43 PM - November 06, 2024  |
@@ -18,7 +19,6 @@
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                      | 10:44 AM - July 26, 2024      |
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                     | 10:48 AM - July 10, 2024      |
 | [[Talks/2024/Polkadot Blockchain Academy Hong Kong\|Polkadot Blockchain Academy Hong Kong]]                 | 6:30 PM - June 27, 2024       |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                           | 2:38 PM - May 02, 2024        |
 
 { .block-language-dataview}
 
