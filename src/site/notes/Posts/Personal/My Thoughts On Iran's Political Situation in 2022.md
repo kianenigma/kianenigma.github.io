@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2023-12-27T08:23:11.000+00:00","updated":"2025-01-11T17:36:27.445+00:00"}
+{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2023-12-27T08:23:11.000+00:00","updated":"2025-01-11T17:37:09.059+00:00"}
 ---
 
 
@@ -65,7 +65,7 @@ So, while times are hard, I think we should embrace wellbeing more, and support 
 > Of that, every soldier must be mindful.
 > Even I. Even you.
 > 
-> - Rings of Power
+> - From the TV show [Rings of Power](https://www.imdb.com/title/tt11609046/characters/nm11273329)
 
 I was recently told by a very close acquaintance of mine: "Yeah, if you feel down, I can send you this video where the people beat the shit out of that other guy (the other guy being a ["basiji"](https://en.wikipedia.org/wiki/Basij)), see it, and you feel better".
 
