@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2023-12-27T08:23:11.000+00:00","updated":"2025-01-11T17:37:09.059+00:00"}
+{"dg-publish":true,"permalink":"/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/","created":"2023-12-27T08:23:11.000+00:00","updated":"2025-01-11T17:40:03.484+00:00"}
 ---
 
 
@@ -69,9 +69,9 @@ So, while times are hard, I think we should embrace wellbeing more, and support 
 
 I was recently told by a very close acquaintance of mine: "Yeah, if you feel down, I can send you this video where the people beat the shit out of that other guy (the other guy being a ["basiji"](https://en.wikipedia.org/wiki/Basij)), see it, and you feel better".
 
-When I heard this, I only nodded and smiled, but I really find it disturbing. This is **fucked up**. My friend should not enjoy s eeing others being beaten up so much, regardless who is beating up whom. Yes, that friend of mine can say "Look, the situation has traumatized me so much that ..." but I honestly think this is an excuse. Wishing to invoke violence on others is nothing to feel happy about, and if you are in a spot where you do feel happy about it, you might have indulged too much into emotional sentiments such that it has blinded your thinking and (more importantly) morality altogether.
+When I heard this, I only nodded and smiled, but I really find it disturbing. This is **fucked up**. My friend should not enjoy seeing others being beaten up so much, regardless who is beating up whom. Yes, that friend of mine can say "Look, the situation has traumatized me so much that ..." but I honestly think this is an excuse. Wishing to invoke violence on others is nothing to feel happy about, and if you are in a spot where you do feel happy about it, you might have indulged too much into emotional sentiments such that it has blinded your thinking and (more importantly) morality altogether.
 
-I am aware that the police in Iran does deploy force frequently, and it makes perfect sense for people to use force for defense. I am sorry to say this, but the harsh, sad, cold reality is that anything beyond this makes the attacker be of the same nature as the person being attacked.
+I am aware that the police in Iran does deploy force frequently, and it makes perfect sense for people to use force for defense. I am sorry to say this, but the harsh, sad, cold reality is that anything beyond defense makes the attacker be of the same nature as the person being attacked.
 
 Moreover, while I think this is not a strong argument anymore, every instance of violence from the people towards the government agents will be used as propaganda and and reason for more suppression. So, I think it is wise to use the minimum amount of violence.
 
