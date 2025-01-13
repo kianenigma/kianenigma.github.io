@@ -22,11 +22,11 @@
 ## Latest Talks 
 | File                                                                                                           | Date                         |
 | -------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| [[Talks/2025/Smart Contracts 101\|Smart Contracts 101]]                                                     | 3:42 PM - January 13, 2025   |
 | [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                   | 8:11 PM - January 05, 2025   |
 | [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]] | 1:53 PM - December 13, 2024  |
 | [[Talks/2024/Building Bridges and Ecosystems - Devcon 2024\|Building Bridges and Ecosystems - Devcon 2024]] | 4:57 PM - November 22, 2024  |
 | [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                             | 10:43 PM - November 06, 2024 |
-| [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                         | 5:33 PM - November 06, 2024  |
 
 { .block-language-dataview}
 
