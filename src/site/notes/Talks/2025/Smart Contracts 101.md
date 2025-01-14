@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-01-13T17:08:02.117+00:00"}
+{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-01-14T14:30:42.653+00:00"}
 ---
 
 
@@ -17,7 +17,7 @@
   --r-main-font-size: 32px;
 }
 .reveal .slides section img { 
-	max-height: 70vh; /* Limit image height to 70% of the viewport height */ 
+	max-height: 30vh; /* Limit image height to 70% of the viewport height */ 
 	width: auto; /* Maintain aspect ratio */ 
 	 border-radius: 50px;
 	 padding: 20px;
@@ -239,7 +239,7 @@ Outcome: Polkadot will have fast Solidity-compatible Smart Contracts in H2 2025
 
 ## Outro
 
-- Smart Contracts are the most basic form of building an application on top of a blockchain computer. 
+- Smart Contracts are the most basic form of building an application on top of a **secure blockchain computer** 🪄. 
 - Battle tested approach that has been used for almost a decade now
 
 ---
