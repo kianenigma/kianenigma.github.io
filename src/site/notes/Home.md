@@ -8,13 +8,13 @@
 
 ---
 ## Latest Posts 
-| File                                                                                                   | Date                          |
-| ------------------------------------------------------------------------------------------------------ | ----------------------------- |
-| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                       | 10:46 AM - September 04, 2024 |
-| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                              | 10:44 AM - July 26, 2024      |
-| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                             | 10:48 AM - July 10, 2024      |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                   | 2:38 PM - May 02, 2024        |
-| [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]] | 4:45 PM - March 30, 2024      |
+| File                                                                       | Date                          |
+| -------------------------------------------------------------------------- | ----------------------------- |
+| [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]     | 9:43 PM - November 22, 2024   |
+| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]           | 10:46 AM - September 04, 2024 |
+| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                  | 10:44 AM - July 26, 2024      |
+| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]] | 10:48 AM - July 10, 2024      |
+| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                       | 2:38 PM - May 02, 2024        |
 
 { .block-language-dataview}
 

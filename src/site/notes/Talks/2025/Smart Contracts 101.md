@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-01-14T14:30:42.653+00:00"}
+{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-01-14T15:56:07.798+00:00"}
 ---
 
 
@@ -59,7 +59,8 @@ Third one is accurate, and one that most people relate to, we will use this one
 ## What is a Smart Contract
 
 - Computer has `code` and `memory`. 
-- Users can interact with the `code` (trigger a transfer)
+- Users can interact with the `code` (trigger a transfer 💸)
+- `memory` stores *valuable* information (how much money I own 🤑)
 - In a blockchain, we call these the `stf`/`runtime`, and `state` respectively. 
 
 > Aside: The main novelty of a computer is that it will execute `code` correctly, and therefore you can TRUST the `memory`. 🪄

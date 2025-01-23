@@ -6,6 +6,7 @@
 
 | File                                                                                                                                                       | Date        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                                                                     | Nov 22 2024 |
 | [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                                                           | Sep 04 2024 |
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                                                                 | Jul 10 2024 |
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                                                       | May 02 2024 |
