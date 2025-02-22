@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:13:41.163+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:29:38.327+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -13,11 +13,11 @@ You can follow me directly via your email below. I may send occasional updates a
   class="embeddable-buttondown-form"
 >
   <input type="email" name="email" id="bd-email", placeholder="you@domain.com" />
-  <input type="submit" value="Subscribe" />
+  <input type="submit" value="Subscribe" style="font-family: inherit" />
 </form>
 
 ---
-## Latest Posts 
+## Latest Posts ([[Posts/Posts Index\|All Posts]])
 | File                                                                                                     | Date        |
 | -------------------------------------------------------------------------------------------------------- | ----------- |
 | [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]] | Feb 11 2025 |
@@ -33,10 +33,8 @@ You can follow me directly via your email below. I may send occasional updates a
 
 { .block-language-dataview}
 
-📋  [[Posts/Posts Index\|All Posts]]
-
 ---
-## Latest Talks 
+## Latest Talks ([[Talks/Talks Index\|All Talks]])
 | File                                                                                                           | Date        |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
 | [[Talks/2025/Smart Contracts 101\|Smart Contracts 101]]                                                     | Jan 13 2025 |
@@ -51,5 +49,3 @@ You can follow me directly via your email below. I may send occasional updates a
 | [[Talks/2021/Polkadot's Nominated Proof of Stake\|Polkadot's Nominated Proof of Stake]]                     | Aug 28 2023 |
 
 { .block-language-dataview}
-
-📋 [[Talks/Talks Index\|All Talks]]
