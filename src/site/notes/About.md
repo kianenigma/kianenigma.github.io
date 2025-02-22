@@ -1,19 +1,6 @@
 ---
-{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","pinned":true,"created":"2024-09-18T20:37:11.055+01:00","updated":"2025-02-22T18:01:30.081+00:00"}
+{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","pinned":true,"created":"2024-09-18T20:37:11.055+01:00","updated":"2025-02-22T18:07:08.093+00:00"}
 ---
-
-You can follow my latest updates by subscribing below. 
-
-<form
-  action="https://buttondown.com/api/emails/embed-subscribe/kianenigma"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.com/kianenigma', 'popupwindow')"
-  class="embeddable-buttondown-form"
->
-  <input type="email" name="email" id="bd-email", placeholder="you@domain.com" />
-  <input type="submit" value="Subscribe" />
-</form>
 
 - 🦀 Engineering Lead / Rust Core Developer [@paritytech](https://twitter.com/ParityTech/)
 	- Matrix: `@kianenigma:parity.io`
