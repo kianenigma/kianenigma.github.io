@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"gallery","permalink":"/gallery/","pinned":true,"contentClasses":"gallery","created":"2024-03-30T16:43:00.000+00:00","updated":"2025-02-22T15:28:12.771+00:00"}
+{"dg-publish":true,"dg-permalink":"gallery","permalink":"/gallery/","pinned":true,"contentClasses":"gallery","created":"2024-03-30T16:43:00.000+00:00","updated":"2025-02-22T15:32:55.872+00:00"}
 ---
 
 <div class="grid">
@@ -7,8 +7,6 @@
 <img src="/img/user/resources/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg">
 
 <img src="/img/user/resources/ABA157ED-A059-4945-B372-E9B3D2313712_1_105_c.jpeg">
-
-<img src="/img/user/resources/EE4971E9-0D17-4A87-9FDA-86191F4912FE_1_105_c.jpeg">
 
 <img src="/img/user/resources/F2CCDF96-4F2B-415B-992B-9EC384FB8C78_1_105_c.jpeg">
 
