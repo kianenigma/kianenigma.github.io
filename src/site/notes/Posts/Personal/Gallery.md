@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-permalink":"gallery","permalink":"/gallery/","pinned":true,"contentClasses":"gallery","created":"2024-03-30T16:43:00.000+00:00","updated":"2025-02-22T15:24:27.346+00:00"}
+{"dg-publish":true,"dg-permalink":"gallery","permalink":"/gallery/","pinned":true,"contentClasses":"gallery","created":"2024-03-30T16:43:00.000+00:00","updated":"2025-02-22T15:28:12.771+00:00"}
 ---
 
 <div class="grid">
 
-<img src="/img/user/resources/gallery/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg">
+<img src="/img/user/resources/17B169E1-209F-4C39-83C9-4810D4B8D3A1_1_105_c.jpeg">
 
 <img src="/img/user/resources/ABA157ED-A059-4945-B372-E9B3D2313712_1_105_c.jpeg">
 
@@ -22,9 +22,9 @@
 
 <img src="/img/user/resources/B734C666-5548-400F-B9EA-E96CFC9B4970_1_105_c.jpeg">
 
-<img src="/img/user/resources/gallery/7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg">
+<img src="/img/user/resources/7AA2AC17-2BD5-4DE8-8D0F-AC53E298221A_1_105_c.jpeg">
 
-<img src="/img/user/resources/gallery/EE3FFCD5-D5BD-4434-80C0-145C0D6D46BD_1_105_c.jpeg">
+<img src="/img/user/resources/EE3FFCD5-D5BD-4434-80C0-145C0D6D46BD_1_105_c.jpeg">
 
 <img src="/img/user/resources/E0268449-59F0-4A1E-B5F6-6558224B4E20_1_105_c.jpeg">
 
