@@ -1,12 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:07:35.869+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:13:41.163+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 
-[[About\|About]] | [RSS](./feed.xml) | [[Talks/Talks Index\|Talks]] | [[Posts/Posts Index\|Posts]]
-
-You can follow my latest updates by subscribing below. 
+You can follow me directly via your email below. I may send occasional updates about my latest writings directly to you. You can find other ways to follow me in [[About\|About]] or via [RSS](./feed.xml).
 <form
   action="https://buttondown.com/api/emails/embed-subscribe/kianenigma"
   method="post"
@@ -35,6 +33,8 @@ You can follow my latest updates by subscribing below.
 
 { .block-language-dataview}
 
+📋  [[Posts/Posts Index\|All Posts]]
+
 ---
 ## Latest Talks 
 | File                                                                                                           | Date        |
@@ -52,3 +52,4 @@ You can follow my latest updates by subscribing below.
 
 { .block-language-dataview}
 
+📋 [[Talks/Talks Index\|All Talks]]
