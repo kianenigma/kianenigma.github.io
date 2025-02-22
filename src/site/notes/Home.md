@@ -1,10 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T16:34:57.278+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T17:51:02.542+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 
 [[About\|About]] | [RSS Feed](./feed.xml) | [[Talks/Talks Index\|Talks]] | [[Posts/Posts Index\|Posts]]
+
+## Subscribe 
+<form
+				action="
+						https://buttondown.com/api/emails/embed-subscribe/kianenigma
+						"
+					method="post"
+					class="embeddable-buttondown-form"
+				>
+				<input type="email" name="email" placeholder="you@example.com" />
+				<input type="hidden" value="1" name="embed" />
+				<input type="submit" value="Subscribe" />
+			</form>
 
 ## Featured 
 - [[Posts/Tech/Demystifying JAM\|Demystifying JAM]] / [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]
