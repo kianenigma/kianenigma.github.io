@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T15:22:19.689+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T16:34:39.269+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -11,25 +11,25 @@
 
 ---
 ## Latest Posts 
-| File                                                                                                     | Date                          |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]] | 2:13 PM - February 11, 2025   |
-| [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                   | 9:43 PM - November 22, 2024   |
-| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                         | 10:46 AM - September 04, 2024 |
-| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                | 10:44 AM - July 26, 2024      |
-| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                               | 10:48 AM - July 10, 2024      |
+| File                                                                                                     | Date        |
+| -------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]] | Feb 11 2025 |
+| [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                   | Nov 22 2024 |
+| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                         | Sep 04 2024 |
+| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                | Jul 26 2024 |
+| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                               | Jul 10 2024 |
 
 { .block-language-dataview}
 
 ---
 ## Latest Talks 
-| File                                                                                                           | Date                         |
-| -------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| [[Talks/2025/Smart Contracts 101\|Smart Contracts 101]]                                                     | 3:42 PM - January 13, 2025   |
-| [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                   | 8:11 PM - January 05, 2025   |
-| [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]] | 1:53 PM - December 13, 2024  |
-| [[Talks/2024/Building Bridges and Ecosystems - Devcon 2024\|Building Bridges and Ecosystems - Devcon 2024]] | 4:57 PM - November 22, 2024  |
-| [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                             | 10:43 PM - November 06, 2024 |
+| File                                                                                                           | Date        |
+| -------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Talks/2025/Smart Contracts 101\|Smart Contracts 101]]                                                     | Jan 13 2025 |
+| [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                   | Jan 05 2025 |
+| [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]] | Dec 13 2024 |
+| [[Talks/2024/Building Bridges and Ecosystems - Devcon 2024\|Building Bridges and Ecosystems - Devcon 2024]] | Nov 22 2024 |
+| [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                             | Nov 06 2024 |
 
 { .block-language-dataview}
 
