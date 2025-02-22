@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:29:38.327+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:35:14.020+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -13,7 +13,7 @@ You can follow me directly via your email below. I may send occasional updates a
   class="embeddable-buttondown-form"
 >
   <input type="email" name="email" id="bd-email", placeholder="you@domain.com" />
-  <input type="submit" value="Subscribe" style="font-family: inherit" />
+  <input type="submit" value="Subscribe" style="font-family: inherit;  height: var(--input-height);" />
 </form>
 
 ---
