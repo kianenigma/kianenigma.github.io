@@ -1,13 +1,22 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:00:52.488+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:07:35.869+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 
-[[About\|About]] | [RSS Feed](./feed.xml) | [[Talks/Talks Index\|Talks]] | [[Posts/Posts Index\|Posts]]
+[[About\|About]] | [RSS](./feed.xml) | [[Talks/Talks Index\|Talks]] | [[Posts/Posts Index\|Posts]]
 
-## Featured 
-- [[Posts/Tech/Demystifying JAM\|Demystifying JAM]] / [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]
+You can follow my latest updates by subscribing below. 
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/kianenigma"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.com/kianenigma', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <input type="email" name="email" id="bd-email", placeholder="you@domain.com" />
+  <input type="submit" value="Subscribe" />
+</form>
 
 ---
 ## Latest Posts 
