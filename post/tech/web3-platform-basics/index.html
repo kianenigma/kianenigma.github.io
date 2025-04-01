@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Substrate Debug Kit</title>
+<title>Building Blocks of the Web3 Cloud</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -249,7 +249,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/substrate-debug-kit/">Substrate Debug Kit </a>
 </div>
 </div>
@@ -398,18 +398,99 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-04-01T10:51:57.320Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-04-01T10:51:57.320Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-04-01T10:51:57.320Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Substrate Debug Kit</h1>
+<h1 data-note-icon="">Building Blocks of the Web3 Cloud</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2023-08-28T14:03:03.000+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-11-06T17:35:17.260+00:00"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-03-27T09:57:40.625+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-03-27T10:21:56.577+00:00"></span></div></div></div>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Ottoman+Siyaq&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </header>
-<p>Longer version of <a class="internal-link" target="" data-note-icon="" href="/talks/phragmen2/">Phragmén Overview</a> and <a class="internal-link" target="" data-note-icon="" href="/talks/phragmen/">Phragmén for Polkadot's NPoS</a> at Substrate Seminar.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6omrrY11HEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Polkadot is increasingly pushing towards demonstrating itself as a <em>general-purpose</em> <a href="https://forum.polkadot.network/t/the-polkadot-cloud/10670" target="_blank" class="external-link">Web3 Cloud</a>, rather than a (multi-chain) <em>blockchain</em> platform. This narrative further poses the question of <em>what a general purpose blockchain cloud is and could become in the future</em>.</p>
+<p>This posts explores:</p>
+<ul>
+<li>What properties blockchain platforms can bring about, which in my methodology end up being
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/post/tech/web3-platform-basics/#correct-secure-computation">#Correct/Secure Computation</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/post/tech/web3-platform-basics/#ordering-consistency">#Ordering/Consistency</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/post/tech/web3-platform-basics/#canonical-state">#Canonical State</a></li>
+</ul>
+</li>
+<li>And at what cost we can achieve each of them.</li>
+</ul>
+<p>My motivation in writing this is that I increasingly see even engineers and decision-makers not having a clear understanding of what it actually is that they are building. Consequently, I see products being fitted into Web3 with requirements that are not met by blockchains, exacerbating the &quot;the whole Web3 space is overvalued and vaporware&quot;. Frankly, some of us are creating vaporware, and it is rooted in our lack of understanding of the technology. This post aims to be a small towards mitigating this.</p>
+<div class="callout" data-callout="note"><div class="callout-title"><div class="callout-title-inner"> Opinions differ<br></div></div>
+<div class="callout-content">
+<p>
+My opinions here are rather traditional. Recent founders and decision makers of the Web3 space might think differently, and are more willing to question the properties that I explain below. I think there is merit to both types of thinking, and both can positively help a clear-minded decision.</p>
+</div></div>
+<h2 id="correct-secure-computation" tabindex="-1">Correct/Secure Computation</h2>
+<p>Blockchains are, at the core of them, a more resilient <a href="https://en.wikipedia.org/wiki/Trusted_execution_environment" target="_blank" class="external-link">TEE</a>. You can give them some code (a set of rules), and they execute that code correctly for you. You can be sure about the execution of that code, and the security of it is a function of the economic security (PoS) or hash power (PoW<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>), or math magic (SNARK proofs). All the said 3 technologies (PoW, PoS, SNARK proofs) are a way to ensure <strong>some execution actually happened correctly</strong>. In the former two we rely on economic security and slashing, in the latter in a mathematical proof.</p>
+<p>An age-old example that I find useful to remember all the time: I can run a 50 lines python script that has the same logic as the BTC token, and run it on my computer. Why don’t we trust this to be trustworthy, yet trust the same logic executed by Bitcoin miners to be trustworthy? What’s the difference? <strong>Correct Computation through PoW</strong>. The same applies to Polkadot and its parachain, Ethereum and its Solidity contracts, and Solana and its contracts. I could be running the exact same contracts and parachains on my machine.</p>
+<p>Next, let's explore the properties and consequences of <a class="internal-link" target="" data-note-icon="" href="/post/tech/web3-platform-basics/#correct-secure-computation">#Correct/Secure Computation</a>.</p>
+<h3 id="em-multi-party-em-contention" tabindex="-1"><em>Multi-Party</em> Contention</h3>
+<p><a class="internal-link" target="" data-note-icon="" href="/post/tech/web3-platform-basics/#correct-secure-computation">#Correct/Secure Computation</a> is only useful for any kind of application that involves <strong>contentious computation between multiple parties</strong>. If writing it as a python script and running it on my server is good enough for Joe to interact with it, then running it on a blockchain for Joe to interact with it is a needless overhead.</p>
+<p>We have not seen single-party applications on Blockchains yet, and I am doubtful if/how they will work. If it is just <em>my</em> data, <em>my</em> computation, and <em>my</em> interactions with it, I am not sure why I would want to host it on a blockchain, vs. a self-hosted solution on my server (if I am privacy-concerned).A good example here is applications like personal note-taking, password managers and so on. These applications don't involve any multi-party contention. It is all about a single individual's interactions with their private data.</p>
+<h3 id="expensive" tabindex="-1">Expensive</h3>
+<p>Achieving this TEE-equivalent property is not cheap. It requires either a combination of re-execution + economic security, or very expensive SNARK proving (at present proving <code>fn(x) -&gt; y</code> is millions of times more expensive than executing <code>fn(x)</code> directly – <a href="https://www.binance.com/en/square/post/2540550190602" target="_blank" class="external-link">ref</a>) that we see in the Ethereum space. So the blockchain computer is, compared to your computer, <strong>extremely slow</strong>.</p>
+<p>So blockchains are like a <strong>trustworthy slow computer</strong>, that so far we know can be given some <strong>code</strong>, and it can execute that code correctly.</p>
+<h3 id="public" tabindex="-1">Public</h3>
+<p>If we use the economic security method for achieving correct computation, there is no way around the fact that it has to be public, at least to the validators of the said blockchain executing the operation. There is no way to do a balance transfer without making it public to at least the validators of the network that is executing it, so they can verify it.</p>
+<p>Note that the ZK-SNARK method is different, because the computation is essentially happening outside the validator group, and an anonymized proof is verified by the validators, with control over what part of the computation can be made public. In the case of an ZK-Rollup, the (often centralized) sequencer generates the proof. In dark-fi, it actually seems to happen on the user’s machine itself (<a href="https://dev.risczero.com/api/zkvm/" target="_blank" class="external-link">ref</a>). I am not very familiar with the constraints of this computation method at present.</p>
+<p>If proof generation becomes so cheap that any user/wallet/dapp can generate the proof of their correct computation, this whole section around “Correct Computation” and using economic security to achieve it will become useless.</p>
+<h3 id="digital-digital-and-finally-digital" tabindex="-1">Digital, Digital And Finally Digital</h3>
+<p>Something that I found to be poorly understood is that blockchains are at the end of the day a <strong>digital system.</strong> It can ensure the correctness of some bits in computers and nothing in the real world. Linking real world assets and objects to blockchains is not sensible unless a robust oracle that can both read real world information, and enforce updates to the real world (neither of which exist at present) exists.</p>
+<p>I think all the “<em>let’s tokenize this apartment and my rolex and put it onchain</em>‘ is all a dead end, and the result of misled decision makers not understanding the technology on which they are building.</p>
+<h2 id="ordering-consistency" tabindex="-1">Ordering/Consistency</h2>
+<p>Even if we have a blockchain-based computer that executes some code correctly, there could be two parallel states that are both “correct according to the code”, but we need to choose which one we stick to. Correct ordering is the second main property of blockchain platforms.</p>
+<h3 id="usually-auditable" tabindex="-1">(usually) Auditable</h3>
+<p>This history of execution is fully auditable, and any other network participant is capable of combining the “Correct Execution” and “Ordering” to re-verify the whole thing.</p>
+<p>In fact, the main purpose of the data-structure known as a blockchain is used in this part. Excluding ordering, I can have a PoS system that delivers “<strong>correct execution</strong>” while not using blockchains at all.</p>
+<h2 id="canonical-state" tabindex="-1">Canonical State</h2>
+<p>This computer has access to a storage primitive that we know as the <strong>state</strong>. We can think of it as the persistent memory that the said code has access to.</p>
+<h3 id="expensive-1" tabindex="-1">Expensive</h3>
+<p>Similar to the computation aspect, anything that we store in the state is much more expensive than a normal computer platform. At the least, it has the replicated many times. It is also stored in ways (e.g. merklized) that are not particularly performant.</p>
+<h3 id="public-1" tabindex="-1">Public</h3>
+<p>Anything that goes into this state is public and visible to anyone else in the network.</p>
+<h3 id="no-private-partition" tabindex="-1">No Private partition</h3>
+<p>A typical web2 service holds the entire state of the system private, and when a user authenticates themselves, a portion of the state is exposed to them. Any web3 storage cannot really benefit from this, and there is no partitioning. The only way to achieve partitioning is to leverage public key encryption. But then you have to remember that unless if you are using ZK for execution, at least the validator needs to have access to the unencrypted information to verify whatever it is executing.</p>
+<h3 id="provable" tabindex="-1">Provable</h3>
+<p>A very nice property of this state is that you can cheaply generate proofs about a subset of it to anyone else. See <a href="https://research.polytope.technology/state-machine-proofs" target="_blank" class="external-link">here</a>.</p>
+<h2 id="evolution-of-blockchain-state-transition-function" tabindex="-1">Evolution of Blockchain State Transition Function</h2>
+<p>The main pillars discussed so far:</p>
+<ol>
+<li>Correct Execution</li>
+<li>Canonical And Auditable Ordering</li>
+</ol>
+<p>Combined is mainly why we model blockchain systems as state machines. It is a state machine that is guaranteed to have one correct final state. This leads to us modeling the business logic of the blockchain as the state transition function of a state machine. Then, let’s look at the evolution of this STF.</p>
+<ul>
+<li><strong>Fixed</strong>: Bitcoin, Litecoin, Monero etc. Any blockchain that has one fixed function, and it only does that.</li>
+<li><strong>Programmable, while exposing the underlying blockchain platform</strong>: All smart contract platforms, Polkadot Parachains, Substrate solo-chain, Ethereum and L2s. All of these are means to make the blockchain platform programmable, but none of them go as far as hiding the fact that you are running a blockchain.</li>
+<li><strong>Programmable, while hiding the underlying blockchain platform</strong>: JAM+CoreVM and ICP are the only projects that have taken steps in hiding the fact that you are running on a blockchain.</li>
+</ul>
+<p>I think in retrospect this is absurd how much of <em>implementation</em> (blockchain) is leaking into <em>abstraction (applications built on top)</em>: As said above, blockchain is a data-structure used to create the property of canonical ordering. Correct execution, which to me is the main property, is independent of blockchains.</p>
+<h2 id="beyond-canonical-state" tabindex="-1">Beyond Canonical State</h2>
+<ul>
+<li>DA: same properties as the state + cheaper + but ephemeral</li>
+<li>Some storage chains that work on the basis of being an incentive layer on top of IPFS. def. Has some different properties than Canonical state.
+<ul>
+<li><a href="https://eigerco.github.io/polka-storage-book/getting-started/demo-file-store.html" target="_blank" class="external-link">https://eigerco.github.io/polka-storage-book/getting-started/demo-file-store.html</a></li>
+</ul>
+</li>
+<li><a href="https://forum.polkadot.network/t/introducing-storage-hub-a-system-parachain-optimised-for-storage/4525/12" target="_blank" class="external-link">https://forum.polkadot.network/t/introducing-storage-hub-a-system-parachain-optimised-for-storage/4525/12</a> W3F grant, asked lead for a meeting to see what they are up to.</li>
+<li>Substrate based storage chain that Arkady worked on, and I think is being implemented in the PoP’s bulletin chain.</li>
+</ul>
+<h2 id="summary" tabindex="-1">Summary</h2>
+<p>My motivation in putting this together is to deeply understand what are the properties that blockchain platforms excel at, and then find existing/new use cases that are in fact a fit for these properties. In other words, we should have an educated guess on what use cases fit blockchains, rather than blindly searching in the dark.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Interestingly, Proof of Work is essentially the same as economic security represented in the form of hardware and electricity <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 <div>
 <hr>
 <details>
@@ -438,6 +519,55 @@ Made with <a href="https://github.com/oleeskild/Obsidian-Digital-Garden"> Obsidi
 <aside>
 <div class="sidebar">
 <div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#correct-secure-computation">Correct/Secure Computation</a>
+<ol>
+<li><a href="#em-multi-party-em-contention">Multi-Party Contention</a>
+</li>
+<li><a href="#expensive">Expensive</a>
+</li>
+<li><a href="#public">Public</a>
+</li>
+<li><a href="#digital-digital-and-finally-digital">Digital, Digital And Finally Digital</a>
+</li>
+</ol>
+</li>
+<li><a href="#ordering-consistency">Ordering/Consistency</a>
+<ol>
+<li><a href="#usually-auditable">(usually) Auditable</a>
+</li>
+</ol>
+</li>
+<li><a href="#canonical-state">Canonical State</a>
+<ol>
+<li><a href="#expensive-1">Expensive</a>
+</li>
+<li><a href="#public-1">Public</a>
+</li>
+<li><a href="#no-private-partition">No Private partition</a>
+</li>
+<li><a href="#provable">Provable</a>
+</li>
+</ol>
+</li>
+<li><a href="#evolution-of-blockchain-state-transition-function">Evolution of Blockchain State Transition Function</a>
+</li>
+<li><a href="#beyond-canonical-state">Beyond Canonical State</a>
+</li>
+<li><a href="#summary">Summary</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 </div>
 </div>
 </aside>
