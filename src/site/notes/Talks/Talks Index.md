@@ -1,10 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2024-12-29T10:10:47.310+00:00"}
+{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2025-04-05T16:06:47.829+01:00"}
 ---
+
+> [!tip] **[Youtube Channel](https://www.youtube.com/@kianenigma)**.
 
 | File                                                                                                           | Date        |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
-| [[Talks/2025/Demystifying JAM - PBA - 6\|Demystifying JAM - PBA - 6]]                                       | Apr 01 2025 |
 | [[Talks/2025/Smart Contracts 101\|Smart Contracts 101]]                                                     | Jan 13 2025 |
 | [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                   | Jan 05 2025 |
 | [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]] | Dec 13 2024 |

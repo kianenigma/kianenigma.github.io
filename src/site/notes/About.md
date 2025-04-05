@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","pinned":true,"created":"2024-09-18T20:37:11.055+01:00","updated":"2025-04-01T14:32:27.271+01:00"}
+{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","pinned":true,"created":"2024-09-18T20:37:11.055+01:00","updated":"2025-04-05T16:07:09.437+01:00"}
 ---
 
 - 🦀 Engineering Lead / Rust Core Developer [@paritytech](https://twitter.com/ParityTech/)
@@ -11,7 +11,7 @@
 - Member of [GrayMatter](https://jamcha.in/clients), implementing the [graypaper](https://graypaper.com/), specification of the [Polkadot JAM upgrade](https://wiki.polkadot.network/learn/learn-jam-chain/). 
 - 📚 Parallel and Distributed Systems Msc. graduate from [Vrije Universiteit Amsterdam](https://vu.nl/en)
 	- Thesis: [GitHub - kianenigma/SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes 🚀.](https://github.com/kianenigma/SonicChain?tab=readme-ov-file)
-- 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kizi/) | [ResearchGate](https://www.researchgate.net/profile/Kian-Paimani) 
-- 🎧 [[Posts/Personal/Playlists\|Playlists]] - [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
+- 🐙 [Github](https://github.com/kianenigma) | [Twitter](https://twitter.com/kianenigma)  | [Linkedin](https://www.linkedin.com/in/kizi/) | [ResearchGate](https://www.researchgate.net/profile/Kian-Paimani) | [Youtube](https://www.youtube.com/@kianenigma)
+- 🎧 [[Posts/Personal/Playlists\|Playlists]] | [Spotify](https://open.spotify.com/user/1248494156?si=4e6338ab8bdb4c04)
 - 📸 Personal [[Posts/Personal/Gallery\|Gallery]]
 

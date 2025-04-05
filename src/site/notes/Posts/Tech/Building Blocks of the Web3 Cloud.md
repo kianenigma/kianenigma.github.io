@@ -1,42 +1,48 @@
 ---
-{"dg-publish":true,"dg-permalink":"/post/tech/web3-platform-basics","permalink":"/post/tech/web3-platform-basics/","hide":true,"created":"2025-03-27T09:57:40.625+00:00","updated":"2025-03-27T10:21:56.577+00:00"}
+{"dg-publish":true,"dg-permalink":"/post/tech/web3-platform-basics","permalink":"/post/tech/web3-platform-basics/","hide":true,"created":"2025-03-27T09:57:40.625+00:00","updated":"2025-04-03T13:16:22.711+01:00"}
 ---
 
-Polkadot is increasingly pushing towards demonstrating itself as a *general-purpose* [Web3 Cloud](https://forum.polkadot.network/t/the-polkadot-cloud/10670), rather than a (multi-chain) *blockchain* platform. This narrative further poses the question of *what a general purpose blockchain cloud is and could become in the future*.
+[x.com/ayyyeandy/status/1907515511023292594](https://x.com/ayyyeandy/status/1907515511023292594)
+
+Polkadot is increasingly pushing towards demonstrating itself as a *general-purpose* [Web3 Cloud](https://forum.polkadot.network/t/the-polkadot-cloud/10670)[^1], rather than a (multi-chain) *blockchain* platform. This narrative further poses the question of *what a general purpose blockchain cloud is and could become in the future*.
+[^1]: Also see [Shawn Tabrizi's talk in Sub0 2024](https://x.com/paritytech/status/1855929716433457518) about this.
 
 This posts explores: 
 - What properties blockchain platforms can bring about, which in my methodology end up being  
 	- [[Posts/Tech/Building Blocks of the Web3 Cloud#Correct/Secure Computation\|#Correct/Secure Computation]]
 	- [[Posts/Tech/Building Blocks of the Web3 Cloud#Ordering/Consistency\|#Ordering/Consistency]]
 	- [[Posts/Tech/Building Blocks of the Web3 Cloud#Canonical State\|#Canonical State]]
-- And at what cost we can achieve each of them. 
+- And at what cost we can achieve each of them
+- What applications can actually be built with these primitives?
 
-My motivation in writing this is that I increasingly see even engineers and decision-makers not having a clear understanding of what it actually is that they are building. Consequently, I see products being fitted into Web3 with requirements that are not met by blockchains, exacerbating the "the whole Web3 space is overvalued and vaporware". Frankly, some of us are creating vaporware, and it is rooted in our lack of understanding of the technology. This post aims to be a small towards mitigating this.
+My motivation in writing this is that I increasingly see even engineers and decision-makers not having a clear understanding of what it actually is that they are building. The [criticism towards Web3](https://youtu.be/DktkFTTFLHE?si=vXbPC_-7r77J0Xxh&t=4027) being vaporware is increasing, Consequently, I see products being fitted into Web3 with requirements that are not met by blockchains, exacerbating the criticism. Frankly, some of us are, sadly, creating vaporware, and it is rooted in our lack of understanding of the technology. This post aims to be a small towards filling this knowledge gap. In the last year or so, I have examined the above question, and I have formulated my answer to it, which I will describe in this blog post. More is to be said about it, so expect more follow-ups 📝.
 
-> [!note] Opinions differ
+> [!note] Opinions Differ
 > My opinions here are rather traditional. Recent founders and decision makers of the Web3 space might think differently, and are more willing to question the properties that I explain below. I think there is merit to both types of thinking, and both can positively help a clear-minded decision.
 
 ## Correct/Secure Computation
 
-Blockchains are, at the core of them, a more resilient [TEE](https://en.wikipedia.org/wiki/Trusted_execution_environment). You can give them some code (a set of rules), and they execute that code correctly for you. You can be sure about the execution of that code, and the security of it is a function of the economic security (PoS) or hash power (PoW[^1]), or math magic (SNARK proofs). All the said 3 technologies (PoW, PoS, SNARK proofs) are a way to ensure **some execution actually happened correctly**. In the former two we rely on economic security and slashing, in the latter in a mathematical proof. 
+Blockchains are, at the core of them, a more resilient [TEE](https://en.wikipedia.org/wiki/Trusted_execution_environment). You can give them some code (a set of rules), and they execute that code correctly for you. You can be sure about the correct execution of that code, and the security of it is a function of the economic security (in PoS) or hash power (in PoW[^1]), or math magic (SNARK proofs). All the said 3 technologies (PoW, PoS, SNARK proofs) are a way to ensure **some execution actually happened correctly**. In the former two we rely on economic incentives, in the latter in a mathematical proof. 
 [^1]: Interestingly, Proof of Work is essentially the same as economic security represented in the form of hardware and electricity
 
-An age-old example that I find useful to remember all the time: I can run a 50 lines python script that has the same logic as the BTC token, and run it on my computer. Why don’t we trust this to be trustworthy, yet trust the same logic executed by Bitcoin miners to be trustworthy? What’s the difference? **Correct Computation through PoW**. The same applies to Polkadot and its parachain, Ethereum and its Solidity contracts, and Solana and its contracts. I could be running the exact same contracts and parachains on my machine. 
+An age-old example that I find useful to remember all the time: I can run a 50 lines python script that has the same logic as the `BTC` token, and run it on my computer. Why don’t we trust this to be trustworthy, yet trust the same logic executed by Bitcoin miners to be trustworthy? What’s the difference? **Correct Computation through PoW**. The same applies to Polkadot and its parachain, Ethereum and its Solidity contracts, and Solana and its SVM contracts. I could be running the exact same contracts and parachains on my machine, yet we don't trust me to do it correctly.
 
 Next, let's explore the properties and consequences of [[Posts/Tech/Building Blocks of the Web3 Cloud#Correct/Secure Computation\|#Correct/Secure Computation]]. 
 
 ### *Multi-Party* Contention
-[[Posts/Tech/Building Blocks of the Web3 Cloud#Correct/Secure Computation\|#Correct/Secure Computation]] is only useful for any kind of application that involves **contentious computation between multiple parties**. If writing it as a python script and running it on my server is good enough for Joe to interact with it, then running it on a blockchain for Joe to interact with it is a needless overhead.
+[[Posts/Tech/Building Blocks of the Web3 Cloud#Correct/Secure Computation\|#Correct/Secure Computation]] is mainly useful for any kind of application that involves **contentious computation between multiple parties**. That is, multiple humans are performing a value-breading transaction with one another, and are sufficiently unfamiliar with one another, such that they don't trust each other. 
 
-We have not seen single-party applications on Blockchains yet, and I am doubtful if/how they will work. If it is just *my* data, *my* computation, and *my* interactions with it, I am not sure why I would want to host it on a blockchain, vs. a self-hosted solution on my server (if I am privacy-concerned).A good example here is applications like personal note-taking, password managers and so on. These applications don't involve any multi-party contention. It is all about a single individual's interactions with their private data. 
+> If writing it as a python script and running it on my server is good enough for Joe to interact with it, then running it on a blockchain for Joe to interact with it is a needless overhead.
+
+We have not seen single-party applications on Blockchains yet, and I am doubtful if/how they will work. If it is just *my* data, *my* computation, and *my* interactions with it, I am not sure why I would want to host it on a blockchain, vs. a self-hosted solution on my server (if I am privacy-concerned). A good example here is applications like personal note-taking, password managers and so on. These applications don't involve any multi-party contention. It is all about a single individual's interactions with their private data. 
 
 ### Expensive
-Achieving this TEE-equivalent property is not cheap. It requires either a combination of re-execution + economic security, or very expensive SNARK proving (at present proving `fn(x) -> y` is millions of times more expensive than executing `fn(x)` directly – [ref](https://www.binance.com/en/square/post/2540550190602)) that we see in the Ethereum space. So the blockchain computer is, compared to your computer, **extremely slow**.
+Achieving this TEE-equivalent property is not cheap. It requires either a combination of re-execution + economic security, or expensive SNARK proving that we see in the Ethereum space[^2]. So the blockchain computer is, compared to your computer, **extremely slow**. It is a **trustworthy, slow computer**, that so far we know can be given some **code**, and it can execute that code correctly.
 
-So blockchains are like a **trustworthy slow computer**, that so far we know can be given some **code**, and it can execute that code correctly.
+[^2]: at present proving `fn(x) -> y` is millions/many-thousands of times more expensive than executing `fn(x)` directly – [see here](https://www.binance.com/en/square/post/2540550190602)
 
-### Public
-If we use the economic security method for achieving correct computation, there is no way around the fact that it has to be public, at least to the validators of the said blockchain executing the operation. There is no way to do a balance transfer without making it public to at least the validators of the network that is executing it, so they can verify it.
+### Public By Default
+If we use the economic security method for achieving correct computation, there is no way around the fact that it has to be public, at least to the validators of the said blockchain executing the operation. There is no way to do a balance transfer without making it public to at least the validators of the network that is executing it, so they can verify through re-executing it.
 
 Note that the ZK-SNARK method is different, because the computation is essentially happening outside the validator group, and an anonymized proof is verified by the validators, with control over what part of the computation can be made public. In the case of an ZK-Rollup, the (often centralized) sequencer generates the proof. In dark-fi, it actually seems to happen on the user’s machine itself ([ref](https://dev.risczero.com/api/zkvm/)). I am not very familiar with the constraints of this computation method at present.
 
