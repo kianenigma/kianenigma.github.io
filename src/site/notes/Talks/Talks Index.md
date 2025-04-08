@@ -6,6 +6,7 @@
 
 | File                                                                                                           | Date        |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Talks/2025/Demystifying JAM - PBA6\|Demystifying JAM - PBA6]]                                             | Apr 01 2025 |
 | [[Talks/2025/Smart Contracts 101\|Smart Contracts 101]]                                                     | Jan 13 2025 |
 | [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                   | Jan 05 2025 |
 | [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]] | Dec 13 2024 |
