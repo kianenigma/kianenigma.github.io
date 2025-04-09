@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:35:14.020+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T11:35:09.000+01:00","updated":"2025-02-22T19:35:14.020+01:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -37,7 +37,6 @@ You can follow me directly via your email below. I may send occasional updates a
 ## Latest Talks ([[Talks/Talks Index\|All Talks]])
 | File                                                                                                           | Date        |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
-| [[Talks/2025/Demystifying JAM - PBA6\|Demystifying JAM - PBA6]]                                             | Apr 01 2025 |
 | [[Talks/2025/Smart Contracts 101\|Smart Contracts 101]]                                                     | Jan 13 2025 |
 | [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                   | Jan 05 2025 |
 | [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]] | Dec 13 2024 |
@@ -47,5 +46,6 @@ You can follow me directly via your email below. I may send occasional updates a
 | [[Talks/2024/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]]         | Sep 08 2024 |
 | [[Talks/2024/Polkadot Blockchain Academy Hong Kong\|Polkadot Blockchain Academy Hong Kong]]                 | Jun 27 2024 |
 | [[Talks/2022/Nomination Pools\|Nomination Pools]]                                                           | Aug 28 2023 |
+| [[Talks/2021/Polkadot's Nominated Proof of Stake\|Polkadot's Nominated Proof of Stake]]                     | Aug 28 2023 |
 
 { .block-language-dataview}

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-01-14T15:56:07.798+00:00"}
+{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101/","created":"2025-01-13T16:42:59.603+01:00","updated":"2025-01-14T16:56:07.798+01:00"}
 ---
 
 

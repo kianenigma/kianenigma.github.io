@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/post/tech/web3-platform-basics","permalink":"/post/tech/web3-platform-basics/","hide":true,"created":"2025-03-27T09:57:40.625+00:00","updated":"2025-04-03T13:16:22.711+01:00"}
+{"dg-publish":true,"dg-permalink":"/post/tech/web3-platform-basics","permalink":"/post/tech/web3-platform-basics/","hide":true,"created":"2025-03-27T10:57:40.625+01:00","updated":"2025-04-03T14:16:22.711+02:00"}
 ---
 
 [x.com/ayyyeandy/status/1907515511023292594](https://x.com/ayyyeandy/status/1907515511023292594)
