@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation-pba","permalink":"/posts/tech/demystifying-jam/presentation-pba/","contentClasses":"white-presentation","tags":["polkadot","jam","pba"],"created":"2025-04-01T11:49:52.185+01:00","updated":"2025-04-08T13:02:09.965+01:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation-pba","permalink":"/posts/tech/demystifying-jam/presentation-pba/","contentClasses":"white-presentation","tags":["polkadot","jam","pba"],"created":"2025-04-01T12:49:52.185+02:00","updated":"2025-04-11T09:54:07.480+02:00"}
 ---
 
 
@@ -287,7 +287,7 @@ Allowing Services to program exactly how they want to use:
 ---
 ## JAM Misc
 
-* JAM offers a similar bulk/on-demand coretime purchase model to that of Polkadot
+* JAM offers a similar bulk coretime purchase model to that of Polkadot
 	* No per-transaction purchase
 	* Much greater **economic freedom** for services/applications!
 
@@ -401,6 +401,7 @@ This model is potentially useful, if you want a lot of throughput, high customiz
 ### JAM: Supercomputer
 
 ![jam-super-computer.png](/img/user/resources/jam-super-computer.png)
+- Multi-core CPU with shared memory!
 - JAM is a **supercomputer**. It is most performant Web3 computer one can build, without sacrificing security
 
 --
@@ -436,7 +437,7 @@ This model is potentially useful, if you want a lot of throughput, high customiz
 
 ### Web3 Vision: What Are We Lacking? 
 - &shy;<!-- element class="fragment" -->Start with "*why*"? Resilience + centralization corrupts
-- &shy;<!-- element class="fragment" -->Form your own "*why*": Based on *moral* and *technical* reasons 📚
+- &shy;<!-- element class="fragment" -->Form your own "*why*": Based on *non-functional (moral)* and *functional (technical)* reasons 📚
 - &shy;<!-- element class="fragment" -->The properties of the Web3 cloud is drastically different than that of Web2 cloud, even if they sound similar
 
 Note: 
@@ -446,7 +447,7 @@ We as an industry, need to have a much better understanding of what task the too
 ### Back to Basics: Secure Computation
 - Secure computation. Why would we need this? 
 - &shy;<!-- element class="fragment" -->Only social, multi-party contentious and/or value-bearing interactions can benefit from secure computation
-- &shy;<!-- element class="fragment" -->My data, my interactions with it? Web2. Evolution of it is self-hosted  
+- &shy;<!-- element class="fragment" -->My data, my interactions with it? Probably fine as self-hosted
 
 Note: 
 If only I am interacting with the system? doubtful
