@@ -395,20 +395,20 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-04-11T07:55:04.717Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-04-11T07:55:04.717Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-04-11T07:55:04.717Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-04-23T16:31:01.316Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-04-23T16:31:01.316Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-04-23T16:31:01.316Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <h1 data-note-icon="">Smart Contracts 101</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-01-13T16:42:59.603+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-01-14T16:56:07.798+01:00"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-01-13T15:42:59.603+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-04-23T17:29:58.343+01:00"></span></div></div></div>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Ottoman+Siyaq&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </header>
-<style>.reveal,.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6{font-family:"PT Serif"}.reveal{--r-main-font-size:32px}.reveal .slides section img{max-height:30vh;width:auto;border-radius:50px;padding:20px}</style>
+<style>.reveal,.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6{font-family:"PT Serif"}.reveal{--r-main-font-size:32px}.reveal .slides section img{max-height:60vh;width:auto;border-radius:50px;padding:20px}</style>
 <h1 id="polkadot-smart-contracts" tabindex="-1">Polkadot Smart Contracts</h1>
 <hr>
 <h2 id="about-me" tabindex="-1">About Me</h2>
@@ -420,85 +420,143 @@ CTRL + K
 <li><a href="http://blog.kianenigma.com" target="_blank" class="external-link">blog.kianenigma.com</a> (&lt;-- slides)</li>
 </ul>
 <hr>
-<h2 id="what-is-a-smart-contract" tabindex="-1">What is a Smart Contract</h2>
-<p>Blockchain models that we can think of:</p>
+<h2 id="blockchain-models" tabindex="-1">Blockchain Models</h2>
 <ul>
 <li>Database 🤮</li>
-<li>State Machine ♾️</li>
-<li>Computer 💻</li>
+<li>A legacy of Bitcoing, and the (<em>limited</em>) UTXO model</li>
 </ul>
-<p>Note:</p>
-<p>First is utter BS<br>
-Second is accurate, but a bit to math-y<br>
-Third one is accurate, and one that most people relate to, we will use this one</p>
+<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2015.49.08.png" alt="Smart Contracts 101 2025-04-23 15.49.08.png"></p>
 <p>--</p>
-<h2 id="what-is-a-smart-contract-1" tabindex="-1">What is a Smart Contract</h2>
+<h2 id="blockchain-models-1" tabindex="-1">Blockchain Models</h2>
 <ul>
-<li>Computer has <code>code</code> and <code>memory</code>.</li>
-<li>Users can interact with the <code>code</code> (trigger a transfer 💸)</li>
-<li><code>memory</code> stores <em>valuable</em> information (how much money I own 🤑)</li>
-<li>In a blockchain, we call these the <code>stf</code>/<code>runtime</code>, and <code>state</code> respectively.</li>
+<li>State Machine ♾️</li>
+<li>Legacy of Ethereum, the <a href="https://ethereum.github.io/yellowpaper/paper.pdf" target="_blank" class="external-link">YP</a>, and its &quot;account model&quot;</li>
 </ul>
-<blockquote>
-<p>Aside: The main novelty of a computer is that it will execute <code>code</code> correctly, and therefore you can TRUST the <code>memory</code>. 🪄</p>
-</blockquote>
+<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2015.52.40.png" alt="Smart Contracts 101 2025-04-23 15.52.40.png"></p>
 <p>--</p>
-<h2 id="what-is-a-smart-contract-2" tabindex="-1">What is a Smart Contract</h2>
+<h2 id="blockchain-models-2" tabindex="-1">Blockchain Models</h2>
+<ul>
+<li>Computer 💻</li>
+<li>Legacy of Ethereum (the &quot;<em>World Computer</em>&quot;), Polkadot <a href="https://graypaper.com/resources/" target="_blank" class="external-link">JAM's Graypaper</a>.</li>
+</ul>
+<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.00.57.png" alt="Smart Contracts 101 2025-04-23 16.00.57.png"></p>
+<p>Note:</p>
+<p>Database is utter BS<br>
+State Machine is accurate, but a bit to math-y<br>
+Computer is accurate, and one that most people relate to, we will use this one</p>
+<hr>
+<h2 id="the-blockchain-computer" tabindex="-1">The Blockchain Computer</h2>
+<ul>
+<li>­Computer has <code>code</code> and <code>memory</code>.</li>
+<li>­Users can interact with the <code>code</code> (trigger a transfer 💸)</li>
+<li>­<code>memory</code> stores <em>valuable</em> information (how much money I own 🤑)</li>
+<li>­The main novelty of a computer is that it will execute <code>code</code> correctly, and therefore you can TRUST the <code>memory</code>. 🪄</li>
+</ul>
+<p>--</p>
+<h2 id="the-blockchain-computer-1" tabindex="-1">The Blockchain Computer</h2>
 <ul>
 <li>First generation blockchains had a fixed <code>code</code>.</li>
-<li>What is the <code>code</code> of the Bitcoin computer?
+<li>What is the <code>code</code> / <code>memory</code> of the Bitcoin computer?
 <ul>
-<li>Transfer of BTC </li>
+<li>
+Transfer of BTC
+</li>
+<li>
+Is it extensible?
+</li>
 </ul>
 </li>
 </ul>
 <p>Note:</p>
 <p>First blockchains were computers with a (almost) fixed <code>code</code>. Bitcoin's <code>code</code> is ONLY how to do transfer of BTC, and therefore the State of the Bitcoin computer was only user balances. Nothing more.</p>
 <p>--</p>
-<h2 id="what-is-a-smart-contract-3" tabindex="-1">What is a Smart Contract</h2>
+<h2 id="the-blockchain-computer-2" tabindex="-1">The Blockchain Computer</h2>
 <ul>
-<li>Smart Contracts are the first step into making blockchain computers <em><strong>programmable</strong></em>.</li>
+<li><strong>Smart Contracts</strong> are the first step into making blockchain computers <em><strong>programmable</strong></em>.</li>
 </ul>
 <p>--</p>
-<h2 id="what-is-a-smart-contract-4" tabindex="-1">What is a Smart Contract</h2>
+<h2 id="blockchain-computer" tabindex="-1">Blockchain Computer</h2>
 <ul>
-<li><strong>Ethereum</strong> is a programmable blockchain</li>
+<li><strong>Ethereum</strong> is a programmable blockchain computer</li>
 <li>What is the <code>code</code> of the Ethereum computer?
 <ul>
 <li>Transfer of ETH </li>
 <li>Upload a contract </li>
-<li>Call into an existing contract, which might alter state </li>
+<li>Call into an existing contract, which might alter memory </li>
 </ul>
 </li>
 </ul>
 <p>--</p>
-<h2 id="what-is-a-smart-contract-5" tabindex="-1">What is a Smart Contract</h2>
-<p><img src="/img/user/Excalidraw/contracts_compilation.png" alt="contracts_compilation.png"></p>
-<p>--</p>
-<h2 id="what-is-a-smart-contract-6" tabindex="-1">What is a Smart Contract</h2>
-<ul>
-<li>Given: blockchains are computers with <code>code</code> and <code>memory</code></li>
-<li>Smart contracts are essentially a way to <em><strong>extend</strong></em> the <code>code</code> <em>and</em> <code>memory</code></li>
-</ul>
-<p>--</p>
-<h2 id="what-is-a-smart-contract-7" tabindex="-1">What is a Smart Contract</h2>
+<h2 id="blockchain-computer-1" tabindex="-1">Blockchain Computer</h2>
 <ul>
 <li>Execution of these contracts is as secure as the execution of the main blockchain's <code>code</code>. 🪄</li>
-<li>If you can trust Ethereum and its ability to correctly transfer ETH, you should also trust that it can correctly execute whatever is the code of any smart contract. </li>
+<li>
+If you can trust Ethereum and its ability to correctly transfer ETH, you should also trust that it can correctly execute whatever is the code of any smart contract.
+</li>
 </ul>
 <hr>
-<h2 id="ethereum-contracts" tabindex="-1">Ethereum Contracts</h2>
+<h2 id="what-is-a-smart-contract" tabindex="-1">What Is A Smart Contract</h2>
+<p>A way to <strong>add programs</strong> with custom <code>code</code> and <code>memory</code> to the blockchain computer, making it <strong>extensible</strong>, with the very same <strong>security guarantees</strong>.</p>
+<hr>
+<h2 id="anatomy-of-smart-contracts" tabindex="-1">Anatomy Of Smart Contracts</h2>
 <p>A Smart Contract has:</p>
 <ul>
 <li>code</li>
-<li>address (at which it can be invoked)</li>
 <li>state/memory</li>
+<li>EVM has an opinion to see contracts exactly like user accounts
+<ul>
+<li>address (at which it can be invoked)</li>
 <li>balance: money owned by the contract</li>
 </ul>
-<p>Note:</p>
-<p>Bringing it all together</p>
+</li>
+</ul>
+<p>Note:<br>
+this is based on Ethereum/Solidity/EVM contracts<br>
+Bringing it all together</p>
 <hr>
-<h2 id="case-study" tabindex="-1">Case Study</h2>
+<h2 id="how-to-write-a-contract" tabindex="-1">How to Write a Contract</h2>
+<ul>
+<li>Ethereum Contracts are written in a language <strong>Solidity</strong>.</li>
+<li>Part of the Ethereum <code>code</code> is to execute <strong>Solidity</strong> code.</li>
+<li>This happens in a virtual machine known as <strong>EVM</strong></li>
+</ul>
+<p>Note:</p>
+<p>EVM: Ethereum Virtual Machine</p>
+<hr>
+<h2 id="how-to-execute-a-contract" tabindex="-1">How to Execute a Contract</h2>
+<p>If Ethereum wants to execute a totally untrusted code, what challenges does it have?</p>
+<ul>
+<li>­Deterministic cost (<strong>gas</strong>)
+<ul>
+<li>­⏰ Metering!</li>
+<li>­⛽️ <code>gas_limit</code>!</li>
+</ul>
+</li>
+<li>­Deterministic output (<strong>EVM</strong>)
+<ul>
+<li>­🫠 We I cannot make an HTTP request in a contract!</li>
+</ul>
+</li>
+</ul>
+<p>--</p>
+<h2 id="extending-memory" tabindex="-1">Extending Memory</h2>
+<p>What about the fact that a contract can add more data to its own memory, which in turn bloats the overall blockchain memory?</p>
+<ul>
+<li>State cost needs to be taken into account
+<ul>
+<li>Part of <strong>gas</strong></li>
+<li><strong>Deposit</strong></li>
+<li><strong>State Rent</strong></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="lifecycle" tabindex="-1">Lifecycle</h2>
+<p><img src="/img/user/Excalidraw/contracts_compilation.png" alt="contracts_compilation.png"></p>
+<hr>
+<h2 id="case-studies" tabindex="-1">Case Studies</h2>
+<p>--</p>
+<h3 id="case-study" tabindex="-1">Case Study</h3>
 <p>Simple Escrow Contract</p>
 <ul>
 <li>Buyer deposits funds</li>
@@ -514,7 +572,7 @@ Third one is accurate, and one that most people relate to, we will use this one<
 </li>
 </ul>
 <p>--</p>
-<h2 id="case-study-1" tabindex="-1">Case Study</h2>
+<h3 id="case-study-1" tabindex="-1">Case Study</h3>
 <p>Web3 Roulette</p>
 <ul>
 <li>Deposit Phase
@@ -529,48 +587,59 @@ Third one is accurate, and one that most people relate to, we will use this one<
 </li>
 </ul>
 <hr>
-<h2 id="how-to-write-a-contract" tabindex="-1">How to Write a Contract</h2>
-<ul>
-<li>Ethereum Contracts are written in a language <strong>Solidity</strong>.</li>
-<li>Part of the Ethereum <code>code</code> is to execute <strong>Solidity</strong> code.</li>
-<li>This happens in a virtual machine known as <strong>EVM</strong></li>
-</ul>
-<p>Note:</p>
-<p>EVM: Ethereum Virtual Machine</p>
-<hr>
-<h2 id="how-to-execute-a-contract" tabindex="-1">How to Execute a Contract</h2>
-<p>If Ethereum wants to execute a totally untrusted code, what challenges does it have?</p>
-<ul>
-<li>Deterministic cost (<strong>gas</strong>)</li>
-<li>Deterministic output (<strong>EVM</strong>)</li>
-</ul>
+<h2 id="advance-topics" tabindex="-1">Advance Topics</h2>
 <p>--</p>
-<h2 id="how-to-execute-a-contract-1" tabindex="-1">How to Execute a Contract</h2>
+<h3 id="composability-shared-environment" tabindex="-1">Composability ~ Shared Environment</h3>
 <ul>
-<li>Ability to <strong>meter</strong> ⏰ the cost of the execution of a contract is an important requirement</li>
-<li>This is why when interacting with any contract, you specify <code>gas_limit</code></li>
-</ul>
-<p>--</p>
-<h2 id="extending-memory" tabindex="-1">Extending Memory</h2>
-<p>What about the fact that a contract can add more data to its own memory, which in turn bloats the overall blockchain memory?</p>
+<li>VMs on a hardware
 <ul>
-<li>State cost needs to be taken into account
-<ul>
-<li>Part of <strong>gas</strong></li>
-<li><strong>Deposit</strong></li>
-<li><strong>State Rent</strong></li>
+<li>Ethereum =&gt; Hardware</li>
+<li>Contracts =&gt; VMs</li>
 </ul>
 </li>
+<li>Synchronous and Asynchronous</li>
 </ul>
+<p>Note:</p>
+<p>Contracts on Ethereum can always call one another</p>
 <p>--</p>
-<h2 id="other-properties-of-contracts" tabindex="-1">Other Properties of Contracts</h2>
+<h3 id="re-entrancy-attacks" tabindex="-1">Re-Entrancy Attacks</h3>
+<pre><code class="language-[1-100|2|4-6|8-10|12-13|15|1-100]">contract EtherStore {
+    mapping(address =&gt; uint256) public balances;
+
+    function deposit() {
+        balances[msg.sender] += msg.value;
+    }
+
+    function withdraw() {
+        uint256 bal = balances[msg.sender];
+        require(bal &gt; 0);
+
+        (bool sent,) = msg.sender.call{value: bal}(&quot;&quot;);
+        require(sent, &quot;Failed to send Ether&quot;);
+
+        balances[msg.sender] = 0;
+    }
+}
+</code></pre>
+<p>--</p>
+<h3 id="re-entrancy-attacks-1" tabindex="-1">Re-Entrancy Attacks</h3>
+<pre><code>contract Attacker {
+	// Our interface to EthStore contract
+    EtherStore public etherStore;
+
+    receive() external payable {
+        etherStore.withdraw();
+    }
+}
+</code></pre>
 <ul>
-<li>Atomic</li>
-<li>Immutable</li>
+<li>Checks-Effects-Interactions</li>
 </ul>
+<p>Note:</p>
+<p><a href="https://www.cyfrin.io/glossary/re-entrancy-hack-solidity-code-example" target="_blank" class="external-link">Cyfrin Code Glossary: Re-entrancy Hack in Solidity</a></p>
 <hr>
 <h2 id="smart-contracts-in-polkadot" tabindex="-1">Smart Contracts in Polkadot</h2>
-<hr>
+<h2 id="img-src-img-user-resources-polkadot-new-dot-logo-png-alt-polkadot-new-dot-logo-png" tabindex="-1"><img src="/img/user/resources/polkadot-new-dot-logo.png" alt="polkadot-new-dot-logo.png"></h2>
 <h2 id="polkadot" tabindex="-1">Polkadot</h2>
 <ul>
 <li>Computer who's <code>code</code> allows <em><strong>other Blockchains</strong></em> to be executed and validated.</li>
@@ -578,31 +647,33 @@ Third one is accurate, and one that most people relate to, we will use this one<
 </ul>
 <hr>
 <h2 id="past" tabindex="-1">Past</h2>
+<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.24.44.png" alt="Smart Contracts 101 2025-04-23 16.24.44.png"></p>
 <ul>
-<li>Polkadot's <code>code</code> is <strong>WASM</strong> bytecode (not EVM or similar).</li>
-<li>An experiment to compile Rust to WASM as a smart Contract
-<ul>
-<li><code>pallet-contracts</code> and <a href="https://use.ink/how-it-works/" target="_blank" class="external-link">Ink!</a>.</li>
-</ul>
-</li>
-<li>Execute EVM compatible Smart Contracts as well
-<ul>
-<li><a href="https://polkadot-evm.github.io/frontier/" target="_blank" class="external-link"><code>pallet-evm</code></a></li>
-</ul>
-</li>
+<li>A <a href="https://use.ink/chains/" target="_blank" class="external-link">lot of Polkadot-based blockchains</a> use the above tech stack</li>
 </ul>
 <p>Note:</p>
+<ul>
+<li>Writing smart contracts in Rust: <a href="https://use.ink/how-it-works/" target="_blank" class="external-link">Ink!</a>, executed in a WASM.</li>
+<li>Writing in Solidity, executed in EVM <a href="https://polkadot-evm.github.io/frontier/" target="_blank" class="external-link"><code>pallet-evm</code></a></li>
+</ul>
 <p>Both of these initiated in Parity, but are pursued as community projects now.</p>
 <hr>
 <h2 id="now" tabindex="-1">Now</h2>
 <ul>
 <li>A new, much better virtual machine based on RiskV: <a href="https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811" target="_blank" class="external-link"><strong>PolkaVM</strong></a></li>
-<li>Fork <code>pallet-contracts</code> to execute any Smart Contract that compiles to PolkaVM.</li>
-<li>Compiler to compile Solidity to PolkaVM bytecode</li>
 </ul>
+<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.24.44%201.png" alt="Smart Contracts 101 2025-04-23 16.24.44 1.png"></p>
 <p>--</p>
 <h2 id="now-1" tabindex="-1">Now</h2>
-<p>Outcome: Polkadot will have fast Solidity-compatible Smart Contracts in H2 2025</p>
+<ul>
+<li>Outcome: Polkadot will have fast Solidity-compatible Smart Contracts in H2 2025</li>
+<li><a href="https://contracts.polkadot.io/" target="_blank" class="external-link">Demo</a></li>
+</ul>
+<hr>
+<h2 id="open-question" tabindex="-1">Open Question</h2>
+<ul>
+<li>Smart Contract vs. AppChain Model</li>
+</ul>
 <hr>
 <h2 id="outro" tabindex="-1">Outro</h2>
 <ul>
@@ -652,37 +723,51 @@ On this page
 <ol>
 <li><a href="#about-me">About Me</a>
 </li>
-<li><a href="#what-is-a-smart-contract">What is a Smart Contract</a>
+<li><a href="#blockchain-models">Blockchain Models</a>
 </li>
-<li><a href="#what-is-a-smart-contract-1">What is a Smart Contract</a>
+<li><a href="#blockchain-models-1">Blockchain Models</a>
 </li>
-<li><a href="#what-is-a-smart-contract-2">What is a Smart Contract</a>
+<li><a href="#blockchain-models-2">Blockchain Models</a>
 </li>
-<li><a href="#what-is-a-smart-contract-3">What is a Smart Contract</a>
+<li><a href="#the-blockchain-computer">The Blockchain Computer</a>
 </li>
-<li><a href="#what-is-a-smart-contract-4">What is a Smart Contract</a>
+<li><a href="#the-blockchain-computer-1">The Blockchain Computer</a>
 </li>
-<li><a href="#what-is-a-smart-contract-5">What is a Smart Contract</a>
+<li><a href="#the-blockchain-computer-2">The Blockchain Computer</a>
 </li>
-<li><a href="#what-is-a-smart-contract-6">What is a Smart Contract</a>
+<li><a href="#blockchain-computer">Blockchain Computer</a>
 </li>
-<li><a href="#what-is-a-smart-contract-7">What is a Smart Contract</a>
+<li><a href="#blockchain-computer-1">Blockchain Computer</a>
 </li>
-<li><a href="#ethereum-contracts">Ethereum Contracts</a>
+<li><a href="#what-is-a-smart-contract">What Is A Smart Contract</a>
 </li>
-<li><a href="#case-study">Case Study</a>
-</li>
-<li><a href="#case-study-1">Case Study</a>
+<li><a href="#anatomy-of-smart-contracts">Anatomy Of Smart Contracts</a>
 </li>
 <li><a href="#how-to-write-a-contract">How to Write a Contract</a>
 </li>
 <li><a href="#how-to-execute-a-contract">How to Execute a Contract</a>
 </li>
-<li><a href="#how-to-execute-a-contract-1">How to Execute a Contract</a>
-</li>
 <li><a href="#extending-memory">Extending Memory</a>
 </li>
-<li><a href="#other-properties-of-contracts">Other Properties of Contracts</a>
+<li><a href="#lifecycle">Lifecycle</a>
+</li>
+<li><a href="#case-studies">Case Studies</a>
+<ol>
+<li><a href="#case-study">Case Study</a>
+</li>
+<li><a href="#case-study-1">Case Study</a>
+</li>
+</ol>
+</li>
+<li><a href="#advance-topics">Advance Topics</a>
+<ol>
+<li><a href="#composability-shared-environment">Composability ~ Shared Environment</a>
+</li>
+<li><a href="#re-entrancy-attacks">Re-Entrancy Attacks</a>
+</li>
+<li><a href="#re-entrancy-attacks-1">Re-Entrancy Attacks</a>
+</li>
+</ol>
 </li>
 <li><a href="#smart-contracts-in-polkadot">Smart Contracts in Polkadot</a>
 </li>
@@ -693,6 +778,8 @@ On this page
 <li><a href="#now">Now</a>
 </li>
 <li><a href="#now-1">Now</a>
+</li>
+<li><a href="#open-question">Open Question</a>
 </li>
 <li><a href="#outro">Outro</a>
 </li>
