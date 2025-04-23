@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T11:35:08.540+02:00","updated":"2024-12-29T11:11:01.086+01:00"}
+{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T10:35:08.540+01:00","updated":"2024-12-29T10:11:01.086+00:00"}
 ---
 
 ## Tech 

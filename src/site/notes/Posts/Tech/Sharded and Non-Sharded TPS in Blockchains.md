@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/tech/sharded-and-non-sharded-tps-in-blockchains/","created":"2025-02-11T15:13:00.000+01:00","updated":"2025-02-22T16:18:47.020+01:00"}
+{"dg-publish":true,"permalink":"/posts/tech/sharded-and-non-sharded-tps-in-blockchains/","created":"2025-02-11T14:13:00.000+00:00","updated":"2025-02-22T15:18:47.020+00:00"}
 ---
 
 > Originally posted in [x.com](https://x.com/kianenigma/status/1889350322016973306).

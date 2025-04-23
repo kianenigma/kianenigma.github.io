@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T11:34:59.884+02:00","updated":"2025-04-05T17:06:47.829+02:00"}
+{"dg-publish":true,"permalink":"/talks/talks-index/","pinned":true,"created":"2024-07-26T10:34:59.884+01:00","updated":"2025-04-05T16:06:47.829+01:00"}
 ---
 
 > [!tip] **[Youtube Channel](https://www.youtube.com/@kianenigma)**.

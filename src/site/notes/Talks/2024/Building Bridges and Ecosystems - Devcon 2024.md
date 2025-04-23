@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/multichain","permalink":"/talks/multichain/","created":"2024-11-22T17:57:00.426+01:00","updated":"2025-01-06T15:33:29.978+01:00"}
+{"dg-publish":true,"dg-permalink":"talks/multichain","permalink":"/talks/multichain/","created":"2024-11-22T16:57:00.426+00:00","updated":"2025-01-06T14:33:29.978+00:00"}
 ---
 
 Panel at Multichain Day. 

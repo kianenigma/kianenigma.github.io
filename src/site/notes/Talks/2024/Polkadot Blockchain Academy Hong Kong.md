@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2024/polkadot-blockchain-academy-hong-kong/","contentClasses":"img pba image-grid","created":"2024-06-27T18:30:02.063+02:00","updated":"2024-12-05T11:14:30.821+01:00"}
+{"dg-publish":true,"permalink":"/talks/2024/polkadot-blockchain-academy-hong-kong/","contentClasses":"img pba image-grid","created":"2024-06-27T17:30:02.063+01:00","updated":"2024-12-05T10:14:30.821+00:00"}
 ---
 
 ![Screenshot 2024-07-18 at 15.16.22.png](/img/user/resources/Screenshot%202024-07-18%20at%2015.16.22.png)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation-pba","permalink":"/posts/tech/demystifying-jam/presentation-pba/","contentClasses":"white-presentation","tags":["polkadot","jam","pba"],"created":"2025-04-01T12:49:52.185+02:00","updated":"2025-04-11T09:54:07.480+02:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation-pba","permalink":"/posts/tech/demystifying-jam/presentation-pba/","contentClasses":"white-presentation","tags":["polkadot","jam","pba"],"created":"2025-04-01T11:49:52.185+01:00","updated":"2025-04-11T08:54:07.480+01:00"}
 ---
 
 

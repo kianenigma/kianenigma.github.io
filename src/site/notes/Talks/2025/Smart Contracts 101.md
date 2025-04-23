@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101/","created":"2025-01-13T16:42:59.603+01:00","updated":"2025-01-14T16:56:07.798+01:00"}
+{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-04-23T17:29:58.343+01:00"}
 ---
 
 
@@ -17,7 +17,7 @@
   --r-main-font-size: 32px;
 }
 .reveal .slides section img { 
-	max-height: 30vh; /* Limit image height to 70% of the viewport height */ 
+	max-height: 60vh; /* Limit image height to 70% of the viewport height */ 
 	width: auto; /* Maintain aspect ratio */ 
 	 border-radius: 50px;
 	 padding: 20px;
@@ -39,39 +39,51 @@
 
 ---
 
-## What is a Smart Contract
-
-
-Blockchain models that we can think of:
+## Blockchain Models
 
 - Database 🤮
+- A legacy of Bitcoing, and the (*limited*) UTXO model
+
+![Smart Contracts 101 2025-04-23 15.49.08.png](/img/user/resources/Smart%20Contracts%20101%202025-04-23%2015.49.08.png)
+
+--
+## Blockchain Models
+
 - State Machine ♾️
+- Legacy of Ethereum, the [YP](https://ethereum.github.io/yellowpaper/paper.pdf), and its "account model"
+
+![Smart Contracts 101 2025-04-23 15.52.40.png](/img/user/resources/Smart%20Contracts%20101%202025-04-23%2015.52.40.png)
+
+--
+## Blockchain Models
+
 - Computer 💻
+- Legacy of Ethereum (the "*World Computer*"), Polkadot [JAM's Graypaper](https://graypaper.com/resources/).
+
+![Smart Contracts 101 2025-04-23 16.00.57.png](/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.00.57.png)
 
 Note: 
 
-First is utter BS
-Second is accurate, but a bit to math-y
-Third one is accurate, and one that most people relate to, we will use this one
+Database is utter BS
+State Machine is accurate, but a bit to math-y
+Computer is accurate, and one that most people relate to, we will use this one
+
+---
+
+## The Blockchain Computer
+- &shy;<!-- element class="fragment" -->Computer has `code` and `memory`. 
+- &shy;<!-- element class="fragment" -->Users can interact with the `code` (trigger a transfer 💸)
+- &shy;<!-- element class="fragment" -->`memory` stores *valuable* information (how much money I own 🤑)
+- &shy;<!-- element class="fragment" -->The main novelty of a computer is that it will execute `code` correctly, and therefore you can TRUST the `memory`. 🪄
 
 --
 
-## What is a Smart Contract
-
-- Computer has `code` and `memory`. 
-- Users can interact with the `code` (trigger a transfer 💸)
-- `memory` stores *valuable* information (how much money I own 🤑)
-- In a blockchain, we call these the `stf`/`runtime`, and `state` respectively. 
-
-> Aside: The main novelty of a computer is that it will execute `code` correctly, and therefore you can TRUST the `memory`. 🪄
-
---
-
-## What is a Smart Contract
+## The Blockchain Computer
 
 - First generation blockchains had a fixed `code`. 
-- What is the `code` of the Bitcoin computer? 
-	- Transfer of BTC <!-- element class="fragment" -->
+- What is the `code` / `memory` of the Bitcoin computer? 
+	- <!-- element class="fragment" --> Transfer of BTC
+	- <!-- element class="fragment" -->Is it extensible?
 
 Note: 
 
@@ -79,76 +91,47 @@ First blockchains were computers with a (almost) fixed `code`. Bitcoin's `code` 
 
 --
 
-## What is a Smart Contract
+## The Blockchain Computer
 
-- Smart Contracts are the first step into making blockchain computers ***programmable***. 
+- **Smart Contracts** are the first step into making blockchain computers ***programmable***. 
 
 --
+## Blockchain Computer
 
-## What is a Smart Contract
-
-- **Ethereum** is a programmable blockchain
+- **Ethereum** is a programmable blockchain computer
 - What is the `code` of the Ethereum computer? 
 	- Transfer of ETH <!-- element class="fragment" --> 
 	- Upload a contract <!-- element class="fragment" --> 
-	- Call into an existing contract, which might alter state <!-- element class="fragment" --> 
-
-
---
-
-## What is a Smart Contract
-
-![contracts_compilation.png](/img/user/Excalidraw/contracts_compilation.png)
+	- Call into an existing contract, which might alter memory <!-- element class="fragment" --> 
 
 --
-
-## What is a Smart Contract
-
-- Given: blockchains are computers with `code` and `memory`
-- Smart contracts are essentially a way to ***extend*** the `code` *and* `memory`
-
---
-
-## What is a Smart Contract
+## Blockchain Computer
 
 - Execution of these contracts is as secure as the execution of the main blockchain's `code`. 🪄
-- If you can trust Ethereum and its ability to correctly transfer ETH, you should also trust that it can correctly execute whatever is the code of any smart contract. <!-- element class="fragment" --> 
+- <!-- element class="fragment" --> If you can trust Ethereum and its ability to correctly transfer ETH, you should also trust that it can correctly execute whatever is the code of any smart contract. 
 
 ---
 
-## Ethereum Contracts
+## What Is A Smart Contract
+
+A way to **add programs** with custom `code` and `memory` to the blockchain computer, making it **extensible**, with the very same **security guarantees**.
+
+
+---
+
+## Anatomy Of Smart Contracts
+
 A Smart Contract has: 
 - code 
-- address (at which it can be invoked)
 - state/memory
-- balance: money owned by the contract
+- EVM has an opinion to see contracts exactly like user accounts
+	- address (at which it can be invoked)
+	- balance: money owned by the contract
 
 Note: 
-
+this is based on Ethereum/Solidity/EVM contracts
 Bringing it all together
 
----
-
-## Case Study
-
-Simple Escrow Contract
-
-- Buyer deposits funds 
-- Both buyer and seller approve
-	- Transfer funds to seller
-- Timeout
-	- Return funds to buyer
-
---
-
-## Case Study
-
-Web3 Roulette 
-
-- Deposit Phase 
-	- Anyone can deposit money into the contract 
-- Roulette Phase
-	- One participants get nothing back, their money split among everyone else
 
 ---
 
@@ -167,17 +150,11 @@ EVM: Ethereum Virtual Machine
 ## How to Execute a Contract
 
 If Ethereum wants to execute a totally untrusted code, what challenges does it have? 
-
-- Deterministic cost (**gas**)
-- Deterministic output (**EVM**)
-
---
-
-## How to Execute a Contract
-
-- Ability to **meter** ⏰ the cost of the execution of a contract is an important requirement
-- This is why when interacting with any contract, you specify `gas_limit`
-
+- &shy;<!-- element class="fragment" -->Deterministic cost (**gas**)
+	- &shy;<!-- element class="fragment" -->⏰ Metering!
+	- &shy;<!-- element class="fragment" -->⛽️  `gas_limit`!
+- &shy;<!-- element class="fragment" -->Deterministic output (**EVM**)
+	- &shy;<!-- element class="fragment" -->🫠 We I cannot make an HTTP request in a contract!
 
 --
 
@@ -190,17 +167,107 @@ What about the fact that a contract can add more data to its own memory, which i
 	- **Deposit**
 	- **State Rent**
 
+---
+
+## Lifecycle 
+
+![contracts_compilation.png](/img/user/Excalidraw/contracts_compilation.png)
+
+---
+
+## Case Studies 
+
+--
+### Case Study
+
+Simple Escrow Contract
+
+- Buyer deposits funds 
+- Both buyer and seller approve
+	- Transfer funds to seller
+- Timeout
+	- Return funds to buyer
+
 --
 
-## Other Properties of Contracts
+### Case Study
 
-- Atomic
-- Immutable 
+Web3 Roulette 
+
+- Deposit Phase 
+	- Anyone can deposit money into the contract 
+- Roulette Phase
+	- One participants get nothing back, their money split among everyone else
+
+
+
+---
+
+## Advance Topics
+
+--
+
+### Composability ~ Shared Environment 
+- VMs on a hardware
+	- Ethereum => Hardware 
+	- Contracts => VMs
+- Synchronous and Asynchronous 
+
+Note: 
+
+Contracts on Ethereum can always call one another
+
+--
+
+### Re-Entrancy Attacks
+
+```[1-100|2|4-6|8-10|12-13|15|1-100]
+contract EtherStore {
+    mapping(address => uint256) public balances;
+
+    function deposit() {
+        balances[msg.sender] += msg.value;
+    }
+
+    function withdraw() {
+        uint256 bal = balances[msg.sender];
+        require(bal > 0);
+
+        (bool sent,) = msg.sender.call{value: bal}("");
+        require(sent, "Failed to send Ether");
+
+        balances[msg.sender] = 0;
+    }
+}
+```
+
+--
+
+### Re-Entrancy Attacks
+
+```
+contract Attacker {
+	// Our interface to EthStore contract
+    EtherStore public etherStore;
+
+    receive() external payable {
+        etherStore.withdraw();
+    }
+}
+```
+
+- Checks-Effects-Interactions
+
+Note:
+
+[Cyfrin Code Glossary: Re-entrancy Hack in Solidity](https://www.cyfrin.io/glossary/re-entrancy-hack-solidity-code-example)
+
 
 ---
 
 ## Smart Contracts in Polkadot 
 
+![polkadot-new-dot-logo.png](/img/user/resources/polkadot-new-dot-logo.png)
 ---
 
 ## Polkadot 
@@ -212,13 +279,14 @@ What about the fact that a contract can add more data to its own memory, which i
 
 ## Past 
 
-- Polkadot's `code` is **WASM** bytecode (not EVM or similar).
-- An experiment to compile Rust to WASM as a smart Contract
-	- `pallet-contracts` and [Ink!](https://use.ink/how-it-works/).
-- Execute EVM compatible Smart Contracts as well
-	- [`pallet-evm`](https://polkadot-evm.github.io/frontier/)
+![Smart Contracts 101 2025-04-23 16.24.44.png](/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.24.44.png)
+
+- A [lot of Polkadot-based blockchains](https://use.ink/chains/) use the above tech stack
 
 Note: 
+
+- Writing smart contracts in Rust: [Ink!](https://use.ink/how-it-works/), executed in a WASM.
+- Writing in Solidity, executed in EVM [`pallet-evm`](https://polkadot-evm.github.io/frontier/)
 
 Both of these initiated in Parity, but are pursued as community projects now. 
 
@@ -227,14 +295,21 @@ Both of these initiated in Parity, but are pursued as community projects now.
 ## Now 
 
 - A new, much better virtual machine based on RiskV: [**PolkaVM**](https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811)
-- Fork `pallet-contracts` to execute any Smart Contract that compiles to PolkaVM.
-- Compiler to compile Solidity to PolkaVM bytecode
+
+![Smart Contracts 101 2025-04-23 16.24.44 1.png](/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.24.44%201.png)
 
 --
 
 ## Now
 
-Outcome: Polkadot will have fast Solidity-compatible Smart Contracts in H2 2025
+- Outcome: Polkadot will have fast Solidity-compatible Smart Contracts in H2 2025
+- [Demo](https://contracts.polkadot.io/)
+
+---
+
+## Open Question
+
+- Smart Contract vs. AppChain Model
 
 ---
 
