@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:16:12.669+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:19:48.728+01:00"}
 ---
 
 <style>
@@ -42,12 +42,15 @@
 ## About Me
 
 
-![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
-
+![Screenshot 2025-05-05 at 11.19.25.png|500](/img/user/resources/Screenshot%202025-05-05%20at%2011.19.25.png)
 - Kian Paimani aka. `@kianenigma`
 - Engineering Lead @ Parity Technologies 
 - Polkadot Core Fellow
 - blog.kianenigma.com (<-- slides)
+
+notes: 
+
+
 
 ---
 
