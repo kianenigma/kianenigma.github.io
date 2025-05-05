@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Smart Contracts 101</title>
+<title>Polkadot Map for Builders</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -345,13 +345,13 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink">
-<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/2025/smart-contracts-101-pbax/">Smart Contracts 101 - PBAX </a>
+<div @click.stop class="notelink active-note">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/map-polkadot-builders/">Polkadot Map for Builders </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note">
-<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/2025/smart-contracts-101/">Smart Contracts 101 </a>
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/2025/smart-contracts-101-pbax/">Smart Contracts 101 - PBAX </a>
 </div>
 </div>
 </div>
@@ -405,21 +405,31 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-04-29T15:21:09.579Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-04-29T15:21:09.579Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-04-29T15:21:09.579Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
-<main class="content cm-s-obsidian">
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-05-05T10:16:57.961Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-05-05T10:16:57.961Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-05-05T10:16:57.961Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<main class="content cm-s-obsidian white-presentation">
 <header>
-<h1 data-note-icon="">Smart Contracts 101</h1>
+<h1 data-note-icon="">Polkadot Map for Builders</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-01-13T15:42:59.603+00:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-04-23T17:29:58.343+01:00"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-05-02T18:19:41.179+01:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2025-05-05T11:16:12.669+01:00"></span></div></div></div>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Ottoman+Siyaq&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </header>
-<style>.reveal,.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6{font-family:"PT Serif"}.reveal{--r-main-font-size:32px}.reveal .slides section img{max-height:60vh;width:auto;border-radius:50px;padding:20px}</style>
-<h1 id="polkadot-smart-contracts" tabindex="-1">Polkadot Smart Contracts</h1>
+<style>.reveal,.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6{font-family:"PT Serif"}.reveal{--r-main-font-size:32px}.reveal .slides img{max-width:95%;max-height:70vh;width:auto;height:auto;border-radius:20px;padding:20px;object-fit:contain!important}</style>
+<h1 id="polkadot-map-for-builders" tabindex="-1">Polkadot Map for Builders</h1>
+<ul>
+<li>What Polkadot has to offer, and how to navigate it</li>
+<li>This presentation is highly inspired by <a href="https://blog.kianenigma.com/posts/tech/polkadot-s-build-horizon/" target="_blank" class="external-link">this post</a>.</li>
+<li>Additional resources:
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1_Xwli489W2nwwJeiOygpOvxg7Ph68_UYA4oyPKGyzdM/edit#slide=id.g331bbe6aa8e_1_5008" target="_blank" class="external-link">Radha's presentation, W3F Education lead</a></li>
+<li><a href="https://docs.google.com/presentation/d/14L8bh9oPCDkUPz1JU5ESYkUEQe7DwxD9FCtyE1zCICs/edit#slide=id.g30c00b30948_0_1364" target="_blank" class="external-link">Shawn Tabrizi's presentation, Polkadot fellow</a></li>
+</ul>
+</li>
+</ul>
 <hr>
 <h2 id="about-me" tabindex="-1">About Me</h2>
 <p><img src="/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg" alt="Screenshot 2023-11-01 at 21.21.06.jpeg|300" width="300px"></p>
@@ -430,268 +440,225 @@ CTRL + K
 <li><a href="http://blog.kianenigma.com" target="_blank" class="external-link">blog.kianenigma.com</a> (&lt;-- slides)</li>
 </ul>
 <hr>
-<h2 id="blockchain-models" tabindex="-1">Blockchain Models</h2>
+<h2 id="what-is-polkadot" tabindex="-1">What is Polkadot</h2>
 <ul>
-<li>Database 🤮</li>
-<li>A legacy of Bitcoing, and the (<em>limited</em>) UTXO model</li>
+<li>A multi-core, sharded blockchain that can host other Web3 applications</li>
+<li>Extremely scalable, while not compromising on security</li>
 </ul>
-<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2015.49.08.png" alt="Smart Contracts 101 2025-04-23 15.49.08.png"></p>
 <p>--</p>
-<h2 id="blockchain-models-1" tabindex="-1">Blockchain Models</h2>
-<ul>
-<li>State Machine ♾️</li>
-<li>Legacy of Ethereum, the <a href="https://ethereum.github.io/yellowpaper/paper.pdf" target="_blank" class="external-link">YP</a>, and its &quot;account model&quot;</li>
-</ul>
-<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2015.52.40.png" alt="Smart Contracts 101 2025-04-23 15.52.40.png"></p>
+<h3 id="what-polkadot-is-not" tabindex="-1">What Polkadot is NOT</h3>
+<p><img src="/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-02%2018.56.34.png" alt="Polkadot Map for Builders 2025-05-02 18.56.34.png|600" width="600px"></p>
 <p>--</p>
-<h2 id="blockchain-models-2" tabindex="-1">Blockchain Models</h2>
+<h3 id="what-polkadot-is-not-1" tabindex="-1">What Polkadot is NOT</h3>
+<p>Vertically scaling, hyper-performant, sequential blockchain<br>
+<img src="/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-02%2018.56.34-2.png" alt="Polkadot Map for Builders 2025-05-02 18.56.34-2.png|600" width="600px"></p>
+<p>--</p>
+<h3 id="what-polkadot-is-not-2" tabindex="-1">What Polkadot is NOT</h3>
+<p>Multi-chains, with sharded security (Cosmos, current Rollup landscape)</p>
+<p><img src="/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-02%2018.56.34-3.png" alt="Polkadot Map for Builders 2025-05-02 18.56.34-3.png|500" width="500px"></p>
+<p>--</p>
+<h3 id="what-polkadot-is-not-3" tabindex="-1">What Polkadot is NOT</h3>
+<p>Ethereum, with Native Rollups</p>
+<p><img src="/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-02%2018.56.34-4.png" alt="Polkadot Map for Builders 2025-05-02 18.56.34-4.png|600" width="600px"></p>
+<p>--</p>
+<h3 id="what-was-em-previously-em-polkadot" tabindex="-1">What was (<em>previously</em> 😉) Polkadot</h3>
+<p><img src="/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-02%2018.56.34-5.png" alt="Polkadot Map for Builders 2025-05-02 18.56.34-5.png|600" width="600px"></p>
+<p>Notes:</p>
 <ul>
-<li>Computer 💻</li>
-<li>Legacy of Ethereum (the &quot;<em>World Computer</em>&quot;), Polkadot <a href="https://graypaper.com/resources/" target="_blank" class="external-link">JAM's Graypaper</a>.</li>
+<li>Heterogeneously sharded execution, with shared security</li>
+<li>Embedded message passing capabilities</li>
+<li>Mainly expressed as Polkadot Cores</li>
 </ul>
-<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.00.57.png" alt="Smart Contracts 101 2025-04-23 16.00.57.png"></p>
+<p>--</p>
+<h3 id="what-is-em-currently-em-polkadot" tabindex="-1">What is (<em>currently</em>) Polkadot</h3>
+<p><img src="/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-02%2018.56.34-6.png" alt="Polkadot Map for Builders 2025-05-02 18.56.34-6.png|600" width="600px"></p>
+<p>--</p>
+<h3 id="polkadot-system-chains" tabindex="-1">Polkadot System Chains</h3>
+<ul>
+<li>Previously called &quot;<em>common good parachain</em>&quot;</li>
+<li>AssetHub, BridgeHub, Coretime, People</li>
+</ul>
+<p><img src="/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-02%2018.56.34-7.png" alt="Polkadot Map for Builders 2025-05-02 18.56.34-7.png|600" width="600px"></p>
+<hr>
+<h2 id="polkadot-statistics" tabindex="-1">Polkadot Statistics</h2>
+<p><img src="/img/user/resources/Screenshot%202025-05-02%20at%2019.26.49.png" alt="Screenshot 2025-05-02 at 19.26.49.png"></p>
+<ul>
+<li><a href="https://data.parity.io/race" target="_blank" class="external-link">DotLake Dashboard</a></li>
+</ul>
+<p>--</p>
+<h3 id="polkadot-statistics-parachains" tabindex="-1">Polkadot Statistics: Parachains</h3>
+<ul>
+<li>~50 active now</li>
+<li>DeFi, Gaming, AI, RWA</li>
+<li><a href="https://parachains.info/" target="_blank" class="external-link">Polkadot &amp; Kusama ecosystem projects directory</a></li>
+</ul>
+<p><img src="/img/user/resources/Screenshot%202025-05-04%20at%2010.26.51.png" alt="Screenshot 2025-05-04 at 10.26.51.png|600" width="600px"></p>
+<p>Notes:</p>
+<p>Take slides from <a href="https://www.shawntabrizi.com/blog/2025/02/05/the-future-of-web3/" target="_blank" class="external-link">The Future of Web3 | Shawn Tabrizi</a></p>
+<hr>
+<h3 id="polkadot-parachain-a-better-rollup" tabindex="-1">Polkadot Parachain: A Better Rollup 🤔</h3>
+<p><a href="https://dotrollups.com/#" target="_blank" class="external-link">Cheap for Builders</a> 🤑<br>
+<img src="/img/user/resources/Screenshot%202025-05-02%20at%2019.30.21.png" alt="Screenshot 2025-05-02 at 19.30.21.png|800" width="800px"></p>
+<p>--</p>
+<h3 id="polkadot-parachain-a-better-rollup-1" tabindex="-1">Polkadot Parachain: A Better Rollup 🤔</h3>
+<p>Cheap for users</p>
+<p><img src="/img/user/resources/Screenshot%202025-05-02%20at%2019.31.39.png" alt="Screenshot 2025-05-02 at 19.31.39.png|800" width="800px"></p>
+<hr>
+<h2 id="polkadot-spammening" tabindex="-1">Polkadot Spammening</h2>
+<p><img src="/img/user/resources/Screenshot%202025-05-02%20at%2019.33.07.png" alt="Screenshot 2025-05-02 at 19.33.07.png|800" width="800px"></p>
+<ul>
+<li><a href="https://polkadot.com/spammening/" target="_blank" class="external-link">The Spammening</a></li>
+</ul>
+<hr>
+<h2 id="polkadot-s-resilience" tabindex="-1">Polkadot's Resilience</h2>
+<p><img src="/img/user/resources/Screenshot%202025-05-02%20at%2019.34.38.png" alt="Screenshot 2025-05-02 at 19.34.38.png|600" width="600px"></p>
+<hr>
+<h2 id="why-talking-about-this" tabindex="-1">Why Talking About This?</h2>
+<ul>
+<li><strong>Horizontal scaling</strong> + <strong>Shared security</strong> works. It is the best, and thanks to spammening, battle tested way to scale a blockchain platform</li>
+<li>Cheap for builders (you! 🫵🏻), ergo cheap for your users</li>
+<li>Secure, giving you the chance to build <strong>real innovative Web3 applications</strong></li>
+</ul>
+<hr>
+<h2 id="building-on-polkadot" tabindex="-1">Building on Polkadot</h2>
+<p><img src="/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-04%2010.34.02.png" alt="Polkadot Map for Builders 2025-05-04 10.34.02.png|600" width="600px"></p>
+<p>--</p>
+<h3 id="building-on-polkadot-cores" tabindex="-1">Building on Polkadot Cores</h3>
+<p>(aka. <code>onchain</code>)</p>
+<ul>
+<li>Parachain Development
+<ul>
+<li>On-demand coretime</li>
+<li>Elastically scaling Parachain (1 or many cores)</li>
+</ul>
+</li>
+<li>Smart Contracts on Existing Parachain</li>
+<li>Smart Contracts on Polkadot Hub</li>
+<li>Enshrined Contract Parachain</li>
+</ul>
+<hr>
+<h3 id="polkadot-sdk" tabindex="-1">Polkadot-SDK</h3>
+<split even>
+![Screenshot 2025-05-04 at 10.58.32.png|400](/img/user/resources/Screenshot%202025-05-04%20at%2010.58.32.png) ![Screenshot 2025-05-04 at 10.59.21.png|400](/img/user/resources/Screenshot%202025-05-04%20at%2010.59.21.png)
+</split>
+<ul>
+<li><a href="https://github.com/paritytech/polkadot-sdk?tab=readme-ov-file#-documentation" target="_blank" class="external-link">Polkadot-sdk</a>, with un-opinionated tutorials, and <a href="https://github.com/paritytech/polkadot-sdk-parachain-template" target="_blank" class="external-link">templates</a></li>
+<li>Official documentation: <a href="https://docs.polkadot.com/" target="_blank" class="external-link">docs.polkadot.com</a></li>
+</ul>
+<p>Notes:</p>
+<ul>
+<li><a href="https://dotcodeschool.com/" target="_blank" class="external-link">dotcodeschool.com</a></li>
+<li><a href="https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/index.html" target="_blank" class="external-link">api-docs</a></li>
+</ul>
+<p>--</p>
+<h3 id="parachain-templates" tabindex="-1">Parachain Templates</h3>
+<ul>
+<li>Advanced: <a href="https://github.com/OpenZeppelin/polkadot-runtime-templates?tab=readme-ov-file#generic-runtime-template" target="_blank" class="external-link">OpenZeppelin</a></li>
+<li>DX-Friendly: <a href="https://pop.r0gue.io/cli/" target="_blank" class="external-link">POP</a></li>
+</ul>
+<p>--</p>
+<h3 id="smart-contracts-solidity" tabindex="-1">Smart Contracts: Solidity</h3>
+<ul>
+<li>Learning Solidity: We don't have to re-invent any wheels 🛞!</li>
+<li>Targeting WASM: <a href="https://github.com/polkadot-evm/frontier" target="_blank" class="external-link">polkadot-evm/frontier</a>
+<ul>
+<li>Supported by Moonbeam, Acala, Astar, and many more parachains</li>
+</ul>
+</li>
+<li>Targeting <a href="https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811" target="_blank" class="external-link">PVM</a>:
+<ul>
+<li><a href="https://contracts.polkadot.io/" target="_blank" class="external-link">Temporary Documentation, launching on Polkadot Hub in 2025</a></li>
+</ul>
+</li>
+</ul>
+<p>--</p>
+<h3 id="smart-contracts-rust-a-href-https-use-ink-target-blank-class-external-link-ink-a" tabindex="-1">Smart Contracts: Rust / <a href="https://use.ink/" target="_blank" class="external-link">ink!</a></h3>
+<h2 id="img-src-img-user-resources-screenshot-202025-05-04-20at-2011-06-08-png-alt-screenshot-2025-05-04-at-11-06-08-png-600-width-600px" tabindex="-1"><img src="/img/user/resources/Screenshot%202025-05-04%20at%2011.06.08.png" alt="Screenshot 2025-05-04 at 11.06.08.png|600" width="600px"></h2>
+<h3 id="smart-contracts-there-s-more" tabindex="-1">Smart Contracts: There's More</h3>
+<ul>
+<li>Both WASM and PVM are common compilation targets for many languages!</li>
+<li>Example: <a href="https://github.com/eigerco/pallet-move" target="_blank" class="external-link">MOVE</a></li>
+</ul>
+<p>--</p>
+<h3 id="xcm-messaging" tabindex="-1">XCM / Messaging</h3>
+<p>All ecosystem projects:</p>
+<ul>
+<li><a href="https://github.com/paraspell/xcm-tools" target="_blank" class="external-link">ParaSpell</a></li>
+<li><a href="https://github.com/AcalaNetwork/chopsticks" target="_blank" class="external-link">Chopsticks</a></li>
+<li><a href="https://github.com/Moonsong-Labs/xcm-tools" target="_blank" class="external-link">XCM-Tools</a></li>
+<li><a href="https://github.com/XcmSend/app" target="_blank" class="external-link">BagPipes</a></li>
+<li><a href="https://docs.hyperbridge.network/protocol/ismp" target="_blank" class="external-link">ISMP</a></li>
+</ul>
+<p>--</p>
+<h3 id="bridging" tabindex="-1">Bridging</h3>
+<ul>
+<li><a href="https://wiki.polkadot.network/learn/learn-dot-ksm-bridge/" target="_blank" class="external-link">Polkadot &lt;&gt; Kusama</a></li>
+<li>Polkadot &lt;&gt; Ethereum, fully trustless: <a href="https://app.snowbridge.network/" target="_blank" class="external-link">Snowbridge</a></li>
+<li><a href="https://wiki.polkadot.network/learn/learn-hyperbridge/" target="_blank" class="external-link">Hyperbridge</a></li>
+<li>A number of bridges present on <a href="https://apps.moonbeam.network/moonbeam/mrl?from=ethereum&amp;to=moonbeam" target="_blank" class="external-link">Moonbeam</a></li>
+<li>✅ Reminder: within parachains, there is not need for a bridge</li>
+</ul>
+<p>--</p>
+<h3 id="coretime-purchase" tabindex="-1">Coretime Purchase</h3>
+<ul>
+<li>Options for auto-renewal for long term teams</li>
+<li><a href="https://data.parity.io/coretime" target="_blank" class="external-link">Coretime dashboard + Link to UIs</a></li>
+</ul>
+<p><img src="/img/user/resources/Screenshot%202025-05-04%20at%2013.07.45.png" alt="Screenshot 2025-05-04 at 13.07.45.png|600" width="600px"></p>
+<hr>
+<h2 id="offchain-applications-for-polkadot" tabindex="-1">Offchain Applications for Polkadot</h2>
+<p>--</p>
+<h2 id="foundational-ap-is" tabindex="-1">Foundational APIs</h2>
+<ol>
+<li>🦀 Rust: <a href="https://github.com/paritytech/subxt" target="_blank" class="external-link">SubXT</a></li>
+<li>🦖 Typescript: <a href="https://github.com/polkadot-js" target="_blank" class="external-link">Polkadot JS API</a></li>
+<li>🤩 Typescript: <a href="https://github.com/polkadot-api" target="_blank" class="external-link">Polkadot-API</a> aka PAPI</li>
+</ol>
+<p>Notes:</p>
+<ul>
+<li><a href="https://dotcodeschool.com/courses/intro-to--papi" target="_blank" class="external-link">dotcodeschool.com/courses/intro-to-papi</a></li>
+<li><a href="https://papi.how/" target="_blank" class="external-link">Polkadot-API</a></li>
+<li><a href="https://codepen.io/shawntabrizi/pen/MWNjwgK" target="_blank" class="external-link">Play with PAPI (The Polkadot API)</a></li>
+</ul>
+<p>--</p>
+<h2 id="light-clients" tabindex="-1">Light Clients</h2>
+<h2 id="all-3-of-the-above-are-100-light-client-compatible-br-img-src-img-user-resources-screenshot-202025-05-05-20at-2011-13-22-png-alt-screenshot-2025-05-05-at-11-13-22-png-600-width-600px" tabindex="-1">All 3 of the above are 100% light client compatible<br>
+<img src="/img/user/resources/Screenshot%202025-05-05%20at%2011.13.22.png" alt="Screenshot 2025-05-05 at 11.13.22.png|600" width="600px"></h2>
+<h3 id="developers-consoles" tabindex="-1">Developers Consoles</h3>
+<split even>
+![Screenshot 2025-05-04 at 13.52.29.png|400](/img/user/resources/Screenshot%202025-05-04%20at%2013.52.29.png) ![Screenshot 2025-05-04 at 13.53.25.png|400](/img/user/resources/Screenshot%202025-05-04%20at%2013.53.25.png)
+</split>
 <p>Note:</p>
-<p>Database is utter BS<br>
-State Machine is accurate, but a bit to math-y<br>
-Computer is accurate, and one that most people relate to, we will use this one</p>
-<hr>
-<h2 id="the-blockchain-computer" tabindex="-1">The Blockchain Computer</h2>
+<p><a href="https://polkadot.js.org/" target="_blank" class="external-link">polkadot{.js}</a></p>
+<p>--</p>
+<h3 id="mobile" tabindex="-1">Mobile 📱</h3>
+<p>Curtesy of Novasama Technologies</p>
+<p><img src="/img/user/resources/Screenshot%202025-05-04%20at%2013.30.58.png" alt="Screenshot 2025-05-04 at 13.30.58.png|400" width="400px"></p>
 <ul>
-<li>­Computer has <code>code</code> and <code>memory</code>.</li>
-<li>­Users can interact with the <code>code</code> (trigger a transfer 💸)</li>
-<li>­<code>memory</code> stores <em>valuable</em> information (how much money I own 🤑)</li>
-<li>­The main novelty of a computer is that it will execute <code>code</code> correctly, and therefore you can TRUST the <code>memory</code>. 🪄</li>
+<li><a href="https://github.com/novasamatech/substrate-sdk-android" target="_blank" class="external-link">Android SDK</a></li>
+<li><a href="https://github.com/novasamatech/substrate-sdk-ios" target="_blank" class="external-link">Native iOS SDK</a></li>
 </ul>
 <p>--</p>
-<h2 id="the-blockchain-computer-1" tabindex="-1">The Blockchain Computer</h2>
+<h3 id="desktop" tabindex="-1">Desktop 🖥️</h3>
 <ul>
-<li>First generation blockchains had a fixed <code>code</code>.</li>
-<li>What is the <code>code</code> / <code>memory</code> of the Bitcoin computer?
-<ul>
-<li>
-Transfer of BTC
-</li>
-<li>
-Is it extensible?
-</li>
+<li><a href="https://github.com/PolkadotPlay/Polkadot.Unity.SDK" target="_blank" class="external-link">Unity SDK</a></li>
+<li><a href="https://github.com/SubstrateGaming/Substrate.NET.API" target="_blank" class="external-link">Substrate .NET SDK</a></li>
+<li><a href="https://github.com/polkascan/py-substrate-interface" target="_blank" class="external-link">Python</a></li>
 </ul>
-</li>
-</ul>
-<p>Note:</p>
-<p>First blockchains were computers with a (almost) fixed <code>code</code>. Bitcoin's <code>code</code> is ONLY how to do transfer of BTC, and therefore the State of the Bitcoin computer was only user balances. Nothing more.</p>
-<p>--</p>
-<h2 id="the-blockchain-computer-2" tabindex="-1">The Blockchain Computer</h2>
-<ul>
-<li><strong>Smart Contracts</strong> are the first step into making blockchain computers <em><strong>programmable</strong></em>.</li>
-</ul>
-<p>--</p>
-<h2 id="blockchain-computer" tabindex="-1">Blockchain Computer</h2>
-<ul>
-<li><strong>Ethereum</strong> is a programmable blockchain computer</li>
-<li>What is the <code>code</code> of the Ethereum computer?
-<ul>
-<li>Transfer of ETH </li>
-<li>Upload a contract </li>
-<li>Call into an existing contract, which might alter memory </li>
-</ul>
-</li>
-</ul>
-<p>--</p>
-<h2 id="blockchain-computer-1" tabindex="-1">Blockchain Computer</h2>
-<ul>
-<li>Execution of these contracts is as secure as the execution of the main blockchain's <code>code</code>. 🪄</li>
-<li>
-If you can trust Ethereum and its ability to correctly transfer ETH, you should also trust that it can correctly execute whatever is the code of any smart contract.
-</li>
-</ul>
+<p>Notes:</p>
+<p><a href="https://youtu.be/qVm0a63JOjY?si=0eBIeLK7XmxBC_Mk" target="_blank" class="external-link">Polkadot Unity SDK: Developed by Ajuna Network - YouTube</a><br>
+<a href="https://github.com/PolkadotPlay/Polkadot.Unity.SDK" target="_blank" class="external-link">GitHub - ajuna-network/Polkadot.Unity.SDK</a><br>
+<a href="https://polkascan.github.io/py-substrate-interface/" target="_blank" class="external-link">Site not found · GitHub Pages</a></p>
 <hr>
-<h2 id="what-is-a-smart-contract" tabindex="-1">What Is A Smart Contract</h2>
-<p>A way to <strong>add programs</strong> with custom <code>code</code> and <code>memory</code> to the blockchain computer, making it <strong>extensible</strong>, with the very same <strong>security guarantees</strong>.</p>
-<hr>
-<h2 id="anatomy-of-smart-contracts" tabindex="-1">Anatomy Of Smart Contracts</h2>
-<p>A Smart Contract has:</p>
+<h2 id="the-future" tabindex="-1">The Future</h2>
+<p><img src="/img/user/resources/jam-white.png" alt="jam-white.png|400" width="400px"></p>
 <ul>
-<li>code</li>
-<li>state/memory</li>
-<li>EVM has an opinion to see contracts exactly like user accounts
-<ul>
-<li>address (at which it can be invoked)</li>
-<li>balance: money owned by the contract</li>
+<li>Polkadot JAM -- on upgrade to radically move Polkadot towards being more open to hosting applications other than Blockchain/Smart-Contracts on itself</li>
+<li>Everything said above will persist</li>
+<li>Much more will be possible!</li>
 </ul>
-</li>
-</ul>
-<p>Note:<br>
-this is based on Ethereum/Solidity/EVM contracts<br>
-Bringing it all together</p>
-<hr>
-<h2 id="how-to-write-a-contract" tabindex="-1">How to Write a Contract</h2>
-<ul>
-<li>Ethereum Contracts are written in a language <strong>Solidity</strong>.</li>
-<li>Part of the Ethereum <code>code</code> is to execute <strong>Solidity</strong> code.</li>
-<li>This happens in a virtual machine known as <strong>EVM</strong></li>
-</ul>
-<p>Note:</p>
-<p>EVM: Ethereum Virtual Machine</p>
-<hr>
-<h2 id="how-to-execute-a-contract" tabindex="-1">How to Execute a Contract</h2>
-<p>If Ethereum wants to execute a totally untrusted code, what challenges does it have?</p>
-<ul>
-<li>­Deterministic cost (<strong>gas</strong>)
-<ul>
-<li>­⏰ Metering!</li>
-<li>­⛽️ <code>gas_limit</code>!</li>
-</ul>
-</li>
-<li>­Deterministic output (<strong>EVM</strong>)
-<ul>
-<li>­🫠 We I cannot make an HTTP request in a contract!</li>
-</ul>
-</li>
-</ul>
-<p>--</p>
-<h2 id="extending-memory" tabindex="-1">Extending Memory</h2>
-<p>What about the fact that a contract can add more data to its own memory, which in turn bloats the overall blockchain memory?</p>
-<ul>
-<li>State cost needs to be taken into account
-<ul>
-<li>Part of <strong>gas</strong></li>
-<li><strong>Deposit</strong></li>
-<li><strong>State Rent</strong></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="lifecycle" tabindex="-1">Lifecycle</h2>
-<p><img src="/img/user/Excalidraw/contracts_compilation.png" alt="contracts_compilation.png"></p>
-<hr>
-<h2 id="case-studies" tabindex="-1">Case Studies</h2>
-<p>--</p>
-<h3 id="case-study" tabindex="-1">Case Study</h3>
-<p>Simple Escrow Contract</p>
-<ul>
-<li>Buyer deposits funds</li>
-<li>Both buyer and seller approve
-<ul>
-<li>Transfer funds to seller</li>
-</ul>
-</li>
-<li>Timeout
-<ul>
-<li>Return funds to buyer</li>
-</ul>
-</li>
-</ul>
-<p>--</p>
-<h3 id="case-study-1" tabindex="-1">Case Study</h3>
-<p>Web3 Roulette</p>
-<ul>
-<li>Deposit Phase
-<ul>
-<li>Anyone can deposit money into the contract</li>
-</ul>
-</li>
-<li>Roulette Phase
-<ul>
-<li>One participants get nothing back, their money split among everyone else</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="advance-topics" tabindex="-1">Advance Topics</h2>
-<p>--</p>
-<h3 id="composability-shared-environment" tabindex="-1">Composability ~ Shared Environment</h3>
-<ul>
-<li>VMs on a hardware
-<ul>
-<li>Ethereum =&gt; Hardware</li>
-<li>Contracts =&gt; VMs</li>
-</ul>
-</li>
-<li>Synchronous and Asynchronous</li>
-</ul>
-<p>Note:</p>
-<p>Contracts on Ethereum can always call one another</p>
-<p>--</p>
-<h3 id="re-entrancy-attacks" tabindex="-1">Re-Entrancy Attacks</h3>
-<pre><code class="language-[1-100|2|4-6|8-10|12-13|15|1-100]">contract EtherStore {
-    mapping(address =&gt; uint256) public balances;
-
-    function deposit() {
-        balances[msg.sender] += msg.value;
-    }
-
-    function withdraw() {
-        uint256 bal = balances[msg.sender];
-        require(bal &gt; 0);
-
-        (bool sent,) = msg.sender.call{value: bal}(&quot;&quot;);
-        require(sent, &quot;Failed to send Ether&quot;);
-
-        balances[msg.sender] = 0;
-    }
-}
-</code></pre>
-<p>--</p>
-<h3 id="re-entrancy-attacks-1" tabindex="-1">Re-Entrancy Attacks</h3>
-<pre><code>contract Attacker {
-	// Our interface to EthStore contract
-    EtherStore public etherStore;
-
-    receive() external payable {
-        etherStore.withdraw();
-    }
-}
-</code></pre>
-<ul>
-<li>Checks-Effects-Interactions</li>
-</ul>
-<p>Note:</p>
-<p><a href="https://www.cyfrin.io/glossary/re-entrancy-hack-solidity-code-example" target="_blank" class="external-link">Cyfrin Code Glossary: Re-entrancy Hack in Solidity</a></p>
-<hr>
-<h2 id="smart-contracts-in-polkadot" tabindex="-1">Smart Contracts in Polkadot</h2>
-<h2 id="img-src-img-user-resources-polkadot-new-dot-logo-png-alt-polkadot-new-dot-logo-png" tabindex="-1"><img src="/img/user/resources/polkadot-new-dot-logo.png" alt="polkadot-new-dot-logo.png"></h2>
-<h2 id="polkadot" tabindex="-1">Polkadot</h2>
-<ul>
-<li>Computer who's <code>code</code> allows <em><strong>other Blockchains</strong></em> to be executed and validated.</li>
-<li>Polkadot always assumed one of these external blockchains (<strong>Parachains</strong>) would deliver smart contract capability.</li>
-</ul>
-<hr>
-<h2 id="past" tabindex="-1">Past</h2>
-<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.24.44.png" alt="Smart Contracts 101 2025-04-23 16.24.44.png"></p>
-<ul>
-<li>A <a href="https://use.ink/chains/" target="_blank" class="external-link">lot of Polkadot-based blockchains</a> use the above tech stack</li>
-</ul>
-<p>Note:</p>
-<ul>
-<li>Writing smart contracts in Rust: <a href="https://use.ink/how-it-works/" target="_blank" class="external-link">Ink!</a>, executed in a WASM.</li>
-<li>Writing in Solidity, executed in EVM <a href="https://polkadot-evm.github.io/frontier/" target="_blank" class="external-link"><code>pallet-evm</code></a></li>
-</ul>
-<p>Both of these initiated in Parity, but are pursued as community projects now.</p>
-<hr>
-<h2 id="now" tabindex="-1">Now</h2>
-<ul>
-<li>A new, much better virtual machine based on RiskV: <a href="https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811" target="_blank" class="external-link"><strong>PolkaVM</strong></a></li>
-</ul>
-<p><img src="/img/user/resources/Smart%20Contracts%20101%202025-04-23%2016.24.44%201.png" alt="Smart Contracts 101 2025-04-23 16.24.44 1.png"></p>
-<p>--</p>
-<h2 id="now-1" tabindex="-1">Now</h2>
-<ul>
-<li>Outcome: Polkadot will have fast Solidity-compatible Smart Contracts in H2 2025</li>
-<li><a href="https://contracts.polkadot.io/" target="_blank" class="external-link">Demo</a></li>
-</ul>
-<hr>
-<h2 id="open-question" tabindex="-1">Open Question</h2>
-<ul>
-<li>Smart Contract vs. AppChain Model</li>
-</ul>
-<hr>
-<h2 id="outro" tabindex="-1">Outro</h2>
-<ul>
-<li>Smart Contracts are the most basic form of building an application on top of a <strong>secure blockchain computer</strong> 🪄.</li>
-<li>Battle tested approach that has been used for almost a decade now</li>
-</ul>
-<hr>
-<h2 id="questions" tabindex="-1">Questions</h2>
+<p>Notes:</p>
+<p><a class="internal-link" target="" data-note-icon="" href="/posts/tech/demystifying-jam/">Demystifying JAM</a> / <a class="internal-link" target="" data-note-icon="" href="/posts/tech/demystifying-jam/presentation/">Demystifying JAM - Presentation</a></p>
 <div>
 <hr>
 <details>
@@ -729,71 +696,85 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#polkadot-smart-contracts">Polkadot Smart Contracts</a>
+<li><a href="#polkadot-map-for-builders">Polkadot Map for Builders</a>
 <ol>
 <li><a href="#about-me">About Me</a>
 </li>
-<li><a href="#blockchain-models">Blockchain Models</a>
-</li>
-<li><a href="#blockchain-models-1">Blockchain Models</a>
-</li>
-<li><a href="#blockchain-models-2">Blockchain Models</a>
-</li>
-<li><a href="#the-blockchain-computer">The Blockchain Computer</a>
-</li>
-<li><a href="#the-blockchain-computer-1">The Blockchain Computer</a>
-</li>
-<li><a href="#the-blockchain-computer-2">The Blockchain Computer</a>
-</li>
-<li><a href="#blockchain-computer">Blockchain Computer</a>
-</li>
-<li><a href="#blockchain-computer-1">Blockchain Computer</a>
-</li>
-<li><a href="#what-is-a-smart-contract">What Is A Smart Contract</a>
-</li>
-<li><a href="#anatomy-of-smart-contracts">Anatomy Of Smart Contracts</a>
-</li>
-<li><a href="#how-to-write-a-contract">How to Write a Contract</a>
-</li>
-<li><a href="#how-to-execute-a-contract">How to Execute a Contract</a>
-</li>
-<li><a href="#extending-memory">Extending Memory</a>
-</li>
-<li><a href="#lifecycle">Lifecycle</a>
-</li>
-<li><a href="#case-studies">Case Studies</a>
+<li><a href="#what-is-polkadot">What is Polkadot</a>
 <ol>
-<li><a href="#case-study">Case Study</a>
+<li><a href="#what-polkadot-is-not">What Polkadot is NOT</a>
 </li>
-<li><a href="#case-study-1">Case Study</a>
+<li><a href="#what-polkadot-is-not-1">What Polkadot is NOT</a>
+</li>
+<li><a href="#what-polkadot-is-not-2">What Polkadot is NOT</a>
+</li>
+<li><a href="#what-polkadot-is-not-3">What Polkadot is NOT</a>
+</li>
+<li><a href="#what-was-em-previously-em-polkadot">What was (previously 😉) Polkadot</a>
+</li>
+<li><a href="#what-is-em-currently-em-polkadot">What is (currently) Polkadot</a>
+</li>
+<li><a href="#polkadot-system-chains">Polkadot System Chains</a>
 </li>
 </ol>
 </li>
-<li><a href="#advance-topics">Advance Topics</a>
+<li><a href="#polkadot-statistics">Polkadot Statistics</a>
 <ol>
-<li><a href="#composability-shared-environment">Composability ~ Shared Environment</a>
+<li><a href="#polkadot-statistics-parachains">Polkadot Statistics: Parachains</a>
 </li>
-<li><a href="#re-entrancy-attacks">Re-Entrancy Attacks</a>
+<li><a href="#polkadot-parachain-a-better-rollup">Polkadot Parachain: A Better Rollup 🤔</a>
 </li>
-<li><a href="#re-entrancy-attacks-1">Re-Entrancy Attacks</a>
+<li><a href="#polkadot-parachain-a-better-rollup-1">Polkadot Parachain: A Better Rollup 🤔</a>
 </li>
 </ol>
 </li>
-<li><a href="#smart-contracts-in-polkadot">Smart Contracts in Polkadot</a>
+<li><a href="#polkadot-spammening">Polkadot Spammening</a>
 </li>
-<li><a href="#polkadot">Polkadot</a>
+<li><a href="#polkadot-s-resilience">Polkadot's Resilience</a>
 </li>
-<li><a href="#past">Past</a>
+<li><a href="#why-talking-about-this">Why Talking About This?</a>
 </li>
-<li><a href="#now">Now</a>
+<li><a href="#building-on-polkadot">Building on Polkadot</a>
+<ol>
+<li><a href="#building-on-polkadot-cores">Building on Polkadot Cores</a>
 </li>
-<li><a href="#now-1">Now</a>
+<li><a href="#polkadot-sdk">Polkadot-SDK</a>
 </li>
-<li><a href="#open-question">Open Question</a>
+<li><a href="#parachain-templates">Parachain Templates</a>
 </li>
-<li><a href="#outro">Outro</a>
+<li><a href="#smart-contracts-solidity">Smart Contracts: Solidity</a>
 </li>
-<li><a href="#questions">Questions</a>
+<li><a href="#smart-contracts-rust-a-href-https-use-ink-target-blank-class-external-link-ink-a">Smart Contracts: Rust / ink!</a>
+</li>
+</ol>
+</li>
+<ol>
+<li><a href="#smart-contracts-there-s-more">Smart Contracts: There's More</a>
+</li>
+<li><a href="#xcm-messaging">XCM / Messaging</a>
+</li>
+<li><a href="#bridging">Bridging</a>
+</li>
+<li><a href="#coretime-purchase">Coretime Purchase</a>
+</li>
+</ol>
+<li><a href="#offchain-applications-for-polkadot">Offchain Applications for Polkadot</a>
+</li>
+<li><a href="#foundational-ap-is">Foundational APIs</a>
+</li>
+<li><a href="#light-clients">Light Clients</a>
+</li>
+<li><a href="#all-3-of-the-above-are-100-light-client-compatible-br-img-src-img-user-resources-screenshot-202025-05-05-20at-2011-13-22-png-alt-screenshot-2025-05-05-at-11-13-22-png-600-width-600px">All 3 of the above are 100% light client compatible</a>
+<ol>
+<li><a href="#developers-consoles">Developers Consoles</a>
+</li>
+<li><a href="#mobile">Mobile 📱</a>
+</li>
+<li><a href="#desktop">Desktop 🖥️</a>
+</li>
+</ol>
+</li>
+<li><a href="#the-future">The Future</a>
 </li>
 </ol>
 </li>
