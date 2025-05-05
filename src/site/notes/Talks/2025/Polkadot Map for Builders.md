@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:26:16.470+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:27:32.784+01:00"}
 ---
 
 <style>
@@ -58,7 +58,7 @@
 
 notes: 
 
-
+[Polkadot Map for Builders](https://blog.kianenigma.com/talks/map-polkadot-builders/)
 
 ---
 
