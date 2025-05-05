@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:27:32.784+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:29:53.062+01:00"}
 ---
 
 <style>
@@ -170,7 +170,7 @@ Cheap for users
 
 ## Polkadot's Resilience
 
-![Screenshot 2025-05-02 at 19.34.38.png|600](/img/user/resources/Screenshot%202025-05-02%20at%2019.34.38.png)
+![Screenshot 2025-05-02 at 19.34.38.png|400](/img/user/resources/Screenshot%202025-05-02%20at%2019.34.38.png)
 
 ---
 
