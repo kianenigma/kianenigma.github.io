@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:19:48.728+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:26:16.470+01:00"}
 ---
 
 <style>
@@ -12,6 +12,10 @@
 .reveal h6 {
   font-family: "PT Serif";
 }
+
+.reveal h1 { font-size: 64px }
+.reveal h2 { font-size: 52px }
+.reveal h3 { font-size: 48px }
 .reveal {
   --r-main-font-size: 32px;
 }
@@ -31,6 +35,10 @@
 
 # Polkadot Map for Builders
 
+--
+
+## Polkadot Map for Builders
+
 - What Polkadot has to offer, and how to navigate it
 - This presentation is highly inspired by [this post](https://blog.kianenigma.com/posts/tech/polkadot-s-build-horizon/). 
 - Additional resources: 
@@ -42,7 +50,7 @@
 ## About Me
 
 
-![Screenshot 2025-05-05 at 11.19.25.png|500](/img/user/resources/Screenshot%202025-05-05%20at%2011.19.25.png)
+![Screenshot 2025-05-05 at 11.19.25.png|300](/img/user/resources/Screenshot%202025-05-05%20at%2011.19.25.png)
 - Kian Paimani aka. `@kianenigma`
 - Engineering Lead @ Parity Technologies 
 - Polkadot Core Fellow
@@ -344,5 +352,8 @@ Notes:
 
 [[Posts/Tech/Demystifying JAM\|Demystifying JAM]] / [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]
 
+---
 
+## Questions 
 
+The end
