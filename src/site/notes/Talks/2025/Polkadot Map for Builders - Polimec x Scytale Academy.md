@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-05T11:29:53.062+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-10T17:00:06.592+01:00"}
 ---
 
 <style>
@@ -58,6 +58,7 @@
 
 notes: 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NxYzQ7uAfFA?si=cqbf4xLot3DtQEpP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Polkadot Map for Builders](https://blog.kianenigma.com/talks/map-polkadot-builders/)
 
 ---

@@ -6,6 +6,7 @@
 
 | File                                                                                                                           | Date        |
 | ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [[Talks/2025/Demystifying JAM - JAM Exp May 2025\|Demystifying JAM - JAM Exp May 2025]]                                     | May 07 2025 |
 | [[Talks/2025/Polkadot Map for Builders - Polimec x Scytale Academy\|Polkadot Map for Builders - Polimec x Scytale Academy]] | May 02 2025 |
 | [[Talks/2025/Blockchain for Beginners - Parity Meetup April 2025\|Blockchain for Beginners - Parity Meetup April 2025]]     | Apr 28 2025 |
 | [[Talks/2025/Demystifying JAM - PBA6\|Demystifying JAM - PBA6]]                                                             | Apr 01 2025 |

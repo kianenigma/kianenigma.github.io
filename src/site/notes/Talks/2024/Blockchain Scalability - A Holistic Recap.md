@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","tags":["blockchain","polkadot"],"created":"2024-09-08T13:01:24.988+01:00","updated":"2025-01-27T10:34:31.285+00:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","tags":["blockchain","polkadot"],"created":"2024-09-08T13:01:24.988+01:00","updated":"2025-05-10T18:00:12.020+01:00"}
 ---
 
 
@@ -172,7 +172,7 @@ Notes:
 
 ---
 
-![jam.png](/img/user/resources/JAM.png)
+![Pasted image 20250510180010.png](/img/user/resources/Pasted%20image%2020250510180010.png)
 
 - Gutting and exposing Polkadot's core abilities. 
 - You can only do this under the shadow of Cynical Rollups' shared security. 

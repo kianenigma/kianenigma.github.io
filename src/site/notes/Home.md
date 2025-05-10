@@ -37,6 +37,7 @@ You can follow me directly via your email below. I may send occasional updates a
 ## Latest Talks ([[Talks/Talks Index\|All Talks]])
 | File                                                                                                                           | Date        |
 | ------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [[Talks/2025/Demystifying JAM - JAM Exp May 2025\|Demystifying JAM - JAM Exp May 2025]]                                     | May 07 2025 |
 | [[Talks/2025/Polkadot Map for Builders - Polimec x Scytale Academy\|Polkadot Map for Builders - Polimec x Scytale Academy]] | May 02 2025 |
 | [[Talks/2025/Blockchain for Beginners - Parity Meetup April 2025\|Blockchain for Beginners - Parity Meetup April 2025]]     | Apr 28 2025 |
 | [[Talks/2025/Demystifying JAM - PBA6\|Demystifying JAM - PBA6]]                                                             | Apr 01 2025 |
@@ -46,6 +47,5 @@ You can follow me directly via your email below. I may send occasional updates a
 | [[Talks/2024/Building Bridges and Ecosystems - Devcon 2024\|Building Bridges and Ecosystems - Devcon 2024]]                 | Nov 22 2024 |
 | [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                                         | Nov 06 2024 |
 | [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                                             | Nov 06 2024 |
-| [[Talks/2024/Blockchain Scalability - A Holistic Recap\|Blockchain Scalability - A Holistic Recap]]                         | Sep 08 2024 |
 
 { .block-language-dataview}
