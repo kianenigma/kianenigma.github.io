@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/blockchain-beginners-2025","permalink":"/talks/blockchain-beginners-2025/","created":"2025-04-28T16:57:59.887+01:00","updated":"2025-08-11T10:50:27.048+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/blockchain-magic-internet-parity-2025","permalink":"/talks/blockchain-magic-internet-parity-2025/","created":"2025-08-11T10:51:16.041+01:00","updated":"2025-08-11T11:28:46.075+01:00"}
 ---
 
 <style>
@@ -23,17 +23,18 @@
 }
 </style>
 
-# Blockchain For Beginners 
+## Blockchain  🪄 💻
+As a (Magic Internet) Computer
 
----
-## About Me
+--
 
-![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
+### Agenda
 
-- Kian Paimani aka. `@kianenigma`
-- Engineering Lead @ Parity Technologies 
-- Polkadot Fellow
-- blog.kianenigma.com (<-- slides)
+- Introduction 
+- Different perspective on what blockchain systems are
+- What **properties** they have
+- Evolution of blockchain systems
+- How this information can be useful to find a good use-case
 
 ---
 
@@ -118,9 +119,9 @@ Let's examine
 - Both `code` and `storage` and `input`s to that code need to be public for other network participants to verify it
 - &shy;<!-- element class="fragment" -->🔂 **Re-execution necessitates (*some degree of*) publicity**
 - &shy;<!-- element class="fragment" -->✅ ZK-SNARK proofs? Yes, that'll work
+- &shy;<!-- element class="fragment" -->**When is this desirable?** Public/P2P interactions
 
 --
-
 ### Properties: Digital
 
 * Needless to say, this *truthfulness* **only applies to the execution of the `code`, and its side-effect `storage`**. 
@@ -132,28 +133,33 @@ Notes:
 
 Not to say RWA tokenization is bad... But it is fundamentally using Blockchains different compared to that of DeFi and alike.
 
----
+--
+### Properties: Decentralized $\rightarrow$ Unstoppable
 
-## How 
+- It is probably harder to (forcefully) shutdown Bitcoin than Revolut
+- Decentralization
+	- Technologically
+	- Politically
+	- Geographically
+	- Ideologically 
+--
 
-* How the blockchain computer becomes truthful? 
-* &shy;<!-- element class="fragment" -->🔂 $\rightarrow$ Network of nodes, some authoring new blocks, some verifying
-* &shy;<!-- element class="fragment" -->🤑 $\rightarrow$ PoW, PoS
-* &shy;<!-- element class="fragment" -->⛓️‍💥 $\rightarrow$ Blockchain used to keep track of the correct order 
-
-
-Note: 
-
-We actually covered this. 
-
-* POW and POS are both ways to ensure economic security
+### Properties: Expensive + Slow
+- All of this dance to replace **Trust** with **Truth** doesn't come for free.
 
 --
 
-### PoS vs. PoS
-
-![Pasted image 20250429161752.png](/img/user/resources/Pasted%20image%2020250429161752.png)
-
+### Properties: Recap
+- Pros: 
+	- Secure computation and storage
+	- Auditable + strict ordering
+	- Public
+	- Digital
+	- Decentralization: Unstoppable
+- Cons: 
+	- Slow 
+	- Expensive
+	- Decentralization: No support hotline
 
 ---
 
@@ -232,7 +238,7 @@ Note:
 
 --
 
-### What Have We Solved
+### What Have We *Failed* To Solved
 
 - The ratio of money invested in blockchains vs Products is still very tilted
 - &shy;<!-- element class="fragment" -->Why? 
@@ -245,7 +251,6 @@ Note:
 ### Lack of PMF
 
 - We cannot determine what problem can a technology can solve, if we don't exactly understand what that technology does.
-- &shy;<!-- element class="fragment" --> Ask yourself:  When/Why do you I need a truthful computer with the properties mentioned above? 
 
 Notes:
 
@@ -266,79 +271,11 @@ Notes:
 
 ### What Else Is a PMF?
 
-Note: 
-
-Exercise to look at the list of applications that you use, and determine in which: 
-
-1. it is digital
-2. You are interacting with other humans
+- Don't hesitate to question: 
+	- *Why should I build this using a blockchain than Web2?*
+- Look in your day to day life for user-journeys that benefit from a system with the above technologies
 
 ---
 
-## Limitations / Frontier Problems 
-
-- &shy;<!-- element class="fragment" -->The Oracle Problem
-	- &shy;<!-- element class="fragment" -->Personhood, Identity
-- &shy;<!-- element class="fragment" -->Private Computation
-	- &shy;<!-- element class="fragment" -->FHE / ZK-SNARKs / MPC
-
-
---
-
-## Limitations: User Experience 
-
-- Blockchain developers tend to expose the underlying infrastructure to users
-
-![Pasted image 20250429161858.png](/img/user/resources/Pasted%20image%2020250429161858.png)
-
-Notes:
-- User Interface/Experience is the main bottleneck
-	- The amount of underlying details that we expose to user is as if: 
-		- We asked an email writer to compose the email headers
-		- To open a webpage you would have to send a GET request, then paste the results into a separate HTML viewer
-			- Then when clicking on a new button you would repeat the same
-
----
-
-## (Politically Correct) Opinions End
-
-Questions? 
-
----
-
-## 🌶️ Spicy Opinions 
-
-(DEFINITELY not financial advice)
-
---
-
-### Speculation 
-
-* Over-speculation in blockchain *as an infrastructure* is..
-* &shy;<!-- element class="fragment" --> 100% real
-
---
-
-### Speculation 
-
-- DotCom bubble, happening 2 months after the internet was invented, with 20 times more capital
-
---
-
-### Greed / Psychology 
-
-This industry is a unique mixture of 
-- A lot of capital
-- A lot of potential to empower of individuals to build financial applications 
-
-Note: 
-
-I am sure some behavior scientists will look at our behaviors today as developers and investors in this space and so amazing studies on it
-
---
-
-### Potential For Good and Bad
-
-* Like any other technology, it is a double-edged sword
-* I have spent \~7 years of my life on this, and I ~believe~ can see and understand that it has a great potential for **good**.
+# Questions
  
