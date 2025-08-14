@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/blockchain-magic-internet-parity-2025","permalink":"/talks/blockchain-magic-internet-parity-2025/","created":"2025-08-11T10:51:16.041+01:00","updated":"2025-08-11T11:28:46.075+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/blockchain-magic-internet-parity-2025","permalink":"/talks/blockchain-magic-internet-parity-2025/","created":"2025-08-11T10:51:16.041+01:00","updated":"2025-08-11T12:24:15.782+01:00"}
 ---
 
 <style>
@@ -25,6 +25,8 @@
 
 ## Blockchain  🪄 💻
 As a (Magic Internet) Computer
+
+<small> slides: blog.kianenigma.com</small>
 
 --
 
@@ -272,7 +274,7 @@ Notes:
 ### What Else Is a PMF?
 
 - Don't hesitate to question: 
-	- *Why should I build this using a blockchain than Web2?*
+	- *Why should I build this using a blockchain and not put it on a Web2 server?*
 - Look in your day to day life for user-journeys that benefit from a system with the above technologies
 
 ---

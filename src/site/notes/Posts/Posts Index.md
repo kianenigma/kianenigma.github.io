@@ -6,6 +6,7 @@
 
 | File                                                                                                                                                       | Date        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                                                     | Aug 13 2025 |
 | [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]]                                                   | Feb 11 2025 |
 | [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                                                                     | Nov 22 2024 |
 | [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                                                           | Sep 04 2024 |
