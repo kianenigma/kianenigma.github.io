@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/post/tech/web3-platform-basics","permalink":"/post/tech/web3-platform-basics/","hide":true,"created":"2025-03-27T09:57:40.625+00:00","updated":"2025-04-03T13:16:22.711+01:00"}
+{"dg-publish":true,"dg-permalink":"/post/tech/web3-platform-basics","permalink":"/post/tech/web3-platform-basics/","hide":true,"created":"2025-03-27T09:57:40.625+00:00","updated":"2025-08-20T14:13:49.509+01:00"}
 ---
 
 [x.com/ayyyeandy/status/1907515511023292594](https://x.com/ayyyeandy/status/1907515511023292594)
@@ -109,3 +109,10 @@ I think in retrospect this is absurd how much of *implementation* (blockchain) i
 ## Summary 
 
 My motivation in putting this together is to deeply understand what are the properties that blockchain platforms excel at, and then find existing/new use cases that are in fact a fit for these properties. In other words, we should have an educated guess on what use cases fit blockchains, rather than blindly searching in the dark.
+
+
+---
+
+- Games
+	- Chess.com
+	- 

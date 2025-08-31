@@ -6,6 +6,7 @@
 
 | File                                                                                                                                                     | Date        |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Talks/2025/Blockchains As World Computers\|Blockchains As World Computers]]                                                                         | Aug 31 2025 |
 | [[Talks/2025/Blockchain for Beginners - Parity DOT Talk August 2025\|Blockchain for Beginners - Parity DOT Talk August 2025]]                         | Aug 11 2025 |
 | [[Talks/2025/Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025\|Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025]] | Jun 18 2025 |
 | [[Talks/2025/Polkadot-SDK FRAME, But Liter -- FLITE\|Polkadot-SDK FRAME, But Liter -- FLITE]]                                                         | Jun 18 2025 |
