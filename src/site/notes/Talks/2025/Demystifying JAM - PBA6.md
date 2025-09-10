@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation-pba","permalink":"/posts/tech/demystifying-jam/presentation-pba/","contentClasses":"white-presentation","tags":["polkadot","jam","pba"],"created":"2025-04-01T11:49:52.185+01:00","updated":"2025-04-11T08:54:07.480+01:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation-pba","permalink":"/posts/tech/demystifying-jam/presentation-pba/","contentClasses":"white-presentation","tags":["polkadot","jam","pba"],"created":"2025-04-01T14:49:52.185+04:00","updated":"2025-09-09T18:27:19.049+04:00"}
 ---
 
 
@@ -163,8 +163,8 @@ Notes:
 
 <div class="fragment" style="text-align: left">
 
-- In-chain: Re-execute the PVF, make the PoV accessible to DA
-- On-core:  Small signature updates
+- In-core: Re-execute the PVF, make the PoV accessible to DA
+- On-chain:  Small signature updates
 
 </div>
 
@@ -203,7 +203,7 @@ A parachain can only control what happens in-core. It cannot really control what
 
 ### JAM (2)
 
-- ..and is therefore **an evolution for the Polkadot Relay Chain**. 
+- ..and is therefore **[intended to be an evolution for the Polkadot Relay Chain](https://polkadot.polkassembly.io/referenda/682)**. 
 - Parachains, Governance, Staking, AssetHub and everything else remains intact.
 
 ---
@@ -226,10 +226,12 @@ Note:
 --
 ### Refine 
 - Massive amounts of gas available (**5s PVM**)
-- Can receive up to **12MB** of input data (from DA, or extrinsic data)
 - Access to data availability
 	- **1.5 PB** maximum size / **6s** propagation time 
+- Can receive up to **12MB** of input data (from DA, or extrinsic data)
 - No direct access to the JAM state (stateless)
+	- Except **preimages**. 
+- Can Invoke child PVMs
 
 --
 ### Accumulate 
@@ -298,12 +300,6 @@ Allowing Services to program exactly how they want to use:
 * JAM offers a much more flexible `Authorization` mechanism for core utilization
 	* `authorize() -> refine() -> accumulate() -> on_transfer()` 
 
---
-
-## JAM Misc (2)
-
-![Screenshot 2025-04-08 at 11.28.11.png](/img/user/resources/Screenshot%202025-04-08%20at%2011.28.11.png)
-* JAM's data model: ***Mostly coherent with transient decoherence***
 
 ---
 ## JAM Envisioned Services
@@ -344,11 +340,7 @@ Questions?
 ---
 ## The Web3 Vision and JAM 
 
-1. Notes about blockchain/Web3 **technology**
-2. Notes about blockcha in/Web3 **vision**
-
----
-## Blockchain Technology
+* Abstract look at blockchain/Web3 **technology**
 
 ---
 ### Blockchain Mental Models 
@@ -421,57 +413,6 @@ This model is potentially useful, if you want a lot of throughput, high customiz
 
 ---
 
-## Web3 Vision
-- And this brings us to the billion dollar question of: What can we build with a Web3 cloud platform? 
-
---
-
-### Web3 Vision 
-
-> Personal opinion follows
-
-* Not materialized
-* Not understood by all in the same way, is evolving, industry is dividing into branches
-
---
-
-### Web3 Vision: What Are We Lacking? 
-- &shy;<!-- element class="fragment" -->Start with "*why*"? Resilience + centralization corrupts
-- &shy;<!-- element class="fragment" -->Form your own "*why*": Based on *non-functional (moral)* and *functional (technical)* reasons 📚
-- &shy;<!-- element class="fragment" -->The properties of the Web3 cloud is drastically different than that of Web2 cloud, even if they sound similar
-
-Note: 
-We as an industry, need to have a much better understanding of what task the tool which we are building is best fitted to solve
-
---
-### Back to Basics: Secure Computation
-- Secure computation. Why would we need this? 
-- &shy;<!-- element class="fragment" -->Only social, multi-party contentious and/or value-bearing interactions can benefit from secure computation
-- &shy;<!-- element class="fragment" -->My data, my interactions with it? Probably fine as self-hosted
-
-Note: 
-If only I am interacting with the system? doubtful
-If someone else is interacting with it, but running it my own server is enough? doubtful
-Example: 1Password on a blockchain? You got something wrong there bro 
-
---
-### Back to Basics: Exercise
-
-- Go over your list of applications in your phone, and name in which app your need to *interact with another humans*, and the app and platform is sitting in the middle?
-- Name in which the platform is at a position where it can misuse its position?
-
-Note: 
-DocusSign, Donations, Petitions, AppStore, Youtube Monetization, Public-key-infrastructure
-
---
-
-### Back To Basics: Other Examples
-
-* &shy;<!-- element class="fragment" -->Not only social, but preferably *digital*: "The Oracle Problem"
-* &shy;<!-- element class="fragment" -->Secure Computation != Blockchain. Consortium systems
-* &shy;<!-- element class="fragment" -->Public data and computation, unless FHE/ZK/MPC is used
-
----
 ## Questions
 
 ---

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2024/podcast-kusamarian/","created":"2025-01-05T20:11:02.000+00:00","updated":"2025-01-11T15:56:39.817+00:00"}
+{"dg-publish":true,"permalink":"/talks/2024/podcast-kusamarian/","created":"2025-01-06T00:11:02.000+04:00","updated":"2025-01-11T19:56:39.817+04:00"}
 ---
 
 

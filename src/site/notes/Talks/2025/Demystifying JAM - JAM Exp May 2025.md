@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation-jam-exp","permalink":"/posts/tech/demystifying-jam/presentation-jam-exp/","contentClasses":"white-presentation","tags":["polkadot","jam","pba"],"created":"2025-05-07T15:01:54.407+01:00","updated":"2025-05-07T17:43:15.066+01:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam/presentation-jam-exp","permalink":"/posts/tech/demystifying-jam/presentation-jam-exp/","contentClasses":"white-presentation","tags":["polkadot","jam","pba"],"created":"2025-05-07T18:01:54.407+04:00","updated":"2025-05-07T20:43:15.066+04:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2024/polkadot-blockchain-academy-hong-kong/","contentClasses":"img pba image-grid","created":"2024-06-27T17:30:02.063+01:00","updated":"2025-04-28T17:47:38.319+01:00"}
+{"dg-publish":true,"permalink":"/talks/2024/polkadot-blockchain-academy-hong-kong/","contentClasses":"img pba image-grid","created":"2024-06-27T20:30:02.063+04:00","updated":"2025-04-28T20:47:38.319+04:00"}
 ---
 
 - Hong Kong cohort Jan 2024

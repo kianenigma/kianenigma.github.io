@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/post/tech/self-guaranteeing-promise","permalink":"/post/tech/self-guaranteeing-promise/","created":"2025-08-13T21:43:08.000+01:00","updated":"2025-08-14T15:15:59.564+01:00"}
+{"dg-publish":true,"dg-permalink":"/post/tech/self-guaranteeing-promise","permalink":"/post/tech/self-guaranteeing-promise/","created":"2025-08-14T00:43:08.000+04:00","updated":"2025-08-14T18:15:59.564+04:00"}
 ---
 
 

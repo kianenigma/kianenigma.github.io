@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/phragmen2","permalink":"/talks/phragmen2/","created":"2023-08-28T14:03:15.000+01:00","updated":"2024-11-06T17:35:10.021+00:00"}
+{"dg-publish":true,"dg-permalink":"talks/phragmen2","permalink":"/talks/phragmen2/","created":"2023-08-28T17:03:15.000+04:00","updated":"2024-11-06T21:35:10.021+04:00"}
 ---
 
 Longer version of [[Talks/2020/Phragmén for Polkadot's NPoS\|Phragmén for Polkadot's NPoS]] at Substrate Seminar. 

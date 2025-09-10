@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/blockchain-magic-internet-parity-2025","permalink":"/talks/blockchain-magic-internet-parity-2025/","created":"2025-08-11T10:51:16.041+01:00","updated":"2025-08-11T12:24:15.782+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/blockchain-magic-internet-parity-2025","permalink":"/talks/blockchain-magic-internet-parity-2025/","created":"2025-08-11T13:51:16.041+04:00","updated":"2025-08-11T15:24:15.782+04:00"}
 ---
 
 <style>
