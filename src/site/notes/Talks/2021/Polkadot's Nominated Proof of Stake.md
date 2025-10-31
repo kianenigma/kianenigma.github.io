@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/polkadot-npos","permalink":"/talks/polkadot-npos/","created":"2023-08-28T17:03:35.000+04:00","updated":"2024-11-06T21:34:38.989+04:00"}
+{"dg-publish":true,"dg-permalink":"talks/polkadot-npos","permalink":"/talks/polkadot-npos/","created":"2023-08-28T14:03:35.000+01:00","updated":"2024-11-06T17:34:38.989+00:00"}
 ---
 
 ..Past, Present, and the Future.

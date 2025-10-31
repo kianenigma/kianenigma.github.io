@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T13:35:08.540+04:00","updated":"2024-12-29T14:11:01.086+04:00"}
+{"dg-publish":true,"permalink":"/posts/posts-index/","pinned":true,"created":"2024-07-26T10:35:08.540+01:00","updated":"2024-12-29T10:11:01.086+00:00"}
 ---
 
 ## Tech 
@@ -23,6 +23,7 @@
 
 | File                                                                                                                       | Date        |
 | -------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                              | Oct 31 2025 |
 | [[Posts/Personal/Mostafa Mehraeein's Open Letter To Iran Leaders\|Mostafa Mehraeein's Open Letter To Iran Leaders]]     | Jun 24 2025 |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                  | Jul 26 2024 |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                     | Mar 30 2024 |

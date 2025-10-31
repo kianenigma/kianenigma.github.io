@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T14:35:09.000+04:00","updated":"2025-02-22T22:35:14.020+04:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-02-22T18:35:14.020+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -20,6 +20,7 @@ You can follow me directly via your email below. I may send occasional updates a
 ## Latest Posts ([[Posts/Posts Index\|All Posts]])
 | File                                                                                                                   | Date        |
 | ---------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                          | Oct 31 2025 |
 | [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                 | Aug 13 2025 |
 | [[Posts/Personal/Mostafa Mehraeein's Open Letter To Iran Leaders\|Mostafa Mehraeein's Open Letter To Iran Leaders]] | Jun 24 2025 |
 | [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]]               | Feb 11 2025 |
@@ -29,7 +30,6 @@ You can follow me directly via your email below. I may send occasional updates a
 | [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                             | Jul 10 2024 |
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                   | May 02 2024 |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                 | Mar 30 2024 |
-| [[Posts/Personal/Gallery\|Gallery]]                                                                                 | Mar 30 2024 |
 
 { .block-language-dataview}
 

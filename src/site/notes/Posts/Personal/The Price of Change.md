@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/the-price-of-change/","created":"2024-03-24T01:30:33.000+04:00","updated":"2024-03-24T01:30:33.928+04:00"}
+{"dg-publish":true,"permalink":"/posts/personal/the-price-of-change/","created":"2024-03-23T21:30:33.000+00:00","updated":"2024-03-23T21:30:33.928+00:00"}
 ---
 
 Whether you want to *change* or not is a delicate question, and depending on the circumstances, and ultimately a decision that can be made, but one thing that has become clear to me over the years: 

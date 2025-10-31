@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101-pbax/","created":"2025-01-13T19:42:59.603+04:00","updated":"2025-04-24T11:35:34.656+04:00"}
+{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101-pbax/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-04-24T08:35:34.656+01:00"}
 ---
 
 
