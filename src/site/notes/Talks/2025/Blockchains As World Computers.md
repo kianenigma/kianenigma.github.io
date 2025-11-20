@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/blockchain-world-computer","permalink":"/talks/blockchain-world-computer/","created":"2025-08-31T18:59:18.719+01:00","updated":"2025-10-31T10:58:37.631+00:00"}
+{"dg-publish":true,"dg-permalink":"talks/blockchain-world-computer","permalink":"/talks/blockchain-world-computer/","created":"2025-08-31T18:59:18.719+01:00","updated":"2025-11-01T16:29:46.188+00:00"}
 ---
 
 Blockchains are full of buzzwords, and a lot of people still don't get ***what they actually are***. More importantly, people don't have a good idea and what can be built with this technology, other than the casino of Defi which is already out there. 
@@ -11,4 +11,4 @@ In this talk, I represent blockchains-based-systems as world computer (analogy b
 
 Slides: [[Talks/2025/Blockchain for Beginners - Parity DOT Talk August 2025\|Blockchain for Beginners - Parity DOT Talk August 2025]]
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oX7uW6ZvZDk?si=rvbcYeAtULsdoLm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oX7uW6ZvZDk?si=ESDOl1ip38m8bn4u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

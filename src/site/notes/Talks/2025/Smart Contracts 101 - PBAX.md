@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101-pbax/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-04-24T08:35:34.656+01:00"}
+{"dg-publish":true,"permalink":"/talks/2025/smart-contracts-101-pbax/","created":"2025-01-13T15:42:59.603+00:00","updated":"2025-11-20T18:47:23.286+00:00"}
 ---
 
 
@@ -81,23 +81,23 @@ Computer is accurate, and one that most people relate to, we will use this one
 ---
 
 ## The Blockchain Computer
-- &shy;<!-- element class="fragment" -->Computer has `code` and `memory`. 
+- &shy;<!-- element class="fragment" -->Computer has `code` and `storage`. 
 - &shy;<!-- element class="fragment" -->Users can interact with the `code` (trigger a transfer 💸)
-- &shy;<!-- element class="fragment" -->`memory` stores *valuable* information (how much money I own 🤑)
-- &shy;<!-- element class="fragment" -->The main novelty of a computer is that it will execute `code` correctly, and therefore you can TRUST the `memory`. 🪄
+- &shy;<!-- element class="fragment" -->`storage` stores *valuable* information (how much money I own 🤑)
+- &shy;<!-- element class="fragment" -->The main novelty of a computer is that it will execute `code` correctly, and therefore you can TRUST the `storage`. 🪄
 
 --
 
 ## The Blockchain Computer
 
 - First generation blockchains had a fixed `code`. 
-- What is the `code` / `memory` of the Bitcoin computer? 
+- What is the `code` / `storage` of the Bitcoin computer? 
 	- <!-- element class="fragment" --> Transfer of BTC
 	- <!-- element class="fragment" -->Is it extensible?
 
 Note: 
 
-First blockchains were computers with a (almost) fixed `code`. Bitcoin's `code` is ONLY how to do transfer of BTC, and therefore the State of the Bitcoin computer was only user balances. Nothing more. 
+First blockchains were computers with a (almost) fixed `code`. Bitcoin's `code` is ONLY how to do transfer of BTC, and therefore the storage of the Bitcoin computer was only user balances. Nothing more. 
 
 --
 
@@ -112,7 +112,7 @@ First blockchains were computers with a (almost) fixed `code`. Bitcoin's `code` 
 - What is the `code` of the Ethereum computer? 
 	- Transfer of ETH <!-- element class="fragment" --> 
 	- Upload a contract <!-- element class="fragment" --> 
-	- Call into an existing contract, which might alter memory <!-- element class="fragment" --> 
+	- Call into an existing contract, which might alter storage <!-- element class="fragment" --> 
 
 --
 ## Blockchain Computer
@@ -124,7 +124,7 @@ First blockchains were computers with a (almost) fixed `code`. Bitcoin's `code` 
 
 ## What Is A Smart Contract
 
-A way to **add programs** with custom `code` and `memory` to the blockchain computer, making it **extensible**, with the very same **security guarantees**.
+A way to **add programs** with custom `code` and `storage` to the blockchain computer, making it **extensible**, with the very same **security guarantees**.
 
 
 ---
@@ -133,7 +133,7 @@ A way to **add programs** with custom `code` and `memory` to the blockchain comp
 
 A Smart Contract has: 
 - code 
-- state/memory
+- storage
 - EVM has an opinion to see contracts exactly like user accounts
 	- address (at which it can be invoked)
 	- balance: money owned by the contract
@@ -169,14 +169,14 @@ If Ethereum wants to execute a totally untrusted code, what challenges does it h
 
 --
 
-## Extending Memory
+## Extending Storage
 
-What about the fact that a contract can add more data to its own memory, which in turn bloats the overall blockchain memory? 
+What about the fact that a contract can add more data to its own storage, which in turn bloats the overall blockchain storage? 
 
-- State cost needs to be taken into account
+- Storage cost needs to be taken into account
 	- Part of **gas**
 	- **Deposit**
-	- **State Rent**
+	- **Storage/State Rent**
 
 ---
 
