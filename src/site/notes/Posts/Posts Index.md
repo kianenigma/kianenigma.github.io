@@ -23,6 +23,7 @@
 
 | File                                                                                                                       | Date        |
 | -------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Personal/Price Of Internal Clarity\|Price Of Internal Clarity]]                                                 | Dec 06 2025 |
 | [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                              | Oct 31 2025 |
 | [[Posts/Personal/Mostafa Mehraeein's Open Letter To Iran Leaders\|Mostafa Mehraeein's Open Letter To Iran Leaders]]     | Jun 24 2025 |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                  | Jul 26 2024 |
