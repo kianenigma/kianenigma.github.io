@@ -33,11 +33,12 @@ module.exports = {
       return noteSettings;
     },
     hasSlides: (data) => {
-      // Make dg-slides accessible in templates as hasSlides
-      return !!data["dg-slides"];
+      // Check for dg-slides frontmatter OR slides tag (as fallback if plugin strips frontmatter)
+      return !!(data["dg-slides"] || (data.tags && data.tags.includes("slides")));
     },
     slidesPermalink: (data) => {
-      if (data["dg-slides"]) {
+      const hasSlides = !!(data["dg-slides"] || (data.tags && data.tags.includes("slides")));
+      if (hasSlides) {
         const basePermalink = data.permalink || `/notes/${data.page.fileSlug}/`;
         // Remove trailing slash and add /slides/
         const slidesPath = basePermalink.replace(/\/$/, "") + "/slides/";
@@ -46,7 +47,8 @@ module.exports = {
       return "";
     },
     slidesContent: (data) => {
-      if (data["dg-slides"] && data.page && data.page.inputPath) {
+      const hasSlides = !!(data["dg-slides"] || (data.tags && data.tags.includes("slides")));
+      if (hasSlides && data.page && data.page.inputPath) {
         try {
           const fileContent = fs.readFileSync(data.page.inputPath, "utf-8");
           const parsed = matter(fileContent);
@@ -63,7 +65,8 @@ module.exports = {
       return "";
     },
     slidesStyle: (data) => {
-      if (data["dg-slides"] && data.page && data.page.inputPath) {
+      const hasSlides = !!(data["dg-slides"] || (data.tags && data.tags.includes("slides")));
+      if (hasSlides && data.page && data.page.inputPath) {
         try {
           const fileContent = fs.readFileSync(data.page.inputPath, "utf-8");
           const parsed = matter(fileContent);

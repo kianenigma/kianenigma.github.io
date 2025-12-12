@@ -15,7 +15,9 @@ function userEleventySetup(eleventyConfig) {
     const slides = [];
 
     notes.forEach((note) => {
-      if (note.data && note.data["dg-slides"]) {
+      // Check for dg-slides frontmatter OR slides tag (as fallback if plugin strips frontmatter)
+      const hasSlides = !!(note.data && (note.data["dg-slides"] || (note.data.tags && note.data.tags.includes("slides"))));
+      if (hasSlides) {
         // Store inputPath for later use, don't read files during collection creation
         slides.push({
           inputPath: note.inputPath,
