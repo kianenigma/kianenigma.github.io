@@ -67,7 +67,23 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
-      {{ content | hideDataview | taggify | link | safe}}
+      {% if hasSlides %}
+        <div class="slides-container" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; overflow: hidden; border: 1px solid #ddd; border-radius: 8px; margin: 20px 0;">
+          <iframe
+            src="{{ slidesPermalink }}"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+            allowfullscreen
+            loading="lazy">
+          </iframe>
+        </div>
+        <p style="text-align: center; margin-top: 10px;">
+          <a href="{{ slidesPermalink }}" target="_blank" style="color: var(--link-color);">Open slides in fullscreen</a>
+        </p>
+        <h2>Slide Content</h2>
+        {{ content | hideDataview | taggify | link | safe}}
+      {% else %}
+        {{ content | hideDataview | taggify | link | safe}}
+      {% endif %}
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
