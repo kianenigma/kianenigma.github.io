@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","tags":["slides"],"created":"2025-05-02T18:19:41.179+01:00","updated":"2025-12-12T19:08:10.192+00:00"}
+{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","tags":["slides"],"created":"2025-05-02T18:19:41.179+01:00","updated":"2025-12-12T19:13:39.665+00:00"}
 ---
 
 <style>
@@ -54,7 +54,7 @@
 - Polkadot Core Fellow
 - blog.kianenigma.com (<-- slides)
 
-notes: 
+---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NxYzQ7uAfFA?si=cqbf4xLot3DtQEpP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 [Polkadot Map for Builders](https://blog.kianenigma.com/talks/map-polkadot-builders/)
@@ -101,7 +101,7 @@ Ethereum, with Native Rollups
 
 ![Polkadot Map for Builders 2025-05-02 18.56.34-5.png|600](/img/user/resources/Polkadot%20Map%20for%20Builders%202025-05-02%2018.56.34-5.png)
 
-Notes: 
+Note:
 - Heterogeneously sharded execution, with shared security
 - Embedded message passing capabilities 
 - Mainly expressed as Polkadot Cores 
@@ -137,8 +137,7 @@ Notes:
 - [Polkadot & Kusama ecosystem projects directory](https://parachains.info/)
 
 ![Screenshot 2025-05-04 at 10.26.51.png|600](/img/user/resources/Screenshot%202025-05-04%20at%2010.26.51.png)
-
-Notes: 
+Note:
 
 Take slides from [The Future of Web3 \| Shawn Tabrizi](https://www.shawntabrizi.com/blog/2025/02/05/the-future-of-web3/)
 
@@ -210,7 +209,7 @@ Cheap for users
 - [Polkadot-sdk](https://github.com/paritytech/polkadot-sdk?tab=readme-ov-file#-documentation), with un-opinionated tutorials, and [templates](https://github.com/paritytech/polkadot-sdk-parachain-template)
 - Official documentation: [docs.polkadot.com](https://docs.polkadot.com/)
 
-Notes: 
+Note:
 
 - [dotcodeschool.com](https://dotcodeschool.com/)
 - [api-docs](https://paritytech.github.io/polkadot-sdk/master/polkadot_sdk_docs/index.html)
@@ -286,7 +285,7 @@ All ecosystem projects:
 2. 🦖 Typescript: [Polkadot JS API](https://github.com/polkadot-js)
 3. 🤩 Typescript: [Polkadot-API](https://github.com/polkadot-api) aka PAPI
 
-Notes:
+Note:
 
 - [dotcodeschool.com/courses/intro-to-papi](https://dotcodeschool.com/courses/intro-to--papi)
 - [Polkadot-API](https://papi.how/)
@@ -332,7 +331,7 @@ Curtesy of Novasama Technologies
 - [Python](https://github.com/polkascan/py-substrate-interface)
 
 
-Notes: 
+Note:
 
 [Polkadot Unity SDK: Developed by Ajuna Network - YouTube](https://youtu.be/qVm0a63JOjY?si=0eBIeLK7XmxBC_Mk)
 [GitHub - ajuna-network/Polkadot.Unity.SDK](https://github.com/PolkadotPlay/Polkadot.Unity.SDK)
@@ -347,7 +346,7 @@ Notes:
 - Everything said above will persist
 - Much more will be possible! 
 
-Notes: 
+Note:
 
 [[Posts/Tech/Demystifying JAM\|Demystifying JAM]] / [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/blockchain-beginners-2025","permalink":"/talks/blockchain-beginners-2025/","tags":["slides"],"created":"2025-04-28T16:57:59.887+01:00","updated":"2025-12-12T19:08:03.465+00:00"}
+{"dg-publish":true,"dg-permalink":"/talks/blockchain-beginners-2025","permalink":"/talks/blockchain-beginners-2025/","tags":["slides"],"created":"2025-04-28T16:57:59.887+01:00","updated":"2025-12-12T19:12:16.508+00:00"}
 ---
 
 <style>
@@ -65,7 +65,7 @@
 
 > <!-- element class="fragment" -->Somehow we settled on calling systems that utilize the above, and happen to use a blockchain data-structure, a blockchain (system)
 
-Notes: 
+Note:
 - Cryptography: Military-grade, politically neutral technology
 - (Crypto)Economic Security: You diverge from correct behavior? You lose money
 - Re-execution: A lot of re-execution of the same work by different parties
@@ -128,7 +128,7 @@ Let's examine
 	* &shy;<!-- element class="fragment" -->Oracle Problem
 * &shy;<!-- element class="fragment" -->RWA???
 
-Notes: 
+Note:
 
 Not to say RWA tokenization is bad... But it is fundamentally using Blockchains different compared to that of DeFi and alike.
 
@@ -247,7 +247,7 @@ Note:
 - We cannot determine what problem can a technology can solve, if we don't exactly understand what that technology does.
 - &shy;<!-- element class="fragment" --> Ask yourself:  When/Why do you I need a truthful computer with the properties mentioned above? 
 
-Notes:
+Note:
 
 * Social interactions, in societies large enough when you cannot trust one another
 
@@ -291,7 +291,7 @@ Exercise to look at the list of applications that you use, and determine in whic
 
 ![Pasted image 20250429161858.png](/img/user/resources/Pasted%20image%2020250429161858.png)
 
-Notes:
+Note:
 - User Interface/Experience is the main bottleneck
 	- The amount of underlying details that we expose to user is as if: 
 		- We asked an email writer to compose the email headers

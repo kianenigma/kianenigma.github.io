@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","tags":["slides"],"created":"2024-11-06T17:33:56.750+00:00","updated":"2025-12-12T19:09:10.664+00:00"}
+{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","tags":["slides"],"created":"2024-11-06T17:33:56.750+00:00","updated":"2025-12-12T19:13:44.117+00:00"}
 ---
 
 <style>
@@ -74,7 +74,7 @@ Note:
 	- PoP
 	- OpenZeppelin
 
-Notes: 
+Note:
 - [Make \`polkadot-sdk\` templates OMNI and GREAT again -- part 2 · Issue #5242 · paritytech/polkadot-sdk · GitHub](https://github.com/paritytech/polkadot-sdk/issues/5242)
 
 ---

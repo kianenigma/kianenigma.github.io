@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","tags":["blockchain","polkadot","slides"],"created":"2024-09-08T13:01:24.988+01:00","updated":"2025-12-12T19:08:54.513+00:00"}
+{"dg-publish":true,"dg-permalink":"blockchain-reimagined/presentation-tum","permalink":"/blockchain-reimagined/presentation-tum/","tags":["blockchain","polkadot","slides"],"created":"2024-09-08T13:01:24.988+01:00","updated":"2025-12-12T19:12:46.708+00:00"}
 ---
 
 
@@ -26,7 +26,7 @@ A Holistic Recap
 - Re-discover the fundamentals of blockchains
 - I am here to solve industry-scale problems, not *sell a product*
 
-Notes: 
+Note:
 
 1. I am a core engineer of Polkadot. 
 2. On a journey to re-discover the fundamentals of blockchains. This talk is part of my journey.
@@ -41,7 +41,7 @@ Notes:
 - €1000 in the Bitcoin network (🧮 ♾️ -> *Synthesizes Verifiable Trust*)
 - Economically secured validators (💻💰) doing redundant work 
  
-Notes: 
+Note:
 
 Why do we trust each? 
 
@@ -64,7 +64,7 @@ Why do we trust each?
 
 Is one massive, ***SLOW***, **TRUSTWORTHY** computer.
 
-Notes: 
+Note:
 
 - And a key reason why blockchains have a hard time scaling: All validator's at the simplest model, have to re-execute everyone else's work, and come to consensus/finality about it.
 
@@ -109,7 +109,7 @@ Note:
 - `-` Slow finality / ⚠️ Need FP / Fragmented
 - `+`  Little overhead on L1 (Execution, DA)
 
-Notes:
+Note:
 
 - little overhead on the base security layer, scales well:
 	- New rollup, in the absence of fraud, no overhead on L1 in terms of execution, only DA
@@ -125,7 +125,7 @@ Notes:
 - `-` proactiveness is *not free*, but still scales well
 - ELVES / Sharded Execution, Shared Security  / "Validator waiting room" analogy 
 
-Notes:
+Note:
 - Fraud prover is my neighboring validator, and is ***as secure as I am***. 
 - Fraud prover is ***proactively*** asked to check my work. 
 - In case of escalation, all validators participate. Hydra analogy. 
@@ -144,7 +144,7 @@ Notes:
 - `+` Secure
 - `-` Expensive to prove, Generality
 
-Notes:
+Note:
 - [Coprocessor Market Structure: Cryptoeconomic vs ZK | rob.tech](https://www.rob.tech/blog/coprocessor-competition/)
 - [4.1 Heated Pannel: Programmable Crypto (ZK) v.s. Programmable Trust (Restaking) - YouTube](https://www.youtube.com/watch?v=SQWgrfCwVkk&list=PLa81rqLujkvsdo5XXCfE6mp0XmYzXtSKU&index=9)
 - [A technical FAQ on Lasso, Jolt, and recent advancements in SNARK design - a16z crypto](https://a16zcrypto.com/posts/article/a-technical-faq-on-lasso-jolt-and-recent-advancements-in-snark-design/)
@@ -155,7 +155,7 @@ Notes:
 
 - Cores, Parachains
 
-Notes:
+Note:
 - [Bringing Polkadot tech to Ethereum - Layer 2 - Ethereum Research](https://ethresear.ch/t/bringing-polkadot-tech-to-ethereum/17104)
 1. Higher Cost, an inevitability of the proactiveness of the security that Polkadot offers
 2. Shorter time to finality
@@ -178,7 +178,7 @@ Notes:
 - You can only do this under the shadow of Cynical Rollups' shared security. 
 - .. and a very powerful VM. 
 
-Notes:
+Note:
 
 JAM is a gutting of Polkadot that exposes: 
 1. DA
@@ -196,7 +196,7 @@ Why is JAM a big deal, and a step forward?
 > [!error]
 > Persistent Fragmentation ❌
 
-Notes: 
+Note:
 
 All models so far suffer from a property that we can call persistent fragmentation. The state associated with each application must live within the boundaries of its own walled garden. 
 
