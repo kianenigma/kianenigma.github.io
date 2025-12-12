@@ -16,7 +16,6 @@
 | [[Talks/2025/Demystifying JAM - PBA6\|Demystifying JAM - PBA6]]                                                                                       | Apr 01 2025 |
 | [[Talks/2025/Smart Contracts 101 - PBAX\|Smart Contracts 101 - PBAX]]                                                                                 | Jan 13 2025 |
 | [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                                                             | Jan 05 2025 |
-| [[Talks/2024/Plaza Polkadot Hub - OpenGiuld Community Call\|Plaza Polkadot Hub - OpenGiuld Community Call]]                                           | Dec 13 2024 |
 | [[Talks/2024/Building Bridges and Ecosystems - Devcon 2024\|Building Bridges and Ecosystems - Devcon 2024]]                                           | Nov 22 2024 |
 | [[Talks/2024/Polkadot-SDK FRAME @ 2024\|Polkadot-SDK FRAME @ 2024]]                                                                                   | Nov 06 2024 |
 | [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]                                                                       | Nov 06 2024 |
