@@ -45,6 +45,41 @@ body .notelink.active-note {
 
 .navbar-inner {
 	margin-left: 15px;
+	display: flex;
+	align-items: center;
+
+	// Ensure icons are vertically centered
+	i[icon-name],
+	svg {
+		display: inline-flex;
+		align-items: center;
+		vertical-align: middle;
+	}
+
+	// Ensure icon containers (spans) are aligned
+	> span {
+		display: inline-flex;
+		align-items: center;
+		vertical-align: middle;
+	}
+
+	// Align floating-control (theme switch) with h1
+	#floating-control {
+		padding-top: 0;
+		margin-left: 15px;
+		display: flex;
+		align-items: center;
+		height: 100%;
+		font-size: 24px;
+
+		#theme-switch {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			vertical-align: middle;
+		}
+	}
 }
 
 #floating-control {
@@ -59,6 +94,12 @@ body .notelink.active-note {
 	}
 
 	#theme-switch {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		height: 100%;
+
 		.light {
 			display: none;
 		}
@@ -78,5 +119,11 @@ body .notelink.active-note {
 		.dark {
 			display: inline;
 		}
+	}
+}
+
+.block-language-dataview {
+	th {
+		display: none;
 	}
 }
