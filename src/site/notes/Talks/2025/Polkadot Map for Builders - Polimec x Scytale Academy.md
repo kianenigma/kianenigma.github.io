@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-05-10T17:00:06.592+01:00"}
+{"dg-publish":true,"dg-permalink":"/talks/map-polkadot-builders","permalink":"/talks/map-polkadot-builders/","contentClasses":"white-presentation","created":"2025-05-02T18:19:41.179+01:00","updated":"2025-12-12T18:57:54.506+00:00"}
 ---
 
 <style>
@@ -30,8 +30,6 @@
 	object-fit: contain !important;
 }
 </style>
-
-
 
 # Polkadot Map for Builders
 
