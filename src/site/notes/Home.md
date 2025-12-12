@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-12-12T18:41:05.829+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-12-12T18:44:21.363+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -18,7 +18,7 @@ You can follow me directly via your email below. I may send occasional updates a
 </form>
 
 ---
-## Latest Posts
+### Latest Posts
 | File                                                                                                                   | Date        |
 | ---------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [[Posts/Personal/Price Of Internal Clarity\|Price Of Internal Clarity]]                                             | Dec 06 2025 |
@@ -33,10 +33,7 @@ You can follow me directly via your email below. I may send occasional updates a
 | [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                   | May 02 2024 |
 
 { .block-language-dataview}
-[[Posts/Posts Index\|All posts]].
-
----
-## Latest Talks
+### Latest Talks
 | File                                                                                                                                                     | Date        |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [[Talks/2025/Blockchains As World Computers\|Blockchains As World Computers]]                                                                         | Aug 31 2025 |
@@ -51,4 +48,7 @@ You can follow me directly via your email below. I may send occasional updates a
 | [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                                                             | Jan 05 2025 |
 
 { .block-language-dataview}
-[[Talks/Talks Index\|All talks]].
+
+### All
+- [[Posts/Posts Index\|Posts Index]]
+- [[Talks/Talks Index\|Talks Index]]
