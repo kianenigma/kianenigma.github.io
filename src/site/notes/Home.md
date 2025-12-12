@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-12-12T18:44:21.363+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-12-12T19:21:15.285+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -19,33 +19,33 @@ You can follow me directly via your email below. I may send occasional updates a
 
 ---
 ### Latest Posts
-| File                                                                                                                   | Date        |
-| ---------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [[Posts/Personal/Price Of Internal Clarity\|Price Of Internal Clarity]]                                             | Dec 06 2025 |
-| [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                          | Oct 31 2025 |
-| [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                 | Aug 13 2025 |
-| [[Posts/Personal/Mostafa Mehraeein's Open Letter To Iran Leaders\|Mostafa Mehraeein's Open Letter To Iran Leaders]] | Jun 24 2025 |
-| [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]]               | Feb 11 2025 |
-| [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                                 | Nov 22 2024 |
-| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                       | Sep 04 2024 |
-| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                              | Jul 26 2024 |
-| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                             | Jul 10 2024 |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                   | May 02 2024 |
+| File                                                                                                                   | Date       |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [[Posts/Personal/Price Of Internal Clarity\|Price Of Internal Clarity]]                                             | Dec . 2025 |
+| [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                          | Oct . 2025 |
+| [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                 | Aug . 2025 |
+| [[Posts/Personal/Mostafa Mehraeein's Open Letter To Iran Leaders\|Mostafa Mehraeein's Open Letter To Iran Leaders]] | Jun . 2025 |
+| [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]]               | Feb . 2025 |
+| [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                                 | Nov . 2024 |
+| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                       | Sep . 2024 |
+| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                              | Jul . 2024 |
+| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                             | Jul . 2024 |
+| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                   | May . 2024 |
 
 { .block-language-dataview}
 ### Latest Talks
-| File                                                                                                                                                     | Date        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [[Talks/2025/Blockchains As World Computers\|Blockchains As World Computers]]                                                                         | Aug 31 2025 |
-| [[Talks/2025/Blockchain for Beginners - Parity DOT Talk August 2025\|Blockchain for Beginners - Parity DOT Talk August 2025]]                         | Aug 11 2025 |
-| [[Talks/2025/Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025\|Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025]] | Jun 18 2025 |
-| [[Talks/2025/Polkadot-SDK FRAME, But Liter -- FLITE\|Polkadot-SDK FRAME, But Liter -- FLITE]]                                                         | Jun 18 2025 |
-| [[Talks/2025/Demystifying JAM - JAM Exp May 2025\|Demystifying JAM - JAM Exp May 2025]]                                                               | May 07 2025 |
-| [[Talks/2025/Polkadot Map for Builders - Polimec x Scytale Academy\|Polkadot Map for Builders - Polimec x Scytale Academy]]                           | May 02 2025 |
-| [[Talks/2025/Blockchain for Beginners - Parity Meetup April 2025\|Blockchain for Beginners - Parity Meetup April 2025]]                               | Apr 28 2025 |
-| [[Talks/2025/Demystifying JAM - PBA6\|Demystifying JAM - PBA6]]                                                                                       | Apr 01 2025 |
-| [[Talks/2025/Smart Contracts 101 - PBAX\|Smart Contracts 101 - PBAX]]                                                                                 | Jan 13 2025 |
-| [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                                                             | Jan 05 2025 |
+| File                                                                                                                                                     | Date       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [[Talks/2025/Blockchains As World Computers\|Blockchains As World Computers]]                                                                         | Aug . 2025 |
+| [[Talks/2025/Blockchain for Beginners - Parity DOT Talk August 2025\|Blockchain for Beginners - Parity DOT Talk August 2025]]                         | Aug . 2025 |
+| [[Talks/2025/Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025\|Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025]] | Jun . 2025 |
+| [[Talks/2025/Polkadot-SDK FRAME, But Liter -- FLITE\|Polkadot-SDK FRAME, But Liter -- FLITE]]                                                         | Jun . 2025 |
+| [[Talks/2025/Demystifying JAM - JAM Exp May 2025\|Demystifying JAM - JAM Exp May 2025]]                                                               | May . 2025 |
+| [[Talks/2025/Polkadot Map for Builders - Polimec x Scytale Academy\|Polkadot Map for Builders - Polimec x Scytale Academy]]                           | May . 2025 |
+| [[Talks/2025/Blockchain for Beginners - Parity Meetup April 2025\|Blockchain for Beginners - Parity Meetup April 2025]]                               | Apr . 2025 |
+| [[Talks/2025/Demystifying JAM - PBA6\|Demystifying JAM - PBA6]]                                                                                       | Apr . 2025 |
+| [[Talks/2025/Smart Contracts 101 - PBAX\|Smart Contracts 101 - PBAX]]                                                                                 | Jan . 2025 |
+| [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                                                             | Jan . 2025 |
 
 { .block-language-dataview}
 
