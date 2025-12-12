@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
+
+  <!-- Load Source Sans 3 font to match parent website -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/white.css" id="theme">
+
+  <style>
+    /* Use the same font family as the parent website */
+    .reveal,
+    .reveal .slides section,
+    .reveal h1,
+    .reveal h2,
+    .reveal h3,
+    .reveal h4,
+    .reveal h5,
+    .reveal h6,
+    .reveal p,
+    .reveal li,
+    .reveal ul,
+    .reveal ol {
+      font-family: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .reveal .slides section {
+      text-align: left;
+    }
+    .reveal .slides section.center {
+      text-align: center;
+    }
+    {% if slidesStyle %}
+    {{ slidesStyle | safe }}
+    {% endif %}
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown data-separator="^---$" data-separator-vertical="^--$" data-separator-notes="^Note:">
+        <script type="text/template">
+{{ slidesContent | safe }}
+        </script>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/markdown/markdown.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      controls: true,
+      progress: true,
+      center: false,
+      transition: 'slide',
+      markdown: {
+        smartypants: true
+      },
+      plugins: [ RevealMarkdown ]
+    });
+  </script>
+</body>
+</html>
+
