@@ -64,7 +64,9 @@
         <p style="text-align: center; margin-top: 10px;">
           <a href="{{ slidesPermalink }}" target="_blank" style="color: var(--link-color);">Open slides in fullscreen</a>
         </p>
-        <h2>Slide Content</h2>
+        <hr>
+        <h1>Slide Content</h1>
+        <hr>
         {{ content | hideDataview | taggify | link | safe}}
       {% else %}
         {{ content | hideDataview | taggify | link | safe}}
