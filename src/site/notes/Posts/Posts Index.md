@@ -6,6 +6,7 @@
 
 | File                                                                                                                                                       | Date        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                                                     | Aug 13 2025 |
 | [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]]                                                   | Feb 11 2025 |
 | [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                                                                     | Nov 22 2024 |
 | [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                                                           | Sep 04 2024 |
@@ -22,6 +23,9 @@
 
 | File                                                                                                                       | Date        |
 | -------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Personal/Price Of Internal Clarity\|Price Of Internal Clarity]]                                                 | Dec 06 2025 |
+| [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                              | Oct 31 2025 |
+| [[Posts/Personal/Mostafa Mehraeein's Open Letter To Iran Leaders\|Mostafa Mehraeein's Open Letter To Iran Leaders]]     | Jun 24 2025 |
 | [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                                  | Jul 26 2024 |
 | [[Posts/Personal/Uneducated, Unaffiliated, Disinterested\|Uneducated, Unaffiliated, Disinterested]]                     | Mar 30 2024 |
 | [[Posts/Personal/Gallery\|Gallery]]                                                                                     | Mar 30 2024 |
