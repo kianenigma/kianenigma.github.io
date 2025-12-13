@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-12-12T19:21:15.285+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-12-13T18:35:15.483+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -17,6 +17,20 @@ You can follow me directly via your email below. I may send occasional updates a
   <input type="submit" value="Subscribe" style="font-family: inherit;  height: var(--input-height);" />
 </form>
 
+<div class="featured">
+	<a href="/posts/tech/demystifying-jam/" class="featured-item">
+	<img src="/img/user/resources/jam-white.png" alt="JAM" />
+	<h3>Demystifying JAM</h3>
+	<p>Understand Polkadot's JAM protocol in depth</p>
+	</a>
+	
+	<a href="/post/tech/self-guaranteeing-promise/" class="featured-item">
+	<img src="/img/user/resources/google.png" alt="Featured Project 2" /> 
+	<h3>Self Guaranteeing Promise</h3>
+	<p>Understand Web3 without tokens</p>
+	</a>
+</div>
+
 ---
 ### Latest Posts
 | File                                                                                                                   | Date       |
@@ -26,11 +40,6 @@ You can follow me directly via your email below. I may send occasional updates a
 | [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                 | Aug . 2025 |
 | [[Posts/Personal/Mostafa Mehraeein's Open Letter To Iran Leaders\|Mostafa Mehraeein's Open Letter To Iran Leaders]] | Jun . 2025 |
 | [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]]               | Feb . 2025 |
-| [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                                 | Nov . 2024 |
-| [[Posts/Tech/Multi-Chain SDK Vision\|Multi-Chain SDK Vision]]                                                       | Sep . 2024 |
-| [[Posts/Personal/Poetry/Sa'di\|Sa'di]]                                                                              | Jul . 2024 |
-| [[Posts/Tech/On Documenting polkadot-sdk\|On Documenting polkadot-sdk]]                                             | Jul . 2024 |
-| [[Posts/Tech/Demystifying JAM\|Demystifying JAM]]                                                                   | May . 2024 |
 
 { .block-language-dataview}
 ### Latest Talks
@@ -41,11 +50,6 @@ You can follow me directly via your email below. I may send occasional updates a
 | [[Talks/2025/Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025\|Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025]] | Jun . 2025 |
 | [[Talks/2025/Polkadot-SDK FRAME, But Liter -- FLITE\|Polkadot-SDK FRAME, But Liter -- FLITE]]                                                         | Jun . 2025 |
 | [[Talks/2025/Demystifying JAM - JAM Exp May 2025\|Demystifying JAM - JAM Exp May 2025]]                                                               | May . 2025 |
-| [[Talks/2025/Polkadot Map for Builders - Polimec x Scytale Academy\|Polkadot Map for Builders - Polimec x Scytale Academy]]                           | May . 2025 |
-| [[Talks/2025/Blockchain for Beginners - Parity Meetup April 2025\|Blockchain for Beginners - Parity Meetup April 2025]]                               | Apr . 2025 |
-| [[Talks/2025/Demystifying JAM - PBA6\|Demystifying JAM - PBA6]]                                                                                       | Apr . 2025 |
-| [[Talks/2025/Smart Contracts 101 - PBAX\|Smart Contracts 101 - PBAX]]                                                                                 | Jan . 2025 |
-| [[Talks/2024/Podcast - Kusamarian\|Podcast - Kusamarian]]                                                                                             | Jan . 2025 |
 
 { .block-language-dataview}
 
