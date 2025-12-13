@@ -219,7 +219,6 @@ body {
     --layer-sidedock: 10;
     --layer-status-bar: 15;
     --layer-popover: 30;
-    --layer-slides: 45;
     --layer-modal: 50;
     --layer-notice: 60;
     --layer-menu: 65;
@@ -8490,45 +8489,6 @@ body {
   .workspace-leaf.mod-active .search-result-file-match.has-focus {
     border-radius: var(--radius-s);
     box-shadow: inset 0 0 0 2px var(--background-modifier-border-focus);
-  }
-  .slides-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    transition: -webkit-transform 0.8s ease 0s;
-    background-color: #191919;
-    z-index: var(--layer-slides);
-    border: none;
-  }
-  .slides-container li .collapse-indicator {
-    display: none;
-  }
-  .slides-close-btn {
-    display: inline-block;
-    position: absolute;
-    top: var(--size-4-2);
-    right: var(--size-4-2);
-    color: var(--text-faint);
-    cursor: var(--cursor);
-    z-index: 1;
-  }
-  @media (hover: hover) {
-    .slides-close-btn:hover {
-      color: var(--text-muted);
-    }
-  }
-  .reveal input[type='checkbox'] {
-    width: 24px;
-    height: 24px;
-  }
-  .reveal .task-list-item,
-  .reveal .footnote-item {
-    list-style: none;
-  }
-  .reveal .task-list-item {
-    margin-left: -1.5em;
   }
   .vault-list-item {
     margin: 6px 0;
