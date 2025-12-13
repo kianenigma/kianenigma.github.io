@@ -53,17 +53,19 @@
         {% include imp %}
       {% endfor %}
       {{ content | hideDataview | taggify | link | safe}}
+      {# no footer in index, fix manually in future upgrades.
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
       {% for imp in dynamics.index.afterContent %}
         {% include imp %}
-      {% endfor %}
+      {% endfor %} #}
     </main>
 
-    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+    {# no sidebar in index, fix manually in future upgrades. #}
+    {# {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
       {%include "components/sidebar.njk" %}
-    {%endif%}
+    {%endif%} #}
 
     {% if settings.dgLinkPreview === true %}
       {%include "components/linkPreview.njk"%}
