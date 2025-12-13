@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-12-13T18:35:15.483+00:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T10:35:09.000+00:00","updated":"2025-12-13T18:37:00.018+00:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -22,8 +22,7 @@ You can follow me directly via your email below. I may send occasional updates a
 	<img src="/img/user/resources/jam-white.png" alt="JAM" />
 	<h3>Demystifying JAM</h3>
 	<p>Understand Polkadot's JAM protocol in depth</p>
-	</a>
-	
+	</a>	
 	<a href="/post/tech/self-guaranteeing-promise/" class="featured-item">
 	<img src="/img/user/resources/google.png" alt="Featured Project 2" /> 
 	<h3>Self Guaranteeing Promise</h3>
