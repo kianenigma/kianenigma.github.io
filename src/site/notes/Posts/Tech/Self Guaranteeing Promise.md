@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-permalink":"/post/tech/self-guaranteeing-promise","permalink":"/post/tech/self-guaranteeing-promise/","created":"2025-08-13T21:43:08.000+01:00","updated":"2025-08-14T15:15:59.564+01:00"}
+{"dg-publish":true,"dg-permalink":"/post/tech/self-guaranteeing-promise","permalink":"/post/tech/self-guaranteeing-promise/","created":"2025-08-13T21:43:08.000+01:00","updated":"2025-12-13T18:34:51.248+00:00"}
 ---
 
-
+![google.png](/img/user/resources/google.png)
 
 [@kepano](https://x.com/kepano) is a great thinker that I follow and learn from (and CTO of [@obsdmd](https://x.com/obsdmd)). Some of his ideas are very aligned with the original cyberpunk web3. And yes, there is no blockchain or token involved in them, and I like that. It shows that there are ideas floating around in the blockchain world that go beyond tokens and speculation.
 
