@@ -170,3 +170,68 @@ body .notelink.active-note {
 		border: none;
 	}
 }
+
+// Featured projects showcase
+.featured {
+	display: flex;
+	gap: 1.5rem;
+	margin: 2rem 0;
+	flex-wrap: wrap;
+
+	.featured-item {
+		flex: 1;
+		min-width: 0; // Allows flex items to shrink below content size
+		display: flex;
+		flex-direction: column;
+		padding: 1.25rem;
+		border: 1px solid var(--background-modifier-border, rgba(0, 0, 0, 0.1));
+		border-radius: 8px;
+		background: var(--background-primary, #fff);
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+		transition: all 0.2s ease;
+		min-height: fit-content;
+		text-decoration: none;
+		color: inherit;
+		cursor: pointer;
+
+		&:hover {
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+			transform: translateY(-2px);
+			text-decoration: none;
+		}
+
+		&:visited {
+			color: inherit;
+		}
+
+		img {
+			width: 100% !important;
+			height: auto !important;
+			max-height: 120px;
+			object-fit: cover;
+			border-radius: 4px !important;
+			margin-bottom: 0.75rem;
+			opacity: 0.9;
+			aspect-ratio: 16 / 9;
+			display: block;
+		}
+
+		h3 {
+			margin: 0 0 0.5rem 0;
+			font-size: 1.1em;
+			font-weight: 600;
+			color: var(--text-normal, #333);
+			line-height: 1.3;
+		}
+
+		p {
+			margin: 0;
+			font-size: 0.9em;
+			color: var(--text-muted, #666);
+			line-height: 1.4;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+}
