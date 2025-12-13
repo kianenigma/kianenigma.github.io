@@ -64,7 +64,7 @@ body .notelink.active-note {
 	}
 
 	// Align floating-control (theme switch) with h1
-	#floating-control {
+	.floating-control {
 		padding-top: 0;
 		margin-left: 15px;
 		display: flex;
@@ -72,7 +72,7 @@ body .notelink.active-note {
 		height: 100%;
 		font-size: 24px;
 
-		#theme-switch {
+		.theme-switch {
 			display: inline-flex;
 			align-items: center;
 			justify-content: center;
@@ -82,7 +82,7 @@ body .notelink.active-note {
 	}
 }
 
-#floating-control {
+.floating-control {
 	padding-top: 10px;
 	margin-left: 20px;
 	font-size: 24px;
@@ -93,7 +93,7 @@ body .notelink.active-note {
 		width: auto;
 	}
 
-	#theme-switch {
+	.theme-switch {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -109,15 +109,37 @@ body .notelink.active-note {
 		}
 	}
 
-	#theme-switch.light {
+	.theme-switch.light {
 		.light {
 			display: inline;
 		}
 	}
 
-	#theme-switch.dark {
+	.theme-switch.dark {
 		.dark {
 			display: inline;
+		}
+	}
+}
+
+// Styles for theme component in filetree sidebar
+.filetree-sidebar {
+	.floating-control {
+		padding-top: 0;
+		margin-left: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 24px;
+		flex-shrink: 0;
+
+		.theme-switch {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
 		}
 	}
 }

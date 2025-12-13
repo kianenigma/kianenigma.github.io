@@ -1,52 +1,78 @@
-<aside id="floating-control">
-    <span id="theme-switch">
+<aside class="floating-control">
+    <span class="theme-switch">
         <i class="svg-icon light" icon-name="sun" aria-hidden="true"></i>
         <i class="svg-icon dark" icon-name="moon" aria-hidden="true"></i>
     </span>
 </aside>
 
-
 <script>
-    function setThemeIcon(theme) {
-        let toRemove;
-        switch (theme) {
-            case 'dark':
-                toRemove = ['light'];
-                break;
-            case 'light':
-                toRemove = ['dark'];
-                break;
-        }
-        document.getElementById('theme-switch').classList.add([theme]);
-		console.log(document.getElementById('theme-switch').classList)
-        document.getElementById('theme-switch').classList.remove(...toRemove);
-    }
+    (function() {
+        // Only initialize once, even if component is included multiple times
+        if (window.themeScriptLoaded) return;
+        window.themeScriptLoaded = true;
 
-	function setTheme(theme) {
-		setThemeIcon(theme);
-        if (theme == 'dark') {
-            document.body.classList.remove('theme-light');
-            document.body.classList.add('theme-dark');
+        function setThemeIcon(themeSwitchElement, theme) {
+            let toRemove;
+            switch (theme) {
+                case 'dark':
+                    toRemove = ['light'];
+                    break;
+                case 'light':
+                    toRemove = ['dark'];
+                    break;
+            }
+            themeSwitchElement.classList.add(theme);
+            themeSwitchElement.classList.remove(...toRemove);
+        }
+
+        function setTheme(theme) {
+            // Update all theme switch elements
+            const themeSwitches = document.querySelectorAll('.theme-switch');
+            themeSwitches.forEach(switchEl => {
+                setThemeIcon(switchEl, theme);
+            });
+
+            // Update body theme
+            if (theme == 'dark') {
+                document.body.classList.remove('theme-light');
+                document.body.classList.add('theme-dark');
+            } else {
+                document.body.classList.add('theme-light');
+                document.body.classList.remove('theme-dark');
+            }
+        }
+
+        function initializeTheme() {
+            // Initialize theme
+            let currentTheme = window.localStorage.getItem('site-theme') || "dark";
+            if (currentTheme == "auto") {
+                currentTheme = "dark";
+            }
+            setTheme(currentTheme);
+            window.theme = currentTheme;
+            window.localStorage.setItem('site-theme', currentTheme);
+
+            // Add click handlers to all theme switches
+            const themeSwitches = document.querySelectorAll('.theme-switch');
+            themeSwitches.forEach(switchEl => {
+                // Remove existing listeners by cloning
+                const newSwitch = switchEl.cloneNode(true);
+                switchEl.parentNode.replaceChild(newSwitch, switchEl);
+
+                newSwitch.addEventListener('click', function() {
+                    const newTheme = (window.theme === 'dark') ? 'light' : 'dark';
+                    setTheme(newTheme);
+                    window.localStorage.setItem('site-theme', newTheme);
+                    window.theme = newTheme;
+                });
+            });
+        }
+
+        // Run when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializeTheme);
         } else {
-            document.body.classList.add('theme-light');
-            document.body.classList.remove('theme-dark');
+            initializeTheme();
         }
-    }
-
-    let theme = window.localStorage.getItem('site-theme') || "dark";
-	if (theme == "auto") {
-		theme = "dark"
-	}
-	console.log(theme)
-    setTheme(theme);
-    window.theme = theme;
-    window.localStorage.setItem('site-theme', theme);
-
-    document.getElementById('theme-switch').addEventListener('click', function() {
-        let theme = (window.theme === 'dark') ? 'light' : 'dark';
-		console.log(theme)
-        setTheme(theme);
-        window.localStorage.setItem('site-theme', theme);
-        window.theme = theme;
-    })
+    })();
 </script>

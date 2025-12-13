@@ -70,7 +70,7 @@ function getPermalinkMeta(note, key) {
     }
     if (note.data.tags && note.data.tags.indexOf("gardenEntry") != -1) {
       permalink = "/";
-    }    
+    }
     if (note.data.title) {
       name = note.data.title;
     }
