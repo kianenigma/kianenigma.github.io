@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"post/personal/clarity","permalink":"/post/personal/clarity/","created":"2025-12-06T22:07:06.000+00:00","updated":"2025-12-08T12:07:23.115+00:00"}
+{"dg-publish":true,"dg-permalink":"post/personal/clarity","permalink":"/post/personal/clarity/","created":"2025-12-06T22:07:06.000+00:00","updated":"2025-12-17T21:43:30.901+00:00"}
 ---
 
 What is having ***internal clarity***, i.e. clarity of thought with regard to yourself? 
@@ -19,7 +19,7 @@ Internal clarity often boils down to emotional questions to which we look for an
 
 This is why I am an advocate of the [Vipassana](dhamma.org) meditation retreat, and I think anyone resonating with the above[^1] mindset should consider doing at least one 10-day course. 10-days is a small price to pay in return for finally seeing what is going on in your head.
 
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/1ChauYEiQTj1Oq9YrIXlrO?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/10AvPUYmVapS2Amp2TVsE2?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 There is one class of action that I have not mentioned above, and I do think it helps with internal clarity. That is, **actions that lead to profoundness**. These are often somewhat extreme unplanned events that kick you out of your comfort zone such that it causes a lot of turbulence in your head. And out of turbulence, the fog moves away and you might get clarity about certain topics. I will let this meme explain it better than I can: 
 
