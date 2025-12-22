@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam","permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2025-12-14T11:03:10.457+00:00"}
+{"dg-publish":true,"dg-permalink":"posts/tech/demystifying-jam","permalink":"/posts/tech/demystifying-jam/","tags":["polkadot","jam"],"created":"2024-05-02T14:38:56.000+01:00","updated":"2025-12-22T10:07:10.854+00:00"}
 ---
 
 ![jam-white.png](/img/user/resources/jam-white.png)
@@ -12,7 +12,7 @@
 > - [Polkadot Twitter](https://x.com/Polkadot/status/1861008901606391826)
 > - Shorter presentation version at Sub0 Bangkok 2024 [[Talks/2024/Demystifying JAM - Presentation\|Demystifying JAM - Presentation]]
 > 	- [Full Recording](https://www.youtube.com/watch?v=eGLCedIT94U)
-> 	- [5 Mins Summary]([Polkadot JAM in 5 min - YouTube](https://www.youtube.com/watch?v=fQ3lZepT-Is))
+> 	- [5 Mins Summary](https://www.youtube.com/watch?v=fQ3lZepT-Is)
 > 
 > Feel free to share your re-publications in a comment down below to be featured here! 
 
