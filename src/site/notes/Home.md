@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T12:35:09.000+02:00","updated":"2026-01-03T13:39:29.424+02:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T12:35:09.000+02:00","updated":"2026-01-03T13:44:26.130+02:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
 
 
-You can follow me directly via your email below. I may send occasional updates about my latest writings directly to you. You can learn more about me, and find other ways to follow me in [[About\|About]] or via [RSS](./feed.xml). 
+You can follow me directly via your email below. I may send occasional updates about my latest writings directly to you. You can learn more about me, and find other ways to follow me in [[About\|About]].
 
 <form
   action="https://buttondown.com/api/emails/embed-subscribe/kianenigma"
