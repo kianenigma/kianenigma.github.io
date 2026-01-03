@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T12:35:09.000+02:00","updated":"2025-12-14T13:00:15.875+02:00"}
+{"dg-publish":true,"permalink":"/home/","pinned":true,"contentClasses":"homepage","tags":["gardenEntry"],"created":"2024-03-24T12:35:09.000+02:00","updated":"2026-01-03T13:39:29.424+02:00"}
 ---
 
 ![Screenshot 2023-11-01 at 21.21.06.jpeg|300](/img/user/resources/Screenshot%202023-11-01%20at%2021.21.06.jpeg)
@@ -18,6 +18,13 @@ You can follow me directly via your email below. I may send occasional updates a
   <input type="submit" value="Subscribe" style="font-family: inherit;  height: var(--input-height);" />
 </form>
 
+<div class="featured">
+	<a href="https://blog.kianenigma.com/what-blockchain-actually/" class="featured-item">
+	<img src="https://blog.kianenigma.com/what-blockchain-actually/static/og-image.png" alt="JAM" />
+	<h3>What is a Blockchain, Actually?</h3>
+	<p>A book on Web3 and Blockchain fundamentals</p>
+	</a>	
+</div>
 <div class="featured">
 	<a href="/posts/tech/demystifying-jam/" class="featured-item">
 	<img src="/img/user/resources/jam-white.png" alt="JAM" />
