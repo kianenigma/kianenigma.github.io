@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T10:46:17.880+01:00","updated":"2024-12-13T12:52:47.048+00:00"}
+{"dg-publish":true,"permalink":"/posts/runtime-function-onboarding-2024/","hide":true,"created":"2024-06-26T12:46:17.880+03:00","updated":"2024-12-13T14:52:47.048+02:00"}
 ---
 
 > [!info]- Collaboration 

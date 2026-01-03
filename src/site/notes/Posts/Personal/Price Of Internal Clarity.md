@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"post/personal/clarity","permalink":"/post/personal/clarity/","created":"2025-12-06T22:07:06.000+00:00","updated":"2025-12-17T21:43:30.901+00:00"}
+{"dg-publish":true,"dg-permalink":"post/personal/clarity","permalink":"/post/personal/clarity/","created":"2025-12-07T00:07:06.000+02:00","updated":"2025-12-17T23:43:30.901+02:00"}
 ---
 
 What is having ***internal clarity***, i.e. clarity of thought with regard to yourself? 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/blockchain-world-computer","permalink":"/talks/blockchain-world-computer/","created":"2025-08-31T18:59:18.719+01:00","updated":"2025-11-01T16:29:46.188+00:00"}
+{"dg-publish":true,"dg-permalink":"talks/blockchain-world-computer","permalink":"/talks/blockchain-world-computer/","created":"2025-08-31T20:59:18.719+03:00","updated":"2025-11-01T18:29:46.188+02:00"}
 ---
 
 Blockchains are full of buzzwords, and a lot of people still don't get ***what they actually are***. More importantly, people don't have a good idea and what can be built with this technology, other than the casino of Defi which is already out there. 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","pinned":true,"created":"2024-09-18T20:37:11.055+01:00","updated":"2025-04-05T16:07:09.437+01:00"}
+{"dg-publish":true,"dg-permalink":"about","permalink":"/about/","pinned":true,"created":"2024-09-18T22:37:11.055+03:00","updated":"2026-01-03T13:33:32.346+02:00"}
 ---
 
 - 🦀 Engineering Lead / Rust Core Developer [@paritytech](https://twitter.com/ParityTech/)
@@ -8,6 +8,7 @@
 - 🔴 [Polkadot](https://www.polkadot.network) Fellow
 	- Polkadot Address: [`1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE`](https://polkadot.subscan.io/account/1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE)
 	- Kusama Address: [`HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1`](https://kusama.subscan.io/account/HL8bEp8YicBdrUmJocCAWVLKUaR2dd1y6jnD934pbre3un1)
+	- Ethereum Address: [0xaB5...ca200 on ENS](https://app.ens.domains/0xaB52b6509Ed2773cb2caaF392CA70FbE664ca200)
 - Member of [GrayMatter](https://jamcha.in/clients), implementing the [graypaper](https://graypaper.com/), specification of the [Polkadot JAM upgrade](https://wiki.polkadot.network/learn/learn-jam-chain/). 
 - 📚 Parallel and Distributed Systems Msc. graduate from [Vrije Universiteit Amsterdam](https://vu.nl/en)
 	- Thesis: [GitHub - kianenigma/SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes 🚀.](https://github.com/kianenigma/SonicChain?tab=readme-ov-file)

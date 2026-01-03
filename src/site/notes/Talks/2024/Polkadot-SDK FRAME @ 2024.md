@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","tags":["slides"],"created":"2024-11-06T17:33:56.750+00:00","updated":"2025-12-12T19:15:42.114+00:00"}
+{"dg-publish":true,"dg-permalink":"talks/frame-2024","permalink":"/talks/frame-2024/","tags":["slides"],"created":"2024-11-06T19:33:56.750+02:00","updated":"2025-12-12T21:15:42.114+02:00"}
 ---
 
 <style>
