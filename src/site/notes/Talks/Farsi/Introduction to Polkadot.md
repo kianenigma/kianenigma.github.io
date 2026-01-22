@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"talks/fa/polkadot","permalink":"/talks/fa/polkadot/","created":"2023-08-28T16:05:20.000+03:00","updated":"2024-11-06T19:36:59.487+02:00"}
+{"dg-publish":true,"dg-permalink":"talks/fa/polkadot","permalink":"/talks/fa/polkadot/","created":"2023-08-28T14:05:20.000+01:00","updated":"2024-11-06T17:36:59.487+00:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"/talks/blockchain-beginners-2025","permalink":"/talks/blockchain-beginners-2025/","tags":["slides"],"created":"2025-04-28T18:57:59.887+03:00","updated":"2025-12-12T21:12:16.508+02:00"}
+{"dg-publish":true,"dg-permalink":"/talks/blockchain-beginners-2025","permalink":"/talks/blockchain-beginners-2025/","tags":["slides"],"created":"2025-04-28T16:57:59.887+01:00","updated":"2025-12-12T19:12:16.508+00:00"}
 ---
 
 <style>

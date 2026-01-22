@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/posts/personal/mostafa-mehraeein-s-open-letter-to-iran-leaders/","created":"2025-06-24T21:14:14.892+03:00","updated":"2025-06-24T21:30:16.732+03:00"}
+{"dg-publish":true,"permalink":"/posts/personal/mostafa-mehraeein-s-open-letter-to-iran-leaders/","created":"2025-06-24T19:14:14.892+01:00","updated":"2025-06-24T19:30:16.732+01:00"}
 ---
 
 In the midst of the Iran Israel war in June 2025, I have so far found myself to resonate the most with the below open letter from [Mostafa Mehraeein](https://independent.academia.edu/MostafaMehraeen/CurriculumVitae),  currently Assistant Professor of the Institute for Humanities and Cultural Studies. Below is a translation of his open letter to the supreme leader of Iran: 
