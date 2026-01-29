@@ -42,11 +42,11 @@ You can follow me directly via your email below. I may send occasional updates a
 ### Latest Posts
 | File                                                                                                                   | Date       |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [[Posts/Personal/30 Lessons From 30 Years of Living\|30 Lessons From 30 Years of Living]]                           | Jan . 2026 |
 | [[Posts/Personal/Price Of Internal Clarity\|Price Of Internal Clarity]]                                             | Dec . 2025 |
 | [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                          | Oct . 2025 |
 | [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                 | Aug . 2025 |
 | [[Posts/Personal/Mostafa Mehraeein's Open Letter To Iran Leaders\|Mostafa Mehraeein's Open Letter To Iran Leaders]] | Jun . 2025 |
-| [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]]               | Feb . 2025 |
 
 { .block-language-dataview}
 ### Latest Talks
