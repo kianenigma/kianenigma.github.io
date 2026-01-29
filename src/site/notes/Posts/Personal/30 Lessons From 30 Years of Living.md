@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"post/personal/30","permalink":"/post/personal/30/","created":"2026-01-19T13:18:41.365+00:00","updated":"2026-01-29T14:49:03.303+00:00"}
+{"dg-publish":true,"dg-permalink":"post/personal/30","permalink":"/post/personal/30/","created":"2026-01-19T13:18:41.365+00:00","updated":"2026-01-29T14:49:37.507+00:00"}
 ---
 
 I am still in my 30th year of living, and I thought it is a good time to summarize some of the lessons and insights that I have found them to be useful so far in life to me. This would be the writeup that I wish an older version of me would have given me when I was starting my 20th year of living, or I would give to my children in the future. 
@@ -14,8 +14,8 @@ While writing this, I have relied only on my memory, not really looking up any p
 
 #### Psychology and Self
 
-4. Study existential psychology, and specifically take time to understand existential freedom and loneliness. 
-	1. **Existential Freedom**: You can be the man with all of the luck and fortune in the world, and be unhappy. Or you can live a very modest, below average life in terms of means, but be immensely happy while doing so[^2]. How you react to your circumstances is 100% your choice.
+4. Study existential psychology, and specifically take time to understand existential responsibility and loneliness. 
+	1. **Existential Responsibility**: You can be the man with all of the luck and fortune in the world, and be unhappy. Or you can live a very modest, below average life in terms of means, but be immensely happy while doing so[^2]. How you react to your circumstances is 100% your choice.
 	2. **Existential Loneliness**: You are born alone, and you die alone, in a single-player game called life. No one can really understand what it feels to be you, and you can never understand what it feels to be someone else. And this is not a bad thing at all, and it has a few positive implications, coming next.
 5. Put effort into sharpening your theory of mind faculty, your ability to empathize with other poeple, and imagine how they feel.
 6. Learn to love yourself and make yourself happy first, before attempting to do the same for anyone else. You are foremost responsible towards yourself. A happy, (self-)loved and fulfilled version of you is much more capable of loving others than your self-love-deprived version. 
