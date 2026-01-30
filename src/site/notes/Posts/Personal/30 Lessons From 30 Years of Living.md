@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"post/personal/30","permalink":"/post/personal/30/","created":"2026-01-19T13:18:41.365+00:00","updated":"2026-01-29T14:49:37.507+00:00"}
+{"dg-publish":true,"dg-permalink":"post/personal/30","permalink":"/post/personal/30/","created":"2026-01-19T13:18:41.365+00:00","updated":"2026-01-30T16:51:30.943+00:00"}
 ---
 
 I am still in my 30th year of living, and I thought it is a good time to summarize some of the lessons and insights that I have found them to be useful so far in life to me. This would be the writeup that I wish an older version of me would have given me when I was starting my 20th year of living, or I would give to my children in the future. 
@@ -12,6 +12,7 @@ While writing this, I have relied only on my memory, not really looking up any p
 
 ## The Rest
 
+
 #### Psychology and Self
 
 4. Study existential psychology, and specifically take time to understand existential responsibility and loneliness. 
@@ -21,7 +22,6 @@ While writing this, I have relied only on my memory, not really looking up any p
 6. Learn to love yourself and make yourself happy first, before attempting to do the same for anyone else. You are foremost responsible towards yourself. A happy, (self-)loved and fulfilled version of you is much more capable of loving others than your self-love-deprived version. 
 7. Having some form of spirituality, and belief in a greater purpose is one of our fundamental needs. In much the same way that our body needs food, our mind needs a higher purpose. Don't ignore it, and if religious ideas is what resonates with you, don't shy away from it. Find little snippets of different religions and beliefs that make sense to you, and form your own unique spiritual framework out of it. This higher purpose can also be achieved through completely materialistic means. 
 8. Learn the Vipassana meditation technique, and attend at least one 10-day retreat. When else in your life would you have 10 days of time to explore your own mind with zero responsibilities? And the best, it is free.
-
 #### Relationships
 
 9. Learn to be happy within yourself as a hedge against temporary periods of loneliness, but ultimately we are social animals and always seek the love and support of others, and when receiving it, effortlessly strive to reciprocate. Happiness is only real when shared. 
@@ -45,7 +45,6 @@ While writing this, I have relied only on my memory, not really looking up any p
 
 23. Learn the basics of financial systems. It is an amazing and complicated game that we are all players of, and no one teaches it to us. It is both fun, and useful.
 24. Plan for your retirement as early as you can, and especially if you plan to have kids. The greatest gift you can give to your future child is to be happy, self-sufficient and not a burden on them, when you are old and they are going through the most important decades of their lives. 
-
 #### Productivity
 
 25. 95% of the time, you cannot know if you like something or not, before trying it. And 100% of the time, the first time you try something it will be hard and unpleasant, especially as you get older and you feel more embarrassed at being a noob at something. Screw motivation, it is all about discipline. It is all about having the discipline to develop motivation, not visa versa. 
