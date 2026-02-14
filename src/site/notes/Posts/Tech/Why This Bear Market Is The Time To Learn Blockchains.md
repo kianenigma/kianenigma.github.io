@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"dg-permalink":"post/tech/why-blockchain","permalink":"/post/tech/why-blockchain/","created":"2026-02-14T12:47:02.984+00:00","updated":"2026-02-14T12:48:32.382+00:00"}
+{"dg-publish":true,"dg-permalink":"post/tech/why-blockchain","permalink":"/post/tech/why-blockchain/","created":"2026-02-14T12:47:02.984+00:00","updated":"2026-02-14T15:29:08.894+00:00"}
 ---
-
-> This is a paraphrasing of the book, in a few paragraphs, that I intend to share as standalone articles in publishing websites.
 
 As we are seemingly entering another crypto bear-market, it is a good time to remind ourselves of a few patterns: 
 
