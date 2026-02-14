@@ -40,13 +40,13 @@ You can follow me directly via your email below. I may send occasional updates a
 
 ---
 ### Latest Posts
-| File                                                                                                           | Date       |
-| -------------------------------------------------------------------------------------------------------------- | ---------- |
-| [[Posts/Tech/Why I Wrote "What Is a Blockchain, Actually?"\|Why I Wrote "What Is a Blockchain, Actually?"]] | Feb . 2026 |
-| [[Posts/Personal/30 Lessons From 30 Years of Living\|30 Lessons From 30 Years of Living]]                   | Jan . 2026 |
-| [[Posts/Personal/Price Of Internal Clarity\|Price Of Internal Clarity]]                                     | Dec . 2025 |
-| [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                  | Oct . 2025 |
-| [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                         | Aug . 2025 |
+| File                                                                                                                           | Date       |
+| ------------------------------------------------------------------------------------------------------------------------------ | ---------- |
+| [[Posts/Tech/Why This Bear Market Is The Time To Learn Blockchains\|Why This Bear Market Is The Time To Learn Blockchains]] | Feb . 2026 |
+| [[Posts/Personal/30 Lessons From 30 Years of Living\|30 Lessons From 30 Years of Living]]                                   | Jan . 2026 |
+| [[Posts/Personal/Price Of Internal Clarity\|Price Of Internal Clarity]]                                                     | Dec . 2025 |
+| [[Posts/Personal/Poetry/Night - Faramarz Aslani\|Night - Faramarz Aslani]]                                                  | Oct . 2025 |
+| [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                         | Aug . 2025 |
 
 { .block-language-dataview}
 ### Latest Talks
