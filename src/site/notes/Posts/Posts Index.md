@@ -6,6 +6,7 @@
 
 | File                                                                                                                                                       | Date        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [[Posts/Tech/Why I Wrote "What Is a Blockchain, Actually?"\|Why I Wrote "What Is a Blockchain, Actually?"]]                                             | Feb 14 2026 |
 | [[Posts/Tech/Self Guaranteeing Promise\|Self Guaranteeing Promise]]                                                                                     | Aug 13 2025 |
 | [[Posts/Tech/Sharded and Non-Sharded TPS in Blockchains\|Sharded and Non-Sharded TPS in Blockchains]]                                                   | Feb 11 2025 |
 | [[Posts/Tech/Polkadot SDK 2024 Roundup\|Polkadot SDK 2024 Roundup]]                                                                                     | Nov 22 2024 |
