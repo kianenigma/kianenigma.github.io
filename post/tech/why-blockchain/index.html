@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Why I Wrote &quot;What Is a Blockchain, Actually?&quot;</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.174c50eb.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet"><link href="/styles/user/slides.css?v=2026-02-14T12:49:06.080Z" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section css-settings-manager">
+<div x-init="isDesktop = (window.innerWidth>=1000) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1000) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
+<div x-show.important="!isDesktop" style="display:none">
+<nav class="navbar">
+<div class="navbar-inner">
+<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i data-lucide="menu"></i></span>
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Kian&#39;s Meditations</h1>
+</a>
+<aside class="floating-control">
+<span class="theme-switch">
+<i class="svg-icon light" icon-name="sun" aria-hidden="true"></i>
+<i class="svg-icon dark" icon-name="moon" aria-hidden="true"></i>
+</span>
+</aside>
+<script>!function(){function e(e){document.querySelectorAll(".theme-switch").forEach((t=>{!function(e,t){let d;switch(t){case"dark":d=["light"];break;case"light":d=["dark"]}e.classList.add(t),e.classList.remove(...d)}(t,e)})),"dark"==e?(document.body.classList.remove("theme-light"),document.body.classList.add("theme-dark")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark"))}function t(){let t=window.localStorage.getItem("site-theme")||"dark";"auto"==t&&(t="dark"),e(t),window.theme=t,window.localStorage.setItem("site-theme",t);document.querySelectorAll(".theme-switch").forEach((t=>{const d=t.cloneNode(!0);t.parentNode.replaceChild(d,t),d.addEventListener("click",(function(){const t="dark"===window.theme?"light":"dark";e(t),window.localStorage.setItem("site-theme",t),window.theme=t}))}))}window.themeScriptLoaded||(window.themeScriptLoaded=!0,"loading"===document.readyState?document.addEventListener("DOMContentLoaded",t):t())}()</script>
+</div>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+</nav>
+</div>
+<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
+<div class="filetree-wrapper" x-show.important="isDesktop || showFilesMobile" style="display:none">
+<nav class="filetree-sidebar">
+<a href="/" style="text-decoration:none">
+<h1 style="text-align:center">Kian&#39;s Meditations</h1>
+</a>
+<aside class="floating-control">
+<span class="theme-switch">
+<i class="svg-icon light" icon-name="sun" aria-hidden="true"></i>
+<i class="svg-icon dark" icon-name="moon" aria-hidden="true"></i>
+</span>
+</aside>
+<script>!function(){function e(e){document.querySelectorAll(".theme-switch").forEach((t=>{!function(e,t){let d;switch(t){case"dark":d=["light"];break;case"light":d=["dark"]}e.classList.add(t),e.classList.remove(...d)}(t,e)})),"dark"==e?(document.body.classList.remove("theme-light"),document.body.classList.add("theme-dark")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark"))}function t(){let t=window.localStorage.getItem("site-theme")||"dark";"auto"==t&&(t="dark"),e(t),window.theme=t,window.localStorage.setItem("site-theme",t);document.querySelectorAll(".theme-switch").forEach((t=>{const d=t.cloneNode(!0);t.parentNode.replaceChild(d,t),d.addEventListener("click",(function(){const t="dark"===window.theme?"light":"dark";e(t),window.localStorage.setItem("site-theme",t),window.theme=t}))}))}window.themeScriptLoaded||(window.themeScriptLoaded=!0,"loading"===document.readyState?document.addEventListener("DOMContentLoaded",t):t())}()</script>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+<div class="folder" x-data="{isOpen: true}">
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/about/">About </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Posts&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Posts</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/posts-index/">Posts Index </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Posts/Personal&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Personal</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/gallery/">Gallery </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Posts/Personal/Poetry&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Poetry</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/poetry/night/">Night - Faramarz Aslani </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/rumi/">Rumi </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/sadi/">Sa&#39;di </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/post/personal/30/">30 Lessons From 30 Years of Living </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/amsterdam-bunker-talks-experience-1/">Amsterdam BunkerTalks Experience 1 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/an-open-letter-to-javad-zarif/">An Open Letter to Javad Zarif </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/an-open-letter-to-panic-buyers/">An Open Letter to Panic Buyers </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/meta-cognition-framework/">Meta Cognition Framework </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/mostafa-mehraeein-s-open-letter-to-iran-leaders/">Mostafa Mehraeein&#39;s Open Letter To Iran Leaders </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/my-thoughts-on-iran-s-political-situation-in-2022/">My Thoughts On Iran&#39;s Political Situation in 2022 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/playlist/">Playlists </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/post/personal/clarity/">Price Of Internal Clarity </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/the-price-of-change/">The Price of Change </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/personal/uneducated-unaffiliated-disinterested/">Uneducated, Unaffiliated, Disinterested </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Posts/Tech&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Tech</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/demystifying-jam/">Demystifying JAM </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/for-those-who-don-t-want-rust-analyzer-one-regex-to-rule-them-all/">For Those Who Don&#39;t Want rust-analyzer - One Regex to rule them all </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/multichain-api/">Multi-Chain SDK Vision </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/on-documenting-polkadot-sdk/">On Documenting polkadot-sdk </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/polkadot-sdk-2024/">Polkadot SDK 2024 Roundup </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/polkadot-s-build-horizon/">Polkadot&#39;s Build Horizon </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/post/tech/self-guaranteeing-promise/">Self Guaranteeing Promise </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/sharded-and-non-sharded-tps-in-blockchains/">Sharded and Non-Sharded TPS in Blockchains </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/the-10x-developer-myth-all-about-keyboard/">The 10x Developer Myth: All About Keyboard </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/thoughts-blockchain-and-blockspace-scalability/">Thoughts Blockchain and Blockspace Scalability </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink active-note">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/post/tech/why-blockchain/">Why I Wrote &quot;What Is a Blockchain, Actually?&quot; </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Talks&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Talks</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Talks/2020&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">2020</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/phragmen/">Phragmén for Polkadot&#39;s NPoS </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/phragmen2/">Phragmén Overview </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/substrate-debug-kit/">Substrate Debug Kit </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Talks/2021&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">2021</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/polkadot-npos/">Polkadot&#39;s Nominated Proof of Stake </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Talks/2022&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">2022</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/nomination-pools/">Nomination Pools </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Talks/2024&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">2024</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/blockchain-reimagined/presentation-tum/">Blockchain Scalability - A Holistic Recap </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/multichain/">Building Bridges and Ecosystems - Devcon 2024 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/demystifying-jam/presentation/">Demystifying JAM - Presentation </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/2024/podcast-kusamarian/">Podcast - Kusamarian </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/2024/polkadot-blockchain-academy-hong-kong/">Polkadot Blockchain Academy Hong Kong </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/frame-2024/">Polkadot-SDK FRAME @ 2024 </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Talks/2025&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">2025</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/blockchain-magic-internet-parity-2025/">Blockchain for Beginners - Parity DOT Talk August 2025 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/blockchain-beginners-2025/">Blockchain for Beginners - Parity Meetup April 2025 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/blockchain-world-computer/">Blockchains As World Computers </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/demystifying-jam/presentation-jam-exp/">Demystifying JAM - JAM Exp May 2025 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/demystifying-jam/presentation-pba/">Demystifying JAM - PBA6 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/map-polkadot-builders/">Polkadot Map for Builders - Polimec x Scytale Academy </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/2025/polkadot-nominated-proof-of-stake-in-asset-hub-migration-ahm-2025/">Polkadot Nominated Proof of Stake in AssetHub Migration (AHM) 2025 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/tech/flite/">Polkadot-SDK FRAME, But Liter -- FLITE </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/2025/smart-contracts-101-pbax/">Smart Contracts 101 - PBAX </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/talks-index/">Talks Index </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Talks/Farsi&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Farsi</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/fa/polkadot/">Introduction to Polkadot </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/talks/fa/rust/">Random Rust Video Tutorials </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box" onclick="event.stopPropagation()">
+<div class="search-header">
+<input type="search" id="term" placeholder="Start typing...">
+</div>
+<div class="search-layout no-preview" id="search-layout">
+<div class="search-results-panel" id="search-results"></div>
+<div class="search-preview-panel" id="search-preview">
+<div class="preview-placeholder">
+<i data-lucide="file-text"></i>
+<p>Select a result to preview</p>
+</div>
+<div class="preview-content" id="preview-content"></div>
+</div>
+</div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i data-lucide="arrow-up" aria-hidden="true"></i>
+<i data-lucide="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1);const previewCache=new Map;window.toggleSearch=function(){const e=document.getElementById("globalsearch");e.classList.contains("active")?e.classList.remove("active"):(e.classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){const t=e.textContent;t&&(document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <div style="display: flex; justify-content: center; padding: 40px;">\n        <svg width="40" height="40" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">\n            <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="8">\n                    <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n            </g>\n        </svg>\n    </div>';function debounce(e,t,n){var r;return function(){var i=this,s=arguments,a=n&&!r;clearTimeout(r),r=setTimeout((function(){r=null,n||e.apply(i,s)}),t),a&&e.apply(i,s)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘K"))}function tokenizeSearchTerms(e){const t=[],n=/"([^"]+)"|(\S+)/g;let r;for(;null!==(r=n.exec(e));){const e=(r[1]||r[2]).toLowerCase();e.length>1&&t.push(e)}return t.sort(((e,t)=>t.length-e.length))}function highlightTerms(e,t){if(!t||0===t.length||!e)return e;let n=e;return t.forEach((e=>{const t=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),r=new RegExp(`(${t})`,"gi");n=n.replace(r,'<span class="search-highlight">$1</span>')})),n}function getContextualExcerpt(e,t,n=150){if(!e)return"";const r=e.replace(/<[^>]*>/g,"");if(!t||0===t.length)return truncateText(r,n);let i=r.length;if(t.forEach((e=>{const t=r.toLowerCase().indexOf(e.toLowerCase());-1!==t&&t<i&&(i=t)})),i===r.length)return truncateText(r,n);const s=Math.max(0,i-50),a=Math.min(r.length,s+n);let c=r.substring(s,a);return s>0&&(c="..."+c),a<r.length&&(c+="..."),c}function truncateText(e,t){return e?(e=e.replace(/<[^>]*>/g,"")).length<=t?e:e.substring(0,t-3)+"...":""}async function fetchPreviewContent(e){if(previewCache.has(e))return previewCache.get(e);try{const t=await fetch(e),n=await t.text(),r=new DOMParser,i=r.parseFromString(n,"text/html").querySelector(".content, .cm-s-obsidian, article, main"),s=i?i.innerHTML:"";return previewCache.set(e,s),s}catch(e){return console.error("Failed to fetch preview:",e),""}}function highlightTextNodes(e,t){if(!t||0===t.length)return;const n=document.createTreeWalker(e,NodeFilter.SHOW_TEXT,null,!1),r=[];for(;n.nextNode();)r.push(n.currentNode);r.forEach((e=>{const n=e.textContent;let r=!1;if(t.forEach((e=>{n.toLowerCase().includes(e.toLowerCase())&&(r=!0)})),r){const r=document.createElement("span");r.innerHTML=highlightTerms(n,t),e.parentNode.replaceChild(r,e)}}))}async function showPreview(e){const t=window.searchResults;if(!t||!t[e])return;const n=t[e],r=document.getElementById("search-preview"),i=document.getElementById("preview-content"),s=r.querySelector(".preview-placeholder");if(!r||!i)return;document.querySelectorAll(".searchresult").forEach((e=>e.classList.remove("active")));const a=document.querySelector(`.searchresult[data-index="${e}"]`);a&&a.classList.add("active"),i.innerHTML=loadingSvg,i.classList.add("has-content"),s.style.display="none";const c=await fetchPreviewContent(n.url),o=n.tags&&n.tags.length>0?`<div class="preview-tags">${n.tags.map((e=>`<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${e}</a>`)).join("")}</div>`:"";i.innerHTML=`\n            <div class="preview-title">${highlightTerms(n.title,window.searchTerms)}</div>\n            ${o}\n            <div class="preview-body">${c}</div>\n        `;const l=i.querySelector(".preview-body");l&&window.searchTerms&&highlightTextNodes(l,window.searchTerms),window.currentPreviewIndex=e}function hidePreview(){const e=document.getElementById("search-preview"),t=document.getElementById("preview-content"),n=e?.querySelector(".preview-placeholder");n&&(n.style.display="flex"),t&&(t.classList.remove("has-content"),t.innerHTML=""),window.currentPreviewIndex=-1}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){const e=await fetch("/searchIndex.json?v=2026-02-14T12:49:06.080Z").then((e=>e.json())),t=createIndex(e);function n(e){const t=document.querySelectorAll(".searchresult");if(0===t.length)return;let n,r=-1;t.forEach(((e,t)=>{e.classList.contains("active")&&(r=t)})),-1===r?n=e>0?0:t.length-1:(n=r+e,n<0&&(n=t.length-1),n>=t.length&&(n=0)),t.forEach((e=>e.classList.remove("active"))),t[n].classList.add("active"),t[n].scrollIntoView({behavior:"smooth",block:"nearest"}),showPreview(parseInt(t[n].dataset.index))}window.docs=e,window.index=t,document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),n(1)),"ArrowUp"===e.key&&(e.preventDefault(),n(-1)),"Enter"===e.key)){e.preventDefault();const t=document.querySelector(".searchresult.active");if(t){const e=t.dataset.url;e&&(window.location.href=e)}}}));const r=debounce(search,200,!1);window.field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&"Enter"!==e.key&&r()})),window.resultsDiv=document.querySelector("#search-results");const i=new URL(location.href).searchParams;i.get("q")&&(field.setAttribute("value",i.get("q")),toggleSearch(),search())}async function search(){const e=field.value.trim(),t=document.getElementById("search-layout");if(!e)return resultsDiv.innerHTML="",hidePreview(),void(t&&t.classList.add("no-preview"));if(e===lastSearch)return;window.lastSearch=e,window.searchTerms=tokenizeSearchTerms(e),resultsDiv.innerHTML=loadingSvg,hidePreview();const n=offlineSearch(e);if(window.searchResults=n,!n.length)return t&&t.classList.add("no-preview"),void(resultsDiv.innerHTML=`\n                <div class="no-results">\n                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n                        <circle cx="11" cy="11" r="8"></circle>\n                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>\n                        <line x1="8" y1="11" x2="14" y2="11"></line>\n                    </svg>\n                    <p>No results for "${e}"</p>\n                </div>\n            `);t&&t.classList.remove("no-preview");let r="";n.forEach(((e,t)=>{const n=highlightTerms(getContextualExcerpt(e.content,window.searchTerms,120),window.searchTerms),i=highlightTerms(e.title,window.searchTerms),s=e.tags&&e.tags.length>0?`<div class="result-tags">${e.tags.map((e=>`<span class="tag">#${e}</span>`)).join("")}</div>`:"";r+=`\n                <div class="searchresult${0===t?" active":""}"\n                     data-index="${t}"\n                     data-url="${e.url}"\n                     onmouseenter="showPreview(${t})"\n                     onclick="window.location.href='${e.url}'">\n                    <span class="result-title">${i}</span>\n                    ${s}\n                    <div class="result-excerpt">${n}</div>\n                </div>\n            `})),resultsDiv.innerHTML=r,n.length>0&&showPreview(0),"undefined"!=typeof lucide&&lucide.createIcons()}function offlineSearch(e){const t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",limit:10}]),r=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...r("title"),...r("content"),...r("tags")])].map((e=>{const n={...t[e]};return n.tags=n.tags.filter((e=>"gardenEntry"!==e&&"note"!==e)),n}))}window.lastSearch="",window.searchResults=[],window.searchTerms=[],window.currentPreviewIndex=-1,window.search=search</script>
+<main class="content cm-s-obsidian">
+<header>
+<h1 data-note-icon="">Why I Wrote &quot;What Is a Blockchain, Actually?&quot;</h1>
+<div class="header-meta">
+<div class="header-tags">
+</div>
+<div class="timestamps"><div><i data-lucide="calendar-plus"></i> <span class="human-date" data-date="2026-02-14T12:47:02.984+00:00"></span></div><div><i data-lucide="calendar-clock"></i> <span class="human-date" data-date="2026-02-14T12:48:32.382+00:00"></span></div></div></div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</header>
+<blockquote>
+<p>This is a paraphrasing of the book, in a few paragraphs, that I intend to share as standalone articles in publishing websites.</p>
+</blockquote>
+<p>As we are seemingly entering another crypto bear-market, it is a good time to remind ourselves of a few patterns:</p>
+<ul>
+<li><strong>Only when the tide goes out do you discover who's been swimming naked</strong>. Bear markets are times of consolidation and capitulation of weaker players, both as investors and projects. Those with strong conviction and mission stay, while the does who don't leave.</li>
+<li>The noise fades away: Bear markets are the best time to enter and learn about the Web3 space.</li>
+<li><strong>DeFi, the only proven use-case of Web3 is being ever more ingested by traditional finance</strong>. Web3, beyond is proven use-case of store of value and DeFi, is ever more at a crossroad of either being declared as &quot;dead&quot;. This bear market will likely be the last opportunity for innovators to find out what this technology can do beyond the above two use-cases, or else I doubt if the valuations will continue to remain as high.<br>
+<img src="/img/user/resources/Pasted%20image%2020260214124822.png" alt="Pasted image 20260214124822.png"></li>
+</ul>
+<p>Interestingly, this dilemma was posed by Vitalik around the same time that I wrote the above. Hear this quote:</p>
+<blockquote>
+<p>Ethereum was not created to make finance efficient or apps convenient.<br>
+It was created to set people free — to empower anyone, anywhere to coordinate without permission and without trusting anyone they cannot hold accountable.</p>
+<p>Full manifesto <a href="https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.htm" target="_blank" class="external-link">here</a>, original tweet on <a href="https://x.com/VitalikButerin/status/2008174642066845778" target="_blank" class="external-link">X</a>.</p>
+</blockquote>
+<p>All of this is in part is why I have written a concise, online and free <a href="https://blog.kianenigma.com/what-blockchain-actually/" target="_blank" class="external-link">book</a> that tries to answer:</p>
+<ul>
+<li>What is actually the <strong>essence and building-blocks</strong> of the technology that has so far been created by Bitcoin, Ethereum and all of the other blockchains?</li>
+<li>What <strong>properties</strong> this technologies have, and consequently what use-cases can be improved or implemented using it?</li>
+<li>How this technology <strong>fits in the bigger picture of the original Web3 mission</strong>, and how far have we come so far</li>
+<li>.. And a few other bits of more technical explanation, like how blockchain scaling, Polkadot (the original project that led me to learn all of the above) and more.</li>
+</ul>
+<p><a href="https://blog.kianenigma.com/what-blockchain-actually/" target="_blank" class="external-link">Give it a read</a>, and I hope it can give you a new perspective on what blockchains are actually about, as the name suggests</p>
+<div>
+<script async defer="defer" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+<hr>
+<ul style="font-size:.8em">
+<li>
+<details>
+<summary style="text-style:italic">Comments</summary>
+<script src="https://giscus.app/client.js" data-repo="kianenigma/kianenigma.github.io" data-repo-id="R_kgDOKLv3jQ" data-category="General" data-category-id="DIC_kwDOKLv3jc4ChPIy" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="dark" data-lang="en" data-loading="lazy" crossorigin="anonymous" async></script>
+</details>
+</li>
+<li>
+Made with <a href="https://github.com/oleeskild/Obsidian-Digital-Garden"> Obsidian-Digital-Garden</a>
+</li>
+<li>
+© Kian Paimani <script>document.write((new Date).getFullYear())</script>. Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 License</a>.
+</li>
+<li>
+<form action="https://buttondown.com/api/emails/embed-subscribe/kianenigma" method="post" target="popupwindow" onsubmit='window.open("https://buttondown.com/kianenigma","popupwindow")' class="embeddable-buttondown-form">
+<input type="email" name="email" id="bd-email" style="height:26px" placeholder="you@domain.com">
+<input type="submit" value="Subscribe" style="font-family:inherit;height:26px">
+</form>
+</li>
+</ul>
+</div>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<div class="backlinks">
+<div class="backlink-title">Pages mentioning this page</div>
+<div class="backlink-list"><div class="backlink-card"><i data-lucide="link"></i><a href="/" data-note-icon="" class="backlink">Home</a>
+</div><div class="backlink-card"><i data-lucide="link"></i><a href="/posts/posts-index/" data-note-icon="" class="backlink">Posts Index</a>
+</div></div>
+</div>
+</div>
+</div>
+</aside>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+</body>
+</html>
