@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"post/tech/why-blockchain","permalink":"/post/tech/why-blockchain/","created":"2026-02-14T12:47:02.984+00:00","updated":"2026-02-14T15:29:08.894+00:00"}
+{"dg-publish":true,"dg-permalink":"post/tech/why-blockchain","permalink":"/post/tech/why-blockchain/","created":"2026-02-14T12:47:02.984+00:00","updated":"2026-02-15T16:57:45.524+00:00"}
 ---
 
 As we are seemingly entering another crypto bear-market, it is a good time to remind ourselves of a few patterns: 
@@ -14,7 +14,7 @@ Interestingly, this dilemma was posed by Vitalik around the same time that I wro
 > Ethereum was not created to make finance efficient or apps convenient.  
 It was created to set people free — to empower anyone, anywhere to coordinate without permission and without trusting anyone they cannot hold accountable.
 > 
-> Full manifesto [here](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.htm), original tweet on [X](https://x.com/VitalikButerin/status/2008174642066845778). 
+> Full manifesto [here](https://trustlessness.eth.limo/general/2025/11/11/the-trustless-manifesto.html), original tweet on [X](https://x.com/VitalikButerin/status/2008174642066845778). 
 
 All of this is in part is why I have written a concise, online and free [book](https://blog.kianenigma.com/what-blockchain-actually/) that tries to answer: 
 - What is actually the **essence and building-blocks** of the technology that has so far been created by Bitcoin, Ethereum and all of the other blockchains?
