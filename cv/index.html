@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Sharded and Non-Sharded TPS in Blockchains</title>
+<title>Untitled</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -232,7 +232,7 @@
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note">
+<div @click.stop class="notelink">
 <a data-note-icon="" style="text-decoration:none" class="filename" href="/posts/tech/sharded-and-non-sharded-tps-in-blockchains/">Sharded and Non-Sharded TPS in Blockchains </a>
 </div>
 </div>
@@ -475,34 +475,96 @@
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1);const previewCache=new Map;window.toggleSearch=function(){const e=document.getElementById("globalsearch");e.classList.contains("active")?e.classList.remove("active"):(e.classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){const t=e.textContent;t&&(document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <div style="display: flex; justify-content: center; padding: 40px;">\n        <svg width="40" height="40" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">\n            <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="8">\n                    <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n            </g>\n        </svg>\n    </div>';function debounce(e,t,n){var r;return function(){var i=this,s=arguments,a=n&&!r;clearTimeout(r),r=setTimeout((function(){r=null,n||e.apply(i,s)}),t),a&&e.apply(i,s)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘K"))}function tokenizeSearchTerms(e){const t=[],n=/"([^"]+)"|(\S+)/g;let r;for(;null!==(r=n.exec(e));){const e=(r[1]||r[2]).toLowerCase();e.length>1&&t.push(e)}return t.sort(((e,t)=>t.length-e.length))}function highlightTerms(e,t){if(!t||0===t.length||!e)return e;let n=e;return t.forEach((e=>{const t=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),r=new RegExp(`(${t})`,"gi");n=n.replace(r,'<span class="search-highlight">$1</span>')})),n}function getContextualExcerpt(e,t,n=150){if(!e)return"";const r=e.replace(/<[^>]*>/g,"");if(!t||0===t.length)return truncateText(r,n);let i=r.length;if(t.forEach((e=>{const t=r.toLowerCase().indexOf(e.toLowerCase());-1!==t&&t<i&&(i=t)})),i===r.length)return truncateText(r,n);const s=Math.max(0,i-50),a=Math.min(r.length,s+n);let c=r.substring(s,a);return s>0&&(c="..."+c),a<r.length&&(c+="..."),c}function truncateText(e,t){return e?(e=e.replace(/<[^>]*>/g,"")).length<=t?e:e.substring(0,t-3)+"...":""}async function fetchPreviewContent(e){if(previewCache.has(e))return previewCache.get(e);try{const t=await fetch(e),n=await t.text(),r=new DOMParser,i=r.parseFromString(n,"text/html").querySelector(".content, .cm-s-obsidian, article, main"),s=i?i.innerHTML:"";return previewCache.set(e,s),s}catch(e){return console.error("Failed to fetch preview:",e),""}}function highlightTextNodes(e,t){if(!t||0===t.length)return;const n=document.createTreeWalker(e,NodeFilter.SHOW_TEXT,null,!1),r=[];for(;n.nextNode();)r.push(n.currentNode);r.forEach((e=>{const n=e.textContent;let r=!1;if(t.forEach((e=>{n.toLowerCase().includes(e.toLowerCase())&&(r=!0)})),r){const r=document.createElement("span");r.innerHTML=highlightTerms(n,t),e.parentNode.replaceChild(r,e)}}))}async function showPreview(e){const t=window.searchResults;if(!t||!t[e])return;const n=t[e],r=document.getElementById("search-preview"),i=document.getElementById("preview-content"),s=r.querySelector(".preview-placeholder");if(!r||!i)return;document.querySelectorAll(".searchresult").forEach((e=>e.classList.remove("active")));const a=document.querySelector(`.searchresult[data-index="${e}"]`);a&&a.classList.add("active"),i.innerHTML=loadingSvg,i.classList.add("has-content"),s.style.display="none";const c=await fetchPreviewContent(n.url),o=n.tags&&n.tags.length>0?`<div class="preview-tags">${n.tags.map((e=>`<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${e}</a>`)).join("")}</div>`:"";i.innerHTML=`\n            <div class="preview-title">${highlightTerms(n.title,window.searchTerms)}</div>\n            ${o}\n            <div class="preview-body">${c}</div>\n        `;const l=i.querySelector(".preview-body");l&&window.searchTerms&&highlightTextNodes(l,window.searchTerms),window.currentPreviewIndex=e}function hidePreview(){const e=document.getElementById("search-preview"),t=document.getElementById("preview-content"),n=e?.querySelector(".preview-placeholder");n&&(n.style.display="flex"),t&&(t.classList.remove("has-content"),t.innerHTML=""),window.currentPreviewIndex=-1}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){const e=await fetch("/searchIndex.json?v=2026-06-09T18:38:31.874Z").then((e=>e.json())),t=createIndex(e);function n(e){const t=document.querySelectorAll(".searchresult");if(0===t.length)return;let n,r=-1;t.forEach(((e,t)=>{e.classList.contains("active")&&(r=t)})),-1===r?n=e>0?0:t.length-1:(n=r+e,n<0&&(n=t.length-1),n>=t.length&&(n=0)),t.forEach((e=>e.classList.remove("active"))),t[n].classList.add("active"),t[n].scrollIntoView({behavior:"smooth",block:"nearest"}),showPreview(parseInt(t[n].dataset.index))}window.docs=e,window.index=t,document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),n(1)),"ArrowUp"===e.key&&(e.preventDefault(),n(-1)),"Enter"===e.key)){e.preventDefault();const t=document.querySelector(".searchresult.active");if(t){const e=t.dataset.url;e&&(window.location.href=e)}}}));const r=debounce(search,200,!1);window.field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&"Enter"!==e.key&&r()})),window.resultsDiv=document.querySelector("#search-results");const i=new URL(location.href).searchParams;i.get("q")&&(field.setAttribute("value",i.get("q")),toggleSearch(),search())}async function search(){const e=field.value.trim(),t=document.getElementById("search-layout");if(!e)return resultsDiv.innerHTML="",hidePreview(),void(t&&t.classList.add("no-preview"));if(e===lastSearch)return;window.lastSearch=e,window.searchTerms=tokenizeSearchTerms(e),resultsDiv.innerHTML=loadingSvg,hidePreview();const n=offlineSearch(e);if(window.searchResults=n,!n.length)return t&&t.classList.add("no-preview"),void(resultsDiv.innerHTML=`\n                <div class="no-results">\n                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n                        <circle cx="11" cy="11" r="8"></circle>\n                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>\n                        <line x1="8" y1="11" x2="14" y2="11"></line>\n                    </svg>\n                    <p>No results for "${e}"</p>\n                </div>\n            `);t&&t.classList.remove("no-preview");let r="";n.forEach(((e,t)=>{const n=highlightTerms(getContextualExcerpt(e.content,window.searchTerms,120),window.searchTerms),i=highlightTerms(e.title,window.searchTerms),s=e.tags&&e.tags.length>0?`<div class="result-tags">${e.tags.map((e=>`<span class="tag">#${e}</span>`)).join("")}</div>`:"";r+=`\n                <div class="searchresult${0===t?" active":""}"\n                     data-index="${t}"\n                     data-url="${e.url}"\n                     onmouseenter="showPreview(${t})"\n                     onclick="window.location.href='${e.url}'">\n                    <span class="result-title">${i}</span>\n                    ${s}\n                    <div class="result-excerpt">${n}</div>\n                </div>\n            `})),resultsDiv.innerHTML=r,n.length>0&&showPreview(0),"undefined"!=typeof lucide&&lucide.createIcons()}function offlineSearch(e){const t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",limit:10}]),r=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...r("title"),...r("content"),...r("tags")])].map((e=>{const n={...t[e]};return n.tags=n.tags.filter((e=>"gardenEntry"!==e&&"note"!==e)),n}))}window.lastSearch="",window.searchResults=[],window.searchTerms=[],window.currentPreviewIndex=-1,window.search=search</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Sharded and Non-Sharded TPS in Blockchains</h1>
+<h1 data-note-icon="">Untitled</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i data-lucide="calendar-plus"></i> <span class="human-date" data-date="2025-02-11T14:13:00.000+00:00"></span></div><div><i data-lucide="calendar-clock"></i> <span class="human-date" data-date="2025-02-22T15:18:47.020+00:00"></span></div></div></div>
+<div class="timestamps"><div><i data-lucide="calendar-plus"></i> <span class="human-date" data-date="2026-06-09T19:36:34.201+01:00"></span></div><div><i data-lucide="calendar-clock"></i> <span class="human-date" data-date="2026-06-09T19:37:48.598+01:00"></span></div></div></div>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </header>
+<ul>
+<li>Kian Paimani</li>
+<li>Blockchain Systems Engineer/Lead</li>
+<li><a href="mailto:mail@kianenigma.com" target="_blank" class="external-link">mail@kianenigma.com</a></li>
+<li><a href="https://blog.kianenigma.com" target="_blank" class="external-link">blog.kianenigma.com</a></li>
+<li><a href="https://github.com/kianenigma/" target="_blank" class="external-link">Github</a> / <a href="https://x.com/kianenigma" target="_blank" class="external-link">X</a> / <a href="https://www.youtube.com/@kianenigma" target="_blank" class="external-link">Youtube</a></li>
+<li>Based in 🇵🇹 / Remote</li>
+</ul>
+<h2 id="professional-experience" tabindex="-1">PROFESSIONAL EXPERIENCE</h2>
+<h3 id="parity-technologies-2019-present" tabindex="-1">Parity Technologies (2019 - Present)</h3>
 <blockquote>
-<p>Originally posted in <a href="https://x.com/kianenigma/status/1889350322016973306" target="_blank" class="external-link">x.com</a>.</p>
+<p>Starting as a Rust developer in 2019 with little blockchain experience, I have worn multiple hats across the years, the highlights of which are as follows:</p>
 </blockquote>
-<p>The argument of a sharded and non-sharded TPS differing is valid. But the answer is not as simple as @Justin_Bons's &quot;any sharded system can achieve millions TPS&quot;.</p>
-<p>First, what is valid about it: When you evaluate a CPU, you ofc look at both single core and multi-core performance.</p>
-<p>Then, you look at the quality of the sharding:</p>
-<ol>
-<li>Is each shard's isolated progress secure?</li>
-<li>How fast shards can communicate with one another?</li>
-<li>Because we are in Web3, the security of this communication is also important. Are messages final? Can the sender and recipient trust one another?</li>
-</ol>
-<p>What often gets lost in translation is that Polkadot's sharded architecture achieves 5/6 figure TPS with all the 3 above criteria uncompromised.</p>
-<p>Most, if not all, of the &quot;1m TPS sharded systems&quot; are butchering those 3 criteria to increase TPS, while @polkadot decided not to, and this is why it is different.</p>
-<p>@rphmeier put it best that TPS is not just a quantitative measure, it also has qualitative. And when comparing TPS, sharded or non-sharded, it should be taken into account.</p>
-<p>The assertion then is: Polkadot has the best combination of abundant, and high quality blockspace/TPS, because it doesn't compromise on the above criteria.</p>
-<p>Last but not least, everything said above is the existing Polkadot architecture, which Ethereum and others are converging into.</p>
-<p>JAM upgrade is a realization that even @Polkadot's uncompromising solution to sharding is not enough -- we also need flexible boundaries among shards, allowing them to synchronously compose, should they wish to communicate.</p>
-<p>This novel property is phrased as semi-coherence in the title of the <a href="http://graypaper.com" target="_blank" class="external-link">graypaper.com</a>: A system that is coherent (synchronous) for a subset of shards/rollups/contracts that often communicate, and incoherent (asychronous) for others.</p>
-<p>This adds a 4th qualify to our list of qualitative metrics for blockspace, and Polkadot, through JA upgrade, is the sole project inventing its way into providing it.</p>
+<ul>
+<li>Implemented the majority of Polkadot's <a href="https://wiki.polkadot.com/learn/learn-phragmen/" target="_blank" class="external-link">Nominated Proof of Stake</a> protocol, requiring complex optimization algorithms to be verified onchain (<a href="https://www.youtube.com/watch?v=_wjAYivFQBU" target="_blank" class="external-link">talk</a>).
+<ul>
+<li>Polkadot maintains one of the highest Nakamoto Coefficients in the industry, with minimal stake variation among validators.</li>
+</ul>
+</li>
+<li>Led development of <a href="https://polkadot.com/platform/sdk/" target="_blank" class="external-link">Polkadot</a>'s core technology framework, <a href="https://docs.polkadot.com/develop/parachains/intro-polkadot-sdk/" target="_blank" class="external-link">Substrate Framework and FRAME</a>, as team lead.
+<ul>
+<li>FRAME and Substrate power Polkadot and its entire ecosystem, along with independent blockchains (<a href="https://github.com/midnightntwrk/midnight-node" target="_blank" class="external-link">1</a>, <a href="https://github.com/opentensor/bittensor" target="_blank" class="external-link">2</a>) that have adopted the same stack.</li>
+<li>Polkadot developers using Substrate and FRAME ranked in the top 5 of the Electric Capital Developer Report between 2021 and 2024 (<a href="https://www.developerreport.com/ecosystems/polkadot" target="_blank" class="external-link">1</a>).</li>
+</ul>
+</li>
+<li>Managed engineering teams of up to 10 people, both as an engineering manager and on a per-project basis.</li>
+<li>Curriculum designer and <a href="https://polkadot.academy/faculty/" target="_blank" class="external-link">Faculty member</a> at the Polkadot Blockchain Academy.</li>
+<li>Member of the <a href="https://wiki.polkadot.com/learn/learn-polkadot-technical-fellowship/" target="_blank" class="external-link">Polkadot Technical Fellowship</a> <a href="https://collectives.subsquare.io/user/1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE/fellowship" target="_blank" class="external-link">DAO</a>, with active involvement across the ecosystem.</li>
+</ul>
+<blockquote>
+<p>Beyond software engineering, teaching and technology evangelization are my core passions. I actively pursue opportunities to educate and inspire through my YouTube channel and blog, and aspire to always benefit the company I am a part of with my communication and teaching.</p>
+</blockquote>
+<h2 id="projects" tabindex="-1">PROJECTS</h2>
+<ul>
+<li>Currently implementing the <a href="https://graypaper.com/" target="_blank" class="external-link">JAM protocol</a> in <a href="https://jamcha.in/clients" target="_blank" class="external-link">Elixir</a> as an independent venture in the Polkadot ecosystem.</li>
+</ul>
+<h2 id="education" tabindex="-1">EDUCATION</h2>
+<ul>
+<li><strong>Master of Science</strong> in Parallel and Distributed Computer Systems
+<ul>
+<li><em>Vrije Universiteit Amsterdam</em></li>
+<li>Thesis: <a href="https://github.com/kianenigma/SonicChain/blob/master/Thesis.pdf" target="_blank" class="external-link">SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes</a></li>
+</ul>
+</li>
+<li><strong>Bachelor of Engineering</strong> in Computer Engineering
+<ul>
+<li><em>Iran University of Science and Technology</em></li>
+<li>Thesis: <a href="https://www.sid.ir/paper/948184/en" target="_blank" class="external-link">Node-XYZ: A Microservice Framework for Node.JS</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="publications" tabindex="-1">PUBLICATIONS</h2>
+<ul>
+<li><a href="https://blog.kianenigma.com/what-blockchain-actually/" target="_blank" class="external-link">What is a Blockchain, Actually?</a>
+<ul>
+<li>The largest body of written text produced by me as a hobby project, aiming to address precisely <em>what</em> blockchain-systems actually are, <em>what</em> they can do, and <em>how</em> a system with such abilities can be useful.</li>
+</ul>
+</li>
+<li><a href="https://ieeexplore.ieee.org/document/7983055" target="_blank" class="external-link">From Machine Generated to Handwritten Character Recognition; a Deep Learning Approach</a>
+<ul>
+<li>A research project on using deep neural networks for cursive languages such as Persian.</li>
+</ul>
+</li>
+<li><a href="https://leanpub.com/lazyprogrammersguidtoangular1x" target="_blank" class="external-link">Lazy Programmer's Guide to Angular 1.x</a>
+<ul>
+<li>Authored as an early Angular adopter, documenting insights into the framework before React's dominance.</li>
+</ul>
+</li>
+</ul>
+<h2 id="spoken-languages" tabindex="-1">SPOKEN LANGUAGES</h2>
+<ul>
+<li>Persian (Native)</li>
+<li>English (Fluent)</li>
+<li>German / Portuguese (Basic)</li>
+</ul>
+<h2 id="technical-skills" tabindex="-1">TECHNICAL SKILLS</h2>
+<ul>
+<li>Extensive professional experience in <strong>Rust</strong> and <strong>TypeScript</strong>, with occasional use of <strong>Python</strong> and <strong>Solidity</strong>.</li>
+<li>Deep expertise in blockchain <strong>consensus mechanisms</strong>, <strong>distributed systems</strong>, and <strong>State-Transition-Function</strong> design.</li>
+<li>Built and maintained blockchain development pipelines using Git, GitHub Actions, Docker, Grafana, and Prometheus for reliable deployment and monitoring.</li>
+</ul>
 <div>
 <script async defer="defer" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
@@ -532,9 +594,39 @@ Made with <a href="https://github.com/oleeskild/Obsidian-Digital-Garden"> Obsidi
 <aside>
 <div class="sidebar">
 <div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+Untitled
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#professional-experience">PROFESSIONAL EXPERIENCE</a>
+<ol>
+<li><a href="#parity-technologies-2019-present">Parity Technologies (2019 - Present)</a>
+</li>
+</ol>
+</li>
+<li><a href="#projects">PROJECTS</a>
+</li>
+<li><a href="#education">EDUCATION</a>
+</li>
+<li><a href="#publications">PUBLICATIONS</a>
+</li>
+<li><a href="#spoken-languages">SPOKEN LANGUAGES</a>
+</li>
+<li><a href="#technical-skills">TECHNICAL SKILLS</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 <div class="backlinks">
 <div class="backlink-title">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i data-lucide="link"></i><a href="/posts/posts-index/" data-note-icon="" class="backlink">Posts Index</a>
+<div class="backlink-list"><div class="backlink-card">
+<span class="no-backlinks-message">No other pages mentions this page</span>
 </div></div>
 </div>
 </div>
