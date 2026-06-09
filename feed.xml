@@ -3,101 +3,8 @@
     <title>Kian&#39;s Meditations</title>
     <link href="https://blog.kianenigma.com//feed.xml" rel="self" />
     <link href="https://blog.kianenigma.com/" />
-    <updated>2026-06-09T18:38:33Z</updated>
+    <updated>2026-06-09T18:41:30Z</updated>
     <id>https://blog.kianenigma.com/</id>
-        <entry>
-            <title>
-                Untitled
-                
-            </title>
-            <updated>2026-06-09T18:37:48.598Z</updated>
-            <id>https://blog.kianenigma.com//cv/</id>
-            <content type="html">
-                &lt;ul&gt;
-&lt;li&gt;Kian Paimani&lt;/li&gt;
-&lt;li&gt;Blockchain Systems Engineer/Lead&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;mailto:mail@kianenigma.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;mail@kianenigma.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.kianenigma.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;blog.kianenigma.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/kianenigma/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; / &lt;a href=&quot;https://x.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;X&lt;/a&gt; / &lt;a href=&quot;https://www.youtube.com/@kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Based in 🇵🇹 / Remote&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;professional-experience&quot; tabindex=&quot;-1&quot;&gt;PROFESSIONAL EXPERIENCE&lt;/h2&gt;
-&lt;h3 id=&quot;parity-technologies-2019-present&quot; tabindex=&quot;-1&quot;&gt;Parity Technologies (2019 - Present)&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Starting as a Rust developer in 2019 with little blockchain experience, I have worn multiple hats across the years, the highlights of which are as follows:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Implemented the majority of Polkadot&#39;s &lt;a href=&quot;https://wiki.polkadot.com/learn/learn-phragmen/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Nominated Proof of Stake&lt;/a&gt; protocol, requiring complex optimization algorithms to be verified onchain (&lt;a href=&quot;https://www.youtube.com/watch?v=_wjAYivFQBU&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;talk&lt;/a&gt;).
-&lt;ul&gt;
-&lt;li&gt;Polkadot maintains one of the highest Nakamoto Coefficients in the industry, with minimal stake variation among validators.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Led development of &lt;a href=&quot;https://polkadot.com/platform/sdk/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot&lt;/a&gt;&#39;s core technology framework, &lt;a href=&quot;https://docs.polkadot.com/develop/parachains/intro-polkadot-sdk/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Substrate Framework and FRAME&lt;/a&gt;, as team lead.
-&lt;ul&gt;
-&lt;li&gt;FRAME and Substrate power Polkadot and its entire ecosystem, along with independent blockchains (&lt;a href=&quot;https://github.com/midnightntwrk/midnight-node&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;https://github.com/opentensor/bittensor&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;2&lt;/a&gt;) that have adopted the same stack.&lt;/li&gt;
-&lt;li&gt;Polkadot developers using Substrate and FRAME ranked in the top 5 of the Electric Capital Developer Report between 2021 and 2024 (&lt;a href=&quot;https://www.developerreport.com/ecosystems/polkadot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;1&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Managed engineering teams of up to 10 people, both as an engineering manager and on a per-project basis.&lt;/li&gt;
-&lt;li&gt;Curriculum designer and &lt;a href=&quot;https://polkadot.academy/faculty/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Faculty member&lt;/a&gt; at the Polkadot Blockchain Academy.&lt;/li&gt;
-&lt;li&gt;Member of the &lt;a href=&quot;https://wiki.polkadot.com/learn/learn-polkadot-technical-fellowship/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot Technical Fellowship&lt;/a&gt; &lt;a href=&quot;https://collectives.subsquare.io/user/1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE/fellowship&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;DAO&lt;/a&gt;, with active involvement across the ecosystem.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Beyond software engineering, teaching and technology evangelization are my core passions. I actively pursue opportunities to educate and inspire through my YouTube channel and blog, and aspire to always benefit the company I am a part of with my communication and teaching.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;projects&quot; tabindex=&quot;-1&quot;&gt;PROJECTS&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Currently implementing the &lt;a href=&quot;https://graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;JAM protocol&lt;/a&gt; in &lt;a href=&quot;https://jamcha.in/clients&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Elixir&lt;/a&gt; as an independent venture in the Polkadot ecosystem.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;education&quot; tabindex=&quot;-1&quot;&gt;EDUCATION&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Master of Science&lt;/strong&gt; in Parallel and Distributed Computer Systems
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Vrije Universiteit Amsterdam&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Thesis: &lt;a href=&quot;https://github.com/kianenigma/SonicChain/blob/master/Thesis.pdf&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bachelor of Engineering&lt;/strong&gt; in Computer Engineering
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Iran University of Science and Technology&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Thesis: &lt;a href=&quot;https://www.sid.ir/paper/948184/en&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Node-XYZ: A Microservice Framework for Node.JS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;publications&quot; tabindex=&quot;-1&quot;&gt;PUBLICATIONS&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.kianenigma.com/what-blockchain-actually/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;What is a Blockchain, Actually?&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;The largest body of written text produced by me as a hobby project, aiming to address precisely &lt;em&gt;what&lt;/em&gt; blockchain-systems actually are, &lt;em&gt;what&lt;/em&gt; they can do, and &lt;em&gt;how&lt;/em&gt; a system with such abilities can be useful.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/7983055&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;From Machine Generated to Handwritten Character Recognition; a Deep Learning Approach&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;A research project on using deep neural networks for cursive languages such as Persian.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://leanpub.com/lazyprogrammersguidtoangular1x&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Lazy Programmer&#39;s Guide to Angular 1.x&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Authored as an early Angular adopter, documenting insights into the framework before React&#39;s dominance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;spoken-languages&quot; tabindex=&quot;-1&quot;&gt;SPOKEN LANGUAGES&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Persian (Native)&lt;/li&gt;
-&lt;li&gt;English (Fluent)&lt;/li&gt;
-&lt;li&gt;German / Portuguese (Basic)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;technical-skills&quot; tabindex=&quot;-1&quot;&gt;TECHNICAL SKILLS&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Extensive professional experience in &lt;strong&gt;Rust&lt;/strong&gt; and &lt;strong&gt;TypeScript&lt;/strong&gt;, with occasional use of &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;Solidity&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Deep expertise in blockchain &lt;strong&gt;consensus mechanisms&lt;/strong&gt;, &lt;strong&gt;distributed systems&lt;/strong&gt;, and &lt;strong&gt;State-Transition-Function&lt;/strong&gt; design.&lt;/li&gt;
-&lt;li&gt;Built and maintained blockchain development pipelines using Git, GitHub Actions, Docker, Grafana, and Prometheus for reliable deployment and monitoring.&lt;/li&gt;
-&lt;/ul&gt;
-
-            </content>
-            <link href="https://blog.kianenigma.com//cv/" />
-        </entry>
         <entry>
             <title>
                 Talks Index
@@ -6312,6 +6219,99 @@ someone who was doing something &amp;quot;&lt;em&gt;wrong in your opinion&lt;/em
 
             </content>
             <link href="https://blog.kianenigma.com//" />
+        </entry>
+        <entry>
+            <title>
+                Curriculum Vitae
+                
+            </title>
+            <updated>2026-06-09T18:37:48.598Z</updated>
+            <id>https://blog.kianenigma.com//cv/</id>
+            <content type="html">
+                &lt;ul&gt;
+&lt;li&gt;Kian Paimani&lt;/li&gt;
+&lt;li&gt;Blockchain Systems Engineer/Lead&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:mail@kianenigma.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;mail@kianenigma.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.kianenigma.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;blog.kianenigma.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kianenigma/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Github&lt;/a&gt; / &lt;a href=&quot;https://x.com/kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;X&lt;/a&gt; / &lt;a href=&quot;https://www.youtube.com/@kianenigma&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Based in 🇵🇹 / Remote&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;professional-experience&quot; tabindex=&quot;-1&quot;&gt;PROFESSIONAL EXPERIENCE&lt;/h2&gt;
+&lt;h3 id=&quot;parity-technologies-2019-present&quot; tabindex=&quot;-1&quot;&gt;Parity Technologies (2019 - Present)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Starting as a Rust developer in 2019 with little blockchain experience, I have worn multiple hats across the years, the highlights of which are as follows:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the majority of Polkadot&#39;s &lt;a href=&quot;https://wiki.polkadot.com/learn/learn-phragmen/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Nominated Proof of Stake&lt;/a&gt; protocol, requiring complex optimization algorithms to be verified onchain (&lt;a href=&quot;https://www.youtube.com/watch?v=_wjAYivFQBU&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;talk&lt;/a&gt;).
+&lt;ul&gt;
+&lt;li&gt;Polkadot maintains one of the highest Nakamoto Coefficients in the industry, with minimal stake variation among validators.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Led development of &lt;a href=&quot;https://polkadot.com/platform/sdk/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot&lt;/a&gt;&#39;s core technology framework, &lt;a href=&quot;https://docs.polkadot.com/develop/parachains/intro-polkadot-sdk/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Substrate Framework and FRAME&lt;/a&gt;, as team lead.
+&lt;ul&gt;
+&lt;li&gt;FRAME and Substrate power Polkadot and its entire ecosystem, along with independent blockchains (&lt;a href=&quot;https://github.com/midnightntwrk/midnight-node&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;https://github.com/opentensor/bittensor&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;2&lt;/a&gt;) that have adopted the same stack.&lt;/li&gt;
+&lt;li&gt;Polkadot developers using Substrate and FRAME ranked in the top 5 of the Electric Capital Developer Report between 2021 and 2024 (&lt;a href=&quot;https://www.developerreport.com/ecosystems/polkadot&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;1&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Managed engineering teams of up to 10 people, both as an engineering manager and on a per-project basis.&lt;/li&gt;
+&lt;li&gt;Curriculum designer and &lt;a href=&quot;https://polkadot.academy/faculty/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Faculty member&lt;/a&gt; at the Polkadot Blockchain Academy.&lt;/li&gt;
+&lt;li&gt;Member of the &lt;a href=&quot;https://wiki.polkadot.com/learn/learn-polkadot-technical-fellowship/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Polkadot Technical Fellowship&lt;/a&gt; &lt;a href=&quot;https://collectives.subsquare.io/user/1eTPAR2TuqLyidmPT9rMmuycHVm9s9czu78sePqg2KHMDrE/fellowship&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;DAO&lt;/a&gt;, with active involvement across the ecosystem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Beyond software engineering, teaching and technology evangelization are my core passions. I actively pursue opportunities to educate and inspire through my YouTube channel and blog, and aspire to always benefit the company I am a part of with my communication and teaching.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;projects&quot; tabindex=&quot;-1&quot;&gt;PROJECTS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Currently implementing the &lt;a href=&quot;https://graypaper.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;JAM protocol&lt;/a&gt; in &lt;a href=&quot;https://jamcha.in/clients&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Elixir&lt;/a&gt; as an independent venture in the Polkadot ecosystem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;education&quot; tabindex=&quot;-1&quot;&gt;EDUCATION&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Master of Science&lt;/strong&gt; in Parallel and Distributed Computer Systems
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Vrije Universiteit Amsterdam&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Thesis: &lt;a href=&quot;https://github.com/kianenigma/SonicChain/blob/master/Thesis.pdf&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;SonicChain: A wait-free, pseudo-static approach toward concurrency in blockchain runtimes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bachelor of Engineering&lt;/strong&gt; in Computer Engineering
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Iran University of Science and Technology&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Thesis: &lt;a href=&quot;https://www.sid.ir/paper/948184/en&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Node-XYZ: A Microservice Framework for Node.JS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;publications&quot; tabindex=&quot;-1&quot;&gt;PUBLICATIONS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.kianenigma.com/what-blockchain-actually/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;What is a Blockchain, Actually?&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;The largest body of written text produced by me as a hobby project, aiming to address precisely &lt;em&gt;what&lt;/em&gt; blockchain-systems actually are, &lt;em&gt;what&lt;/em&gt; they can do, and &lt;em&gt;how&lt;/em&gt; a system with such abilities can be useful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/7983055&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;From Machine Generated to Handwritten Character Recognition; a Deep Learning Approach&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;A research project on using deep neural networks for cursive languages such as Persian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://leanpub.com/lazyprogrammersguidtoangular1x&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Lazy Programmer&#39;s Guide to Angular 1.x&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Authored as an early Angular adopter, documenting insights into the framework before React&#39;s dominance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;spoken-languages&quot; tabindex=&quot;-1&quot;&gt;SPOKEN LANGUAGES&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Persian (Native)&lt;/li&gt;
+&lt;li&gt;English (Fluent)&lt;/li&gt;
+&lt;li&gt;German / Portuguese (Basic)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;technical-skills&quot; tabindex=&quot;-1&quot;&gt;TECHNICAL SKILLS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extensive professional experience in &lt;strong&gt;Rust&lt;/strong&gt; and &lt;strong&gt;TypeScript&lt;/strong&gt;, with occasional use of &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;Solidity&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Deep expertise in blockchain &lt;strong&gt;consensus mechanisms&lt;/strong&gt;, &lt;strong&gt;distributed systems&lt;/strong&gt;, and &lt;strong&gt;State-Transition-Function&lt;/strong&gt; design.&lt;/li&gt;
+&lt;li&gt;Built and maintained blockchain development pipelines using Git, GitHub Actions, Docker, Grafana, and Prometheus for reliable deployment and monitoring.&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://blog.kianenigma.com//cv/" />
         </entry>
         <entry>
             <title>
