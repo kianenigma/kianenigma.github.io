@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ meta.mainLanguage }}">
+<html lang="{{ meta.mainLanguage }}" style="color-scheme: only {{ meta.baseTheme }}">
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
+    {% set slotName = "common.head" %}{% include "components/pluginSlot.njk" %}
+    {% set slotName = "index.head" %}{% include "components/pluginSlot.njk" %}
     {% for imp in dynamics.common.head %}
       {% include imp %}
     {% endfor %}
@@ -12,18 +14,13 @@
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {% if settings.dgShowFileTree !== true %}no-filetree{% endif %} {% if settings.dgHomeLink === true and settings.dgShowFileTree !== true %}has-navbar{% endif %} {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
-    {% if settings.dgShowFileTree !== true %}
-      {%include "components/navbar.njk"%}
-    {%else%}
-      {%include "components/filetree.njk"%}
-    {% endif %}
-    {% if settings.dgEnableSearch === true %}
-      {%include "components/searchContainer.njk"%}
-    {% endif %}
-    <main class="content cm-s-obsidian {{contentClasses}}">
+    {% set regionName = "navigation" %}
+    {% set regionFallback = "components/navbar.njk" %}
+    {% include "components/pluginRegion.njk" %}
+    <main class="content cm-s-obsidian print {{contentClasses}}">
       <header>
       {% if settings.dgShowInlineTitle === true %}
-        <h1>{{ noteTitle  }}</h1>
+        <h1>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
       {% endif %}
 
       <div class="header-meta">
@@ -31,7 +28,7 @@
           <div class="header-tags">
             {% for tag in tags %}
               {% if tag != 'gardenEntry' and tag !='note' %}
-                <a class="tag" onclick="toggleTagSearch(this)">
+                <a class="tag">
                   #{{tag}}
                 </a>
               {% endif %}
@@ -39,6 +36,8 @@
           </div>
         {% endif %}
       </div>
+      {% set slotName = "common.header" %}{% include "components/pluginSlot.njk" %}
+      {% set slotName = "index.header" %}{% include "components/pluginSlot.njk" %}
       {% for imp in dynamics.common.header %}
         {% include imp %}
       {% endfor %}
@@ -46,13 +45,17 @@
         {% include imp %}
       {% endfor %}
       </header>
+      {% set slotName = "common.beforeContent" %}{% include "components/pluginSlot.njk" %}
+      {% set slotName = "index.beforeContent" %}{% include "components/pluginSlot.njk" %}
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
       {% endfor %}
       {% for imp in dynamics.index.beforeContent %}
         {% include imp %}
       {% endfor %}
-      {{ content | hideDataview | taggify | link | safe}}
+      {{ content | hideDataview | taggify | link | resolveMdLinks | safe}}
+      {% set slotName = "common.afterContent" %}{% include "components/pluginSlot.njk" %}
+      {% set slotName = "index.afterContent" %}{% include "components/pluginSlot.njk" %}
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
@@ -61,14 +64,13 @@
       {% endfor %}
     </main>
 
-    {# no sidebar in index, fix manually in future upgrades. #}
-    {# {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true or dynamics.sidebar.top.length > 0 or dynamics.sidebar.bottom.length > 0 or plugins.slots["sidebar.top"] or plugins.slots["sidebar.bottom"] %}
       {%include "components/sidebar.njk" %}
-    {%endif%} #}
+    {%endif%}
+    {% include "components/floatingActions.njk" %}
 
-    {% if settings.dgLinkPreview === true %}
-      {%include "components/linkPreview.njk"%}
-    {% endif %}
+    {% set slotName = "common.footer" %}{% include "components/pluginSlot.njk" %}
+    {% set slotName = "index.footer" %}{% include "components/pluginSlot.njk" %}
     {% for imp in dynamics.common.footer %}
       {% include imp %}
     {% endfor %}
@@ -76,5 +78,7 @@
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+    {%include "components/basesScript.njk"%}
+    {%include "components/excalidrawScript.njk"%}
     </body>
   </html>
