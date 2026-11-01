@@ -1,7 +1,15 @@
 require("dotenv").config();
 const settings = require("../../helpers/constants");
+const { pickNoteMetadata } = require("../../helpers/bases-engine/noteMetadata");
+const pluginLoader = require("../../helpers/pluginLoader");
 
-const allSettings = settings.ALL_NOTE_SETTINGS;
+// Core note settings plus any per-note flags declared by enabled plugins
+// (manifest "noteSettings"). Same resolution for both: per-note frontmatter
+// wins, the env var of the same name is the global default.
+const allSettings = [
+  ...settings.ALL_NOTE_SETTINGS,
+  ...pluginLoader.getNoteSettingKeys(),
+];
 
 module.exports = {
   eleventyComputed: {
@@ -16,6 +24,15 @@ module.exports = {
         return "/";
       }
       return data.permalink || undefined;
+    },
+    basesNotes: (data) => {
+      if (!data.collections || !data.collections.note) return [];
+      return data.collections.note.map((item) => ({
+        path: item.filePathStem.replace("/notes/", ""),
+        url: item.url,
+        metadata: pickNoteMetadata(item.data),
+        fileSlug: item.fileSlug,
+      }));
     },
     settings: (data) => {
       const noteSettings = {};

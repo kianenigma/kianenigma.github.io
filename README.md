@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/digital-garden-dark.svg">
+    <img src="img/digital-garden.svg" alt="Digital Garden logo" width="128" height="128">
+  </picture>
+</p>
+
 # Digital Obsidian Garden
 This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden).
 See the README in the plugin repo for information on how to set it up.
@@ -6,7 +13,35 @@ See the README in the plugin repo for information on how to set it up.
 
 ---
 ## Docs
-Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
+Docs are available at [docs.forestry.md](https://docs.forestry.md/)
+
+---
+## Plugins
+
+The garden is extensible through plugins: directories under `src/plugins/`
+that add markup to layout slots, site-wide styles and scripts, and
+build-time Eleventy/markdown-it hooks. Core features like search
+(`dg-search`), link previews (`dg-link-preview`), timestamps
+(`dg-timestamps`), and math (`dg-math`) are themselves plugins built on
+this API — `dg-link-preview` is the smallest one to read first.
+
+- Docs (installing plugins, writing your own): [docs.forestry.md](https://docs.forestry.md/)
+- Reference code: the first-party plugins under [`src/plugins/`](src/plugins/)
+- Building plugins with an AI agent: this repo ships a
+  [`garden-plugin-author` skill](skills/garden-plugin-author/SKILL.md) in
+  the open [Agent Skills](https://skills.sh) format, teaching agents how
+  to create, test, and publish garden plugins. Install it into any
+  harness (Claude Code, Cursor, Codex, …) with:
+
+  ```sh
+  npx skills add oleeskild/digitalgarden
+  ```
+
+To try a third-party plugin manually, drop its directory into
+`src/plugins/` — a valid `garden-plugin.json` is all it takes. Disable any
+plugin via `src/plugins/plugins.json` (`{"plugins": {"dg-search": {"enabled": false}}}`).
+Only install plugins from authors you trust: plugin code runs in your site
+build and in your visitors' browsers.
 
 ---
 ## CSS Variables
@@ -81,12 +116,17 @@ You can override the base Obsidian theme color variables directly:
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `--dg-graph-width` | `250px` | Graph component width |
-| `--dg-graph-height` | `250px` | Graph component height |
+| `--dg-graph-width` | `250px` | Local graph width |
+| `--dg-graph-height` | `250px` | Local graph height |
 | `--dg-graph-border-radius` | `10px` | Graph border radius |
 | `--dg-graph-margin-bottom` | `20px` | Graph bottom margin |
-| `--dg-graph-fullscreen-width` | `600px` | Fullscreen graph width |
-| `--dg-graph-fullscreen-height` | `600px` | Fullscreen graph height |
+| `--dg-graph-fullscreen-width` | `90vw` | Expanded/global graph width |
+| `--dg-graph-fullscreen-height` | `85vh` | Expanded/global graph height |
+| `--dg-graph-node-color` | `var(--text-accent)` | Active/current node color |
+| `--dg-graph-node-color-muted` | `var(--text-faint)` | Neighbor node color |
+| `--dg-graph-label-color` | `var(--text-normal)` | Node label text color |
+| `--dg-graph-bg` | `var(--background-primary)` | Graph background color |
+| `--dg-graph-border-color` | `var(--background-secondary)` | Graph border color |
 
 #### Filetree (Left Sidebar) Variables
 
@@ -157,6 +197,7 @@ You can override the base Obsidian theme color variables directly:
 | `--dg-logo-height` | `40px` | Site logo height on desktop |
 | `--dg-logo-height-mobile` | `32px` | Site logo height on mobile |
 | `--dg-logo-margin` | `10px 15px` | Site logo margin |
+| `--dg-filetree-logo-height` | `70px` | Site logo height in filetree sidebar |
 
 #### Note Link / Filetree Item Variables
 
@@ -182,8 +223,6 @@ You can override the base Obsidian theme color variables directly:
 | `--dg-graph-ctrl-size` | `0.7rem` | Graph controls font size |
 | `--dg-graph-ctrl-icon-size` | `14px` | Graph control icon size |
 | `--dg-graph-ctrl-gap` | `10px` | Graph controls gap |
-| `--dg-depth-slider-width` | `50px` | Depth slider width |
-| `--dg-depth-display-size` | `1.1rem` | Depth display size |
 
 #### Timestamps Variables
 

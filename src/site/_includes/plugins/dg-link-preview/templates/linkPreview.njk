@@ -1,0 +1,251 @@
+{% if settings.dgLinkPreview === true %}
+<!-- Credit for the link preview implementation goes to https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_includes/link-previews.html -->
+<style>
+#tooltip-wrapper {
+  background: var(--background-primary);
+  padding: 1em;
+  border-radius: 4px;
+  overflow: hidden;
+  position: fixed;
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  max-height: 300px;
+  font-size: 0.8em;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  opacity: 0;
+  transition: opacity 100ms;
+  unicode-bidi: plaintext;
+  overflow-y: scroll;
+  /* Above the file tree (10) and the right sidebar (11) */
+  z-index: 1000;
+}
+
+#tooltip-wrapper:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  unicode-bidi: plaintext;
+  height: 75px;
+}
+
+.tooltip-pdf {
+  width: 100%;
+  height: 260px;
+  border: 0;
+}
+</style>
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+  // Long enough to move the pointer across the gap from the link into the tooltip
+  var hideDelayMs = 300;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  var linkHistories = {};
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function () {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function () {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, hideDelayMs)
+  }
+
+  // Pointer position when the link was entered; the tooltip opens under it
+  var pointerX = null;
+  var pointerY = null;
+
+  function positionTooltip(elem) {
+    var rects = elem.getClientRects();
+    var elem_props = rects[rects.length - 1];
+    // For links that wrap over several lines, anchor to the line under the pointer
+    if (pointerY !== null) {
+      for (var i = 0; i < rects.length; i++) {
+        if (pointerY >= rects[i].top && pointerY <= rects[i].bottom) {
+          elem_props = rects[i];
+          break;
+        }
+      }
+    }
+    var viewportWidth = document.documentElement.clientWidth;
+    var viewportHeight = window.innerHeight;
+    var edgePadding = 10;
+    // Keep the pointer inside the tooltip's horizontal span, a little in from its left edge
+    var pointerInset = 24;
+    // Overlap the link by a pixel so subpixel rounding never leaves a gap
+    var overlap = 1;
+    var tooltipHeight = tooltipWrapper.getBoundingClientRect().height;
+
+    // Open flush against the link, directly below (or above) the pointer, so
+    // moving the mouse straight down/up enters the tooltip without crossing a gap.
+    var spaceBelow = viewportHeight - elem_props.bottom;
+    if (spaceBelow >= tooltipHeight + edgePadding || spaceBelow >= elem_props.top) {
+      tooltipWrapper.style.top = (elem_props.bottom - overlap) + "px";
+    } else {
+      tooltipWrapper.style.top = Math.max(edgePadding, elem_props.top - tooltipHeight + overlap) + "px";
+    }
+
+    var anchorX = pointerX !== null ? pointerX : elem_props.left;
+    var left = anchorX - pointerInset;
+    var maxLeft = viewportWidth - tooltipWrapper.offsetWidth - edgePadding;
+    tooltipWrapper.style.left = Math.max(edgePadding, Math.min(left, maxLeft)) + "px";
+  }
+
+  function showTooltip(event) {
+    var elem = event.currentTarget || event.target;
+    if (!elem) return;
+    if (typeof event.clientX === 'number') {
+      pointerX = event.clientX;
+      pointerY = event.clientY;
+    }
+    var url = elem.getAttribute("href");
+    if (url.indexOf("http") === -1 || url.indexOf(window.location.host) !== -1) {
+      tooltipWrapper.style.display = 'block';
+      tooltipWrapper.style.opacity = 0;
+      positionTooltip(elem);
+
+      let contentURL = url.split('#')[0]
+      if (contentURL.toLowerCase().endsWith(".pdf")) {
+        tooltipContent.innerHTML = '<iframe class="tooltip-pdf" src="' + contentURL + '"></iframe>'
+        tooltipWrapper.scrollTop = 0;
+        setTimeout(function () {
+          positionTooltip(elem);
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+        return;
+      }
+      if (/\.(png|jpg|jpeg|gif|webp|svg)$/i.test(contentURL)) {
+        tooltipContent.innerHTML = '<img src="' + contentURL + '" style="max-width:100%;height:auto;" />'
+        tooltipWrapper.scrollTop = 0;
+        setTimeout(function () {
+          positionTooltip(elem);
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+        return;
+      }
+      if (!linkHistories[contentURL]) {
+        iframe.src = contentURL
+        iframe.onload = function () {
+          let iframeWindow;
+          let iframeDoc;
+          try {
+            iframeWindow = iframe.contentWindow;
+            iframeDoc = iframeWindow ? iframeWindow.document : null;
+          } catch (e) {
+            tooltipContent.innerHTML = '<div>Preview not available for this file.</div>';
+            tooltipWrapper.scrollTop = 0;
+            setTimeout(function () {
+              positionTooltip(elem);
+              tooltipWrapper.style.opacity = 1;
+            }, 1)
+            return;
+          }
+          if (!iframeDoc) {
+            return;
+          }
+
+          const titleEl = iframeDoc.querySelector('h1');
+          const contentEl = iframeDoc.querySelector('.content');
+
+          tooltipContentHtml = ''
+          if (titleEl) {
+            tooltipContentHtml += '<div style="font-weight: bold; unicode-bidi: plaintext;">' + titleEl.innerHTML + '</div>'
+          }
+          if (contentEl) {
+            tooltipContentHtml += contentEl.innerHTML
+          } else if (iframeDoc.body) {
+            tooltipContentHtml += iframeDoc.body.innerHTML
+          } else if (iframeDoc.documentElement) {
+            tooltipContentHtml += iframeDoc.documentElement.innerHTML
+          } else {
+            return;
+          }
+          tooltipContent.innerHTML = tooltipContentHtml
+          linkHistories[contentURL] = tooltipContentHtml
+          tooltipWrapper.scrollTop = 0;
+          setTimeout(function () {
+            positionTooltip(elem);
+            tooltipWrapper.style.opacity = 1;
+            if (url.indexOf("#") != -1) {
+              let id = url.split('#')[1];
+              const focus = tooltipWrapper.querySelector(`[id='${id}']`);
+              focus.classList.add('referred');
+              console.log(focus);
+              focus.scrollIntoView({behavior: 'smooth'}, true)
+            } else {
+              tooltipWrapper.scroll(0, 0);
+            }
+          }, 1)
+        }
+      } else {
+        tooltipContent.innerHTML = linkHistories[contentURL]
+        setTimeout(function () {
+          positionTooltip(elem);
+          tooltipWrapper.style.opacity = 1;
+          if (url.indexOf("#") != -1) {
+              let id = url.split('#')[1];
+              const focus = tooltipWrapper.querySelector(`[id='${id}']`);
+              focus.classList.add('referred');
+              focus.scrollIntoView({behavior: 'smooth'}, true)
+          } else {
+              tooltipWrapper.scroll(0, 0);
+          }
+        }, 1)
+      }
+
+      function getInnerWidth(elem) {
+        var style = window.getComputedStyle(elem);
+        return elem.offsetWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight) - parseFloat(style.borderLeft) - parseFloat(style.borderRight) - parseFloat(style.marginLeft) - parseFloat(style.marginRight);
+      }
+
+      positionTooltip(elem);
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function (_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function (_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  window.addEventListener("load", function(event) 
+  {
+    document.querySelectorAll('.internal-link').forEach(setupListeners);
+    document.querySelectorAll('.backlink-card a').forEach(setupListeners);
+  });
+</script>
+{% endif %}
