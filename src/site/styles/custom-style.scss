@@ -236,3 +236,16 @@ body .notelink.active-note {
 		}
 	}
 }
+
+// Homepage only: hide the page title + created/updated dates, and the right
+// sidebar (plus the buttons that open it on narrower screens).
+.content.homepage > header {
+	display: none;
+}
+
+body:has(.content.homepage) {
+	.sidebar,
+	.page-panel-toggle {
+		display: none !important;
+	}
+}
